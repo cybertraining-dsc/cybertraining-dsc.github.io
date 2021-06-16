@@ -1,6 +1,6 @@
 ---
 title: AI In Banking
-tags: ["application", "banking"]
+tags: ["application", "commerce"]
 draft: false
 weight: 9
 description: >
