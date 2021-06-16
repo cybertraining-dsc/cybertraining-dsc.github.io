@@ -1,0 +1,296 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – cloudmesh</title><link>/tags/cloudmesh/</link><description>Recent content in cloudmesh on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 07 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/cloudmesh/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Autogenerating Analytics Rest Services</title><link>/docs/modules/cloudmesh-rest/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/cloudmesh-rest/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>On this page, we will deploy a Pipeline Anova SVM onto our openapi server, and subsequently train the model
+with data and make predictions from said data. All code needed for this is provided in the &lt;a href="https://github.com/cloudmesh/cloudmesh-openapi">cloudmesh-openapi&lt;/a> repository. The code is largely based on this &lt;a href="https://scikit-learn.org/stable/auto_examples/feature_selection/plot_feature_selection_pipeline.html">sklearn example&lt;/a>.&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-overview">1. Overview&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#11-prerequisite">1.1 Prerequisite&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#12-effort">1.2 Effort&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#13-list-of-topics-covered">1.3 List of Topics Covered&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#14-syntax-of-this-tutorial">1.4 Syntax of this Tutorial.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#2-creating-a-virtual-environment">2. Creating a virtual environment&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-the-python-code">3. The Python Code&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-generating-the-openapi-yaml-file">4. Generating the OpenAPI YAML file&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-the-openapi-yaml-file-optional">5. The OpenAPI YAML File (optional)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-starting-the-server">6. Starting the Server&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-interacting-with-the-endpoints">7. Interacting With the Endpoints&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#71-uploading-the-dataset">7.1 Uploading the Dataset&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#72-training-on-the-dataset">7.2 Training on the Dataset&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#73-making-predictions">7.3 Making Predictions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#8-clean-up-optional">8. Clean Up (optional)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-uninstallation-optional">9. Uninstallation (Optional)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#10-assignments">10. Assignments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#11-references">11. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="1-overview">1. Overview&lt;/h2>
+&lt;h3 id="11-prerequisite">1.1 Prerequisite&lt;/h3>
+&lt;p>It is also assumed that the user has installed and has familiarity with the following:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>python3 --version&lt;/code> &amp;gt;= 3.8&lt;/li>
+&lt;li>Linux Command line&lt;/li>
+&lt;/ul>
+&lt;h3 id="12-effort">1.2 Effort&lt;/h3>
+&lt;ul>
+&lt;li>15 minutes (not including assignment)&lt;/li>
+&lt;/ul>
+&lt;h3 id="13-list-of-topics-covered">1.3 List of Topics Covered&lt;/h3>
+&lt;p>In this module, we focus on the following:&lt;/p>
+&lt;ul>
+&lt;li>Training ML models with stateless requests&lt;/li>
+&lt;li>Generating RESTful APIs using &lt;code>cms openapi&lt;/code> for existing python code&lt;/li>
+&lt;li>Deploying openapi definitions onto a localserver&lt;/li>
+&lt;li>Interacting with newly created openapi services&lt;/li>
+&lt;/ul>
+&lt;h3 id="14-syntax-of-this-tutorial">1.4 Syntax of this Tutorial.&lt;/h3>
+&lt;p>We describe the syntax for terminal commands used in this tutorial
+using the following example:&lt;/p>
+&lt;pre>&lt;code>(TESTENV) ~ $ echo &amp;quot;hello&amp;quot;
+&lt;/code>&lt;/pre>&lt;p>Here, we are in the python virtual environment &lt;code>(TESTENV)&lt;/code> in the home directory &lt;code>~&lt;/code>. The &lt;code>$&lt;/code> symbol denotes the beginning of the terminal command (ie. &lt;code>echo &amp;quot;hello&amp;quot;&lt;/code>). When copying and pasting commands, do not include &lt;code>$&lt;/code> or anything before it.&lt;/p>
+&lt;h2 id="2-creating-a-virtual-environment">2. Creating a virtual environment&lt;/h2>
+&lt;p>It is best practice to create virtual environments when you do not envision needing a python package consistently. We also want to place all source code in a common directory called cm. Let us set up this create one for this tutorial.&lt;/p>
+&lt;p>On your Linux/Mac, open a new terminal.&lt;/p>
+&lt;pre>&lt;code>~ $ python3 -m venv ~/ENV3
+&lt;/code>&lt;/pre>&lt;p>The above will create a new python virtual environment. Activate it with the following.&lt;/p>
+&lt;pre>&lt;code>~ $ source ~/ENV3/bin/activate
+&lt;/code>&lt;/pre>&lt;p>First, we update pip and verify your python and pip are correct&lt;/p>
+&lt;pre>&lt;code>(ENV3) ~ $ which python
+/Users/user/ENV3/bin/python
+(ENV3) ~ $ which pip
+/Users/user/ENV3/bin/pip
+(ENV3) ~ $ pip install -U pip
+&lt;/code>&lt;/pre>&lt;p>Now we can use &lt;code>cloudmesh-installer&lt;/code> to install the code in developer mode. This gives you access to the source code.&lt;/p>
+&lt;p>First, create a new directory for the cloudmesh code.&lt;/p>
+&lt;pre>&lt;code>(ENV3) ~ $ mkdir ~/cm
+(ENV3) ~ $ cd ~/cm
+&lt;/code>&lt;/pre>&lt;p>Next, we install &lt;code>cloudmesh-installer&lt;/code> and use it to install cloudmesh openapi.&lt;/p>
+&lt;pre>&lt;code>(ENV3) ~/cm $ pip install -U pip
+(ENV3) ~/cm $ pip install cloudmesh-installer
+(ENV3) ~/cm $ cloudmesh-installer get openapi
+&lt;/code>&lt;/pre>&lt;p>Finally, for this tutorial, we use &lt;code>sklearn&lt;/code>. Install the needed packages as follows:&lt;/p>
+&lt;pre>&lt;code>(ENV3) ~/cm $ pip install sklearn pandas
+&lt;/code>&lt;/pre>&lt;h2 id="3-the-python-code">3. The Python Code&lt;/h2>
+&lt;p>Let&amp;rsquo;s take a look at the python code we would like to make a REST service from. First, let&amp;rsquo;s navigate to the local openapi repository that was installed with &lt;code>cloudmesh-installer&lt;/code>.&lt;/p>
+&lt;pre>&lt;code>(ENV3) ~/cm $ cd cloudmesh-openapi
+(ENV3) ~/cm/cloudmesh-openapi $ pwd
+/Users/user/cm/cloudmesh-openapi
+&lt;/code>&lt;/pre>&lt;p>Let us take a look at the PipelineAnova SVM example code.&lt;/p>
+&lt;p>A
+&lt;a href="https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html">Pipeline&lt;/a>
+is a &lt;em>pipeline&lt;/em> of transformations to apply with a final
+estimator. Analysis of variance
+(&lt;a href="https://en.wikipedia.org/wiki/Analysis_of_variance">ANOVA&lt;/a>) is used
+for feature selection. A Support vector machine
+&lt;a href="https://en.wikipedia.org/wiki/Support_vector_machine">SVM&lt;/a> is used as
+the actual learning model on the features.&lt;/p>
+&lt;p>Use your favorite editor to look at it (whether it be vscode, vim,
+nano, etc). We will use emacs&lt;/p>
+&lt;pre>&lt;code>(ENV3) ~/cm/cloudmesh-openapi $ emacs ./tests/Scikitlearn-experimental/sklearn_svm.py
+&lt;/code>&lt;/pre>&lt;p>The class within this file has two main methods to interact with (except for the file upload capability which is added at runtime)&lt;/p>
+&lt;pre>&lt;code>@classmethod
+def train(cls, filename: str) -&amp;gt; str:
+&amp;quot;&amp;quot;&amp;quot;
+Given the filename of an uploaded file, train a PipelineAnovaSVM
+model from the data. Assumption of data is the classifications
+are in the last column of the data.
+Returns the classification report of the test split
+&amp;quot;&amp;quot;&amp;quot;
+# some code...
+@classmethod
+def make_prediction(cls, model_name: str, params: str):
+&amp;quot;&amp;quot;&amp;quot;
+Make a prediction based on training configuration
+&amp;quot;&amp;quot;&amp;quot;
+# some code...
+&lt;/code>&lt;/pre>&lt;p>Note the parameters that each of these methods takes in. These parameters are expected as part of the stateless request for each method.&lt;/p>
+&lt;h2 id="4-generating-the-openapi-yaml-file">4. Generating the OpenAPI YAML file&lt;/h2>
+&lt;p>Let us now use the python code from above to create the openapi YAML file that we will deploy onto our server. To correctly generate this file, use the following command:&lt;/p>
+&lt;pre>&lt;code>(ENV3) ~/cm/cloudmesh-openapi $ cms openapi generate PipelineAnovaSVM \
+--filename=./tests/Scikitlearn-experimental/sklearn_svm.py \
+--import_class \
+--enable_upload
+&lt;/code>&lt;/pre>&lt;p>Let us digest the options we have specified:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>--filename&lt;/code> indicates the path to the python file in which our code is located&lt;/li>
+&lt;li>&lt;code>--import_class&lt;/code> notifies &lt;code>cms openapi&lt;/code> that the YAML file is generated
+from a class. The name of this class is specified as &lt;code>PipelineAnovaSVM&lt;/code>&lt;/li>
+&lt;li>&lt;code>--enable_upload&lt;/code> allows the user to upload files to be stored on the server for reference. This flag causes &lt;code>cms openapi&lt;/code> to auto-generate a new python file with the &lt;code>upload&lt;/code> method appended to the end of
+the file. For this example, you will notice a new file has been added in the same directory as &lt;code>sklearn_svm.py&lt;/code>. The file is aptly called: &lt;code>sklearn_svm_upload-enabled.py&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h2 id="5-the-openapi-yaml-file-optional">5. The OpenAPI YAML File (optional)&lt;/h2>
+&lt;p>If Section 2 above was correctly, cms will have generated the corresponding openapi YAML file. Let us take a look at it.&lt;/p>
+&lt;pre>&lt;code>(ENV3) ~/cm/cloudmesh-openapi $ emacs ./tests/Scikitlearn-experimental/sklearn_svm.yaml
+&lt;/code>&lt;/pre>&lt;p>This YAML file has a lot of information to digest. The basic structure is documented &lt;a href="https://swagger.io/docs/specification/basic-structure/">here&lt;/a>. However, it is not necessary to understand this information to deploy RESTful APIs.&lt;/p>
+&lt;p>However, take a look at &lt;code>paths:&lt;/code> on line 9 in this file. Under this section, we have several different endpoints for our API listed. Notice the correlation between the endpoints and the python file we generated from.&lt;/p>
+&lt;h2 id="6-starting-the-server">6. Starting the Server&lt;/h2>
+&lt;p>Using the YAML file from Section 2, we can now start the server.&lt;/p>
+&lt;pre>&lt;code>(ENV3) ~/cm/cloudmesh-openapi $ cms openapi server start ./tests/Scikitlearn-experimental/sklearn_svm.yaml
+&lt;/code>&lt;/pre>&lt;p>The server should now be active. Navigate to &lt;a href="http://localhost:8080/cloudmesh/ui">http://localhost:8080/cloudmesh/ui&lt;/a>.&lt;/p>
+&lt;p>&lt;img src="cloudmesh_ui.png" alt="Unavailable">&lt;/p>
+&lt;h2 id="7-interacting-with-the-endpoints">7. Interacting With the Endpoints&lt;/h2>
+&lt;h3 id="71-uploading-the-dataset">7.1 Uploading the Dataset&lt;/h3>
+&lt;p>We now have a nice user inteface to interact with our newly generated
+API. Let us upload the data set. We are going to use the iris data set in this example. We have provided it for you to use. Simply navigate to the &lt;code>/upload&lt;/code> endpoint by clicking on it, then click Try it out.&lt;/p>
+&lt;p>We can now upload the file. Click on Choose File and upload the data set located at &lt;code>~/cm/cloudmesh-openapi/tests/Scikitlearn-experimental/iris.data&lt;/code>. Simply hit Execute after the file is uploaded. We should then get a &lt;code>200&lt;/code> return code (telling us that everything went ok).&lt;/p>
+&lt;p>&lt;img src="upload_endpoint.png" alt="Unavaialable">&lt;/p>
+&lt;h3 id="72-training-on-the-dataset">7.2 Training on the Dataset&lt;/h3>
+&lt;p>The server now has our dataset. Let us now navigate to the &lt;code>/train&lt;/code> endpoint by, again, clicking on it. Similarly, click &lt;code>Try it out&lt;/code>. The parameter being asked for is the filename. The filename we are interested in is &lt;code>iris.data&lt;/code>. Then click execute. We should get another &lt;code>200&lt;/code> return code with a Classification Report in the Response Body.&lt;/p>
+&lt;p>&lt;img src="train_endpoint.png" alt="Unavailable">&lt;/p>
+&lt;h3 id="73-making-predictions">7.3 Making Predictions&lt;/h3>
+&lt;p>We now have a trained model on the iris data set. Let us now use it to make predictions. The model expects 4 attribute values: sepal length, seapl width, petal length, and petal width. Let us use the values &lt;code>5.1, 3.5, 1.4, 0.2&lt;/code> as our attributes. The expected classification is &lt;code>Iris-setosa&lt;/code>.&lt;/p>
+&lt;p>Navigate to the &lt;code>/make_prediction&lt;/code> endpoint as we have with other endpoints. Again, let us &lt;code>Try it out&lt;/code>. We need to provide the name of the model and the params (attribute values). For the model name, our model is aptly called &lt;code>iris&lt;/code> (based on the name of the data set).&lt;/p>
+&lt;p>&lt;img src="make_prediction_endpoint.png" alt="Unavailable">&lt;/p>
+&lt;p>As expected, we have a classification of &lt;code>Iris-setosa&lt;/code>.&lt;/p>
+&lt;h2 id="8-clean-up-optional">8. Clean Up (optional)&lt;/h2>
+&lt;p>At this point, we have created and trained a model using &lt;code>cms openapi&lt;/code>. After satisfactory use, we can shut down the server. Let us check what we have running.&lt;/p>
+&lt;pre>&lt;code>(ENV3) ~/cm/cloudmesh-openapi $ cms openapi server ps
+openapi server ps
+INFO: Running Cloudmesh OpenAPI Servers
++-------------+-------+--------------------------------------------------+
+| name | pid | spec |
++-------------+-------+--------------------------------------------------+
+| sklearn_svm | 94428 | ./tests/Scikitlearn- |
+| | | experimental/sklearn_svm.yaml |
++-------------+-------+--------------------------------------------------+
+&lt;/code>&lt;/pre>&lt;p>We can stop the server with the following command:&lt;/p>
+&lt;pre>&lt;code>(ENV3) ~/cm/cloudmesh-openapi $ cms openapi server stop sklearn_svm
+&lt;/code>&lt;/pre>&lt;p>We can verify the server is shut down by running the &lt;code>ps&lt;/code> command again.&lt;/p>
+&lt;pre>&lt;code>(ENV3) ~/cm/cloudmesh-openapi $ cms openapi server ps
+openapi server ps
+INFO: Running Cloudmesh OpenAPI Servers
+None
+&lt;/code>&lt;/pre>&lt;h2 id="9-uninstallation-optional">9. Uninstallation (Optional)&lt;/h2>
+&lt;p>After running this tutorial, you may uninstall all cloudmesh-related things as follows:&lt;/p>
+&lt;p>First, deactivate the virtual environment.&lt;/p>
+&lt;pre>&lt;code>(ENV3) ~/cm/cloudmesh-openapi $ deactivate
+~/cm/cloudmesh-openapi $ cd ~
+&lt;/code>&lt;/pre>&lt;p>Then, we remove the &lt;code>~/cm&lt;/code> directory.&lt;/p>
+&lt;pre>&lt;code>~ $ rm -r -f ~/cm
+&lt;/code>&lt;/pre>&lt;p>We also remove the cloudmesh hidden files:&lt;/p>
+&lt;pre>&lt;code>~ $ rm -r -f ~/.cloudmesh
+&lt;/code>&lt;/pre>&lt;p>Lastly, we delete our virtual environment.&lt;/p>
+&lt;pre>&lt;code>~ $ rm -r -f ~/ENV3
+&lt;/code>&lt;/pre>&lt;p>Cloudmesh is now succesfully uninstalled.&lt;/p>
+&lt;h2 id="10-assignments">10. Assignments&lt;/h2>
+&lt;p>Many ML models follow the same basic process for training and testing:&lt;/p>
+&lt;ol>
+&lt;li>Upload Training Data&lt;/li>
+&lt;li>Train the model&lt;/li>
+&lt;li>Test the model&lt;/li>
+&lt;/ol>
+&lt;p>Using the PipelineAnovaSVM code as a template, write python code for a new model and deploy it as a RESTful API as we have done above. Train and test your model using the provided iris data set. There are plenty of examples that can be referenced &lt;a href="https://scikit-learn.org/stable/auto_examples/index.html#">here&lt;/a>&lt;/p>
+&lt;h2 id="11-references">11. References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://scikit-learn.org">Scikit-learn Web Page&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Using Shell.download to Download Files</title><link>/docs/tutorial/cms-shell-download/</link><pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/cms-shell-download/</guid><description>
+&lt;img src="/docs/tutorial/cms-shell-download/featured-image_hu31ad1de8477c329f5412ff59acdd044d_22590_640x0_resize_catmullrom_2.png" width="640" height="369"/>
+&lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 610px">
+&lt;img class="card-img-top" src="/docs/tutorial/cms-shell-download/featured-image_hu31ad1de8477c329f5412ff59acdd044d_22590_600x300_fill_catmullrom_smart1_2.png" width="600" height="300">
+&lt;div class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>&lt;strong>Learning Objectives&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Install &lt;code>cloudmesh.common&lt;/code>&lt;/li>
+&lt;li>Use &lt;code>Shell.download&lt;/code> from &lt;code>cloudmesh-common&lt;/code> to download files from the internet.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Requirements&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>python3 --version&lt;/code> &amp;gt; 3.8&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Topics covered&lt;/strong>&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#python-3-venv">Python 3 &lt;code>venv&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#installation-of-cloudmeshcommn">Installation of &lt;code>cloudmesh.commn&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#usage-of-shelldownload">Usage of &lt;code>Shell.download&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#configuring-the-download-cache">Configuring the Download Cache&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#different-providers-for-shelldownload">Different Providers for &lt;code>Shell.download&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#installing-other-download-programs">Installing other Download Programs&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="python-3-venv">Python 3 &lt;code>venv&lt;/code>&lt;/h2>
+&lt;p>Best practice is to use a venv in python to isolate your custom python instalation:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ python3 -m venv ~/ENV3
+$ &lt;span style="color:#204a87">source&lt;/span> ~/ENV3/bin/activate
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>or&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ ~/ENV3/Scripts/activate.exe
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>in Windows &lt;code>gitbash&lt;/code>.&lt;/p>
+&lt;h2 id="installation-of-cloudmeshcommn">Installation of &lt;code>cloudmesh.commn&lt;/code>&lt;/h2>
+&lt;p>Install &lt;code>cloudmesh-common&lt;/code> with:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">pip install -U pip
+pip install cloudmesh-common
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="usage-of-shelldownload">Usage of &lt;code>Shell.download&lt;/code>&lt;/h2>
+&lt;p>&lt;code>Shell.download&lt;/code> leverages the streaming capabilities of the &lt;code>requests&lt;/code> library for large files.&lt;/p>
+&lt;p>Example download of image where underlying downloader is &lt;code>requests&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#a40000">$&lt;/span> &lt;span style="color:#000">python3&lt;/span>
+&lt;span style="color:#000">Python&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">3.9&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">4&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">v3&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">9.4&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">1&lt;/span>&lt;span style="color:#000">f2e3088f3&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">Apr&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">4&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">2021&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">12&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">32&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">44&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#000">Clang&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">6.0&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">clang&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">600.0&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">57&lt;/span>&lt;span style="color:#000;font-weight:bold">)]&lt;/span> &lt;span style="color:#000">on&lt;/span> &lt;span style="color:#000">darwin&lt;/span>
+&lt;span style="color:#000">Type&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;help&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;copyright&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;credits&amp;#34;&lt;/span> &lt;span style="color:#204a87;font-weight:bold">or&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;license&amp;#34;&lt;/span> &lt;span style="color:#204a87;font-weight:bold">for&lt;/span> &lt;span style="color:#000">more&lt;/span> &lt;span style="color:#000">information&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>
+&lt;span style="color:#ce5c00;font-weight:bold">&amp;gt;&amp;gt;&amp;gt;&lt;/span> &lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">cloudmesh.common.Shell&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">Shell&lt;/span>
+&lt;span style="color:#ce5c00;font-weight:bold">&amp;gt;&amp;gt;&amp;gt;&lt;/span> &lt;span style="color:#000">file_url&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;https://github.com/cloudmesh/pi/blob/main/content/en/tutorial/example/featured-image.png?raw=true&amp;#39;&lt;/span>
+&lt;span style="color:#ce5c00;font-weight:bold">&amp;gt;&amp;gt;&amp;gt;&lt;/span> &lt;span style="color:#000">destination&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;~/Desktop/image.png&amp;#39;&lt;/span>
+&lt;span style="color:#ce5c00;font-weight:bold">&amp;gt;&amp;gt;&amp;gt;&lt;/span> &lt;span style="color:#000">Shell&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">download&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">file_url&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">destination&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#ce5c00;font-weight:bold">/&lt;/span>&lt;span style="color:#000">users&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">/&lt;/span>&lt;span style="color:#000">you&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">/&lt;/span>&lt;span style="color:#000">Desktop&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">/&lt;/span>&lt;span style="color:#000">image&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">png&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">100&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">%|&lt;/span>&lt;span style="color:#8f5902;font-style:italic">#########| 22.6k/22.6k [00:00&amp;lt;00:00, 3.58MB/s]&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#39;/users/you/Desktop/image.png&amp;#39;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="configuring-the-download-cache">Configuring the Download Cache&lt;/h2>
+&lt;p>&lt;code>Shell.download&lt;/code> only downloads if the filename in the destination does not
+already exist. If you like to change the behavior and ignore it, you need to use
+the &lt;code>force&lt;/code> parameter.&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">Shell&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">download&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">file_url&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">destination&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">force&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#3465a4">True&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="different-providers-for-shelldownload">Different Providers for &lt;code>Shell.download&lt;/code>&lt;/h2>
+&lt;p>Example where provider is &lt;code>system&lt;/code>. Cloudmesh &lt;code>Shell&lt;/code> will first try to use
+&lt;code>wget&lt;/code> then &lt;code>curl&lt;/code> (if &lt;code>wget&lt;/code> fails)&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#a40000">$&lt;/span> &lt;span style="color:#000">python3&lt;/span>
+&lt;span style="color:#000">Python&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">3.9&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">4&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">v3&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">9.4&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">1&lt;/span>&lt;span style="color:#000">f2e3088f3&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">Apr&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">4&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">2021&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">12&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">32&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">44&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#000">Clang&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">6.0&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">clang&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">600.0&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">57&lt;/span>&lt;span style="color:#000;font-weight:bold">)]&lt;/span> &lt;span style="color:#000">on&lt;/span> &lt;span style="color:#000">darwin&lt;/span>
+&lt;span style="color:#000">Type&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;help&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;copyright&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;credits&amp;#34;&lt;/span> &lt;span style="color:#204a87;font-weight:bold">or&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;license&amp;#34;&lt;/span> &lt;span style="color:#204a87;font-weight:bold">for&lt;/span> &lt;span style="color:#000">more&lt;/span> &lt;span style="color:#000">information&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>
+&lt;span style="color:#ce5c00;font-weight:bold">&amp;gt;&amp;gt;&amp;gt;&lt;/span> &lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">cloudmesh.common.Shell&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">Shell&lt;/span>
+&lt;span style="color:#ce5c00;font-weight:bold">&amp;gt;&amp;gt;&amp;gt;&lt;/span> &lt;span style="color:#000">file_url&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;https://github.com/cloudmesh/pi/blob/main/content/en/tutorial/example/featured-image.png?raw=true&amp;#39;&lt;/span>
+&lt;span style="color:#ce5c00;font-weight:bold">&amp;gt;&amp;gt;&amp;gt;&lt;/span> &lt;span style="color:#000">destination&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;~/Desktop/image.png&amp;#39;&lt;/span>
+&lt;span style="color:#ce5c00;font-weight:bold">&amp;gt;&amp;gt;&amp;gt;&lt;/span> &lt;span style="color:#000">Shell&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">download&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">file_url&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">destination&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">provider&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;system&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000">sh&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000">wget&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000">command&lt;/span> &lt;span style="color:#204a87;font-weight:bold">not&lt;/span> &lt;span style="color:#000">found&lt;/span>
+&lt;span style="color:#ce5c00;font-weight:bold">%&lt;/span> &lt;span style="color:#000">Total&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">%&lt;/span> &lt;span style="color:#000">Received&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">%&lt;/span> &lt;span style="color:#000">Xferd&lt;/span> &lt;span style="color:#000">Average&lt;/span> &lt;span style="color:#000">Speed&lt;/span> &lt;span style="color:#000">Time&lt;/span> &lt;span style="color:#000">Time&lt;/span> &lt;span style="color:#000">Time&lt;/span> &lt;span style="color:#000">Current&lt;/span>
+&lt;span style="color:#000">Dload&lt;/span> &lt;span style="color:#000">Upload&lt;/span> &lt;span style="color:#000">Total&lt;/span> &lt;span style="color:#000">Spent&lt;/span> &lt;span style="color:#000">Left&lt;/span> &lt;span style="color:#000">Speed&lt;/span>
+&lt;span style="color:#0000cf;font-weight:bold">100&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">153&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">100&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">153&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">0&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">0&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">467&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">0&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">467&lt;/span>
+&lt;span style="color:#0000cf;font-weight:bold">100&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">164&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">100&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">164&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">0&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">0&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">379&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">0&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">379&lt;/span>
+&lt;span style="color:#0000cf;font-weight:bold">100&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">22590&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">100&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">22590&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">0&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">0&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">43694&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">0&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">43694&lt;/span>
+&lt;span style="color:#000">INFO&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000">Used&lt;/span> &lt;span style="color:#000">curl&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#39;/users/you/Desktop/image.png&amp;#39;&lt;/span>
+&lt;span style="color:#ce5c00;font-weight:bold">&amp;gt;&amp;gt;&amp;gt;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>We can see here that &lt;code>Shell.download&lt;/code> uses &lt;code>curl&lt;/code> and not &lt;code>wget&lt;/code>. This is
+because the example system did not have &lt;code>wget&lt;/code> as a
+terminal (&lt;code>'system'&lt;/code>) command installed.&lt;/p>
+&lt;h2 id="installing-other-download-programs">Installing other Download Programs&lt;/h2>
+&lt;p>Your OS typically has defined mechanisms to install commands such as &lt;code>curl&lt;/code> and &lt;code>wget&lt;/code>.
+If they are not installed. Shell.download will use Python requests automatically.
+If you like to use wget r curl you need to install them.&lt;/p>
+&lt;p>On Ubuntu you can fro example say&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ sudo apt install wget
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>or&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ sudo apt install curl
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Please find the method that works for your system, or use the default method
+which does not require a third party provider.&lt;/p>
+&lt;p>The order of the providers is defined as&lt;/p>
+&lt;ol>
+&lt;li>wget&lt;/li>
+&lt;li>curl&lt;/li>
+&lt;li>Python requests&lt;/li>
+&lt;/ol>
+&lt;p>We use wget and curl first as many OS have optimized versions of them.&lt;/p></description></item></channel></rss>

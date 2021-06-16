@@ -1,0 +1,142 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – python</title><link>/tags/python/</link><description>Recent content in python on Cybertraining</description><generator>Hugo -- gohugo.io</generator><atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Python</title><link>/docs/modules/bigdataapplications/2019/tech/python/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/bigdataapplications/2019/tech/python/</guid><description>
+&lt;p>Please see the Python book:&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>Introduction to Python for Cloud Computing, Gregor von Laszewski, Aug. 2019&lt;/em>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Python Warm Up</title><link>/docs/modules/ai-first/2021/python_initial/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/ai-first/2021/python_initial/</guid><description>
+&lt;h2 id="python-exercise-on-google-colab">Python Exercise on Google Colab&lt;/h2>
+&lt;div class="aside">
+&lt;table style="width:100%">
+&lt;tr>
+&lt;td>&lt;a href="https://colab.research.google.com/github/cybertraining-dsc/cybertraining-dsc.github.io/blob/master/content/en/modules/notebooks/python_warmup.ipynb" target="_parent">&lt;img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/blob/master/content/en/modules/notebooks/python_warmup.ipynb" target="_parent">&lt;img src="https://www.tensorflow.org/images/GitHub-Mark-32px.png" alt=""/> View in Github&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://raw.githubusercontent.com/cybertraining-dsc/cybertraining-dsc.github.io/master/content/en/modules/notebooks/python_warmup.ipynb" target="_parent">&lt;img src="https://www.tensorflow.org/images/download_logo_32px.png" alt=""/>&lt;/a> Download Notebook&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;/div>
+&lt;p>In this exercise, we will take a look at some basic Python Concepts needed for
+day-to-day coding.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/x1ICvWDlvB0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>Check the installed Python version.&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#a40000">!&lt;/span> &lt;span style="color:#000">python&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span>&lt;span style="color:#000">version&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>Python 3.7.6
+&lt;/code>&lt;/pre>
+&lt;h2 id="simple-for-loop">Simple For Loop&lt;/h2>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">for&lt;/span> &lt;span style="color:#000">i&lt;/span> &lt;span style="color:#204a87;font-weight:bold">in&lt;/span> &lt;span style="color:#204a87">range&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">10&lt;/span>&lt;span style="color:#000;font-weight:bold">):&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">print&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">i&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+&lt;/code>&lt;/pre>
+&lt;h2 id="list">List&lt;/h2>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">list_items&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;a&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;b&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;c&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;d&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;e&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="retrieving-an-element">Retrieving an Element&lt;/h3>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">list_items&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">2&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>'c'
+&lt;/code>&lt;/pre>
+&lt;h3 id="append-new-values">Append New Values&lt;/h3>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">list_items&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">append&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;f&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">list_items&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>['a', 'b', 'c', 'd', 'e', 'f']
+&lt;/code>&lt;/pre>
+&lt;h3 id="remove-an-element">Remove an Element&lt;/h3>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">list_items&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">remove&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;a&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">list_items&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>['b', 'c', 'd', 'e', 'f']
+&lt;/code>&lt;/pre>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/oudT4sRIuwU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="dictionary">Dictionary&lt;/h2>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">dictionary_items&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;a&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">1&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;b&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">2&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;c&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">3&lt;/span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="retrieving-an-item-by-key">Retrieving an Item by Key&lt;/h3>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">dictionary_items&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;b&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>2
+&lt;/code>&lt;/pre>
+&lt;h3 id="append-new-item-with-key">Append New Item with Key&lt;/h3>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">dictionary_items&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;c&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">4&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">dictionary_items&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>{'a': 1, 'b': 2, 'c': 4}
+&lt;/code>&lt;/pre>
+&lt;h3 id="delete-an-item-with-key">Delete an Item with Key&lt;/h3>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">del&lt;/span> &lt;span style="color:#000">dictionary_items&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;a&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">dictionary_items&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>{'b': 2, 'c': 4}
+&lt;/code>&lt;/pre>
+&lt;h2 id="comparators">Comparators&lt;/h2>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">x&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">10&lt;/span>
+&lt;span style="color:#000">y&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">20&lt;/span>
+&lt;span style="color:#000">z&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">30&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">x&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;gt;&lt;/span> &lt;span style="color:#000">y&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>False
+&lt;/code>&lt;/pre>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">x&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;lt;&lt;/span> &lt;span style="color:#000">z&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>True
+&lt;/code>&lt;/pre>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">z&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">==&lt;/span> &lt;span style="color:#000">x&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>False
+&lt;/code>&lt;/pre>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000">x&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;lt;&lt;/span> &lt;span style="color:#000">z&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">print&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;This is True&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>This is True
+&lt;/code>&lt;/pre>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000">x&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;gt;&lt;/span> &lt;span style="color:#000">z&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">print&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;This is True&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">else&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">print&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;This is False&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>This is False
+&lt;/code>&lt;/pre>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/GKU6-SNZGQc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="arithmetic">Arithmetic&lt;/h2>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">k&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">x&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">*&lt;/span> &lt;span style="color:#000">y&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">*&lt;/span> &lt;span style="color:#000">z&lt;/span>
+&lt;span style="color:#000">k&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>6000
+&lt;/code>&lt;/pre>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">j&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">x&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">+&lt;/span> &lt;span style="color:#000">y&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">+&lt;/span> &lt;span style="color:#000">z&lt;/span>
+&lt;span style="color:#000">j&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>60
+&lt;/code>&lt;/pre>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">m&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">x&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">-&lt;/span>&lt;span style="color:#000">y&lt;/span>
+&lt;span style="color:#000">m&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>-10
+&lt;/code>&lt;/pre>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">n&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">x&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">/&lt;/span> &lt;span style="color:#000">z&lt;/span>
+&lt;span style="color:#000">n&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>0.3333333333333333
+&lt;/code>&lt;/pre>
+&lt;h2 id="numpy">Numpy&lt;/h2>
+&lt;h3 id="create-a-random-numpy-array">Create a Random Numpy Array&lt;/h3>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">numpy&lt;/span> &lt;span style="color:#204a87;font-weight:bold">as&lt;/span> &lt;span style="color:#000">np&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">a&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">np&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">random&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">rand&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">100&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000">a&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">shape&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>(100,)
+&lt;/code>&lt;/pre>
+&lt;h3 id="reshape-numpy-array">Reshape Numpy Array&lt;/h3>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">b&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">a&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">reshape&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">10&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">10&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000">b&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">shape&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>(10, 10)
+&lt;/code>&lt;/pre>
+&lt;h3 id="manipulate-array-elements">Manipulate Array Elements&lt;/h3>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">c&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">b&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">*&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">10&lt;/span>
+&lt;span style="color:#000">c&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">0&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>array([3.33575458, 7.39029235, 5.54086921, 9.88592471, 4.9246252 ,
+1.76107178, 3.5817523 , 3.74828708, 3.57490794, 6.55752319])
+&lt;/code>&lt;/pre>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">c&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">np&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">mean&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">b&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>&lt;span style="color:#000">axis&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">1&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000">c&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">shape&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>10
+&lt;/code>&lt;/pre>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">print&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">c&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>[0.60673061 0.4223565 0.42687517 0.6260857 0.60814217 0.66445627
+0.54888432 0.68262262 0.42523459 0.61504903]
+&lt;/code>&lt;/pre></description></item></channel></rss>
