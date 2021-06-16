@@ -2807,6 +2807,195 @@ What is most exciting is the developments of self-learning AI based on the mount
 &lt;p>Is AI in Video Games the Future of Gaming? (2020, November 21). Retrieved December 08, 2020, from &lt;a href="https://www.gamedesigning.org/gaming/artificial-intelligence/">https://www.gamedesigning.org/gaming/artificial-intelligence/&lt;/a> &lt;a href="#fnref:22" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: Forecasting Natural Gas Demand/Supply</title><link>/report/sp21-599-356/project/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/sp21-599-356/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/sp21-599-356/actions">&lt;img src="https://github.com/cybertraining-dsc/sp21-599-356/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/sp21-599-356/actions">&lt;img src="https://github.com/cybertraining-dsc/sp21-599-356/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: final, Type: Project&lt;/p>
+&lt;p>Baekeun Park, &lt;a href="https://github.com/cybertraining-dsc/sp21-599-356/">sp21-599-356&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/sp21-599-356/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Code:
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cybertraining-dsc/sp21-599-356/blob/main/project/code/Forecasting_NG_Demand_Supply.ipynb">Forecasting_NG_Demand_Supply.ipynb&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Natural Gas(NG) is one of the valuable ones among the other energy resources. It is used as a heating source for homes and businesses through city gas companies and utilized as a raw material for power plants to generate electricity. Through this, it can be seen that various purposes of NG demand arise in the different fields. In addition, it is essential to identify accurate demand for NG as there is growing volatility in energy demand depending on the direction of the government&amp;rsquo;s environmental policy.&lt;/p>
+&lt;p>This project focuses on building the model of forecasting the NG demand and supply amount of South Korea, which relies on imports for much of its energy sources. Datasets for training include various fields such as weather and prices of other energy resources, which are open-source.
+Also, those are trained by using deep learning methods such as the multi-layer perceptron(MLP) with long short-term memory(LSTM), using Tensorflow. In addition, a combination of the dataset from various factors is created by using pandas for training scenario-wise, and the results are compared by changing the variables and analyzed by different viewpoints.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-related-work">2. Related Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-datasets">3. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-methodology">4. Methodology&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#41-min-max-scaling">4.1. Min-Max scaling&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#42-training">4.2. Training&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#43-evaluation">4.3. Evaluation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#44-prediction">4.4. Prediction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-result">5. Result&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#51-scenario-oneregional-dataset">5.1 Scenario one(regional dataset)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#52-scenario-tworegional-climate-dataset">5.2 Scenario two(regional climate dataset)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#53-scenario-threeregional-temperature-dataset">5.3 Scenario three(regional temperature dataset)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#54-scenario-fourapplying-timesteps">5.4 Scenario four(applying timesteps)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#55-scenario-fivenational-dataset">5.5 Scenario five(national dataset)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#56-overall-results">5.6 Overall results&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmarks">6. Benchmarks&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-conclusion">7. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-source-code">9. Source code&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#10-references">10. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> Natural Gas, supply, forecasting, South Korea, MLP with LSTM, Tensorflow, various dataset.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>South Korea relies on imports for 92.8 percent of its energy resources as of the first half of 2020 &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. Among the energy resources, the Korea Gas Corporation(KOGAS) imports Liquified Natural Gas(LNG) from around the world and supplies it to power generation plants, gas-utility companies, and city gas companies throughout the country &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. It produces and supplies NG in order to ensure a stable gas supply for the nation. Moreover, it operates LNG storage tanks at LNG acquisition bases, storing LNG during the season when city gas demand is low and replenish LNG during winter when demand is higher than supply &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>The wholesale charges consist of raw material costs (LNG introduction and incidental costs) and gas supply costs &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. Therefore, the forecasting NG demand/supply will help establish an optimized mid-to-long-term plan for the introduction of LNG and stable NG supply and economic effects.&lt;/p>
+&lt;p>The factors which influence NG demand include weather, economic conditions, and petroleum prices. The winter weather strongly influences NG demand, and the hot summer weather can increase electric power demand for NG. In addition, some large-volume fuel consumers such as power plants and iron, steel, and paper mills can switch between NG, coal, and petroleum, depending on the cost of each fuel &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>Therefore, some indicators related to weather, economic conditions, and the price of other energy resources can be used for this project.&lt;/p>
+&lt;h2 id="2-related-work">2. Related Work&lt;/h2>
+&lt;p>Khotanzad and Elragal (1999) proposed a two-stage system with the first stage containing a combination of artificial neural network(ANN) for prediction of daily NG consumption &lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>, and Khotanzad et al. (2000) combined eight different algorithms to improve the performance of forecasters &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>. Mustafa Akpinar et al. (2016) used daily NG consumption data to forecast the NG demand by ABC-based ANN &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>. Also, Athanasios Anagnostis et al. (2019) conducted daily NG demand prediction by a comparative analysis between ANN and LSTM &lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup>. Unlike those methods, MLP with LSTM is applied for this project, and external factors affecting NG demand are changed and compared.&lt;/p>
+&lt;h2 id="3-datasets">3. Datasets&lt;/h2>
+&lt;p>As described, weather datasets like temperature and precipitation, price datasets of other energy resources like crude oil and coal, and economic indicators like exchange rate are used in this project for forecasting NG demand and supply.&lt;/p>
+&lt;p>There is an NG supply dataset &lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup> from a public data portal in South Korea. It includes four years from 2016 to 2019 of regional monthly NG supply in the nine different cities of South Korea. In addition, climate data such as temperature and precipitation &lt;sup id="fnref:11">&lt;a href="#fn:11" class="footnote-ref" role="doc-noteref">11&lt;/a>&lt;/sup> for the same period can be obtained from the Korea Meteorological Administration. Similarly, data on the price of four types of crude oil &lt;sup id="fnref:12">&lt;a href="#fn:12" class="footnote-ref" role="doc-noteref">12&lt;/a>&lt;/sup> and various types of coal price datasets per month &lt;sup id="fnref:13">&lt;a href="#fn:13" class="footnote-ref" role="doc-noteref">13&lt;/a>&lt;/sup> are also available through corresponding agencies. Finally, the Won-Dollar exchange rate dataset &lt;sup id="fnref:14">&lt;a href="#fn:14" class="footnote-ref" role="doc-noteref">14&lt;/a>&lt;/sup> with the same period is used.&lt;/p>
+&lt;p>As mentioned above, each dataset has monthly information and also has average values instead of the NG supply dataset. It is regionally separated or combined according to the test scenario. For example, the NG supply dataset has nine different cities. One column of cities is split from the original dataset and merged with another regional dataset like temperature or precipitation. On the other hand, each regional value&amp;rsquo;s summation is utilized in a scenario where a national dataset is needed.&lt;/p>
+&lt;p>The dataset is applied differently for each scenario. In scenario one, all datasets such as crude oil price, coal price, exchange rate, and regional temperature and precipitation are merged with regional dataset, especially Seoul. For scenario two, all climate datasets are used with the regional dataset. Only temperature dataset is utilized with regional dataset in scenario three. In addition, in scenario four, all cases are the same as in scenario one, but the timesteps are changed to two months. Finally, the national dataset is used for scenario five.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/each_factors.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> External factors affecting natural gas&lt;/p>
+&lt;h2 id="4-methodology">4. Methodology&lt;/h2>
+&lt;h2 id="41-min-max-scaling">4.1. Min-Max scaling&lt;/h2>
+&lt;p>In this project, all datasets are rescaled between 0 and 1 by Min-Max scaling, one of the most common normalization methods. If there is a feature with anonymous data, The maximum value(max(x)) of data is converted to 1, and the minimum value(min(x)) of data is converted to 0. The other values between the maximum value and the minimum value get converted to x', between 0 and 1.&lt;/p>
+&lt;img src="https://render.githubusercontent.com/render/math?math=%5CLarge%20x'%20%3D%20%5Cfrac%7Bx-min(x)%7D%7Bmax(x)-min(x)%7D">
+&lt;h2 id="42-training">4.2. Training&lt;/h2>
+&lt;p>For forecasting the NG supply amount from the time series dataset, MLP with LSTM network model is designed by using Tensorflow. The first and second LSTM layers have 100 units, and a total of 3 layers of MLP follow it. Each MLP layer has 100 neurons instead of the final layer, where its neuron is 1. In addition, dropout was designated to prevent overfitting of data, the Adam is used as an optimizer, and the Rectified Linear Unit(ReLU) as an activation function.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/structure_of_network.png" alt="Figure 2">&lt;/p>
+&lt;p>&lt;strong>Figure 2:&lt;/strong> Structure of network model&lt;/p>
+&lt;h2 id="43-evaluation">4.3. Evaluation&lt;/h2>
+&lt;p>Mean Absolute Error(MAE) and Root Mean Squared Error(RMSE) are applied for this time series dataset to evaluate this network model. The MAE measures the average magnitude of the errors and is presented by the formula as following, where n is the number of errors, &lt;img src="https://render.githubusercontent.com/render/math?math=y_i"> is the &lt;img src="https://render.githubusercontent.com/render/math?math=i%5E%7Bth%7D"> true value, and &lt;img src="https://render.githubusercontent.com/render/math?math=%5Chat%7By_i%7D"> is the &lt;img src="https://render.githubusercontent.com/render/math?math=i%5E%7Bth%7D"> predicted value.&lt;/p>
+&lt;img src="https://render.githubusercontent.com/render/math?math=%5CLarge%20MAE%20%3D%20%5Cfrac%7B%5CSigma_%7Bi%3D1%7D%5En%7Cy_i-%5Chat%7By_i%7D%7C%7D%7Bn%7D">
+&lt;p>Also, The RMSE is used for observing the differences between the actual dataset and prediction values. The following is the formula of RMSE, and each value of this is the same for MAE.&lt;/p>
+&lt;img src="https://render.githubusercontent.com/render/math?math=%5CLarge%20RMSE%20%3D%20%5Csqrt%7B%5Cfrac%7B%5CSigma_%7Bi%3D1%7D%5En(y_i-%5Chat%7By_i%7D)%5E2%7D%7Bn%7D%7D">
+&lt;h2 id="44-prediction">4.4. Prediction&lt;/h2>
+&lt;p>Since the datasets used for the training process are normalized between 0 and 1, they get converted to a range of the ground truth values again. From these rescaled datasets, it is possible to obtain the RMSE and compare the differences between the actual value and the predicted value.&lt;/p>
+&lt;h2 id="5-result">5. Result&lt;/h2>
+&lt;p>In all scenarios, main variables such as dropout, learning rate, and epochs are fixed under the same conditions and are 0.1, 0.0005, and 100 in order. In scenarios one, two, three, and five, the training set is applied as twelve months, and in scenario four, next month&amp;rsquo;s prediction comes from the previous two months dataset. For comparative analysis, the results are obtained by changing the size of the training set from twelve months to twenty-four months, and the effect is described. Each scenario shows individual results and is comprehensively compared at the end of this part.&lt;/p>
+&lt;h2 id="51-scenario-oneregional-dataset">5.1 Scenario one(regional dataset)&lt;/h2>
+&lt;p>The final MAE of the train set is around 0.05, and the one of the test set is around 0.19. Also, the RMSE between actual data and predicted data is around 227018. The predictive graph tends to deviate a lot at the beginning of the part, but it shows a relatively similar shape at the end of the graph.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Error_For_SenarioOne.png" alt="Figure 3">&lt;/p>
+&lt;p>&lt;strong>Figure 3:&lt;/strong> Loss for scenario one&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Prediction_for_SenarioOne.png" alt="Figure 4">&lt;/p>
+&lt;p>&lt;strong>Figure 4:&lt;/strong> Prediction results for scenario one&lt;/p>
+&lt;h2 id="52-scenario-tworegional-climate-dataset">5.2 Scenario two(regional climate dataset)&lt;/h2>
+&lt;p>The final MAE of the train set is around 0.10, and the one of the test set is around 0.14. Also, the RMSE is around 185205. Although the predictive graph still differs compared to the actual graph, it shows similar trends in shape.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Error_For_SenarioTwo.png" alt="Figure 5">&lt;/p>
+&lt;p>&lt;strong>Figure 5:&lt;/strong> Loss for scenario two&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Prediction_for_SenarioTwo.png" alt="Figure 6">&lt;/p>
+&lt;p>&lt;strong>Figure 6:&lt;/strong> Prediction results for scenario two&lt;/p>
+&lt;h2 id="53-scenario-threeregional-temperature-dataset">5.3 Scenario three(regional temperature dataset)&lt;/h2>
+&lt;p>The final MAE of the train set is around 0.13, and the one of the test set is around 0.14. Also, the RMSE is around 207585. While the tendency to follow high and low seems similar, but changes in the middle seem to be misleading.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Error_For_SenarioThree.png" alt="Figure 7">&lt;/p>
+&lt;p>&lt;strong>Figure 7:&lt;/strong> Loss for scenario three&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Prediction_for_SenarioThree.png" alt="Figure 8">&lt;/p>
+&lt;p>&lt;strong>Figure 8:&lt;/strong> Prediction results for scenario three&lt;/p>
+&lt;h2 id="54-scenario-fourapplying-timesteps">5.4 Scenario four(applying timesteps)&lt;/h2>
+&lt;p>The final MAE of the train set is around 0.06, and the one of the test set is around 0.30. Also, the RMSE is around 340843. Out of all scenarios, the predictive graph shows to have the most differences. However, in the last part, there is a somewhat akin tendency.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Error_For_SenarioFour.png" alt="Figure 9">&lt;/p>
+&lt;p>&lt;strong>Figure 9:&lt;/strong> Loss for scenario four&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Prediction_for_SenarioFour.png" alt="Figure 10">&lt;/p>
+&lt;p>&lt;strong>Figure 10:&lt;/strong> Prediction results for scenario four&lt;/p>
+&lt;h2 id="55-scenario-fivenational-dataset">5.5 Scenario five(national dataset)&lt;/h2>
+&lt;p>The final MAE of the train set is around 0.03 and the one of test set is around 0.14. Also, the RMSE between real data and predicted data is around 587340. Tremendous RMSE value results, but direct comparisons are not possible because the baseline volume is different from other scenarios. Although the predictive graph shows discrepancy, it tends to be similar to the results in scenario two.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Error_For_SenarioFive.png" alt="Figure 11">&lt;/p>
+&lt;p>&lt;strong>Figure 11:&lt;/strong> Loss for scenario five&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Prediction_for_SenarioFive.png" alt="Figure 12">&lt;/p>
+&lt;p>&lt;strong>Figure 12:&lt;/strong> Prediction results for scenario five&lt;/p>
+&lt;h2 id="56-overall-results">5.6 Overall results&lt;/h2>
+&lt;p>Out of the five scenarios in total, the second and third have smaller RMSE than others, and the graphs also show relatively similar results. The first and fourth show differences in the beginning and similar trends in the last part. However, it is noteworthy that the gap at the beginning of them is very large, but it tends to shrink together at the point of decline and stretch together at the point of increase.&lt;/p>
+&lt;p>In the first and fifth scenarios, all data are identical except that they differ in regional scale in temperature and precipitation. It is also the same that twelve months of data are used as the training set. From the subtle differences in the shape of the resulting graph, it can be seen that the national average data cannot represent the situation in a particular region, and the amount of NG supply differs depending on the circumstances in the region.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/compared_prediction.png" alt="Figure 13">&lt;/p>
+&lt;p>&lt;strong>Figure 13:&lt;/strong> Total prediction results: 12 months training set&lt;/p>
+&lt;p>After changing the training set from twelve months to twenty-four months, the results are more clearly visible. The second and third prediction graphs have a more similar shape and the RMSE value decreases than the previous setting. The results of other scenarios show that the overall shape has improved; contrarily, the shape of the rapidly changing middle part is better in the previous condition.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/compared_prediction_2.png" alt="Figure 14">&lt;/p>
+&lt;p>&lt;strong>Figure 14:&lt;/strong> Total prediction results: 24 months training set&lt;/p>
+&lt;h2 id="6-benchmarks">6. Benchmarks&lt;/h2>
+&lt;p>For a benchmark, the Cloudmesh StopWatch and Benchmark &lt;sup id="fnref:15">&lt;a href="#fn:15" class="footnote-ref" role="doc-noteref">15&lt;/a>&lt;/sup> is used to measure the program&amp;rsquo;s performance. The time spent on data load, data preprocessing, network model compile, training, and the prediction was separately measured, and the overall time for execution of all scenarios is around 77 seconds. It can be seen that The training time for the fourth scenario is the longest, and the one for the fifth scenario is the shortest.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/benchmarks.png" alt="Figure 15">&lt;/p>
+&lt;p>&lt;strong>Figure 15:&lt;/strong> Benchmarks&lt;/p>
+&lt;h2 id="7-conclusion">7. Conclusion&lt;/h2>
+&lt;p>From the results of this project, it can be seen that simplifying factors that have a significant impact shows better efficiency than combining various factors. For example, NG consumption tends to increase for heating in cold weather. In addition, there is much precipitation in warm or hot weather; on the contrary, there is relatively little precipitation in the cold weather. It can be seen that these seasonal elements show relatively high consistency for affecting prediction when those are used as training datasets. Also, the predictions are derived more effectively when the seasonal datasets are combined.&lt;/p>
+&lt;p>However, in training set with a duration of twelve months, the last part of the scenario tends to match the actual data despite using the dataset combined with various factors that appears to be seasonally unrelated. Furthermore, when the training set is doubled on the same dataset, it can be seen that the differences between the actual and prediction graph are decreased than the result of a smaller training set. Based on this, it can be expected that the results could vary if a large amount of dataset with a more extended period is used and the ratio of the training set is appropriately adjusted.&lt;/p>
+&lt;p>South Korea imports a large amount of its energy resources. Also, the plan for energy demand and supply is being made and operated through nation-led policies. Ironically, the government&amp;rsquo;s plan also shows a sharp change in direction with recent environmental issues, and the volatility of demand in the energy market is increasing than before. Therefore, methodologies for accurate forecasting of energy demand will need to be complemented and developed constantly to prepare for and overcome this variability.&lt;/p>
+&lt;p>In this project, Forecasting NG demand and supply was carried out using various data factors such as weather and price that is relatively easily obtained than the datasets which are complex economic indicators or classified as confidential. Nevertheless, state-of-the-art deep learning methods show that it has the flexibility and potential to forecast NG demand through the tendency of the results that indicate a relatively consistent with the actual data. From this point of view, it is thought that the research on NG in South Korea should be conducted in an advanced form by utilizing various data and more specialized analysis.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>The author would like to thank Dr. Gregor von Laszewski for his invaluable feedback, continued assistance, and suggestions on this paper, and Dr. Geoffrey Fox for sharing his expertise in Deep Learning and Artificial Intelligence applications throughout this Deep Learning Application: AI-First Engineering course offered in the Spring 2021 semester at Indiana University, Bloomington.&lt;/p>
+&lt;h2 id="9-source-code">9. Source code&lt;/h2>
+&lt;p>The source code for all experiments and results can be found here as &lt;a href="https://github.com/cybertraining-dsc/sp21-599-356/blob/main/project/code/Forecasting_NG_Demand_Supply.ipynb">ipynb link&lt;/a> and as &lt;a href="https://github.com/cybertraining-dsc/sp21-599-356/blob/main/project/code/Forecasting_NG_Demand_Supply.pdf">pdf link&lt;/a>.&lt;/p>
+&lt;h2 id="10-references">10. References&lt;/h2>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>2020 Monthly Energy Statistics, [Online resource]
+&lt;a href="http://www.keei.re.kr/keei/download/MES2009.pdf">http://www.keei.re.kr/keei/download/MES2009.pdf&lt;/a>, Sep. 2020 &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>KOGAS profile, [Online resource]
+&lt;a href="https://www.kogas.or.kr:9450/eng/contents.do?key=1498">https://www.kogas.or.kr:9450/eng/contents.do?key=1498&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3" role="doc-endnote">
+&lt;p>LNG production phase, [Online resource]
+&lt;a href="https://www.kogas.or.kr:9450/portal/contents.do?key=2014">https://www.kogas.or.kr:9450/portal/contents.do?key=2014&lt;/a> &lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4" role="doc-endnote">
+&lt;p>NG wholesale charges, [Online resource]
+&lt;a href="https://www.kogas.or.kr:9450/portal/contents.do?key=2026">https://www.kogas.or.kr:9450/portal/contents.do?key=2026&lt;/a> &lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5" role="doc-endnote">
+&lt;p>Natural gas explained, [Online resource],
+&lt;a href="https://www.eia.gov/energyexplained/natural-gas/factors-affecting-natural-gas-prices.php">https://www.eia.gov/energyexplained/natural-gas/factors-affecting-natural-gas-prices.php&lt;/a>, Aug, 2020 &lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:6" role="doc-endnote">
+&lt;p>A. Khotanzad and H. Elragal, &amp;ldquo;Natural gas load forecasting with combination of adaptive neural networks,&amp;rdquo; IJCNN'99. International Joint Conference on Neural Networks. Proceedings (Cat. No.99CH36339), 1999, pp. 4069-4072 vol.6, doi: 10.1109/IJCNN.1999.830812. &lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:7" role="doc-endnote">
+&lt;p>A. Khotanzad, H. Elragal and T. . -L. Lu, &amp;ldquo;Combination of artificial neural-network forecasters for prediction of natural gas consumption,&amp;rdquo; in IEEE Transactions on Neural Networks, vol. 11, no. 2, pp. 464-473, March 2000, doi: 10.1109/72.839015. &lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:8" role="doc-endnote">
+&lt;p>M. Akpinar, M. F. Adak and N. Yumusak, &amp;ldquo;Forecasting natural gas consumption with hybrid neural networks — Artificial bee colony,&amp;rdquo; 2016 2nd International Conference on Intelligent Energy and Power Systems (IEPS), 2016, pp. 1-6, doi: 10.1109/IEPS.2016.7521852. &lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:9" role="doc-endnote">
+&lt;p>A. Anagnostis, E. Papageorgiou, V. Dafopoulos and D. Bochtis, &amp;ldquo;Applying Long Short-Term Memory Networks for natural gas demand prediction,&amp;rdquo; 2019 10th International Conference on Information, Intelligence, Systems and Applications (IISA), 2019, pp. 1-7, doi: 10.1109/IISA.2019.8900746. &lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:10" role="doc-endnote">
+&lt;p>NG supply dataset, [Online resource],
+&lt;a href="https://www.data.go.kr/data/15049904/fileData.do">https://www.data.go.kr/data/15049904/fileData.do&lt;/a>, Apr, 2020 &lt;a href="#fnref:10" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:11" role="doc-endnote">
+&lt;p>Regional climate dataset, [Online resource]
+&lt;a href="https://data.kma.go.kr/climate/RankState/selectRankStatisticsDivisionList.do?pgmNo=179">https://data.kma.go.kr/climate/RankState/selectRankStatisticsDivisionList.do?pgmNo=179&lt;/a> &lt;a href="#fnref:11" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:12" role="doc-endnote">
+&lt;p>Crude oil orice dataset, [Online resource]
+&lt;a href="https://www.petronet.co.kr/main2.jsp">https://www.petronet.co.kr/main2.jsp&lt;/a> &lt;a href="#fnref:12" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:13" role="doc-endnote">
+&lt;p>Bituminous coal price dataset, [Online resource]
+&lt;a href="https://www.kores.net/komis/price/mineralprice/ironoreenergy/pricetrend/baseMetals.do?mc_seq=3030003&amp;amp;mnrl_pc_mc_seq=506">https://www.kores.net/komis/price/mineralprice/ironoreenergy/pricetrend/baseMetals.do?mc_seq=3030003&amp;amp;mnrl_pc_mc_seq=506&lt;/a> &lt;a href="#fnref:13" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:14" role="doc-endnote">
+&lt;p>Won-Dollar exchange rate dateset, [Online resource]
+&lt;a href="http://ecos.bok.or.kr/flex/EasySearch.jsp?langGubun=K&amp;amp;topCode=022Y013">http://ecos.bok.or.kr/flex/EasySearch.jsp?langGubun=K&amp;amp;topCode=022Y013&lt;/a> &lt;a href="#fnref:14" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:15" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:15" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
 &lt;/section></description></item><item><title>Report: Big Data on Gesture Recognition and Machine Learning</title><link>/report/fa20-523-315/report/report/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/fa20-523-315/report/report/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/fa20-523-315/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-315/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/fa20-523-315/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-315/workflows/Status/badge.svg" alt="Status">&lt;/a>
@@ -5326,195 +5515,6 @@ Status: final, Type: Project&lt;/p>
 &lt;/li>
 &lt;li id="fn:2" role="doc-endnote">
 &lt;p>Muscato, C. and Clayton, J., 2020. &lt;em>Music During The Enlightenment Period&lt;/em>. [online] Study.com. Available at: &lt;a href="https://study.com/academy/lesson/music-during-the-enlightenment-period.html">https://study.com/academy/lesson/music-during-the-enlightenment-period.html&lt;/a> [Accessed 5 November 2020]. &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: Project: Forecasting Natural Gas Demand/Supply</title><link>/report/sp21-599-356/project/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/sp21-599-356/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/sp21-599-356/actions">&lt;img src="https://github.com/cybertraining-dsc/sp21-599-356/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/sp21-599-356/actions">&lt;img src="https://github.com/cybertraining-dsc/sp21-599-356/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: final, Type: Project&lt;/p>
-&lt;p>Baekeun Park, &lt;a href="https://github.com/cybertraining-dsc/sp21-599-356/">sp21-599-356&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/sp21-599-356/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
-&lt;ul>
-&lt;li>Code:
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/cybertraining-dsc/sp21-599-356/blob/main/project/code/Forecasting_NG_Demand_Supply.ipynb">Forecasting_NG_Demand_Supply.ipynb&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Natural Gas(NG) is one of the valuable ones among the other energy resources. It is used as a heating source for homes and businesses through city gas companies and utilized as a raw material for power plants to generate electricity. Through this, it can be seen that various purposes of NG demand arise in the different fields. In addition, it is essential to identify accurate demand for NG as there is growing volatility in energy demand depending on the direction of the government&amp;rsquo;s environmental policy.&lt;/p>
-&lt;p>This project focuses on building the model of forecasting the NG demand and supply amount of South Korea, which relies on imports for much of its energy sources. Datasets for training include various fields such as weather and prices of other energy resources, which are open-source.
-Also, those are trained by using deep learning methods such as the multi-layer perceptron(MLP) with long short-term memory(LSTM), using Tensorflow. In addition, a combination of the dataset from various factors is created by using pandas for training scenario-wise, and the results are compared by changing the variables and analyzed by different viewpoints.&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-related-work">2. Related Work&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-datasets">3. Datasets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-methodology">4. Methodology&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#41-min-max-scaling">4.1. Min-Max scaling&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#42-training">4.2. Training&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#43-evaluation">4.3. Evaluation&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#44-prediction">4.4. Prediction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-result">5. Result&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#51-scenario-oneregional-dataset">5.1 Scenario one(regional dataset)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#52-scenario-tworegional-climate-dataset">5.2 Scenario two(regional climate dataset)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#53-scenario-threeregional-temperature-dataset">5.3 Scenario three(regional temperature dataset)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#54-scenario-fourapplying-timesteps">5.4 Scenario four(applying timesteps)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#55-scenario-fivenational-dataset">5.5 Scenario five(national dataset)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#56-overall-results">5.6 Overall results&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-benchmarks">6. Benchmarks&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#7-conclusion">7. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-source-code">9. Source code&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#10-references">10. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> Natural Gas, supply, forecasting, South Korea, MLP with LSTM, Tensorflow, various dataset.&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>South Korea relies on imports for 92.8 percent of its energy resources as of the first half of 2020 &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. Among the energy resources, the Korea Gas Corporation(KOGAS) imports Liquified Natural Gas(LNG) from around the world and supplies it to power generation plants, gas-utility companies, and city gas companies throughout the country &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. It produces and supplies NG in order to ensure a stable gas supply for the nation. Moreover, it operates LNG storage tanks at LNG acquisition bases, storing LNG during the season when city gas demand is low and replenish LNG during winter when demand is higher than supply &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>The wholesale charges consist of raw material costs (LNG introduction and incidental costs) and gas supply costs &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. Therefore, the forecasting NG demand/supply will help establish an optimized mid-to-long-term plan for the introduction of LNG and stable NG supply and economic effects.&lt;/p>
-&lt;p>The factors which influence NG demand include weather, economic conditions, and petroleum prices. The winter weather strongly influences NG demand, and the hot summer weather can increase electric power demand for NG. In addition, some large-volume fuel consumers such as power plants and iron, steel, and paper mills can switch between NG, coal, and petroleum, depending on the cost of each fuel &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>Therefore, some indicators related to weather, economic conditions, and the price of other energy resources can be used for this project.&lt;/p>
-&lt;h2 id="2-related-work">2. Related Work&lt;/h2>
-&lt;p>Khotanzad and Elragal (1999) proposed a two-stage system with the first stage containing a combination of artificial neural network(ANN) for prediction of daily NG consumption &lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>, and Khotanzad et al. (2000) combined eight different algorithms to improve the performance of forecasters &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>. Mustafa Akpinar et al. (2016) used daily NG consumption data to forecast the NG demand by ABC-based ANN &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>. Also, Athanasios Anagnostis et al. (2019) conducted daily NG demand prediction by a comparative analysis between ANN and LSTM &lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup>. Unlike those methods, MLP with LSTM is applied for this project, and external factors affecting NG demand are changed and compared.&lt;/p>
-&lt;h2 id="3-datasets">3. Datasets&lt;/h2>
-&lt;p>As described, weather datasets like temperature and precipitation, price datasets of other energy resources like crude oil and coal, and economic indicators like exchange rate are used in this project for forecasting NG demand and supply.&lt;/p>
-&lt;p>There is an NG supply dataset &lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup> from a public data portal in South Korea. It includes four years from 2016 to 2019 of regional monthly NG supply in the nine different cities of South Korea. In addition, climate data such as temperature and precipitation &lt;sup id="fnref:11">&lt;a href="#fn:11" class="footnote-ref" role="doc-noteref">11&lt;/a>&lt;/sup> for the same period can be obtained from the Korea Meteorological Administration. Similarly, data on the price of four types of crude oil &lt;sup id="fnref:12">&lt;a href="#fn:12" class="footnote-ref" role="doc-noteref">12&lt;/a>&lt;/sup> and various types of coal price datasets per month &lt;sup id="fnref:13">&lt;a href="#fn:13" class="footnote-ref" role="doc-noteref">13&lt;/a>&lt;/sup> are also available through corresponding agencies. Finally, the Won-Dollar exchange rate dataset &lt;sup id="fnref:14">&lt;a href="#fn:14" class="footnote-ref" role="doc-noteref">14&lt;/a>&lt;/sup> with the same period is used.&lt;/p>
-&lt;p>As mentioned above, each dataset has monthly information and also has average values instead of the NG supply dataset. It is regionally separated or combined according to the test scenario. For example, the NG supply dataset has nine different cities. One column of cities is split from the original dataset and merged with another regional dataset like temperature or precipitation. On the other hand, each regional value&amp;rsquo;s summation is utilized in a scenario where a national dataset is needed.&lt;/p>
-&lt;p>The dataset is applied differently for each scenario. In scenario one, all datasets such as crude oil price, coal price, exchange rate, and regional temperature and precipitation are merged with regional dataset, especially Seoul. For scenario two, all climate datasets are used with the regional dataset. Only temperature dataset is utilized with regional dataset in scenario three. In addition, in scenario four, all cases are the same as in scenario one, but the timesteps are changed to two months. Finally, the national dataset is used for scenario five.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/each_factors.png" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> External factors affecting natural gas&lt;/p>
-&lt;h2 id="4-methodology">4. Methodology&lt;/h2>
-&lt;h2 id="41-min-max-scaling">4.1. Min-Max scaling&lt;/h2>
-&lt;p>In this project, all datasets are rescaled between 0 and 1 by Min-Max scaling, one of the most common normalization methods. If there is a feature with anonymous data, The maximum value(max(x)) of data is converted to 1, and the minimum value(min(x)) of data is converted to 0. The other values between the maximum value and the minimum value get converted to x', between 0 and 1.&lt;/p>
-&lt;img src="https://render.githubusercontent.com/render/math?math=%5CLarge%20x'%20%3D%20%5Cfrac%7Bx-min(x)%7D%7Bmax(x)-min(x)%7D">
-&lt;h2 id="42-training">4.2. Training&lt;/h2>
-&lt;p>For forecasting the NG supply amount from the time series dataset, MLP with LSTM network model is designed by using Tensorflow. The first and second LSTM layers have 100 units, and a total of 3 layers of MLP follow it. Each MLP layer has 100 neurons instead of the final layer, where its neuron is 1. In addition, dropout was designated to prevent overfitting of data, the Adam is used as an optimizer, and the Rectified Linear Unit(ReLU) as an activation function.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/structure_of_network.png" alt="Figure 2">&lt;/p>
-&lt;p>&lt;strong>Figure 2:&lt;/strong> Structure of network model&lt;/p>
-&lt;h2 id="43-evaluation">4.3. Evaluation&lt;/h2>
-&lt;p>Mean Absolute Error(MAE) and Root Mean Squared Error(RMSE) are applied for this time series dataset to evaluate this network model. The MAE measures the average magnitude of the errors and is presented by the formula as following, where n is the number of errors, &lt;img src="https://render.githubusercontent.com/render/math?math=y_i"> is the &lt;img src="https://render.githubusercontent.com/render/math?math=i%5E%7Bth%7D"> true value, and &lt;img src="https://render.githubusercontent.com/render/math?math=%5Chat%7By_i%7D"> is the &lt;img src="https://render.githubusercontent.com/render/math?math=i%5E%7Bth%7D"> predicted value.&lt;/p>
-&lt;img src="https://render.githubusercontent.com/render/math?math=%5CLarge%20MAE%20%3D%20%5Cfrac%7B%5CSigma_%7Bi%3D1%7D%5En%7Cy_i-%5Chat%7By_i%7D%7C%7D%7Bn%7D">
-&lt;p>Also, The RMSE is used for observing the differences between the actual dataset and prediction values. The following is the formula of RMSE, and each value of this is the same for MAE.&lt;/p>
-&lt;img src="https://render.githubusercontent.com/render/math?math=%5CLarge%20RMSE%20%3D%20%5Csqrt%7B%5Cfrac%7B%5CSigma_%7Bi%3D1%7D%5En(y_i-%5Chat%7By_i%7D)%5E2%7D%7Bn%7D%7D">
-&lt;h2 id="44-prediction">4.4. Prediction&lt;/h2>
-&lt;p>Since the datasets used for the training process are normalized between 0 and 1, they get converted to a range of the ground truth values again. From these rescaled datasets, it is possible to obtain the RMSE and compare the differences between the actual value and the predicted value.&lt;/p>
-&lt;h2 id="5-result">5. Result&lt;/h2>
-&lt;p>In all scenarios, main variables such as dropout, learning rate, and epochs are fixed under the same conditions and are 0.1, 0.0005, and 100 in order. In scenarios one, two, three, and five, the training set is applied as twelve months, and in scenario four, next month&amp;rsquo;s prediction comes from the previous two months dataset. For comparative analysis, the results are obtained by changing the size of the training set from twelve months to twenty-four months, and the effect is described. Each scenario shows individual results and is comprehensively compared at the end of this part.&lt;/p>
-&lt;h2 id="51-scenario-oneregional-dataset">5.1 Scenario one(regional dataset)&lt;/h2>
-&lt;p>The final MAE of the train set is around 0.05, and the one of the test set is around 0.19. Also, the RMSE between actual data and predicted data is around 227018. The predictive graph tends to deviate a lot at the beginning of the part, but it shows a relatively similar shape at the end of the graph.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Error_For_SenarioOne.png" alt="Figure 3">&lt;/p>
-&lt;p>&lt;strong>Figure 3:&lt;/strong> Loss for scenario one&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Prediction_for_SenarioOne.png" alt="Figure 4">&lt;/p>
-&lt;p>&lt;strong>Figure 4:&lt;/strong> Prediction results for scenario one&lt;/p>
-&lt;h2 id="52-scenario-tworegional-climate-dataset">5.2 Scenario two(regional climate dataset)&lt;/h2>
-&lt;p>The final MAE of the train set is around 0.10, and the one of the test set is around 0.14. Also, the RMSE is around 185205. Although the predictive graph still differs compared to the actual graph, it shows similar trends in shape.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Error_For_SenarioTwo.png" alt="Figure 5">&lt;/p>
-&lt;p>&lt;strong>Figure 5:&lt;/strong> Loss for scenario two&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Prediction_for_SenarioTwo.png" alt="Figure 6">&lt;/p>
-&lt;p>&lt;strong>Figure 6:&lt;/strong> Prediction results for scenario two&lt;/p>
-&lt;h2 id="53-scenario-threeregional-temperature-dataset">5.3 Scenario three(regional temperature dataset)&lt;/h2>
-&lt;p>The final MAE of the train set is around 0.13, and the one of the test set is around 0.14. Also, the RMSE is around 207585. While the tendency to follow high and low seems similar, but changes in the middle seem to be misleading.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Error_For_SenarioThree.png" alt="Figure 7">&lt;/p>
-&lt;p>&lt;strong>Figure 7:&lt;/strong> Loss for scenario three&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Prediction_for_SenarioThree.png" alt="Figure 8">&lt;/p>
-&lt;p>&lt;strong>Figure 8:&lt;/strong> Prediction results for scenario three&lt;/p>
-&lt;h2 id="54-scenario-fourapplying-timesteps">5.4 Scenario four(applying timesteps)&lt;/h2>
-&lt;p>The final MAE of the train set is around 0.06, and the one of the test set is around 0.30. Also, the RMSE is around 340843. Out of all scenarios, the predictive graph shows to have the most differences. However, in the last part, there is a somewhat akin tendency.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Error_For_SenarioFour.png" alt="Figure 9">&lt;/p>
-&lt;p>&lt;strong>Figure 9:&lt;/strong> Loss for scenario four&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Prediction_for_SenarioFour.png" alt="Figure 10">&lt;/p>
-&lt;p>&lt;strong>Figure 10:&lt;/strong> Prediction results for scenario four&lt;/p>
-&lt;h2 id="55-scenario-fivenational-dataset">5.5 Scenario five(national dataset)&lt;/h2>
-&lt;p>The final MAE of the train set is around 0.03 and the one of test set is around 0.14. Also, the RMSE between real data and predicted data is around 587340. Tremendous RMSE value results, but direct comparisons are not possible because the baseline volume is different from other scenarios. Although the predictive graph shows discrepancy, it tends to be similar to the results in scenario two.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Error_For_SenarioFive.png" alt="Figure 11">&lt;/p>
-&lt;p>&lt;strong>Figure 11:&lt;/strong> Loss for scenario five&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Prediction_for_SenarioFive.png" alt="Figure 12">&lt;/p>
-&lt;p>&lt;strong>Figure 12:&lt;/strong> Prediction results for scenario five&lt;/p>
-&lt;h2 id="56-overall-results">5.6 Overall results&lt;/h2>
-&lt;p>Out of the five scenarios in total, the second and third have smaller RMSE than others, and the graphs also show relatively similar results. The first and fourth show differences in the beginning and similar trends in the last part. However, it is noteworthy that the gap at the beginning of them is very large, but it tends to shrink together at the point of decline and stretch together at the point of increase.&lt;/p>
-&lt;p>In the first and fifth scenarios, all data are identical except that they differ in regional scale in temperature and precipitation. It is also the same that twelve months of data are used as the training set. From the subtle differences in the shape of the resulting graph, it can be seen that the national average data cannot represent the situation in a particular region, and the amount of NG supply differs depending on the circumstances in the region.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/compared_prediction.png" alt="Figure 13">&lt;/p>
-&lt;p>&lt;strong>Figure 13:&lt;/strong> Total prediction results: 12 months training set&lt;/p>
-&lt;p>After changing the training set from twelve months to twenty-four months, the results are more clearly visible. The second and third prediction graphs have a more similar shape and the RMSE value decreases than the previous setting. The results of other scenarios show that the overall shape has improved; contrarily, the shape of the rapidly changing middle part is better in the previous condition.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/compared_prediction_2.png" alt="Figure 14">&lt;/p>
-&lt;p>&lt;strong>Figure 14:&lt;/strong> Total prediction results: 24 months training set&lt;/p>
-&lt;h2 id="6-benchmarks">6. Benchmarks&lt;/h2>
-&lt;p>For a benchmark, the Cloudmesh StopWatch and Benchmark &lt;sup id="fnref:15">&lt;a href="#fn:15" class="footnote-ref" role="doc-noteref">15&lt;/a>&lt;/sup> is used to measure the program&amp;rsquo;s performance. The time spent on data load, data preprocessing, network model compile, training, and the prediction was separately measured, and the overall time for execution of all scenarios is around 77 seconds. It can be seen that The training time for the fourth scenario is the longest, and the one for the fifth scenario is the shortest.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/benchmarks.png" alt="Figure 15">&lt;/p>
-&lt;p>&lt;strong>Figure 15:&lt;/strong> Benchmarks&lt;/p>
-&lt;h2 id="7-conclusion">7. Conclusion&lt;/h2>
-&lt;p>From the results of this project, it can be seen that simplifying factors that have a significant impact shows better efficiency than combining various factors. For example, NG consumption tends to increase for heating in cold weather. In addition, there is much precipitation in warm or hot weather; on the contrary, there is relatively little precipitation in the cold weather. It can be seen that these seasonal elements show relatively high consistency for affecting prediction when those are used as training datasets. Also, the predictions are derived more effectively when the seasonal datasets are combined.&lt;/p>
-&lt;p>However, in training set with a duration of twelve months, the last part of the scenario tends to match the actual data despite using the dataset combined with various factors that appears to be seasonally unrelated. Furthermore, when the training set is doubled on the same dataset, it can be seen that the differences between the actual and prediction graph are decreased than the result of a smaller training set. Based on this, it can be expected that the results could vary if a large amount of dataset with a more extended period is used and the ratio of the training set is appropriately adjusted.&lt;/p>
-&lt;p>South Korea imports a large amount of its energy resources. Also, the plan for energy demand and supply is being made and operated through nation-led policies. Ironically, the government&amp;rsquo;s plan also shows a sharp change in direction with recent environmental issues, and the volatility of demand in the energy market is increasing than before. Therefore, methodologies for accurate forecasting of energy demand will need to be complemented and developed constantly to prepare for and overcome this variability.&lt;/p>
-&lt;p>In this project, Forecasting NG demand and supply was carried out using various data factors such as weather and price that is relatively easily obtained than the datasets which are complex economic indicators or classified as confidential. Nevertheless, state-of-the-art deep learning methods show that it has the flexibility and potential to forecast NG demand through the tendency of the results that indicate a relatively consistent with the actual data. From this point of view, it is thought that the research on NG in South Korea should be conducted in an advanced form by utilizing various data and more specialized analysis.&lt;/p>
-&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
-&lt;p>The author would like to thank Dr. Gregor von Laszewski for his invaluable feedback, continued assistance, and suggestions on this paper, and Dr. Geoffrey Fox for sharing his expertise in Deep Learning and Artificial Intelligence applications throughout this Deep Learning Application: AI-First Engineering course offered in the Spring 2021 semester at Indiana University, Bloomington.&lt;/p>
-&lt;h2 id="9-source-code">9. Source code&lt;/h2>
-&lt;p>The source code for all experiments and results can be found here as &lt;a href="https://github.com/cybertraining-dsc/sp21-599-356/blob/main/project/code/Forecasting_NG_Demand_Supply.ipynb">ipynb link&lt;/a> and as &lt;a href="https://github.com/cybertraining-dsc/sp21-599-356/blob/main/project/code/Forecasting_NG_Demand_Supply.pdf">pdf link&lt;/a>.&lt;/p>
-&lt;h2 id="10-references">10. References&lt;/h2>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>2020 Monthly Energy Statistics, [Online resource]
-&lt;a href="http://www.keei.re.kr/keei/download/MES2009.pdf">http://www.keei.re.kr/keei/download/MES2009.pdf&lt;/a>, Sep. 2020 &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>KOGAS profile, [Online resource]
-&lt;a href="https://www.kogas.or.kr:9450/eng/contents.do?key=1498">https://www.kogas.or.kr:9450/eng/contents.do?key=1498&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:3" role="doc-endnote">
-&lt;p>LNG production phase, [Online resource]
-&lt;a href="https://www.kogas.or.kr:9450/portal/contents.do?key=2014">https://www.kogas.or.kr:9450/portal/contents.do?key=2014&lt;/a> &lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:4" role="doc-endnote">
-&lt;p>NG wholesale charges, [Online resource]
-&lt;a href="https://www.kogas.or.kr:9450/portal/contents.do?key=2026">https://www.kogas.or.kr:9450/portal/contents.do?key=2026&lt;/a> &lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:5" role="doc-endnote">
-&lt;p>Natural gas explained, [Online resource],
-&lt;a href="https://www.eia.gov/energyexplained/natural-gas/factors-affecting-natural-gas-prices.php">https://www.eia.gov/energyexplained/natural-gas/factors-affecting-natural-gas-prices.php&lt;/a>, Aug, 2020 &lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:6" role="doc-endnote">
-&lt;p>A. Khotanzad and H. Elragal, &amp;ldquo;Natural gas load forecasting with combination of adaptive neural networks,&amp;rdquo; IJCNN'99. International Joint Conference on Neural Networks. Proceedings (Cat. No.99CH36339), 1999, pp. 4069-4072 vol.6, doi: 10.1109/IJCNN.1999.830812. &lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:7" role="doc-endnote">
-&lt;p>A. Khotanzad, H. Elragal and T. . -L. Lu, &amp;ldquo;Combination of artificial neural-network forecasters for prediction of natural gas consumption,&amp;rdquo; in IEEE Transactions on Neural Networks, vol. 11, no. 2, pp. 464-473, March 2000, doi: 10.1109/72.839015. &lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:8" role="doc-endnote">
-&lt;p>M. Akpinar, M. F. Adak and N. Yumusak, &amp;ldquo;Forecasting natural gas consumption with hybrid neural networks — Artificial bee colony,&amp;rdquo; 2016 2nd International Conference on Intelligent Energy and Power Systems (IEPS), 2016, pp. 1-6, doi: 10.1109/IEPS.2016.7521852. &lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:9" role="doc-endnote">
-&lt;p>A. Anagnostis, E. Papageorgiou, V. Dafopoulos and D. Bochtis, &amp;ldquo;Applying Long Short-Term Memory Networks for natural gas demand prediction,&amp;rdquo; 2019 10th International Conference on Information, Intelligence, Systems and Applications (IISA), 2019, pp. 1-7, doi: 10.1109/IISA.2019.8900746. &lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:10" role="doc-endnote">
-&lt;p>NG supply dataset, [Online resource],
-&lt;a href="https://www.data.go.kr/data/15049904/fileData.do">https://www.data.go.kr/data/15049904/fileData.do&lt;/a>, Apr, 2020 &lt;a href="#fnref:10" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:11" role="doc-endnote">
-&lt;p>Regional climate dataset, [Online resource]
-&lt;a href="https://data.kma.go.kr/climate/RankState/selectRankStatisticsDivisionList.do?pgmNo=179">https://data.kma.go.kr/climate/RankState/selectRankStatisticsDivisionList.do?pgmNo=179&lt;/a> &lt;a href="#fnref:11" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:12" role="doc-endnote">
-&lt;p>Crude oil orice dataset, [Online resource]
-&lt;a href="https://www.petronet.co.kr/main2.jsp">https://www.petronet.co.kr/main2.jsp&lt;/a> &lt;a href="#fnref:12" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:13" role="doc-endnote">
-&lt;p>Bituminous coal price dataset, [Online resource]
-&lt;a href="https://www.kores.net/komis/price/mineralprice/ironoreenergy/pricetrend/baseMetals.do?mc_seq=3030003&amp;amp;mnrl_pc_mc_seq=506">https://www.kores.net/komis/price/mineralprice/ironoreenergy/pricetrend/baseMetals.do?mc_seq=3030003&amp;amp;mnrl_pc_mc_seq=506&lt;/a> &lt;a href="#fnref:13" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:14" role="doc-endnote">
-&lt;p>Won-Dollar exchange rate dateset, [Online resource]
-&lt;a href="http://ecos.bok.or.kr/flex/EasySearch.jsp?langGubun=K&amp;amp;topCode=022Y013">http://ecos.bok.or.kr/flex/EasySearch.jsp?langGubun=K&amp;amp;topCode=022Y013&lt;/a> &lt;a href="#fnref:14" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:15" role="doc-endnote">
-&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
-&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:15" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item><item><title>Report: NBA Performance and Injury</title><link>/report/fa20-523-301/project/project/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/fa20-523-301/project/project/</guid><description>
