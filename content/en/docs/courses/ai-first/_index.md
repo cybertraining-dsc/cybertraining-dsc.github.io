@@ -399,7 +399,7 @@ class Piazza.
 
 {{< view_module alt="Git Pull Request"
 	src="/images/youtube.jpg"
-	url="/docs/modules/git-pull-request/"
+	url="/docs/tutorial/git-pull-request/"
 >}}
 
 Git Pull Request. Here you will learn how to do a simple git pull
