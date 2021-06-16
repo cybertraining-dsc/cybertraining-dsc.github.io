@@ -59,9 +59,8 @@ anchor = "smart"
 [[menu.main]]
     name = "GitHub"
     weight = 50
-    url = "https://github.com/google/docsy/"
+    url = "https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/"
     pre = "<i class='fab fa-github'></i>"
-    # post = "<span class='alert'>New!</span>" 
 
 [services]
 [services.googleAnalytics]
