@@ -57,12 +57,12 @@ refresh the page.&lt;/p>
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/course_lectures">
+&lt;a href="/docs/modules/ai-first/2021/course_lectures">
 &lt;img alt="Course Lectures" src="/images/bigdata.png"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/course_lectures">
+&lt;a href="/docs/modules/ai-first/2021/course_lectures">
 Course Lectures. These meeting notes are updated weekly (Web)
 &lt;/a>
 &lt;/td>
@@ -84,12 +84,12 @@ Course Lectures. These meeting notes are updated weekly (Web)
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/introduction">
+&lt;a href="/docs/modules/ai-first/2021/introduction">
 &lt;img alt="Introduction to AI-Driven Digital Transformation (Web)" src="/images/aitransform.png"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/introduction">
+&lt;a href="/docs/modules/ai-first/2021/introduction">
 Introduction to AI-Driven Digital Transformation (Web)
 &lt;/a>
 &lt;/td>
@@ -104,12 +104,12 @@ Introduction to AI-Driven Digital Transformation (Web)
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/usecases">
+&lt;a href="/docs/modules/ai-first/2021/usecases">
 &lt;img alt="Big Data Usecases Survey" src="/images/usecases.png"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/usecases">
+&lt;a href="/docs/modules/ai-first/2021/usecases">
 This module covers 51 usecases of Big data that emerged from a NIST
 (National Institute for Standards and Technology) study of Big
 data. We cover the NIST Big Data Public Working Group (NBD-PWG)
@@ -133,12 +133,12 @@ key features of this classification.
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/python/google-colab/python-google-colab">
+&lt;a href="/docs/modules/python/google-colab/python-google-colab">
 &lt;img alt="A Gentle Introduction to Google Colab (Web)" src="/images/colab.png"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/python/google-colab/python-google-colab">
+&lt;a href="/docs/modules/python/google-colab/python-google-colab">
 A Gentle Introduction to Google Colab (Web)
 &lt;/a>
 &lt;/td>
@@ -151,12 +151,12 @@ A Gentle Introduction to Google Colab (Web)
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/python_initial">
+&lt;a href="/docs/modules/ai-first/2021/python_initial">
 &lt;img alt="A Gentle Introduction to Python on Google Colab (Web)" src="/images/colab.png"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/python_initial">
+&lt;a href="/docs/modules/ai-first/2021/python_initial">
 A Gentle Introduction to Python on Google Colab (Web)
 &lt;/a>
 &lt;/td>
@@ -169,12 +169,12 @@ A Gentle Introduction to Python on Google Colab (Web)
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/google_colab_exercise">
+&lt;a href="/docs/modules/ai-first/2021/google_colab_exercise">
 &lt;img alt="MNIST Classification on Google Colab (Web)" src="/images/colab.png"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/google_colab_exercise">
+&lt;a href="/docs/modules/ai-first/2021/google_colab_exercise">
 MNIST Classification on Google Colab (Web)
 &lt;/a>
 &lt;/td>
@@ -187,12 +187,12 @@ MNIST Classification on Google Colab (Web)
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/google_colab_mlp">
+&lt;a href="/docs/modules/ai-first/2021/google_colab_mlp">
 &lt;img alt="MNIST Classification with MLP on Google Colab (Web)" src="/images/colab.png"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/google_colab_mlp">
+&lt;a href="/docs/modules/ai-first/2021/google_colab_mlp">
 MNIST-MLP Classification on Google Colab (Web)
 &lt;/a>
 &lt;/td>
@@ -205,12 +205,12 @@ MNIST-MLP Classification on Google Colab (Web)
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/google_colab_rnn">
+&lt;a href="/docs/modules/ai-first/2021/google_colab_rnn">
 &lt;img alt="MNIST Classification with RNN on Google Colab (Web)" src="/images/colab.png"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/google_colab_rnn">
+&lt;a href="/docs/modules/ai-first/2021/google_colab_rnn">
 MNIST-RNN Classification on Google Colab (Web)
 &lt;/a>
 &lt;/td>
@@ -223,12 +223,12 @@ MNIST-RNN Classification on Google Colab (Web)
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/google_colab_lstm">
+&lt;a href="/docs/modules/ai-first/2021/google_colab_lstm">
 &lt;img alt="MNIST Classification with LSTM on Google Colab (Web)" src="/images/colab.png"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/google_colab_lstm">
+&lt;a href="/docs/modules/ai-first/2021/google_colab_lstm">
 MNIST-LSTM Classification on Google Colab (Web)
 &lt;/a>
 &lt;/td>
@@ -241,12 +241,12 @@ MNIST-LSTM Classification on Google Colab (Web)
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/google_colab_autoencoder">
+&lt;a href="/docs/modules/ai-first/2021/google_colab_autoencoder">
 &lt;img alt="MNIST Classification with Autoencoder on Google Colab (Web)" src="/images/colab.png"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/google_colab_autoencoder">
+&lt;a href="/docs/modules/ai-first/2021/google_colab_autoencoder">
 MNIST-Autoencoder Classification on Google Colab (Web)
 &lt;/a>
 &lt;/td>
@@ -259,12 +259,12 @@ MNIST-Autoencoder Classification on Google Colab (Web)
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/google_colab_mlp_lstm">
+&lt;a href="/docs/modules/ai-first/2021/google_colab_mlp_lstm">
 &lt;img alt="MNIST Classification with MLP &amp;#43; LSTM" src="/images/colab.png"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/google_colab_mlp_lstm">
+&lt;a href="/docs/modules/ai-first/2021/google_colab_mlp_lstm">
 MNIST with MLP+LSTM Classification on Google Colab (Web)
 &lt;/a>
 &lt;/td>
@@ -277,12 +277,12 @@ MNIST with MLP+LSTM Classification on Google Colab (Web)
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/google_colab_distributed_training_tensorflow">
+&lt;a href="/docs/modules/ai-first/2021/google_colab_distributed_training_tensorflow">
 &lt;img alt="Distributed Training with MNIST" src="/images/colab.png"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/google_colab_distributed_training_tensorflow">
+&lt;a href="/docs/modules/ai-first/2021/google_colab_distributed_training_tensorflow">
 Distributed Training with MNIST Classification on Google Colab (Web)
 &lt;/a>
 &lt;/td>
@@ -295,12 +295,12 @@ Distributed Training with MNIST Classification on Google Colab (Web)
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/google_colab_pytorch_intro">
+&lt;a href="/docs/modules/ai-first/2021/google_colab_pytorch_intro">
 &lt;img alt="PyTorch with MNIST" src="/images/colab.png"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/google_colab_pytorch_intro">
+&lt;a href="/docs/modules/ai-first/2021/google_colab_pytorch_intro">
 PyTorch with MNIST Classification on Google Colab (Web)
 &lt;/a>
 &lt;/td>
@@ -316,12 +316,12 @@ PyTorch with MNIST Classification on Google Colab (Web)
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/physics">
+&lt;a href="/docs/modules/ai-first/2021/physics">
 &lt;img alt="Physics" src="/images/physics-hep.jpg"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/physics">
+&lt;a href="/docs/modules/ai-first/2021/physics">
 Big Data Applications and Analytics Discovery of Higgs Boson Part I
 (Unit 8) Section Units 9-11 Summary: This section starts by describing
 the LHC accelerator at CERN and evidence found by the experiments
@@ -352,12 +352,12 @@ Central Limit Theorem concludes discussion.
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/sports">
+&lt;a href="/docs/modules/ai-first/2021/sports">
 &lt;img alt="Sports" src="/images/sport.png"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/sports">
+&lt;a href="/docs/modules/ai-first/2021/sports">
 Sports sees significant growth in analytics with pervasive statistics
 shifting to more sophisticated measures. We start with baseball as
 game is built around segments dominated by individuals where detailed
@@ -380,12 +380,12 @@ NFL Football, Basketball, Tennis and Horse Racing.
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/health_and_medicine">
+&lt;a href="/docs/modules/ai-first/2021/health_and_medicine">
 &lt;img alt="Sports" src="/images/health.jpg"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/health_and_medicine">
+&lt;a href="/docs/modules/ai-first/2021/health_and_medicine">
 Health and Medicine sector has become a much more needed service than
 ever. With the uprising of the Covid-19, resource usage, monitoring,
 research on anti-virals and many more challenging tasks were on the
@@ -404,12 +404,12 @@ effectively.
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/ai_in_banking">
+&lt;a href="/docs/modules/ai-first/2021/ai_in_banking">
 &lt;img alt="AI in Banking" src="/images/ai_in_banking.jpg"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/ai_in_banking">
+&lt;a href="/docs/modules/ai-first/2021/ai_in_banking">
 AI in banking has become a vital component in providing best services to the
 peopel. AI provides securing bank transactions, providing suggestions and
 many other services for the clients. And legacy banking systems are also being
@@ -427,12 +427,12 @@ reinforced with novel AI techniques to migrate business models with technology.
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/transportation_systems">
+&lt;a href="/docs/modules/ai-first/2021/transportation_systems">
 &lt;img alt="Transportation Systems" src="/images/transportation_system.jpg"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/transportation_systems">
+&lt;a href="/docs/modules/ai-first/2021/transportation_systems">
 Transportation systems is a vital component in human life. With the dawn of AI,
 transportation systems are also reinforced to provide better service for the people.
 Analyzing tera-bytes of data collected in day-to-day transportation activities are used
@@ -450,12 +450,12 @@ to analyze issues and provide a better experience for the user.
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/space_and_energy">
+&lt;a href="/docs/modules/ai-first/2021/space_and_energy">
 &lt;img alt="Space and Energy" src="/images/space_and_energy.jpg"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/space_and_energy">
+&lt;a href="/docs/modules/ai-first/2021/space_and_energy">
 Energy is a term we find in everyday life. Conserving energy and smart usage is vital in managing energy demands.
 Here the role played by AI has become significant in recent years.
 Many efforts have been taken by industry leaders like Bill Gates to provide better solutions for efficient energy consumption.
@@ -473,12 +473,12 @@ data analysis have become key components in succeeding the challenge to unravel 
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/mobility">
+&lt;a href="/docs/modules/ai-first/2021/mobility">
 &lt;img alt="Mobility (Industry)" src="/images/mobility.jpg"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/mobility">
+&lt;a href="/docs/modules/ai-first/2021/mobility">
 Mobility is a key part in everyday life. From the personal car to space exploring rockets, there are many places that can
 be enhanced by using AI. Autonomous vehicles and sensing features provide safety and efficiency. Many motorcar companies
 have already moved towards AI to power the vehicles and provide new features for the drivers.
@@ -494,12 +494,12 @@ have already moved towards AI to power the vehicles and provide new features for
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/cloud_computing">
+&lt;a href="/docs/modules/ai-first/2021/cloud_computing">
 &lt;img alt="Cloud Computing" src="/images/cloud_computing.jpg"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/cloud_computing">
+&lt;a href="/docs/modules/ai-first/2021/cloud_computing">
 Cloud computing is a major component of Today's service infrastructures. Artificial intelligence, micro-services, storage,
 virtualization and parallel computing are some of the key aspects of cloud computing.
 &lt;/a>
@@ -514,12 +514,12 @@ virtualization and parallel computing are some of the key aspects of cloud compu
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/commerce">
+&lt;a href="/docs/modules/ai-first/2021/commerce">
 &lt;img alt="Commerce" src="/images/commerce.png"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/ai-first/2021/commerce">
+&lt;a href="/docs/modules/ai-first/2021/commerce">
 Commerce is a field which is reinforced with AI and technologies to provide a better service to the clients.
 Amazon is one of the leading companies in e-commerce. The recommendation engines play a major role in e-commerce.
 &lt;/a>
@@ -578,12 +578,12 @@ class Piazza.
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/git-pull-request/">
+&lt;a href="/docs/modules/git-pull-request/">
 &lt;img alt="Git Pull Request" src="/images/youtube.jpg"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/git-pull-request/">
+&lt;a href="/docs/modules/git-pull-request/">
 Git Pull Request. Here you will learn how to do a simple git pull
 request either via the GitHub GUI or the git command line tools
 &lt;/a>
@@ -752,12 +752,12 @@ refresh the page.&lt;/p>
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/bigdataapplications/2020/course_lectures">
+&lt;a href="/docs/modules/bigdataapplications/2020/course_lectures">
 &lt;img alt="Course Lectures" src="/images/bigdata.png"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/bigdataapplications/2020/course_lectures">
+&lt;a href="/docs/modules/bigdataapplications/2020/course_lectures">
 Course Lectures. These meeting notes are updated weekly (Web)
 &lt;/a>
 &lt;/td>
@@ -772,12 +772,12 @@ Course Lectures. These meeting notes are updated weekly (Web)
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/bigdataapplications/2020/introduction">
+&lt;a href="/docs/modules/bigdataapplications/2020/introduction">
 &lt;img alt="Introduction to AI-Driven Digital Transformation (Web)" src="/images/aitransform.png"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/bigdataapplications/2020/introduction">
+&lt;a href="/docs/modules/bigdataapplications/2020/introduction">
 Introduction to AI-Driven Digital Transformation (Web)
 &lt;/a>
 &lt;/td>
@@ -791,12 +791,12 @@ Introduction to AI-Driven Digital Transformation (Web)
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/bigdataapplications/2020/usecases">
+&lt;a href="/docs/modules/bigdataapplications/2020/usecases">
 &lt;img alt="Big Data Usecases Survey" src="/images/usecases.png"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/bigdataapplications/2020/usecases">
+&lt;a href="/docs/modules/bigdataapplications/2020/usecases">
 This module covers 51 usecases of Big data that emerged from a NIST
 (National Institute for Standards and Technology) study of Big
 data. We cover the NIST Big Data Public Working Group (NBD-PWG)
@@ -819,12 +819,12 @@ key features of this classification.
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/python/google-colab/python-google-colab">
+&lt;a href="/docs/modules/python/google-colab/python-google-colab">
 &lt;img alt="A Gentle Introduction to Google Colab (Web)" src="/images/colab.png"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/python/google-colab/python-google-colab">
+&lt;a href="/docs/modules/python/google-colab/python-google-colab">
 A Gentle Introduction to Google Colab (Web)
 &lt;/a>
 &lt;/td>
@@ -837,12 +837,12 @@ A Gentle Introduction to Google Colab (Web)
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/bigdataapplications/2020/python_initial">
+&lt;a href="/docs/modules/bigdataapplications/2020/python_initial">
 &lt;img alt="A Gentle Introduction to Python on Google Colab (Web)" src="/images/colab.png"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/bigdataapplications/2020/python_initial">
+&lt;a href="/docs/modules/bigdataapplications/2020/python_initial">
 A Gentle Introduction to Python on Google Colab (Web)
 &lt;/a>
 &lt;/td>
@@ -855,12 +855,12 @@ A Gentle Introduction to Python on Google Colab (Web)
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/bigdataapplications/2020/google_colab_exercise">
+&lt;a href="/docs/modules/bigdataapplications/2020/google_colab_exercise">
 &lt;img alt="MNIST Classification on Google Colab (Web)" src="/images/colab.png"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/bigdataapplications/2020/google_colab_exercise">
+&lt;a href="/docs/modules/bigdataapplications/2020/google_colab_exercise">
 MNIST Classification on Google Colab (Web)
 &lt;/a>
 &lt;/td>
@@ -875,12 +875,12 @@ MNIST Classification on Google Colab (Web)
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/bigdataapplications/2020/physics">
+&lt;a href="/docs/modules/bigdataapplications/2020/physics">
 &lt;img alt="Physics" src="/images/physics-hep.jpg"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/bigdataapplications/2020/physics">
+&lt;a href="/docs/modules/bigdataapplications/2020/physics">
 Big Data Applications and Analytics Discovery of Higgs Boson Part I
 (Unit 8) Section Units 9-11 Summary: This section starts by describing
 the LHC accelerator at CERN and evidence found by the experiments
@@ -909,12 +909,12 @@ Central Limit Theorem concludes discussion.
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/bigdataapplications/2020/sports">
+&lt;a href="/docs/modules/bigdataapplications/2020/sports">
 &lt;img alt="Sports" src="/images/sport.png"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/bigdataapplications/2020/sports">
+&lt;a href="/docs/modules/bigdataapplications/2020/sports">
 Sports sees significant growth in analytics with pervasive statistics
 shifting to more sophisticated measures. We start with baseball as
 game is built around segments dominated by individuals where detailed
@@ -936,12 +936,12 @@ NFL Football, Basketball, Tennis and Horse Racing.
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/bigdataapplications/2020/health_and_medicine">
+&lt;a href="/docs/modules/bigdataapplications/2020/health_and_medicine">
 &lt;img alt="Sports" src="/images/health.jpg"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/bigdataapplications/2020/health_and_medicine">
+&lt;a href="/docs/modules/bigdataapplications/2020/health_and_medicine">
 Health and Medicine sector has become a much more needed service than
 ever. With the uprising of the Covid-19, resource usage, monitoring,
 research on anti-virals and many more challenging tasks were on the
@@ -960,12 +960,12 @@ effectively.
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/bigdataapplications/2020/ai_in_banking">
+&lt;a href="/docs/modules/bigdataapplications/2020/ai_in_banking">
 &lt;img alt="AI in Banking" src="/images/ai_in_banking.jpg"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/bigdataapplications/2020/ai_in_banking">
+&lt;a href="/docs/modules/bigdataapplications/2020/ai_in_banking">
 AI in banking has become a vital component in providing best services to the
 peopel. AI provides securing bank transactions, providing suggestions and
 many other services for the clients. And legacy banking systems are also being
@@ -982,12 +982,12 @@ reinforced with novel AI techniques to migrate business models with technology.
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/bigdataapplications/2020/transportation_systems">
+&lt;a href="/docs/modules/bigdataapplications/2020/transportation_systems">
 &lt;img alt="Transportation Systems" src="/images/transportation_system.jpg"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/bigdataapplications/2020/transportation_systems">
+&lt;a href="/docs/modules/bigdataapplications/2020/transportation_systems">
 Transportation systems is a vital component in human life. With the dawn of AI,
 transportation systems are also reinforced to provide better service for the people.
 Analyzing tera-bytes of data collected in day-to-day transportation activities are used
@@ -1004,12 +1004,12 @@ to analyze issues and provide a better experience for the user.
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/bigdataapplications/2020/space_and_energy">
+&lt;a href="/docs/modules/bigdataapplications/2020/space_and_energy">
 &lt;img alt="Space and Energy" src="/images/space_and_energy.jpg"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/bigdataapplications/2020/space_and_energy">
+&lt;a href="/docs/modules/bigdataapplications/2020/space_and_energy">
 Energy is a term we find in everyday life. Conserving energy and smart usage is vital in managing energy demands.
 Here the role played by AI has become significant in recent years.
 Many efforts have been taken by industry leaders like Bill Gates to provide better solutions for efficient energy consumption.
@@ -1027,12 +1027,12 @@ data analysis have become key components in succeeding the challenge to unravel 
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/bigdataapplications/2020/mobility">
+&lt;a href="/docs/modules/bigdataapplications/2020/mobility">
 &lt;img alt="Mobility (Industry)" src="/images/mobility.jpg"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/bigdataapplications/2020/mobility">
+&lt;a href="/docs/modules/bigdataapplications/2020/mobility">
 Mobility is a key part in everyday life. From the personal car to space exploring rockets, there are many places that can
 be enhanced by using AI. Autonomous vehicles and sensing features provide safety and efficiency. Many motorcar companies
 have already moved towards AI to power the vehicles and provide new features for the drivers.
@@ -1048,12 +1048,12 @@ have already moved towards AI to power the vehicles and provide new features for
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/bigdataapplications/2020/cloud_computing">
+&lt;a href="/docs/modules/bigdataapplications/2020/cloud_computing">
 &lt;img alt="Cloud Computing" src="/images/cloud_computing.jpg"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/bigdataapplications/2020/cloud_computing">
+&lt;a href="/docs/modules/bigdataapplications/2020/cloud_computing">
 Cloud computing is a major component of Today's service infrastructures. Artificial intelligence, micro-services, storage,
 virtualization and parallel computing are some of the key aspects of cloud computing.
 &lt;/a>
@@ -1068,12 +1068,12 @@ virtualization and parallel computing are some of the key aspects of cloud compu
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/bigdataapplications/2020/commerce">
+&lt;a href="/docs/modules/bigdataapplications/2020/commerce">
 &lt;img alt="Commerce" src="/images/commerce.png"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/bigdataapplications/2020/commerce">
+&lt;a href="/docs/modules/bigdataapplications/2020/commerce">
 Commerce is a field which is reinforced with AI and technologies to provide a better service to the clients.
 Amazon is one of the leading companies in e-commerce. The recommendation engines play a major role in e-commerce.
 &lt;/a>
@@ -1132,12 +1132,12 @@ class Piazza.
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="/modules/git-pull-request/">
+&lt;a href="/docs/modules/git-pull-request/">
 &lt;img alt="Git Pull Request" src="/images/youtube.jpg"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="/modules/git-pull-request/">
+&lt;a href="/docs/modules/git-pull-request/">
 Git Pull Request. Here you will learn how to do a simple git pull
 request either via the GitHub GUI or the git command line tools
 &lt;/a>
@@ -2308,7 +2308,7 @@ pictures.&lt;/p>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>&lt;a href="/modules/python/google-colab/python-google-colab">
+&lt;td>&lt;a href="/docs/modules/python/google-colab/python-google-colab">
 &lt;figure>
 &lt;img src="/images/colab.png" width="15%"/>
 &lt;/figure>
@@ -2327,7 +2327,7 @@ needed for day-to-day coding.&lt;/p>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>&lt;a href="/modules/bigdataapplications/2020/python_initial">
+&lt;td>&lt;a href="/docs/modules/bigdataapplications/2020/python_initial">
 &lt;figure>
 &lt;img src="/images/colab.png" width="15%"/>
 &lt;/figure>
@@ -2345,7 +2345,7 @@ A Gentle Introduction to Python on Google Colab (Web)&lt;/a>&lt;/td>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>&lt;a href="/modules/bigdataapplications/2020/google_colab_exercise">
+&lt;td>&lt;a href="/docs/modules/bigdataapplications/2020/google_colab_exercise">
 &lt;figure>
 &lt;img src="/images/colab.png" width="15%"/>
 &lt;/figure>
