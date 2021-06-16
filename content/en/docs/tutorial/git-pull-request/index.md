@@ -1,6 +1,7 @@
 ---
 title: "Git pull requst"
 linkTitle: "Git pull request"
+github_url: "https://www.google.com"
 tags: ["git"]
 weight: 100
 date: 2020-08-15

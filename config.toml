@@ -3,6 +3,7 @@ title = "Cybertraining"
 # publishDir = "docs"
 # ignoreFiles = [ "\\.rst$"]
 
+
 enableRobotsTXT = true
 
 # Hugo allows theme composition (and inheritance). The precedence is from left to right.
@@ -119,8 +120,12 @@ url_latest_version = "https://cyvbetraining-dsc.github.io"
 
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
+github_branch = "main"
 github_repo = "https://github.com/cybertraining-dsc/cybertraining-dsc.github.io"
 github_project_repo = "https://github.com/cybertraining-dsc/cybertraining-dsc.github.io"
+
+# https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/edit/master/content/en/docs/tutorial/git-pull-request/index.md
+# https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/blob/main/content/en/docs/_index.md
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = "userguide"

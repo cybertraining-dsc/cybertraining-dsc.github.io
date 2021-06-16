@@ -46,7 +46,7 @@ This module will introduce you to how to use Google Colab to run deep learning m
 
 |     |
 | --- |
-|  [{{< figure src="/images/colab.png" width="15%">}} A Gentle Introduction to Google Colab (Web)](/modules/python/google-colab/python-google-colab) |
+|  [{{< figure src="/images/colab.png" width="15%">}} A Gentle Introduction to Google Colab (Web)](/docs/modules/python/google-colab/python-google-colab) |
 
 
 ## 2. (Optional) Basic Python in Google Colab
@@ -56,7 +56,7 @@ needed for day-to-day coding.
 
 |     |
 | --- |
-|  [{{< figure src="/images/colab.png" width="15%">}} A Gentle Introduction to Python on Google Colab (Web)](/modules/bigdataapplications/2020/python_initial) |
+|  [{{< figure src="/images/colab.png" width="15%">}} A Gentle Introduction to Python on Google Colab (Web)](/docs/modules/bigdataapplications/2020/python_initial) |
 
 ## 3. MNIST On Google colab
 
@@ -65,7 +65,7 @@ In this module, we discuss how to create a simple IPython Notebook to solve an i
 
 |     |
 | --- |
-|  [{{< figure src="/images/colab.png" width="15%">}} MNIST Classification on Google Colab (Web)](/modules/bigdataapplications/2020/google_colab_exercise) |
+|  [{{< figure src="/images/colab.png" width="15%">}} MNIST Classification on Google Colab (Web)](/docs/modules/bigdataapplications/2020/google_colab_exercise) |
 
 ## Assignments
 

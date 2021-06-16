@@ -38,7 +38,7 @@ We will use the following material:
 
 {{< view_module alt="Course Lectures"
 	src="/images/bigdata.png"
-	url="/modules/bigdataapplications/2020/course_lectures"
+	url="/docs/modules/bigdataapplications/2020/course_lectures"
 >}}
 
 Course Lectures. These meeting notes are updated weekly (Web)
@@ -53,7 +53,7 @@ Course Lectures. These meeting notes are updated weekly (Web)
 {{< view_module
 	alt="Introduction to AI-Driven Digital Transformation (Web)"
 	src="/images/aitransform.png"
-	url="/modules/bigdataapplications/2020/introduction"
+	url="/docs/modules/bigdataapplications/2020/introduction"
 >}}
 
 Introduction to AI-Driven Digital Transformation (Web)
@@ -65,7 +65,7 @@ Introduction to AI-Driven Digital Transformation (Web)
 {{< view_module
 	alt="Big Data Usecases Survey"
 	src="/images/usecases.png"
-	url="/modules/bigdataapplications/2020/usecases"
+	url="/docs/modules/bigdataapplications/2020/usecases"
 >}}
 
 This module covers 51 usecases of Big data that emerged from a NIST
@@ -86,7 +86,7 @@ key features of this classification.
 {{< view_module
 	alt="A Gentle Introduction to Google Colab (Web)"
 	src="/images/colab.png"
-	url="/modules/python/google-colab/python-google-colab"
+	url="/docs/modules/python/google-colab/python-google-colab"
 	>}}
 
 A Gentle Introduction to Google Colab (Web)
@@ -96,7 +96,7 @@ A Gentle Introduction to Google Colab (Web)
 {{< view_module
 	alt="A Gentle Introduction to Python on Google Colab (Web)"
 	src="/images/colab.png"
-	url="/modules/bigdataapplications/2020/python_initial"
+	url="/docs/modules/bigdataapplications/2020/python_initial"
 >}}
 
 A Gentle Introduction to Python on Google Colab (Web)
@@ -106,7 +106,7 @@ A Gentle Introduction to Python on Google Colab (Web)
 {{< view_module
 	alt="MNIST Classification on Google Colab (Web)"
 	src="/images/colab.png"
-	url="/modules/bigdataapplications/2020/google_colab_exercise"
+	url="/docs/modules/bigdataapplications/2020/google_colab_exercise"
 	>}}
 	
 MNIST Classification on Google Colab (Web)
@@ -120,7 +120,7 @@ MNIST Classification on Google Colab (Web)
 {{< view_module
 	alt="Physics"
 	src="/images/physics-hep.jpg"
-	url="/modules/bigdataapplications/2020/physics"
+	url="/docs/modules/bigdataapplications/2020/physics"
 >}}
 
 Big Data Applications and Analytics Discovery of Higgs Boson Part I
@@ -147,7 +147,7 @@ Central Limit Theorem concludes discussion.
 {{< view_module
 	alt="Sports"
 	src="/images/sport.png"
-	url="/modules/bigdataapplications/2020/sports"
+	url="/docs/modules/bigdataapplications/2020/sports"
 >}}
 
 Sports sees significant growth in analytics with pervasive statistics
@@ -168,7 +168,7 @@ NFL Football, Basketball, Tennis and Horse Racing.
 {{< view_module
 	alt="Sports"
 	src="/images/health.jpg"
-	url="/modules/bigdataapplications/2020/health_and_medicine"
+	url="/docs/modules/bigdataapplications/2020/health_and_medicine"
 >}}
 
 Health and Medicine sector has become a much more needed service than
@@ -187,7 +187,7 @@ effectively.
 {{< view_module
 	alt="AI in Banking"
 	src="/images/ai_in_banking.jpg"
-	url="/modules/bigdataapplications/2020/ai_in_banking"
+	url="/docs/modules/bigdataapplications/2020/ai_in_banking"
 >}}
 
 AI in banking has become a vital component in providing best services to the
@@ -203,7 +203,7 @@ reinforced with novel AI techniques to migrate business models with technology.
 {{< view_module
 	alt="Transportation Systems"
 	src="/images/transportation_system.jpg"
-	url="/modules/bigdataapplications/2020/transportation_systems"
+	url="/docs/modules/bigdataapplications/2020/transportation_systems"
 >}}
 
 Transportation systems is a vital component in human life. With the dawn of AI,
@@ -219,7 +219,7 @@ to analyze issues and provide a better experience for the user.
 {{< view_module
 	alt="Space and Energy"
 	src="/images/space_and_energy.jpg"
-	url="/modules/bigdataapplications/2020/space_and_energy"
+	url="/docs/modules/bigdataapplications/2020/space_and_energy"
 >}}
 
 Energy is a term we find in everyday life. Conserving energy and smart usage is vital in managing energy demands. 
@@ -235,7 +235,7 @@ data analysis have become key components in succeeding the challenge to unravel 
 {{< view_module
 	alt="Mobility (Industry)"
 	src="/images/mobility.jpg"
-	url="/modules/bigdataapplications/2020/mobility"
+	url="/docs/modules/bigdataapplications/2020/mobility"
 >}}
 
 Mobility is a key part in everyday life. From the personal car to space exploring rockets, there are many places that can 
@@ -250,7 +250,7 @@ have already moved towards AI to power the vehicles and provide new features for
 {{< view_module
 	alt="Cloud Computing"
 	src="/images/cloud_computing.jpg"
-	url="/modules/bigdataapplications/2020/cloud_computing"
+	url="/docs/modules/bigdataapplications/2020/cloud_computing"
 >}}
 
 Cloud computing is a major component of Today's service infrastructures. Artificial intelligence, micro-services, storage, 
@@ -263,7 +263,7 @@ virtualization and parallel computing are some of the key aspects of cloud compu
 {{< view_module
 	alt="Commerce"
 	src="/images/commerce.png"
-	url="/modules/bigdataapplications/2020/commerce"
+	url="/docs/modules/bigdataapplications/2020/commerce"
 >}}
 
 Commerce is a field which is reinforced with AI and technologies to provide a better service to the clients. 
@@ -306,7 +306,7 @@ class Piazza.
 
 {{< view_module alt="Git Pull Request"
 	src="/images/youtube.jpg"
-	url="/modules/git-pull-request/"
+	url="/docs/modules/git-pull-request/"
 >}}
 
 Git Pull Request. Here you will learn how to do a simple git pull
