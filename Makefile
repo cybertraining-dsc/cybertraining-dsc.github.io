@@ -5,6 +5,17 @@ setup:
 	npm install autoprefixer
 	npm install postcss
 
+example:
+	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/hid-example.git
+
+reu:
+	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-360.git
+	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-361.git
+	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-362.git
+	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-363.git
+	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-364.git
+	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-365.git
+
 add:
 	#cd content/en/report; git submodule add git@github.com:cloudmesh/cloudmesh-openapi.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/fa20-523-301.git

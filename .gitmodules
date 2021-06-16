@@ -130,3 +130,24 @@
 [submodule "content/en/report/sp21-599-359"]
 	path = content/en/report/sp21-599-359
 	url = git@github.com:cybertraining-dsc/sp21-599-359.git
+[submodule "content/en/report/su21-reu-360"]
+	path = content/en/report/su21-reu-360
+	url = git@github.com:cybertraining-dsc/su21-reu-360.git
+[submodule "content/en/report/su21-reu-361"]
+	path = content/en/report/su21-reu-361
+	url = git@github.com:cybertraining-dsc/su21-reu-361.git
+[submodule "content/en/report/su21-reu-362"]
+	path = content/en/report/su21-reu-362
+	url = git@github.com:cybertraining-dsc/su21-reu-362.git
+[submodule "content/en/report/su21-reu-363"]
+	path = content/en/report/su21-reu-363
+	url = git@github.com:cybertraining-dsc/su21-reu-363.git
+[submodule "content/en/report/su21-reu-364"]
+	path = content/en/report/su21-reu-364
+	url = git@github.com:cybertraining-dsc/su21-reu-364.git
+[submodule "content/en/report/su21-reu-365"]
+	path = content/en/report/su21-reu-365
+	url = git@github.com:cybertraining-dsc/su21-reu-365.git
+[submodule "content/en/report/hid-example"]
+	path = content/en/report/hid-example
+	url = git@github.com:cybertraining-dsc/hid-example.git
