@@ -4,6 +4,8 @@ tags: ["python"]
 weight: 9
 description: >
   Python
+alias:
+  - /modules/ai-first/2021/tech/python
 ---
   
 Please see the Python book:

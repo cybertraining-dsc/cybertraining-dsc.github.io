@@ -4,6 +4,8 @@ weight: 1
 draft: true
 description: >
   WebPlotViz
+alias:
+  - /modules/ai-first/2021/applications/webplotviz
 ---
 
 WebPlotViz is a browser based visualization tool developed at Indiana University.

@@ -6,6 +6,8 @@ draft: true
 weight: 3
 description: >
   We present the motivation why big data is so important
+alias:
+  - /modules/ai-first/2021/week3
 ---
 
 {{% pageinfo %}}

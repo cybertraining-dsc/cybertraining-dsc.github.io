@@ -7,6 +7,8 @@ date: 2021-01-15
 description: >
   Here you will find a number of modules and components for
   introducing you to AI-First Engineering
+alias:
+  - /modules/ai-first/ 
 ---
 
 {{% pageinfo %}}

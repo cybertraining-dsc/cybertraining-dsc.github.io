@@ -4,6 +4,8 @@ weight:
 draft: true
 description: >
   Overview of Data Science
+alias:
+  - /modules/ai-first/2021/applications/overview
 ---
 
 *What is Big Data, Data Analytics and X-Informatics?*

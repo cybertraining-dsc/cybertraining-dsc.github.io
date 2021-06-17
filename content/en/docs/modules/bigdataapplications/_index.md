@@ -6,6 +6,8 @@ date: 2020-08-15
 description: >
   Here you will find a number of modules and components for
   introducing you to big data applications.
+alias:
+  - /modules/bigdataapplications
 ---
 
 

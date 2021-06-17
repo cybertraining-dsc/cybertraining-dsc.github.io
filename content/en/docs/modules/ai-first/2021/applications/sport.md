@@ -4,6 +4,8 @@ weight: 1
 draft: true
 description: >
   Sports
+alias:
+  - /modules/ai-first/2021/applications/sport
 ---
 
 Sports sees significant growth in analytics with pervasive statistics

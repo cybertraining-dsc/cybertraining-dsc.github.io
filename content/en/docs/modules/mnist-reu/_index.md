@@ -9,6 +9,8 @@ description: >
 #resources:
 #- src: "**.{png,jpg}"
 #  title: "Image #:counter"
+alias:
+  - /modules/mnist-reu
 ---
 
 ![MNIST Character Recognition](/images/MNIST.png)

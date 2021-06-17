@@ -5,6 +5,8 @@ draft: true
 weight: 10
 description: >
   Introduction to Deep Learning (III)
+alias:
+  - /modules/ai-first/2021/week10
 ---
 
 {{% pageinfo %}}

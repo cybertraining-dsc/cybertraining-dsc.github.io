@@ -4,6 +4,8 @@ tags: ["github"]
 weight: 10
 description: >
   Github
+alias:
+  - /modules/ai-first/2021/tech/github
 ---
 
 ## Track Progress with Github

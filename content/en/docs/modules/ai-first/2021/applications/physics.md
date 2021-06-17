@@ -4,6 +4,8 @@ weight: 1
 draft: true
 description: >
   Physics
+alias:
+  - /modules/ai-first/2021/applications/physics
 ---
 
 This section starts by describing the LHC accelerator at CERN and

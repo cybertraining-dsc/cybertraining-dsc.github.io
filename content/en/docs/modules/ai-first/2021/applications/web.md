@@ -4,6 +4,8 @@ weight: 1
 draft: true
 description: >
   Web Search and Text Mining
+alias:
+  - /modules/ai-first/2021/applications/web
 ---
 
 This section starts with an overview of data mining and puts our study

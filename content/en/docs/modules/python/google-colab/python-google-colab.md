@@ -5,6 +5,8 @@ tags: ["collab"]
 weight: 20
 description: >
   A gentle introduction to Google Colab for Programming
+alias:
+  - /modules/python/python-google-colab
 ---
 
 {{% pageinfo %}}

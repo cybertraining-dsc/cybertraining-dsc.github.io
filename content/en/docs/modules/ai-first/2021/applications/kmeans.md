@@ -4,6 +4,8 @@ weight: 1
 draft: true
 description: >
   Practical K-Means, Map Reduce, and Page Rank for Big Data Applications and Analytics
+alias:
+  - /modules/ai-first/2021/applications/kmeans
 ---
 
 

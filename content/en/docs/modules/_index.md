@@ -2,6 +2,8 @@
 title: "Modules"
 linkTitle: "Modules"
 weight: 20
+alias:
+  - /modules/
 ---
 
 {{% pageinfo %}}

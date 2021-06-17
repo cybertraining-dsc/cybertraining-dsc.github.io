@@ -4,6 +4,8 @@ draft: true
 weight: 1
 description: >
   Statistics
+alias:
+  - /modules/ai-first/2021/applications/statistics
 ---
 
 We assume that you are familiar with elementary statistics including

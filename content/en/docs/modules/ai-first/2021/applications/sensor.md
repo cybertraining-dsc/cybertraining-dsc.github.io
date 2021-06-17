@@ -4,6 +4,8 @@ weight: 1
 draft: true
 description: >
   Sensors
+alias:
+  - /modules/ai-first/2021/applications/sensor
 ---
 
 We start with the Internet of Things IoT giving examples like monitors

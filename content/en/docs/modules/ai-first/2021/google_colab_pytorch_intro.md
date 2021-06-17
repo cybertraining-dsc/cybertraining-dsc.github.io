@@ -5,6 +5,8 @@ draft: false
 weight: 21
 description: >
   MNIST With PyTorch
+alias:
+  - /modules/ai-first/2021/google_colab_pytorch_intro
 ---
 
 

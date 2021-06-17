@@ -4,6 +4,8 @@ weight: 1
 draft: true
 description: >
   Plotviz
+alias:
+  - /modules/ai-first/2021/applications/plotviz
 ---
 
 

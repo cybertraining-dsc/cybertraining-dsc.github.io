@@ -4,6 +4,8 @@ weight: 1
 draft: true
 description: >
   Big Data Use Cases Survey
+alias:
+  - /modules/ai-first/2021/applications/usecases
 ---
 
 This section covers 51 values of X and an overall study of Big data that

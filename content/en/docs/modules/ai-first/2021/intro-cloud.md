@@ -5,6 +5,8 @@ draft: true
 weight: 20
 description: >
   Introduction to Cloud Computing
+alias:
+  - /modules/ai-first/2021/intro-cloud
 ---
 
 

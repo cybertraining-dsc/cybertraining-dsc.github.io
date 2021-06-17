@@ -4,6 +4,8 @@ weight: 1
 draft: true
 description: >
   Health Informatics
+alias:
+  - /modules/ai-first/2021/applications/health
 ---
 
 [![Presentation](images/presentation.png) Health Informatics

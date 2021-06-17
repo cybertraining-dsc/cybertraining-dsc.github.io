@@ -12,6 +12,8 @@ tag:
 - Security
 - Notebook
 - Jupyter
+alias:
+  - /modules/sdsc/sshConnect-cybertraining
 ---
 
 {{% pageinfo %}}

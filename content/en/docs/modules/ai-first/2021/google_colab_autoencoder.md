@@ -5,6 +5,8 @@ draft: false
 weight: 21
 description: >
   MNIST with AutoEncoder: Classification on Google Colab
+alias:
+  - /modules/ai-first/2021/google_colab_autoencoder
 ---
 
 

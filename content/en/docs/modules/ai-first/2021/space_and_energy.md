@@ -5,6 +5,8 @@ draft: false
 weight: 8
 description: >
   This section discusses the space and energy. 
+alias:
+  - /modules/ai-first/2021/space_and_energy
 ---
 
 ## Overview

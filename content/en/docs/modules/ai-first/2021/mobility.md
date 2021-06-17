@@ -5,6 +5,8 @@ draft: false
 weight: 7
 description: >
   This section discusses the mobility in Industry
+alias:
+  - /modules/ai-first/2021/mobility
 ---
 
 ## Overview

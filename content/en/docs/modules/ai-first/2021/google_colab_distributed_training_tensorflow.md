@@ -5,6 +5,8 @@ draft: false
 weight: 21
 description: >
   Distributed Training for MNIST
+alias:
+  - /modules/ai-first/2021/google_colab_distributed_training_tensorflow
 ---
 
 

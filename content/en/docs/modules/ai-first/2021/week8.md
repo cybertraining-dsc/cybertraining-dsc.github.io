@@ -6,6 +6,8 @@ draft: true
 weight: 8
 description: >
   Introduction to Deep Lenning (cont.) Part I
+alias:
+  - /modules/ai-first/2021/week8
 ---
 
 {{% pageinfo %}}

@@ -4,6 +4,8 @@ weight: 1
 draft: true
 description: >
   Cloud Computing
+alias:
+  - /modules/ai-first/2021/applications/cloud
 ---
 
 We describe the central role of Parallel computing in Clouds and Big
