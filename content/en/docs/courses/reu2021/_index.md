@@ -285,9 +285,17 @@ Video: AI First Engineering: Learning material
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/qHl3y01ZyY0wHg4bEV43PHz_eyfD_4fmvG7Fw95ymWRDYFJ3Sx2q9lpsp4vdGxl6.Y5kKUFQlJpeZn_ty"
 	>}}
-Video: Video: Adding content to your su21-reu repositorirs
+Video: Adding content to your su21-reu repositories
 {{< /view_module >}}
 
+
+{{< view_module
+	alt="AI First Engineering:"
+	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
+	url="https://docs.google.com/presentation/d/1uEBGALii_RfPQgsuqrl_hjhj4MUlL8CO2Hny6jqt8Qk/edit#slide=id.g94cec20bdc_1_0"
+	>}}
+Slides: AI First Engineering
+{{< /view_module >}}
 
 
 
