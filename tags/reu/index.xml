@@ -704,7 +704,7 @@ comments into your document that you will have to fix, If you juys past copy you
 &lt;li>Project, That is a final report that includes code.&lt;/li>
 &lt;li>Report, that is a final project without code.&lt;/li>
 &lt;/ol>
-&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
+&lt;p>You will be including the type of the project as a prefix to your title, as well as in the Type tag
 at the beginning of your project.&lt;/p>
 &lt;h2 id="3-using-images">3. Using Images&lt;/h2>
 &lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
