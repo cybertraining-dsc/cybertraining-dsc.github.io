@@ -186,3 +186,40 @@ This course introduces the REU students to various topics in Intelligent Systems
 
 
 
+{{< view_module
+	alt="Rstudio with Git and GitHub Slides"
+	src=""
+	url="https://famu.zoom.us/rec/share/TiJJnitA6ziWOZutSEjyFGGKS0nc3lj_-lOPuGuKjNVdUO8HEp3uU9jlihaBgznt.rKnSt4gTS7B2ZXia"
+	>}}
+{{< /view_module >}}
+
+
+{{< view_module
+	alt="Rstudio with Git and GitHub Slides"
+	src=""
+	url="https://famu.zoom.us/rec/share/s5W0Vz4U1rgbsYKSMRul_wGL5U6OMiewb8ESLlrmSamaBpynADiBMwV44nOWoh99.IFIdiTbtAjIXa7py"
+	>}}
+{{< /view_module >}}
+
+{{< view_module
+	alt="Rstudio with Git and GitHub Slides"
+	src=""
+	url="https://famu.zoom.us/rec/share/qHl3y01ZyY0wHg4bEV43PHz_eyfD_4fmvG7Fw95ymWRDYFJ3Sx2q9lpsp4vdGxl6.Y5kKUFQlJpeZn_ty"
+	>}}
+{{< /view_module >}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
