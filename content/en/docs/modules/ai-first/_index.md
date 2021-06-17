@@ -9,7 +9,6 @@ description: >
   introducing you to AI-First Engineering
 aliases:
 - "/modules/ai-first/"
-- "/gergor"  
 ---
 
 {{% pageinfo %}}
