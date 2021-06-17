@@ -2083,7 +2083,8 @@ Status: final Type: Project&lt;/p>
 &lt;p>Fauzan Isnaini, &lt;a href="https://github.com/cybertraining-dsc/fa20-523-313/">fa20-523-313&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/fa20-523-313/blob/main/project/project.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Predicting the stock market has been an attractive field of research for a long time because it promises big wealth for anyone who can find the secret. For a long time, traders around the world have been relying on fundamental analysis and technical analysis to predict the market. Now with the advancement of big data, some financial institutions are beginning to predict the market by creating a model of the market using machine learning. While some researches produce promising results, most of them are directed at predicting the next day&amp;rsquo;s market behavior. In this study, we created an LSTM model to predict the market for multiple time frames. We then analyzed the performance of the model for some different time periods. From our observations, LSTM is good at predicting 30 time steps ahead, but the RMSE became larger as the time frame gets longer.&lt;/p>
+&lt;p>Predicting the stock market has been an attractive
+field of research for a long time because it promises big wealth for anyone who can find the secret. For a long time, traders around the world have been relying on fundamental analysis and technical analysis to predict the market. Now with the advancement of big data, some financial institutions are beginning to predict the market by creating a model of the market using machine learning. While some researches produce promising results, most of them are directed at predicting the next day&amp;rsquo;s market behavior. In this study, we created an LSTM model to predict the market for multiple time frames. We then analyzed the performance of the model for some different time periods. From our observations, LSTM is good at predicting 30 time steps ahead, but the RMSE became larger as the time frame gets longer.&lt;/p>
 &lt;p>Contents&lt;/p>
 &lt;div class="toc">
 &lt;nav id="TableOfContents">
@@ -2703,7 +2704,8 @@ Status: final, Type: Project&lt;/p>
 &lt;p>Alex Baker, fa20-523-307, &lt;a href="https://github.com/cybertraining-dsc/fa20-523-307/blob/master/project/project.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>President Trump has utilized the social media platform Twitter as a way to convey his message to the American people. The tweets he has published during his presidency cover a vast array of topics and issues from MAGA rallies to impeachment. This analysis investigates the relationship of the NASDAQ and the sentiment of President Trump&amp;rsquo;s tweets during key events in his presidency. NASDAQ data was gathered though Yahoo Finance&amp;rsquo;s API while President Trump&amp;rsquo;s tweets were gathered from Kaggle. The results observed show that during certain events, a correlation emerges of the NASDAQ data and the sentiment of President Trump&amp;rsquo;s tweets.&lt;/p>
+&lt;p>President Trump has utilized the social media
+platform Twitter as a way to convey his message to the American people. The tweets he has published during his presidency cover a vast array of topics and issues from MAGA rallies to impeachment. This analysis investigates the relationship of the NASDAQ and the sentiment of President Trump&amp;rsquo;s tweets during key events in his presidency. NASDAQ data was gathered though Yahoo Finance&amp;rsquo;s API while President Trump&amp;rsquo;s tweets were gathered from Kaggle. The results observed show that during certain events, a correlation emerges of the NASDAQ data and the sentiment of President Trump&amp;rsquo;s tweets.&lt;/p>
 &lt;p>Contents&lt;/p>
 &lt;div class="toc">
 &lt;nav id="TableOfContents">
