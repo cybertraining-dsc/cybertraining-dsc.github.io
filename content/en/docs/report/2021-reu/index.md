@@ -19,16 +19,24 @@ REU 2021.
 
 * {{% addprojectreport
   title="TBD"
-  author="Victor Adankai"
-  hid= "su21-reu-365"
+  author="Carlos Theran"
+  hid= "su21-reu-360"
   %}}
 
 ---
 
 * {{% addprojectreport
   title="TBD"
-  author="David Umanzor"
-  hid= "su21-reu-364"
+  author="Jacques Fleischer"
+  hid= "su21-reu-361"
+  %}}
+  
+---
+
+* {{% addprojectreport
+  title="TBD"
+  author="Kehinde Ezekiel"
+  hid= "su21-reu-362"
   %}}
 
 ---
@@ -43,28 +51,19 @@ REU 2021.
 
 * {{% addprojectreport
   title="TBD"
-  author="Kehinde Ezekiel"
-  hid= "su21-reu-362"
+  author="David Umanzor"
+  hid= "su21-reu-364"
   %}}
 
 ---
 
 * {{% addprojectreport
   title="TBD"
-  author="Jacques Fleischer"
-  hid= "su21-reu-361"
+  author="Victor Adankai"
+  hid= "su21-reu-365"
   %}}
-
+  
 ---
-
-* {{% addprojectreport
-  title="TBD"
-  author="Carlos Theran"
-  hid= "su21-reu-360"
-  %}}
-
----
-
 
 * {{% addprojectreport
   title="TBD"
