@@ -4,6 +4,8 @@ tags: ["physics", "application"]
 weight: 1
 description: >
   Physics
+aliases:
+  - /modules/bigdataapplications/2019/applications/physics
 ---
 
 This section starts by describing the LHC accelerator at CERN and

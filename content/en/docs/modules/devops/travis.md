@@ -4,6 +4,8 @@ tags: ["devops"]
 weight: 30
 description: >
   Travis CI is a continuous integration tool that is often used as part of DevOps development. It is a hosted service that enables users to test their projects on GitHub.
+aliases:
+  - /modules/devops/travis
 ---
 
 Travis CI is a continuous integration tool that is often used as part

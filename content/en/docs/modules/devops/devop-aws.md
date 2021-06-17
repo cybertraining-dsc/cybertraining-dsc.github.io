@@ -4,6 +4,8 @@ tags: ["devops"]
 weight: 40
 description: >
   AWS cloud offering comes with end-to-end scalable and most performant support for DevOps
+aliases:
+  - /modules/devops/devops-aws
 ---
 
 

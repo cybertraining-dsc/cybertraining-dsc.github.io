@@ -3,6 +3,8 @@ title: Introduction
 weight: 1
 description: >
   Introduction
+aliases:
+  - /modules/bigdataapplications/2019/intro-bd-deprecated
 ---
 
 # Introduction to the Course

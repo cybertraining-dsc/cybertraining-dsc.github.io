@@ -4,6 +4,8 @@ tags: ["data science"]
 weight: 1
 description: >
   Overview of Data Science
+aliases:
+  - /modules/bigdataapplications/2019/applications/overview
 ---
 
 *What is Big Data, Data Analytics and X-Informatics?*

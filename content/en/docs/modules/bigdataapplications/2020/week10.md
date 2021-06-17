@@ -4,6 +4,8 @@ draft: true
 weight: 10
 description: >
   Introduction to Deep Learning (III)
+aliases:
+  - /modules/bigdataapplications/2020/week10
 ---
 
 

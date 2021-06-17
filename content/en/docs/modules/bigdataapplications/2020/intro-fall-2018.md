@@ -4,6 +4,8 @@ draft: true
 weight: 1
 description: >
   Introduction (Fall2018)
+aliases:
+  - /modules/bigdataapplications/2020/intro-fall-2018
 ---
 
 # Introduction to Big Data Applications

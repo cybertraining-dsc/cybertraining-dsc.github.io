@@ -4,7 +4,7 @@ draft: true
 weight: 1
 description: >
   Statistics
-alias:
+aliases:
   - /modules/ai-first/2021/applications/statistics
 ---
 

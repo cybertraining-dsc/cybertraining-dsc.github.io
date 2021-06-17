@@ -4,6 +4,8 @@ tags: ["devops"]
 weight: 5
 description: >
   Infrastructure as Code is the ability of code to generate, maintain and destroy application infrastructure like server, storage and networking, without requiring manual changes.
+aliases:
+  - /modules/devops/iac
 ---
 
 

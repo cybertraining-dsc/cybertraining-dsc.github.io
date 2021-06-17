@@ -4,6 +4,8 @@ draft: false
 weight: 7
 description: >
   This section discusses the mobility in Industry
+aliases:
+  - /modules/bigdataapplications/2020/mobility
 ---
 
 ## Overview

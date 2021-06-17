@@ -4,6 +4,8 @@ draft: true
 weight: 5
 description: >
   Week TBD: Big Data applications and Physics
+aliases:
+  - /modules/bigdataapplications/2020/physics_2018
 ---
 
 # Physics with Big Data Applications

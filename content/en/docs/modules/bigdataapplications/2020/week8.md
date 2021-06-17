@@ -4,6 +4,8 @@ draft: true
 weight: 8
 description: >
   Introduction to Deep Lenning (cont.) Part I
+aliases:
+  - /modules/bigdataapplications/2020/week8
 ---
 
 # Introduction to Deep Learning Part I

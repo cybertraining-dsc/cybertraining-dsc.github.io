@@ -4,6 +4,8 @@ tags: ["devops"]
 weight: 10
 description: >
   Ansible is an open-source IT automation DevOps engine allowing you to manage and configure many compute resources in a scalable, consistent and reliable way.
+aliases:
+  - /modules/devops/ansible
 ---
 
 ## Introduction to Ansible

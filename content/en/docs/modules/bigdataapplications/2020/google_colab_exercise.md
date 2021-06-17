@@ -4,6 +4,8 @@ draft: false
 weight: 21
 description: >
   MNIST Classification on Google Colab
+aliases:
+  - /modules/bigdataapplications/2020/google_colab_excersise
 ---
 
 

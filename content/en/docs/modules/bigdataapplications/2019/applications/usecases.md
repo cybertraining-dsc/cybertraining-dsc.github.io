@@ -4,6 +4,8 @@ tags: ["application", "usecases"]
 weight: 1
 description: >
   Big Data Use Cases Survey
+aliases:
+  - /modules/bigdataapplications/2019/applications/usecases
 ---
 
 This section covers 51 values of X and an overall study of Big data that

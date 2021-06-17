@@ -4,6 +4,8 @@ tags: ["cloud"]
 weight: 20
 description: >
   Cloud Computing
+aliases:
+  - /modules/bigdataapplications/2019/e534-cloud-computing-unit
 ---
 
 

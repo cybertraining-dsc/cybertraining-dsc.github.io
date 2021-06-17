@@ -4,6 +4,8 @@ draft: false
 weight: 11
 description: >
   This section discusses the transportation systems
+aliases:
+  - /modules/bigdataapplications/2020/transportation_systems
 ---
 
 ## Transportation Systems Summary

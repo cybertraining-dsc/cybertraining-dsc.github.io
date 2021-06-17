@@ -4,6 +4,8 @@ tags: ["application", "web"]
 weight: 1
 description: >
   Web Search and Text Mining
+aliases:
+  - /modules/bigdataapplications/2019/applications/web
 ---
 
 This section starts with an overview of data mining and puts our study

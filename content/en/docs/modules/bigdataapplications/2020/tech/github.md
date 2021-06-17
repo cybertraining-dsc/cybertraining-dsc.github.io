@@ -3,6 +3,8 @@ title: Github
 weight: 10
 description: >
   Github
+aliases:
+  - /modules/bigdataapplications/2020/tech/github
 ---
 
 ## Track Progress with Github

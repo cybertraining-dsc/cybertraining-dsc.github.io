@@ -3,6 +3,8 @@ title: Cloud
 weight: 3
 description: >
   We present the motivation why big data is so important
+aliases:
+  - /modules/bigdataapplications/2019/week3
 ---
 
 # Part III Cloud {#sec:534-week3}

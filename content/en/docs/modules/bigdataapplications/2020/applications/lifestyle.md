@@ -4,6 +4,8 @@ weight: 1
 draft: true
 description: >
   e-Commerce and LifeStyle
+aliases:
+  - /modules/bigdataapplications/2020/applications/lifestyle
 ---
 
 Recommender systems operate under the hood of such widely recognized

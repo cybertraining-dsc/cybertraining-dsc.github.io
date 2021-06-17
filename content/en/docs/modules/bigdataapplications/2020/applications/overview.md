@@ -4,6 +4,8 @@ weight:
 draft: true
 description: >
   Overview of Data Science
+aliases:
+  - /modules/bigdataapplications/2020/applications/overview
 ---
 
 *What is Big Data, Data Analytics and X-Informatics?*

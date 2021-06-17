@@ -4,6 +4,8 @@ weight: 1
 draft: true
 description: >
   Practical K-Means, Map Reduce, and Page Rank for Big Data Applications and Analytics
+aliases:
+  - /modules/bigdataapplications/2020/applications/kmeans
 ---
 
 

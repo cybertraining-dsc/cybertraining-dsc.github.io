@@ -4,6 +4,8 @@ draft: false
 weight: 1
 description: >
   The Full Introductory Lecture with introduction to and Motivation for Big Data Applications and Analytics Class
+aliases:
+  - /modules/bigdataapplications/2020/introduction
 ---
 
 ### Overview

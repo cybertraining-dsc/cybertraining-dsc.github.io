@@ -4,6 +4,8 @@ weight: 1
 draft: true
 description: >
   Cloud Computing
+aliases:
+  - /modules/bigdataapplications/2020/applications/cloud
 ---
 
 We describe the central role of Parallel computing in Clouds and Big

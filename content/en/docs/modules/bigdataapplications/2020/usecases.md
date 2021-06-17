@@ -4,6 +4,8 @@ weight: 4
 draft: false
 description: >
  4 Lectures on Big Data Use Cases Survey
+aliases:
+  - /modules/bigdataapplications/2020/usecases
 ---
 This unit has four lectures (slide=decks). The survey is 6 years old but the illustrative scope of Big Data Applications is still valid and has no better alternative. The problems and use of clouds has not changed. There has been algorithmic advances (deep earning) in some cases. The lectures are
 

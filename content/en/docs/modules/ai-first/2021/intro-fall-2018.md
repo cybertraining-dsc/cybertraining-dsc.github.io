@@ -4,7 +4,7 @@ draft: true
 weight: 1
 description: >
   Introduction (Fall2018)
-alias:
+aliases:
   - /modules/ai-first/2021/intro-fall-2018
 ---
 

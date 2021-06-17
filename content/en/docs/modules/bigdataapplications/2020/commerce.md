@@ -4,6 +4,8 @@ draft: false
 weight: 12
 description: >
   This section discusses Commerce
+aliases:
+  - /modules/bigdataapplications/2020/commerce
 ---
 
 ## Overview

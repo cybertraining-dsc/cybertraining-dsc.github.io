@@ -3,6 +3,8 @@ title: Physics
 weight: 5
 description: >
   Big Data applications and Physics
+aliases:
+  - /modules/bigdataapplications/2019/week5
 ---
 
 # Physics with Big Data Applications {#sec:534-week5}

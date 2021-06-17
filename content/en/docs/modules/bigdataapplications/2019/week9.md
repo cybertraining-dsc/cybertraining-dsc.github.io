@@ -3,6 +3,8 @@ title: Deep Learning (Cont. II)
 weight: 8
 description: >
   Introduction to Deep Lenning (cont.) Part II
+aliases:
+  - /modules/bigdataapplications/2019/week9
 ---
 
 

@@ -4,7 +4,7 @@ draft: false
 weight: 6
 description: >
   This section discusses the health and medicine sector 
-alias:
+aliases:
   - /modules/ai-first/2021/health_and_medicine
 ---
 

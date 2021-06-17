@@ -3,6 +3,8 @@ title: Motivation
 weight: 1
 description: >
   We present the motivation why big data is so important
+aliases:
+  - /modules/bigdataapplications/2019/week1
 ---
 
 # Part I Motivation I

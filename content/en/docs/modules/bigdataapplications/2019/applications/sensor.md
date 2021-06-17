@@ -4,6 +4,8 @@ tags: ["application", "sensor"]
 weight: 1
 description: >
   Sensors
+aliases:
+  - /modules/bigdataapplications/2019/applications/sensor
 ---
 
 We start with the Internet of Things IoT giving examples like monitors

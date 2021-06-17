@@ -4,6 +4,8 @@ tags: ["statistics"]
 weight: 1
 description: >
   Statistics
+aliases:
+  - /modules/bigdataapplications/2019/applications/statistics
 ---
 
 We assume that you are familiar with elementary statistics including

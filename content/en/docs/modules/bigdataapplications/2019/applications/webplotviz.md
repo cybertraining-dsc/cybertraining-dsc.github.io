@@ -4,6 +4,8 @@ tags: ["plotviz"]
 weight: 1
 description: >
   WebPlotViz
+aliases:
+  - /modules/bigdataapplications/2019/applications/webplotviz
 ---
 
 WebPlotViz is a browser based visualization tool developed at Indiana University.

@@ -4,6 +4,8 @@ weight: 1
 draft: true
 description: >
   Plotviz
+aliases:
+  - /modules/bigdataapplications/2020/applications/plotviz
 ---
 
 

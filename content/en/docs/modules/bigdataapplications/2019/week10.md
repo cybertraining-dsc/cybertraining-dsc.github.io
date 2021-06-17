@@ -3,6 +3,8 @@ title: Introduction to Deep Learning (III)
 weight: 10
 description: >
   Introduction to Deep Learning (III)
+aliases:
+  - /modules/bigdataapplications/2019/week10
 ---
 
 

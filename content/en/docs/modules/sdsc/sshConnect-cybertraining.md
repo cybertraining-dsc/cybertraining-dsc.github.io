@@ -12,7 +12,7 @@ tag:
 - Security
 - Notebook
 - Jupyter
-alias:
+aliases:
   - /modules/sdsc/sshConnect-cybertraining
 ---
 

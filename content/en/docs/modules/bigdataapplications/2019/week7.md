@@ -3,6 +3,8 @@ title: Sports
 weight: 7
 description: >
   Big Data and Sports.
+aliases:
+  - /modules/bigdataapplications/2019/week7
 ---
 
 # Sports with Big Data Applications {#sec:534-week7}

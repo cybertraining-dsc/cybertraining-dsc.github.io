@@ -4,6 +4,8 @@ tags: ["devops"]
 weight: 20
 description: >
   Puppet is configuration management tool that simplifies complex task of deploying new software, applying software updates and rollback software packages in large cluster 
+aliases:
+  - /modules/devops/puppet
 ---
 
 

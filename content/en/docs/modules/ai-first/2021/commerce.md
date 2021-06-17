@@ -5,7 +5,7 @@ draft: false
 weight: 12
 description: >
   This section discusses Commerce
-alias:
+aliases:
   - /modules/ai-first/2021/commerce
 ---
 

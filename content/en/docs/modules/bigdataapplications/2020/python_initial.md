@@ -4,6 +4,8 @@ draft: false
 weight: 19
 description: >
   Python Exercise on Google Colab
+aliases:
+  - /modules/bigdataapplications/2020/python_initial
 ---
 
 ## Python Exercise on Google Colab

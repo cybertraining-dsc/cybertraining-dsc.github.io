@@ -4,6 +4,8 @@ tags: ["cloud"]
 weight: 1
 description: >
   Cloud Computing
+aliases:
+  - /modules/bigdataapplications/2019/applications/cloud
 ---
 
 We describe the central role of Parallel computing in Clouds and Big

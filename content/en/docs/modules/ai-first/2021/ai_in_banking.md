@@ -5,7 +5,7 @@ draft: false
 weight: 9
 description: >
   This section discusses AI in Banking
-alias:
+aliases:
   - /modules/ai-first/2021/ai_in_banking
 ---
 

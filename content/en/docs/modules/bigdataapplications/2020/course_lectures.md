@@ -4,6 +4,8 @@ weight: 4
 draft: false
 description: >
   Updated On an ongoing Basis
+aliases:
+  - /modules/bigdataapplications/2020/course_lectures
 ---
 
 {{% pageinfo %}}

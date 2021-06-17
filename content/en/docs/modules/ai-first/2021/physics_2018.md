@@ -5,7 +5,7 @@ draft: true
 weight: 5
 description: >
   Week TBD: Big Data applications and Physics
-alias:
+aliases:
   - /modules/ai-first/2021/physics_2018
 ---
 

@@ -5,7 +5,7 @@ draft: false
 weight: 21
 description: >
   MLP + LSTM with MNIST on Google Colab
-alias:
+aliases:
   - /modules/ai-first/2021/google_colab_mpl_lstm
 ---
 

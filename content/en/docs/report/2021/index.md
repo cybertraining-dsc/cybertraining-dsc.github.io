@@ -2,6 +2,8 @@
 title: "Reports 2021"
 linkTitle: "2021"
 weight: 21
+aliases:
+  - /report/2021
 ---
 
 {{% pageinfo %}}

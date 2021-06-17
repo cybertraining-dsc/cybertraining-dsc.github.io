@@ -4,6 +4,8 @@ draft: true
 weight: 1
 description: >
   Statistics
+aliases:
+  - /modules/bigdataapplications/2020/applications/statistics
 ---
 
 We assume that you are familiar with elementary statistics including

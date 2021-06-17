@@ -4,6 +4,8 @@ draft: false
 weight: 9
 description: >
   This section discusses AI in Banking
+aliases:
+  - /modules/bigdataapplications/2020/ai_in_banking
 ---
 
 ## Overview

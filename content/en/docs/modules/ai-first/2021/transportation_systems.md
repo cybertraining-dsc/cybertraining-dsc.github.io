@@ -5,7 +5,7 @@ draft: false
 weight: 11
 description: >
   This section discusses the transportation systems
-alias:
+aliases:
   - /modules/ai-first/2021/transportation_system
 ---
 

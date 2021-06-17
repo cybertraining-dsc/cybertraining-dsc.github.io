@@ -5,7 +5,7 @@ draft: false
 weight: 11
 description: >
   Cloud Computing
-alias:
+aliases:
   - /modules/ai-first/2021/cloud_computing
 ---
 

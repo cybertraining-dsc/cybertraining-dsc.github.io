@@ -4,7 +4,7 @@ weight: 1
 draft: true
 description: >
   Radar
-alias:
+aliases:
   - /modules/ai-first/2021/applications/radar
 ---
 

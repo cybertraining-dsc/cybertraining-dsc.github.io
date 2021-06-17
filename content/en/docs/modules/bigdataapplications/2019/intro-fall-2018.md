@@ -3,6 +3,8 @@ title: Introduction (Fall 2018)
 weight: 1
 description: >
   Introduction (Fall2018)
+aliases:
+  - /modules/bigdataapplications/2019/intro-fall-2018
 ---
 
 # Introduction to Big Data Applications

@@ -5,7 +5,7 @@ weight: 4
 draft: false
 description: >
   Updated On an ongoing Basis
-alias:
+aliases:
   - /modules/ai-first/2021/course_lectures
 ---
 

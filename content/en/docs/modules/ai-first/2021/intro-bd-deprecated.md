@@ -4,7 +4,7 @@ draft: true
 weight: 1
 description: >
   Introduction
-alias:
+aliases:
   - /modules/ai-first/2021/intro-bd-deprecated
 ---
 

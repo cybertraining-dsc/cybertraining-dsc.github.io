@@ -4,6 +4,8 @@ draft: false
 weight: 4
 description: >
   Week 4: Big Data applications and Physics
+aliases:
+  - /modules/bigdataapplications/2020/physics
 ---
 
 ## E534 2020 Big Data Applications and Analytics Discovery of Higgs Boson 

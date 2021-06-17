@@ -4,6 +4,8 @@ tags: ["kmeans", "ai"]
 weight: 1
 description: >
   Practical K-Means, Map Reduce, and Page Rank for Big Data Applications and Analytics
+aliases:
+  - /modules/bigdataapplications/2019/applications/kmeans
 ---
 
 

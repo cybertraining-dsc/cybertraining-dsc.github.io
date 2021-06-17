@@ -4,6 +4,8 @@ tags: ["devops"]
 weight: 2
 description: >
   Indorduction to DevOps and Continious Integration
+aliases:
+  - /modules/devops/devops-ci
 ---
 
 Deploying enterprise applications has been always challenging. Without

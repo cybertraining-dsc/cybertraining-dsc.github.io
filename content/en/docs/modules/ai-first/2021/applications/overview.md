@@ -4,7 +4,7 @@ weight:
 draft: true
 description: >
   Overview of Data Science
-alias:
+aliases:
   - /modules/ai-first/2021/applications/overview
 ---
 

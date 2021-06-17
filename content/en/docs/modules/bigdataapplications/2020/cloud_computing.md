@@ -4,6 +4,8 @@ draft: false
 weight: 11
 description: >
   Cloud Computing
+aliases:
+  - /modules/bigdataapplications/2020/cloud_computing
 ---
 
 

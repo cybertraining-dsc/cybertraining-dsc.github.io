@@ -5,7 +5,7 @@ draft: false
 weight: 19
 description: >
   Python Exercise on Google Colab
-alias:
+aliases:
   - /modules/ai-first/2021/python_initial
 ---
 

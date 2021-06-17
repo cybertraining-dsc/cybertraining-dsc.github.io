@@ -4,6 +4,8 @@ tags: ["application", "lifestle", "commerce"]
 weight: 1
 description: >
   e-Commerce and LifeStyle
+aliases:
+  - /modules/bigdataapplications/2019/applications/lifestyle
 ---
 
 Recommender systems operate under the hood of such widely recognized

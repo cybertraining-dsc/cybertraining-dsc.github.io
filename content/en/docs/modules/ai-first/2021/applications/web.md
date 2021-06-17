@@ -4,7 +4,7 @@ weight: 1
 draft: true
 description: >
   Web Search and Text Mining
-alias:
+aliases:
   - /modules/ai-first/2021/applications/web
 ---
 

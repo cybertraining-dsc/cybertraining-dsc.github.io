@@ -4,6 +4,8 @@ tags: ["devops"]
 weight: 50
 description: >
   Microsoft provides unified tool called Azure Monitor for end-to-end monitoring of the infrastructure and deployed applications.
+aliases:
+  - /modules/devops/devops-azure-monitor
 ---
 
 

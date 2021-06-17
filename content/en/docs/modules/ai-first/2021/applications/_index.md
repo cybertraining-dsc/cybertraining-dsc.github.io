@@ -4,7 +4,7 @@ weight: 200
 draft: true
 description: >
   Applications
-alias:
+aliases:
   - /modules/ai-first/2021/applications/
 ---
 

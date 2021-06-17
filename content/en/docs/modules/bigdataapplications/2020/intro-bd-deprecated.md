@@ -4,6 +4,8 @@ draft: true
 weight: 1
 description: >
   Introduction
+aliases:
+  - /modules/bigdataapplications/2020/intro-bd-deprecated
 ---
 
 # Introduction to the Course

@@ -4,6 +4,8 @@ weight: 1
 draft: true
 description: >
   Radar
+aliases:
+  - /modules/bigdataapplications/2020/applications/radar
 ---
 
 The changing global climate is suspected to have long-term effects on

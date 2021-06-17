@@ -4,7 +4,7 @@ tags: ["python"]
 weight: 9
 description: >
   Python
-alias:
+aliases:
   - /modules/ai-first/2021/tech/python
 ---
   

@@ -4,6 +4,8 @@ tags: ["git"]
 weight: 10
 description: >
   Github
+aliases:
+  - /modules/bigdataapplications/2019/tech/github
 ---
 
 ## Track Progress with Github

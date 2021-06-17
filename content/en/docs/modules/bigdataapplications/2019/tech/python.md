@@ -4,6 +4,8 @@ tags: ["python"]
 weight: 9
 description: >
   Python
+aliases:
+  - /modules/bigdataapplications/2019/tech/python
 ---
   
 Please see the Python book:

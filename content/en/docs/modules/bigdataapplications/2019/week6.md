@@ -3,6 +3,8 @@ title: Deep Learning
 weight: 6
 description: >
   Introduction to Deep Learning
+aliases:
+  - /modules/bigdataapplications/2019/week6
 ---
 
 # Introduction to Deep Learning {#sec:534-intro-to-dnn}

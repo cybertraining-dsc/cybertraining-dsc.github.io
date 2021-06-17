@@ -4,6 +4,8 @@ tags: ["plotviz"]
 weight: 1
 description: >
   Plotviz
+aliases:
+  - /modules/bigdataapplications/2019/applications/plotviz
 ---
 
 

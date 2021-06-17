@@ -4,6 +4,8 @@ draft: true
 weight: 20
 description: >
   Introduction to Cloud Computing
+aliases:
+  - /modules/bigdataapplications/2020/intro-cloud.md
 ---
 
 

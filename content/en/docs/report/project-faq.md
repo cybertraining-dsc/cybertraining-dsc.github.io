@@ -1,4 +1,12 @@
-# Project FAQ
+---
+title: "Project FAQ"
+linkTitle: "Project FAQ"
+description: Project FAQ
+tags: ["FAQ"]
+weight: 70
+aliases:
+  - /report/project-faq
+---
 
 {{% pageinfo %}}
 

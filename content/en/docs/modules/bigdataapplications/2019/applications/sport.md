@@ -4,6 +4,8 @@ tags: ["application", "sport"]
 weight: 1
 description: >
   Sports
+aliases:
+  - /modules/bigdataapplications/2019/applications/sports
 ---
 
 Sports sees significant growth in analytics with pervasive statistics

@@ -4,6 +4,8 @@ draft: false
 weight: 8
 description: >
   This section discusses the space and energy. 
+aliases:
+  - /modules/bigdataapplications/2020/space_and_energy
 ---
 
 ## Overview

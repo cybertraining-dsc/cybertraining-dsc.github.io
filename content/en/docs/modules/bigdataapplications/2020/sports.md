@@ -4,6 +4,8 @@ draft: false
 weight: 7
 description: >
   Week 5: Big Data and Sports.
+aliases:
+  - /modules/bigdataapplications/2020/sports
 ---
 
 # Sports with Big Data Applications

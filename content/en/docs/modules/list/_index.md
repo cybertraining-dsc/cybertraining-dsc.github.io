@@ -4,6 +4,8 @@ linkTitle: "List"
 weight: 1
 description: >
   Link and location to available modules in markdown
+aliases:
+  - /modules/list/
 ---
 
 {{% pageinfo %}}

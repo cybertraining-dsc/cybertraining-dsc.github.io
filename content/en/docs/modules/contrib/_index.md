@@ -5,6 +5,8 @@ linkTitle: "Contributors"
 weight: 1
 description: >
   We provide a list of content contributors to material distributed as part of this Web Site.
+aliases:
+  - /modules/contrib
 ---
 
 {{% pageinfo %}}

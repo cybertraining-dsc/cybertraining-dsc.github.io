@@ -4,6 +4,8 @@ tags: ["health"]
 weight: 1
 description: >
   Health Informatics
+aliases:
+  - /modules/bigdataapplications/2019/applications/health
 ---
 
 [![Presentation](images/presentation.png) Health Informatics

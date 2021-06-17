@@ -3,6 +3,8 @@ title: Introduction to Cloud Computing
 weight: 20
 description: >
   Introduction to Cloud Computing
+aliases:
+  - /modules/bigdataapplications/2019/intro-cloud
 ---
 
 

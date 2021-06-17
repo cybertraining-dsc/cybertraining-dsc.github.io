@@ -4,6 +4,8 @@ weight: 1
 draft: true
 description: >
   Web Search and Text Mining
+aliases:
+  - /modules/bigdataapplications/2020/applications/web
 ---
 
 This section starts with an overview of data mining and puts our study

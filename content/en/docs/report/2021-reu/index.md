@@ -2,6 +2,8 @@
 title: "REU 2021"
 linkTitle: "2021 REU"
 weight: 21
+aliases:
+  - /report/2021-reu
 ---
 
 {{% pageinfo %}}

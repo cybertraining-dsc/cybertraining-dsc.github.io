@@ -9,7 +9,7 @@ description: >
 #resources:
 #- src: "**.{png,jpg}"
 #  title: "Image #:counter"
-alias:
+aliases:
   - /modules/mnist-reu
 ---
 

@@ -4,6 +4,8 @@ weight: 1
 draft: true
 description: >
   Health Informatics
+aliases:
+  - /modules/bigdataapplications/2020/applications/health
 ---
 
 [![Presentation](images/presentation.png) Health Informatics
