@@ -1,4 +1,384 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – Courses</title><link>/docs/courses/</link><description>Recent content in Courses on Cybertraining</description><generator>Hugo -- gohugo.io</generator><atom:link href="/docs/courses/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: AI-First Engineering Cybertraining</title><link>/docs/courses/ai-first/</link><pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate><guid>/docs/courses/ai-first/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – Courses</title><link>/docs/courses/</link><description>Recent content in Courses on Cybertraining</description><generator>Hugo -- gohugo.io</generator><atom:link href="/docs/courses/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: REU 2021</title><link>/docs/courses/reu2021/</link><pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate><guid>/docs/courses/reu2021/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This course introduces the REU students to various topics in Intelligent Systems Engineering. The course was taught in Summer 2020.&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#programming-with-python">Programming with Python&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#rstudio-with-git-and-github-slides">Rstudio with Git and GitHub Slides&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#b">B&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#c">C&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#d">D&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#e">E&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="programming-with-python">Programming with Python&lt;/h2>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://laszewski.github.io/publication/las-20-book-markdown/">
+&lt;img alt="Python" src="https://laszewski.github.io/publication/las-20-book-python/featured.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://laszewski.github.io/publication/las-20-book-markdown/"> Introduction to Python &lt;/a>
+&lt;a href="https://cloudmesh-community.github.io/pub//vonLaszewski-python.epub"> (ePub) &lt;/a>
+&lt;a href="https://cloudmesh-community.github.io/pub//vonLaszewski-python.pdf"> (PDF) &lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h2 id="rstudio-with-git-and-github-slides">Rstudio with Git and GitHub Slides&lt;/h2>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://docs.google.com/presentation/d/1-xHcGI2ONgW5BGUFIaDQV2D8vFyVtm5phnnddxZ1JIE/edit?usp=sharing">
+&lt;img alt="Rstudio with Git and GitHub Slides" src="https://docs.google.com/presentation/d/1-xHcGI2ONgW5BGUFIaDQV2D8vFyVtm5phnnddxZ1JIE/edit?usp=sharing"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://docs.google.com/presentation/d/1-xHcGI2ONgW5BGUFIaDQV2D8vFyVtm5phnnddxZ1JIE/edit?usp=sharing">
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h2 id="b">B&lt;/h2>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/sYmQTUXnQBoBcyET1nXEJduHb-5ahJrwiZrY5BHYuBOKSqMNW9B1uvx-l--Q1-qI.VTBZh7RhO6D-nlMe">
+&lt;img alt="Rstudio with Git and GitHub Slides" src="https://famu.zoom.us/rec/share/sYmQTUXnQBoBcyET1nXEJduHb-5ahJrwiZrY5BHYuBOKSqMNW9B1uvx-l--Q1-qI.VTBZh7RhO6D-nlMe"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/sYmQTUXnQBoBcyET1nXEJduHb-5ahJrwiZrY5BHYuBOKSqMNW9B1uvx-l--Q1-qI.VTBZh7RhO6D-nlMe">
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h2 id="c">C&lt;/h2>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/7LK71gUPMdvpH-7J0zITciuLpp7P38Ic8gQ3r42VeNFzBy52fQHdLyK0NUuYrynY.tgx5aNXykyAipzFt">
+&lt;img alt="Rstudio with Git and GitHub Slides" src="https://famu.zoom.us/rec/share/7LK71gUPMdvpH-7J0zITciuLpp7P38Ic8gQ3r42VeNFzBy52fQHdLyK0NUuYrynY.tgx5aNXykyAipzFt"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/7LK71gUPMdvpH-7J0zITciuLpp7P38Ic8gQ3r42VeNFzBy52fQHdLyK0NUuYrynY.tgx5aNXykyAipzFt">
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h2 id="d">D&lt;/h2>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/C_5m4bQwPny-TW50aft0zQ2HR_ZCn_D22nbywWnyZqoZg89-oKpQHRo9jywvUIIN.1kc8yUrK9PPQQ8T_">
+&lt;img alt="Rstudio with Git and GitHub Slides" src="https://famu.zoom.us/rec/share/C_5m4bQwPny-TW50aft0zQ2HR_ZCn_D22nbywWnyZqoZg89-oKpQHRo9jywvUIIN.1kc8yUrK9PPQQ8T_"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/C_5m4bQwPny-TW50aft0zQ2HR_ZCn_D22nbywWnyZqoZg89-oKpQHRo9jywvUIIN.1kc8yUrK9PPQQ8T_">
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h2 id="e">E&lt;/h2>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/dYjAatyl--Dlc2v9RGbni5m5jM2iCY8fQYtre4A2FoYZnos9mtrjGRBkxPq3-aQv.jwJ5Gs0B58vg_da-">
+&lt;img alt="Rstudio with Git and GitHub Slides" src="https://famu.zoom.us/rec/share/dYjAatyl--Dlc2v9RGbni5m5jM2iCY8fQYtre4A2FoYZnos9mtrjGRBkxPq3-aQv.jwJ5Gs0B58vg_da-"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/dYjAatyl--Dlc2v9RGbni5m5jM2iCY8fQYtre4A2FoYZnos9mtrjGRBkxPq3-aQv.jwJ5Gs0B58vg_da-">
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://drive.google.com/file/d/1hauM2BunbmwWAViUt0bS2Yl7ZbQ5_T0h/view?usp=sharing">
+&lt;img alt="Rstudio with Git and GitHub Slides" src="https://drive.google.com/file/d/1hauM2BunbmwWAViUt0bS2Yl7ZbQ5_T0h/view?usp=sharing"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://drive.google.com/file/d/1hauM2BunbmwWAViUt0bS2Yl7ZbQ5_T0h/view?usp=sharing">
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/5Esz5JkozJajn5b__YmCPNGdaWUsSHBAO8YVkzfyvTTq9kzL1Xv0j_yXWz1jM15J.k19yEPveidXLT41Y">
+&lt;img alt="Rstudio with Git and GitHub Slides" src="https://famu.zoom.us/rec/share/5Esz5JkozJajn5b__YmCPNGdaWUsSHBAO8YVkzfyvTTq9kzL1Xv0j_yXWz1jM15J.k19yEPveidXLT41Y"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/5Esz5JkozJajn5b__YmCPNGdaWUsSHBAO8YVkzfyvTTq9kzL1Xv0j_yXWz1jM15J.k19yEPveidXLT41Y">
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/jIR9L_qkMPXATo56Aua009SQo62CsEi_m2sIU3YPr39bbGvyw5mPBdZ9VVomLSqG.4aEp-Ye_l_TL8lub">
+&lt;img alt="Rstudio with Git and GitHub Slides" src="https://famu.zoom.us/rec/share/jIR9L_qkMPXATo56Aua009SQo62CsEi_m2sIU3YPr39bbGvyw5mPBdZ9VVomLSqG.4aEp-Ye_l_TL8lub"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/jIR9L_qkMPXATo56Aua009SQo62CsEi_m2sIU3YPr39bbGvyw5mPBdZ9VVomLSqG.4aEp-Ye_l_TL8lub">
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/QVziK8PteBlanKaQNG9J6uBmpyRLFnSVVcyRFKVGakBmRtzerwkutiCoGiydSxkY.W5rt607-OB0o1spc">
+&lt;img alt="Rstudio with Git and GitHub Slides" src="https://famu.zoom.us/rec/share/QVziK8PteBlanKaQNG9J6uBmpyRLFnSVVcyRFKVGakBmRtzerwkutiCoGiydSxkY.W5rt607-OB0o1spc"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/QVziK8PteBlanKaQNG9J6uBmpyRLFnSVVcyRFKVGakBmRtzerwkutiCoGiydSxkY.W5rt607-OB0o1spc">
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/rFC5DH7b_Ww4giIJ4DCmmoTRQrmVX74FQ_RRIjNazoNV2_N90-T7GQjCKm2rB39k.CKy9Cve13W2ijDcN">
+&lt;img alt="Rstudio with Git and GitHub Slides" src="https://famu.zoom.us/rec/share/rFC5DH7b_Ww4giIJ4DCmmoTRQrmVX74FQ_RRIjNazoNV2_N90-T7GQjCKm2rB39k.CKy9Cve13W2ijDcN"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/rFC5DH7b_Ww4giIJ4DCmmoTRQrmVX74FQ_RRIjNazoNV2_N90-T7GQjCKm2rB39k.CKy9Cve13W2ijDcN">
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://drive.google.com/file/d/1_nN7iMtmKIOCvV3gB-vLwhIs3lfAALBF/view?usp=sharing">
+&lt;img alt="Rstudio with Git and GitHub Slides" src="https://drive.google.com/file/d/1_nN7iMtmKIOCvV3gB-vLwhIs3lfAALBF/view?usp=sharing"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://drive.google.com/file/d/1_nN7iMtmKIOCvV3gB-vLwhIs3lfAALBF/view?usp=sharing">
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://docs.google.com/document/d/1sU3Toi5NuT_DZN_mUCxY2kmae9QBYMT3fMU6Yc5K8so/edit?usp=sharing">
+&lt;img alt="Rstudio with Git and GitHub Slides" src="https://docs.google.com/document/d/1sU3Toi5NuT_DZN_mUCxY2kmae9QBYMT3fMU6Yc5K8so/edit?usp=sharing"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://docs.google.com/document/d/1sU3Toi5NuT_DZN_mUCxY2kmae9QBYMT3fMU6Yc5K8so/edit?usp=sharing">
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/1P2w22PDcIUFn9ni1rhIUfP8qrqoTcSZEVSJIlhJj0ATBO_F1EiIxde4J-W1OH2L.6VI12LUQIY2_5f6h">
+&lt;img alt="Rstudio with Git and GitHub Slides" src="https://famu.zoom.us/rec/share/1P2w22PDcIUFn9ni1rhIUfP8qrqoTcSZEVSJIlhJj0ATBO_F1EiIxde4J-W1OH2L.6VI12LUQIY2_5f6h"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/1P2w22PDcIUFn9ni1rhIUfP8qrqoTcSZEVSJIlhJj0ATBO_F1EiIxde4J-W1OH2L.6VI12LUQIY2_5f6h">
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://docs.google.com/presentation/d/1N9dyKK-yCHTouNe8qpL5y7C2IVSF9VS4Z9-CulE0LvY/edit?usp=sharing">
+&lt;img alt="Rstudio with Git and GitHub Slides" src="https://docs.google.com/presentation/d/1N9dyKK-yCHTouNe8qpL5y7C2IVSF9VS4Z9-CulE0LvY/edit?usp=sharing"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://docs.google.com/presentation/d/1N9dyKK-yCHTouNe8qpL5y7C2IVSF9VS4Z9-CulE0LvY/edit?usp=sharing">
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://drive.google.com/file/d/1Efxe5QP6UNCsFTwmYvx0aCCcp_xK2Ixi/view?usp=sharing">
+&lt;img alt="Rstudio with Git and GitHub Slides" src="https://drive.google.com/file/d/1Efxe5QP6UNCsFTwmYvx0aCCcp_xK2Ixi/view?usp=sharing"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://drive.google.com/file/d/1Efxe5QP6UNCsFTwmYvx0aCCcp_xK2Ixi/view?usp=sharing">
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/qZxBeplv7TiUB_gaTGUYyZw3di4Is1bCVDYSmmAFjFuMkp1xosgVI2sO-lJjSojh.p_sDdDdhn1KP6e3p">
+&lt;img alt="Rstudio with Git and GitHub Slides" src="https://famu.zoom.us/rec/share/qZxBeplv7TiUB_gaTGUYyZw3di4Is1bCVDYSmmAFjFuMkp1xosgVI2sO-lJjSojh.p_sDdDdhn1KP6e3p"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/qZxBeplv7TiUB_gaTGUYyZw3di4Is1bCVDYSmmAFjFuMkp1xosgVI2sO-lJjSojh.p_sDdDdhn1KP6e3p">
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;p>&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/wy6Vr2zcZ7bg3Nqrm7CY2eHk1oA_I_HFM8az5_unde6L0cxMEi_xfsUXWGqW70Va.5I_cBifw_-EDIFI0">
+&lt;img alt="Rstudio with Git and GitHub Slides" src="https://famu.zoom.us/rec/share/wy6Vr2zcZ7bg3Nqrm7CY2eHk1oA_I_HFM8az5_unde6L0cxMEi_xfsUXWGqW70Va.5I_cBifw_-EDIFI0"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/wy6Vr2zcZ7bg3Nqrm7CY2eHk1oA_I_HFM8az5_unde6L0cxMEi_xfsUXWGqW70Va.5I_cBifw_-EDIFI0">
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/EMMqFXSOz6NNMRk5tyi0gDo9q3ZfKOvtOXkv1oQMa1-KS_Aj6cY447aKFJCB5R2F.KvGwgslwueWKHfhQ">
+&lt;img alt="Rstudio with Git and GitHub Slides" src="https://famu.zoom.us/rec/share/EMMqFXSOz6NNMRk5tyi0gDo9q3ZfKOvtOXkv1oQMa1-KS_Aj6cY447aKFJCB5R2F.KvGwgslwueWKHfhQ"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/EMMqFXSOz6NNMRk5tyi0gDo9q3ZfKOvtOXkv1oQMa1-KS_Aj6cY447aKFJCB5R2F.KvGwgslwueWKHfhQ">
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;/p>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/t82HdIjgcLxw4sEV_NyPAZzIE9-3RbWy-l2qGc47HvYgOgxSCHbFi1AWx-PaiXjw.NsuRLGfgbB595cEa">
+&lt;img alt="Rstudio with Git and GitHub Slides" src="https://famu.zoom.us/rec/share/t82HdIjgcLxw4sEV_NyPAZzIE9-3RbWy-l2qGc47HvYgOgxSCHbFi1AWx-PaiXjw.NsuRLGfgbB595cEa"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/t82HdIjgcLxw4sEV_NyPAZzIE9-3RbWy-l2qGc47HvYgOgxSCHbFi1AWx-PaiXjw.NsuRLGfgbB595cEa">
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/KqawXQZyJw7Gpa64E7UC9wyz5NenluJMr5i1cTFjM34qrdGwWudK2ZP7atBVihax.b4Sv0iTEtctlmw7H">
+&lt;img alt="Rstudio with Git and GitHub Slides" src="https://famu.zoom.us/rec/share/KqawXQZyJw7Gpa64E7UC9wyz5NenluJMr5i1cTFjM34qrdGwWudK2ZP7atBVihax.b4Sv0iTEtctlmw7H"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/KqawXQZyJw7Gpa64E7UC9wyz5NenluJMr5i1cTFjM34qrdGwWudK2ZP7atBVihax.b4Sv0iTEtctlmw7H">
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table></description></item><item><title>Docs: AI-First Engineering Cybertraining</title><link>/docs/courses/ai-first/</link><pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate><guid>/docs/courses/ai-first/</guid><description>
 &lt;p>&lt;img src="/images/bigdata.png" alt="This is an image">&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>This course introduces the students to AI-First Engineering Cybertraining we provide the following sections&lt;/p>
