@@ -8,7 +8,7 @@ setup:
 example:
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/hid-example.git
 
-reu:
+reu-add:
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-366.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-367.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-368.git
@@ -19,8 +19,6 @@ reu:
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-373.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-374.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-375.git
-
-reu1:
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-360.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-361.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-362.git
@@ -76,9 +74,28 @@ add:
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/sp21-599-359.git
 	#cd content/en/report; git submodule add git@github.com:cybertraining-dsc/hid-example.git
 
+pull-reu:
+	git pull
+	cd content/en/report/su21-reu-360; git checkout main; git pull
+	cd content/en/report/su21-reu-361; git checkout main; git pull
+	cd content/en/report/su21-reu-362; git checkout main; git pull
+	cd content/en/report/su21-reu-363; git checkout main; git pull
+	cd content/en/report/su21-reu-364; git checkout main; git pull
+	cd content/en/report/su21-reu-365; git checkout main; git pull
+	cd content/en/report/su21-reu-366; git checkout main; git pull
+	cd content/en/report/su21-reu-367; git checkout main; git pull
+	cd content/en/report/su21-reu-368; git checkout main; git pull
+	cd content/en/report/su21-reu-369; git checkout main; git pull
+	cd content/en/report/su21-reu-370; git checkout main; git pull
+	cd content/en/report/su21-reu-371; git checkout main; git pull
+	cd content/en/report/su21-reu-372; git checkout main; git pull
+	cd content/en/report/su21-reu-373; git checkout main; git pull
+	cd content/en/report/su21-reu-374; git checkout main; git pull
+	cd content/en/report/su21-reu-375; git checkout main; git pull
+
 
 # 316
-pull:
+pull: puul-reu
 	git pull
 	cd content/en/report/cloudmesh-openapi; git checkout main; git pull
 	cd content/en/report/fa20-523-301; git checkout main; git pull
