@@ -64,3 +64,86 @@ REU 2021.
   %}}
 
 ---
+
+
+* {{% addprojectreport
+  title="TBD"
+  hid="su21-reu-366" 
+  author="Mikahla Reeves"
+  %}}
+
+---
+
+* {{% addprojectreport
+  title="TBD"
+  hid="su21-reu-367" 
+  author="Whitney McNair"
+  %}}
+
+---
+
+* {{% addprojectreport
+  title="TBD"
+  hid="su21-reu-368" 
+  author="Yohn Jairo"
+  %}}
+
+---
+
+* {{% addprojectreport
+  title="TBD"
+  hid="su21-reu-369" 
+  author="Theresa Jeanbaptiste"
+  %}}
+
+---
+
+* {{% addprojectreport
+  title="TBD"
+  hid="su21-reu-370" 
+  author="Kehinde Ezekiel"
+  %}}
+
+---
+
+* {{% addprojectreport
+  title="TBD"
+  hid="su21-reu-371" 
+  author="Raeven Hatcher"
+  %}}
+
+---
+
+* {{% addprojectreport
+  title="TBD"
+  hid="su21-reu-372" 
+  author="Sheimy Paz"
+  %}}
+
+---
+
+
+* {{% addprojectreport
+  title="TBD"
+  hid="su21-reu-373" 
+  author="Neel Patel"
+  %}}
+
+---
+
+* {{% addprojectreport
+  title="TBD"
+  hid="su21-reu-374" 
+  author="Victor Adankai"
+  %}}
+
+---
+
+* {{% addprojectreport
+  title="TBD"
+  hid="su21-reu-375"
+  author="Ololade Latinwo"
+  %}}
+
+---
+
