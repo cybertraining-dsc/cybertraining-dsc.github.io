@@ -288,7 +288,6 @@ Video: AI First Engineering: Learning material
 Video: Adding content to your su21-reu repositories
 {{< /view_module >}}
 
-
 {{< view_module
 	alt="AI First Engineering:"
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
