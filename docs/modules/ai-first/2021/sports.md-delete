@@ -4,6 +4,8 @@ draft: false
 weight: 7
 description: >
   Week 5: Big Data and Sports.
+alias:
+  - /modules/ai-first/2021/sports
 ---
 
 # Sports with Big Data Applications
