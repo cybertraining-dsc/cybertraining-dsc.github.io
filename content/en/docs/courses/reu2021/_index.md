@@ -57,6 +57,42 @@ Installation of Python
 
 {{< /view_module >}}
 
+Update to the Video:
+
+Best practices in Python recommend to use a Python venv. This is pretty easy to do and creates a separate python environment for you so you do not interface with your system python install. Some IDE's may do this aout0matically, but it isstill best practice to install one and bind the IDE against it. To do this:
+
+1. download python version 3.9.5 just as shown in the first lecture.
+2. after the download you do an additional step.
+
+   * on Mac:
+
+     ```
+     python3.9 -m venv ~/ENV3
+     source ~/ENV/bin/activate
+     ```
+     
+     you need to do the source every time you start a new window or on mac ass it to .zprofile
+     
+  * On Windows you first install gitbash and do all yuour terminal work from gitbash as this is more Linux like. In gitbash run
+     
+    ```
+    python -m venv ~/ENV3
+    ~/ENV/Script/activate
+    ```
+    
+    In case you like to add it to gitbash, you can add the source line to .bashrc and/or .bash_profile
+
+3. In case you use VSCode, you can also do it individually in a directory where you have your code.
+
+   * On Mac: `cd TO YOUR DIR; python3.9 -m venv .`
+   * On Windows `cd TO YOUR DIR; python -m venv .`
+
+   Then start VSCode in the directory and it will ask you to use this venv. HOwever the global ENV3 venv 
+   may be better and you cen set your interpreter to it
+   
+4. On Pycharm we recommend yu use the ENV3 and set the clobal interpreter   
+   
+
 ## Jupyter Notebooks
 
 {{< view_module
