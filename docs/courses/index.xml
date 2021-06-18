@@ -75,6 +75,46 @@ Installation of Python
 &lt;/td>
 &lt;/tr>
 &lt;/table>
+&lt;p>Update to the Video:&lt;/p>
+&lt;p>Best practices in Python recommend to use a Python venv. This is pretty easy to do and creates a separate python environment for you so you do not interface with your system python install. Some IDE&amp;rsquo;s may do this aout0matically, but it isstill best practice to install one and bind the IDE against it. To do this:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>download python version 3.9.5 just as shown in the first lecture.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>after the download you do an additional step.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>on Mac:&lt;/p>
+&lt;pre>&lt;code>python3.9 -m venv ~/ENV3
+source ~/ENV/bin/activate
+&lt;/code>&lt;/pre>&lt;p>you need to do the source every time you start a new window or on mac ass it to .zprofile&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>
+&lt;p>On Windows you first install gitbash and do all yuour terminal work from gitbash as this is more Linux like. In gitbash run&lt;/p>
+&lt;pre>&lt;code>python -m venv ~/ENV3
+~/ENV/Script/activate
+&lt;/code>&lt;/pre>&lt;p>In case you like to add it to gitbash, you can add the source line to .bashrc and/or .bash_profile&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;ol start="3">
+&lt;li>
+&lt;p>In case you use VSCode, you can also do it individually in a directory where you have your code.&lt;/p>
+&lt;ul>
+&lt;li>On Mac: &lt;code>cd TO YOUR DIR; python3.9 -m venv .&lt;/code>&lt;/li>
+&lt;li>On Windows &lt;code>cd TO YOUR DIR; python -m venv .&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;p>Then start VSCode in the directory and it will ask you to use this venv. HOwever the global ENV3 venv
+may be better and you cen set your interpreter to it&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>On Pycharm we recommend yu use the ENV3 and set the clobal interpreter&lt;/p>
+&lt;/li>
+&lt;/ol>
 &lt;h2 id="jupyter-notebooks">Jupyter Notebooks&lt;/h2>
 &lt;table>
 &lt;colgroup>
