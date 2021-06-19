@@ -618,10 +618,10 @@ You can delete elements with the following commands:
 ``` python
 del computer['name'] # remove entry with key 'name'
 # computer
-# {'Age': 100, 'Class': 'Scientist'}
+# 
 computer.clear()     # remove all entries in dict
 # computer
-# {}
+# 
 del computer         # delete entire dictionary
 # computer
 # Traceback (most recent call last):
@@ -902,7 +902,7 @@ Let us break this down a bit.
     capabilities](https://docs.python.org/2/library/string.html#format-string-syntax)
     to insert values into the string we are displaying.
 
-## Lambda Expressions {#s-python-lambda}
+## Lambda Expressions 
 
 As oppose to normal functions in Python which are defined using the `def`
 keyword, lambda functions in Python are anonymous functions which do not have a
@@ -1015,7 +1015,7 @@ Also we don't need to assign Lambda function to a variable.
 Lambda functions are mostly passed as parameter to a function which
 expects a function objects like in map or filter.
 
-### map {#s-python-map}
+### map 
 
 The basic syntax of the map function is
 

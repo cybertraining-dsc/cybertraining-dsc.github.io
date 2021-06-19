@@ -20,7 +20,7 @@ These API's include
 -   [Heading](https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html?highlight=heading#cloudmesh.common.util.HEADING)
 -   [VERBOSE](https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html?highlight=verbose#cloudmesh.common.debug.VERBOSE)
 
-## Console {#sec:cloudmesh-console}
+## Console 
 
 Print is the usual function to output to the terminal. However, often we
 like to have colored output that helps us in the notification to the

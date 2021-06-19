@@ -46,14 +46,15 @@ can certainly do Python on a \$35-\$55 Raspberry PI, but you probably will not
 be able to run PyCharm. There are many alternative editors with less
 Memory footprint available.
 
-## Python 3.8
+## Python 3.9
 
-Here we discuss how to install Python 3.8 or newer on your operating
-system. For our class we do require a new version of python. PLease be
-aware that many operating systems come with an outdated version that
-will not be sufficient for our work.
+Here we discuss how to install Python 3.9 or newer on your operating system. It
+is typically advantageous to use a newer version of python so you can leverage
+the latest features. PLease be aware that many operating systems come with
+older versions that may or may not work for you. YOu always can start with the
+version that is installed and if you run into issues update later.
 
-### Python 3.8 on macOS
+### Python 3.9 on macOS
 
 You want a number of useful tools on your macOS. This includes git, make
 and a c compiler. All this can be installed with Xcode whcih is
@@ -68,9 +69,9 @@ tools:
 $ xcode-select --install
 ```
 
-The easiest installation of Python is to use the installation
-from <https://www.python.org/downloads>. Please, visit the page and
-follow the instructions. After this install, you have
+The easiest installation of Python is to use the installation from
+<https://www.python.org/downloads>. Please, visit the page and follow the
+instructions to install the python `.pkg` file. After this install, you have
 python3 available from the command-line.
 
 ### Python 3.9 on macOS via Homebrew
@@ -93,12 +94,11 @@ Then you should be able to install Python using:
 $ brew install python
 ```
 
-## Python 3.8 on Ubuntu 20.04
+## Python 3.9 on Ubuntu 20.04
 
-We first need to make sure that the correct version of the Python3 is
-installed. The default version of Python on Ubuntu 18.04 is 3.6.
-However, this version is insufficient for us and **must** be updated.
-You can get the version while doing the following steps:
+The default version of Python on Ubuntu 20.04 is 3.8. However, you can benefit
+from newer version while either installing them through python.org or adding
+them as follows:
 
 ``` bash
 $ sudo apt-get update
@@ -160,10 +160,14 @@ Once it is installed chose a terminal and execute
 python --version
 ```
 
-However, if you have installed conda for some reason, you need to read up
-on how to install 3.9.5 Python in conda or identify how to run conda and
+However, if you have installed conda for some reason, you need to read up on
+how to install 3.9.5 Python in conda or identify how to run conda and
 python.org at the same time. We often see others are giving the wrong
-installation instructions.
+installation instructions. Please also be aware that when you uninstall conda
+it is not sufficient t just delete it. You will have t make sure that you usnet
+the system variables automatically set at install time. THi includes.
+modifications on LInux and or Mac in .zprofile, .bashrc and .bash_profile. In
+windws PATH and other envoronment variables may have been modified.
 
 ### Python in the Linux Subsystem
 
@@ -180,8 +184,8 @@ A suitable distribution would be
 
 -   <https://www.microsoft.com/en-us/p/ubuntu-1804-lts/9n9tngvndl3q?activetab=pivot:overviewtab>
 
-However, as it uses an older version of Python, you will have to update
-it. We also find on the MongoDB web page that MongoDB is not supported in Linux Subsystem.
+However, as it may use an older version of Python, you may want to update
+it as previously discussed
 
 ## Using venv
 
@@ -290,4 +294,4 @@ If you installed everything correctly you should see
     Python 3.9.5
     pip 21.1.2
 
-r newer
+or newer

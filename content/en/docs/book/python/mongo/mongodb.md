@@ -47,7 +47,7 @@ its driver PyMongo, its object-document mapper MongoEngine, and the
 Flask-PyMongo micro-web framework that make MongoDB more attractive
 and user-friendly.
 
-## Cloudmesh MongoDB Usage Quickstart {#sec:mongodb-cloudmesh}
+## Cloudmesh MongoDB Usage Quickstart 
 
 Before you read on we like you to read this quickstart. The easiest way
 for many of the activities we do to interact with MongoDB is to use
