@@ -37,7 +37,7 @@ Rstudio with Git and GitHub Slides
 &lt;/tr>
 &lt;/table>
 &lt;h2 id="programming-with-python">Programming with Python&lt;/h2>
-&lt;p>Python is a great languge for doing data science and AI, a comprehensive list of features is available in book form. Please not that when installing python you always want to use a venv as thi sis best practice.&lt;/p>
+&lt;p>Python is a great languge for doing data science and AI, a comprehensive list of features is available in book form. Please note that when installing Python, you always want to use a venv as this is best practice.&lt;/p>
 &lt;table>
 &lt;colgroup>
 &lt;col style="width:15%;background-color:white">
@@ -76,13 +76,13 @@ Installation of Python
 &lt;/tr>
 &lt;/table>
 &lt;p>Update to the Video:&lt;/p>
-&lt;p>Best practices in Python recommend to use a Python venv. This is pretty easy to do and creates a separate python environment for you so you do not interface with your system python install. Some IDE&amp;rsquo;s may do this aout0matically, but it isstill best practice to install one and bind the IDE against it. To do this:&lt;/p>
+&lt;p>Best practices in Python recommend to use a Python venv. This is pretty easy to do and creates a separate Python environment for you so you do not interfere with your system Python installation. Some IDEs may do this automatically, but it is still best practice to install one and bind the IDE against it. To do this:&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>download python version 3.9.5 just as shown in the first lecture.&lt;/p>
+&lt;p>Download Python version 3.9.5 just as shown in the first lecture.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>after the download you do an additional step.&lt;/p>
+&lt;p>After the download you do an additional step as follows:&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;p>on Mac:&lt;/p>
@@ -95,7 +95,7 @@ source ~/ENV/bin/activate
 &lt;/ol>
 &lt;ul>
 &lt;li>
-&lt;p>On Windows you first install gitbash and do all yuour terminal work from gitbash as this is more Linux like. In gitbash run&lt;/p>
+&lt;p>on Windows you first install gitbash and do all yuour terminal work from gitbash as this is more Linux-like. In gitbash, run&lt;/p>
 &lt;pre>&lt;code>python -m venv ~/ENV3
 ~/ENV/Script/activate
 &lt;/code>&lt;/pre>&lt;p>In case you like to add it to gitbash, you can add the source line to .bashrc and/or .bash_profile&lt;/p>
@@ -108,11 +108,11 @@ source ~/ENV/bin/activate
 &lt;li>On Mac: &lt;code>cd TO YOUR DIR; python3.9 -m venv .&lt;/code>&lt;/li>
 &lt;li>On Windows &lt;code>cd TO YOUR DIR; python -m venv .&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;p>Then start VSCode in the directory and it will ask you to use this venv. HOwever the global ENV3 venv
-may be better and you cen set your interpreter to it&lt;/p>
+&lt;p>Then start VSCode in the directory and it will ask you to use this venv. However, the global ENV3 venv
+may be better and you cen set your interpreter to it.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>On Pycharm we recommend yu use the ENV3 and set the clobal interpreter&lt;/p>
+&lt;p>On Pycharm we recommend you use the ENV3 and set the clobal interpreter&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;h2 id="jupyter-notebooks">Jupyter Notebooks&lt;/h2>
@@ -301,8 +301,8 @@ Python Exercises - Lab 2
 &lt;/td>
 &lt;/tr>
 &lt;/table>
-&lt;p>The first exercise will require a simple for loop while the second is more complicated requiring nested for loops and a break statement.&lt;/p>
-&lt;p>&lt;em>General Instructions:&lt;/em> Create two different files with extension ipnyb, one for each problem. The first file will be named factorial.ipnyb which is for the factorial problem, and the second prime_number.ipnyb for the prime number problem.&lt;/p>
+&lt;p>The first exercise will require a simple for loop, while the second is more complicated, requiring nested for loops and a break statement.&lt;/p>
+&lt;p>&lt;em>General Instructions:&lt;/em> Create two different files with extension .ipnyb, one for each problem. The first file will be named factorial.ipnyb which is for the factorial problem, and the second prime_number.ipnyb for the prime number problem.&lt;/p>
 &lt;ol>
 &lt;li>
 &lt;p>Write a program that can find the factorial of any given number. For example, find the factorial of the number 5 (often written as 5!) which is 1&lt;em>2&lt;/em>3&lt;em>4&lt;/em>5 and equals 120. Your program should take as input an integer from the user.&lt;/p>
