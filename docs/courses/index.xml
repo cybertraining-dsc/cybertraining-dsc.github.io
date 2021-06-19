@@ -4,11 +4,11 @@
 &lt;div class="toc">
 &lt;nav id="TableOfContents">
 &lt;ul>
-&lt;li>&lt;a href="#rstudio-with-git-and-github-slides">Rstudio with Git and GitHub Slides&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#rstudio-with-git-and-github-slides">RStudio with Git and GitHub Slides&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#programming-with-python">Programming with Python&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#installation-of-python">Installation of Python&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#jupyter-notebooks">Jupyter Notebooks&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#github">Github&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#github">GitHub&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#introduction-to-python">Introduction to Python&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#motivation-for-the-reu">Motivation for the REU&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#data-science-tools">Data Science Tools&lt;/a>&lt;/li>
@@ -17,7 +17,7 @@
 &lt;/nav>
 &lt;/div>
 &lt;/div>
-&lt;h2 id="rstudio-with-git-and-github-slides">Rstudio with Git and GitHub Slides&lt;/h2>
+&lt;h2 id="rstudio-with-git-and-github-slides">RStudio with Git and GitHub Slides&lt;/h2>
 &lt;table>
 &lt;colgroup>
 &lt;col style="width:15%;background-color:white">
@@ -26,18 +26,18 @@
 &lt;tr>
 &lt;td>
 &lt;a href="https://docs.google.com/presentation/d/1-xHcGI2ONgW5BGUFIaDQV2D8vFyVtm5phnnddxZ1JIE/edit?usp=sharing">
-&lt;img alt="Rstudio with Git and GitHub Slides" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;img alt="RStudio with Git and GitHub Slides" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
 &lt;a href="https://docs.google.com/presentation/d/1-xHcGI2ONgW5BGUFIaDQV2D8vFyVtm5phnnddxZ1JIE/edit?usp=sharing">
-Rstudio with Git and GitHub Slides
+RStudio with Git and GitHub Slides
 &lt;/a>
 &lt;/td>
 &lt;/tr>
 &lt;/table>
 &lt;h2 id="programming-with-python">Programming with Python&lt;/h2>
-&lt;p>Python is a great languge for doing data science and AI, a comprehensive list of features is available in book form. Please note that when installing Python, you always want to use a venv as this is best practice.&lt;/p>
+&lt;p>Python is a great language for Data science and AI; a comprehensive list of features is available in book form. Please note that when installing Python, you always want to use a venv as this is best practice.&lt;/p>
 &lt;table>
 &lt;colgroup>
 &lt;col style="width:15%;background-color:white">
@@ -95,7 +95,7 @@ source ~/ENV/bin/activate
 &lt;/ol>
 &lt;ul>
 &lt;li>
-&lt;p>on Windows you first install gitbash and do all yuour terminal work from gitbash as this is more Linux-like. In gitbash, run&lt;/p>
+&lt;p>on Windows you first install gitbash and do all your terminal work from gitbash as this is more Linux-like. In gitbash, run&lt;/p>
 &lt;pre>&lt;code>python -m venv ~/ENV3
 ~/ENV/Script/activate
 &lt;/code>&lt;/pre>&lt;p>In case you like to add it to gitbash, you can add the source line to .bashrc and/or .bash_profile&lt;/p>
@@ -112,7 +112,7 @@ source ~/ENV/bin/activate
 may be better and you cen set your interpreter to it.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>On Pycharm we recommend you use the ENV3 and set the clobal interpreter&lt;/p>
+&lt;p>On PyCharm we recommend you use the ENV3 and set the global interpreter&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;h2 id="jupyter-notebooks">Jupyter Notebooks&lt;/h2>
@@ -134,7 +134,7 @@ Jupyter Notebooks
 &lt;/td>
 &lt;/tr>
 &lt;/table>
-&lt;h2 id="github">Github&lt;/h2>
+&lt;h2 id="github">GitHub&lt;/h2>
 &lt;table>
 &lt;colgroup>
 &lt;col style="width:15%;background-color:white">
@@ -143,12 +143,12 @@ Jupyter Notebooks
 &lt;tr>
 &lt;td>
 &lt;a href="https://famu.zoom.us/rec/share/C_5m4bQwPny-TW50aft0zQ2HR_ZCn_D22nbywWnyZqoZg89-oKpQHRo9jywvUIIN.1kc8yUrK9PPQQ8T_">
-&lt;img alt="Github" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;img alt="GitHub" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
 &lt;a href="https://famu.zoom.us/rec/share/C_5m4bQwPny-TW50aft0zQ2HR_ZCn_D22nbywWnyZqoZg89-oKpQHRo9jywvUIIN.1kc8yUrK9PPQQ8T_">
-Video: Github
+Video: GitHub
 &lt;/a>
 &lt;/td>
 &lt;/tr>
@@ -161,12 +161,12 @@ Video: Github
 &lt;tr>
 &lt;td>
 &lt;a href="https://famu.zoom.us/rec/share/dYjAatyl--Dlc2v9RGbni5m5jM2iCY8fQYtre4A2FoYZnos9mtrjGRBkxPq3-aQv.jwJ5Gs0B58vg_da-">
-&lt;img alt="Github" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;img alt="GitHub" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
 &lt;a href="https://famu.zoom.us/rec/share/dYjAatyl--Dlc2v9RGbni5m5jM2iCY8fQYtre4A2FoYZnos9mtrjGRBkxPq3-aQv.jwJ5Gs0B58vg_da-">
-Video: Github 2
+Video: GitHub 2
 &lt;/a>
 &lt;/td>
 &lt;/tr>
@@ -253,13 +253,13 @@ Video: Introduction to Python (3)
 &lt;tr>
 &lt;td>
 &lt;a href="https://famu.zoom.us/rec/share/rFC5DH7b_Ww4giIJ4DCmmoTRQrmVX74FQ_RRIjNazoNV2_N90-T7GQjCKm2rB39k.CKy9Cve13W2ijDcN">
-&lt;img alt="String, Numbers, Booleans Flow of control Using If statements" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;img alt="String, Numbers, Booleans Flow of control using If statements" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
 &lt;a href="https://famu.zoom.us/rec/share/rFC5DH7b_Ww4giIJ4DCmmoTRQrmVX74FQ_RRIjNazoNV2_N90-T7GQjCKm2rB39k.CKy9Cve13W2ijDcN">
 Slides: String, Numbers, Booleans
-Flow of control Using If statements
+Flow of control using If statements
 &lt;/a>
 &lt;/td>
 &lt;/tr>
@@ -272,13 +272,13 @@ Flow of control Using If statements
 &lt;tr>
 &lt;td>
 &lt;a href="https://drive.google.com/file/d/1_nN7iMtmKIOCvV3gB-vLwhIs3lfAALBF/view?usp=sharing">
-&lt;img alt="Slides: String, Numbers, Booleans Flow of control Using If statements" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;img alt="Slides: String, Numbers, Booleans Flow of control using If statements" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
 &lt;a href="https://drive.google.com/file/d/1_nN7iMtmKIOCvV3gB-vLwhIs3lfAALBF/view?usp=sharing">
 Slides: String, Numbers, Booleans
-Flow of control Using If statements (2)
+Flow of control using If statements (2)
 &lt;/a>
 &lt;/td>
 &lt;/tr>
@@ -305,7 +305,7 @@ Python Exercises - Lab 2
 &lt;p>&lt;em>General Instructions:&lt;/em> Create two different files with extension .ipnyb, one for each problem. The first file will be named factorial.ipnyb which is for the factorial problem, and the second prime_number.ipnyb for the prime number problem.&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>Write a program that can find the factorial of any given number. For example, find the factorial of the number 5 (often written as 5!) which is 1&lt;em>2&lt;/em>3&lt;em>4&lt;/em>5 and equals 120. Your program should take as input an integer from the user.&lt;/p>
+&lt;p>Write a program that can find the factorial of any given number. For example, find the factorial of the number 5 (often written as 5!) which is 1*2*3*4*5 and equals 120. Your program should take as input an integer from the user.&lt;/p>
 &lt;p>Note: The factorial is not defined for negative numbers and the factorial of Zero is 1; that is 0! = 1.&lt;/p>
 &lt;p>You should&lt;/p>
 &lt;ol>

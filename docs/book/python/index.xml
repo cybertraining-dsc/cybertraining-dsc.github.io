@@ -3,13 +3,13 @@
 &lt;hr>
 &lt;p>&lt;img src="https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/images/learning.png" alt=""> &lt;strong>Learning Objectives&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>Learn quickly Python under the assumption you know a programming language&lt;/li>
+&lt;li>Learn Python quickly under the assumption you know a programming language&lt;/li>
 &lt;li>Work with modules&lt;/li>
 &lt;li>Understand docopts and cmd&lt;/li>
-&lt;li>Contuct some python examples to refresh your python knpwledge&lt;/li>
+&lt;li>Contuct some Python examples to refresh your Python knowledge&lt;/li>
 &lt;li>Learn about the &lt;code>map&lt;/code> function in Python&lt;/li>
-&lt;li>Learn how to start subprocesses and rederect their output&lt;/li>
-&lt;li>Learn more advanced constructs such as multiprocessing and Queues&lt;/li>
+&lt;li>Learn how to start subprocesses and redirect their output&lt;/li>
+&lt;li>Learn more advanced constructs such as multiprocessing and queues&lt;/li>
 &lt;li>Understand why we do not use &lt;code>anaconda&lt;/code>&lt;/li>
 &lt;li>Get familiar with &lt;code>pyenv&lt;/code>&lt;/li>
 &lt;/ul>
@@ -17,7 +17,7 @@
 &lt;p>Portions of this lesson have been adapted from the &lt;a href="https://docs.python.org/2/tutorial/">official Python
 Tutorial&lt;/a> copyright &lt;a href="http://www.python.org/">Python
 Software Foundation&lt;/a>.&lt;/p>
-&lt;p>Python is an easy to learn programming language. It has efficient
+&lt;p>Python is an easy-to-learn programming language. It has efficient
 high-level data structures and a simple but effective approach to
 object-oriented programming. Python&amp;rsquo;s simple syntax and dynamic typing,
 together with its interpreted nature, make it an ideal language for
@@ -33,7 +33,7 @@ callable from C). Python is also suitable as an extension language for
 customizable applications.&lt;/p>
 &lt;p>Python is an interpreted, dynamic, high-level programming language
 suitable for a wide range of applications.&lt;/p>
-&lt;p>The philosophy of python is summarized in &lt;a href="https://www.python.org/dev/peps/pep-0020/">The Zen of
+&lt;p>The philosophy of Python is summarized in &lt;a href="https://www.python.org/dev/peps/pep-0020/">The Zen of
 Python&lt;/a> as follows:&lt;/p>
 &lt;ul>
 &lt;li>Explicit is better than implicit&lt;/li>
@@ -51,7 +51,7 @@ Python&lt;/a> as follows:&lt;/p>
 &lt;li>a large standard library&lt;/li>
 &lt;li>a large repository of third-party libraries&lt;/li>
 &lt;/ul>
-&lt;p>Python is used by many companies and is applied for web development,
+&lt;p>Python is used by many companies and is applied to web development,
 scientific computing, embedded applications, artificial intelligence,
 software development, and information security, to name a few.&lt;/p>
 &lt;p>The material collected here introduces the reader to the basic concepts
@@ -65,7 +65,7 @@ through the material you will be able to:&lt;/p>
 &lt;li>have an overview of the standard library&lt;/li>
 &lt;li>install Python libraries using pyenv for multipython interpreter development.&lt;/li>
 &lt;/ul>
-&lt;p>E doe not attempt to be comprehensive and cover every
+&lt;p>This book does not attempt to be comprehensive and cover every
 single feature, or even every commonly used feature. Instead, it
 introduces many of Python&amp;rsquo;s most noteworthy features, and will give you
 a good idea of the language&amp;rsquo;s flavor and style. After reading it, you
@@ -94,9 +94,9 @@ pages.&lt;/p>
 &lt;li>&lt;a href="https://github.com/pyenv/pyenv">PyCharm&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>Python module of the week is a Web site that provides a number of short
-examples on how to use some elementary python modules. Not all modules
+examples on how to use some elementary Python modules. Not all modules
 are equally useful and you should decide if there are better
-alternatives. However for beginners this site provides a number of good
+alternatives. However, for beginners this site provides a number of good
 examples&lt;/p>
 &lt;ul>
 &lt;li>Python 2: &lt;a href="https://pymotw.com/2/">https://pymotw.com/2/&lt;/a>&lt;/li>
