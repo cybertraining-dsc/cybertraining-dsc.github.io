@@ -205,7 +205,7 @@ The first exercise will require a simple for loop, while the second is more comp
 
 *General Instructions:* Create two different files with extension .ipnyb, one for each problem. The first file will be named factorial.ipnyb which is for the factorial problem, and the second prime_number.ipnyb for the prime number problem.
 
-1. Write a program that can find the factorial of any given number. For example, find the factorial of the number 5 (often written as 5!) which is 1*2*3*4*5 and equals 120. Your program should take as input an integer from the user.
+1. Write a program that can find the factorial of any given number. For example, find the factorial of the number 5 (often written as 5!) which is 1\*2\*3\*4\*5 and equals 120. Your program should take as input an integer from the user.
 
    Note: The factorial is not defined for negative numbers and the factorial of Zero is 1; that is 0! = 1.
 
