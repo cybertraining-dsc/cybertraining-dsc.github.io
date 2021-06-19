@@ -306,6 +306,14 @@ Video: Pandas
 Video: Matrix computation
 {{< /view_module >}}
 
+{{< view_module
+	alt="Pycharm Installation and Virtual Environment setup"
+	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
+	url="https://famu.zoom.us/rec/share/A7okJD5VpykMNa2S7hScShT-xfAttJ0DI7B5NPNsLkpLETPsF--5sRHmC5WkjJoU.ndWSLqDFfCgUkvMi"
+	>}}
+Video: Matrix computation
+{{< /view_module >}}
+
 ## AI First Engineering
 
 {{< view_module
