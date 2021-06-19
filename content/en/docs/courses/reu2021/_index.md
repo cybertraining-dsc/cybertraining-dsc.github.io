@@ -31,7 +31,7 @@ Rstudio with Git and GitHub Slides
 
 ## Programming with Python	
 
-Python is a great languge for doing data science and AI, a comprehensive list of features is available in book form. Please not that when installing python you always want to use a venv as thi sis best practice.
+Python is a great languge for doing data science and AI, a comprehensive list of features is available in book form. Please note that when installing Python, you always want to use a venv as this is best practice.
 
 
 
@@ -59,10 +59,10 @@ Installation of Python
 
 Update to the Video:
 
-Best practices in Python recommend to use a Python venv. This is pretty easy to do and creates a separate python environment for you so you do not interface with your system python install. Some IDE's may do this aout0matically, but it isstill best practice to install one and bind the IDE against it. To do this:
+Best practices in Python recommend to use a Python venv. This is pretty easy to do and creates a separate Python environment for you so you do not interfere with your system Python installation. Some IDEs may do this automatically, but it is still best practice to install one and bind the IDE against it. To do this:
 
-1. download python version 3.9.5 just as shown in the first lecture.
-2. after the download you do an additional step.
+1. Download Python version 3.9.5 just as shown in the first lecture.
+2. After the download you do an additional step as follows:
 
    * on Mac:
 
@@ -73,7 +73,7 @@ Best practices in Python recommend to use a Python venv. This is pretty easy to 
      
      you need to do the source every time you start a new window or on mac ass it to .zprofile
      
-  * On Windows you first install gitbash and do all yuour terminal work from gitbash as this is more Linux like. In gitbash run
+  * on Windows you first install gitbash and do all yuour terminal work from gitbash as this is more Linux-like. In gitbash, run
      
     ```
     python -m venv ~/ENV3
@@ -87,10 +87,10 @@ Best practices in Python recommend to use a Python venv. This is pretty easy to 
    * On Mac: `cd TO YOUR DIR; python3.9 -m venv .`
    * On Windows `cd TO YOUR DIR; python -m venv .`
 
-   Then start VSCode in the directory and it will ask you to use this venv. HOwever the global ENV3 venv 
-   may be better and you cen set your interpreter to it
+   Then start VSCode in the directory and it will ask you to use this venv. However, the global ENV3 venv 
+   may be better and you cen set your interpreter to it.
    
-4. On Pycharm we recommend yu use the ENV3 and set the clobal interpreter   
+4. On Pycharm we recommend you use the ENV3 and set the clobal interpreter   
    
 
 ## Jupyter Notebooks
@@ -201,9 +201,9 @@ Flow of control Using If statements (2)
 {{< /view_module >}}
 
 
-The first exercise will require a simple for loop while the second is more complicated requiring nested for loops and a break statement. 
+The first exercise will require a simple for loop, while the second is more complicated, requiring nested for loops and a break statement. 
 
-*General Instructions:* Create two different files with extension ipnyb, one for each problem. The first file will be named factorial.ipnyb which is for the factorial problem, and the second prime_number.ipnyb for the prime number problem.
+*General Instructions:* Create two different files with extension .ipnyb, one for each problem. The first file will be named factorial.ipnyb which is for the factorial problem, and the second prime_number.ipnyb for the prime number problem.
 
 1. Write a program that can find the factorial of any given number. For example, find the factorial of the number 5 (often written as 5!) which is 1*2*3*4*5 and equals 120. Your program should take as input an integer from the user.
 
@@ -211,7 +211,7 @@ The first exercise will require a simple for loop while the second is more compl
 
    You should
 
-   1. If the number is less than Zero return with an error message.
+   1.   If the number is less than Zero return with an error message.
    2.   Check to see if the number is Zero—if it is then the answer is 1—print this out.
    3.   Otherwise use a loop to generate the result and print it out.
 
