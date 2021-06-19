@@ -17,13 +17,13 @@ Gregor von Laszewski (laszewski@gmail.com)
 
 
 
--   Learn Python quickly under the assumption you know a programming language
+-   Learn quickly Python under the assumption you know a programming language
 -   Work with modules
 -   Understand docopts and cmd
--   Contuct some Python examples to refresh your Python knowledge
+-   Contuct some python examples to refresh your python knpwledge
 -   Learn about the `map` function in Python
--   Learn how to start subprocesses and redirect their output
--   Learn more advanced constructs such as multiprocessing and queues
+-   Learn how to start subprocesses and rederect their output
+-   Learn more advanced constructs such as multiprocessing and Queues
 -   Understand why we do not use `anaconda`
 -   Get familiar with `pyenv`
 
@@ -33,7 +33,7 @@ Portions of this lesson have been adapted from the [official Python
 Tutorial](https://docs.python.org/2/tutorial/) copyright [Python
 Software Foundation](http://www.python.org/).
 
-Python is an easy-to-learn programming language. It has efficient
+Python is an easy to learn programming language. It has efficient
 high-level data structures and a simple but effective approach to
 object-oriented programming. Python's simple syntax and dynamic typing,
 together with its interpreted nature, make it an ideal language for
@@ -51,7 +51,7 @@ customizable applications.
 Python is an interpreted, dynamic, high-level programming language
 suitable for a wide range of applications.
 
-The philosophy of Python is summarized in [The Zen of
+The philosophy of python is summarized in [The Zen of
 Python](https://www.python.org/dev/peps/pep-0020/) as follows:
 
 -   Explicit is better than implicit
@@ -69,7 +69,7 @@ The main features of Python are:
 -   a large standard library
 -   a large repository of third-party libraries
 
-Python is used by many companies and is applied to web development,
+Python is used by many companies and is applied for web development,
 scientific computing, embedded applications, artificial intelligence,
 software development, and information security, to name a few.
 
@@ -84,7 +84,7 @@ through the material you will be able to:
 -   have an overview of the standard library
 -   install Python libraries using pyenv for multipython interpreter development.
 
-This book does not attempt to be comprehensive and cover every
+E doe not attempt to be comprehensive and cover every
 single feature, or even every commonly used feature. Instead, it
 introduces many of Python's most noteworthy features, and will give you
 a good idea of the language's flavor and style. After reading it, you
@@ -115,9 +115,9 @@ pages.
 -   [PyCharm](https://github.com/pyenv/pyenv)
 
 Python module of the week is a Web site that provides a number of short
-examples on how to use some elementary Python modules. Not all modules
+examples on how to use some elementary python modules. Not all modules
 are equally useful and you should decide if there are better
-alternatives. However, for beginners this site provides a number of good
+alternatives. However for beginners this site provides a number of good
 examples
 
 -   Python 2: <https://pymotw.com/2/>
