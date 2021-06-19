@@ -280,8 +280,6 @@ with <https://www.crummy.com/software/BeautifulSoup/>
 More details about it are provided in the documentation page
 <https://www.crummy.com/software/BeautifulSoup/bs4/doc/>
 
-:o2: TODO: Students can contribute a section
-
 Beautiful Soup is a python library to parse, process and edit HTML
 documents.
 
@@ -404,8 +402,6 @@ print(a_tag_elems)
 
 ### ConfigParser
 
-:o2: TODO: Students can contribute a section
-
 -   <https://pymotw.com/2/ConfigParser/>
 
 ### ConfigDict
@@ -464,19 +460,15 @@ methods `encrypt` and `decrypt`.
 
 ## Database Access
 
-:o2: TODO: Students: define conventional database access section
-
 see: <https://www.tutorialspoint.com/python/python_database_access.htm>
 
 ## SQLite
 
-:o2: TODO: Students can contribute to this section
+-   <https://www.sqlite.org/index.html>
 
-<https://www.sqlite.org/index.html>
+-   <https://docs.python.org/3/library/sqlite3.html>
 
-<https://docs.python.org/3/library/sqlite3.html>
-
-### Exercises :o2:
+### Exercises
 
 E:Encryption.1:
 
