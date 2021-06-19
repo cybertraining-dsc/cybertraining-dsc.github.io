@@ -18,20 +18,20 @@ This course introduces the REU students to various topics in Intelligent Systems
 
 
 
-## 	Rstudio with Git and GitHub Slides
+## 	RStudio with Git and GitHub Slides
 
 
 {{< view_module
-	alt="Rstudio with Git and GitHub Slides"
+	alt="RStudio with Git and GitHub Slides"
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://docs.google.com/presentation/d/1-xHcGI2ONgW5BGUFIaDQV2D8vFyVtm5phnnddxZ1JIE/edit?usp=sharing"
 >}}
-Rstudio with Git and GitHub Slides
+RStudio with Git and GitHub Slides
 {{< /view_module >}}
 
 ## Programming with Python	
 
-Python is a great languge for doing data science and AI, a comprehensive list of features is available in book form. Please note that when installing Python, you always want to use a venv as this is best practice.
+Python is a great language for Data science and AI; a comprehensive list of features is available in book form. Please note that when installing Python, you always want to use a venv as this is best practice.
 
 
 
@@ -73,7 +73,7 @@ Best practices in Python recommend to use a Python venv. This is pretty easy to 
      
      you need to do the source every time you start a new window or on mac ass it to .zprofile
      
-  * on Windows you first install gitbash and do all yuour terminal work from gitbash as this is more Linux-like. In gitbash, run
+  * on Windows you first install gitbash and do all your terminal work from gitbash as this is more Linux-like. In gitbash, run
      
     ```
     python -m venv ~/ENV3
@@ -90,7 +90,7 @@ Best practices in Python recommend to use a Python venv. This is pretty easy to 
    Then start VSCode in the directory and it will ask you to use this venv. However, the global ENV3 venv 
    may be better and you cen set your interpreter to it.
    
-4. On Pycharm we recommend you use the ENV3 and set the clobal interpreter   
+4. On PyCharm we recommend you use the ENV3 and set the global interpreter   
    
 
 ## Jupyter Notebooks
@@ -105,26 +105,26 @@ Jupyter Notebooks
 
 {{< /view_module >}}
 
-## Github
+## GitHub
 
 {{< view_module
-	alt="Github"
+	alt="GitHub"
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/C_5m4bQwPny-TW50aft0zQ2HR_ZCn_D22nbywWnyZqoZg89-oKpQHRo9jywvUIIN.1kc8yUrK9PPQQ8T_"
 	>}}
 
-Video: Github
+Video: GitHub
 
 {{< /view_module >}}
 
 
 
 {{< view_module
-	alt="Github"
+	alt="GitHub"
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/dYjAatyl--Dlc2v9RGbni5m5jM2iCY8fQYtre4A2FoYZnos9mtrjGRBkxPq3-aQv.jwJ5Gs0B58vg_da-"
 	>}}
-Video: Github 2
+Video: GitHub 2
 {{< /view_module >}}
 
 ## Introduction to Python 
@@ -175,21 +175,21 @@ Video: Introduction to Python (3)
 
 
 {{< view_module
-	alt="String, Numbers, Booleans Flow of control Using If statements"
+	alt="String, Numbers, Booleans Flow of control using If statements"
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/rFC5DH7b_Ww4giIJ4DCmmoTRQrmVX74FQ_RRIjNazoNV2_N90-T7GQjCKm2rB39k.CKy9Cve13W2ijDcN"
 	>}}
 Slides: String, Numbers, Booleans
-Flow of control Using If statements
+Flow of control using If statements
 {{< /view_module >}}
 
 {{< view_module
-	alt="Slides: String, Numbers, Booleans Flow of control Using If statements"
+	alt="Slides: String, Numbers, Booleans Flow of control using If statements"
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://drive.google.com/file/d/1_nN7iMtmKIOCvV3gB-vLwhIs3lfAALBF/view?usp=sharing"
 	>}}
 Slides: String, Numbers, Booleans
-Flow of control Using If statements (2)
+Flow of control using If statements (2)
 {{< /view_module >}}
 
 {{< view_module
@@ -205,7 +205,7 @@ The first exercise will require a simple for loop, while the second is more comp
 
 *General Instructions:* Create two different files with extension .ipnyb, one for each problem. The first file will be named factorial.ipnyb which is for the factorial problem, and the second prime_number.ipnyb for the prime number problem.
 
-1. Write a program that can find the factorial of any given number. For example, find the factorial of the number 5 (often written as 5!) which is 1*2*3*4*5 and equals 120. Your program should take as input an integer from the user.
+1. Write a program that can find the factorial of any given number. For example, find the factorial of the number 5 (often written as 5!) which is 1\*2\*3\*4\*5 and equals 120. Your program should take as input an integer from the user.
 
    Note: The factorial is not defined for negative numbers and the factorial of Zero is 1; that is 0! = 1.
 
