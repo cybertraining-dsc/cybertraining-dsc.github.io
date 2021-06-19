@@ -1802,6 +1802,112 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
+&lt;/section></description></item><item><title>Report:</title><link>/report/su21-reu-376/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-376/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Firstname Lastname, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-376">su21-reu-376&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Do not include this tip in your document:&lt;/p>
+&lt;blockquote>
+&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Here comes a convincing introduction to the problem&lt;/p>
+&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
+&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
+set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
+bound into cybertraining.&lt;/p>
+&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
+&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
+Thus the following is wrong:&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+This author does ignore proper markdown while not using empty lines between context changes
+1. This is because this author ignors all best practices
+&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+We do not ignore proper markdown while using empty lines between context changes
+1. This is because we encourage best practices to cause issues.
+&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
+&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
+We will not review any document that does not pass this check.&lt;/p>
+&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
+&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
+comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
+&lt;ol>
+&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
+&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
+&lt;/ol>
+&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
+&lt;p>You have two choices for the final project.&lt;/p>
+&lt;ol>
+&lt;li>Project, That is a final report that includes code.&lt;/li>
+&lt;li>Report, that is a final project without code.&lt;/li>
+&lt;/ol>
+&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
+at the beginning of your project.&lt;/p>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
+&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
+&lt;ol>
+&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
+&lt;li>When using bulleted lists use * and not -&lt;/li>
+&lt;/ol>
+&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
+&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
 &lt;/section></description></item><item><title>Report: Aquatic Toxicity Analysis with the aid of Autonomous Surface Vehicle (ASV)</title><link>/report/fa20-523-312/project/project/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/fa20-523-312/project/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/fa20-523-312/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-312/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/fa20-523-312/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-312/workflows/Status/badge.svg" alt="Status">&lt;/a>
@@ -9228,156 +9334,6 @@ Status: final, Type: Report&lt;/p>
 &lt;/li>
 &lt;li id="fn:19" role="doc-endnote">
 &lt;p>M. Beouy, &amp;ldquo;BGO - The Casino of the Future,&amp;rdquo; bgo Online Casino. [Online]. Available: &amp;lt;https://www.bgo.com/casino-of-the-future/the-future-of-sports-betting/. [Accessed: 05-Dec-2020]&amp;gt;. &lt;a href="#fnref:19" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: Analyzing LSTM Performance on Predicting the Stock Market for Multiple Time Steps</title><link>/report/fa20-523-313/project/project/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/fa20-523-313/project/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/fa20-523-313/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/fa20-523-313/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: final Type: Project&lt;/p>
-&lt;p>Fauzan Isnaini, &lt;a href="https://github.com/cybertraining-dsc/fa20-523-313/">fa20-523-313&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/fa20-523-313/blob/main/project/project.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Predicting the stock market has been an attractive
-field of research for a long time because it promises big wealth for anyone who can find the secret. For a long time, traders around the world have been relying on fundamental analysis and technical analysis to predict the market. Now with the advancement of big data, some financial institutions are beginning to predict the market by creating a model of the market using machine learning. While some researches produce promising results, most of them are directed at predicting the next day&amp;rsquo;s market behavior. In this study, we created an LSTM model to predict the market for multiple time frames. We then analyzed the performance of the model for some different time periods. From our observations, LSTM is good at predicting 30 time steps ahead, but the RMSE became larger as the time frame gets longer.&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-background-research-and-previous-work">2. Background Research and Previous Work&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#21-macd-in-technical-analysis">2.1 MACD in Technical Analysis&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#22-time-series-forecasting">2.2 Time Series Forecasting&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#23-using-lstm-in-stock-prediction-and-quantitative-trading">2.3 Using LSTM in Stock Prediction and Quantitative Trading&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#3-choice-of-data-sets">3. Choice of Data-sets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-methodology">4. Methodology&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#41-technology">4.1 Technology&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#42-data-preprocessing">4.2 Data Preprocessing&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#43-the-lstm-model">4.3 The LSTM Model&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#5-results">5. Results&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-conclusion-and-future-works">6. Conclusion and Future Works&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#7-acknowledgements">7. Acknowledgements&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-references">8. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> stock, market, predictive analytics, LSTM, random forest, regression, technical analysis&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Stock market prediction is a fascinating field of study for many analysts and researchers becauseof the significant amount of money circulating in the market. While there are numerous studies conducted in this field, predicting the stock market remains a challenging task, because of its noisy and non-stationary nature &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. The stock market is &amp;ldquo;noisy&amp;rdquo; because it is sensitive to mass psychology. The trends and patterns in the stock market can also change abruptly because of bad news, natural disasters, and some unforeseen circumstances, thus it is considered non-stationary.&lt;/p>
-&lt;p>The efficient market hypothesis even suggests that predicting or forecasting the financial market is unrealistic because price changes in the real world are unpredictable. All the changes in prices of the financial market are based on immediate economic events or news. Investors are profit-oriented, their buying or selling decisions are made according to the most recent events regardless of past analysis or plans. The argument about this Efficient Market Hypothesis has never been ended. So far, there is no strong proof that can verify if the efficient market hypothesis is proper or not &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>However, as Mostafa &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup> claims, financial markets are predictable to a certain extent. The past experience of many price changes over a certain period of time in the financial market and the undiscounted serial correlations among vital economic events affecting the future financial market are two main pieces of evidence opposing the Efficient Market Hypothesis.&lt;/p>
-&lt;p>The most popular methods in predicting the stock markets are technical and fundamental analysis. Fundamental analysis is mainly based on three essential aspects &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>: (i) macroeconomic analysis such as Gross Domestic Products and Consumer Price Index (CPI) which analyses the effect of the macroeconomic environment on the future profit of a company, (ii) industry analysis which estimates the value of the company based on industry status and prospect, and (iii) company analysis which analyses the current operation and financial status of a company to evaluate its internal value.&lt;/p>
-&lt;p>On the other hand, technical analysis is grouped into eight domains &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>: sentiment, flow-of-funds, raw data, trend, momentum, volume, cycle, and volatility. Sentiment represents the behaviors of various market participants. Flow-of-funds is a type of indicator used to investigate the financial status of various investors to pre-evaluate their strength in terms of buying and selling stocks, then, corresponding strategies, such as short squeeze can be adopted. Raw data include stock price series and price patterns such as K-line diagrams and bar charts. Trend and momentum are examples of price-based indicators, trend is used for tracing the stock price trends while momentum is used to evaluate the velocity of the price change and judge whether a trend reversal in stock price is about to occur. Volume is an indicator that reflects the enthusiasm of both buyers and sellers for investing, it is also a basis for predicting stock price movements. The cycle is based on the theory that stock prices vary periodically in the form of a long cycle of more than 10 years containing short cycles of a few days or weeks. Finally, volatility is often used to investigate the fluctuation range of stock prices and to evaluate risk and identify the level of support and resistance.&lt;/p>
-&lt;p>While those two are still the most popular approaches, the age of big data has brought a new method to predict the stock market: quantitative analysis. In this new method, the stock market is captured into a mathematical model, and machine learning is used to predict its behavior. Research by Alzazah and Cheng &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> analyzed more than 50 articles to compare various machine learning (ML) and deep learning (DL) methods used to find which method could be more effective in prediction and for which types and amount of data. This research has proven that quantitative analysis with LSTM gives a promising result as the predictor of a stock market.&lt;/p>
-&lt;p>In this study, we analyzed the performance of LSTM in predicting the stock market for multiple time frames. LSTM model is used because it is designed to forecast, predict, and classify time series data &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. Despite the promising result in LSTM, most of the previous studies are conducted in building a model to predict the next day&amp;rsquo;s price. Thus, we wanted to know how accurate the LSTM model in predicting the stock market for a longer time frame (i.e. from daily to monthly time frame). We also chose to incorporate technical analysis rather than fundamental analysis in our model, because while fundamental analysis tends to be accurate in the yearly period, it could not predict the fluctuation in the given time frame.&lt;/p>
-&lt;h2 id="2-background-research-and-previous-work">2. Background Research and Previous Work&lt;/h2>
-&lt;h3 id="21-macd-in-technical-analysis">2.1 MACD in Technical Analysis&lt;/h3>
-&lt;p>MACD &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup> is an acronym for moving average convergence/divergence. It is a widely used technical indicator to confirm either the bullish or bearish phase of the market. In essence, the MACD indicator shows the perceived strength of a downward or upward movement in price. Technically, it’s an oscillator, which is a term used for indicators that fluctuate between two extreme values, for example, from 0 to 100.
-MACD evolved from the exponential moving average (EMA), which was proposed by Gerald Appel in the 1970s. The standard MACD is the 12-day EMA subtracted by the 26-day EMA, which is also called the DIF. The MACD histogram, which was developed by T. Aspray in 1986, measures the signed distance between the MACD and its signal line calculated using the 9-day EMA of the MACD, which is called the DEA. Similar to the MACD, the MACD histogram is an oscillator that fluctuates above and below the zero line. The construction formula of MACD is given in figure 1.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/raw/main/project/images/MACDFormula.png" alt="MACD Formula">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> MACD formula &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>&lt;/p>
-&lt;p>The number of the MACD histogram is usually called the MACD bar or OSC. The analysis process of the cross and deviation strategy of DIF and DEA includes the following three steps: (i) Calculate the values of DIF and DEA, (ii)When DIF and DEA are positive, the MACD line cuts the signal line in the uptrend, and the divergence is positive, there is a buy signal confirmation, and (iii)When DIF and DEA are negative, the signal line cuts the MACD line in the downtrend, and the divergence is negative, there is a sell signal confirmation.&lt;/p>
-&lt;h3 id="22-time-series-forecasting">2.2 Time Series Forecasting&lt;/h3>
-&lt;p>Time series analysis and dynamic modeling &lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup> is an interesting research area with a great number of applications in business, economics, ﬁnance, and computer science. The aim of time series analysis is to study the path observations of time series and build a model to describe the structure of data and then predict the future values of time series. Due to the importance of time series forecasting in many branches of applied sciences, it is essential to build an effective model with the aim of improving the forecasting accuracy. A variety of time series forecasting models have been evolved in the literature.&lt;/p>
-&lt;p>Time series forecasting is traditionally performed in econometric using ARIMA models, which is generalized by Box and Jenkins. ARIMA has been a standard method for time series forecasting for a long time. Even though ARIMA models are very prevalent in modeling economical and ﬁnancial time series, they have some major limitations. For instance, in a simple ARIMA model, it is hard to model the non-linear relationships between variables. Furthermore, it is assumed that there is a constant standard deviation in errors in ARIMA model, which is in practice may not be satisﬁed. When an ARIMA model is integrated with a Generalized Auto-regressive Conditional Heteroskedasticity(GARCH) model, this assumption can be relaxed. On the other hand, the optimization of a GARCH model and its parameters might be challenging and problematic. There are several other applications of ARIMA for modeling short and long-run effects of economics parameters.&lt;/p>
-&lt;p>Recently, new techniques in deep learning have been developed to address the challenges related to the forecasting models. LSTM (Long Short-Term Memory) is a special case of the Recurrent Neural Network (RNN) method that was initially introduced by Hochreiter and Schmidhuber. Even though it is a relatively new approach to address prediction problems. Deep learning-based approaches have gained popularity among researchers.&lt;/p>
-&lt;p>LSTM is designed to forecast, predict, and classify time series data even long time lags between vital events that happened before. LSTMs have been applied to solve several problems; among those, handwriting Recognition and speech recognition made LSTM famous. LSTM has copious advantages compared with traditional back-propagation neural networks and normal recurrent neural networks. The constant error backpropagation inside memory blocks enables LSTM ability to overcome long time lags in case of problems similar to those discussed above; LSTM can handle noise, distributed representations, and continuous values; LSTM requires no need for parameter fine-tuning, it works well over a broad range of parameters such as learning rate, input gate bias, and output gate bias &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h3 id="23-using-lstm-in-stock-prediction-and-quantitative-trading">2.3 Using LSTM in Stock Prediction and Quantitative Trading&lt;/h3>
-&lt;p>During the pre-deep learning era, Financial Time Series modeling has mainly concentrated in the field of ARIMA and any modifications on this, and the result has proved that the traditional time series model does provide decent predictive power to a limit. More recently, deep learning methods have demonstrated better performances thanks to improved computational power and the ability to learn non-linear relationships enclosed in various financial features.&lt;/p>
-&lt;p>The direction of the financial market is always stochastic and volatile and the return of the security return is deemed to be unpredictable. Analysts now are trying to apply the modeling techniques from Natural Language Processing into the field of Finance as the similarity of having the sequential property in the data. Zhou &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup> has constructed and applied the Long Short Term Memory Model (LSTM) and the traditional ARIMA model, into the prediction of stock prices on the next day. It was proven that the LSTM model performed better than the ARIMA model.&lt;/p>
-&lt;h2 id="3-choice-of-data-sets">3. Choice of Data-sets&lt;/h2>
-&lt;p>This project used the historical data of the Jakarta Composite Index (JKSE) from Yahoo Finance &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>. The JKSE is a national stock index of Indonesia, which consists of 700 companies. We choose to incorporate the composite index because it has a beta value of 1, which means it has neutral volatility compared to an individual stock to be incorporated into a model. The dataset contains the Open, High, Low, Close, and Volume data for daily time period on the stock index. The daily data is taken from January 1st, 2013 until November 17th, 2020. We choose the daily data over the monthly data because it offers a more complete pattern. Figure 2 and 3 provides a snapshot of the first few rows of the daily and monthly data respectively.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/raw/main/project/images/newdailyhead.png" alt="Head of Daily Data">&lt;/p>
-&lt;p>&lt;strong>Figure 2:&lt;/strong> Snapshot of the first rows of the daily data&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/raw/main/project/images/newMonthlyHead.png" alt="Head of Monthly Data">&lt;/p>
-&lt;p>&lt;strong>Figure 3:&lt;/strong> Snapshot of the first rows of the monthly data&lt;/p>
-&lt;p>We also used the MACD technical indicator as an input to our model. The MACD parameters are generated using the ta-lib library &lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup> based on the Yahoo Finance data. Figure 4 and 5 provides a snapshot of the first few rows of the daily and monthly data respectively after incorporating the MACD technical indicator.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/raw/main/project/images/MACDonDaily.png" alt="Daily MACD">&lt;/p>
-&lt;p>&lt;strong>Figure 4:&lt;/strong> MACD on the daily data&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/raw/main/project/images/newMACDonMonthly.png" alt="Monthly MACD">&lt;/p>
-&lt;p>&lt;strong>Figure 5:&lt;/strong> MACD on the monthly data&lt;/p>
-&lt;h2 id="4-methodology">4. Methodology&lt;/h2>
-&lt;h3 id="41-technology">4.1 Technology&lt;/h3>
-&lt;p>Python &lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup> was the language of choice for this project. This was an easy decision for these reasons &lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup>:&lt;/p>
-&lt;ol>
-&lt;li>Python as a language has an enormous community behind it. Any problems that might be encountered can be easily solved with a trip to Stack Overflow. Python is among the most popular languages on the site which makes it very likely there will be a direct answer to any query.&lt;/li>
-&lt;li>Python has an abundance of powerful tools ready for scientific computing. Packages such as Numpy, Pandas, and SciPy are freely available and well documented. Packages such as these can dramatically reduce, and simplify the code needed to write a given program. This makes iteration quick.&lt;/li>
-&lt;li>Python as a language is forgiving and allows for programs that look like pseudo code. This is useful when pseudocode given in academic papers needs to be implemented and tested. Using Python, this step is usually reasonably trivial.&lt;/li>
-&lt;/ol>
-&lt;p>In building the LSTM model, Keras &lt;sup id="fnref:11">&lt;a href="#fn:11" class="footnote-ref" role="doc-noteref">11&lt;/a>&lt;/sup> library is used. It contains numerous implementations of commonly used neural network building blocks such as layers, objectives, activation functions, optimizers, and a host of tools to make working with image and text data easier. The code is hosted on GitHub, and community support forums include the GitHub issues page, a Gitter channel, and a Slack channel.&lt;/p>
-&lt;h3 id="42-data-preprocessing">4.2 Data Preprocessing&lt;/h3>
-&lt;p>After downloading the historical datasets from Yahoo Finance, the MACD technical indicator is generated using the ta-lib library. Because MACD needs to capture data from the previous time period, the MACD values on the first rows of the data are missing. These rows are then removed before being split into 8:2 proportions for training and testing purposes in the LSTM model.&lt;/p>
-&lt;h3 id="43-the-lstm-model">4.3 The LSTM Model&lt;/h3>
-&lt;p>A multivariate LSTM model with two hidden layers is used, with a dropout parameter of 0.2. Adam is used as the optimization algorithm. The model uses 90 days time steps, which means it uses the past 90 days of data to predict the output. It has 8 features, which are the Close, Low, High, Open, Volume, MACD, MACD Signal, and MACD Histogram. It then gives one output, which is the open price for the given time frame. We then analyze the performance of our model for each of the time frames.&lt;/p>
-&lt;h2 id="5-results">5. Results&lt;/h2>
-&lt;p>We used callback function to find the best number of epochs in the model. Figure 6 gives the mean squared error (MSE) curve of the prediction in the training dataset for each given epoch. It shows that the MSE converges after 20 epochs, with a value of 0.0243.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/raw/main/project/images/newlossepochs.png" alt="Epoch Loss">&lt;/p>
-&lt;p>&lt;strong>Figure 6:&lt;/strong> MSE on the training data for each given epoch&lt;/p>
-&lt;p>Figure 7 shows the root mean squared error (RMSE) on the testing dataset for each time frame. It clearly shows that the RMSE becomes bigger on a longer time frame. When predicting the next day period, the RMSE is 323.41, while when predicting 30 days ahead, the RMSE increase to 481.32. But overall, these values are still acceptable because they are smaller than the standard deviation of the actual dataset of 667.31.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/raw/main/project/images/RMSEonTimeFrame.png" alt="RMSE">&lt;/p>
-&lt;p>&lt;strong>Figure 7:&lt;/strong> RMSE on the training data for each time frame&lt;/p>
-&lt;p>Figure 8 and Figure 9 compare the predicted values on the training data for 1 day and 30 days time frames respectively, while Figure 10 and 11 give the comparison on the test data. It can be seen that the model cannot predict steep ramps in the price change, thus it is lagged from the actual price. The predicted price becomes further lagged when predicting for a longer time frame, thus resulting in a bigger RMSE.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/raw/main/project/images/newOneDayPredict.png" alt="Next Day Prediction">&lt;/p>
-&lt;p>&lt;strong>Figure 8:&lt;/strong> Comparison between the next day prediction and its actual values based on the training data&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/raw/main/project/images/newThirtyDaysPredict.png" alt="30 Days Prediction">&lt;/p>
-&lt;p>&lt;strong>Figure 9:&lt;/strong> Comparison between the 30 days time frame prediction and its actual values based on the training data&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/raw/main/project/images/newonedaytest.png" alt="Next Day Test">&lt;/p>
-&lt;p>&lt;strong>Figure 10:&lt;/strong> Comparison between the next day prediction and its actual values based on the testing data&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/raw/main/project/images/thirtydaystest.png" alt="30 Days Test">&lt;/p>
-&lt;p>&lt;strong>Figure 11:&lt;/strong> Comparison between the 30 days time frame prediction and its actual values based on the testing data&lt;/p>
-&lt;p>We also found that a longer training dataset does not always give a better prediction because the model might overfit with the training data. In fact, when we used historical market data from January 2000, the RMSE became close to 3,000. This might be due to overall the stock market tends to always get higher every year. When the data is too old, the model needs to compensate for the time when the price is still very low.&lt;/p>
-&lt;p>We also capture the time needed to run each critical process using cloudmesh-common benchmark and stopwatch framework &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>. The stopwatch recordings are shown in Table 1. The table shows that training the model took the longest time. It also highlights the system&amp;rsquo;s specification used in running the program.&lt;/p>
-&lt;p>&lt;strong>Table 1:&lt;/strong> Benchmark results&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/raw/main/project/images/benchmark1.png" alt="Table 1">&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/raw/main/project/images/stopwatch.png" alt="Stopwatch">&lt;/p>
-&lt;h2 id="6-conclusion-and-future-works">6. Conclusion and Future Works&lt;/h2>
-&lt;p>We have analyzed the performance of LSTM in predicting the stock price for different time frames. While it gives a promising result in predicting the next day&amp;rsquo;s price, the prediction becomes less accurate for a longer time frame. This might be due to the non-stationarity nature of the stock market. The stock market trends can change abruptly because of a sudden change in the political and economic conditions. Using the daily market data, our model gives promising results within 30 days time frame.
-This project has analyzed the performance of LSTM using RMSE, but further research may measure the performance based on the potential financial gain. After all, the stock market is a place to make money, thus financial gain is a better metric of performance.
-Further improvement may also be done on our model. We only used price data and MACD technical indicator for the prediction. Further research may utilize other technical indicators, such as RSI and Stochastics to get a better prediction.&lt;/p>
-&lt;h2 id="7-acknowledgements">7. Acknowledgements&lt;/h2>
-&lt;p>The author would like to thank Dr. Geoffrey Fox, Dr. Gregor von Laszewski, and the associate instructors in the FA20-BL-ENGR-E534-11530: Big Data Applications course (offered in the Fall 2020 semester at Indiana University, Bloomington) for their continued assistance and suggestions concerning exploring this idea and also for their aid with preparing the various drafts of this article.&lt;/p>
-&lt;h2 id="8-references">8. References&lt;/h2>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>D. Shah, H. Isah, and F. Zulkernine, &amp;ldquo;Stock Market Analysis: A Review and Taxonomy of Prediction Techniques,&amp;rdquo; International Journal of Financial Studies, vol. 7, no. 2, p. 26, 2019. &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>F. S. Alzazah and X. Cheng, &amp;ldquo;Recent Advances in Stock Market Prediction Using Text Mining: A Survey,&amp;rdquo; E-Business [Working Title], 2020. &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:3" role="doc-endnote">
-&lt;p>A. Mostafa and Y. S., &amp;ldquo;Introduction to financial forecasting. Applied Intelligence,&amp;rdquo; Applied Intelligence, 1996. &lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:4" role="doc-endnote">
-&lt;p>S. Siami-Namini, N. Tavakoli, and A. S. Namin, &amp;ldquo;A Comparison of ARIMA and LSTM in Forecasting Time Series,&amp;rdquo; 2018 17th IEEE International Conference on Machine Learning and Applications (ICMLA), 2018. &lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:5" role="doc-endnote">
-&lt;p>G. von Laszewski, &amp;ldquo;cloudmesh/cloudmesh-common,&amp;rdquo; GitHub, 2020. [Online]. Available: &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>. [Accessed: 08-Dec-2020]. &lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:6" role="doc-endnote">
-&lt;p>J. Wang and J. Kim, &amp;ldquo;Predicting Stock Price Trend Using MACD Optimized by Historical Volatility.&amp;rdquo; &lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:7" role="doc-endnote">
-&lt;p>V. Bielinskas, &amp;ldquo;Multivariate Time Series Prediction with LSTM and Multiple features (Predict Google Stock Price),&amp;rdquo; Youtube, 2020. [Online]. Available: &lt;a href="https://www.youtube.com/watch?v=gSYiKKoREFI">https://www.youtube.com/watch?v=gSYiKKoREFI&lt;/a>. [Accessed: 08-Dec-2020]. &lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:8" role="doc-endnote">
-&lt;p>&amp;ldquo;Composite Index (JKSE) Charts, Data &amp;amp; News,&amp;rdquo; Yahoo! Finance, 08-Dec-2020. [Online]. Available: &lt;a href="https://finance.yahoo.com/quote/%5EJKSE/">https://finance.yahoo.com/quote/^JKSE/&lt;/a>. [Accessed: 08-Dec-2020]. &lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:9" role="doc-endnote">
-&lt;p>J. Bosco and F. Khan, Stock Market Prediction and Efficiency Analysis using Recurrent Neural Network. Berlin, Germany: 2018, 2018. &lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:10" role="doc-endnote">
-&lt;p>F. Isnaini, &amp;ldquo;cybertraining-dsc/fa20-523-313,&amp;rdquo; GitHub, 08-Dec-2020. [Online]. Available: &lt;a href="https://github.com/cybertraining-dsc/fa20-523-313/blob/main/project/code/multivariate.ipynb">https://github.com/cybertraining-dsc/fa20-523-313/blob/main/project/code/multivariate.ipynb&lt;/a>. [Accessed: 08-Dec-2020]. &lt;a href="#fnref:10" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:11" role="doc-endnote">
-&lt;p>TA-Lib. [Online]. Available: &lt;a href="https://mrjbq7.github.io/ta-lib/func_groups/momentum_indicators.html">https://mrjbq7.github.io/ta-lib/func_groups/momentum_indicators.html&lt;/a>. [Accessed: 08-Dec-2020]. &lt;a href="#fnref:11" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item></channel></rss>

@@ -436,7 +436,6 @@ further processed.&lt;/p>
 with &lt;a href="https://www.crummy.com/software/BeautifulSoup/">https://www.crummy.com/software/BeautifulSoup/&lt;/a>&lt;/p>
 &lt;p>More details about it are provided in the documentation page
 &lt;a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">https://www.crummy.com/software/BeautifulSoup/bs4/doc/&lt;/a>&lt;/p>
-&lt;p>:o2: TODO: Students can contribute a section&lt;/p>
 &lt;p>Beautiful Soup is a python library to parse, process and edit HTML
 documents.&lt;/p>
 &lt;p>To install Beautiful Soup, use &lt;code>pip&lt;/code> command as follows:&lt;/p>
@@ -512,7 +511,6 @@ the first match found&lt;/li>
 &lt;span style="color:#000">a_tag_elems&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">soup&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">select&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;a.sample&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;span style="color:#204a87;font-weight:bold">print&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">a_tag_elems&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="configparser">ConfigParser&lt;/h3>
-&lt;p>:o2: TODO: Students can contribute a section&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://pymotw.com/2/ConfigParser/">https://pymotw.com/2/ConfigParser/&lt;/a>&lt;/li>
 &lt;/ul>
@@ -554,13 +552,17 @@ class that makes the use in python very simple.&lt;/p>
 be encrypted and decrypted. To initiate that action just call the
 methods &lt;code>encrypt&lt;/code> and &lt;code>decrypt&lt;/code>.&lt;/p>
 &lt;h2 id="database-access">Database Access&lt;/h2>
-&lt;p>:o2: TODO: Students: define conventional database access section&lt;/p>
 &lt;p>see: &lt;a href="https://www.tutorialspoint.com/python/python_database_access.htm">https://www.tutorialspoint.com/python/python_database_access.htm&lt;/a>&lt;/p>
 &lt;h2 id="sqlite">SQLite&lt;/h2>
-&lt;p>:o2: TODO: Students can contribute to this section&lt;/p>
+&lt;ul>
+&lt;li>
 &lt;p>&lt;a href="https://www.sqlite.org/index.html">https://www.sqlite.org/index.html&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
 &lt;p>&lt;a href="https://docs.python.org/3/library/sqlite3.html">https://docs.python.org/3/library/sqlite3.html&lt;/a>&lt;/p>
-&lt;h3 id="exercises-o2">Exercises :o2:&lt;/h3>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="exercises">Exercises&lt;/h3>
 &lt;p>E:Encryption.1:&lt;/p>
 &lt;blockquote>
 &lt;p>Test the shell script to replicate how this example works&lt;/p>
