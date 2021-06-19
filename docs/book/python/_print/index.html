@@ -45,26 +45,26 @@ memory. This is especially true if you use editors such as PyCharm
 access, make sure to use a fast HDD or better an SSD.</p><p>A typical modern developer PC or Laptop has <em>16GB RAM</em> and an <em>SSD</em>. You
 can certainly do Python on a $35-$55 Raspberry PI, but you probably will not
 be able to run PyCharm. There are many alternative editors with less
-Memory footprint available.</p><h2 id=python-38>Python 3.8</h2><p>Here we discuss how to install Python 3.8 or newer on your operating
-system. For our class we do require a new version of python. PLease be
-aware that many operating systems come with an outdated version that
-will not be sufficient for our work.</p><h3 id=python-38-on-macos>Python 3.8 on macOS</h3><p>You want a number of useful tools on your macOS. This includes git, make
+Memory footprint available.</p><h2 id=python-39>Python 3.9</h2><p>Here we discuss how to install Python 3.9 or newer on your operating system. It
+is typically advantageous to use a newer version of python so you can leverage
+the latest features. PLease be aware that many operating systems come with
+older versions that may or may not work for you. YOu always can start with the
+version that is installed and if you run into issues update later.</p><h3 id=python-39-on-macos>Python 3.9 on macOS</h3><p>You want a number of useful tools on your macOS. This includes git, make
 and a c compiler. All this can be installed with Xcode whcih is
 available from</p><ul><li><a href=https://apps.apple.com/us/app/xcode/id497799835>https://apps.apple.com/us/app/xcode/id497799835</a></li></ul><p>Once you have installed it, you need to install macOS XCode command-line
 tools:</p><div class=highlight><pre style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ xcode-select --install
-</code></pre></div><p>The easiest installation of Python is to use the installation
-from <a href=https://www.python.org/downloads>https://www.python.org/downloads</a>. Please, visit the page and
-follow the instructions. After this install, you have
+</code></pre></div><p>The easiest installation of Python is to use the installation from
+<a href=https://www.python.org/downloads>https://www.python.org/downloads</a>. Please, visit the page and follow the
+instructions to install the python <code>.pkg</code> file. After this install, you have
 python3 available from the command-line.</p><h3 id=python-39-on-macos-via-homebrew>Python 3.9 on macOS via Homebrew</h3><p>Homebrew may not provide you with the newest version, so we recommend
 using the install from python.org if you can.</p><p>An alternative installation is provided from Homebrew. To use this
 install method, you need to install Homebrew first. Start the process by
 installing Python 3 using <code>homebrew</code>. Install <code>homebrew</code> using the
 instruction in their <a href=https://brew.sh/#install>web page</a>:</p><div class=highlight><pre style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ /usr/bin/ruby -e <span style=color:#4e9a06>&#34;</span><span style=color:#204a87;font-weight:700>$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install<span style=color:#204a87;font-weight:700>)</span><span style=color:#4e9a06>&#34;</span>
 </code></pre></div><p>Then you should be able to install Python using:</p><div class=highlight><pre style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ brew install python
-</code></pre></div><h2 id=python-38-on-ubuntu-2004>Python 3.8 on Ubuntu 20.04</h2><p>We first need to make sure that the correct version of the Python3 is
-installed. The default version of Python on Ubuntu 18.04 is 3.6.
-However, this version is insufficient for us and <strong>must</strong> be updated.
-You can get the version while doing the following steps:</p><div class=highlight><pre style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ sudo apt-get update
+</code></pre></div><h2 id=python-39-on-ubuntu-2004>Python 3.9 on Ubuntu 20.04</h2><p>The default version of Python on Ubuntu 20.04 is 3.8. However, you can benefit
+from newer version while either installing them through python.org or adding
+them as follows:</p><div class=highlight><pre style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ sudo apt-get update
 $ sudo apt install software-properties-common
 $ sudo add-apt-repository ppa:deadsnakes/ppa -y
 $ sudo apt-get install python3.9 python3-dev -y
@@ -83,14 +83,18 @@ file in the edge browser (make sure the account you use has
 administrative privileges). Follow the instructions that the installer
 gives. Important is that you select at one point <code>[x] Add to Path</code>.
 There will be an empty checkmark about this that you will click on.</p><p>Once it is installed chose a terminal and execute</p><div class=highlight><pre style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>python --version
-</code></pre></div><p>However, if you have installed conda for some reason, you need to read up
-on how to install 3.9.5 Python in conda or identify how to run conda and
+</code></pre></div><p>However, if you have installed conda for some reason, you need to read up on
+how to install 3.9.5 Python in conda or identify how to run conda and
 python.org at the same time. We often see others are giving the wrong
-installation instructions.</p><h3 id=python-in-the-linux-subsystem>Python in the Linux Subsystem</h3><p>An alternative is to use Python from within the Linux Subsystem. But
+installation instructions. Please also be aware that when you uninstall conda
+it is not sufficient t just delete it. You will have t make sure that you usnet
+the system variables automatically set at install time. THi includes.
+modifications on LInux and or Mac in .zprofile, .bashrc and .bash_profile. In
+windws PATH and other envoronment variables may have been modified.</p><h3 id=python-in-the-linux-subsystem>Python in the Linux Subsystem</h3><p>An alternative is to use Python from within the Linux Subsystem. But
 that has some limitations, and you will need to explore how to access the
 file system in the subsystem to have a smooth integration between your
-Windows host so you can, for example, use PyCharm.</p><p>To activate the Linux Subsystem, please follow the instructions at</p><ul><li><a href=https://docs.microsoft.com/en-us/windows/wsl/install-win10>https://docs.microsoft.com/en-us/windows/wsl/install-win10</a></li></ul><p>A suitable distribution would be</p><ul><li><a href="https://www.microsoft.com/en-us/p/ubuntu-1804-lts/9n9tngvndl3q?activetab=pivot:overviewtab">https://www.microsoft.com/en-us/p/ubuntu-1804-lts/9n9tngvndl3q?activetab=pivot:overviewtab</a></li></ul><p>However, as it uses an older version of Python, you will have to update
-it. We also find on the MongoDB web page that MongoDB is not supported in Linux Subsystem.</p><h2 id=using-venv>Using venv</h2><p>This step is needed if you have not yet already installed a
+Windows host so you can, for example, use PyCharm.</p><p>To activate the Linux Subsystem, please follow the instructions at</p><ul><li><a href=https://docs.microsoft.com/en-us/windows/wsl/install-win10>https://docs.microsoft.com/en-us/windows/wsl/install-win10</a></li></ul><p>A suitable distribution would be</p><ul><li><a href="https://www.microsoft.com/en-us/p/ubuntu-1804-lts/9n9tngvndl3q?activetab=pivot:overviewtab">https://www.microsoft.com/en-us/p/ubuntu-1804-lts/9n9tngvndl3q?activetab=pivot:overviewtab</a></li></ul><p>However, as it may use an older version of Python, you may want to update
+it as previously discussed</p><h2 id=using-venv>Using venv</h2><p>This step is needed if you have not yet already installed a
 <code>venv</code> for Python to make sure you are not interfering with your system
 python. Not using a venv could have catastrophic consequences and the
 destruction of your operating system tools if they really on Python. The
@@ -122,7 +126,7 @@ sure you have the correct python and pip versions:</p><div class=highlight><pre 
 $ pip --version
 </code></pre></div><p>If you installed everything correctly you should see</p><pre><code>Python 3.9.5
 pip 21.1.2
-</code></pre><p>r newer</p></div><div class=td-content style=page-break-before:always><h1 id=pg-dec9441ee9947161838209b79bbfaa2c>3 - Interactive Python</h1><p>Gregor von Laszewski (<a href=mailto:laszewski@gmail.com>laszewski@gmail.com</a>)</p><p>Python can be used interactively. You can enter the interactive mode by
+</code></pre><p>or newer</p></div><div class=td-content style=page-break-before:always><h1 id=pg-dec9441ee9947161838209b79bbfaa2c>3 - Interactive Python</h1><p>Gregor von Laszewski (<a href=mailto:laszewski@gmail.com>laszewski@gmail.com</a>)</p><p>Python can be used interactively. You can enter the interactive mode by
 entering the interactive loop by executing the command:</p><div class=highlight><pre style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ python
 </code></pre></div><p>You will see something like the following:</p><div class=highlight><pre style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=color:#a40000>$</span> <span style=color:#000>python</span>
 <span style=color:#000>Python</span> <span style=color:#0000cf;font-weight:700>3.9</span><span style=color:#ce5c00;font-weight:700>.</span><span style=color:#0000cf;font-weight:700>5</span> <span style=color:#000;font-weight:700>(</span><span style=color:#000>v3</span><span style=color:#ce5c00;font-weight:700>.</span><span style=color:#0000cf;font-weight:700>9.5</span><span style=color:#000;font-weight:700>:</span><span style=color:#0000cf;font-weight:700>0</span><span style=color:#000>a7dcbdb13</span><span style=color:#000;font-weight:700>,</span> <span style=color:#000>May</span>  <span style=color:#0000cf;font-weight:700>3</span> <span style=color:#0000cf;font-weight:700>2021</span><span style=color:#000;font-weight:700>,</span> <span style=color:#0000cf;font-weight:700>13</span><span style=color:#000;font-weight:700>:</span><span style=color:#0000cf;font-weight:700>17</span><span style=color:#000;font-weight:700>:</span><span style=color:#0000cf;font-weight:700>02</span><span style=color:#000;font-weight:700>)</span> 
@@ -464,10 +468,10 @@ referred to as <em>dict</em>.</p><p>A dictionary represents a key value store:</
 </code></pre><p>This form of printing with the format statement and a reference to data
 increases readability of the print statements.</p><p>You can delete elements with the following commands:</p><div class=highlight><pre style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=color:#204a87;font-weight:700>del</span> <span style=color:#000>computer</span><span style=color:#000;font-weight:700>[</span><span style=color:#4e9a06>&#39;name&#39;</span><span style=color:#000;font-weight:700>]</span> <span style=color:#8f5902;font-style:italic># remove entry with key &#39;name&#39;</span>
 <span style=color:#8f5902;font-style:italic># computer</span>
-<span style=color:#8f5902;font-style:italic># {&#39;Age&#39;: 100, &#39;Class&#39;: &#39;Scientist&#39;}</span>
+<span style=color:#8f5902;font-style:italic># </span>
 <span style=color:#000>computer</span><span style=color:#ce5c00;font-weight:700>.</span><span style=color:#000>clear</span><span style=color:#000;font-weight:700>()</span>     <span style=color:#8f5902;font-style:italic># remove all entries in dict</span>
 <span style=color:#8f5902;font-style:italic># computer</span>
-<span style=color:#8f5902;font-style:italic># {}</span>
+<span style=color:#8f5902;font-style:italic># </span>
 <span style=color:#204a87;font-weight:700>del</span> <span style=color:#000>computer</span>         <span style=color:#8f5902;font-style:italic># delete entire dictionary</span>
 <span style=color:#8f5902;font-style:italic># computer</span>
 <span style=color:#8f5902;font-style:italic># Traceback (most recent call last):</span>
@@ -644,7 +648,7 @@ statement for the program and enforces command line arguments
 automatically. All of this is done by parsing the docstring at the
 top of the file.</li><li>In the print function, we are using <a href=https://docs.python.org/2/library/string.html#format-string-syntax>Python&rsquo;s string formatting
 capabilities</a>
-to insert values into the string we are displaying.</li></ol><h2 id=s-python-lambda>Lambda Expressions</h2><p>As oppose to normal functions in Python which are defined using the <code>def</code>
+to insert values into the string we are displaying.</li></ol><h2 id=lambda-expressions>Lambda Expressions</h2><p>As oppose to normal functions in Python which are defined using the <code>def</code>
 keyword, lambda functions in Python are anonymous functions which do not have a
 name and are defined using the <code>lambda</code> keyword. The generic syntax of a lambda
 function is in form of<code>lambda arguments: expression</code>, as shown in the following
@@ -695,7 +699,7 @@ multiply is having 2 arguments and returns their multiplication.</p><p>Lambda eq
 </code></pre></div><p>Here a and b are the 2 arguments and a*b is the expression whose value
 is returned as an output.</p><p>Also we don&rsquo;t need to assign Lambda function to a variable.</p><div class=highlight><pre style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=color:#000;font-weight:700>(</span><span style=color:#204a87;font-weight:700>lambda</span> <span style=color:#000>a</span><span style=color:#000;font-weight:700>,</span> <span style=color:#000>b</span> <span style=color:#000;font-weight:700>:</span> <span style=color:#000>a</span><span style=color:#ce5c00;font-weight:700>*</span><span style=color:#000>b</span><span style=color:#000;font-weight:700>)(</span><span style=color:#0000cf;font-weight:700>3</span><span style=color:#ce5c00;font-weight:700>*</span><span style=color:#0000cf;font-weight:700>5</span><span style=color:#000;font-weight:700>)</span>
 </code></pre></div><p>Lambda functions are mostly passed as parameter to a function which
-expects a function objects like in map or filter.</p><h3 id=s-python-map>map</h3><p>The basic syntax of the map function is</p><div class=highlight><pre style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=color:#204a87>map</span><span style=color:#000;font-weight:700>(</span><span style=color:#000>function_object</span><span style=color:#000;font-weight:700>,</span> <span style=color:#000>iterable1</span><span style=color:#000;font-weight:700>,</span> <span style=color:#000>iterable2</span><span style=color:#000;font-weight:700>,</span><span style=color:#ce5c00;font-weight:700>...</span><span style=color:#000;font-weight:700>)</span>
+expects a function objects like in map or filter.</p><h3 id=map>map</h3><p>The basic syntax of the map function is</p><div class=highlight><pre style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=color:#204a87>map</span><span style=color:#000;font-weight:700>(</span><span style=color:#000>function_object</span><span style=color:#000;font-weight:700>,</span> <span style=color:#000>iterable1</span><span style=color:#000;font-weight:700>,</span> <span style=color:#000>iterable2</span><span style=color:#000;font-weight:700>,</span><span style=color:#ce5c00;font-weight:700>...</span><span style=color:#000;font-weight:700>)</span>
 </code></pre></div><p>map functions expects a function object and any number of iterables
 like list or dictionary. It executes the function_object for each
 element in the sequence and returns a list of the elements modified by
@@ -948,7 +952,7 @@ environment. It is important that you use the <code>-e</code> flag</p><p>To see 
 figure out the issue, please contact us so we can identify what went
 wrong.</p><p>For more information, please visit our
 <a href=https://cloudmesh.github.io/cloudmesh-manual/installation/install.html#source-installation-for-developers>Installation Instructions for Developers</a></p></div><div class=td-content style=page-break-before:always><h1 id=pg-4ccb593cc80ca5340d22721edf0e0c81>7.3 - Output</h1><p>Gregor von Laszewski (<a href=mailto:laszewski@gmail.com>laszewski@gmail.com</a>)</p><p>Cloudmesh provides a number of convenient API&rsquo;s to make output easier
-or more fancyful.</p><p>These API&rsquo;s include</p><ul><li><a href=https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html#module-cloudmesh.common.console>Console</a></li><li><a href="https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html?highlight=banner#cloudmesh.common.util.banner">Banner</a></li><li><a href="https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html?highlight=heading#cloudmesh.common.util.HEADING">Heading</a></li><li><a href="https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html?highlight=verbose#cloudmesh.common.debug.VERBOSE">VERBOSE</a></li></ul><h2 id=console-seccloudmesh-console>Console {#sec:cloudmesh-console}</h2><p>Print is the usual function to output to the terminal. However, often we
+or more fancyful.</p><p>These API&rsquo;s include</p><ul><li><a href=https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html#module-cloudmesh.common.console>Console</a></li><li><a href="https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html?highlight=banner#cloudmesh.common.util.banner">Banner</a></li><li><a href="https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html?highlight=heading#cloudmesh.common.util.HEADING">Heading</a></li><li><a href="https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html?highlight=verbose#cloudmesh.common.debug.VERBOSE">VERBOSE</a></li></ul><h2 id=console>Console</h2><p>Print is the usual function to output to the terminal. However, often we
 like to have colored output that helps us in the notification to the
 user. For this reason we have a simple <code>Console</code> class that has several
 built-in features. You can even switch and define your own color
@@ -1272,7 +1276,7 @@ relational databases, based on the application specific needs
 [@www-guru99]. We will be covering the MongoDB technology,
 its driver PyMongo, its object-document mapper MongoEngine, and the
 Flask-PyMongo micro-web framework that make MongoDB more attractive
-and user-friendly.</p><h2 id=cloudmesh-mongodb-usage-quickstart-secmongodb-cloudmesh>Cloudmesh MongoDB Usage Quickstart {#sec:mongodb-cloudmesh}</h2><p>Before you read on we like you to read this quickstart. The easiest way
+and user-friendly.</p><h2 id=cloudmesh-mongodb-usage-quickstart>Cloudmesh MongoDB Usage Quickstart</h2><p>Before you read on we like you to read this quickstart. The easiest way
 for many of the activities we do to interact with MongoDB is to use
 our cloudmesh functionality. This prelude section is not intended to
 describe all the details, but get you started quickly while leveraging cloudmesh</p><p>This is done via the cloudmesh cmd5 and the cloudmesh_community/cm

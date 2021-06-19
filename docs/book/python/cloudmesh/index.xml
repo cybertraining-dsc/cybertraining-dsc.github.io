@@ -94,7 +94,7 @@ or more fancyful.&lt;/p>
 &lt;li>&lt;a href="https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html?highlight=heading#cloudmesh.common.util.HEADING">Heading&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html?highlight=verbose#cloudmesh.common.debug.VERBOSE">VERBOSE&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;h2 id="console-seccloudmesh-console">Console {#sec:cloudmesh-console}&lt;/h2>
+&lt;h2 id="console">Console&lt;/h2>
 &lt;p>Print is the usual function to output to the terminal. However, often we
 like to have colored output that helps us in the notification to the
 user. For this reason we have a simple &lt;code>Console&lt;/code> class that has several
