@@ -8,9 +8,6 @@ setup:
 example:
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/hid-example.git
 
-g:
-	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-376.git
-
 reu-add:
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-376.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-366.git
@@ -80,6 +77,7 @@ add:
 
 pull-reu:
 	git pull
+	cd content/en/report/su21-reu-376; git checkout main; git pull
 	cd content/en/report/su21-reu-360; git checkout main; git pull
 	cd content/en/report/su21-reu-361; git checkout main; git pull
 	cd content/en/report/su21-reu-362; git checkout main; git pull
