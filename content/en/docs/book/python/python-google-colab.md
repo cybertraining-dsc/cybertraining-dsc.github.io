@@ -11,7 +11,7 @@ Gregor von Laszewski (laszewski@gmail.com)
 
 
 
-In this section we are going to introduce you, how to use Google Colab
+In this section, we are going to introduce you, how to use Google Colab
 to run deep learning models.
 
 ## Introduction to Google Colab
@@ -25,7 +25,7 @@ will be learning how to start a Google Colab project.
 
 ## Programming in Google Colab
 
-In this video we will learn how to create a simple, Colab Notebook.
+In this video, we will learn how to create a simple, Colab Notebook.
 
 Required Installations
 
@@ -37,9 +37,9 @@ pip install numpy
 
 [Video
 
-## Benchamrking in Google Colab with Cloudmesh
+## Benchmarking in Google Colab with Cloudmesh
 
-In this video we learn how to do a basic benchmark with Cloudmesh tools.
+In this video, we learn how to do a basic benchmark with Cloudmesh tools.
 Cloudmesh StopWatch will be used in this tutorial.
 
 Required Installations

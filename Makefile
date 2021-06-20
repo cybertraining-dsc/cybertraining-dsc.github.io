@@ -77,7 +77,6 @@ add:
 
 pull-reu:
 	git pull
-	cd content/en/report/su21-reu-376; git checkout main; git pull
 	cd content/en/report/su21-reu-360; git checkout main; git pull
 	cd content/en/report/su21-reu-361; git checkout main; git pull
 	cd content/en/report/su21-reu-362; git checkout main; git pull
@@ -94,6 +93,7 @@ pull-reu:
 	cd content/en/report/su21-reu-373; git checkout main; git pull
 	cd content/en/report/su21-reu-374; git checkout main; git pull
 	cd content/en/report/su21-reu-375; git checkout main; git pull
+	cd content/en/report/su21-reu-376; git checkout main; git pull
 
 
 # 316

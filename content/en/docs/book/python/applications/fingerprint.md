@@ -16,12 +16,12 @@ Gregor von Laszewski (laszewski@gmail.com)
 > ![Warning](https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/fingerprint/images/warning.png) Please note that NIST has temporarily removed the
 
 ![Warning
-> Fingerprint data set. We unfortunately do not have a copy of the dataste.
+> Fingerprint data set. We, unfortunately, do not have a copy of the dataset.
 > If you have one, please notify us
 > ---
 
 Python is a flexible and popular language for running data analysis
-pipelines. In this section we will implement a solution for a
+pipelines. In this section, we will implement a solution for
 fingerprint matching.
 
 ## Overview
@@ -38,7 +38,7 @@ Figure 1: Fingerprints
 The automated fingerprint matching generally required the detection of
 different fingerprint features (aggregate characteristics of ridges, and
 minutia points) and then the use of fingerprint matching algorithm,
-which can do both one-to- one and one-to- many matching operations.
+which can do both one-to-one and one-to-many matching operations.
 Based on the number of matches a proximity score (distance or
 similarity) can be calculated.
 
@@ -56,12 +56,9 @@ report the match scores.
 
 For this work we will use the following algorithms:
 
--   MINDTCT: The NIST minutiae detector, which automatically locates and
-    records ridge ending and bifurcations in a fingerprint image.
+-   MINDTCT: The NIST minutiae detector, which automatically locates and records ridge ending and bifurcations in a fingerprint image.
     (<http://www.nist.gov/itl/iad/ig/nbis.cfm>)
--   BOZORTH3: A NIST fingerprint matching algorithm, which is a minutiae
-    based fingerprint-matching algorithm. It can do both one-to- one and
-    one-to- many matching operations.
+-   BOZORTH3: A NIST fingerprint matching algorithm, which is a minutiae-based fingerprint-matching algorithm. It can do both one-to-one and one-to-many matching operations.
     (<http://www.nist.gov/itl/iad/ig/nbis.cfm>)
 
 In order to follow along, you must have the NBIS tools which provide
@@ -80,7 +77,7 @@ the following steps will accomplish this:
 
 1.  Fetch the fingerprint images from the web
 2.  Call out to external programs to prepare and compute the match
-    scoreds
+    scored
 3.  Store the results in a database
 4.  Generate a plot to identify likely matches.
 
@@ -101,7 +98,7 @@ import shutil
 import tempfile
 ```
 
-Some general usefull utilities
+Some general useful utilities
 
 ``` python
 import itertools
@@ -280,7 +277,7 @@ space-efficient.
 
 The checksum consists of the actual hash value (`value`) as well as a
 string representing the hashing algorithm. The validator enforces that
-the algorith can only be one of the listed acceptable methods
+the algorithm can only be one of the listed acceptable methods
 
 ``` python
 @attr.s(slots=True)
@@ -291,8 +288,8 @@ class Checksum(object):
 
 #### Path
 
-`Path`s refer to an image\'s filepath and associated `Checksum`. We get
-the checksum \"for \"free\" since the MD5 hash is provided for each
+`Path refers to an image's file path and associated`Checksum\`. We get
+the checksum "for"free" since the MD5 hash is provided for each
 image in the dataset.
 
 ``` python
@@ -317,8 +314,8 @@ class image(object):
 ### Mindtct
 
 The next step in the pipeline is to apply the `mindtct` program from
-NBIS. A `mindtct` object therefore represents the results of applying
-`mindtct` on an `image`. The `xyt` output is needed fo r the next step,
+NBIS. A `mindtct` object, therefore, represents the results of applying
+`mindtct` on an `image`. The `xyt` output is needed for the next step,
 and the `image` attribute represents the image id.
 
 ``` python
@@ -365,7 +362,7 @@ The final step in the pipeline is running the `bozorth3` from NBIS. The
 `bozorth3` class represents the match being done: tracking the ids of
 the probe and gallery images as well as the match score.
 
-Since we will be writing these instance out to a database, we provide
+Since we will be writing these instances out to a database, we provide
 some static methods for SQL statements. While there are many
 Object-Relational-Model (ORM) libraries available for Python, this
 approach keeps the current implementation simple.
@@ -391,7 +388,7 @@ class bozorth3(object):
 ```
 
 In order to work well with `multiprocessing`, we define a class
-representuing the input paramaters to `bozorth3` and a helper function
+representing the input parameters to `bozorth3` and a helper function
 to run `bozorth3`. This way the pipeline definition can be kept simple
 to a `map` to create the input and then a `map` to run the program.
 
@@ -483,7 +480,7 @@ def bozorth3_from_one_to_many(probe, galleryset):
 
 ## Plotting
 
-For plotting we will operate only on the database. we will select a small
+For plotting, we will operate only on the database. we will select a small
 number of probe images and plot the score between them and the rest of
 the gallery images.
 
@@ -511,7 +508,7 @@ def plot(dbfile, nprobes=10):
     plt.show()
 ```
 
-The image ids are long hash strings. In ordere to minimize the amount of
+The image ids are long hash strings. In order to minimize the amount of
 space on the figure the labels occupy, we provide a helper function to
 create a short label that still uniquely identifies each probe image in
 the selected sample
@@ -535,7 +532,7 @@ if not os.path.exists(prefix):
     os.makedirs(prefix)
 ```
 
-Next we download and extract the fingerprint images from NIST:
+Next, we download and extract the fingerprint images from NIST:
 
 ``` python
 %%time
@@ -547,7 +544,7 @@ dataprefix = prepare_dataset(prefix=prefix)
     to /tmp/fingerprint_example/ CPU times: user 3.34 s, sys: 645 ms,
     total: 3.99 s Wall time: 4.01 s
 
-Next we will configure the location of of the MD5 checksum file that
+Next, we will configure the location of the MD5 checksum file that
 comes with the download
 
 ``` python
@@ -568,7 +565,7 @@ print('Done')
     Loading images Done CPU times: user 187 ms, sys: 17 ms, total: 204 ms
     Wall time: 1min 21s
 
-We can examine one of the loaded image. Note that `image` is refers to
+We can examine one of the loaded images. Note that `image` refers to
 the MD5 checksum that came with the image and the `xyt` attribute
 represents the raw image data.
 
