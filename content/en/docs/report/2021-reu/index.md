@@ -28,7 +28,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="TBD"
+  title="Using EOS Blockchain"
   author="Jacques Fleischer"
   hid= "su21-reu-361"
   %}}
