@@ -221,12 +221,11 @@ a Python program:</p><pre><code>import numpy as np
 whenever you see &lsquo;np&rsquo; sprinkled in example Python code, it&rsquo;s a
 good bet that it is using NumPy.</p><h2 id=numpy-basics>NumPy Basics</h2><p>At its core, NumPy is a container for n-dimensional data. Typically,
 1-dimensional data is called an array and 2-dimensional data is called
-a matrix. Beyond 2-dimenions would be considered a multidimensional
-array. Examples where you&rsquo;ll encounter these dimenions may include:</p><ul><li>1 Dimensional: time series data such as audio, stock prices, or
-a single observation in a dataset.</li><li>2 Dimensional: connectivity data between network nodes, user-product
+a matrix. Beyond 2-dimensions would be considered a multidimensional
+array. Examples, where you&rsquo;ll encounter these dimensions, may include:</p><ul><li>1 Dimensional: time-series data such as audio, stock prices, or a single observation in a dataset.</li><li>2 Dimensional: connectivity data between network nodes, user-product
 recommendations, and database tables.</li><li>3+ Dimensional: network latency between nodes over time, video
-(RGB+time), and version controlled datasets.</li></ul><p>All of these data can be placed into NumPy&rsquo;s array object, just
-with varying dimensions.</p><h2 id=data-types-the-basic-building-blocks>Data Types: The Basic Building Blocks</h2><p>Before we delve into arrays and matrices, we will start off with
+(RGB+time), and version-controlled datasets.</li></ul><p>All of these data can be placed into NumPy&rsquo;s array object, just
+with varying dimensions.</p><h2 id=data-types-the-basic-building-blocks>Data Types: The Basic Building Blocks</h2><p>Before we delve into arrays and matrices, we will start with
 the most basic element of those: a single value. NumPy can
 represent data utilizing many different standard datatypes such
 as uint8 (an 8-bit <strong>u</strong>signed <strong>int</strong>eger), float64 (a 64-bit
@@ -236,14 +235,14 @@ only contain values between 0 and 255. This, however, contrasts
 with float64 which can express any value from +/- 1.80e+308. So
 why wouldn&rsquo;t we just always use float64s? Though they allow us
 to be more expressive in terms of numbers, they also consume
-more memory. If we were working with a 12 megapixel image,
+more memory. If we were working with a 12-megapixel image,
 for example, storing that image using uint8 values would require
 3000 * 4000 * 8 = 96 million bits, or 91.55 MB of memory. If we
 were to store the same image utilizing float64, our image would
 consume 8 times as much memory: 768 million bits or 732.42 MB.
-It&rsquo;s important use the right datatype for the job to avoid
-consuming unneccessary resources or slowing down processing.</p><p>Finally, while NumPy will conveniently convert between datatypes,
-one must be aware of overflows when using smaller datatypes.
+It is important to use the right data type for the job to avoid
+consuming unnecessary resources or slowing down processing.</p><p>Finally, while NumPy will conveniently convert between datatypes,
+one must be aware of overflows when using smaller data types.
 For example:</p><pre><code>a = np.array([6], dtype=np.uint8)
 print(a)
 &gt;&gt;&gt;[6]
@@ -411,14 +410,14 @@ w,v = linalg.eig(A)
 
 print ('w =', w)
 print ('v =', v)
-</code></pre><h2 id=numpy-resources>NumPy Resources</h2><ul><li><a href=https://docs.scipy.org/doc/numpy>https://docs.scipy.org/doc/numpy</a></li><li><a href=http://cs231n.github.io/python-numpy-tutorial/#numpy>http://cs231n.github.io/python-numpy-tutorial/#numpy</a></li><li><a href=https://docs.scipy.org/doc/numpy-1.15.1/reference/routines.linalg.html>https://docs.scipy.org/doc/numpy-1.15.1/reference/routines.linalg.html</a></li><li><a href=https://en.wikipedia.org/wiki/Mean_squared_error>https://en.wikipedia.org/wiki/Mean_squared_error</a></li></ul></div><div class=td-content style=page-break-before:always><h1 id=pg-1c3b9ac7e2dbf04a9c689f2c2c4b613a>3 - Scipy</h1><p>Gregor von Laszewski (<a href=mailto:laszewski@gmail.com>laszewski@gmail.com</a>)</p><p>SciPy is a library built around numpy and has a number of off-the-shelf
+</code></pre><h2 id=numpy-resources>NumPy Resources</h2><ul><li><a href=https://docs.scipy.org/doc/numpy>https://docs.scipy.org/doc/numpy</a></li><li><a href=http://cs231n.github.io/python-numpy-tutorial/#numpy>http://cs231n.github.io/python-numpy-tutorial/#numpy</a></li><li><a href=https://docs.scipy.org/doc/numpy-1.15.1/reference/routines.linalg.html>https://docs.scipy.org/doc/numpy-1.15.1/reference/routines.linalg.html</a></li><li><a href=https://en.wikipedia.org/wiki/Mean_squared_error>https://en.wikipedia.org/wiki/Mean_squared_error</a></li></ul></div><div class=td-content style=page-break-before:always><h1 id=pg-1c3b9ac7e2dbf04a9c689f2c2c4b613a>3 - Scipy</h1><p>Gregor von Laszewski (<a href=mailto:laszewski@gmail.com>laszewski@gmail.com</a>)</p><p>SciPy is a library built around NumPy and has a number of off-the-shelf
 algorithms and operations implemented. These include algorithms from
 calculus (such as integration), statistics, linear algebra,
-image-processing, signal processing, machine learning.</p><p>To achieve this, SciPy bundels a number of useful open-source software
+image-processing, signal processing, machine learning.</p><p>To achieve this, SciPy bundles a number of useful open-source software
 for mathematics, science, and engineering. It includes the following
-packages:</p><dl><dt>NumPy,</dt><dd><p>for managing N-dimensional arrays</p></dd><dt>SciPy library,</dt><dd><p>to access fundamental scientific computing capabilities</p></dd><dt>Matplotlib,</dt><dd><p>to conduct 2D plotting</p></dd><dt>IPython,</dt><dd><p>for an Interactive console (see jupyter)</p></dd><dt>Sympy,</dt><dd><p>for symbolic mathematics</p></dd><dt>pandas,</dt><dd><p>for providing data structures and analysis</p></dd></dl><h2 id=introduction>Introduction</h2><p>First we add the usual scientific computing modules with the typical
+packages:</p><dl><dt>NumPy,</dt><dd><p>for managing N-dimensional arrays</p></dd><dt>SciPy library,</dt><dd><p>to access fundamental scientific computing capabilities</p></dd><dt>Matplotlib,</dt><dd><p>to conduct 2D plotting</p></dd><dt>IPython,</dt><dd><p>for an Interactive console (see jupyter)</p></dd><dt>Sympy,</dt><dd><p>for symbolic mathematics</p></dd><dt>pandas,</dt><dd><p>for providing data structures and analysis</p></dd></dl><h2 id=introduction>Introduction</h2><p>First, we add the usual scientific computing modules with the typical
 abbreviations, including sp for scipy. We could invoke scipy&rsquo;s
-statistical package as sp.stats, but for the sake of laziness we
+statistical package as sp.stats, but for the sake of laziness, we
 abbreviate that too.</p><pre><code>import numpy as np # import numpy
 import scipy as sp # import scipy
 from scipy import stats # refer directly to stats rather than sp.stats
@@ -458,7 +457,7 @@ plt.xlabel(&quot;Value&quot;)
 plt.ylabel(&quot;Frequency&quot;)
 
 plt.show()
-</code></pre><p><img src=https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/scipy/images/output_27_0.png alt="Figure 3: Histogram 3"></p><p>Figure 3: Histogram 3</p><p>Let us try out some linear regression, or curve fitting. See @#fig:scipy-output_30_0</p><pre><code>import random
+</code></pre><p><img src=https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/scipy/images/output_27_0.png alt="Figure 3: Histogram 3"></p><p>Figure 3: Histogram 3</p><p>Let us try out some linear regression or curve fitting. See @#fig:scipy-output_30_0</p><pre><code>import random
 
 def F(x):
     return 2*x - 2
@@ -503,10 +502,10 @@ plt.legend(['obsered points', 'estimated points'])
 
 # comment out so that you can save the figure
 #plt.show()
-</code></pre><p>To save images into a PDF file for inclusion into LaTeX documents you
+</code></pre><p>To save images into a PDF file for inclusion into LaTeX documents you
 can save the images as follows. Other formats such as png are also
 possible, but the quality is naturally not sufficient for inclusion in
-papers and documents. For that you certainly want to use PDF. The save
+papers and documents. For that, you certainly want to use PDF. The save
 of the figure has to occur before you use the <code>show()</code> command. See Figure 5</p><pre><code>plt.savefig(&quot;regression.pdf&quot;, bbox_inches='tight')
 
 plt.savefig('regression.png')
@@ -1608,22 +1607,22 @@ quality                       0.021075
 
 <span style=color:#000>red_df</span> <span style=color:#ce5c00;font-weight:700>=</span> <span style=color:#000>dd</span><span style=color:#ce5c00;font-weight:700>.</span><span style=color:#000>read_csv</span><span style=color:#000;font-weight:700>(</span><span style=color:#4e9a06>&#39;winequality-red.csv&#39;</span><span style=color:#000;font-weight:700>,</span><span style=color:#000>sep</span><span style=color:#ce5c00;font-weight:700>=</span><span style=color:#4e9a06>&#39;;&#39;</span><span style=color:#000;font-weight:700>,</span><span style=color:#000>header</span><span style=color:#ce5c00;font-weight:700>=</span><span style=color:#0000cf;font-weight:700>0</span><span style=color:#000;font-weight:700>)</span>
 <span style=color:#000>white_df</span> <span style=color:#ce5c00;font-weight:700>=</span> <span style=color:#000>dd</span><span style=color:#ce5c00;font-weight:700>.</span><span style=color:#000>read_csv</span><span style=color:#000;font-weight:700>(</span><span style=color:#4e9a06>&#39;winequality-white.csv&#39;</span><span style=color:#000;font-weight:700>,</span><span style=color:#000>sep</span><span style=color:#ce5c00;font-weight:700>=</span><span style=color:#4e9a06>&#39;;&#39;</span><span style=color:#000;font-weight:700>,</span><span style=color:#000>header</span><span style=color:#ce5c00;font-weight:700>=</span><span style=color:#0000cf;font-weight:700>0</span><span style=color:#000;font-weight:700>)</span>
-</code></pre></div><h2 id=acknowledgement>Acknowledgement</h2><p>This notebook was developed by Juliette Zerick and Gregor von Laszewski</p></div><div class=td-content style=page-break-before:always><h1 id=pg-00a632eb98f5bea1f33d0ade7f8a8fcb>6 - Parallel Computing in Python</h1><p>Gregor von Laszewski (<a href=mailto:laszewski@gmail.com>laszewski@gmail.com</a>)</p><p>In this module we will review the available Python modules that can be
-used for parallel computing. The parallel computing can be in form of
+</code></pre></div><h2 id=acknowledgement>Acknowledgement</h2><p>This notebook was developed by Juliette Zerick and Gregor von Laszewski</p></div><div class=td-content style=page-break-before:always><h1 id=pg-00a632eb98f5bea1f33d0ade7f8a8fcb>6 - Parallel Computing in Python</h1><p>Gregor von Laszewski (<a href=mailto:laszewski@gmail.com>laszewski@gmail.com</a>)</p><p>In this module, we will review the available Python modules that can be
+used for parallel computing. Parallel computing can be in the form of
 either multi-threading or multi-processing. In multi-threading
 approach, the threads run in the same shared memory heap whereas in
 case of multi-processing, the memory heaps of processes are separate
 and independent, therefore the communication between the processes are
 a little bit more complex.</p><h2 id=multi-threading-in-python>Multi-threading in Python</h2><p>Threading in Python is perfect for I/O operations where the process is
 expected to be idle regularly, e.g. web scraping. This is a very
-useful feature because several applications and script might spend the
-majority of their runtime on waiting for network or data I/O. In
+useful feature because several applications and scripts might spend the
+majority of their runtime waiting for network or data I/O. In
 several cases, e.g. web scraping, the resources, i.e. downloading from
-different websites, are most of the time independent. Therefore the
+different websites, are most of the time-independent. Therefore the
 processor can download in parallel and join the result at the end.</p><h3 id=thread-vs-threading><code>Thread</code> vs <code>Threading</code></h3><p>There are two built-in modules in Python that are related to
 threading, namely <code>thread</code> and <code>threading</code>. The former module is
-deprecated for sometime in <code>Python 2</code>, and in <code>Python 3</code> it is renamed
-to <code>_thread</code> for the sake of backwards incompatibilities. The
+deprecated for some time in <code>Python 2</code>, and in <code>Python 3</code> it is renamed
+to <code>_thread</code> for the sake of backward incompatibilities. The
 <code>_thread</code> module provides low-level threading API for multi-threading
 in Python, whereas the module <code>threading</code> builds a high-level
 threading interface on top of it.</p><p>The <code>Thread()</code> is the main method of the <code>threading</code> module, the two
@@ -1645,14 +1644,14 @@ illustrate these in the following example:</p><div class=highlight><pre style=ba
 <span style=color:#000>Hello</span> <span style=color:#204a87;font-weight:700>from</span> <span style=color:#000>Thread</span>  <span style=color:#0000cf;font-weight:700>3</span>
 <span style=color:#000>Hello</span> <span style=color:#204a87;font-weight:700>from</span> <span style=color:#000>Thread</span>  <span style=color:#0000cf;font-weight:700>4</span>
 </code></pre></div><p>In case you are not familiar with the <code>if __name__ == '__main__:'</code>
-statement, what it does is basically making sure that the code nested
+statement, what it does is making sure that the code nested
 under this condition will be run only if you run your module as a
-program and it will not run in case your module is imported in another
+program and it will not run in case your module is imported into another
 file.</p><h3 id=locks>Locks</h3><p>As mentioned prior, the memory space is shared between the
 threads. This is at the same time beneficial and problematic: it is
 beneficial in a sense that the communication between the threads
-becomes easy, however, you might experience strange outcome if you let
-several threads change same variable without caution, e.g. thread 2
+becomes easy, however, you might experience a strange outcome if you let
+several threads change the same variable without caution, e.g. thread 2
 changes variable <code>x</code> while thread 1 is working with it. This is when
 <code>lock</code> comes into play. Using <code>lock</code>, you can allow only one thread to
 work with a variable. In other words, only a single thread can hold
@@ -1699,7 +1698,7 @@ Counter is now <span style=color:#0000cf;font-weight:700>9</span>
 Counter is now <span style=color:#0000cf;font-weight:700>12</span>
 </code></pre></div><p>The reason is the conflict that happens between threads
 while incrementing the <code>counter</code> in the nested for loop. As you
-probably noticed, the first level for loop is equivalent of adding 3
+probably noticed, the first level for loop is equivalent to adding 3
 to the counter and the conflict that might happen is not effective on
 that level but the nested for loop. Accordingly, the output of the
 previous code is different in every run. This is an example output:</p><div class=highlight><pre style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ python3 lock_example.py
@@ -1777,11 +1776,11 @@ Counter is <span style=color:#0000cf;font-weight:700>12</span>
 with thread management as well as the complexity of the program and
 that is why in many situations, employing <code>multiprocessing</code> module
 might be a better approach.</p><h2 id=multi-processing-in-python>Multi-processing in Python</h2><p>We already mentioned that multi-threading might not be sufficient in
-many applications and we might need to use <code>multiprocessing</code> sometime,
-or better to say most of the times. That is why we are dedicating this
+many applications and we might need to use <code>multiprocessing</code> sometimes,
+or better to say most of the time. That is why we are dedicating this
 subsection to this particular module. This module provides you with an
 API for spawning processes the way you spawn threads using <code>threading</code>
-module. Moreover, there are some functionalities that are not even
+module. Moreover, some functionalities are not even
 available in <code>threading</code> module, e.g. the <code>Pool</code> class which allows
 you to run a batch of jobs using a <em>pool</em> of worker processes.</p><h3 id=process>Process</h3><p>Similar to <code>threading</code> module which was employing <code>thread</code> (aka
 <code>_thread</code>) under the hood, <code>multiprocessing</code> employs the <code>Process</code>
@@ -1817,10 +1816,7 @@ Process 23454: Hello David!
 </code></pre></div><h3 id=pool>Pool</h3><p>Consider the <code>Pool</code> class as a pool of worker processes. There are
 several ways for assigning jobs to the <code>Pool</code> class and we will
 introduce the most important ones in this section. These methods are
-categorized as <code>blocking</code> or <code>non-blocking</code>. The former means that
-after calling the API, it blocks the thread/process until it has the
-result or answer ready and the control returns only when the call
-completes. In the <code>non-blockin</code> on the other hand, the control returns
+categorized as <code>blocking</code> or <code>non-blocking. The former means that after calling the API, it blocks the thread/process until it has the result or answer ready and the control returns only when the call completes. In the</code>non-blockin` on the other hand, the control returns
 immediately.</p><h4 id=synchronous-poolmap>Synchronous <code>Pool.map()</code></h4><p>We illustrate the <code>Pool.map</code> method by re-implementing our previous
 greeter example using <code>Pool.map</code>:</p><div class=highlight><pre style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=color:#204a87;font-weight:700>from</span> <span style=color:#000>multiprocessing</span> <span style=color:#204a87;font-weight:700>import</span> <span style=color:#000>Pool</span>
 <span style=color:#204a87;font-weight:700>import</span> <span style=color:#000>os</span>
@@ -1835,7 +1831,7 @@ greeter example using <code>Pool.map</code>:</p><div class=highlight><pre style=
     <span style=color:#000>sync_map</span> <span style=color:#ce5c00;font-weight:700>=</span> <span style=color:#000>pool</span><span style=color:#ce5c00;font-weight:700>.</span><span style=color:#000>map</span><span style=color:#000;font-weight:700>(</span><span style=color:#000>greeter</span><span style=color:#000;font-weight:700>,</span><span style=color:#000>names</span><span style=color:#000;font-weight:700>)</span>
     <span style=color:#204a87;font-weight:700>print</span><span style=color:#000;font-weight:700>(</span><span style=color:#4e9a06>&#34;Done!&#34;</span><span style=color:#000;font-weight:700>)</span>
 </code></pre></div><p>As you can see, we have seven names here but we do not want to
-dedicate each greeting to a separate process. Instead we do the whole
+dedicate each greeting to a separate process. Instead, we do the whole
 job of &ldquo;greeting seven people&rdquo; using &ldquo;two processes.&rdquo; We create a pool
 of 3 processes with <code>Pool(processes=3)</code> syntax and then we map an
 iterable called <code>names</code> to the <code>greeter</code> function using
@@ -1936,11 +1932,11 @@ counting from 6 to 12, we have two processes counting to 6.</p><p>Nevertheless, 
 appropriate for inter-process message passing. To be more specific,
 <code>Pipe</code> is useful for process-to-process scenarios while <code>Queue</code> is
 more appropriate for process<strong>es</strong>-toprocess<strong>es</strong> ones. <code>Value</code> and
-<code>Array</code> are both used to provide a synchronized access to a shared
+<code>Array</code> are both used to provide synchronized access to a shared
 data (very much like shared memory) and <code>Managers</code> can be used on
 different data types. In the following sub-sections, we cover both
 <code>Value</code> and <code>Array</code> since they are both lightweight, yet useful,
-approaches.</p><h4 id=value>Value</h4><p>The following example re-implements the broken example in the previous
+approach.</p><h4 id=value>Value</h4><p>The following example re-implements the broken example in the previous
 section. We fix the strange output, by using both <code>Lock</code> and <code>Value</code>:</p><div class=highlight><pre style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=color:#204a87;font-weight:700>from</span> <span style=color:#000>multiprocessing</span> <span style=color:#204a87;font-weight:700>import</span> <span style=color:#000>Process</span><span style=color:#000;font-weight:700>,</span> <span style=color:#000>Lock</span><span style=color:#000;font-weight:700>,</span> <span style=color:#000>Value</span>
 <span style=color:#204a87;font-weight:700>import</span> <span style=color:#000>time</span>
 
@@ -1983,7 +1979,7 @@ defines the initialization value. In this case we are assigning a
 signed integer in the shared memory initialized to size 0 to the
 <code>counter</code> variable. We then modified our two functions and pass this
 <em>shared</em> variable as an argument. Finally, we change the way we
-increment the <code>counter</code> since counter is not an Python integer anymore
+increment the <code>counter</code> since the counter is not a Python integer anymore
 but a <code>ctypes</code> signed integer where we can access its value using the
 <code>value</code> attribute. The output of the code is now as we expected:</p><div class=highlight><pre style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ python mp_lock_example.py
 Greeter2: Counter is <span style=color:#0000cf;font-weight:700>3</span>
@@ -2037,14 +2033,14 @@ technique can also be used when you want to pass multiple arguments to
     <span style=color:#000>t2</span> <span style=color:#ce5c00;font-weight:700>=</span> <span style=color:#000>Process</span><span style=color:#000;font-weight:700>(</span><span style=color:#000>target</span> <span style=color:#ce5c00;font-weight:700>=</span> <span style=color:#000>incrementer2</span> <span style=color:#000;font-weight:700>,</span> <span style=color:#000>args</span><span style=color:#ce5c00;font-weight:700>=</span><span style=color:#000;font-weight:700>((</span><span style=color:#000>counter</span><span style=color:#000;font-weight:700>,</span><span style=color:#000>names</span><span style=color:#000;font-weight:700>),))</span>
     <span style=color:#000>t2</span><span style=color:#ce5c00;font-weight:700>.</span><span style=color:#000>start</span><span style=color:#000;font-weight:700>()</span>
     <span style=color:#000>t1</span><span style=color:#ce5c00;font-weight:700>.</span><span style=color:#000>start</span><span style=color:#000;font-weight:700>()</span>
-</code></pre></div><p>In this example we created a <code>multiprocessing.Array()</code> object and
+</code></pre></div><p>In this example, we created a <code>multiprocessing.Array()</code> object and
 assigned it to a variable called <code>names</code>. As we mentioned before, the
 first argument is the <code>ctype</code> data type and since we want to create an
-array of strings with length of 4 (second argument), we imported the
+array of strings with a length of 4 (second argument), we imported the
 <code>c_char_p</code> and passed it as the first argument.</p><p>Instead of passing the arguments separately, we merged both the
 <code>Value</code> and <code>Array</code> objects in a tuple and passed the tuple to the
 functions. We then modified the functions to unpack the objects in the
-first two lines in the both functions. Finally we changed the print
+first two lines in both functions. Finally, we changed the print
 statement in a way that each process greets a particular name. The
 output of the example is:</p><div class=highlight><pre style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ python3 mp_lock_example.py
 Greeter2: Greeting James! Counter is <span style=color:#0000cf;font-weight:700>3</span>
@@ -2055,11 +2051,7 @@ Greeter1: Greeting Larry! Counter is <span style=color:#0000cf;font-weight:700>1
 analytics. Parallel computing is a type of computation in which many
 calculations or the execution of processes are carried out
 simultaneously. Large problems can often be divided into smaller ones,
-which can then be solved concurrently.</p><p>Dask is composed of two components:</p><ol><li><em>Dynamic task scheduling optimized for computation.</em> This is
-similar to Airflow, Luigi, Celery, or Make, but optimized for
-interactive computational workloads.</li><li><em>Big Data collections</em> like parallel arrays, dataframes, and lists
-that extend common interfaces like NumPy, Pandas, or Python
-iterators to larger-than-memory or distributed environments. These
+which can then be solved concurrently.</p><p>Dask is composed of two components:</p><ol><li><em>Dynamic task scheduling optimized for computation.</em> This is similar to Airflow, Luigi, Celery, or Make, but optimized for interactive computational workloads.</li><li><em>Big Data collections</em> like parallel arrays, dataframes, and lists that extend common interfaces like NumPy, Pandas, or Python iterators to larger-than-memory or distributed environments. These
 parallel collections run on top of the dynamic task schedulers.</li></ol><p>Dask emphasizes the following virtues:</p><ul><li><em>Familiar</em>: Provides parallelized NumPy array and Pandas DataFrame
 objects.</li><li><em>Flexible</em>: Provides a task scheduling interface for more custom
 workloads and integration with other projects.</li><li><em>Native</em>: Enables distributed computing in Pure Python with access
@@ -2076,7 +2068,7 @@ task operations. The distributed scheduler is now generally the
 recommended engine for executing task work, even on single
 workstations or laptops.</p></dd><dt>Collections:</dt><dd><p>convenient abstractions giving a familiar feel to big data.</p></dd><dt>Bags:</dt><dd><p>Python iterators with a functional paradigm, such as found in
 func/iter-tools and toolz - generalize lists/generators to big data;
-this will seem very familiar to users of PySpark&rsquo;s RDD</p></dd><dt>Array:</dt><dd><p>massive multi-dimensional numerical data, with Numpy functionality</p></dd><dt>Dataframe:</dt><dd><p>massive tabular data, with Pandas functionality</p></dd></dl><h2 id=how-dask-works>How Dask Works</h2><p>Dask is computation tool for larger-than-memory datasets, parallel
+this will seem very familiar to users of PySpark&rsquo;s RDD</p></dd><dt>Array:</dt><dd><p>massive multi-dimensional numerical data, with Numpy functionality</p></dd><dt>Dataframe:</dt><dd><p>massive tabular data, with Pandas functionality</p></dd></dl><h2 id=how-dask-works>How Dask Works</h2><p>Dask is a computation tool for larger-than-memory datasets, parallel
 execution or delayed/background execution.</p><p>We can summarize the basics of Dask as follows:</p><ul><li>process data that does not fit into memory by breaking it into
 blocks and specifying task chains</li><li>parallelize execution of tasks across cores and even nodes of a
 cluster</li><li>move computation to the data rather than the other way around, to
@@ -2116,7 +2108,7 @@ volumes in a small space. If we combine this with parallel processing
 then we can churn through a fair amount of data.</p><p>Dask.bag is a high level Dask collection to automate common workloads
 of this form. In a nutshell</p><pre><code>dask.bag = map, filter, toolz + parallel execution
 </code></pre><p>You can create a Bag from a Python sequence, from files, from data on
-S3, etc..</p><pre><code># each element is an integer
+S3, etc.</p><pre><code># each element is an integer
 import dask.bag as db
 b = db.from_sequence([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 
@@ -2129,7 +2121,7 @@ b = db.read_text(os.path.join('data', 'accounts.*.json.gz'))
 b = db.read_text('s3://dask-data/nyc-taxi/2015/yellow_tripdata_2015-01.csv')
 </code></pre><p>Bag objects hold the standard functional API found in projects like
 the Python standard library, toolz, or pyspark, including map, filter,
-groupby, etc..</p><p>As with Array and DataFrame objects, operations on Bag objects create
+groupby, etc.</p><p>As with Array and DataFrame objects, operations on Bag objects create
 new bags. Call the .compute() method to trigger execution.</p><pre><code>def is_even(n):
     return n % 2 == 0
 
@@ -2143,12 +2135,11 @@ c.compute()
 concurrent.futures interface. This interface is good for arbitrary
 task scheduling, like dask.delayed, but is immediate rather than lazy,
 which provides some more flexibility in situations where the
-computations may evolve over time. These features depend on the second
-generation task scheduler found in dask.distributed (which, despite
+computations may evolve. These features depend on the second-generation task scheduler found in dask.distributed (which, despite
 its name, runs very well on a single machine).</p><p>Dask allows us to simply construct graphs of tasks with
 dependencies. We can find that graphs can also be created
-automatically for us using functional, Numpy or Pandas syntax on data
-collections. None of this would be very useful, if there weren&rsquo;t also
+automatically for us using functional, Numpy, or Pandas syntax on data
+collections. None of this would be very useful if there weren&rsquo;t also
 a way to execute these graphs, in a parallel and memory-aware
 way. Dask comes with four available schedulers:</p><ul><li><code>dask.threaded.get</code>: a scheduler backed by a thread pool</li><li><code>dask.multiprocessing.get</code>: a scheduler backed by a process pool</li><li><code>dask.async.get_sync</code>: a synchronous scheduler, good for debugging</li><li><code>distributed.Client.get</code>: a distributed scheduler for executing graphs on multiple machines.</li></ul><p>Here is a simple program for dask.distributed library:</p><pre><code>from dask.distributed import Client
 client = Client('scheduler:port')
@@ -2246,4 +2237,4 @@ target
 
 df_hdf = dd.read_hdf(target, '/data')
 df_hdf.head()
-</code></pre><p>For more information of Dask DataFrame Storage, click <a href=http://dask.pydata.org/en/latest/dataframe-create.html>http://dask.pydata.org/en/latest/dataframe-create.html</a></p><h2 id=links>Links</h2><ul><li><a href=https://dask.pydata.org/en/latest/>https://dask.pydata.org/en/latest/</a></li><li><a href=http://matthewrocklin.com/blog/work/2017/10/16/streaming-dataframes-1>http://matthewrocklin.com/blog/work/2017/10/16/streaming-dataframes-1</a></li><li><a href=http://people.duke.edu/~ccc14/sta-663-2017/18A_Dask.html>http://people.duke.edu/~ccc14/sta-663-2017/18A_Dask.html</a></li><li><a href=https://www.kdnuggets.com/2016/09/introducing-dask-parallel-programming.html>https://www.kdnuggets.com/2016/09/introducing-dask-parallel-programming.html</a></li><li><a href=https://pypi.python.org/pypi/dask/>https://pypi.python.org/pypi/dask/</a></li><li><a href=https://www.hdfgroup.org/2015/03/hdf5-as-a-zero-configuration-ad-hoc-scientific-database-for-python/>https://www.hdfgroup.org/2015/03/hdf5-as-a-zero-configuration-ad-hoc-scientific-database-for-python/</a></li><li><a href=https://github.com/dask/dask-tutorial>https://github.com/dask/dask-tutorial</a></li></ul></div></main></div></div><footer class="bg-dark py-5 row d-print-none"><div class="container-fluid mx-sm-5"><div class=row><div class="col-6 col-sm-4 text-xs-center order-sm-2"><ul class="list-inline mb-0"><li class="list-inline-item mx-2 h3" data-toggle=tooltip data-placement=top title="Gregor von Laszewski" aria-label="Gregor von Laszewski"><a class=text-white target=_blank rel=noopener href=https://laszewski.github.io aria-label="Gregor von Laszewski"><i class="fa fa-envelope"></i></a></li></ul></div><div class="col-6 col-sm-4 text-right text-xs-center order-sm-3"><ul class="list-inline mb-0"><li class="list-inline-item mx-2 h3" data-toggle=tooltip data-placement=top title=GitHub aria-label=GitHub><a class=text-white target=_blank rel=noopener href=https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/ aria-label=GitHub><i class="fab fa-github"></i></a></li></ul></div><div class="col-12 col-sm-4 text-center py-2 order-sm-2"><small class=text-white>&copy; 2021 Indiana University, 2020 All Rights Reserved</small><p class=mt-2><a href=/about/>About Cybertraining</a></p></div></div></div></footer></div><script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js integrity=sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js integrity=sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/npm/mermaid@8.9.2/dist/mermaid.min.js integrity=sha384-uQikAXnCAqsMb3ygtdqBYvcwvHUkzGIpjdGyy9owhURXHUxLC5LgTcSxJQH/RzjK crossorigin=anonymous></script><script src=/js/deflate.js></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/katex.min.css integrity=sha384-Cqd8ihRLum0CCg8rz0hYKPoLZ3uw+gES2rXQXycqnL5pgVQIflxAUDS7ZSjITLb5 crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/katex.min.js integrity=sha384-1Or6BdeNQb0ezrmtGeqQHFpppNd7a/gw29xeiSikBbsb44xu3uAo8c7FwbF5jhbd crossorigin=anonymous></script><script defer src=https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/contrib/mhchem.min.js integrity=sha384-LIgAiYlGSAdpNC9+YDjDPF6JeS/RRIumtNo0CmyQERZ/+g0h9MbuYQwf/5pQ4Y4M crossorigin=anonymous></script><script defer src=https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/contrib/auto-render.min.js integrity=sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl crossorigin=anonymous onload=renderMathInElement(document.body,null);></script><script src=/js/main.min.24fdf50398b189e91e0fc406ea4341e93f56846c34eecd790e12aab363ef5e3c.js integrity="sha256-JP31A5ixiekeD8QG6kNB6T9WhGw07s15DhKqs2PvXjw=" crossorigin=anonymous></script></body></html>
+</code></pre><p>For more information on Dask DataFrame Storage, click <a href=http://dask.pydata.org/en/latest/dataframe-create.html>http://dask.pydata.org/en/latest/dataframe-create.html</a></p><h2 id=links>Links</h2><ul><li><a href=https://dask.pydata.org/en/latest/>https://dask.pydata.org/en/latest/</a></li><li><a href=http://matthewrocklin.com/blog/work/2017/10/16/streaming-dataframes-1>http://matthewrocklin.com/blog/work/2017/10/16/streaming-dataframes-1</a></li><li><a href=http://people.duke.edu/~ccc14/sta-663-2017/18A_Dask.html>http://people.duke.edu/~ccc14/sta-663-2017/18A_Dask.html</a></li><li><a href=https://www.kdnuggets.com/2016/09/introducing-dask-parallel-programming.html>https://www.kdnuggets.com/2016/09/introducing-dask-parallel-programming.html</a></li><li><a href=https://pypi.python.org/pypi/dask/>https://pypi.python.org/pypi/dask/</a></li><li><a href=https://www.hdfgroup.org/2015/03/hdf5-as-a-zero-configuration-ad-hoc-scientific-database-for-python/>https://www.hdfgroup.org/2015/03/hdf5-as-a-zero-configuration-ad-hoc-scientific-database-for-python/</a></li><li><a href=https://github.com/dask/dask-tutorial>https://github.com/dask/dask-tutorial</a></li></ul></div></main></div></div><footer class="bg-dark py-5 row d-print-none"><div class="container-fluid mx-sm-5"><div class=row><div class="col-6 col-sm-4 text-xs-center order-sm-2"><ul class="list-inline mb-0"><li class="list-inline-item mx-2 h3" data-toggle=tooltip data-placement=top title="Gregor von Laszewski" aria-label="Gregor von Laszewski"><a class=text-white target=_blank rel=noopener href=https://laszewski.github.io aria-label="Gregor von Laszewski"><i class="fa fa-envelope"></i></a></li></ul></div><div class="col-6 col-sm-4 text-right text-xs-center order-sm-3"><ul class="list-inline mb-0"><li class="list-inline-item mx-2 h3" data-toggle=tooltip data-placement=top title=GitHub aria-label=GitHub><a class=text-white target=_blank rel=noopener href=https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/ aria-label=GitHub><i class="fab fa-github"></i></a></li></ul></div><div class="col-12 col-sm-4 text-center py-2 order-sm-2"><small class=text-white>&copy; 2021 Indiana University, 2020 All Rights Reserved</small><p class=mt-2><a href=/about/>About Cybertraining</a></p></div></div></div></footer></div><script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js integrity=sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js integrity=sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/npm/mermaid@8.9.2/dist/mermaid.min.js integrity=sha384-uQikAXnCAqsMb3ygtdqBYvcwvHUkzGIpjdGyy9owhURXHUxLC5LgTcSxJQH/RzjK crossorigin=anonymous></script><script src=/js/deflate.js></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/katex.min.css integrity=sha384-Cqd8ihRLum0CCg8rz0hYKPoLZ3uw+gES2rXQXycqnL5pgVQIflxAUDS7ZSjITLb5 crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/katex.min.js integrity=sha384-1Or6BdeNQb0ezrmtGeqQHFpppNd7a/gw29xeiSikBbsb44xu3uAo8c7FwbF5jhbd crossorigin=anonymous></script><script defer src=https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/contrib/mhchem.min.js integrity=sha384-LIgAiYlGSAdpNC9+YDjDPF6JeS/RRIumtNo0CmyQERZ/+g0h9MbuYQwf/5pQ4Y4M crossorigin=anonymous></script><script defer src=https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/contrib/auto-render.min.js integrity=sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl crossorigin=anonymous onload=renderMathInElement(document.body,null);></script><script src=/js/main.min.24fdf50398b189e91e0fc406ea4341e93f56846c34eecd790e12aab363ef5e3c.js integrity="sha256-JP31A5ixiekeD8QG6kNB6T9WhGw07s15DhKqs2PvXjw=" crossorigin=anonymous></script></body></html>

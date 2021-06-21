@@ -1,4 +1,113 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – Reports</title><link>/report/</link><description>Recent content in Reports on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 16 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/report/index.xml" rel="self" type="application/rss+xml"/><item><title>Report:</title><link>/report/hid-example/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/hid-example/project/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – Reports</title><link>/report/</link><description>Recent content in Reports on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 16 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/report/index.xml" rel="self" type="application/rss+xml"/><item><title>Report: Project: Using EOS Blockchain</title><link>/report/su21-reu-361/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Jacques Fleischer, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-361">su21-reu-361&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> :o2: No abbrevations in title e.g. EOS&lt;/li>
+&lt;/ul>
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Do not include this tip in your document:&lt;/p>
+&lt;blockquote>
+&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Here comes a convincing introduction to the problem&lt;/p>
+&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
+&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
+set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
+bound into cybertraining.&lt;/p>
+&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
+&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
+Thus the following is wrong:&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+This author does ignore proper markdown while not using empty lines between context changes
+1. This is because this author ignors all best practices
+&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+We do not ignore proper markdown while using empty lines between context changes
+1. This is because we encourage best practices to cause issues.
+&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
+&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
+We will not review any document that does not pass this check.&lt;/p>
+&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
+&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
+comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
+&lt;ol>
+&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
+&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
+&lt;/ol>
+&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
+&lt;p>You have two choices for the final project.&lt;/p>
+&lt;ol>
+&lt;li>Project, That is a final report that includes code.&lt;/li>
+&lt;li>Report, that is a final project without code.&lt;/li>
+&lt;/ol>
+&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
+at the beginning of your project.&lt;/p>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
+&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
+&lt;ol>
+&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
+&lt;li>When using bulleted lists use * and not -&lt;/li>
+&lt;/ol>
+&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
+&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report:</title><link>/report/hid-example/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/hid-example/project/</guid><description>
 &lt;p>Fix the links: and than remove this line&lt;/p>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/hid-example/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/hid-example/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
@@ -106,7 +215,7 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report:</title><link>/report/su21-reu-360/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-360/project/</guid><description>
+&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-360/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-360/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-360/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-360/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
@@ -212,113 +321,7 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report:</title><link>/report/su21-reu-361/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: draft, Type: Project&lt;/p>
-&lt;p>Firstname Lastname, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-361">su21-reu-361&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Do not include this tip in your document:&lt;/p>
-&lt;blockquote>
-&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/blockquote>
-&lt;p>Here comes a convincing introduction to the problem&lt;/p>
-&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
-&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
-set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
-bound into cybertraining.&lt;/p>
-&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
-&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
-Thus the following is wrong:&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-This author does ignore proper markdown while not using empty lines between context changes
-1. This is because this author ignors all best practices
-&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-We do not ignore proper markdown while using empty lines between context changes
-1. This is because we encourage best practices to cause issues.
-&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
-&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
-We will not review any document that does not pass this check.&lt;/p>
-&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
-&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
-comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
-&lt;ol>
-&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
-&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
-&lt;/ol>
-&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
-&lt;p>You have two choices for the final project.&lt;/p>
-&lt;ol>
-&lt;li>Project, That is a final report that includes code.&lt;/li>
-&lt;li>Report, that is a final project without code.&lt;/li>
-&lt;/ol>
-&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
-at the beginning of your project.&lt;/p>
-&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
-&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
-&lt;ol>
-&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
-&lt;li>When using bulleted lists use * and not -&lt;/li>
-&lt;/ol>
-&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
-&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
-However, if the data is publicly available you program must contain a download function instead that you customize.
-Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
-the download function.&lt;/p>
-&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
-&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
-&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
-&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
-&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
-&lt;h2 id="9-references">9. References&lt;/h2>
-&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
-one point automatically change the references from superscript to square brackets it is best to introduce a space before
-the first square bracket.&lt;/p>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Use of energy explained - Energy use in homes, [Online resource]
-&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
-&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report:</title><link>/report/su21-reu-362/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-362/project/</guid><description>
+&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-362/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-362/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-362/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-362/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
@@ -424,7 +427,7 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report:</title><link>/report/su21-reu-363/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-363/project/</guid><description>
+&lt;/section></description></item><item><title>Report: Project: FAMU Coding Project</title><link>/report/su21-reu-363/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-363/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-363/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-363/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
@@ -530,7 +533,7 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report:</title><link>/report/su21-reu-364/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-364/project/</guid><description>
+&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-364/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-364/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-364/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-364/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
@@ -742,7 +745,7 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report:</title><link>/report/su21-reu-366/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-366/project/</guid><description>
+&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-366/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-366/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-366/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-366/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
@@ -848,7 +851,7 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report:</title><link>/report/su21-reu-367/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-367/project/</guid><description>
+&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-367/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-367/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-367/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-367/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
@@ -954,11 +957,11 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report:</title><link>/report/su21-reu-368/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-368/project/</guid><description>
+&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-368/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-368/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-368/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-368/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
-&lt;p>Firstname Lastname, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-368">su21-reu-368&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-368/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;p>Yohn Jairo Parra Bautista, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-368">su21-reu-368&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-368/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
@@ -1060,11 +1063,11 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report:</title><link>/report/su21-reu-369/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-369/project/</guid><description>
+&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-369/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-369/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-369/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-369/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
-&lt;p>Firstname Lastname, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-369">su21-reu-369&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-369/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;p>Theresa Jean-Baptistee, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-369">su21-reu-369&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-369/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
@@ -1272,7 +1275,7 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report:</title><link>/report/su21-reu-371/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-371/project/</guid><description>
+&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-371/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-371/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-371/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-371/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
@@ -1378,7 +1381,7 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report:</title><link>/report/su21-reu-372/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-372/project/</guid><description>
+&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-372/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-372/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-372/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-372/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
@@ -1484,7 +1487,7 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report:</title><link>/report/su21-reu-373/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-373/project/</guid><description>
+&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-373/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-373/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-373/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-373/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
@@ -1590,11 +1593,11 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report:</title><link>/report/su21-reu-374/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-374/project/</guid><description>
+&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-374/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-374/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
-&lt;p>Firstname Lastname, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374">su21-reu-374&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;p>Victor Adankai, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374">su21-reu-374&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
@@ -1696,7 +1699,7 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report:</title><link>/report/su21-reu-375/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-375/project/</guid><description>
+&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-375/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-375/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-375/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-375/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
@@ -1802,7 +1805,7 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report:</title><link>/report/su21-reu-376/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-376/project/</guid><description>
+&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-376/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-376/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
@@ -1908,7 +1911,25 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report: Aquatic Toxicity Analysis with the aid of Autonomous Surface Vehicle (ASV)</title><link>/report/fa20-523-312/project/project/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/fa20-523-312/project/project/</guid><description>
+&lt;/section></description></item><item><title>Report: Tutorial on Installing Visual Studio Code</title><link>/report/su21-reu-361/tutorials/visual-studio-code/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/tutorials/visual-studio-code/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>How to install Visual Studio Code&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#install">Install&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> visual-studio-code&lt;/p>
+&lt;h2 id="install">Install&lt;/h2>
+&lt;p>Navigate to Visual Studio Code download page&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/UtwCUNCYR0s" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div></description></item><item><title>Report: Aquatic Toxicity Analysis with the aid of Autonomous Surface Vehicle (ASV)</title><link>/report/fa20-523-312/project/project/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/fa20-523-312/project/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/fa20-523-312/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-312/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/fa20-523-312/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-312/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: final, Type: Project&lt;/p>
@@ -9231,109 +9252,6 @@ to problems such as food and water shortages, the study of agriculture could imp
 &lt;/li>
 &lt;li id="fn:7" role="doc-endnote">
 &lt;p>&amp;ldquo;Data from: A field-scale sensor network data set for monitoring and modeling the spatial and temporal variation of soil moisture in a dryland agricultural field&amp;rdquo;, USDA: Ag Data Commons, 2020. [Online]. Available: &lt;a href="https://data.nal.usda.gov/dataset/data-field-scale-sensor-network-data-set-monitoring-and-modeling-spatial-and-temporal-variation-soil-moisture-dryland-agricultural-field">https://data.nal.usda.gov/dataset/data-field-scale-sensor-network-data-set-monitoring-and-modeling-spatial-and-temporal-variation-soil-moisture-dryland-agricultural-field&lt;/a>. [Accessed: 19- Oct- 2020]. &lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: Big Data in Sports Game Predictions and How It is Used in Sports Gambling</title><link>/report/fa20-523-331/report/report/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/fa20-523-331/report/report/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/fa20-523-331/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-331/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/fa20-523-331/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-331/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: final, Type: Report&lt;/p>
-&lt;p>Mansukh Kandhari, &lt;a href="https://github.com/cybertraining-dsc/fa20-523-331/">fa20-523-331&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/fa20-523-331/blob/master/report/report.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Big data in sports is being used more and more as technology advances and this has a very big impact, especially when it comes to sports gambling. Sports gambling has been around for a while and it is gaining popularity with it being legalized in more places across the world. It is a very lucrative industry and the bookmakers use everything they can to make sure the overall odds are in their favor so they can reduce the risk of paying out to the betters and ensure a steady return. Sports statistics and data is more important than ever for bookmakers to come up with the odds they put out to the public. Odds are no longer just determined by expert analyzers for a specific sport. The compilation of odds uses a lot of historical data about team and player performance and looks at the most intricate details in order to ensure accuracy. Bookmakers spend a lot of money to employ the best statisticians and the best algorithms. There are also many companies that solely focus on sports data analysis, who often work with bookmakers around the world. On the other hand, big data for sports game analysis is also used by gamblers to gain a competitive edge. Many different algorithms have been created by researchers and gamblers to try to beat the bookmakers, some more successful than others. Oftentimes these not only involve examining sports data, but also analysing data from different bookmakers odds in order to determine the best bets to place. Overall, big data is very important in this field and this research paper aims to show the various techniques that are used by different stakeholders.&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-background">2. Background&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-how-bookmakes-determine-odds">3. How bookmakes Determine odds&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-poisson-model">5. Poisson Model&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-algorithms-and-prediction-models">6. Algorithms and prediction models&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#7-conclusion">7. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-references">8. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> sports, sportsbook, betting, gambling, data analysis, machine learning, punter(British word for gambler)&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Big Data in sports has been used for years by various stakeholders in this industry to do everything from predicting game outcomes to injury prevention. It is also becoming very prevalent in the area of sports gambling. Ever since the Supreme court decision in Murphy v. National Collegiate Athletic Association that overturned a ban on sports betting, the majority of states in the US have passed legislation to allow sports gambling &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. In 2019, the global sports betting market was valued at 85.047 US Dollars so this is an already very big industry that is expanding &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. There are various platforms that allow betting in this industry including tangible sports books, casinos, racetracks, and many online and mobile gambling apps. The interesting thing about big data in sports betting is that it is being used on both sides in this market. It is used by bookmakers to create game models and come up with different spreads and odds, but big data analysis is also being used by gamblers to gain a competetive advantage and place more accurate bets. Various prediction models using machine learning and big data analytics have been created and they can sometimes be very accurate. For example, Google correctly predicted 14 out of the 16 matches in the 2014 world cup and Microsoft did even better by correctly predicting 15 out of the 16 matches during that year &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>. Many big companies have spent a lot of time gathering lots of data and creating prediction algorithms, inlcuding ESPN&amp;rsquo;s Football Power index that gives the probility of one team beating another, Analytics Powerhouse 538 that determines scores of games using their ELO method, and Accuscore which runs Mone Carlo Simulations on worldwide sporting events &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. Bookmakers use all their possible tools and algorithms to put out the best odds that will give them a return. They often employ teams of statisticians that use the most advanced prediction models and information from data analysis companies to come up with their odds. If sports data analysis is vastly being used by people other than bookies and prediction models can often be very accurate, one might wonder how people haven&amp;rsquo;t made millions off sports betting and how bookmakers are still in business? This report analyzes how big data analytics are used by bookmakers to come up with the odds they put out for games while also examining how it is used on the gamblers side. It aims to analysize various prediction models created by sports betters, researchers, and AI companies, and see how they compare to the way big data is used by bookmakers. Besides giving an analysis of how big data is used in this field, it will show if betting guided by prediction models can give a consistent return.&lt;/p>
-&lt;h2 id="2-background">2. Background&lt;/h2>
-&lt;p>Many people with an interest in sports betting prediction have created models, some that involve machine learning and AI. A few of these projects have had some very interesting results using different types of data and analysis techniques. Jordan Bailey created an NBA prediction model based on the over under bets &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>. For context, bookmakers will set a point total for a game and bettors can bet on whether the actual score will be over or under the point total set by the book. This type of betting is offered for many types of sports. Using NBA box scores for 5 previous seasons and data on historical betting lines created by various bookmakers, Bailey created a logistical regression model that would return a prediction on if the score was over or under a point total set by a bookmaker. Two models were created, one that predicted if a game would be over a set line and one that predicted if it would be under a set line. The datasets for these models were structured in a way where each specific game was represented as the box scores for the 3 previous games for each team, so 6 previous games &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>. When creating the model, the first four seasons were used as the training set and the fifth season was used as the testing data to make predictions on &lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>. In order to determine the significance of results, Bailey set up a &amp;ldquo;confidence threshold&amp;rdquo; of 62 percent for the probability his model returned on a game being over or under. The prediction was &amp;ldquo;confident&amp;rdquo; if the probability of the prediction was above the set threshold. When testing the models, the over model predicted 88 games confidently and 52 games correctly, with an accuracy of 59.09 percent. The under model predicted 96 games confidently and correctly predicted 52 games with an accuracy of 54.16 percent &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>. To simulate how the model would perform on betting with 10,000 dollars, a bet was made every time the model predicted a confident bet for the 2018 NBA season. The accuracy on the bets were 52.52 percent and the total after the simulation was 11,880 dollars.&lt;/p>
-&lt;h2 id="3-how-bookmakes-determine-odds">3. How bookmakes Determine odds&lt;/h2>
-&lt;p>It is no secret that bookmakers use a lot of data and apply various statistical techniques to come up with betting odds. The statistical techniques used and the data that bookmakers look at vary from sport to sport, for example, a popular method for modeling soccer uses the Poisson distribution since it can be very accurate but also because it makes it easy to add time decay to the inputs &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>. Big data and data accuracy plays such a big part for bookmakers that many companies in the sports betting market have multi million dollar contracts with big leagues like the NFL &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>. The NBA also recently extended their contracts with Sportradar and Genius Sports group that will have the rights to distribute official NBA data to licenced sports betting operators in the United States &lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup>. Companies like Sportradar collect and analyze official data and provide services to various bookmakers. The accuracy of data can be very important, a difference of something as little as one yard can make such a big difference; therefore, the industry values the accuracy of data that the leagues itself can provide. Bookmakers employ various mathematicians to analyze historical sports data to come up with odds; however, sports data isn’t the only thing that bookmakers look at when determining how they will make odds for a game. At the end of the day, the gambling industry is a numbers game that thrives on ensuring the probability is in the houses favor. Bookmakers use various techniques involving big data and factors such as public opinion to do so.&lt;/p>
-&lt;p>Big data is being used more and more in various industries, and in the gambling industry, it isn&amp;rsquo;t just used to come up with odds. One major way it is used is by gathering data about user demographics &lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup>. When using an online sportsbook, the casino can gather data about a users age, location, gender, excetera which can provide valuable insights that can be used for product development and marketing purposes. By using user demographic data to provide targeted advertising, casinos and bookmakers can attract more betters which will increase revenue. As said by former odds compiler Matthew Trenhaile, &amp;ldquo;Their [bookmakers] product is entertainment and not the selling of an intellectual contest between punter and bookmaker. It is foolish to think this has ever been the product that bookmakers have sold.They sell an adrenaline rush and anyone who thinks great characters pitting themselves against the punters and taking anyone on in horse racing betting rings is what betting used to be about is kidding himself or herself.&amp;rdquo; Due to the probability of making money in sports betting, and really every type of gambling, being in the houses favor, online casinos and sportsbooks use big data to increase the number of bets placed by customers; nevertheless, using models to come up with odds is the heart of this industry which makes it the most important way big data analytics is used by bookmakers.&lt;/p>
-&lt;p>When odds are being made for a sports book, a lot of things are taken into consideration in the process. Bookmakers have teams of statisticians that analyze historical data of the teams in order to come up with game prediction models, often using machine learning based algorithms&lt;sup id="fnref:11">&lt;a href="#fn:11" class="footnote-ref" role="doc-noteref">11&lt;/a>&lt;/sup>. When bookmakers are actually making the odds, these statistical models created from large amounts of data aren&amp;rsquo;t the only thing they use. When bookmakers are creating odds, their goal isn&amp;rsquo;t to come up with an accurate game prediction, it is to have the lowest probability of paying out, so they will add a margin in order to statistically ensure a profit regardless of the outcome. Some times public opinion is used by bookmakers to sway their odds. For example, if a team has been on an unexpected winning streak, the bookmakers will often overestimate their odds, even against a team that will statistically do better than them, since people will be more inclined to take that bet resulting in the bookmaker reducing their probability of paying out &lt;sup id="fnref:12">&lt;a href="#fn:12" class="footnote-ref" role="doc-noteref">12&lt;/a>&lt;/sup>. Furthermore, bookmakers will often &amp;ldquo;hedge&amp;rdquo; bets to cover potential losses if an unexpected outcome occurs. For example, if a large amount of people are betting on a team regardless of the odds, the bookmakers will have a large payout if that outcome occurs, so they will start offering more favorable odds on the opposite outcome so they can bring in bets that would cover their losses &lt;sup id="fnref:11">&lt;a href="#fn:11" class="footnote-ref" role="doc-noteref">11&lt;/a>&lt;/sup>. At the end of the day, when bookmakers set out their odds they will always make sure they are statistically in their favor. Even though bookmakers heavily analyze sports data in order to come up with prediction models, the odds put out don&amp;rsquo;t exactly reflect the true probability of a game outcome. Game prediction models is used to come up with the most probable event occurring but bookmakers add a margin that is skews the actual probability in order to statistically ensure a profit &lt;sup id="fnref:13">&lt;a href="#fn:13" class="footnote-ref" role="doc-noteref">13&lt;/a>&lt;/sup>. An example of a coin toss can show how these margins work &lt;sup id="fnref:13">&lt;a href="#fn:13" class="footnote-ref" role="doc-noteref">13&lt;/a>&lt;/sup>. If one were to bet on a coin toss, there is a 50 percent change of heads winning and a 50 percent change of tails winning so that means neither side is favored and the market of this bet is 100 percent. As a bookmaker is trying to ensure a profit, they will add a margin to the actual game winning probability in order to mitigate risk and ensure that the odds are in their favor. The margins that the bookmakers put on the actual probability is determined by many factors such as public opinion and perception of a team &lt;sup id="fnref:14">&lt;a href="#fn:14" class="footnote-ref" role="doc-noteref">14&lt;/a>&lt;/sup>. Gamblers are actually able to calculate the margins that the bookmakers put on a bet using a relatively simple formula. This formula varies for the type of sports the gambler is trying to calculate the odds for. In a two way market such as tennis or basketball, a person can figure out the bookmakers margin using the decimal odds places for both sides &lt;sup id="fnref:13">&lt;a href="#fn:13" class="footnote-ref" role="doc-noteref">13&lt;/a>&lt;/sup>. This formula is 100(1/decimal odds) + 1000(1/other decimal odds). The amount the market percentage is over 100 is the margin the bookmaker has on the better; therefore, the margin percentage the bookmaker has over the gambler can be determined by subtracting 100 from that formula.&lt;/p>
-&lt;h2 id="5-poisson-model">5. Poisson Model&lt;/h2>
-&lt;p>One of the most popular models for soccer game predictions is the Poisson distribution model. According to former odds compiler Matthew Trenhaile, the Poisson distribution model for soccer prediction can be very accurate and is very useful since it is easy to add time decay to the inputs &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>. Refinements can easily be made as a game progresses and goal input changes to easily re calculate the odds, which is useful for bookmakers. The Poisson distribution for soccer game predictions is not only used on a large scale by bookmakers to calculate odds, but it is also often used by even small time bettors to determine how they will bet. A Poisson model for soccer games can even be created on Excel for betters who want to place their bets more accurately. This process works by using historical data of how many goals a team scored and how many goals they let in and comparing it to a leagues average in order to determine the number of goals each team is likely to score in a game. It starts with calculating the average number of goals scored for home games and away games for the whole league and determining a team&amp;rsquo;s &amp;ldquo;attack strength&amp;rdquo; and &amp;ldquo;defense strength&amp;rdquo; &lt;sup id="fnref:15">&lt;a href="#fn:15" class="footnote-ref" role="doc-noteref">15&lt;/a>&lt;/sup>. The attack strength is a team&amp;rsquo;s average number of goals per game divided by the league average of goals per game. Similarly, a teams defense strength is determined by dividing a teams average number of goals conceded by the leagues average number of goals conceded. The goal expectancy for the home team is calculated by multiplying the team&amp;rsquo;s attack strength with the away team&amp;rsquo;s defense strength and the league&amp;rsquo;s average number of home goals. The goal expectancy for the away team is calculated by multiplying the away teams attack strength with the home teams defense strength and multiplying it by the leagues average number of away goals &lt;sup id="fnref:15">&lt;a href="#fn:15" class="footnote-ref" role="doc-noteref">15&lt;/a>&lt;/sup>. With this information, one can determine the probability for the range of goal outcomes on both sides using a formula created by the French mathematician Simeon Denis Poisson. The Poisson distribution indicates the probability of a given number of events occurring over a fixed interval, so it can be used to determine the probability of the number of goals scored in a soccer game. The formula for this for soccer prediction is P(x events in interval) = (e-μ) (μx) / x! . This formula determines the probability of the number of goals being scored (x) using Euler’s number (e) and the goal expectancy (μ). With this formula, we can see the probability each team has for scoring a number of goals in a game. Usually the distribution is done for 0-5 goals to see the percentages of each team scoring on the goal interval. This can be used by bookmakers to determine odds and by gamblers to make well educated bets.&lt;/p>
-&lt;h2 id="6-algorithms-and-prediction-models">6. Algorithms and prediction models&lt;/h2>
-&lt;p>Gamblers often use various models, driven by big data, in order to help them place more accurate bets. Many different models have been created in the sports field that use factors such as historical sports data in order to come up with game prediction models. A lot of people who have come up with good prediction models will not share how they work and sometimes offer a subscription service where eager gamblers can pay to receive game picks. When it comes to making the best sports betting algorithms, it isn&amp;rsquo;t just about the amount of data a person can acquire. Creating algorithms that predict well takes understanding the sport and the meaning behind each type of data. In regards to creating sports prediction algorithms and the data that goes behind it, Micheal Beuoy, an actuary and popular sports data analyst said, &amp;ldquo;I think it takes discipline combined with a solid understanding of the sport you’re trying to analyze. If you don’t understand the context behind your numbers, no amount of advanced analysis and complicated algorithms is going to help you make sense of them. You need discipline because it is very easy to lock in on a particular theory and only pay attention to the data points that confirm that theory. A good practice is to always set aside a portion of your data before you start analysing. Once you’ve built what you think is your &amp;ldquo;best&amp;rdquo; model or theory, you can then test it against this alternative dataset.&amp;rdquo; Creating sports prediction algorithms requires a lot of different types of analysis and the methods that yield the best results are always changing.&lt;/p>
-&lt;p>Creating good models requires understanding the sport well and using specific types of data in the algorithms. A creator of an NBA game prediction algorithm who runs a website called Fast Break Bets, which sells a game prediction service, primarily uses NBA game statistics known as efficiency metrics to come up with his model &lt;sup id="fnref:16">&lt;a href="#fn:16" class="footnote-ref" role="doc-noteref">16&lt;/a>&lt;/sup>. As the creator of the algorithm is profiting off eager gamblers, the exacts of how it works have not been released but the creator explains the type of data he uses to make his algorithm work. The NBA is a game of efficiency since there is a shot clock and possessions are changed very quickly, so the score total of games can greatly vary by how fast or slow paced a team is. The creator of this algorithm uses an offensive and defensive rating that measures how many points a team scores and allows per 100 possessions, since 100 possessions is close to the NBA average of possessions per game &lt;sup id="fnref:16">&lt;a href="#fn:16" class="footnote-ref" role="doc-noteref">16&lt;/a>&lt;/sup>. The algorithm also uses effective field goal percentage, turnover rate, and rebounding rate with offensive and defensive rating to optimize the efficiency metrics. Another major factor that this creator uses in the algorithm is the NBA season schedule and how often a team plays games in a time span &lt;sup id="fnref:16">&lt;a href="#fn:16" class="footnote-ref" role="doc-noteref">16&lt;/a>&lt;/sup>. This is due to the fact that players get fatigued playing games close to each other and coaches will therefore limit the amount of time some of the players will be on the court in order to give them a rest. This is important since player statistics can greatly vary from person to person on a team. Using this information of efficiency metrics, player performance, and the frequency of games played, the creator was able to create a prediction model that works well enough for people to pay for his game picks.&lt;/p>
-&lt;p>In research done by Manuel Silvero, he studied 5 famous algorithms that used Neural Network and Machine learning and concluded that their accuracy varies from 50-70 percent, depending on the sport &lt;sup id="fnref:17">&lt;a href="#fn:17" class="footnote-ref" role="doc-noteref">17&lt;/a>&lt;/sup>. Purucker in 1996 was one of the first computational sports prediction model and used an Artificial Neural Network with backward propagation &lt;sup id="fnref:18">&lt;a href="#fn:18" class="footnote-ref" role="doc-noteref">18&lt;/a>&lt;/sup>. It was 61 percent accurate. In 2003, Khan expanded Puruckers work and was more acurate. Data on 208 matches was collected and the elements used were total yardage differential, rushing yardage differential, turnover differential, away team indicator and home team indicator &lt;sup id="fnref:18">&lt;a href="#fn:18" class="footnote-ref" role="doc-noteref">18&lt;/a>&lt;/sup>. The first 192 matches of the season were used as the training data set for the model. When tested on the remaining games of the season, the models predicted at a 75 percent accuracy. This was compared to predictions created by 8 ESPN sportscasters for the same games and they only predicted 63 percent of those matches correctly.&lt;/p>
-&lt;p>One of the most accurate models created, in terms of receiving a good return on a bet, was created by Lisandro Kaunitz of the University of Tokyo, and relied on data from odds that bookmakers put out rather than historical game data &lt;sup id="fnref:12">&lt;a href="#fn:12" class="footnote-ref" role="doc-noteref">12&lt;/a>&lt;/sup>. When it comes to statistical models for sports, big data from historical sports games are often analyzed in order to come up with game predictions and to gain insight on things like team, player, and position performance. In the market of sports betting, these models are used to come up with odds and also by bettors to place bets. Gamblers have came up with different game prediction models in order to beat the books, mainly comprising of historical sports data while sometimes also using historical betting data &lt;sup id="fnref:12">&lt;a href="#fn:12" class="footnote-ref" role="doc-noteref">12&lt;/a>&lt;/sup>. Kaunitz created a model that mainly focused on analysing data of the odds created by bookmakers, rather than sports team data, to predict good bets to place. The basis of his model relied on a technique bookmakers use to reduce their payout risk, known as hedging. This concept and the way bookmakers use it to reduce their risk of payout is covered in section 3. Kaunitz betting model worked by gathering the odds for a game created by various bookmakers and determining the average odds available. Using statistical analysis of odds offered, Kaunitz was able to determine any outliers from the average odds for a game &lt;sup id="fnref:12">&lt;a href="#fn:12" class="footnote-ref" role="doc-noteref">12&lt;/a>&lt;/sup>. Using these outliers, Kaunitz could determine if a bet would favor them or not. After various simulations and models, Kaunitz&amp;rsquo;s and his team took their strategy into the real world, and their bets payed out 47.2 percent of the time. They received an 8.5 percent return and profited $957.50 in 265 bets &lt;sup id="fnref:12">&lt;a href="#fn:12" class="footnote-ref" role="doc-noteref">12&lt;/a>&lt;/sup>. Due to their impressive returns, bookmakers caught on and started to limit the amount that they could bet&lt;/p>
-&lt;h2 id="7-conclusion">7. Conclusion&lt;/h2>
-&lt;p>Overall, big data plays a very important role in the sports betting industry and it is used by various stakeholders. Bookmakers use it to come up with odds and gamblers use it for a competitive advantage. Although data analysis is very important on both ends, this research shows that it is very hard to receive a consistent return as a gambler. From 1989 to 2000 for NFl betting, the bookmakers favorite won 66.7 percent of the time and from 2001 and 2012, the bookmakers favorite won 66.9 percent of the time &lt;sup id="fnref:19">&lt;a href="#fn:19" class="footnote-ref" role="doc-noteref">19&lt;/a>&lt;/sup>. Even though technology has advanced and people use the most sophisticated algorithms to come up with prediction models, the bookmaker seems to have the advantage. This is due to the fact that bookmakers spend tons of money gathering the most accurate data and employ some of the best statisticians and sports analysing firms, but also due to the way they hedge bets and use public opinion to modify odds in order prevent potential losses. Bookmakers adjust for a margin when they are compiling their odds, because just like everything in the gambling industry, the probability is set up so that the house will always win in the long run. Gamblers have created various algorithms in order to make the most educated sports bet. These use historical team data but sometimes also use data from betting odds. Some of the best betting algorithms work by analyzing bookmakers' odds and determining where the odds are significantly different from the expected outcome of the game. As seen with Lisandro Kaunitz from the University of Tokyo, when bookmakers see that gamblers are beating the system they can start to limit a person&amp;rsquo;s bets. Overall, big data plays a huge role in the sports gambling industry. Even though what happens on the field or the court is often based on chance, there are significant trends that can be seen when statistically analyzing sports data. At the end of the day, big data plays a big role in this industry for bookmakers and gamblers alike.&lt;/p>
-&lt;h2 id="8-references">8. References&lt;/h2>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>INSIGHT: Sports Betting in States Races on a Year After SCOTUS Overturns Ban,&amp;quot; Bloomberg Law, 04-Jun-2019. [Online]. Available: &lt;a href="https://news.bloomberglaw.com/us-law-week/insight-sports-betting-in-states-races-on-a-year-after-scotus-overturns-ban">https://news.bloomberglaw.com/us-law-week/insight-sports-betting-in-states-races-on-a-year-after-scotus-overturns-ban&lt;/a>. &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>Research and Markets, &amp;ldquo;Global Sports Betting Market Worth $85 Billion in 2019 - Industry Assessment and Forecasts Throughout 2020-2025,&amp;rdquo; GlobeNewswire News Room, 31-Aug-2020. [Online]. Available: &lt;a href="https://www.globenewswire.com/news-release/2020/08/31/2086041/0/en/Global-Sports-Betting-Market-Worth-85-Billion-in-2019-Industry-Assessment-and-Forecasts-Throughout-2020-2025.html">https://www.globenewswire.com/news-release/2020/08/31/2086041/0/en/Global-Sports-Betting-Market-Worth-85-Billion-in-2019-Industry-Assessment-and-Forecasts-Throughout-2020-2025.html&lt;/a>. &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:3" role="doc-endnote">
-&lt;p>R. Delgado, &amp;ldquo;How Big Data is Changing the Gambling World: Articles: Chief Data Officer,&amp;rdquo; Articles | Chief Data Officer | Innovation Enterprise, 01-Sep-2016. [Online]. Available: &lt;a href="https://channels.theinnovationenterprise.com/articles/how-big-data-is-changing-the-gambling-world">https://channels.theinnovationenterprise.com/articles/how-big-data-is-changing-the-gambling-world&lt;/a>. [Accessed: 29-Nov-2020]. &lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:4" role="doc-endnote">
-&lt;p>J. Zalcman, &amp;ldquo;HOW TO CREATE A SPORTS BETTING ALGORITHM,&amp;rdquo; Oddsfactory, 16-Nov-2020. [Online]. Available: &lt;a href="https://theoddsfactory.com/how-to-create-a-sports-betting-algorithm/">https://theoddsfactory.com/how-to-create-a-sports-betting-algorithm/&lt;/a>. [Accessed: 2020]. &lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:5" role="doc-endnote">
-&lt;p>J. Bailey, &amp;ldquo;Applying Data Science to Sports Betting,&amp;rdquo; Medium, 18-Sep-2018. [Online]. Available: &lt;a href="https://medium.com/@jxbailey23/applying-data-science-to-sports-betting-1856ac0b2cab">https://medium.com/@jxbailey23/applying-data-science-to-sports-betting-1856ac0b2cab&lt;/a>. [Accessed: 2020]. &lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:6" role="doc-endnote">
-&lt;p>J. Bailey, &amp;ldquo;Jordan-Bailey/DSI_Capstone_Project,&amp;rdquo; DSI_Capstone_Project, 14-Sep-2018. [Online]. Available: &lt;a href="https://github.com/Jordan-Bailey/DSI_Capstone_Project/blob/master/Technical_Report.md">https://github.com/Jordan-Bailey/DSI_Capstone_Project/blob/master/Technical_Report.md&lt;/a>. [Accessed: 01-Dec-2020]. &lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:7" role="doc-endnote">
-&lt;p>M. Trenhaile, &amp;ldquo;How Bookmakers Create their Odds, from a Former Odds Compiler,&amp;rdquo; Medium, 29-Jun-2017. [Online]. Available: &lt;a href="https://medium.com/@TrademateSports/how-bookmakers-create-their-odds-from-a-former-odds-compiler-5b36b4937439">https://medium.com/@TrademateSports/how-bookmakers-create-their-odds-from-a-former-odds-compiler-5b36b4937439&lt;/a>. [Accessed: Nov-2020]. &lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:8" role="doc-endnote">
-&lt;p>K. J. Brooks, &amp;ldquo;The new game in town for pro sports leagues: Selling stats,&amp;rdquo; CBS News, 09-Jan-2020. [Online]. Available: &lt;a href="https://www.cbsnews.com/news/nba-nfl-sports-nascar-leagues-selling-stats-to-gambling-companies/">https://www.cbsnews.com/news/nba-nfl-sports-nascar-leagues-selling-stats-to-gambling-companies/&lt;/a>. [Accessed: 2020]. &lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:9" role="doc-endnote">
-&lt;p>C. Murphy, &amp;ldquo;NBA extends data partnerships with Sportradar and Genius Sports Group,&amp;rdquo; SBC Americas, 29-Oct-2020. [Online]. Available: &lt;a href="https://sbcamericas.com/2020/10/29/nba-extends-data-partnerships-with-sportradar-and-genius-sports-group/">https://sbcamericas.com/2020/10/29/nba-extends-data-partnerships-with-sportradar-and-genius-sports-group/&lt;/a>. [Accessed: 2020]. &lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:10" role="doc-endnote">
-&lt;p>&amp;ldquo;How Big Data Analytics Are Transforming the Global Gambling Industry,&amp;rdquo; Analytics Insight, 17-Jan-2020. [Online]. Available: &lt;a href="https://www.analyticsinsight.net/how-big-data-analytics-are-transforming-the-global-gambling-industry/">https://www.analyticsinsight.net/how-big-data-analytics-are-transforming-the-global-gambling-industry/&lt;/a>. [Accessed: Oct-2020]. &lt;a href="#fnref:10" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:11" role="doc-endnote">
-&lt;p>arXiv, &amp;ldquo;The Secret Betting Strategy That Beats Online Bookmakers,&amp;rdquo; MIT Technology Review, 19-Oct-2017. [Online]. Available: &lt;a href="https://www.technologyreview.com/2017/10/19/67760/the-secret-betting-strategy-that-beats-online-bookmakers/">https://www.technologyreview.com/2017/10/19/67760/the-secret-betting-strategy-that-beats-online-bookmakers/&lt;/a>. [Accessed: 2020]. &lt;a href="#fnref:11" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:12" role="doc-endnote">
-&lt;p>A. Dörr, &amp;ldquo;How to apply predictive analytics to Premiership football to beat the bookies,&amp;rdquo; Dataconomy, 19-Mar-2019. [Online]. Available: &lt;a href="https://dataconomy.com/2019/03/how-to-apply-predictive-analytics-to-premiership-football-to-beat-the-bookies%EF%BB%BF/">https://dataconomy.com/2019/03/how-to-apply-predictive-analytics-to-premiership-football-to-beat-the-bookies%EF%BB%BF/&lt;/a>. [Accessed: 2020]. &lt;a href="#fnref:12" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:13" role="doc-endnote">
-&lt;p>S. Hubbard, &amp;ldquo;Betting Margins Explained: How to Calculate Sports Margins,&amp;rdquo; BettingLounge, 24-Sep-2020. [Online]. Available: &lt;a href="https://bettinglounge.co.uk/guides/sports-betting-explained/betting-margins/">https://bettinglounge.co.uk/guides/sports-betting-explained/betting-margins/&lt;/a>. [Accessed: 2020]. &lt;a href="#fnref:13" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:14" role="doc-endnote">
-&lt;p>&amp;ldquo;Sportsbook Profit Margins,&amp;rdquo; Sports Insights, 18-Sep-2015. [Online]. Available: &lt;a href="https://www.sportsinsights.com/betting-tools/sportsbook-profit-margins/">https://www.sportsinsights.com/betting-tools/sportsbook-profit-margins/&lt;/a>. [Accessed: 2020]. &lt;a href="#fnref:14" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:15" role="doc-endnote">
-&lt;p>B. Cronin, &amp;ldquo;Poisson Distribution: Predict the score in soccer betting,&amp;rdquo; Pinnacle, 27-Apr-2017. [Online]. Available: &lt;a href="https://www.pinnacle.com/en/betting-articles/Soccer/how-to-calculate-poisson-distribution/MD62MLXUMKMXZ6A8">https://www.pinnacle.com/en/betting-articles/Soccer/how-to-calculate-poisson-distribution/MD62MLXUMKMXZ6A8&lt;/a>. [Accessed: 2020]. &lt;a href="#fnref:15" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:16" role="doc-endnote">
-&lt;p>Stephen, &amp;ldquo;NBA Betting Model Explained: Sports Betting Picks, Tips, and Blog,&amp;rdquo; FAST BREAK BETS, 11-Nov-2017. [Online]. Available: &lt;a href="https://www.fastbreakbets.com/nba-picks/nba-betting-model-explained/">https://www.fastbreakbets.com/nba-picks/nba-betting-model-explained/&lt;/a>. [Accessed: 05-Dec-2020]. &lt;a href="#fnref:16" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:17" role="doc-endnote">
-&lt;p>M. Silverio, &amp;ldquo;My findings on using machine learning for sports betting: Do bookmakers always win?,&amp;rdquo; Medium, 26-Aug-2020. [Online]. Available: &lt;a href="https://towardsdatascience.com/my-findings-on-using-machine-learning-for-sports-betting-do-bookmakers-always-win-6bc8684baa8c">https://towardsdatascience.com/my-findings-on-using-machine-learning-for-sports-betting-do-bookmakers-always-win-6bc8684baa8c&lt;/a>. [Accessed: 2020]. &lt;a href="#fnref:17" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:18" role="doc-endnote">
-&lt;p>R. P. Bunker and F. Thabtah, &amp;ldquo;A machine learning framework for sport result prediction,&amp;rdquo; Applied Computing and Informatics, 19-Sep-2017. [Online]. Available: &lt;a href="https://www.sciencedirect.com/science/article/pii/S2210832717301485">https://www.sciencedirect.com/science/article/pii/S2210832717301485&lt;/a>. [Accessed: 2020]. &lt;a href="#fnref:18" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:19" role="doc-endnote">
-&lt;p>M. Beouy, &amp;ldquo;BGO - The Casino of the Future,&amp;rdquo; bgo Online Casino. [Online]. Available: &amp;lt;https://www.bgo.com/casino-of-the-future/the-future-of-sports-betting/. [Accessed: 05-Dec-2020]&amp;gt;. &lt;a href="#fnref:19" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item></channel></rss>

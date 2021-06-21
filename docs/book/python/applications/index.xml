@@ -6,11 +6,11 @@
 &lt;/blockquote>
 &lt;p>![Warning&lt;/p>
 &lt;blockquote>
-&lt;h2 id="if-you-have-one-please-notify-us">Fingerprint data set. We unfortunately do not have a copy of the dataste.
+&lt;h2 id="if-you-have-one-please-notify-us">Fingerprint data set. We, unfortunately, do not have a copy of the dataset.
 If you have one, please notify us&lt;/h2>
 &lt;/blockquote>
 &lt;p>Python is a flexible and popular language for running data analysis
-pipelines. In this section we will implement a solution for a
+pipelines. In this section, we will implement a solution for
 fingerprint matching.&lt;/p>
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>Fingerprint recognition refers to the automated method for verifying a
@@ -22,7 +22,7 @@ used form of biometric used to identify individuals.&lt;/p>
 &lt;p>The automated fingerprint matching generally required the detection of
 different fingerprint features (aggregate characteristics of ridges, and
 minutia points) and then the use of fingerprint matching algorithm,
-which can do both one-to- one and one-to- many matching operations.
+which can do both one-to-one and one-to-many matching operations.
 Based on the number of matches a proximity score (distance or
 similarity) can be calculated.&lt;/p>
 &lt;p>We use the following NIST dataset for the study:&lt;/p>
@@ -34,12 +34,9 @@ report the match scores.&lt;/p>
 &lt;h2 id="prerequisites">Prerequisites&lt;/h2>
 &lt;p>For this work we will use the following algorithms:&lt;/p>
 &lt;ul>
-&lt;li>MINDTCT: The NIST minutiae detector, which automatically locates and
-records ridge ending and bifurcations in a fingerprint image.
+&lt;li>MINDTCT: The NIST minutiae detector, which automatically locates and records ridge ending and bifurcations in a fingerprint image.
 (&lt;a href="http://www.nist.gov/itl/iad/ig/nbis.cfm">http://www.nist.gov/itl/iad/ig/nbis.cfm&lt;/a>)&lt;/li>
-&lt;li>BOZORTH3: A NIST fingerprint matching algorithm, which is a minutiae
-based fingerprint-matching algorithm. It can do both one-to- one and
-one-to- many matching operations.
+&lt;li>BOZORTH3: A NIST fingerprint matching algorithm, which is a minutiae-based fingerprint-matching algorithm. It can do both one-to-one and one-to-many matching operations.
 (&lt;a href="http://www.nist.gov/itl/iad/ig/nbis.cfm">http://www.nist.gov/itl/iad/ig/nbis.cfm&lt;/a>)&lt;/li>
 &lt;/ul>
 &lt;p>In order to follow along, you must have the NBIS tools which provide
@@ -57,7 +54,7 @@ $ sudo make
 &lt;ol>
 &lt;li>Fetch the fingerprint images from the web&lt;/li>
 &lt;li>Call out to external programs to prepare and compute the match
-scoreds&lt;/li>
+scored&lt;/li>
 &lt;li>Store the results in a database&lt;/li>
 &lt;li>Generate a plot to identify likely matches.&lt;/li>
 &lt;/ol>
@@ -71,7 +68,7 @@ and their pathnames.&lt;/p>
 &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">sys&lt;/span>
 &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">shutil&lt;/span>
 &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">tempfile&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Some general usefull utilities&lt;/p>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Some general useful utilities&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">itertools&lt;/span>
 &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">functools&lt;/span>
 &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">types&lt;/span>
@@ -182,14 +179,14 @@ space-efficient.&lt;/p>
 &lt;h4 id="checksum">Checksum&lt;/h4>
 &lt;p>The checksum consists of the actual hash value (&lt;code>value&lt;/code>) as well as a
 string representing the hashing algorithm. The validator enforces that
-the algorith can only be one of the listed acceptable methods&lt;/p>
+the algorithm can only be one of the listed acceptable methods&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#5c35cc;font-weight:bold">@attr.s&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">slots&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#3465a4">True&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;span style="color:#204a87;font-weight:bold">class&lt;/span> &lt;span style="color:#000">Checksum&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87">object&lt;/span>&lt;span style="color:#000;font-weight:bold">):&lt;/span>
 &lt;span style="color:#000">value&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">attr&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">ib&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span>
 &lt;span style="color:#000">kind&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">attr&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">ib&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">validator&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#204a87;font-weight:bold">lambda&lt;/span> &lt;span style="color:#000">o&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">a&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">v&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000">v&lt;/span> &lt;span style="color:#204a87;font-weight:bold">in&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;md5 sha1 sha224 sha256 sha384 sha512&amp;#39;&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">split&lt;/span>&lt;span style="color:#000;font-weight:bold">())&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="path">Path&lt;/h4>
-&lt;p>&lt;code>Path&lt;/code>s refer to an image's filepath and associated &lt;code>Checksum&lt;/code>. We get
-the checksum &amp;quot;for &amp;quot;free&amp;quot; since the MD5 hash is provided for each
+&lt;p>&lt;code>Path refers to an image's file path and associated&lt;/code>Checksum`. We get
+the checksum &amp;ldquo;for&amp;quot;free&amp;rdquo; since the MD5 hash is provided for each
 image in the dataset.&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#5c35cc;font-weight:bold">@attr.s&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">slots&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#3465a4">True&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;span style="color:#204a87;font-weight:bold">class&lt;/span> &lt;span style="color:#000">Path&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87">object&lt;/span>&lt;span style="color:#000;font-weight:bold">):&lt;/span>
@@ -204,8 +201,8 @@ md5 hash) and the path to the image.&lt;/p>
 &lt;span style="color:#000">path&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">attr&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">ib&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="mindtct">Mindtct&lt;/h3>
 &lt;p>The next step in the pipeline is to apply the &lt;code>mindtct&lt;/code> program from
-NBIS. A &lt;code>mindtct&lt;/code> object therefore represents the results of applying
-&lt;code>mindtct&lt;/code> on an &lt;code>image&lt;/code>. The &lt;code>xyt&lt;/code> output is needed fo r the next step,
+NBIS. A &lt;code>mindtct&lt;/code> object, therefore, represents the results of applying
+&lt;code>mindtct&lt;/code> on an &lt;code>image&lt;/code>. The &lt;code>xyt&lt;/code> output is needed for the next step,
 and the &lt;code>image&lt;/code> attribute represents the image id.&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#5c35cc;font-weight:bold">@attr.s&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">slots&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#3465a4">True&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;span style="color:#204a87;font-weight:bold">class&lt;/span> &lt;span style="color:#000">mindtct&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87">object&lt;/span>&lt;span style="color:#000;font-weight:bold">):&lt;/span>
@@ -236,7 +233,7 @@ serialized.&lt;/p>
 &lt;p>The final step in the pipeline is running the &lt;code>bozorth3&lt;/code> from NBIS. The
 &lt;code>bozorth3&lt;/code> class represents the match being done: tracking the ids of
 the probe and gallery images as well as the match score.&lt;/p>
-&lt;p>Since we will be writing these instance out to a database, we provide
+&lt;p>Since we will be writing these instances out to a database, we provide
 some static methods for SQL statements. While there are many
 Object-Relational-Model (ORM) libraries available for Python, this
 approach keeps the current implementation simple.&lt;/p>
@@ -255,7 +252,7 @@ approach keeps the current implementation simple.&lt;/p>
 &lt;span style="color:#204a87;font-weight:bold">def&lt;/span> &lt;span style="color:#000">sql_prepared_stmt_insert_values&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#3465a4">self&lt;/span>&lt;span style="color:#000;font-weight:bold">):&lt;/span>
 &lt;span style="color:#204a87;font-weight:bold">return&lt;/span> &lt;span style="color:#3465a4">self&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">probe&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#3465a4">self&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">gallery&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#3465a4">self&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">score&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>In order to work well with &lt;code>multiprocessing&lt;/code>, we define a class
-representuing the input paramaters to &lt;code>bozorth3&lt;/code> and a helper function
+representing the input parameters to &lt;code>bozorth3&lt;/code> and a helper function
 to run &lt;code>bozorth3&lt;/code>. This way the pipeline definition can be kept simple
 to a &lt;code>map&lt;/code> to create the input and then a &lt;code>map&lt;/code> to run the program.&lt;/p>
 &lt;p>As NBIS &lt;code>bozorth3&lt;/code> can be called to compare one-to-one or one-to-many,
@@ -321,7 +318,7 @@ instance for each match 1. Make sure to clean up the temporary directory&lt;/li>
 &lt;span style="color:#204a87;font-weight:bold">finally&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>
 &lt;span style="color:#000">shutil&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">rmtree&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">tempdir&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="plotting">Plotting&lt;/h2>
-&lt;p>For plotting we will operate only on the database. we will select a small
+&lt;p>For plotting, we will operate only on the database. we will select a small
 number of probe images and plot the score between them and the rest of
 the gallery images.&lt;/p>
 &lt;p>The &lt;code>mk_short_labels&lt;/code> helper function will be defined next.&lt;/p>
@@ -342,7 +339,7 @@ the gallery images.&lt;/p>
 &lt;span style="color:#000">plt&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">xlabel&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;Gallery&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;span style="color:#000">plt&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">legend&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">bbox_to_anchor&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">0&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">0&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">1&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">-&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">0.2&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span>
 &lt;span style="color:#000">plt&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">show&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>The image ids are long hash strings. In ordere to minimize the amount of
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The image ids are long hash strings. In order to minimize the amount of
 space on the figure the labels occupy, we provide a helper function to
 create a short label that still uniquely identifies each probe image in
 the selected sample&lt;/p>
@@ -357,7 +354,7 @@ the selected sample&lt;/p>
 &lt;span style="color:#000">prefix&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;/tmp/fingerprint_example/&amp;#39;&lt;/span>
 &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#204a87;font-weight:bold">not&lt;/span> &lt;span style="color:#000">os&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">path&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">exists&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">prefix&lt;/span>&lt;span style="color:#000;font-weight:bold">):&lt;/span>
 &lt;span style="color:#000">os&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">makedirs&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">prefix&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Next we download and extract the fingerprint images from NIST:&lt;/p>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Next, we download and extract the fingerprint images from NIST:&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#ce5c00;font-weight:bold">%%&lt;/span>&lt;span style="color:#000">time&lt;/span>
 &lt;span style="color:#000">dataprefix&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">prepare_dataset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">prefix&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#000">prefix&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>Verifying checksum Extracting
@@ -365,7 +362,7 @@ the selected sample&lt;/p>
 to /tmp/fingerprint_example/ CPU times: user 3.34 s, sys: 645 ms,
 total: 3.99 s Wall time: 4.01 s
 &lt;/code>&lt;/pre>
-&lt;p>Next we will configure the location of of the MD5 checksum file that
+&lt;p>Next, we will configure the location of the MD5 checksum file that
 comes with the download&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">md5listpath&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">os&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">path&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">join&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">prefix&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;NISTSpecialDatabase4GrayScaleImagesofFIGS/sd04/sd04_md5.lst&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>Load the images from the downloaded files to start the analysis pipeline&lt;/p>
@@ -378,7 +375,7 @@ comes with the download&lt;/p>
 &lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>Loading images Done CPU times: user 187 ms, sys: 17 ms, total: 204 ms
 Wall time: 1min 21s
 &lt;/code>&lt;/pre>
-&lt;p>We can examine one of the loaded image. Note that &lt;code>image&lt;/code> is refers to
+&lt;p>We can examine one of the loaded images. Note that &lt;code>image&lt;/code> refers to
 the MD5 checksum that came with the image and the &lt;code>xyt&lt;/code> attribute
 represents the raw image data.&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">print&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">mindtcts&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">0&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">image&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
@@ -463,14 +460,14 @@ the last several years and models for them have improved along with
 Histograms of Oriented Gradients (HOG) for Human Detection [1]. OpenCV
 is a Computer Vision library including the SVM classifier and the HOG
 object detector for pedestrian detection and INRIA Person Dataset [2]
-is one of popular samples for both training and testing purposes. In
+is one of the popular samples for both training and testing purposes. In
 this document, we deploy Apache Spark on Mesos clusters to train and
 apply detection models from OpenCV using Python API.&lt;/p>
 &lt;h4 id="inria-person-dataset">INRIA Person Dataset&lt;/h4>
 &lt;p>This dataset contains positive and negative images for training and test
 purposes with annotation files for upright persons in each image. 288
 positive test images, 453 negative test images, 614 positive training
-images and 1218 negative training images are included along with
+images, and 1218 negative training images are included along with
 normalized 64x128 pixel formats. 970MB dataset is available to download
 [3].&lt;/p>
 &lt;h4 id="hog-with-svm-model">HOG with SVM model&lt;/h4>
@@ -487,10 +484,10 @@ There are reasons why we use Ansible:&lt;/p>
 any language&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Agentless: no setup required on managed node&lt;/p>
+&lt;p>Agentless: no setup required on a managed node&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Security: Allows deployment from user space; uses ssh for
+&lt;p>Security: Allows deployment from userspace; uses ssh for
 authentication&lt;/p>
 &lt;/li>
 &lt;li>
@@ -505,29 +502,29 @@ installing and configuring software&lt;/p>
 commands and variables to deploy software package independently&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Sharing and portability: roles are available from source (github,
-bitbucket, gitlab, etc) or the Ansible Galaxy portal&lt;/p>
+&lt;p>Sharing and portability: roles are available from the source (GitHub,
+bitbucket, GitLab, etc) or the Ansible Galaxy portal&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;p>We use Ansible roles to install software packages for Humand and Face
-Detection which requires to run OpenCV Python libraries on Apache Mesos
+&lt;p>We use Ansible roles to install software packages for Human and Face
+Detection which requires running OpenCV Python libraries on Apache Mesos
 with a cluster configuration. Dataset is also downloaded from the web
 using an ansible role.&lt;/p>
 &lt;h3 id="deployment-by-ansible">Deployment by Ansible&lt;/h3>
 &lt;p>Ansible is to deploy applications and build clusters for
 batch-processing large datasets towards target machines e.g. VM
-instances on OpenStack and we use ansible roles with &lt;em>include&lt;/em> directive
+instances on OpenStack and we use Ansible roles with &lt;em>include&lt;/em> directive
 to organize layers of big data software stacks (BDSS). Ansible provides
 abstractions by Playbook Roles and reusability by Include statements. We
 define X application in X Ansible Role, for example, and use include
 statements to combine with other applications e.g. Y or Z. The layers
-exist in sub directories (see next) to add modularity to your Ansible
+exist in subdirectories (see next) to add modularity to your Ansible
 deployment. For example, there are five roles used in this example that
 are Apache Mesos in a scheduler layer, Apache Spark in a processing
-layer, a OpenCV library in an application layer, INRIA Person Dataset in
-a dataset layer and a python script for human and face detection in an
+layer, an OpenCV library in an application layer, INRIA Person Dataset in
+a dataset layer, and a python script for human and face detection in an
 analytics layer. If you have an additional software package to add, you
-can simply add a new role in a main ansible playbook with &lt;em>include&lt;/em>
+can simply add a new role in the main Ansible playbook with &lt;em>include&lt;/em>
 directive. With this, your Ansible playbook maintains simple but
 flexible to add more roles without having a large single file which is
 getting difficult to read when it deploys more applications on multiple
@@ -548,7 +545,7 @@ digits in the filename indicate an order of roles to be run.&lt;/p>
 &lt;h3 id="cloudmesh-for-provisioning">Cloudmesh for Provisioning&lt;/h3>
 &lt;p>It is assumed that virtual machines are created by cloudmesh, the cloud
 management software. For example on OpenStack,&lt;/p>
-&lt;p>&lt;code>cm cluster create -N=6&lt;/code>&lt;/p>
+&lt;p>&lt;code>cm cluster create -N=6&lt;/code>&lt;/p>
 &lt;p>command starts a set of virtual machine instances. The number of
 machines and groups for clusters e.g. namenodes and datanodes are
 defined in the Ansible inventory file, a list of target machines with
@@ -569,7 +566,7 @@ node in the cluster. Either way, Spark is installed later to detect a
 master (leader) host for a job submission. Other roles for OpenCV, INRIA
 Person Dataset and Human and Face Detection Python applications are
 followed by.&lt;/p>
-&lt;p>The following software are expected in the stacks according to the
+&lt;p>The following software is expected in the stacks according to the
 &lt;a href="https://github.com/futuresystems/pedestrian-and-face-detection">github&lt;/a>:&lt;/p>
 &lt;ul>
 &lt;li>
@@ -627,7 +624,7 @@ part can be completed.&lt;/p>
 &lt;p>The following commands complete NIST Pedestrian and Face Detection
 deployment on OpenStack.&lt;/p>
 &lt;h4 id="cloning-pedestrian-detection-repository-from-github">Cloning Pedestrian Detection Repository from Github&lt;/h4>
-&lt;p>Roles are included as submodules which require &lt;code>--recursive&lt;/code> option to
+&lt;p>Roles are included as submodules that require &lt;code>--recursive&lt;/code> option to
 checkout them all.&lt;/p>
 &lt;pre>&lt;code>$ git clone --recursive https://github.com/futuresystems/pedestrian-and-face-detection.git
 &lt;/code>&lt;/pre>
@@ -641,7 +638,7 @@ checkout them all.&lt;/p>
 10.0.5.71
 10.0.5.72&amp;quot;&amp;quot;&amp;quot;
 &lt;/code>&lt;/pre>
-&lt;p>Create a &lt;code>inventory.txt&lt;/code> file with the variable in your local directory.&lt;/p>
+&lt;p>Create an &lt;code>inventory.txt&lt;/code> file with the variable in your local directory.&lt;/p>
 &lt;pre>&lt;code>!printf &amp;quot;$sample_inventory&amp;quot; &amp;gt; inventory.txt
 !cat inventory.txt
 &lt;/code>&lt;/pre>
@@ -659,7 +656,7 @@ remote_user=ubuntu&amp;quot;&amp;quot;&amp;quot;
 &lt;p>Make sure that you have a correct ssh key in your account otherwise you
 may encounter &amp;lsquo;FAILURE&amp;rsquo; in the previous ping test.&lt;/p>
 &lt;h4 id="ansible-playbook">Ansible Playbook&lt;/h4>
-&lt;p>We use a main ansible playbook to deploy software packages for NIST
+&lt;p>We use a main Ansible playbook to deploy software packages for NIST
 Pedestrian and Face detection which includes: - mesos - spark -zookeeper&lt;/p>
 &lt;ul>
 &lt;li>
@@ -730,7 +727,7 @@ found&lt;/p>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/facedetection/images/facedetection_49_0.png" alt="Figure 6: Masked image">&lt;/p>
 &lt;p>Figure 6: Masked image&lt;/p>
 &lt;p>The red color mailbox is left alone in the image which we wanted to find
-in this example by opencv functions. You can try other images with
+in this example by OpenCV functions. You can try other images with
 different colors to detect the different shape of objects using
 findContours and inRange from opencv.&lt;/p>
 &lt;p>For more information, see the next useful links.&lt;/p>
@@ -894,14 +891,14 @@ image processing in parallel. We load 288 images from &amp;ldquo;Test/pos&amp;rd
 directory.&lt;/p>
 &lt;p>Spark provides a special object &amp;lsquo;sc&amp;rsquo; to connect between a spark cluster
 and functions in python code. Therefore, we can run python functions in
-parallel to detet objects in this example.&lt;/p>
+parallel to detect objects in this example.&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;p>&lt;em>map&lt;/em> function is used to process pedestrian and face detection per
 image from the parallelize() function of &amp;lsquo;sc&amp;rsquo; spark context.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;em>collect&lt;/em> fonction merges results in an array.&lt;/p>
+&lt;p>&lt;em>collect&lt;/em> function merges results in an array.&lt;/p>
 &lt;p>def apply_batch(imagePath):
 import cv2
 import numpy as np
@@ -928,7 +925,7 @@ function to process in a spark cluster.&lt;/p>
 &lt;pre>&lt;code>pdc = pd.map(apply_batch)
 &lt;/code>&lt;/pre>
 &lt;h4 id="collect-function">Collect Function&lt;/h4>
-&lt;p>The result of each map process is merged to an array.&lt;/p>
+&lt;p>The result of each map process is merged into an array.&lt;/p>
 &lt;pre>&lt;code>result = pdc.collect()
 &lt;/code>&lt;/pre>
 &lt;h3 id="results-for-100-images-by-spark-cluster">Results for 100+ images by Spark Cluster&lt;/h3>

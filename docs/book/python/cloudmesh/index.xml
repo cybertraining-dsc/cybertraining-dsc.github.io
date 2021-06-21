@@ -12,19 +12,19 @@ benchmark management&lt;/li>
 &lt;li>Cloudmesh inventory&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;p>In this Chapter we like to introduce you to cloudmesh which provides you
+&lt;p>In this chapter, we like to introduce you to cloudmesh which provides you
 with a number of convenient methods to interface with the local system,
 but also with cloud services. We will start while focussing on some
-simple API&amp;rsquo;s and than gradually introduce the cloudmesh shell which not
-only provides a shell, but also a commandline interface so you can use
+simple APIs and then gradually introduce the cloudmesh shell which not
+only provides a shell but also a command line interface so you can use
 cloudmesh from a terminal. This dual ability is quite useful as we can
 write cloudmesh scripts, but can also invoke the functionality from the
-terminal. This is quite an important distinction towards other tools
-that only allow commandline interfaces.&lt;/p>
-&lt;p>Moreover we also show you that it is easy to create new commands and add
+terminal. This is quite an important distinction from other tools
+that only allow command line interfaces.&lt;/p>
+&lt;p>Moreover, we also show you that it is easy to create new commands and add
 them dynamically to the cloudmesh shell via simple pip installs.&lt;/p>
 &lt;p>Cloudmesh is an evolving project and you have the opportunity to improve
-it if you see some features missing.&lt;/p>
+if you see some features missing.&lt;/p>
 &lt;p>The manual of cloudmesh can be found at&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://cloudmesh.github.io/cloudmesh-manual">https://cloudmesh.github.io/cloudmesh-manual&lt;/a>&lt;/li>
@@ -40,12 +40,12 @@ by a user. However you are not a user, you are a developer. Cloudmesh is
 distributed in different topical repositories and in order for
 developers to easily interact with them we have written a convenient
 &lt;code>cloudmesh-installer&lt;/code> program.&lt;/p>
-&lt;p>As a developer you must also use a python virtual environment to avoid
-affecting your system wide python installation. This can be achieved while
-using Python3 from python.org or via conda. We do recommend that you use
+&lt;p>As a developer, you must also use a python virtual environment to avoid
+affecting your system-wide Python installation. This can be achieved while
+using Python3 from python.org or via conda. However, we do recommend that you use
 python.org as this is the vanilla python that most developers in the
-world use. Conda is often used by users of python if they not need to
-use bleeding-edge but older prepackaged python tools and libraries.&lt;/p>
+world use. Conda is often used by users of Python if they do not need to
+use bleeding-edge but older prepackaged Python tools and libraries.&lt;/p>
 &lt;h2 id="prerequisite">Prerequisite&lt;/h2>
 &lt;p>We require you to create a python virtual environment and activate it.
 How to do this was discussed in sec. &lt;strong>¿sec:python-install?&lt;/strong>. Please create the
@@ -64,7 +64,7 @@ python virtual env as discussed previously. If not you may impact your
 system negatively. Please note that we are not responsible for fixing
 your computer. Naturally, you can also use a virtual machine, if you prefer.
 It is also important that we create a uniform development environment. In
-our case we create an empty directory called &lt;code>cm&lt;/code> in which we place the
+our case, we create an empty directory called &lt;code>cm&lt;/code> in which we place the
 bundle.&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ mkdir cm
 $ &lt;span style="color:#204a87">cd&lt;/span> cm
@@ -72,7 +72,7 @@ $ pip install cloudmesh-installer
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>To see the bundle you can use&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ cloudmesh-installer bundles
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>We will start with the basic cloudmesh functionality at this time and
-only install the shell and some common API&amp;rsquo;s.&lt;/p>
+only install the shell and some common APIs.&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ cloudmesh-installer git clone cms
 $ cloudmesh-installer install cms
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>These commands download and install cloudmesh shell into your
@@ -85,8 +85,8 @@ wrong.&lt;/p>
 &lt;p>For more information, please visit our
 &lt;a href="https://cloudmesh.github.io/cloudmesh-manual/installation/install.html#source-installation-for-developers">Installation Instructions for Developers&lt;/a>&lt;/p></description></item><item><title>Docs: Output</title><link>/docs/book/python/cloudmesh/console/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/book/python/cloudmesh/console/</guid><description>
 &lt;p>Gregor von Laszewski (&lt;a href="mailto:laszewski@gmail.com">laszewski@gmail.com&lt;/a>)&lt;/p>
-&lt;p>Cloudmesh provides a number of convenient API&amp;rsquo;s to make output easier
-or more fancyful.&lt;/p>
+&lt;p>Cloudmesh provides a number of convenient API&amp;rsquo;s to make the output easier
+or more fanciful.&lt;/p>
 &lt;p>These API&amp;rsquo;s include&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html#module-cloudmesh.common.console">Console&lt;/a>&lt;/li>
@@ -97,7 +97,7 @@ or more fancyful.&lt;/p>
 &lt;h2 id="console">Console&lt;/h2>
 &lt;p>Print is the usual function to output to the terminal. However, often we
 like to have colored output that helps us in the notification to the
-user. For this reason we have a simple &lt;code>Console&lt;/code> class that has several
+user. For this reason, we have a simple &lt;code>Console&lt;/code> class that has several
 built-in features. You can even switch and define your own color
 schemes.&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">cloudmesh.common.console&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">Console&lt;/span>
@@ -108,8 +108,8 @@ schemes.&lt;/p>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>In case of the error message we also have convenient flags that allow us
 to include the traceback in the output.&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">Console&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">error&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">msg&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">prefix&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#3465a4">True&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">traceflag&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#3465a4">True&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>The prefix can be switched on and off with the prefix flag, while the
-traceflag switches on and of if the trace should be set.&lt;/p>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The prefix can be switched on and off with the &lt;code>prefix&lt;/code> flag, while the
+&lt;code>traceflag&lt;/code> switches on and of if the trace should be set.&lt;/p>
 &lt;p>The verbosity of the output is controlled via variables that are stored
 in the &lt;code>~/.cloudmesh&lt;/code> directory.&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">cloudmesh.common.variables&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">Variables&lt;/span>
@@ -124,7 +124,7 @@ in the &lt;code>~/.cloudmesh&lt;/code> directory.&lt;/p>
 &lt;span style="color:#000">banner&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;my text&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>For more features, see API: &lt;a href="https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html?highlight=banner#cloudmesh.common.util.banner">Banner&lt;/a>&lt;/p>
 &lt;h2 id="heading">Heading&lt;/h2>
-&lt;p>A particular useful function is &lt;code>HEADING()&lt;/code> which prints the method name.&lt;/p>
+&lt;p>A particularly useful function is &lt;code>HEADING()&lt;/code> which prints the method name.&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">cloudmesh.common.util&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">HEADING&lt;/span>
 &lt;span style="color:#204a87;font-weight:bold">class&lt;/span> &lt;span style="color:#000">Example&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87">object&lt;/span>&lt;span style="color:#000;font-weight:bold">):&lt;/span>
 &lt;span style="color:#204a87;font-weight:bold">def&lt;/span> &lt;span style="color:#000">doit&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#3465a4">self&lt;/span>&lt;span style="color:#000;font-weight:bold">):&lt;/span>
@@ -142,13 +142,13 @@ you with the information in which file it is used and which line
 number. It will even print the name of the &lt;code>dict&lt;/code> that you use in your
 code.&lt;/p>
 &lt;p>To use this you will have to enable the debugging methods for
-cloudmesh as discused in sec. 1.1&lt;/p>
+cloudmesh as discussed in sec. 1.1&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">cloudmesh.common.debug&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">VERBOSE&lt;/span>
 &lt;span style="color:#000">m&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;key&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;value&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
 &lt;span style="color:#000">VERBOSE&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">m&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>For more features, please see &lt;a href="https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html?highlight=verbose#cloudmesh.common.debug.VERBOSE">VERBOSE&lt;/a>&lt;/p>
 &lt;h2 id="using-print-and-pprint">Using print and pprint&lt;/h2>
-&lt;p>In many cases it may be sufficient to use &lt;code>print&lt;/code> and &lt;code>pprint&lt;/code> for
+&lt;p>In many cases, it may be sufficient to use &lt;code>print&lt;/code> and &lt;code>pprint&lt;/code> for
 debugging. However, as the code is big and you may forget where you placed
 print statements or the print statements may have been added by others, we
 recommend that you use the VERBOSE function. If you use &lt;code>print&lt;/code> or &lt;code>pprint&lt;/code>
@@ -163,7 +163,7 @@ we recommend using a unique prefix, such as:&lt;/p>
 &lt;p>Gregor von Laszewski (&lt;a href="mailto:laszewski@gmail.com">laszewski@gmail.com&lt;/a>)&lt;/p>
 &lt;h2 id="dotdict">Dotdict&lt;/h2>
 &lt;p>For simple dictionaries we sometimes like to simplify the notation with a &lt;code>.&lt;/code> instead of using the &lt;code>[]&lt;/code>:&lt;/p>
-&lt;p>You can achieve this with dotdict&lt;/p>
+&lt;p>You can achieve this with &lt;code>dotdict&lt;/code>&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">cloudmesh.common.dotdict&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">dotdict&lt;/span>
 &lt;span style="color:#000">data&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
 &lt;span style="color:#4e9a06">&amp;#34;name&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;Gregor&amp;#34;&lt;/span>
@@ -173,7 +173,7 @@ we recommend using a unique prefix, such as:&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">data&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;name&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>or&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">data&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">name&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>This is espacially useful in if conditions as it may be easier to read and write&lt;/p>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>This is especially useful in if conditions as it may be easier to read and write&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000">data&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">name&lt;/span> &lt;span style="color:#204a87;font-weight:bold">is&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;Gregor&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>
 &lt;span style="color:#204a87;font-weight:bold">print&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;this is quite readable&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>and is the same as&lt;/p>
@@ -181,8 +181,8 @@ we recommend using a unique prefix, such as:&lt;/p>
 &lt;span style="color:#204a87;font-weight:bold">print&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;this is quite readable&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>For more features, see API: &lt;a href="https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html?highlight=dotdict#module-cloudmesh.common.dotdict">dotdict&lt;/a>&lt;/p>
 &lt;h2 id="flatdict">FlatDict&lt;/h2>
-&lt;p>In some cases it is useful to be able to flatten out dictionaries that
-contain dicts within dicts. For this we can use &lt;code>FlatDict&lt;/code>.&lt;/p>
+&lt;p>In some cases, it is useful to be able to flatten out dictionaries that
+contain dicts within dicts. For this, we can use &lt;code>FlatDict&lt;/code>.&lt;/p>
 &lt;pre>&lt;code>from cloudmesh.common.Flatdict import FlatDict
 data = {
 &amp;quot;name&amp;quot;: &amp;quot;Gregor&amp;quot;,
@@ -238,9 +238,9 @@ and uses the appropriate internal function.&lt;/p>
 &lt;p>More examples are available in the source code as &lt;a href="https://github.com/cloudmesh/cloudmesh-common/tree/master/tests">tests&lt;/a>&lt;/p></description></item><item><title>Docs: Shell</title><link>/docs/book/python/cloudmesh/shell/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/book/python/cloudmesh/shell/</guid><description>
 &lt;p>Gregor von Laszewski (&lt;a href="mailto:laszewski@gmail.com">laszewski@gmail.com&lt;/a>)&lt;/p>
 &lt;p>Python provides a sophisticated method for starting background processes.
-However in many cases it is quite complex to interact with it. It also
+However, in many cases, it is quite complex to interact with it. It also
 does not provide convenient wrappers that we can use to start them in a
-pythonic fashion. For this reason we have written a primitive &lt;code>Shell&lt;/code>
+pythonic fashion. For this reason, we have written a primitive &lt;code>Shell&lt;/code>
 class that provides just enough functionality to be useful in many
 cases.&lt;/p>
 &lt;p>Let us review some examples where &lt;code>result&lt;/code> is set to the
@@ -259,10 +259,10 @@ output of the command being executed.&lt;/p>
 &lt;span style="color:#204a87;font-weight:bold">print&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">result&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;span style="color:#000">result&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">Shell&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">pwd&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span>
 &lt;span style="color:#204a87;font-weight:bold">print&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">result&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>The list includes (naturally the commands must be available on your OS.
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The list includes (naturally the commands that must be available on your OS.
 If the shell command is not available on your OS, please help us
 improving the code to either provide functions that work on your OS or
-develop with us platform independent functionality of a subset of the
+develop with us platform-independent functionality of a subset of the
 functionality for the shell command that we may benefit from.&lt;/p>
 &lt;ul>
 &lt;li>&lt;code>VBoxManage(cls, *args)&lt;/code>&lt;/li>
@@ -322,7 +322,7 @@ functionality for the shell command that we may benefit from.&lt;/p>
 &lt;p>Gregor von Laszewski (&lt;a href="mailto:laszewski@gmail.com">laszewski@gmail.com&lt;/a>)&lt;/p>
 &lt;p>Often you find yourself in a situation where you like to measure the
 time between two events. We provide a simple &lt;code>StopWatch&lt;/code> that allows
-you not only to measure a number of times, but also to print them out in
+you not only to measure a number of times but also to print them out in
 a convenient format.&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">cloudmesh.common.StopWatch&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">StopWatch&lt;/span>
 &lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">time&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">sleep&lt;/span>
@@ -330,30 +330,30 @@ a convenient format.&lt;/p>
 &lt;span style="color:#000">sleep&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">1&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;span style="color:#000">StopWatch&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">stop&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;test&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;span style="color:#204a87;font-weight:bold">print&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">StopWatch&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">get&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;test&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>To print them, you can also use:&lt;/p>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>To print, you can simply also use:&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">StopWatch&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">benchmark&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>For more features, please seee &lt;a href="https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html?highlight=stopwatch#module-cloudmesh.common.StopWatch">StopWatch&lt;/a>&lt;/p></description></item><item><title>Docs: Cloudmesh Command Shell</title><link>/docs/book/python/cloudmesh/python-cmd5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/book/python/cloudmesh/python-cmd5/</guid><description>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>For more features, please see &lt;a href="https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html?highlight=stopwatch#module-cloudmesh.common.StopWatch">StopWatch&lt;/a>&lt;/p></description></item><item><title>Docs: Cloudmesh Command Shell</title><link>/docs/book/python/cloudmesh/python-cmd5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/book/python/cloudmesh/python-cmd5/</guid><description>
 &lt;p>Gregor von Laszewski (&lt;a href="mailto:laszewski@gmail.com">laszewski@gmail.com&lt;/a>)&lt;/p>
 &lt;h2 id="cmd5">CMD5&lt;/h2>
 &lt;p>Python&amp;rsquo;s CMD (&lt;a href="https://docs.python.org/2/library/cmd.html">https://docs.python.org/2/library/cmd.html&lt;/a>) is a very
-useful package to create command line shells. However it does not allow
+useful package to create command line shells. However, it does not allow
 the dynamic integration of newly defined commands. Furthermore,
 additions to CMD need to be done within the same source tree. To
 simplify developing commands by a number of people and to have a dynamic
-plugin mechanism, we developed cmd5. It is a rewrite on our earlier
+plugin mechanism, we developed cmd5. It is a rewrite of our earlier
 efforts in cloudmesh client and cmd3.&lt;/p>
 &lt;h3 id="resources">Resources&lt;/h3>
-&lt;p>The source code for cmd5 is located in github:&lt;/p>
+&lt;p>The source code for cmd5 is located in GitHub:&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/cloudmesh/cmd5">https://github.com/cloudmesh/cmd5&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>We have discussed in sec. &lt;strong>¿sec:cloudmesh-cms-install?&lt;/strong> how to install cloudmesh
-as developer and have access to the source code in a directory called
+as a developer and have access to the source code in a directory called
 &lt;code>cm&lt;/code>. As you read this document we assume you are a developer and can
 skip the next section.&lt;/p>
 &lt;h3 id="installation-from-source">Installation from source&lt;/h3>
 &lt;p>WARNING: DO NOT EXECUTE THIS IF YOU ARE A DEVELOPER OR YOUR ENVIRONMENT
-WILL NOT PROPERLY WORK. YOU LIKELY HAVE ALREAD INSTALLED CMD5 IF YOU
+WILL NOT PROPERLY WORK. YOU LIKELY HAVE ALREADY INSTALLED CMD5 IF YOU
 USED THE CLOUDMESH INSTALLER.&lt;/p>
 &lt;p>However, if you are a user of cloudmesh you can install it with&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ pip install cloudmesh-cmd5
@@ -381,8 +381,8 @@ cms&amp;gt;
 &lt;/code>&lt;/pre>
 &lt;h3 id="create-your-own-extension">Create your own Extension&lt;/h3>
 &lt;p>One of the most important features of CMD5 is its ability to extend it
-with new commands. This is done via packaged name spaces. We recommend
-you name is cloudmesh-mycommand, where mycommand is the name of the
+with new commands. This is done via packaged namespaces. We recommend
+you name it cloudmesh-mycommand, where mycommand is the name of the
 command that you like to create. This can easily be done while using the
 sys* cloudmesh command (we suggest you use a different name than
 &lt;code>gregor&lt;/code> maybe your firstname):&lt;/p>
@@ -394,11 +394,10 @@ All you have to do is to &lt;code>cd&lt;/code> into the directory and install th
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ &lt;span style="color:#204a87">cd&lt;/span> cloudmesh-gregor
 $ python setup.py install
 &lt;span style="color:#8f5902;font-style:italic"># pip install .&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Adding your own command is easy. It is important that all objects are
-defined in the command itself and that no global variables be use in
-order to allow each shell command to stand alone. Naturally you should
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Adding your command is easy. It is important that all objects are
+defined in the command itself and that no global variables be used to allow each shell command to stand alone. Naturally, you should
 develop API libraries outside of the cloudmesh shell command and reuse
-them in order to keep the command code as small as possible. We place
+them to keep the command code as small as possible. We place
 the command in:&lt;/p>
 &lt;pre>&lt;code>cloudmsesh/mycommand/command/gregor.py
 &lt;/code>&lt;/pre>
@@ -431,7 +430,7 @@ the manual page. This allows us to use arguments as dict and use simple
 if conditions to interpret the command. Using &lt;code>docopts&lt;/code> has the advantage
 that contributors are forced to think about the command and its options
 and document them from the start. Previously we did not use but argparse
-and click. However we noticed that for our contributors both systems
+and click. However, we noticed that for our contributors both systems
 lead to commands that were either not properly documented or the
 developers delivered ambiguous commands that resulted in confusion and
 wrong usage by subsequent users. Hence, we do recommend that you use
@@ -443,21 +442,20 @@ while reducing the effort it takes to contribute new commands in a
 dynamic fashion.&lt;/p>
 &lt;h3 id="bug-quotes">Bug: Quotes&lt;/h3>
 &lt;p>We have one bug in cmd5 that relates to the use of quotes on the commandline&lt;/p>
-&lt;p>For example you need to say&lt;/p>
+&lt;p>For example, you need to say&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ cms gregor -f &lt;span style="color:#4e9a06">\&amp;#34;&lt;/span>file name with spaces&lt;span style="color:#4e9a06">\&amp;#34;&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>If you like to help us fix this that would be great. it requires the use
-of &lt;a href="https://docs.python.org/3/library/shlex.html">shlex&lt;/a>. Unfortuantly
+of &lt;a href="https://docs.python.org/3/library/shlex.html">shlex&lt;/a>. Unfortunately,
 we did not yet time to fix this &amp;ldquo;feature.&amp;rdquo;&lt;/p></description></item><item><title>Docs: Exercises</title><link>/docs/book/python/cloudmesh/exercises/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/book/python/cloudmesh/exercises/</guid><description>
 &lt;p>Gregor von Laszewski (&lt;a href="mailto:laszewski@gmail.com">laszewski@gmail.com&lt;/a>)&lt;/p>
 &lt;p>When doing your assignment, make sure you label the programs
 appropriately with comments that clearly identify the assignment.
-Place all assignments in a folder on github named &amp;ldquo;cloudmesh-exercises&amp;rdquo;&lt;/p>
-&lt;p>For example name the program solving E.Cloudmesh.Common.1
+Place all assignments in a folder on GitHub named &amp;ldquo;cloudmesh-exercises&amp;rdquo;&lt;/p>
+&lt;p>For example, name the program solving E.Cloudmesh.Common.1
 &lt;code>e-cloudmesh-1.py&lt;/code> and so on. For more complex assignments you can name
 them as you like, as long as in the file you have a comment such as&lt;/p>
 &lt;p>&lt;code># fa19-516-000 E.Cloudmesh.Common.1&lt;/code>&lt;/p>
-&lt;p>at the beginning of the file. Please &lt;strong>do not store&lt;/strong> any screenshots in
-your git repository of your working program.&lt;/p>
+&lt;p>at the beginning of the file. Please &lt;strong>do not store&lt;/strong> any screenshots in your GitHub repository of your working program.&lt;/p>
 &lt;h2 id="cloudmesh-common">Cloudmesh Common&lt;/h2>
 &lt;p>E.Cloudmesh.Common.1&lt;/p>
 &lt;blockquote>

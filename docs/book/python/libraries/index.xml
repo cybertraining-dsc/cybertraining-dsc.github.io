@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – Libraries</title><link>/docs/book/python/libraries/</link><description>Recent content in Libraries on Cybertraining</description><generator>Hugo -- gohugo.io</generator><atom:link href="/docs/book/python/libraries/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Python Modules</title><link>/docs/book/python/libraries/python-libraries/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/book/python/libraries/python-libraries/</guid><description>
 &lt;p>Gregor von Laszewski (&lt;a href="mailto:laszewski@gmail.com">laszewski@gmail.com&lt;/a>)&lt;/p>
 &lt;p>Often you may need functionality that is not present in Python&amp;rsquo;s
-standard library. In this case you have two option:&lt;/p>
+standard library. In this case, you have two option:&lt;/p>
 &lt;ul>
 &lt;li>implement the features yourself&lt;/li>
 &lt;li>use a third-party library that has the desired features.&lt;/li>
@@ -11,43 +11,33 @@ this is a common situation, there is a service supporting it: the
 &lt;a href="https://pypi.python.org/pypi">Python Package Index&lt;/a> (or PyPi for
 short).&lt;/p>
 &lt;p>Our task here is to install the &lt;a href="">autopep8&lt;/a> tool from PyPi. This will
-allow us to illustrate the use if virtual environments using the pyenv
-or virtualenv command, and installing and uninstalling PyPi packages
+allow us to illustrate the use of virtual environments using the &lt;code>venv&lt;/code> and installing and uninstalling PyPi packages
 using pip.&lt;/p>
 &lt;h2 id="updating-pip">Updating Pip&lt;/h2>
-&lt;p>It is important that you have the newest version of pip installed for your
+&lt;p>You must have the newest version of pip installed for your
 version of python. Let us assume your python is registered with python and
-you use pyenv, than you can update
+you use venv, than you can update
 pip with&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">pip install -U pip
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>without interfering with a potential system wide installed version of p
-ip that may be needed by the system default version of python. See the
-section about pyenv for more details&lt;/p>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>without interfering with a potential system-wide installed version of pip that may be needed by the system default version of python. See
+the section about venv for more details&lt;/p>
 &lt;h2 id="using-pip-to-install-packages">Using pip to Install Packages&lt;/h2>
 &lt;p>Let us now look at another important tool for Python development: the
 Python Package Index, or PyPI for short. PyPI provides a large set of
-third-party python packages. If you want to do something in python,
-first check pypi, as odd are someone already ran into the problem and
-created a package solving it.&lt;/p>
-&lt;p>In order to install package from PyPI, use the pip command. We can
+third-party Python packages.&lt;/p>
+&lt;p>To install a package from PyPI, use the pip command. We can
 search for PyPI for packages:&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ pip search --trusted-host pypi.python.org autopep8 pylint
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>It appears that the top two results are what we want so install them:&lt;/p>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>It appears that the top two results are what we want, thus install them:&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ pip install --trusted-host pypi.python.org autopep8 pylint
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>This will cause pip to download the packages from PyPI, extract them,
 check their dependencies and install those as needed, then install the
 requested packages.&lt;/p>
-&lt;dl>
-&lt;dt>You can skip &amp;lsquo;&amp;ndash;trusted-host pypi.python.org&amp;rsquo; option if you have&lt;/dt>
-&lt;dd>
-&lt;p>patched urllib3 on Python 2.7.9.&lt;/p>
-&lt;/dd>
-&lt;/dl>
 &lt;h2 id="gui">GUI&lt;/h2>
 &lt;h3 id="guizero">GUIZero&lt;/h3>
-&lt;p>Install guizero with the following command:&lt;/p>
+&lt;p>Install &lt;code>guizero&lt;/code> with the following command:&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">sudo pip install guizero
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>For a comprehensive tutorial on guizero, &lt;a href="https://lawsie.github.io/guizero/howto/">click
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>For a comprehensive tutorial on &lt;code>guizero&lt;/code>, &lt;a href="https://lawsie.github.io/guizero/howto/">click
 here&lt;/a>.&lt;/p>
 &lt;h3 id="kivy">Kivy&lt;/h3>
 &lt;p>You can install Kivy on macOS as follows:&lt;/p>
@@ -56,7 +46,7 @@ pip install -U Cython
 pip install kivy
 pip install pygame
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>A hello world program for kivy is included in the cloudmesh.robot
-repository. Which you can fine here&lt;/p>
+repository. Which you can find here&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/cloudmesh/cloudmesh.robot/tree/master/projects/kivy">https://github.com/cloudmesh/cloudmesh.robot/tree/master/projects/kivy&lt;/a>&lt;/li>
 &lt;/ul>
@@ -64,7 +54,7 @@ repository. Which you can fine here&lt;/p>
 as follows:&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">&lt;span style="color:#204a87">cd&lt;/span> cloudmesh.robot/projects/kivy
 python swim.py
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>To create stand alone packages with kivy, please see:&lt;/p>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>To create stand-alone packages with kivy, please see:&lt;/p>
 &lt;pre>&lt;code>- https://kivy.org/docs/guide/packaging-osx.html
 &lt;/code>&lt;/pre>
 &lt;h2 id="formatting-and-checking-python-code">Formatting and Checking Python Code&lt;/h2>
@@ -74,7 +64,7 @@ python swim.py
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ emacs bad_code_example.py
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>As you can see, this is very dense and hard to read. Cleaning it up by
 hand would be a time-consuming and error-prone process. Luckily, this is
-a common problem so there exist a couple packages to help in this
+a common problem so there exist a couple of packages to help in this
 situation.&lt;/p>
 &lt;h2 id="using-autopep8">Using autopep8&lt;/h2>
 &lt;p>We can now run the bad code through autopep8 to fix formatting problems:&lt;/p>
@@ -83,17 +73,17 @@ situation.&lt;/p>
 is easy to tell what the example1 and example2 functions are doing.&lt;/p>
 &lt;p>It is a good idea to develop a habit of using autopep8 in your
 python-development workflow. For instance: use autopep8 to check a file,
-and if it passes, make any changes in place using the -i flag:&lt;/p>
+and if it passes, make any changes in place using the &lt;code>-i&lt;/code> flag:&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ autopep8 file.py &lt;span style="color:#8f5902;font-style:italic"># check output to see of passes&lt;/span>
 $ autopep8 -i file.py &lt;span style="color:#8f5902;font-style:italic"># update in place&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>If you use pyCharm you have the ability to use a similar function while
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>If you use pyCharm you can use a similar function while
 pressing on Inspect Code.&lt;/p>
 &lt;h2 id="writing-python-3-compatible-code">Writing Python 3 Compatible Code&lt;/h2>
 &lt;p>To write python 2 and 3 compatible code we recommend that you take a
 look at: &lt;a href="http://python-future.org/compatible_idioms.html">http://python-future.org/compatible_idioms.html&lt;/a>&lt;/p>
 &lt;h2 id="using-python-on-futuresystems">Using Python on FutureSystems&lt;/h2>
 &lt;p>This is only important if you use Futuresystems resources.&lt;/p>
-&lt;p>In order to use Python you must log into your FutureSystems account.
+&lt;p>To use Python you must log in to your FutureSystems account.
 Then at the shell prompt execute the following command:&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ module load python
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>This will make the python and virtualenv commands available to you.&lt;/p>
@@ -107,14 +97,14 @@ many of which can be found on
 &lt;a href="https://pypi.python.org/pypi">pypi&lt;/a>. The nice thing about pypi is
 that many packages can be installed with the program &amp;lsquo;pip.&amp;rsquo;&lt;/p>
 &lt;p>To do so you have to locate the &amp;lt;package_name&amp;gt; for example with the
-search function in pypi and say on the commandline:&lt;/p>
+search function in pypi and say on the command line:&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ pip install &amp;lt;package_name&amp;gt;
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>where &lt;code>package_name&lt;/code> is the string name of the package. an example would
 be the package called cloudmesh_client which you can install with:&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ pip install cloudmesh_client
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>If all goes well the package will be installed.&lt;/p>
 &lt;h3 id="alternative-installations">Alternative Installations&lt;/h3>
-&lt;p>The basic installation of python is provided by python.org. However
+&lt;p>The basic installation of python is provided by python.org. However,
 others claim to have alternative environments that allow you to install
 python. This includes&lt;/p>
 &lt;ul>
@@ -125,42 +115,42 @@ python. This includes&lt;/p>
 &lt;p>Typically they include not only the python compiler but also several
 useful packages. It is fine to use such environments for the class, but
 it should be noted that in both cases not every python library may be
-available for install in the given environment. For example if you need
+available for install in the given environment. For example, if you need
 to use cloudmesh client, it may not be available as conda or Canopy
-package. This is also the case for many other cloud related and useful
+package. This is also the case for many other cloud-related and useful
 python libraries. Hence, we do recommend that if you are new to python
-to use the distribution form python.org, and use pip and virtualenv.&lt;/p>
-&lt;p>Additionally some python version have platform specific libraries or
-dependencies. For example coca libraries, &lt;code>.NET&lt;/code> or other frameworks are
-examples. For the assignments and the projects such platform dependent
+to use the distribution from python.org, and use pip and virtualenv.&lt;/p>
+&lt;p>Additionally, some python versions have platform-specific libraries or
+dependencies. For example, coca libraries, &lt;code>.NET&lt;/code>, or other frameworks are
+examples. For the assignments and the projects, such platform-dependent
 libraries are not to be used.&lt;/p>
-&lt;p>If however you can write a platform independent code that works on
-Linux, macOS and Windows while using the python.org version but develop it
-with any of the other tools that is just fine. However it is up to you
+&lt;p>If however, you can write a platform-independent code that works on
+Linux, macOS, and Windows while using the python.org version but develop it
+with any of the other tools that are just fine. However, it is up to you
 to guarantee that this independence is maintained and implemented. You
 do have to write requirements.txt files that will install the necessary
-python libraries in a platform independent fashion. The homework
+python libraries in a platform-independent fashion. The homework
 assignment PRG1 has even a requirement to do so.&lt;/p>
 &lt;p>In order to provide platform independence we have given in the class a
 &lt;em>minimal&lt;/em> python version that we have tested with hundreds of students:
 python.org. If you use any other version, that is your decision.
-Additionally some students not only use python.org but have used iPython
-which is fine too. However this class is not only about python, but also
+Additionally, some students not only use python.org but have used iPython
+which is fine too. However, this class is not only about python, but also
 about how to have your code run on any platform. The homework is
 designed so that you can identify a setup that works for you.&lt;/p>
-&lt;p>However we have concerns if you for example wanted to use chameleon
+&lt;p>However, we have concerns if you for example wanted to use chameleon
 cloud which we require you to access with cloudmesh. cloudmesh is not
-available as conda, canopy, or other framework package. Cloudmesh client
+available as conda, canopy, or other framework packages. Cloudmesh client
 is available form pypi which is standard and should be supported by the
 frameworks. We have not tested cloudmesh on any other python version
-then python.org which is the open source community standard. None of the
+than python.org which is the open-source community standard. None of the
 other versions are standard.&lt;/p>
-&lt;p>In fact we had students over the summer using canopy on their machines
+&lt;p>In fact, we had students over the summer using canopy on their machines
 and they got confused as they now had multiple python versions and did
 not know how to switch between them and activate the correct version.
-Certainly if you know how to do that, than feel free to use canopy, and
-if you want to use canopy all this is up to you. However the homework
-and project requires you to make your program portable to python.org. If
+Certainly, if you know how to do that, then feel free to use canopy, and
+if you want to use canopy all this is up to you. However, the homework
+and project require you to make your program portable to python.org. If
 you know how to do that even if you use canopy, anaconda, or any other
 python version that is fine. Graders will test your programs on a
 python.org installation and not canopy, anaconda, ironpython while using
@@ -170,14 +160,14 @@ a new virtualenv and run vanilla python in it. If we were to run two
 installs in the same system, this will not work as we do not know if one
 student will cause a side effect for another. Thus we as instructors do
 not just have to look at your code but code of hundreds of students with
-different setups. This is a non scalable solution as every time we test
+different setups. This is a non-scalable solution as every time we test
 out code from a student we would have to wipe out the OS, install it
-new, install an new version of whatever python you have elected, become
-familiar with that version and so on and on. This is the reason why the
-open source community is using python.org. We follow best practices.
+new, install a new version of whatever python you have elected, become
+familiar with that version, and so on and on. This is the reason why the
+open-source community is using python.org. We follow best practices.
 Using other versions is not a community best practice, but may work for
 an individual.&lt;/p>
-&lt;p>We have however in regards to using other python version additional
+&lt;p>We have however in regards to using other python versions additional
 bonus projects such as&lt;/p>
 &lt;ul>
 &lt;li>deploy run and document cloudmesh on ironpython&lt;/li>
@@ -215,7 +205,7 @@ well. Additional resources include:&lt;/p>
 &lt;li>&lt;a href="https://docs.python.org/2/library/datetime.html">https://docs.python.org/2/library/datetime.html&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://chrisalbon.com/python/strings/_to/_datetime.html">https://chrisalbon.com/python/strings/_to/_datetime.html&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>A very long list of useful information are also available from&lt;/p>
+&lt;p>A very long list of useful information is also available from&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/vinta/awesome-python">https://github.com/vinta/awesome-python&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/rasbt/python_reference">https://github.com/rasbt/python_reference&lt;/a>&lt;/li>
@@ -261,7 +251,7 @@ login.&lt;/li>
 &lt;/blockquote>
 &lt;blockquote>
 &lt;ol start="4">
-&lt;li>Write a program that uses docopt to define a commandline program.
+&lt;li>Write a program that uses docopt to define a command line program.
 Hint: modify the iterate program.&lt;/li>
 &lt;/ol>
 &lt;/blockquote>
@@ -590,15 +580,15 @@ the time it takes to execute it on a variety of platforms.&lt;/p>
 &lt;/blockquote></description></item><item><title>Docs: Plotting with matplotlib</title><link>/docs/book/python/libraries/python-matplotlib/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/book/python/libraries/python-matplotlib/</guid><description>
 &lt;p>Gregor von Laszewski (&lt;a href="mailto:laszewski@gmail.com">laszewski@gmail.com&lt;/a>)&lt;/p>
 &lt;p>A brief overview of plotting with matplotlib along with examples is
-provided. First matplotlib must be installed, which can be accomplished
+provided. First, matplotlib must be installed, which can be accomplished
 with pip install as follows:&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ pip install matplotlib
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>We will start by plotting a simple line graph using built in numpy
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>We will start by plotting a simple line graph using built in NumPy
 functions for sine and cosine. This first step is to import the proper
 libraries shown next.&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">numpy&lt;/span> &lt;span style="color:#204a87;font-weight:bold">as&lt;/span> &lt;span style="color:#000">np&lt;/span>
 &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">matplotlib.pyplot&lt;/span> &lt;span style="color:#204a87;font-weight:bold">as&lt;/span> &lt;span style="color:#000">plt&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Next we will define the values for the x axis, we do this with the
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Next, we will define the values for the x-axis, we do this with the
 linspace option in numpy. The first two parameters are the starting and
 ending points, these must be scalars. The third parameter is optional and
 defines the number of samples to be generated between the starting and
@@ -623,12 +613,12 @@ imported matplotlib.pyplot as plt we simply use plt.plot.&lt;/p>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>We can display the plot using plt.show() which will pop up a figure
 displaying the plot defined.&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">plt&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">show&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Additionally we can add the sine line to out line graph by entering the
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Additionally, we can add the sine line to outline graph by entering the
 following.&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">plt&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">plot&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">x&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>&lt;span style="color:#000">sin&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>Invoking plt.show() now will show a figure with both sine and cosine
 lines displayed. Now that we have a figure generated it would be useful
-to label the x and y axis and provide a title. This is done by the
+to label the x and y-axis and provide a title. This is done by the
 following three commands:&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">plt&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">xlabel&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;X - label (units)&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;span style="color:#000">plt&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">ylabel&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;Y - label (units)&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
@@ -638,10 +628,10 @@ a legend. In order to create a legend you must first designate a label
 for the line, this label will be what shows up in the legend. The label
 is defined in the initial plt.plot(x,y) instance, next is an example.&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">plt&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">plot&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">x&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>&lt;span style="color:#000">cos&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">label&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;cosine&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Then in order to display the legend the following command is issued:&lt;/p>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Then in order to display the legend, the following command is issued:&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">plt&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">legend&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">loc&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;upper right&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>The location is specified by using upper or lower and left or right.
-Naturally all these commands can be combined and put in a file with the
+Naturally, all these commands can be combined and put in a file with the
 .py extension and run from the command line.&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">numpy&lt;/span> &lt;span style="color:#204a87;font-weight:bold">as&lt;/span> &lt;span style="color:#000">np&lt;/span>
 &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">matplotlib.pyplot&lt;/span> &lt;span style="color:#204a87;font-weight:bold">as&lt;/span> &lt;span style="color:#000">plt&lt;/span>
@@ -678,7 +668,7 @@ will see a list of available styles.&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">print&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">plt&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">style&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">available&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>An example of using a predefined style is shown next.&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">plt&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">style&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">use&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;seaborn&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Up to this point we have only showcased how to display figures through
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Up to this point, we have only showcased how to display figures through
 python output, however web browsers are a popular way to display
 figures. One example is Bokeh, the following lines can be entered in a
 python shell and the figure is outputted to a browser.&lt;/p>
@@ -691,20 +681,20 @@ python shell and the figure is outputted to a browser.&lt;/p>
 &lt;span style="color:#000">show&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">p&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: DocOpts</title><link>/docs/book/python/libraries/python-docopts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/book/python/libraries/python-docopts/</guid><description>
 &lt;p>Gregor von Laszewski (&lt;a href="mailto:laszewski@gmail.com">laszewski@gmail.com&lt;/a>)&lt;/p>
-&lt;p>When we want to design commandline arguments for python programs we have
+&lt;p>When we want to design command line arguments for python programs we have
 many options. However, as our approach is to create documentation
-first, docopts provides also a good apprach for Python. The code for it is
+first, docopts provides also a good approach for Python. The code for it is
 located at&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/docopt/docopt">https://github.com/docopt/docopt&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>It can be installed with&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ pip install docopt
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>A sample programs are located at&lt;/p>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Sample programs are located at&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/docopt/docopt/blob/master/examples/options_example.py">https://github.com/docopt/docopt/blob/master/examples/options_example.py&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>A sample program of using doc opts for our purposes loks as follows&lt;/p>
+&lt;p>A sample program of using doc opts for our purposes looks as follows&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#4e9a06">&amp;#34;&amp;#34;&amp;#34;Cloudmesh VM management
 &lt;/span>&lt;span style="color:#4e9a06">
 &lt;/span>&lt;span style="color:#4e9a06">Usage:
@@ -733,21 +723,21 @@ verbal description in other programming languages as showcased in this
 book.&lt;/p></description></item><item><title>Docs: OpenCV</title><link>/docs/book/python/libraries/opencv/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/book/python/libraries/opencv/</guid><description>
 &lt;p>Gregor von Laszewski (&lt;a href="mailto:laszewski@gmail.com">laszewski@gmail.com&lt;/a>)&lt;/p>
 &lt;hr>
-&lt;p>&lt;img src="https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/images/learning.png" alt=""> &lt;strong>Learning Objectives&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/opencv/images/learning.png" alt=""> &lt;strong>Learning Objectives&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>Provide some simple calculations so we can test cloud services.&lt;/li>
-&lt;li>Show case some elementary OpenCV functions&lt;/li>
+&lt;li>Showcase some elementary OpenCV functions&lt;/li>
 &lt;li>Show an environmental image analysis application using Secchi disks&lt;/li>
 &lt;/ul>
 &lt;hr>
 &lt;p>OpenCV (Open Source Computer Vision Library) is a library of thousands
 of algorithms for various applications in computer vision and machine
-learning. It has C++, C, Python, Java and MATLAB interfaces and supports
-Windows, Linux, Android and Mac OS. In this section, we will explain
-basic features of this library, including the implementation of a simple
+learning. It has C++, C, Python, Java, and MATLAB interfaces and supports
+Windows, Linux, Android, and Mac OS. In this section, we will explain
+the basic features of this library, including the implementation of a simple
 example.&lt;/p>
 &lt;h2 id="overview">Overview&lt;/h2>
-&lt;p>OpenCV has countless functions for image and videos processing. The
+&lt;p>OpenCV has many functions for image and video processing. The
 pipeline starts with reading the images, low-level operations on pixel
 values, preprocessing e.g. denoising, and then multiple steps of
 higher-level operations which vary depending on the application. OpenCV
@@ -803,7 +793,7 @@ install it using:&lt;/p>
 plt.imshow(img)
 &lt;/code>&lt;/pre>
 &lt;p>which results in Figure 1&lt;/p>
-&lt;p>&lt;img src="https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/images/opencv/output_5_1.png" alt="Figure 1: Image display">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/opencv/images/opencv/output_5_1.png" alt="Figure 1: Image display">&lt;/p>
 &lt;p>Figure 1: Image display&lt;/p>
 &lt;h3 id="scaling-and-rotation">Scaling and Rotation&lt;/h3>
 &lt;p>Scaling (resizing) the image relative to different axis&lt;/p>
@@ -815,7 +805,7 @@ interpolation=cv2.INTER_CUBIC)
 plt.imshow(res)
 &lt;/code>&lt;/pre>
 &lt;p>which results in Figure 2&lt;/p>
-&lt;p>&lt;img src="https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/images/opencv/output_7_1.png" alt="Figure 2: Scaling and rotation">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/opencv/images/opencv/output_7_1.png" alt="Figure 2: Scaling and rotation">&lt;/p>
 &lt;p>Figure 2: Scaling and rotation&lt;/p>
 &lt;p>Rotation of the image for an angle of t&lt;/p>
 &lt;pre>&lt;code>rows,cols,_ = img.shape
@@ -825,14 +815,14 @@ dst = cv2.warpAffine(img,M,(cols,rows))
 plt.imshow(dst)
 &lt;/code>&lt;/pre>
 &lt;p>which results in Figure 3&lt;/p>
-&lt;p>&lt;img src="https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/images/opencv/output_9_1.png" alt="Figure 3: image">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/opencv/images/opencv/output_9_1.png" alt="Figure 3: image">&lt;/p>
 &lt;p>Figure 3: image&lt;/p>
 &lt;h3 id="gray-scaling">Gray-scaling&lt;/h3>
 &lt;pre>&lt;code>img2 = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 plt.imshow(img2, cmap='gray')
 &lt;/code>&lt;/pre>
 &lt;p>which results in +Figure 4&lt;/p>
-&lt;p>&lt;img src="https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/images/opencv/output_11_1.png" alt="Figure 4: Gray sacling">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/opencv/images/opencv/output_11_1.png" alt="Figure 4: Gray sacling">&lt;/p>
 &lt;p>Figure 4: Gray sacling&lt;/p>
 &lt;h3 id="image-thresholding">Image Thresholding&lt;/h3>
 &lt;pre>&lt;code>ret,thresh = cv2.threshold(img2,127,255,cv2.THRESH_BINARY)
@@ -840,7 +830,7 @@ plt.subplot(1,2,1), plt.imshow(img2, cmap='gray')
 plt.subplot(1,2,2), plt.imshow(thresh, cmap='gray')
 &lt;/code>&lt;/pre>
 &lt;p>which results in Figure 5&lt;/p>
-&lt;p>&lt;img src="https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/images/opencv/output_13_1.png" alt="Figure 5: Image Thresholding">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/opencv/images/opencv/output_13_1.png" alt="Figure 5: Image Thresholding">&lt;/p>
 &lt;p>Figure 5: Image Thresholding&lt;/p>
 &lt;h3 id="edge-detection">Edge Detection&lt;/h3>
 &lt;p>Edge detection using Canny edge detection algorithm&lt;/p>
@@ -849,21 +839,21 @@ plt.subplot(121),plt.imshow(img2,cmap = 'gray')
 plt.subplot(122),plt.imshow(edges,cmap = 'gray')
 &lt;/code>&lt;/pre>
 &lt;p>which results in Figure 6&lt;/p>
-&lt;p>&lt;img src="https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/images/opencv/output_15_1.png" alt="Figure 6: Edge detection">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/opencv/images/opencv/output_15_1.png" alt="Figure 6: Edge detection">&lt;/p>
 &lt;p>Figure 6: Edge detection&lt;/p>
 &lt;h2 id="additional-features">Additional Features&lt;/h2>
 &lt;p>OpenCV has implementations of many machine learning techniques such as
-KMeans and Support Vector Machines, that can be put into use with only a
+KMeans and Support Vector Machines can be put into use with only a
 few lines of code. It also has functions especially for video analysis,
-feature detection, object recognition and many more. You can find out
-more about them in their website&lt;/p>
+feature detection, object recognition, and many more. You can find out
+more about them on their website&lt;/p>
 &lt;p>&lt;a href="#sec:opencv">OpenCV&lt;/a>(&lt;a href="https://docs.opencv.org/3.0-beta/index.html">https://docs.opencv.org/3.0-beta/index.html&lt;/a>
 was initially developed for C++ and still has a focus on that
 language, but it is still one of the most valuable image processing
 libraries in Python.&lt;/p></description></item><item><title>Docs: Secchi Disk</title><link>/docs/book/python/libraries/secchi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/book/python/libraries/secchi/</guid><description>
 &lt;p>Gregor von Laszewski (&lt;a href="mailto:laszewski@gmail.com">laszewski@gmail.com&lt;/a>)&lt;/p>
 &lt;p>We are developing an autonomous robot boat that you can be part of
-developing within this class. The robot bot is actually measuring
+developing within this class. The robot bot is measuring
 turbidity or water clarity. Traditionally this has been done with a
 Secchi disk. The use of the Secchi disk is as follows:&lt;/p>
 &lt;ol>
@@ -873,17 +863,17 @@ Secchi disk. The use of the Secchi disk is as follows:&lt;/p>
 map&lt;/li>
 &lt;/ol>
 &lt;p>One of the things we can do is take a video of the measurement instead
-of a human recording them. Than we can analyse the video automatically
+of a human recording them. Then we can analyze the video automatically
 to see how deep a disk was lowered. This is a classical image analysis
 program. You are encouraged to identify algorithms that can identify
-the depth. The most simplest seems to be to do a histogram at a
-variety of depth steps, and measure when the histogram no longer
-changes significantly. The depth at that image will be the measurement
+the depth. The simplest seems to be to do a histogram at a
+variety of depth steps and measure when the histogram no longer
+changes significantly. The depth of that image will be the measurement
 we look for.&lt;/p>
-&lt;p>Thus if we analyse the images we need to look at the image and
+&lt;p>Thus if we analyze the images we need to look at the image and
 identify the numbers on the measuring tape, as well as the visibility
 of the disk.&lt;/p>
-&lt;p>To show case how such a disk looks like we refer to the image
+&lt;p>To showcase how such a disk looks like we refer to the image
 showcasing different Secchi disks. For our purpose the black-white
 contrast Secchi disk works well. See Figure 1&lt;/p>
 &lt;p>&lt;img src="https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/opencv/images/secchi-field-test/disk.png" alt="Figure 1: Secchi disk types. A marine style on the left and the freshwater version on the right wikipedia.">&lt;/p>
@@ -894,18 +884,18 @@ contrast Secchi disk works well. See Figure 1&lt;/p>
 &lt;/ul>
 &lt;p>We have included next a couple of examples while using some obviously
 useful OpenCV methods. Surprisingly, the use of the edge detection
-that comes in mind first to identify if we still can see the disk,
-seems to complicated to use for analysis. We at this time believe the
+that comes to mind first to identify if we still can see the disk,
+seems too complicated to use for analysis. We at this time believe the
 histogram will be sufficient.&lt;/p>
 &lt;p>Please inspect our examples.&lt;/p>
 &lt;h2 id="setup-for-osx">Setup for OSX&lt;/h2>
-&lt;p>First lest setup the OpenCV environment for OSX. Naturally you will
+&lt;p>First lest setup the OpenCV environment for OSX. Naturally, you will
 have to update the versions based on your versions of python. When we
-tried the install of OpenCV on MacOS, the setup was slightly more
+tried the install of OpenCV on macOS, the setup was slightly more
 complex than other packages. This may have changed by now and if you
-have improved instructions, pleas elt us know. However we do not want
+have improved instructions, please let us know. However, we do not want
 to install it via Anaconda out of the obvious reason that anaconda
-installs to many other things.&lt;/p>
+installs too many other things.&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">os&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">,&lt;/span> &lt;span style="color:#000">sys&lt;/span>
 &lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">os.path&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">expanduser&lt;/span>
 &lt;span style="color:#000">os&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">path&lt;/span>
@@ -919,10 +909,10 @@ installs to many other things.&lt;/p>
 &lt;span style="color:#ce5c00;font-weight:bold">%&lt;/span>&lt;span style="color:#000">matplotlib&lt;/span> &lt;span style="color:#000">inline&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="step-1-record-the-video">Step 1: Record the video&lt;/h2>
 &lt;p>Record the video on the robot&lt;/p>
-&lt;p>We have actually done this for you and will provide you with images
+&lt;p>We have done this for you and will provide you with images
 and videos if you are interested in analyzing them. See Figure 2&lt;/p>
 &lt;h2 id="step-2-analyse-the-images-from-the-video">Step 2: Analyse the images from the Video&lt;/h2>
-&lt;p>For now we just selected 4 images from the video&lt;/p>
+&lt;p>For now, we just selected 4 images from the video&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">cv2&lt;/span>
 &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">matplotlib.pyplot&lt;/span> &lt;span style="color:#204a87;font-weight:bold">as&lt;/span> &lt;span style="color:#000">plt&lt;/span>
 &lt;span style="color:#000">img1&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">cv2&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">imread&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;secchi/secchi1.png&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
