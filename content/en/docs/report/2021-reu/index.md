@@ -20,7 +20,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="TBD"
+  title="Project: Classification of Hyperspectral Images"
   author="Carlos Theran"
   hid= "su21-reu-360"
   %}}
@@ -28,7 +28,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="Using EOS Blockchain"
+  title="Project: Analyzing Price Changes on the Electro-Optical System Blockchain"
   author="Jacques Fleischer"
   hid= "su21-reu-361"
   %}}
@@ -60,7 +60,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="TBD"
+  title="Project: Energy Consumption"
   author="Victor Adankai"
   hid= "su21-reu-365"
   %}}
@@ -102,7 +102,7 @@ REU 2021.
 * {{% addprojectreport
   title="TBD"
   hid="su21-reu-370" 
-  author="Kehinde Ezekiel"
+  author="Tiamia WIlliams"
   %}}
 
 ---
@@ -144,6 +144,24 @@ REU 2021.
   title="TBD"
   hid="su21-reu-375"
   author="Ololade Latinwo"
+  %}}
+
+---
+
+
+* {{% addprojectreport
+  title="TBD"
+  hid="su21-reu-376"
+  author="Jamyla Young"
+  %}}
+
+---
+
+
+* {{% addprojectreport
+  title="TBD"
+  hid="su21-reu-377"
+  author="RonDaisja Dunn"
   %}}
 
 ---
