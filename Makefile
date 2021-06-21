@@ -8,7 +8,9 @@ setup:
 example:
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/hid-example.git
 
+
 reu-add:
+	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-377.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-376.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-366.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-367.git
@@ -94,10 +96,11 @@ pull-reu:
 	cd content/en/report/su21-reu-374; git checkout main; git pull
 	cd content/en/report/su21-reu-375; git checkout main; git pull
 	cd content/en/report/su21-reu-376; git checkout main; git pull
+	cd content/en/report/su21-reu-377; git checkout main; git pull
 
 
 # 316
-pull: puul-reu
+pull: pull-reu
 	git pull
 	cd content/en/report/cloudmesh-openapi; git checkout main; git pull
 	cd content/en/report/fa20-523-301; git checkout main; git pull
