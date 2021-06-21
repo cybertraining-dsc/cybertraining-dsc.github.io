@@ -4,7 +4,7 @@ ref: "{#sec:opencv}"
 tags: ["python"]
 authors: "Gregor von Laszewski (laszewski@gmail.com)"
 weight: 29
-github_url: "https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/python-opencv.md"
+github_url: "https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/opencv/python-opencv.md"
 ---
 
 Gregor von Laszewski (laszewski@gmail.com)
@@ -13,7 +13,7 @@ Gregor von Laszewski (laszewski@gmail.com)
 
 ------------------------------------------------------------------------
 
-![](https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/images/learning.png) **Learning Objectives**
+![](https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/opencv/images/learning.png) **Learning Objectives**
 
 
 
@@ -106,7 +106,7 @@ Now you can use:
 
 which results in Figure 1
 
-![Figure 1: Image display](https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/images/opencv/output_5_1.png)
+![Figure 1: Image display](https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/opencv/images/opencv/output_5_1.png)
 
 Figure 1: Image display
 
@@ -123,7 +123,7 @@ Scaling (resizing) the image relative to different axis
 
 which results in Figure 2
 
-![Figure 2: Scaling and rotation](https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/images/opencv/output_7_1.png)
+![Figure 2: Scaling and rotation](https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/opencv/images/opencv/output_7_1.png)
 
 Figure 2: Scaling and rotation
 
@@ -138,7 +138,7 @@ Rotation of the image for an angle of t
 
 which results in Figure 3
 
-![Figure 3: image](https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/images/opencv/output_9_1.png)
+![Figure 3: image](https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/opencv/images/opencv/output_9_1.png)
 
 Figure 3: image
 
@@ -149,7 +149,7 @@ Figure 3: image
 
 which results in +Figure 4
 
-![Figure 4: Gray sacling](https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/images/opencv/output_11_1.png)
+![Figure 4: Gray sacling](https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/opencv/images/opencv/output_11_1.png)
 
 Figure 4: Gray sacling
 
@@ -161,7 +161,7 @@ Figure 4: Gray sacling
 
 which results in Figure 5
 
-![Figure 5: Image Thresholding](https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/images/opencv/output_13_1.png)
+![Figure 5: Image Thresholding](https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/opencv/images/opencv/output_13_1.png)
 
 Figure 5: Image Thresholding
 
@@ -176,7 +176,7 @@ Edge detection using Canny edge detection algorithm
 
 which results in Figure 6
 
-![Figure 6: Edge detection](https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/images/opencv/output_15_1.png)
+![Figure 6: Edge detection](https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/opencv/images/opencv/output_15_1.png)
 
 Figure 6: Edge detection
 
