@@ -299,7 +299,7 @@ Video: Pandas
 
 
 {{< view_module
-	alt="Matrix computation"
+	alt="Matrix Computation"
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/TiJJnitA6ziWOZutSEjyFGGKS0nc3lj_-lOPuGuKjNVdUO8HEp3uU9jlihaBgznt.rKnSt4gTS7B2ZXia"
 	>}}
@@ -311,7 +311,32 @@ Video: Matrix computation
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/A7okJD5VpykMNa2S7hScShT-xfAttJ0DI7B5NPNsLkpLETPsF--5sRHmC5WkjJoU.ndWSLqDFfCgUkvMi"
 	>}}
-Video: Matrix computation
+Video: Pycharm Installation and Virtual Environment setup
+{{< /view_module >}}
+
+{{< view_module
+	alt="Application of Matrix Operation using Images on Python"
+	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
+	url="https://famu.zoom.us/rec/share/gQS-so-yA7yzXfIF5LT33I5JCDPH39jpNneKTaOe7h_CEe7O4LkkdZdGzBtcT_6A.9844LB6DAuSp6TdE"
+	>}}
+Video: Application of Matrix Operation using Images on Python
+{{< /view_module >}}
+
+{{< view_module
+	alt="Data wrangling"
+	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
+	url="https://famu.zoom.us/rec/share/gQS-so-yA7yzXfIF5LT33I5JCDPH39jpNneKTaOe7h_CEe7O4LkkdZdGzBtcT_6A.9844LB6DAuSp6TdE"
+	>}}
+Video: Data wrangling and Descriptive Statistic Using Python
+{{< /view_module >}}
+
+{{< view_module
+	alt="Data wrangling and Descriptive Statistic Using Python"
+	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
+	url="https://famu.zoom.us/rec/share/ifHM2yopAUtJYqBFd-_LBvs6iufXSCQdm7oAUYnjeQcs-mDzJQPKIwP1yJtG5MS4.TJiwMMRttLy6zeAT"
+	url="https://famu.zoom.us/rec/share/68WLXABVM1CkxskItUsfy5GqWd8hzGzoe-1OjyJGyo8uQ6tUj0RwesrJpBV-k5eJ.K294I0l3cMV_-QQl"
+	>}}
+Video: Data wrangling and Descriptive Statistic Using Python
 {{< /view_module >}}
 
 ## AI First Engineering
@@ -319,7 +344,7 @@ Video: Matrix computation
 {{< view_module
 	alt="AI FIrst Engineering: Learning material"
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
-	url="https://famu.zoom.us/rec/share/s5W0Vz4U1rgbsYKSMRul_wGL5U6OMiewb8ESLlrmSamaBpynADiBMwV44nOWoh99.IFIdiTbtAjIXa7py"
+	url="https://famu.zoom.us/rec/share/ifHM2yopAUtJYqBFd-_LBvs6iufXSCQdm7oAUYnjeQcs-mDzJQPKIwP1yJtG5MS4.TJiwMMRttLy6zeAT"
 	>}}
 Video: AI First Engineering: Learning material
 {{< /view_module >}}
