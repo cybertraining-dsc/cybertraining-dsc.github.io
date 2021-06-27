@@ -363,6 +363,42 @@ Slides: Motivation for the REU: Data is Driven Everything
 &lt;/td>
 &lt;/tr>
 &lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://drive.google.com/file/d/1wbg1W5mVgObBhYkY76j9E7Q66VKyRmLL/view?usp=sharing">
+&lt;img alt="Slides: Descriptive Statistic" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://drive.google.com/file/d/1wbg1W5mVgObBhYkY76j9E7Q66VKyRmLL/view?usp=sharing">
+Slides: Descriptive Statistic
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://drive.google.com/file/d/1hgcN2VHcezc3lPHQfCOyUc_409OFcKbd/view?usp=sharing">
+&lt;img alt="Slides: Probability" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://drive.google.com/file/d/1hgcN2VHcezc3lPHQfCOyUc_409OFcKbd/view?usp=sharing">
+Slides: Probability
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
 &lt;h2 id="data-science-tools">Data Science Tools&lt;/h2>
 &lt;table>
 &lt;colgroup>
@@ -480,7 +516,7 @@ Video: Pandas
 &lt;tr>
 &lt;td>
 &lt;a href="https://famu.zoom.us/rec/share/TiJJnitA6ziWOZutSEjyFGGKS0nc3lj_-lOPuGuKjNVdUO8HEp3uU9jlihaBgznt.rKnSt4gTS7B2ZXia">
-&lt;img alt="Matrix computation" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;img alt="Matrix Computation" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
@@ -503,7 +539,61 @@ Video: Matrix computation
 &lt;/td>
 &lt;td>
 &lt;a href="https://famu.zoom.us/rec/share/A7okJD5VpykMNa2S7hScShT-xfAttJ0DI7B5NPNsLkpLETPsF--5sRHmC5WkjJoU.ndWSLqDFfCgUkvMi">
-Video: Matrix computation
+Video: Pycharm Installation and Virtual Environment setup
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/gQS-so-yA7yzXfIF5LT33I5JCDPH39jpNneKTaOe7h_CEe7O4LkkdZdGzBtcT_6A.9844LB6DAuSp6TdE">
+&lt;img alt="Application of Matrix Operation using Images on Python" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/gQS-so-yA7yzXfIF5LT33I5JCDPH39jpNneKTaOe7h_CEe7O4LkkdZdGzBtcT_6A.9844LB6DAuSp6TdE">
+Video: Application of Matrix Operation using Images on Python
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/gQS-so-yA7yzXfIF5LT33I5JCDPH39jpNneKTaOe7h_CEe7O4LkkdZdGzBtcT_6A.9844LB6DAuSp6TdE">
+&lt;img alt="Data wrangling" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/gQS-so-yA7yzXfIF5LT33I5JCDPH39jpNneKTaOe7h_CEe7O4LkkdZdGzBtcT_6A.9844LB6DAuSp6TdE">
+Video: Data wrangling and Descriptive Statistic Using Python
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/68WLXABVM1CkxskItUsfy5GqWd8hzGzoe-1OjyJGyo8uQ6tUj0RwesrJpBV-k5eJ.K294I0l3cMV_-QQl">
+&lt;img alt="Data wrangling and Descriptive Statistic Using Python" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/68WLXABVM1CkxskItUsfy5GqWd8hzGzoe-1OjyJGyo8uQ6tUj0RwesrJpBV-k5eJ.K294I0l3cMV_-QQl">
+Video: Data wrangling and Descriptive Statistic Using Python
 &lt;/a>
 &lt;/td>
 &lt;/tr>
@@ -516,12 +606,12 @@ Video: Matrix computation
 &lt;/colgroup>
 &lt;tr>
 &lt;td>
-&lt;a href="https://famu.zoom.us/rec/share/s5W0Vz4U1rgbsYKSMRul_wGL5U6OMiewb8ESLlrmSamaBpynADiBMwV44nOWoh99.IFIdiTbtAjIXa7py">
+&lt;a href="https://famu.zoom.us/rec/share/ifHM2yopAUtJYqBFd-_LBvs6iufXSCQdm7oAUYnjeQcs-mDzJQPKIwP1yJtG5MS4.TJiwMMRttLy6zeAT">
 &lt;img alt="AI FIrst Engineering: Learning material" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
 &lt;/a>
 &lt;/td>
 &lt;td>
-&lt;a href="https://famu.zoom.us/rec/share/s5W0Vz4U1rgbsYKSMRul_wGL5U6OMiewb8ESLlrmSamaBpynADiBMwV44nOWoh99.IFIdiTbtAjIXa7py">
+&lt;a href="https://famu.zoom.us/rec/share/ifHM2yopAUtJYqBFd-_LBvs6iufXSCQdm7oAUYnjeQcs-mDzJQPKIwP1yJtG5MS4.TJiwMMRttLy6zeAT">
 Video: AI First Engineering: Learning material
 &lt;/a>
 &lt;/td>
