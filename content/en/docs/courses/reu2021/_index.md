@@ -359,12 +359,30 @@ Video: Data wrangling and Descriptive Statistic Using Python
 Video: Data wrangling and Descriptive Statistic Using Python
 {{< /view_module >}}
 
+{{< view_module
+	alt="FURY Visualization and Microsoft Lecture "
+	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
+	url="https://famu.zoom.us/rec/share/ifHM2yopAUtJYqBFd-_LBvs6iufXSCQdm7oAUYnjeQcs-mDzJQPKIwP1yJtG5MS4.TJiwMMRttLy6zeAT"
+	url="https://famu.zoom.us/rec/share/N4P3I_1QDDhauQUVFaoR7oLvp89xnWa129DKFw7h2iJ0maWz46S-6dCFgp4xVhm2.Luh9f6CCxomGNT39"
+	>}}
+Video: FURY Visualization and Microsoft Lecture
+{{< /view_module >}}
+
+{{< view_module
+	alt="Introduction to Probability"
+	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
+	url="https://famu.zoom.us/rec/share/N4P3I_1QDDhauQUVFaoR7oLvp89xnWa129DKFw7h2iJ0maWz46S-6dCFgp4xVhm2.Luh9f6CCxomGNT39"
+	>}}
+Video: Instroduction to Probability
+{{< /view_module >}}
+
 ## AI First Engineering
 
 {{< view_module
 	alt="AI FIrst Engineering: Learning material"
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
-	url="https://famu.zoom.us/rec/share/ifHM2yopAUtJYqBFd-_LBvs6iufXSCQdm7oAUYnjeQcs-mDzJQPKIwP1yJtG5MS4.TJiwMMRttLy6zeAT"
+	url="https://famu.zoom.us/rec/share/QeQXovAhCusbLHb4R0GToPj4Gts89fOYspSAeAAEqld7lE5M06SQCor0BNz62gXY.w4x5X7Y3Kt_c39eq"
+	url="https://famu.zoom.us/rec/share/QeQXovAhCusbLHb4R0GToPj4Gts89fOYspSAeAAEqld7lE5M06SQCor0BNz62gXY.w4x5X7Y3Kt_c39eq"
 	>}}
 Video: AI First Engineering: Learning material
 {{< /view_module >}}
