@@ -1,0 +1,2107 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – reu</title><link>/tags/reu/</link><description>Recent content in reu on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 24 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/reu/index.xml" rel="self" type="application/rss+xml"/><item><title>Report: Tutorial on Installing Python</title><link>/report/su21-reu-361/tutorials/python/</link><pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/tutorials/python/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>This tutorial teaches how to install Python on Windows 10.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#incorrect-python-version-on-command-prompt">Incorrect Python Version on Command Prompt&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> python&lt;/p>
+&lt;h1 id="steps">Steps&lt;/h1>
+&lt;p>Click the image below to be redirected to a 2 minute YouTube walkthrough.&lt;/p>
+&lt;div align="left">
+&lt;a href="https://www.youtube.com/watch?v=T6UYyu5XVMc">&lt;img src="https://img.youtube.com/vi/T6UYyu5XVMc/0.jpg" alt="IMAGE ALT TEXT">&lt;/a>
+&lt;/div>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/T6UYyu5XVMc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;ol>
+&lt;li>
+&lt;p>First, open up any web browser. This tutorial utilizes Google Chrome, but any other browser should work as long as it is not a 1990s version of Netscape. (Do not worry— you probably don&amp;rsquo;t have this.) The browser of choice can be Microsoft Edge, Firefox, Opera— as long as it can perform a search on a search engine, access a webpage, and download a file.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Open your browser by clicking the search box in the bottom left of your screen, where it says &amp;ldquo;Type here to search&amp;rdquo;. Then, type &amp;ldquo;google chrome&amp;rdquo; (or whatever is the name of the browser you use) and click it once it appears.&lt;/p>
+&lt;ol>
+&lt;li>The &amp;ldquo;Type here to search&amp;rdquo; box could be missing if you have customized your taskbar (the taskbar is the long box typically located on the bottom of your screen which has icons). In this case, just click the Windows logo in the bottom left and type your browser name.&lt;/li>
+&lt;li>This is just one way to open your browser. You can even click a shortcut to your web browser on your taskbar, on your Desktop, or your Start Menu. In computing, there is typically many ways to accomplish the same end objective.
+&lt;br>
+ &lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Once your browser has loaded, search for &amp;ldquo;python&amp;rdquo; on Google or any search engine. Click the result that reads &amp;ldquo;Downloads&amp;rdquo; from the website &amp;ldquo;python.org&amp;rdquo;.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>As of June 2021, the latest version of Python is &lt;code>3.9.5&lt;/code>. You may see a different number. As long as you click the button under &amp;ldquo;Download the latest version for Windows&amp;rdquo;, this will work. Try it now.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Once the download has completed, open the file by clicking on it in your Downloads pane.&lt;/p>
+&lt;ol>
+&lt;li>If you are utilizing a school-issued computer, you may be prevented from opening this .exe file because you are not the administrator. Please email or otherwise get in contact with your instructor, professor, or head of IT to discuss installing Python.
+&lt;br>
+ &lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Be sure to check the box that reads &amp;ldquo;Add Python x.x to PATH&amp;rdquo;. This will allow you to run commands from the terminal/command prompt.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &amp;ldquo;Install Now&amp;rdquo;. The default options that entail this selection are appropriate for this experiment&amp;rsquo;s intents and purposes; choosing &amp;ldquo;Customize installation&amp;rdquo; may create reproducibility issues down the road, so please select &amp;ldquo;Install Now&amp;rdquo; instead.&lt;/p>
+&lt;ol>
+&lt;li>The UAC prompt will pop up. UAC stands for &amp;ldquo;User Account Control&amp;rdquo; and exists so that the computer will not have unauthorized changes performed on it. Click &amp;ldquo;Yes&amp;rdquo; because Python is safe. School-issued computers may ask for an administrator password, so refer to step 5&amp;rsquo;s sidenote.
+&lt;br>
+ &lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Sit back and watch the green progress bar, whose speed will depend on the power of the computer.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If the setup was successful, then it will say so. Click &amp;ldquo;Close&amp;rdquo;.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click the &amp;ldquo;Type here to search&amp;rdquo; box in the bottom-left of the screen, type &amp;ldquo;cmd&amp;rdquo;, and press Enter.&lt;/p>
+&lt;ol>
+&lt;li>An alternative method is to press the Windows key and the &amp;ldquo;R&amp;rdquo; key at the same time, type &amp;ldquo;cmd&amp;rdquo;, and press Enter. This is convenient for those who like to use the keyboard.
+&lt;br>
+ &lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Type &lt;code>python --version&lt;/code> and the output should read &amp;ldquo;Python x.x.x&amp;rdquo;; as long as it is the latest version from the website, congratulations. Python is installed on the computer.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h1 id="troubleshooting">Troubleshooting&lt;/h1>
+&lt;h2 id="incorrect-python-version-on-command-prompt">Incorrect Python Version on Command Prompt&lt;/h2>
+&lt;p>If the computer has installed an older version of Python, running &lt;code>python --version&lt;/code> on Command Prompt may output an older version. Typing &lt;code>python3 --version&lt;/code> may output the correct, latest version.&lt;/p></description></item><item><title>Report: Project: Analyzing Price Changes on the Electro-Optical System Blockchain</title><link>/report/su21-reu-361/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Jacques Fleischer, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-361">su21-reu-361&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> :o2: No abbrevations in title e.g. EOS&lt;/li>
+&lt;/ul>
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#to-do">To-do&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#tutorials">Tutorials&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="to-do">To-do&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> My first research on blockchain&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Add blockchain explanation to introduction&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What does blockchain have to do with AI?&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What codes exist that demonstrate the use of blockchain with AI using Python?&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What is the code in this project that will be developed?&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What is the performance of this code?&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What is my conclusion?&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Never, ever use the words &amp;lsquo;I&amp;rsquo; or &amp;lsquo;my&amp;rsquo; in a report&lt;/li>
+&lt;/ul>
+&lt;h2 id="tutorials">Tutorials&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Install software Visual Studio Code (create video tutorial or written instructions)&lt;/li>
+&lt;/ul>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Do not include this tip in your document:&lt;/p>
+&lt;blockquote>
+&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Here comes a convincing introduction to the problem&lt;/p>
+&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
+&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
+set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
+bound into cybertraining.&lt;/p>
+&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
+&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
+Thus the following is wrong:&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+This author does ignore proper markdown while not using empty lines between context changes
+1. This is because this author ignors all best practices
+&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+We do not ignore proper markdown while using empty lines between context changes
+1. This is because we encourage best practices to cause issues.
+&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
+&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
+We will not review any document that does not pass this check.&lt;/p>
+&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
+&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
+comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
+&lt;ol>
+&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
+&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
+&lt;/ol>
+&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
+&lt;p>You have two choices for the final project.&lt;/p>
+&lt;ol>
+&lt;li>Project, That is a final report that includes code.&lt;/li>
+&lt;li>Report, that is a final project without code.&lt;/li>
+&lt;/ol>
+&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
+at the beginning of your project.&lt;/p>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
+&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
+&lt;ol>
+&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
+&lt;li>When using bulleted lists use * and not -&lt;/li>
+&lt;/ol>
+&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
+&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report:</title><link>/report/hid-example/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/hid-example/project/</guid><description>
+&lt;p>Fix the links: and than remove this line&lt;/p>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/hid-example/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/hid-example/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Fix the links: and than remove this line&lt;/p>
+&lt;p>Gregor von Laszewski, &lt;a href="https://github.com/cybertraining-dsc/hid-example/">hid-example&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Do not include this tip in your document:&lt;/p>
+&lt;blockquote>
+&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Here comes a convincing introduction to the problem&lt;/p>
+&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
+&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
+set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
+bound into cybertraining.&lt;/p>
+&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
+&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
+Thus the following is wrong:&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+This author does ignore proper markdown while not using empty lines between context changes
+1. This is because this author ignors all best practices
+&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+We do not ignore proper markdown while using empty lines between context changes
+1. This is because we encourage best practices to cause issues.
+&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
+&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
+We will not review any document that does not pass this check.&lt;/p>
+&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
+&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
+comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
+&lt;ol>
+&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
+&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
+&lt;/ol>
+&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
+&lt;p>You have two choices for the final project.&lt;/p>
+&lt;ol>
+&lt;li>Project, That is a final report that includes code.&lt;/li>
+&lt;li>Report, that is a final project without code.&lt;/li>
+&lt;/ol>
+&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
+at the beginning of your project.&lt;/p>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
+&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
+&lt;ol>
+&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
+&lt;li>When using bulleted lists use * and not -&lt;/li>
+&lt;/ol>
+&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
+&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: Classification of Hyperspectral Images</title><link>/report/su21-reu-360/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-360/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-360/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-360/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Carlos Theran, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-360">su21-reu-360&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-360/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Do not include this tip in your document:&lt;/p>
+&lt;blockquote>
+&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Here comes a convincing introduction to the problem&lt;/p>
+&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
+&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
+set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
+bound into cybertraining.&lt;/p>
+&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
+&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
+Thus the following is wrong:&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+This author does ignore proper markdown while not using empty lines between context changes
+1. This is because this author ignors all best practices
+&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+We do not ignore proper markdown while using empty lines between context changes
+1. This is because we encourage best practices to cause issues.
+&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
+&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
+We will not review any document that does not pass this check.&lt;/p>
+&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
+&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
+comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
+&lt;ol>
+&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
+&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
+&lt;/ol>
+&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
+&lt;p>You have two choices for the final project.&lt;/p>
+&lt;ol>
+&lt;li>Project, That is a final report that includes code.&lt;/li>
+&lt;li>Report, that is a final project without code.&lt;/li>
+&lt;/ol>
+&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
+at the beginning of your project.&lt;/p>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
+&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
+&lt;ol>
+&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
+&lt;li>When using bulleted lists use * and not -&lt;/li>
+&lt;/ol>
+&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
+&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-362/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-362/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-362/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-362/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Firstname Lastname, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-362">su21-reu-362&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Do not include this tip in your document:&lt;/p>
+&lt;blockquote>
+&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Here comes a convincing introduction to the problem&lt;/p>
+&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
+&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
+set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
+bound into cybertraining.&lt;/p>
+&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
+&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
+Thus the following is wrong:&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+This author does ignore proper markdown while not using empty lines between context changes
+1. This is because this author ignors all best practices
+&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+We do not ignore proper markdown while using empty lines between context changes
+1. This is because we encourage best practices to cause issues.
+&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
+&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
+We will not review any document that does not pass this check.&lt;/p>
+&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
+&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
+comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
+&lt;ol>
+&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
+&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
+&lt;/ol>
+&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
+&lt;p>You have two choices for the final project.&lt;/p>
+&lt;ol>
+&lt;li>Project, That is a final report that includes code.&lt;/li>
+&lt;li>Report, that is a final project without code.&lt;/li>
+&lt;/ol>
+&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
+at the beginning of your project.&lt;/p>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
+&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
+&lt;ol>
+&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
+&lt;li>When using bulleted lists use * and not -&lt;/li>
+&lt;/ol>
+&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
+&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: FAMU Coding Project</title><link>/report/su21-reu-363/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-363/project/</guid><description>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Title to vague&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-363/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-363/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Whitney McNair, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-363">su21-reu-363&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-363/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Do not include this tip in your document:&lt;/p>
+&lt;blockquote>
+&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Here comes a convincing introduction to the problem&lt;/p>
+&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
+&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
+set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
+bound into cybertraining.&lt;/p>
+&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
+&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
+Thus the following is wrong:&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+This author does ignore proper markdown while not using empty lines between context changes
+1. This is because this author ignors all best practices
+&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+We do not ignore proper markdown while using empty lines between context changes
+1. This is because we encourage best practices to cause issues.
+&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
+&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
+We will not review any document that does not pass this check.&lt;/p>
+&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
+&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
+comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
+&lt;ol>
+&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
+&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
+&lt;/ol>
+&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
+&lt;p>You have two choices for the final project.&lt;/p>
+&lt;ol>
+&lt;li>Project, That is a final report that includes code.&lt;/li>
+&lt;li>Report, that is a final project without code.&lt;/li>
+&lt;/ol>
+&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
+at the beginning of your project.&lt;/p>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
+&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
+&lt;ol>
+&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
+&lt;li>When using bulleted lists use * and not -&lt;/li>
+&lt;/ol>
+&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
+&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: Motion Prediction for Autonomous Vehicles</title><link>/report/su21-reu-365/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-365/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-365/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-365/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Victor Adankai, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-365">su21-reu-365&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-365/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Do not include this tip in your document:&lt;/p>
+&lt;blockquote>
+&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Here comes a convincing introduction to the problem&lt;/p>
+&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
+&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
+set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
+bound into cybertraining.&lt;/p>
+&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
+&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
+Thus the following is wrong:&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+This author does ignore proper markdown while not using empty lines between context changes
+1. This is because this author ignors all best practices
+&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+We do not ignore proper markdown while using empty lines between context changes
+1. This is because we encourage best practices to cause issues.
+&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
+&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
+We will not review any document that does not pass this check.&lt;/p>
+&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
+&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
+comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
+&lt;ol>
+&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
+&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
+&lt;/ol>
+&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
+&lt;p>You have two choices for the final project.&lt;/p>
+&lt;ol>
+&lt;li>Project, That is a final report that includes code.&lt;/li>
+&lt;li>Report, that is a final project without code.&lt;/li>
+&lt;/ol>
+&lt;p>You will be including the type of the project as a prefix to your title, as well as in the Type tag
+at the beginning of your project.&lt;/p>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
+&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
+&lt;ol>
+&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
+&lt;li>When using bulleted lists use * and not -&lt;/li>
+&lt;/ol>
+&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
+&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-366/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-366/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-366/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-366/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Firstname Lastname, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-366">su21-reu-366&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-366/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Do not include this tip in your document:&lt;/p>
+&lt;blockquote>
+&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Here comes a convincing introduction to the problem&lt;/p>
+&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
+&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
+set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
+bound into cybertraining.&lt;/p>
+&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
+&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
+Thus the following is wrong:&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+This author does ignore proper markdown while not using empty lines between context changes
+1. This is because this author ignors all best practices
+&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+We do not ignore proper markdown while using empty lines between context changes
+1. This is because we encourage best practices to cause issues.
+&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
+&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
+We will not review any document that does not pass this check.&lt;/p>
+&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
+&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
+comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
+&lt;ol>
+&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
+&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
+&lt;/ol>
+&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
+&lt;p>You have two choices for the final project.&lt;/p>
+&lt;ol>
+&lt;li>Project, That is a final report that includes code.&lt;/li>
+&lt;li>Report, that is a final project without code.&lt;/li>
+&lt;/ol>
+&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
+at the beginning of your project.&lt;/p>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
+&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
+&lt;ol>
+&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
+&lt;li>When using bulleted lists use * and not -&lt;/li>
+&lt;/ol>
+&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
+&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-367/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-367/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-367/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-367/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Firstname Lastname, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-367">su21-reu-367&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-367/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Do not include this tip in your document:&lt;/p>
+&lt;blockquote>
+&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Here comes a convincing introduction to the problem&lt;/p>
+&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
+&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
+set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
+bound into cybertraining.&lt;/p>
+&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
+&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
+Thus the following is wrong:&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+This author does ignore proper markdown while not using empty lines between context changes
+1. This is because this author ignors all best practices
+&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+We do not ignore proper markdown while using empty lines between context changes
+1. This is because we encourage best practices to cause issues.
+&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
+&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
+We will not review any document that does not pass this check.&lt;/p>
+&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
+&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
+comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
+&lt;ol>
+&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
+&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
+&lt;/ol>
+&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
+&lt;p>You have two choices for the final project.&lt;/p>
+&lt;ol>
+&lt;li>Project, That is a final report that includes code.&lt;/li>
+&lt;li>Report, that is a final project without code.&lt;/li>
+&lt;/ol>
+&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
+at the beginning of your project.&lt;/p>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
+&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
+&lt;ol>
+&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
+&lt;li>When using bulleted lists use * and not -&lt;/li>
+&lt;/ol>
+&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
+&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-368/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-368/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-368/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-368/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Yohn Jairo Parra Bautista, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-368">su21-reu-368&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-368/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Do not include this tip in your document:&lt;/p>
+&lt;blockquote>
+&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Here comes a convincing introduction to the problem&lt;/p>
+&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
+&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
+set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
+bound into cybertraining.&lt;/p>
+&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
+&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
+Thus the following is wrong:&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+This author does ignore proper markdown while not using empty lines between context changes
+1. This is because this author ignors all best practices
+&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+We do not ignore proper markdown while using empty lines between context changes
+1. This is because we encourage best practices to cause issues.
+&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
+&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
+We will not review any document that does not pass this check.&lt;/p>
+&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
+&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
+comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
+&lt;ol>
+&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
+&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
+&lt;/ol>
+&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
+&lt;p>You have two choices for the final project.&lt;/p>
+&lt;ol>
+&lt;li>Project, That is a final report that includes code.&lt;/li>
+&lt;li>Report, that is a final project without code.&lt;/li>
+&lt;/ol>
+&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
+at the beginning of your project.&lt;/p>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
+&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
+&lt;ol>
+&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
+&lt;li>When using bulleted lists use * and not -&lt;/li>
+&lt;/ol>
+&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
+&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Cervical Cancer Analysis</title><link>/report/su21-reu-369/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-369/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-369/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-369/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Theresa Jean-Baptistee, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-369">su21-reu-369&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-369/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-datasets">2. DataSets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-other-people-works">3. Other People Works&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
+&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
+set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
+bound into cybertraining.&lt;/p>
+&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
+&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
+Thus the following is wrong:&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+This author does ignore proper markdown while not using empty lines between context changes
+1. This is because this author ignors all best practices
+&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+We do not ignore proper markdown while using empty lines between context changes
+1. This is because we encourage best practices to cause issues.
+&lt;/code>&lt;/pre>&lt;h2 id="2-datasets">2. DataSets&lt;/h2>
+&lt;p>Description about my data sets&lt;/p>
+&lt;h2 id="3-other-people-works">3. Other People Works&lt;/h2>
+&lt;p>research of work others have done with the data set and what I have learned from that work.
+put a refrence in section #9 for each work i have found&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: Marine aninmal population analysis using AI</title><link>/report/su21-reu-370/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-370/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-370/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-370/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Timia Williams, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-370">su21-reu-370&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-370/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Do not include this tip in your document:&lt;/p>
+&lt;blockquote>
+&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Here comes a convincing introduction to the problem&lt;/p>
+&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
+&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
+set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
+bound into cybertraining.&lt;/p>
+&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
+&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
+Thus the following is wrong:&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+This author does ignore proper markdown while not using empty lines between context changes
+1. This is because this author ignors all best practices
+&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+We do not ignore proper markdown while using empty lines between context changes
+1. This is because we encourage best practices to cause issues.
+&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
+&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
+We will not review any document that does not pass this check.&lt;/p>
+&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
+&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
+comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
+&lt;ol>
+&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
+&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
+&lt;/ol>
+&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
+&lt;p>You have two choices for the final project.&lt;/p>
+&lt;ol>
+&lt;li>Project, That is a final report that includes code.&lt;/li>
+&lt;li>Report, that is a final project without code.&lt;/li>
+&lt;/ol>
+&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
+at the beginning of your project.&lt;/p>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
+&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
+&lt;ol>
+&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
+&lt;li>When using bulleted lists use * and not -&lt;/li>
+&lt;/ol>
+&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
+&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-371/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-371/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-371/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-371/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Firstname Lastname, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-371">su21-reu-371&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-371/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Do not include this tip in your document:&lt;/p>
+&lt;blockquote>
+&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Here comes a convincing introduction to the problem&lt;/p>
+&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
+&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
+set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
+bound into cybertraining.&lt;/p>
+&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
+&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
+Thus the following is wrong:&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+This author does ignore proper markdown while not using empty lines between context changes
+1. This is because this author ignors all best practices
+&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+We do not ignore proper markdown while using empty lines between context changes
+1. This is because we encourage best practices to cause issues.
+&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
+&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
+We will not review any document that does not pass this check.&lt;/p>
+&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
+&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
+comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
+&lt;ol>
+&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
+&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
+&lt;/ol>
+&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
+&lt;p>You have two choices for the final project.&lt;/p>
+&lt;ol>
+&lt;li>Project, That is a final report that includes code.&lt;/li>
+&lt;li>Report, that is a final project without code.&lt;/li>
+&lt;/ol>
+&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
+at the beginning of your project.&lt;/p>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
+&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
+&lt;ol>
+&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
+&lt;li>When using bulleted lists use * and not -&lt;/li>
+&lt;/ol>
+&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
+&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: Analysing Images</title><link>/report/su21-reu-372/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-372/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-372/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-372/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Sheimy Paz, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-372">su21-reu-372&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-372/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Do not include this tip in your document:&lt;/p>
+&lt;blockquote>
+&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Here comes a convincing introduction to the problem&lt;/p>
+&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
+&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
+set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
+bound into cybertraining.&lt;/p>
+&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
+&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
+Thus the following is wrong:&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+This author does ignore proper markdown while not using empty lines between context changes
+1. This is because this author ignors all best practices
+&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+We do not ignore proper markdown while using empty lines between context changes
+1. This is because we encourage best practices to cause issues.
+&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
+&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
+We will not review any document that does not pass this check.&lt;/p>
+&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
+&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
+comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
+&lt;ol>
+&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
+&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
+&lt;/ol>
+&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
+&lt;p>You have two choices for the final project.&lt;/p>
+&lt;ol>
+&lt;li>Project, That is a final report that includes code.&lt;/li>
+&lt;li>Report, that is a final project without code.&lt;/li>
+&lt;/ol>
+&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
+at the beginning of your project.&lt;/p>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
+&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
+&lt;ol>
+&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
+&lt;li>When using bulleted lists use * and not -&lt;/li>
+&lt;/ol>
+&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
+&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-373/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-373/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-373/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-373/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Firstname Lastname, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-373">su21-reu-373&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-373/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Do not include this tip in your document:&lt;/p>
+&lt;blockquote>
+&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Here comes a convincing introduction to the problem&lt;/p>
+&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
+&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
+set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
+bound into cybertraining.&lt;/p>
+&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
+&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
+Thus the following is wrong:&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+This author does ignore proper markdown while not using empty lines between context changes
+1. This is because this author ignors all best practices
+&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+We do not ignore proper markdown while using empty lines between context changes
+1. This is because we encourage best practices to cause issues.
+&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
+&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
+We will not review any document that does not pass this check.&lt;/p>
+&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
+&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
+comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
+&lt;ol>
+&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
+&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
+&lt;/ol>
+&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
+&lt;p>You have two choices for the final project.&lt;/p>
+&lt;ol>
+&lt;li>Project, That is a final report that includes code.&lt;/li>
+&lt;li>Report, that is a final project without code.&lt;/li>
+&lt;/ol>
+&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
+at the beginning of your project.&lt;/p>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
+&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
+&lt;ol>
+&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
+&lt;li>When using bulleted lists use * and not -&lt;/li>
+&lt;/ol>
+&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
+&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Motion Prediction For Autonomous Vehicles</title><link>/report/su21-reu-374/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-374/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Victor Adankai, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374">su21-reu-374&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Do not include this tip in your document:&lt;/p>
+&lt;blockquote>
+&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Here comes a convincing introduction to the problem&lt;/p>
+&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
+&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
+set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
+bound into cybertraining.&lt;/p>
+&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
+&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
+Thus the following is wrong:&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+This author does ignore proper markdown while not using empty lines between context changes
+1. This is because this author ignors all best practices
+&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+We do not ignore proper markdown while using empty lines between context changes
+1. This is because we encourage best practices to cause issues.
+&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
+&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
+We will not review any document that does not pass this check.&lt;/p>
+&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
+&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
+comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
+&lt;ol>
+&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
+&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
+&lt;/ol>
+&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
+&lt;p>You have two choices for the final project.&lt;/p>
+&lt;ol>
+&lt;li>Project, That is a final report that includes code.&lt;/li>
+&lt;li>Report, that is a final project without code.&lt;/li>
+&lt;/ol>
+&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
+at the beginning of your project.&lt;/p>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
+&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
+&lt;ol>
+&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
+&lt;li>When using bulleted lists use * and not -&lt;/li>
+&lt;/ol>
+&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
+&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-375/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-375/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-375/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-375/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Firstname Lastname, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-375">su21-reu-375&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-375/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Do not include this tip in your document:&lt;/p>
+&lt;blockquote>
+&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Here comes a convincing introduction to the problem&lt;/p>
+&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
+&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
+set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
+bound into cybertraining.&lt;/p>
+&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
+&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
+Thus the following is wrong:&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+This author does ignore proper markdown while not using empty lines between context changes
+1. This is because this author ignors all best practices
+&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+We do not ignore proper markdown while using empty lines between context changes
+1. This is because we encourage best practices to cause issues.
+&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
+&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
+We will not review any document that does not pass this check.&lt;/p>
+&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
+&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
+comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
+&lt;ol>
+&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
+&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
+&lt;/ol>
+&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
+&lt;p>You have two choices for the final project.&lt;/p>
+&lt;ol>
+&lt;li>Project, That is a final report that includes code.&lt;/li>
+&lt;li>Report, that is a final project without code.&lt;/li>
+&lt;/ol>
+&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
+at the beginning of your project.&lt;/p>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
+&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
+&lt;ol>
+&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
+&lt;li>When using bulleted lists use * and not -&lt;/li>
+&lt;/ol>
+&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
+&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-376/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-376/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Jamyla Young, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-376">su21-reu-376&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Do not include this tip in your document:&lt;/p>
+&lt;blockquote>
+&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Here comes a convincing introduction to the problem&lt;/p>
+&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
+&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
+set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
+bound into cybertraining.&lt;/p>
+&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
+&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
+Thus the following is wrong:&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+This author does ignore proper markdown while not using empty lines between context changes
+1. This is because this author ignors all best practices
+&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+We do not ignore proper markdown while using empty lines between context changes
+1. This is because we encourage best practices to cause issues.
+&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
+&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
+We will not review any document that does not pass this check.&lt;/p>
+&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
+&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
+comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
+&lt;ol>
+&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
+&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
+&lt;/ol>
+&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
+&lt;p>You have two choices for the final project.&lt;/p>
+&lt;ol>
+&lt;li>Project, That is a final report that includes code.&lt;/li>
+&lt;li>Report, that is a final project without code.&lt;/li>
+&lt;/ol>
+&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
+at the beginning of your project.&lt;/p>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
+&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
+&lt;ol>
+&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
+&lt;li>When using bulleted lists use * and not -&lt;/li>
+&lt;/ol>
+&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
+&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-377/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-377/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-377/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-377/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>RonDaisja Dunn, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-377">su21-reu-377&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-377/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Do not include this tip in your document:&lt;/p>
+&lt;blockquote>
+&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Here comes a convincing introduction to the problem&lt;/p>
+&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
+&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
+set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
+bound into cybertraining.&lt;/p>
+&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
+&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
+Thus the following is wrong:&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+This author does ignore proper markdown while not using empty lines between context changes
+1. This is because this author ignors all best practices
+&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+We do not ignore proper markdown while using empty lines between context changes
+1. This is because we encourage best practices to cause issues.
+&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
+&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
+We will not review any document that does not pass this check.&lt;/p>
+&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
+&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
+comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
+&lt;ol>
+&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
+&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
+&lt;/ol>
+&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
+&lt;p>You have two choices for the final project.&lt;/p>
+&lt;ol>
+&lt;li>Project, That is a final report that includes code.&lt;/li>
+&lt;li>Report, that is a final project without code.&lt;/li>
+&lt;/ol>
+&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
+at the beginning of your project.&lt;/p>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
+&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
+&lt;ol>
+&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
+&lt;li>When using bulleted lists use * and not -&lt;/li>
+&lt;/ol>
+&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
+&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Tutorial on Installing Visual Studio Code</title><link>/report/su21-reu-361/tutorials/visual-studio-code/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/tutorials/visual-studio-code/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>How to install Visual Studio Code&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#install">Install&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> visual-studio-code&lt;/p>
+&lt;h2 id="install">Install&lt;/h2>
+&lt;p>Navigate to Visual Studio Code download page&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/UtwCUNCYR0s" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div></description></item><item><title>Report: Project: Object Recognition</title><link>/report/su21-reu-364/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-364/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-364/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-364/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: final, Type: Project&lt;/p>
+&lt;p>David Umanzor, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-364">su21-reu-364&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-364/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#22-paste-copy-from-word-or-other-editors-is-a-disaster">2.2. Paste Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Do not include this tip in your document:&lt;/p>
+&lt;blockquote>
+&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Here comes a convincing introduction to the problem&lt;/p>
+&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
+&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
+set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
+bound into cybertraining.&lt;/p>
+&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
+&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
+Thus the following is wrong:&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+This author does ignore proper markdown while not using empty lines between context changes
+1. This is because this author ignors all best practices
+&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+We do not ignore proper markdown while using empty lines between context changes
+1. This is because we encourage best practices to cause issues.
+&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
+&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
+We will not review any document that does not pass this check.&lt;/p>
+&lt;h2 id="22-paste-copy-from-word-or-other-editors-is-a-disaster">2.2. Paste Copy from Word or other Editors is a Disaster!&lt;/h2>
+&lt;p>We recommend that you use a proper that is integrated with GitHub or you use the commandline tools. We may include
+comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
+&lt;ol>
+&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
+&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
+&lt;/ol>
+&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
+&lt;p>You have two choices for the final project.&lt;/p>
+&lt;ol>
+&lt;li>Project, That is a final report that includes code.&lt;/li>
+&lt;li>Report, that is a final project without code.&lt;/li>
+&lt;/ol>
+&lt;p>You will be including the type of the project as a prefix to your title, as well as in the Type tag
+at the beginning of your project.&lt;/p>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
+&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
+&lt;ol>
+&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
+&lt;li>When using bulleted lists use * and not -&lt;/li>
+&lt;/ol>
+&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
+&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item></channel></rss>
