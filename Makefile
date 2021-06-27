@@ -29,7 +29,7 @@ reu-add:
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-364.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-365.git
 
-add:
+add: reu-add
 	#cd content/en/report; git submodule add git@github.com:cloudmesh/cloudmesh-openapi.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/fa20-523-301.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/fa20-523-302.git
@@ -75,7 +75,7 @@ add:
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/sp21-599-357.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/sp21-599-358.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/sp21-599-359.git
-	#cd content/en/report; git submodule add git@github.com:cybertraining-dsc/hid-example.git
+	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/hid-example.git
 
 pull-reu:
 	git pull
