@@ -246,6 +246,26 @@ Slides: Motivation for the REU: Data is Driven Everything
 
 {{< /view_module >}}
 
+{{< view_module
+	alt="Slides: Descriptive Statistic"
+	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
+	url="https://drive.google.com/file/d/1wbg1W5mVgObBhYkY76j9E7Q66VKyRmLL/view?usp=sharing"
+	>}}
+Slides:  Descriptive Statistic
+
+{{< /view_module >}}
+
+{{< view_module
+	alt="Slides: Probability"
+	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
+	url="https://drive.google.com/file/d/1hgcN2VHcezc3lPHQfCOyUc_409OFcKbd/view?usp=sharing"
+	>}}
+Slides:  Probability
+
+{{< /view_module >}}
+
+
+
 ## Data Science Tools
 
 {{< view_module
