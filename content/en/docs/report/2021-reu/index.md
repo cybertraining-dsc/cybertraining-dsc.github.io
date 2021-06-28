@@ -76,8 +76,8 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="TBD"
-  hid="su21-reu-367" 
+  title="AI in Orthodontics"
+  hid="su21-reu-363" 
   author="Whitney McNair"
   %}}
 
@@ -150,7 +150,7 @@ REU 2021.
 
 
 * {{% addprojectreport
-  title="TBD"
+  title="AI and Dentronics"
   hid="su21-reu-376"
   author="Jamyla Young"
   %}}
