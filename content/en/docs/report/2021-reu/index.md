@@ -52,7 +52,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="TBD"
+  title="Object Recognition"
   author="David Umanzor"
   hid= "su21-reu-364"
   %}}
