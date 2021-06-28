@@ -101,7 +101,7 @@ Best practices in Python recommend to use a Python venv. This is pretty easy to 
 	url="https://famu.zoom.us/rec/share/7LK71gUPMdvpH-7J0zITciuLpp7P38Ic8gQ3r42VeNFzBy52fQHdLyK0NUuYrynY.tgx5aNXykyAipzFt"
 >}}
 
-Jupyter Notebooks
+In this lecture we provide a video that introduces you to Jupyter Notebooks.
 
 {{< /view_module >}}
 
