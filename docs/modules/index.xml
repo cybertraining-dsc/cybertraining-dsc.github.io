@@ -1,0 +1,3673 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – Modules</title><link>/docs/modules/</link><description>Recent content in Modules on Cybertraining</description><generator>Hugo -- gohugo.io</generator><atom:link href="/docs/modules/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Contributors</title><link>/docs/modules/contrib/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/contrib/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>A partial list of contributors.&lt;/p>
+&lt;/div>
+&lt;h2 id="list-of-contributors">List of contributors&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>HID&lt;/th>
+&lt;th>Lastname&lt;/th>
+&lt;th>Firstname&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-423-02">fa18-423-02&lt;/a>&lt;/td>
+&lt;td>Liuwie&lt;/td>
+&lt;td>Kelvin&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-423-03">fa18-423-03&lt;/a>&lt;/td>
+&lt;td>Tamhankar&lt;/td>
+&lt;td>Omkar&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-423-05">fa18-423-05&lt;/a>&lt;/td>
+&lt;td>Hu&lt;/td>
+&lt;td>Yixing&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-423-06">fa18-423-06&lt;/a>&lt;/td>
+&lt;td>Mick&lt;/td>
+&lt;td>Chandler&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-423-07">fa18-423-07&lt;/a>&lt;/td>
+&lt;td>Gillum&lt;/td>
+&lt;td>Michael&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-423-08">fa18-423-08&lt;/a>&lt;/td>
+&lt;td>Zhao&lt;/td>
+&lt;td>Yuli&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-516-01">fa18-516-01&lt;/a>&lt;/td>
+&lt;td>Angelier&lt;/td>
+&lt;td>Mario&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-516-02">fa18-516-02&lt;/a>&lt;/td>
+&lt;td>Barshikar&lt;/td>
+&lt;td>Vineet&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-516-03">fa18-516-03&lt;/a>&lt;/td>
+&lt;td>Branam&lt;/td>
+&lt;td>Jonathan&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-516-04">fa18-516-04&lt;/a>&lt;/td>
+&lt;td>Demeulenaere&lt;/td>
+&lt;td>David&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-516-06">fa18-516-06&lt;/a>&lt;/td>
+&lt;td>Filliman&lt;/td>
+&lt;td>Paul&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-516-08">fa18-516-08&lt;/a>&lt;/td>
+&lt;td>Joshi&lt;/td>
+&lt;td>Varun&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-516-10">fa18-516-10&lt;/a>&lt;/td>
+&lt;td>Li&lt;/td>
+&lt;td>Rui&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-516-11">fa18-516-11&lt;/a>&lt;/td>
+&lt;td>Cheruvu&lt;/td>
+&lt;td>Murali&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-516-12">fa18-516-12&lt;/a>&lt;/td>
+&lt;td>Luo&lt;/td>
+&lt;td>Yu&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-516-14">fa18-516-14&lt;/a>&lt;/td>
+&lt;td>Manipon&lt;/td>
+&lt;td>Gerald&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-516-17">fa18-516-17&lt;/a>&lt;/td>
+&lt;td>Pope&lt;/td>
+&lt;td>Brad&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-516-18">fa18-516-18&lt;/a>&lt;/td>
+&lt;td>Rastogi&lt;/td>
+&lt;td>Richa&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-516-19">fa18-516-19&lt;/a>&lt;/td>
+&lt;td>Rutledge&lt;/td>
+&lt;td>De&amp;rsquo;Angelo&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-516-21">fa18-516-21&lt;/a>&lt;/td>
+&lt;td>Shanishchara&lt;/td>
+&lt;td>Mihir&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-516-22">fa18-516-22&lt;/a>&lt;/td>
+&lt;td>Sims&lt;/td>
+&lt;td>Ian&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-516-23">fa18-516-23&lt;/a>&lt;/td>
+&lt;td>Sriramulu&lt;/td>
+&lt;td>Anand&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-516-24">fa18-516-24&lt;/a>&lt;/td>
+&lt;td>Withana&lt;/td>
+&lt;td>Sachith&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-516-25">fa18-516-25&lt;/a>&lt;/td>
+&lt;td>Wu&lt;/td>
+&lt;td>Chun Sheng&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-516-26">fa18-516-26&lt;/a>&lt;/td>
+&lt;td>Andalibi&lt;/td>
+&lt;td>Vafa&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-516-29">fa18-516-29&lt;/a>&lt;/td>
+&lt;td>Singh&lt;/td>
+&lt;td>Shilpa&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-516-30">fa18-516-30&lt;/a>&lt;/td>
+&lt;td>Kamau&lt;/td>
+&lt;td>Alexander&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-516-31">fa18-516-31&lt;/a>&lt;/td>
+&lt;td>Spell&lt;/td>
+&lt;td>Jordan&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-52">fa18-523-52&lt;/a>&lt;/td>
+&lt;td>Heine&lt;/td>
+&lt;td>Anna&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-53">fa18-523-53&lt;/a>&lt;/td>
+&lt;td>Kakarala&lt;/td>
+&lt;td>Chaitanya&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-56">fa18-523-56&lt;/a>&lt;/td>
+&lt;td>Hinders&lt;/td>
+&lt;td>Daniel&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-57">fa18-523-57&lt;/a>&lt;/td>
+&lt;td>Rajendran&lt;/td>
+&lt;td>Divya&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-58">fa18-523-58&lt;/a>&lt;/td>
+&lt;td>Duvvuri&lt;/td>
+&lt;td>Venkata Pramod Kumar&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-59">fa18-523-59&lt;/a>&lt;/td>
+&lt;td>Bhutka&lt;/td>
+&lt;td>Jatinkumar&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-60">fa18-523-60&lt;/a>&lt;/td>
+&lt;td>Fetko&lt;/td>
+&lt;td>Izolda&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-61">fa18-523-61&lt;/a>&lt;/td>
+&lt;td>Stockwell&lt;/td>
+&lt;td>Jay&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-62">fa18-523-62&lt;/a>&lt;/td>
+&lt;td>Bahl&lt;/td>
+&lt;td>Manek&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-63">fa18-523-63&lt;/a>&lt;/td>
+&lt;td>Miller&lt;/td>
+&lt;td>Mark&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-64">fa18-523-64&lt;/a>&lt;/td>
+&lt;td>Tupe&lt;/td>
+&lt;td>Nishad&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-65">fa18-523-65&lt;/a>&lt;/td>
+&lt;td>Patil&lt;/td>
+&lt;td>Prajakta&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-66">fa18-523-66&lt;/a>&lt;/td>
+&lt;td>Sanjay&lt;/td>
+&lt;td>Ritu&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-67">fa18-523-67&lt;/a>&lt;/td>
+&lt;td>Sridhar&lt;/td>
+&lt;td>Sahithya&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-68">fa18-523-68&lt;/a>&lt;/td>
+&lt;td>AKKAS&lt;/td>
+&lt;td>Selahattin&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-69">fa18-523-69&lt;/a>&lt;/td>
+&lt;td>Rai&lt;/td>
+&lt;td>Sohan&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-70">fa18-523-70&lt;/a>&lt;/td>
+&lt;td>Dash&lt;/td>
+&lt;td>Sushmita&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-71">fa18-523-71&lt;/a>&lt;/td>
+&lt;td>Kota&lt;/td>
+&lt;td>Uma Bhargavi&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-72">fa18-523-72&lt;/a>&lt;/td>
+&lt;td>Bhoyar&lt;/td>
+&lt;td>Vishal&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-73">fa18-523-73&lt;/a>&lt;/td>
+&lt;td>Tong&lt;/td>
+&lt;td>Wang&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-74">fa18-523-74&lt;/a>&lt;/td>
+&lt;td>Ma&lt;/td>
+&lt;td>Yeyi&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-79">fa18-523-79&lt;/a>&lt;/td>
+&lt;td>Rapelli&lt;/td>
+&lt;td>Abhishek&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-80">fa18-523-80&lt;/a>&lt;/td>
+&lt;td>Beall&lt;/td>
+&lt;td>Evan&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-81">fa18-523-81&lt;/a>&lt;/td>
+&lt;td>Putti&lt;/td>
+&lt;td>Harika&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-82">fa18-523-82&lt;/a>&lt;/td>
+&lt;td>Madineni&lt;/td>
+&lt;td>Pavan Kumar&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-83">fa18-523-83&lt;/a>&lt;/td>
+&lt;td>Tran&lt;/td>
+&lt;td>Nhi&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-84">fa18-523-84&lt;/a>&lt;/td>
+&lt;td>Hilgenkamp&lt;/td>
+&lt;td>Adam&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-85">fa18-523-85&lt;/a>&lt;/td>
+&lt;td>Li&lt;/td>
+&lt;td>Bo&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-86">fa18-523-86&lt;/a>&lt;/td>
+&lt;td>Liu&lt;/td>
+&lt;td>Jeff&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa18-523-88">fa18-523-88&lt;/a>&lt;/td>
+&lt;td>Leite&lt;/td>
+&lt;td>John&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-140">fa19-516-140&lt;/a>&lt;/td>
+&lt;td>Abdelgader&lt;/td>
+&lt;td>Mohamed&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-141">fa19-516-141&lt;/a>&lt;/td>
+&lt;td>(Bala)&lt;/td>
+&lt;td>Balakrishna Katuru&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-142">fa19-516-142&lt;/a>&lt;/td>
+&lt;td>Martel&lt;/td>
+&lt;td>Tran&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-143">fa19-516-143&lt;/a>&lt;/td>
+&lt;td>Sanders&lt;/td>
+&lt;td>Sheri&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-144">fa19-516-144&lt;/a>&lt;/td>
+&lt;td>Holland&lt;/td>
+&lt;td>Andrew&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-145">fa19-516-145&lt;/a>&lt;/td>
+&lt;td>Kumar&lt;/td>
+&lt;td>Anurag&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-146">fa19-516-146&lt;/a>&lt;/td>
+&lt;td>Jones&lt;/td>
+&lt;td>Kenneth&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-147">fa19-516-147&lt;/a>&lt;/td>
+&lt;td>Upadhyay&lt;/td>
+&lt;td>Harsha&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-148">fa19-516-148&lt;/a>&lt;/td>
+&lt;td>Raizada&lt;/td>
+&lt;td>Sub&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-149">fa19-516-149&lt;/a>&lt;/td>
+&lt;td>Modi&lt;/td>
+&lt;td>Hely&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-150">fa19-516-150&lt;/a>&lt;/td>
+&lt;td>Kowshi&lt;/td>
+&lt;td>Akshay&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-151">fa19-516-151&lt;/a>&lt;/td>
+&lt;td>Liu&lt;/td>
+&lt;td>Qiwei&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-152">fa19-516-152&lt;/a>&lt;/td>
+&lt;td>Pagadala&lt;/td>
+&lt;td>Pratibha Madharapakkam&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-153">fa19-516-153&lt;/a>&lt;/td>
+&lt;td>Mirjankar&lt;/td>
+&lt;td>Anish&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-154">fa19-516-154&lt;/a>&lt;/td>
+&lt;td>Shah&lt;/td>
+&lt;td>Aneri&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-155">fa19-516-155&lt;/a>&lt;/td>
+&lt;td>Pimparkar&lt;/td>
+&lt;td>Ketan&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-156">fa19-516-156&lt;/a>&lt;/td>
+&lt;td>Nagarajan&lt;/td>
+&lt;td>Manikandan&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-157">fa19-516-157&lt;/a>&lt;/td>
+&lt;td>Wang&lt;/td>
+&lt;td>Chenxu&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-158">fa19-516-158&lt;/a>&lt;/td>
+&lt;td>Dayanand&lt;/td>
+&lt;td>Daivik&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-159">fa19-516-159&lt;/a>&lt;/td>
+&lt;td>Zebrowski&lt;/td>
+&lt;td>Austin&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-160">fa19-516-160&lt;/a>&lt;/td>
+&lt;td>Jain&lt;/td>
+&lt;td>Shreyans&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-161">fa19-516-161&lt;/a>&lt;/td>
+&lt;td>Nelson&lt;/td>
+&lt;td>Jim&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-162">fa19-516-162&lt;/a>&lt;/td>
+&lt;td>Katukota&lt;/td>
+&lt;td>Shivani&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-163">fa19-516-163&lt;/a>&lt;/td>
+&lt;td>Hoerr&lt;/td>
+&lt;td>John&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-164">fa19-516-164&lt;/a>&lt;/td>
+&lt;td>Mirjankar&lt;/td>
+&lt;td>Siddhesh&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-165">fa19-516-165&lt;/a>&lt;/td>
+&lt;td>Wang&lt;/td>
+&lt;td>Zhi&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-166">fa19-516-166&lt;/a>&lt;/td>
+&lt;td>Funk&lt;/td>
+&lt;td>Brian&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-167">fa19-516-167&lt;/a>&lt;/td>
+&lt;td>Screen&lt;/td>
+&lt;td>William&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-168">fa19-516-168&lt;/a>&lt;/td>
+&lt;td>Deopura&lt;/td>
+&lt;td>Deepak&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-169">fa19-516-169&lt;/a>&lt;/td>
+&lt;td>Pandit&lt;/td>
+&lt;td>Harshawardhan&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-170">fa19-516-170&lt;/a>&lt;/td>
+&lt;td>Wan&lt;/td>
+&lt;td>Yanting&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-171">fa19-516-171&lt;/a>&lt;/td>
+&lt;td>Kandimalla&lt;/td>
+&lt;td>Jagadeesh&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-172">fa19-516-172&lt;/a>&lt;/td>
+&lt;td>Shaik&lt;/td>
+&lt;td>Nayeemullah Baig&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-173">fa19-516-173&lt;/a>&lt;/td>
+&lt;td>Yadav&lt;/td>
+&lt;td>Brijesh&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-516-174">fa19-516-174&lt;/a>&lt;/td>
+&lt;td>Ancha&lt;/td>
+&lt;td>Sahithi&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-180">fa19-523-180&lt;/a>&lt;/td>
+&lt;td>Grant&lt;/td>
+&lt;td>Jonathon&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-181">fa19-523-181&lt;/a>&lt;/td>
+&lt;td>Falkenstein&lt;/td>
+&lt;td>Max&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-182">fa19-523-182&lt;/a>&lt;/td>
+&lt;td>Siddiqui&lt;/td>
+&lt;td>Zak&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-183">fa19-523-183&lt;/a>&lt;/td>
+&lt;td>Creech&lt;/td>
+&lt;td>Brent&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-184">fa19-523-184&lt;/a>&lt;/td>
+&lt;td>Floreak&lt;/td>
+&lt;td>Michael&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-186">fa19-523-186&lt;/a>&lt;/td>
+&lt;td>Park&lt;/td>
+&lt;td>Soowon&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-187">fa19-523-187&lt;/a>&lt;/td>
+&lt;td>Fang&lt;/td>
+&lt;td>Chris&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-188">fa19-523-188&lt;/a>&lt;/td>
+&lt;td>Katukota&lt;/td>
+&lt;td>Shivani&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-189">fa19-523-189&lt;/a>&lt;/td>
+&lt;td>Wang&lt;/td>
+&lt;td>Huizhou&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-190">fa19-523-190&lt;/a>&lt;/td>
+&lt;td>Konger&lt;/td>
+&lt;td>Skyler&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-191">fa19-523-191&lt;/a>&lt;/td>
+&lt;td>Tao&lt;/td>
+&lt;td>Yiyu&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-192">fa19-523-192&lt;/a>&lt;/td>
+&lt;td>Kim&lt;/td>
+&lt;td>Jihoon&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-193">fa19-523-193&lt;/a>&lt;/td>
+&lt;td>Sung&lt;/td>
+&lt;td>Lin-Fei&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-194">fa19-523-194&lt;/a>&lt;/td>
+&lt;td>Minton&lt;/td>
+&lt;td>Ashley&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-195">fa19-523-195&lt;/a>&lt;/td>
+&lt;td>Gan&lt;/td>
+&lt;td>Kang Jie&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-196">fa19-523-196&lt;/a>&lt;/td>
+&lt;td>Zhang&lt;/td>
+&lt;td>Xinzhuo&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-198">fa19-523-198&lt;/a>&lt;/td>
+&lt;td>Matthys&lt;/td>
+&lt;td>Dominic&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-199">fa19-523-199&lt;/a>&lt;/td>
+&lt;td>Gupta&lt;/td>
+&lt;td>Lakshya&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-200">fa19-523-200&lt;/a>&lt;/td>
+&lt;td>Chaudhari&lt;/td>
+&lt;td>Naimesh&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-201">fa19-523-201&lt;/a>&lt;/td>
+&lt;td>Bohlander&lt;/td>
+&lt;td>Ross&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-202">fa19-523-202&lt;/a>&lt;/td>
+&lt;td>Liu&lt;/td>
+&lt;td>Limeng&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-203">fa19-523-203&lt;/a>&lt;/td>
+&lt;td>Yoo&lt;/td>
+&lt;td>Jisang&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-204">fa19-523-204&lt;/a>&lt;/td>
+&lt;td>Dingman&lt;/td>
+&lt;td>Andrew&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-205">fa19-523-205&lt;/a>&lt;/td>
+&lt;td>Palani&lt;/td>
+&lt;td>Senthil&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-206">fa19-523-206&lt;/a>&lt;/td>
+&lt;td>Arivukadal&lt;/td>
+&lt;td>Lenin&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-207">fa19-523-207&lt;/a>&lt;/td>
+&lt;td>Chadderwala&lt;/td>
+&lt;td>Nihir&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-208">fa19-523-208&lt;/a>&lt;/td>
+&lt;td>Natarajan&lt;/td>
+&lt;td>Saravanan&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-209">fa19-523-209&lt;/a>&lt;/td>
+&lt;td>Kirgiz&lt;/td>
+&lt;td>Asya&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-210">fa19-523-210&lt;/a>&lt;/td>
+&lt;td>Han&lt;/td>
+&lt;td>Matthew&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-211">fa19-523-211&lt;/a>&lt;/td>
+&lt;td>Chiang&lt;/td>
+&lt;td>Yu-Hsi&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-212">fa19-523-212&lt;/a>&lt;/td>
+&lt;td>Clemons&lt;/td>
+&lt;td>Josiah&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-213">fa19-523-213&lt;/a>&lt;/td>
+&lt;td>Hu&lt;/td>
+&lt;td>Die&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-214">fa19-523-214&lt;/a>&lt;/td>
+&lt;td>Liu&lt;/td>
+&lt;td>Yihan&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-215">fa19-523-215&lt;/a>&lt;/td>
+&lt;td>Farris&lt;/td>
+&lt;td>Chris&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/fa19-523-216">fa19-523-216&lt;/a>&lt;/td>
+&lt;td>Kasem&lt;/td>
+&lt;td>Jamal&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-201">hid-sp18-201&lt;/a>&lt;/td>
+&lt;td>Ali&lt;/td>
+&lt;td>Sohile&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-202">hid-sp18-202&lt;/a>&lt;/td>
+&lt;td>Cantor&lt;/td>
+&lt;td>Gabrielle&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-203">hid-sp18-203&lt;/a>&lt;/td>
+&lt;td>Clarke&lt;/td>
+&lt;td>Jack&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-204">hid-sp18-204&lt;/a>&lt;/td>
+&lt;td>Gruenberg&lt;/td>
+&lt;td>Maxwell&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-205">hid-sp18-205&lt;/a>&lt;/td>
+&lt;td>Krzesniak&lt;/td>
+&lt;td>Jonathan&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-206">hid-sp18-206&lt;/a>&lt;/td>
+&lt;td>Mhatre&lt;/td>
+&lt;td>Krish Hemant&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-207">hid-sp18-207&lt;/a>&lt;/td>
+&lt;td>Phillips&lt;/td>
+&lt;td>Eli&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-208">hid-sp18-208&lt;/a>&lt;/td>
+&lt;td>Fanbo&lt;/td>
+&lt;td>Sun&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-209">hid-sp18-209&lt;/a>&lt;/td>
+&lt;td>Tugman&lt;/td>
+&lt;td>Anthony&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-210">hid-sp18-210&lt;/a>&lt;/td>
+&lt;td>Whelan&lt;/td>
+&lt;td>Aidan&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-401">hid-sp18-401&lt;/a>&lt;/td>
+&lt;td>Arra&lt;/td>
+&lt;td>Goutham&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-402">hid-sp18-402&lt;/a>&lt;/td>
+&lt;td>Athaley&lt;/td>
+&lt;td>Sushant&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-403">hid-sp18-403&lt;/a>&lt;/td>
+&lt;td>Axthelm&lt;/td>
+&lt;td>Alexander&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-404">hid-sp18-404&lt;/a>&lt;/td>
+&lt;td>Carmickle&lt;/td>
+&lt;td>Rick&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-405">hid-sp18-405&lt;/a>&lt;/td>
+&lt;td>Chen&lt;/td>
+&lt;td>Min&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-406">hid-sp18-406&lt;/a>&lt;/td>
+&lt;td>Dasegowda&lt;/td>
+&lt;td>Ramyashree&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-407">hid-sp18-407&lt;/a>&lt;/td>
+&lt;td>Keith&lt;/td>
+&lt;td>Hickman&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-408">hid-sp18-408&lt;/a>&lt;/td>
+&lt;td>Joshi&lt;/td>
+&lt;td>Manoj&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-409">hid-sp18-409&lt;/a>&lt;/td>
+&lt;td>Kadupitige&lt;/td>
+&lt;td>Kadupitiya&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-410">hid-sp18-410&lt;/a>&lt;/td>
+&lt;td>Kamatgi&lt;/td>
+&lt;td>Karan&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-411">hid-sp18-411&lt;/a>&lt;/td>
+&lt;td>Kaveripakam&lt;/td>
+&lt;td>Venkatesh Aditya&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-412">hid-sp18-412&lt;/a>&lt;/td>
+&lt;td>Kotabagi&lt;/td>
+&lt;td>Karan&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-413">hid-sp18-413&lt;/a>&lt;/td>
+&lt;td>Lavania&lt;/td>
+&lt;td>Anubhav&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-414">hid-sp18-414&lt;/a>&lt;/td>
+&lt;td>Joao&lt;/td>
+&lt;td>Leite&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-415">hid-sp18-415&lt;/a>&lt;/td>
+&lt;td>Mudvari&lt;/td>
+&lt;td>Janaki&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-416">hid-sp18-416&lt;/a>&lt;/td>
+&lt;td>Sabra&lt;/td>
+&lt;td>Ossen&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-417">hid-sp18-417&lt;/a>&lt;/td>
+&lt;td>Ray&lt;/td>
+&lt;td>Rashmi&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-418">hid-sp18-418&lt;/a>&lt;/td>
+&lt;td>Surya&lt;/td>
+&lt;td>Sekar&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-419">hid-sp18-419&lt;/a>&lt;/td>
+&lt;td>Sobolik&lt;/td>
+&lt;td>Bertholt&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-420">hid-sp18-420&lt;/a>&lt;/td>
+&lt;td>Swarnima&lt;/td>
+&lt;td>Sowani&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-421">hid-sp18-421&lt;/a>&lt;/td>
+&lt;td>Vijjigiri&lt;/td>
+&lt;td>Priyadarshini&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-501">hid-sp18-501&lt;/a>&lt;/td>
+&lt;td>Agunbiade&lt;/td>
+&lt;td>Tolu&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-502">hid-sp18-502&lt;/a>&lt;/td>
+&lt;td>Alshi&lt;/td>
+&lt;td>Ankita&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-503">hid-sp18-503&lt;/a>&lt;/td>
+&lt;td>Arnav&lt;/td>
+&lt;td>Arnav&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-504">hid-sp18-504&lt;/a>&lt;/td>
+&lt;td>Arshad&lt;/td>
+&lt;td>Moeen&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-505">hid-sp18-505&lt;/a>&lt;/td>
+&lt;td>Cate&lt;/td>
+&lt;td>Averill&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-506">hid-sp18-506&lt;/a>&lt;/td>
+&lt;td>Esteban&lt;/td>
+&lt;td>Orly&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-507">hid-sp18-507&lt;/a>&lt;/td>
+&lt;td>Giuliani&lt;/td>
+&lt;td>Stephen&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-508">hid-sp18-508&lt;/a>&lt;/td>
+&lt;td>Guo&lt;/td>
+&lt;td>Yue&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-509">hid-sp18-509&lt;/a>&lt;/td>
+&lt;td>Irey&lt;/td>
+&lt;td>Ryan&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-510">hid-sp18-510&lt;/a>&lt;/td>
+&lt;td>Kaul&lt;/td>
+&lt;td>Naveen&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-511">hid-sp18-511&lt;/a>&lt;/td>
+&lt;td>Khandelwal&lt;/td>
+&lt;td>Sandeep Kumar&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-512">hid-sp18-512&lt;/a>&lt;/td>
+&lt;td>Kikaya&lt;/td>
+&lt;td>Felix&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-513">hid-sp18-513&lt;/a>&lt;/td>
+&lt;td>Kugan&lt;/td>
+&lt;td>Uma&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-514">hid-sp18-514&lt;/a>&lt;/td>
+&lt;td>Lambadi&lt;/td>
+&lt;td>Ravinder&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-515">hid-sp18-515&lt;/a>&lt;/td>
+&lt;td>Lin&lt;/td>
+&lt;td>Qingyun&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-516">hid-sp18-516&lt;/a>&lt;/td>
+&lt;td>Pathan&lt;/td>
+&lt;td>Shagufta&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-517">hid-sp18-517&lt;/a>&lt;/td>
+&lt;td>Pitkar&lt;/td>
+&lt;td>Harshad&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-518">hid-sp18-518&lt;/a>&lt;/td>
+&lt;td>Robinson&lt;/td>
+&lt;td>Michael&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-519">hid-sp18-519&lt;/a>&lt;/td>
+&lt;td>Saurabh&lt;/td>
+&lt;td>Shukla&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-520">hid-sp18-520&lt;/a>&lt;/td>
+&lt;td>Sinha&lt;/td>
+&lt;td>Arijit&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-521">hid-sp18-521&lt;/a>&lt;/td>
+&lt;td>Steinbruegge&lt;/td>
+&lt;td>Scott&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-522">hid-sp18-522&lt;/a>&lt;/td>
+&lt;td>Swaroop&lt;/td>
+&lt;td>Saurabh&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-523">hid-sp18-523&lt;/a>&lt;/td>
+&lt;td>Tandon&lt;/td>
+&lt;td>Ritesh&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-524">hid-sp18-524&lt;/a>&lt;/td>
+&lt;td>Tian&lt;/td>
+&lt;td>Hao&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-525">hid-sp18-525&lt;/a>&lt;/td>
+&lt;td>Walker&lt;/td>
+&lt;td>Bruce&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-526">hid-sp18-526&lt;/a>&lt;/td>
+&lt;td>Whitson&lt;/td>
+&lt;td>Timothy&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-601">hid-sp18-601&lt;/a>&lt;/td>
+&lt;td>Ferrari&lt;/td>
+&lt;td>Juliano&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-602">hid-sp18-602&lt;/a>&lt;/td>
+&lt;td>Naredla&lt;/td>
+&lt;td>Keerthi&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-701">hid-sp18-701&lt;/a>&lt;/td>
+&lt;td>Unni&lt;/td>
+&lt;td>Sunanda Unni&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-702">hid-sp18-702&lt;/a>&lt;/td>
+&lt;td>Dubey&lt;/td>
+&lt;td>Lokesh&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-703">hid-sp18-703&lt;/a>&lt;/td>
+&lt;td>Rufael&lt;/td>
+&lt;td>Ribka&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-704">hid-sp18-704&lt;/a>&lt;/td>
+&lt;td>Meier&lt;/td>
+&lt;td>Zachary&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-705">hid-sp18-705&lt;/a>&lt;/td>
+&lt;td>Thompson&lt;/td>
+&lt;td>Timothy&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-706">hid-sp18-706&lt;/a>&lt;/td>
+&lt;td>Sylla&lt;/td>
+&lt;td>Hady&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-707">hid-sp18-707&lt;/a>&lt;/td>
+&lt;td>Smith&lt;/td>
+&lt;td>Michael&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-708">hid-sp18-708&lt;/a>&lt;/td>
+&lt;td>Wright&lt;/td>
+&lt;td>Darren&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-709">hid-sp18-709&lt;/a>&lt;/td>
+&lt;td>Castro&lt;/td>
+&lt;td>Andres&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-710">hid-sp18-710&lt;/a>&lt;/td>
+&lt;td>Kugan&lt;/td>
+&lt;td>Uma M&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/hid-sp18-711">hid-sp18-711&lt;/a>&lt;/td>
+&lt;td>Kagita&lt;/td>
+&lt;td>Mani&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-222-100">sp19-222-100&lt;/a>&lt;/td>
+&lt;td>Saxberg&lt;/td>
+&lt;td>Jarod&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-222-101">sp19-222-101&lt;/a>&lt;/td>
+&lt;td>Bower&lt;/td>
+&lt;td>Eric&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-222-102">sp19-222-102&lt;/a>&lt;/td>
+&lt;td>Danehy&lt;/td>
+&lt;td>Ryan&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-222-89">sp19-222-89&lt;/a>&lt;/td>
+&lt;td>Fischer&lt;/td>
+&lt;td>Brandon&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-222-90">sp19-222-90&lt;/a>&lt;/td>
+&lt;td>Japundza&lt;/td>
+&lt;td>Ethan&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-222-91">sp19-222-91&lt;/a>&lt;/td>
+&lt;td>Zhang&lt;/td>
+&lt;td>Tyler&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-222-92">sp19-222-92&lt;/a>&lt;/td>
+&lt;td>Yeagley&lt;/td>
+&lt;td>Ben&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-222-93">sp19-222-93&lt;/a>&lt;/td>
+&lt;td>Schwantes&lt;/td>
+&lt;td>Brian&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-222-94">sp19-222-94&lt;/a>&lt;/td>
+&lt;td>Gotts&lt;/td>
+&lt;td>Andrew&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-222-96">sp19-222-96&lt;/a>&lt;/td>
+&lt;td>Olson&lt;/td>
+&lt;td>Mercedes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-222-97">sp19-222-97&lt;/a>&lt;/td>
+&lt;td>Levy&lt;/td>
+&lt;td>Zach&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-222-98">sp19-222-98&lt;/a>&lt;/td>
+&lt;td>McDowell&lt;/td>
+&lt;td>Xandria&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-222-99">sp19-222-99&lt;/a>&lt;/td>
+&lt;td>Badillo&lt;/td>
+&lt;td>Jesus&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-516-121">sp19-516-121&lt;/a>&lt;/td>
+&lt;td>Bahramian&lt;/td>
+&lt;td>Hamidreza&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-516-122">sp19-516-122&lt;/a>&lt;/td>
+&lt;td>Duer&lt;/td>
+&lt;td>Anthony&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-516-123">sp19-516-123&lt;/a>&lt;/td>
+&lt;td>Challa&lt;/td>
+&lt;td>Mallik&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-516-124">sp19-516-124&lt;/a>&lt;/td>
+&lt;td>Garbe&lt;/td>
+&lt;td>Andrew&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-516-125">sp19-516-125&lt;/a>&lt;/td>
+&lt;td>Fine&lt;/td>
+&lt;td>Keli&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-516-126">sp19-516-126&lt;/a>&lt;/td>
+&lt;td>Peters&lt;/td>
+&lt;td>David&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-516-127">sp19-516-127&lt;/a>&lt;/td>
+&lt;td>Collins&lt;/td>
+&lt;td>Eric&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-516-128">sp19-516-128&lt;/a>&lt;/td>
+&lt;td>Rawat&lt;/td>
+&lt;td>Tarun&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-516-129">sp19-516-129&lt;/a>&lt;/td>
+&lt;td>Ludwig&lt;/td>
+&lt;td>Robert&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-516-130">sp19-516-130&lt;/a>&lt;/td>
+&lt;td>Rachepalli&lt;/td>
+&lt;td>Jeevan Reddy&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-516-131">sp19-516-131&lt;/a>&lt;/td>
+&lt;td>Huang&lt;/td>
+&lt;td>Jing&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-516-132">sp19-516-132&lt;/a>&lt;/td>
+&lt;td>Gupta&lt;/td>
+&lt;td>Himanshu&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-516-133">sp19-516-133&lt;/a>&lt;/td>
+&lt;td>Mannarswamy&lt;/td>
+&lt;td>Aravind&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-516-134">sp19-516-134&lt;/a>&lt;/td>
+&lt;td>Sivan&lt;/td>
+&lt;td>Manjunath&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-516-135">sp19-516-135&lt;/a>&lt;/td>
+&lt;td>Yue&lt;/td>
+&lt;td>Xiao&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-516-136">sp19-516-136&lt;/a>&lt;/td>
+&lt;td>Eggleton&lt;/td>
+&lt;td>Joaquin Avila&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-516-138">sp19-516-138&lt;/a>&lt;/td>
+&lt;td>Samanvitha&lt;/td>
+&lt;td>Pradhan&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-516-139">sp19-516-139&lt;/a>&lt;/td>
+&lt;td>Pullakhandam&lt;/td>
+&lt;td>Srimannarayana&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-616-111">sp19-616-111&lt;/a>&lt;/td>
+&lt;td>Vangalapat&lt;/td>
+&lt;td>Tharak&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp19-616-112">sp19-616-112&lt;/a>&lt;/td>
+&lt;td>Joshi&lt;/td>
+&lt;td>Shirish&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-220">sp20-516-220&lt;/a>&lt;/td>
+&lt;td>Goodman&lt;/td>
+&lt;td>Josh&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-222">sp20-516-222&lt;/a>&lt;/td>
+&lt;td>McCandless&lt;/td>
+&lt;td>Peter&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-223">sp20-516-223&lt;/a>&lt;/td>
+&lt;td>Dharmchand&lt;/td>
+&lt;td>Rahul&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-224">sp20-516-224&lt;/a>&lt;/td>
+&lt;td>Mishra&lt;/td>
+&lt;td>Divyanshu&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-227">sp20-516-227&lt;/a>&lt;/td>
+&lt;td>Gu&lt;/td>
+&lt;td>Xin&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-229">sp20-516-229&lt;/a>&lt;/td>
+&lt;td>Shaw&lt;/td>
+&lt;td>Prateek&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-230">sp20-516-230&lt;/a>&lt;/td>
+&lt;td>Thornton&lt;/td>
+&lt;td>Ashley&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-231">sp20-516-231&lt;/a>&lt;/td>
+&lt;td>Kegerreis&lt;/td>
+&lt;td>Brian&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-232">sp20-516-232&lt;/a>&lt;/td>
+&lt;td>Singam&lt;/td>
+&lt;td>Ashok&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-233">sp20-516-233&lt;/a>&lt;/td>
+&lt;td>Zhang&lt;/td>
+&lt;td>Holly&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-234">sp20-516-234&lt;/a>&lt;/td>
+&lt;td>Goldfarb&lt;/td>
+&lt;td>Andrew&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-235">sp20-516-235&lt;/a>&lt;/td>
+&lt;td>Ibadi&lt;/td>
+&lt;td>Yasir Al&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-236">sp20-516-236&lt;/a>&lt;/td>
+&lt;td>Achath&lt;/td>
+&lt;td>Seema&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-237">sp20-516-237&lt;/a>&lt;/td>
+&lt;td>Beckford&lt;/td>
+&lt;td>Jonathan&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-238">sp20-516-238&lt;/a>&lt;/td>
+&lt;td>Mishra&lt;/td>
+&lt;td>Ishan&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-239">sp20-516-239&lt;/a>&lt;/td>
+&lt;td>Lam&lt;/td>
+&lt;td>Sara&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-240">sp20-516-240&lt;/a>&lt;/td>
+&lt;td>Nicasio&lt;/td>
+&lt;td>Falconi&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-241">sp20-516-241&lt;/a>&lt;/td>
+&lt;td>Jaswal&lt;/td>
+&lt;td>Nitesh&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-243">sp20-516-243&lt;/a>&lt;/td>
+&lt;td>Drummond&lt;/td>
+&lt;td>David&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-245">sp20-516-245&lt;/a>&lt;/td>
+&lt;td>Baker&lt;/td>
+&lt;td>Joshua&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-246">sp20-516-246&lt;/a>&lt;/td>
+&lt;td>Fischer&lt;/td>
+&lt;td>Rhonda&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-247">sp20-516-247&lt;/a>&lt;/td>
+&lt;td>Gupta&lt;/td>
+&lt;td>Akshay&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-248">sp20-516-248&lt;/a>&lt;/td>
+&lt;td>Bookland&lt;/td>
+&lt;td>Hannah&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-250">sp20-516-250&lt;/a>&lt;/td>
+&lt;td>Palani&lt;/td>
+&lt;td>Senthil&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-251">sp20-516-251&lt;/a>&lt;/td>
+&lt;td>Jiang&lt;/td>
+&lt;td>Shihui&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-252">sp20-516-252&lt;/a>&lt;/td>
+&lt;td>Zhu&lt;/td>
+&lt;td>Jessica&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-253">sp20-516-253&lt;/a>&lt;/td>
+&lt;td>Arivukadal&lt;/td>
+&lt;td>Lenin&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-254">sp20-516-254&lt;/a>&lt;/td>
+&lt;td>Kagita&lt;/td>
+&lt;td>Mani&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/sp20-516-255">sp20-516-255&lt;/a>&lt;/td>
+&lt;td>Porwal&lt;/td>
+&lt;td>Prafull&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: List</title><link>/docs/modules/list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/list/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This page contains the list of current modules.&lt;/p>
+&lt;/div>
+&lt;p>Legend&lt;/p>
+&lt;ul>
+&lt;li>h - &lt;strong>header&lt;/strong> missing the #&lt;/li>
+&lt;li>m - too &lt;strong>many&lt;/strong> #&amp;rsquo;s in titles&lt;/li>
+&lt;/ul>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Title&lt;/th>
+&lt;th>Warn&lt;/th>
+&lt;th>Cybertraining&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters/">
+&lt;i class="fas fa-folder ">
+&lt;link href="/fontawesome/css/all.min.css" rel="stylesheet">
+&lt;/i> chapters&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters/">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//assignment.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Assignments&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//assignment.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//devops">
+&lt;i class="fas fa-folder ">
+&lt;/i> devops&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//devops">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//devops/puppet.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Puppet&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//devops/puppet.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//devops/devop-ci">
+&lt;i class="fas fa-folder ">
+&lt;/i> devop-ci&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//devops/devop-ci">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//devops/devop-azure-monitor.md">
+&lt;i class="fas fa-file ">
+&lt;/i> DevOps with Azure Monitor&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//devops/devop-azure-monitor.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//devops/devop-ci.md">
+&lt;i class="fas fa-file ">
+&lt;/i> DevOps - Continuous Improvement&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//devops/devop-ci.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//devops/terraform.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Terraform&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//devops/terraform.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//devops/travis.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Travis&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//devops/travis.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//devops/devops-iac.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Infrastructure as Code (IaC)&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//devops/devops-iac.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//devops/devops.md">
+&lt;i class="fas fa-file ">
+&lt;/i> DevOps&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//devops/devops.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//devops/devop-aws.md">
+&lt;i class="fas fa-file ">
+&lt;/i> DevOps with AWS&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//devops/devop-aws.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//SECTION">
+&lt;i class="fas fa-folder ">
+&lt;/i> SECTION&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//SECTION">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//SECTION/SECTION-PI-SETUP.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Setting up tho OS on Multiple Pi&amp;rsquo;s&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//SECTION/SECTION-PI-SETUP.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//SECTION/SECTION-QUICK516.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Quick Start&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//SECTION/SECTION-QUICK516.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//SECTION/SECTION-SYLLABUS.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Syllabus&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//SECTION/SECTION-SYLLABUS.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//SECTION/SECTION-516-OVERVIEW.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Course Overview&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//SECTION/SECTION-516-OVERVIEW.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//SECTION/SECTION-TECH.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Bigdata Technologies and Algorithms&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//SECTION/SECTION-TECH.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//SECTION/SECTION-ISSUES.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Gitbub Book Issues&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//SECTION/SECTION-ISSUES.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//SECTION/SECTION-PI-CLUSTER-TRADITIONAL.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Traditional Cluster Technologies&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//SECTION/SECTION-PI-CLUSTER-TRADITIONAL.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//SECTION/SECTION-516-DETAILS.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Course Details&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//SECTION/SECTION-516-DETAILS.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//SECTION/PI-SETUP-SINGLE.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Setting up tho OS on a Pi&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//SECTION/PI-SETUP-SINGLE.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//SECTION/SECTION-INCOMING.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Incoming&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//SECTION/SECTION-INCOMING.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//SECTION/SECTION-PI-CLUSTER-CLOUD.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Cloud Clusters&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//SECTION/SECTION-PI-CLUSTER-CLOUD.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//intro">
+&lt;i class="fas fa-folder ">
+&lt;/i> intro&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//intro">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//intro/introduction.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Big Data&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//intro/introduction.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//iaas">
+&lt;i class="fas fa-folder ">
+&lt;/i> iaas&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//iaas">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//iaas/openstack">
+&lt;i class="fas fa-folder ">
+&lt;/i> openstack&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//iaas/openstack">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//iaas/openstack/openstacksdk.md">
+&lt;i class="fas fa-file ">
+&lt;/i> OpenStackSDK&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//iaas/openstack/openstacksdk.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//iaas/openstack/openstack.md">
+&lt;i class="fas fa-file ">
+&lt;/i> OpenStack&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//iaas/openstack/openstack.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//iaas/azure">
+&lt;i class="fas fa-folder ">
+&lt;/i> azure&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//iaas/azure">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//iaas/azure/product-container.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Serverless Infrastructure as a Services&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//iaas/azure/product-container.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//iaas/azure/index.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Azure&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//iaas/azure/index.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//iaas/azure/products.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Microsoft Azure and Cloud Products&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//iaas/azure/products.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//iaas/azure/azure.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Microsoft Azure&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//iaas/azure/azure.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//iaas/iaas.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Introduction&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//iaas/iaas.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//iaas/aws">
+&lt;i class="fas fa-folder ">
+&lt;/i> aws&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//iaas/aws">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//iaas/aws/products.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Amazon Web Service Products&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//iaas/aws/products.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//iaas/aws/aws.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Amazon Web Services&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//iaas/aws/aws.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//iaas/aws/products-orig.md">
+&lt;i class="fas fa-file ">
+&lt;/i> AWS Products&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//iaas/aws/products-orig.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//iaas/watson">
+&lt;i class="fas fa-folder ">
+&lt;/i> watson&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//iaas/watson">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//iaas/watson/watson.md">
+&lt;i class="fas fa-file ">
+&lt;/i> IBM Watson&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//iaas/watson/watson.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//iaas/futuresystems">
+&lt;i class="fas fa-folder ">
+&lt;/i> futuresystems&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//iaas/futuresystems">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//iaas/futuresystems/futuresystems.md">
+&lt;i class="fas fa-file ">
+&lt;/i> FutureSystems&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//iaas/futuresystems/futuresystems.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//iaas/boto.md">
+&lt;i class="fas fa-file ">
+&lt;/i> AWS Boto&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//iaas/boto.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//msg">
+&lt;i class="fas fa-folder ">
+&lt;/i> msg&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//msg">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//msg/exercise.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Exercises&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//msg/exercise.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//msg/avro.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Python Apache Avro&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//msg/avro.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//msg/amazon-kenesis-data-streams.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Amazon Kinesis Data Streams&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//msg/amazon-kenesis-data-streams.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//msg/mqtt.md">
+&lt;i class="fas fa-file ">
+&lt;/i> MQTT&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//msg/mqtt.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//516-assignment.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Lab&amp;rsquo;s&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//516-assignment.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg">
+&lt;i class="fas fa-folder ">
+&lt;/i> prg&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/SECTION-PYTHON-LANG.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Language&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/SECTION-PYTHON-LANG.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/go">
+&lt;i class="fas fa-folder ">
+&lt;/i> go&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/go">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/go/go-editor.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Editors Supporting Go&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/go/go-editor.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/go/go-intro.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Introduction to Go for Cloud Computing&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/go/go-intro.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/go/go-cmd.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Go CMD&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/go/go-cmd.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/go/go-openapi.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Open API&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/go/go-openapi.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/go/go-excerises.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Exercises&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/go/go-excerises.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/go/go-rest.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Go REST&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/go/go-rest.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/python">
+&lt;i class="fas fa-folder ">
+&lt;/i> python&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/python">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/python/facedetection">
+&lt;i class="fas fa-folder ">
+&lt;/i> facedetection&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/python/facedetection">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>                 &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/python/facedetection/facedetection.md">
+&lt;i class="fas fa-file ">
+&lt;/i> NIST Pedestrian and Face Detection&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/python/facedetection/facedetection.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/python/python.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Language&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/python/python.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/python/python-docopts.md">
+&lt;i class="fas fa-file ">
+&lt;/i> DocOpts&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/python/python-docopts.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/python/fingerprint">
+&lt;i class="fas fa-folder ">
+&lt;/i> fingerprint&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/python/fingerprint">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>                 &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/python/fingerprint/fingerprint.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Fingerprint Matching&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/python/fingerprint/fingerprint.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/python/python-deprecated.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Pyenv in a docker container&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/python/python-deprecated.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/python/python-cmd.md">
+&lt;i class="fas fa-file ">
+&lt;/i> cmd Module&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/python/python-cmd.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/python/dask">
+&lt;i class="fas fa-folder ">
+&lt;/i> dask&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/python/dask">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>                 &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/python/dask/dask.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Dask&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/python/dask/dask.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/python/python-subprocess.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Subprocess&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/python/python-subprocess.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/python/python-editor.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Editors&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/python/python-editor.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/python/python-wordcount.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Word Count with Parallel Python&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/python/python-wordcount.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/python/numpy">
+&lt;i class="fas fa-folder ">
+&lt;/i> numpy&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/python/numpy">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>                 &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/python/numpy/numpy.md">
+&lt;i class="fas fa-file ">
+&lt;/i> NumPy&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/python/numpy/numpy.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/python/opencv">
+&lt;i class="fas fa-folder ">
+&lt;/i> opencv&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/python/opencv">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>                 &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/python/opencv/secchi.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Secchi Disk&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/python/opencv/secchi.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>                 &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/python/opencv/opencv.md">
+&lt;i class="fas fa-file ">
+&lt;/i> OpenCV&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/python/opencv/opencv.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/python/python-intro.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Introduction to Python&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/python/python-intro.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/python/python-advanced.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Advanced Topics&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/python/python-advanced.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/python/python-interactive.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Interactive Python&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/python/python-interactive.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/python/random-forest">
+&lt;i class="fas fa-folder ">
+&lt;/i> random-forest&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/python/random-forest">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>                 &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/python/random-forest/random-forest.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Dask - Random Forest Feature Detection&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/python/random-forest/random-forest.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/python/scipy">
+&lt;i class="fas fa-folder ">
+&lt;/i> scipy&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/python/scipy">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>                 &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/python/scipy/scipy.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Scipy&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/python/scipy/scipy.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/python/pandas">
+&lt;i class="fas fa-folder ">
+&lt;/i> pandas&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/python/pandas">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/github.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Github REST Services&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/github.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//prg/SECTION-PYTHON.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Python&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//prg/SECTION-PYTHON.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//art">
+&lt;i class="fas fa-folder ">
+&lt;/i> art&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//art">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//art/sentient.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Sentient Architecture&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//art/sentient.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//preface">
+&lt;i class="fas fa-folder ">
+&lt;/i> preface&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//preface">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//preface/corrections.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Corrections&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//preface/corrections.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//preface/reader.md">
+&lt;i class="fas fa-file ">
+&lt;/i> ePub Readers&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//preface/reader.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//preface/exercises.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Exercises&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//preface/exercises.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//preface/create-deprecated.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Deprecated&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//preface/create-deprecated.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//preface/create.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Creating the ePubs from source&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//preface/create.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//preface/contributors.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Contributors&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//preface/contributors.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//preface/contributing.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Contributing&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//preface/contributing.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//preface/git.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Class Git&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//preface/git.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//preface/preface.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Preface&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//preface/preface.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//preface/notation.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Notation&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//preface/notation.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//preface/updates.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Updates&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//preface/updates.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//preface/emoji.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Emojis&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//preface/emoji.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//dbase">
+&lt;i class="fas fa-file ">
+&lt;/i> DBase&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//dbase">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//in">
+&lt;i class="fas fa-folder ">
+&lt;/i> in&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//in">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//in/aws-documentdb.md">
+&lt;i class="fas fa-file ">
+&lt;/i> AWS DocumentDB&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//in/aws-documentdb.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//in/assignments.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Assignments&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//in/assignments.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//in/ai-rest.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Artificial Intelligence Service with REST&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//in/ai-rest.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//in/box.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Box&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//in/box.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//in/datasets.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Datasets&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//in/datasets.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//in/vis.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Visualization&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//in/vis.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//in/course1.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Software Projects&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//in/course1.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//in/aws-auroradb.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Amazon Aurora DB&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//in/aws-auroradb.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//futuresystems.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Romeo&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//futuresystems.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//faas">
+&lt;i class="fas fa-folder ">
+&lt;/i> faas&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//faas">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//faas/fission.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Fission&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//faas/fission.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//faas/openfaas.md">
+&lt;i class="fas fa-file ">
+&lt;/i> OpenFaaS&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//faas/openfaas.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//faas/fn.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Fn&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//faas/fn.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//faas/exercise.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Exercises&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//faas/exercise.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//faas/introduction.md">
+&lt;i class="fas fa-file ">
+&lt;/i> FaaS&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//faas/introduction.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//faas/openwhisk.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Apache OpenWhisk&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//faas/openwhisk.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//faas/microsoft-azure-functions.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Microsoft Azure Function&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//faas/microsoft-azure-functions.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//faas/ironfunction.md">
+&lt;i class="fas fa-file ">
+&lt;/i> IronFunction&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//faas/ironfunction.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//faas/riff.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Riff&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//faas/riff.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//faq.md">
+&lt;i class="fas fa-file ">
+&lt;/i> FAQ: General&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//faq.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//books">
+&lt;i class="fas fa-folder ">
+&lt;/i> books&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//books">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//books/books.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Free Books&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//books/books.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//todo.md">
+&lt;i class="fas fa-file ">
+&lt;/i> To Do&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//todo.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//nist">
+&lt;i class="fas fa-folder ">
+&lt;/i> nist&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//nist">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//iot">
+&lt;i class="fas fa-folder ">
+&lt;/i> iot&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//iot">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//iot/hardware.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Hardware for IoT Projects&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//iot/hardware.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//iot/introduction.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Introduction&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//iot/introduction.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//iot/projects.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Projects&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//iot/projects.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//iot/esp8266.md">
+&lt;i class="fas fa-file ">
+&lt;/i> ESP8266&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//iot/esp8266.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//iot/sensors.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Sensors&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//iot/sensors.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//iot/grovepi.md">
+&lt;i class="fas fa-file ">
+&lt;/i> GrovePi Modules&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//iot/grovepi.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//iot/dexter.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Dexter&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//iot/dexter.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//iot/pi.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Raspberry PI 3&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//iot/pi.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//faq-516.md">
+&lt;i class="fas fa-file ">
+&lt;/i> FAQ: 516&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//faq-516.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//container">
+&lt;i class="fas fa-folder ">
+&lt;/i> container&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//container">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//container/SECTION-DOCKER-PAAS.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Docker Clusters&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//container/SECTION-DOCKER-PAAS.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//container/docker-fs.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Docker and Docker Swarm on FutureSystems&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//container/docker-fs.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//container/resources.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Resources&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//container/resources.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//container/container.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Introduction to Containers&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//container/container.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//container/cncf.md">
+&lt;i class="fas fa-file ">
+&lt;/i> CNCF&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//container/cncf.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//container/docker-spark.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Apache Spark with Docker&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//container/docker-spark.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//container/exercise.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Exercises&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//container/exercise.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//container/docker-hadoop.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Hadoop with Docker&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//container/docker-hadoop.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//container/kubernetes-fs.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Using Kubernetes on FutureSystems&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//container/kubernetes-fs.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//container/docker-rest.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Docker Flask REST Service&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//container/docker-rest.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//container/docker-intro.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Introduction to Docker&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//container/docker-intro.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//container/docker-swarm.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Docker Swarm&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//container/docker-swarm.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//container/docker-compose.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Docker Compose&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//container/docker-compose.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//container/bookmanager.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Bookmanager in Container&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//container/bookmanager.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//container/kubernetes-intro.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Introduction to Kubernetes&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//container/kubernetes-intro.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//container/dockerhub.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Docker Hub&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//container/dockerhub.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//pi">
+&lt;i class="fas fa-folder ">
+&lt;/i> pi&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//pi">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//pi/run-at-boot.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Run Commands at Boot time&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//pi/run-at-boot.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//pi/case.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Pi Cluster Form Factor&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//pi/case.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//pi/car">
+&lt;i class="fas fa-folder ">
+&lt;/i> car&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//pi/car">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//pi/car/car-face.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Raspberry Pi Robot Car with Face Recognition and Identification&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//pi/car/car-face.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//pi/mpi.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Message Massing Interface Cluster&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//pi/mpi.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//pi/setup.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Cluster Setup&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//pi/setup.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//pi/exercise.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Exercise&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//pi/exercise.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//pi/software2.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Pi Software Collection&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//pi/software2.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//pi/vnc.md">
+&lt;i class="fas fa-file ">
+&lt;/i> VNC&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//pi/vnc.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//pi/fortran.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Fortan&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//pi/fortran.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//pi/board.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Raspberry PI&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//pi/board.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//pi/preface.md">
+&lt;i class="fas fa-file ">
+&lt;/i> About&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//pi/preface.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//pi/setup-dev.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Setup of a Development Environment&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//pi/setup-dev.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//pi/kubernetes">
+&lt;i class="fas fa-folder ">
+&lt;/i> kubernetes&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//pi/kubernetes">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//pi/kubernetes/526">
+&lt;i class="fas fa-folder ">
+&lt;/i> 526&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//pi/kubernetes/526">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>                 &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//pi/kubernetes/526/head">
+&lt;i class="fas fa-folder ">
+&lt;/i> head&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//pi/kubernetes/526/head">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>                     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//pi/kubernetes/526/head/head_node_readme.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Head Node Setup&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//pi/kubernetes/526/head/head_node_readme.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>                     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//pi/kubernetes/526/head/setup">
+&lt;i class="fas fa-file ">
+&lt;/i> !/bin/sh&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//pi/kubernetes/526/head/setup">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//pi/kubernetes/417">
+&lt;i class="fas fa-folder ">
+&lt;/i> 417&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//pi/kubernetes/417">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//references.md">
+&lt;i class="fas fa-file ">
+&lt;/i> References&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//references.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//222-assignments.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Assignments&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//222-assignments.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//index.md">
+&lt;i class="fas fa-file ">
+&lt;/i> &lt;/a>
+&lt;i class="fas fa-exclamation-triangle ">
+&lt;/i>&lt;/td>
+&lt;td>h&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//index.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//ai">
+&lt;i class="fas fa-folder ">
+&lt;/i> ai&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//ai">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//ai/ai.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Artificial Intelligence Service with REST&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//ai/ai.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//new">
+&lt;i class="fas fa-folder ">
+&lt;/i> new&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//new">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//new/osx-tricks.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Screenshot Rename Automator&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//new/osx-tricks.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//new/amqp.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Distributed Message Queues&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//new/amqp.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//modify-pi-image.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Modifying the Pi Image without a PI&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//modify-pi-image.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//faq-523.md">
+&lt;i class="fas fa-file ">
+&lt;/i> FAQ: 423/523 and others colocated with them&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//faq-523.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//quick516.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Overview&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//quick516.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//doc">
+&lt;i class="fas fa-folder ">
+&lt;/i> doc&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//doc">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//doc/markdown.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Markdown&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//doc/markdown.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//doc/emacs.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Emacs&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//doc/emacs.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//doc/report.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Report Format&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//doc/report.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//doc/report-2.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Report Format&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//doc/report-2.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//doc/report-book-2.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Writing a Scientific Article or Conference Paper&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//doc/report-book-2.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//doc/writing-markdown.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Writing a Scientific Article&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//doc/writing-markdown.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//doc/ppt.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Recording Audio with Autoplay&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//doc/ppt.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//doc/graphviz.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Graphviz&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//doc/graphviz.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//doc/communicate.md">
+&lt;i class="fas fa-file ">
+&lt;/i> General Remarks about Communication&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//doc/communicate.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//doc/SECTION.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Scientific Writing&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//doc/SECTION.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//doc/type.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Communicating Research in Other Ways&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//doc/type.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//doc/overview-2.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Overview&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//doc/overview-2.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//doc/projects-2.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Projects&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//doc/projects-2.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//case">
+&lt;i class="fas fa-folder ">
+&lt;/i> case&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//case">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//case/case.md">
+&lt;i class="fas fa-file ">
+&lt;/i> IU 100 Node Cluster Case&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//case/case.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//os">
+&lt;i class="fas fa-folder ">
+&lt;/i> os&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//os">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//os/ubuntu-usb-osx.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Ubuntu on an USB stick&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//os/ubuntu-usb-osx.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//os/ubuntu.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Ubuntu Resources&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//os/ubuntu.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//os/ubuntu-setup.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Ubuntu Setup&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//os/ubuntu-setup.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//notes.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Markdown Lint&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//notes.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//windows">
+&lt;i class="fas fa-folder ">
+&lt;/i> windows&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//windows">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//windows/windows.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Windows Download&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//windows/windows.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//data">
+&lt;i class="fas fa-folder ">
+&lt;/i> data&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//data">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//data/formats.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Data Formats&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//data/formats.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//data/mongoengine.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Mongoengine&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//data/mongoengine.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//data/aws-redshift.md">
+&lt;i class="fas fa-file ">
+&lt;/i> AWS RedShift&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//data/aws-redshift.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//data/mongodb.md">
+&lt;i class="fas fa-file ">
+&lt;/i> MongoDB in Python&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//data/mongodb.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//issues">
+&lt;i class="fas fa-folder ">
+&lt;/i> issues&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//issues">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//issues/issues-in.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Github Issues&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//issues/issues-in.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//mapreduce">
+&lt;i class="fas fa-folder ">
+&lt;/i> mapreduce&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//mapreduce">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//mapreduce/spark.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Spark&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//mapreduce/spark.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//mapreduce/spark-streaming.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Spark Streaming&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//mapreduce/spark-streaming.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//mapreduce/hadoop-comet.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Hadoop SDSC&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//mapreduce/hadoop-comet.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//mapreduce/twister.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Twister2&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//mapreduce/twister.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//mapreduce/aws-emr.md">
+&lt;i class="fas fa-file ">
+&lt;/i> AWS Elastic Map Reduce (AWS EMR)&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//mapreduce/aws-emr.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//mapreduce/amazon-emr-1.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Amazon Elastic Map Reduce (EMR)&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//mapreduce/amazon-emr-1.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//mapreduce/cm-hadoop.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Hadoop Virtual Cluster Installation Using Cloudmesh&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//mapreduce/cm-hadoop.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//mapreduce/mapreduce.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Introduction to Mapreduce&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//mapreduce/mapreduce.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//mapreduce/spark-udf.md">
+&lt;i class="fas fa-file ">
+&lt;/i> User Defined Functions in Spark&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//mapreduce/spark-udf.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//mapreduce/hadoop-hbase.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Apache HBase&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//mapreduce/hadoop-hbase.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//mapreduce/hadoop-hdfs.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Hadoop Distributed File System (Hadoop HDFS)&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//mapreduce/hadoop-hdfs.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//rest">
+&lt;i class="fas fa-folder ">
+&lt;/i> rest&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//rest">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//rest/swagger-bravado.md">
+&lt;i class="fas fa-file ">
+&lt;/i> OpenAPI REST Services with Swagger&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//rest/swagger-bravado.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//rest/rest-haetos.md">
+&lt;i class="fas fa-file ">
+&lt;/i> HATEOAS&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//rest/rest-haetos.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//rest/swagger-introspection-2-0.md">
+&lt;i class="fas fa-file ">
+&lt;/i> OpenAPI REST Service via Introspection&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//rest/swagger-introspection-2-0.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//rest/rest-django.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Django REST Framework&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//rest/rest-django.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//rest/rest-spec.md">
+&lt;i class="fas fa-file ">
+&lt;/i> REST Specifications&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//rest/rest-spec.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//rest/swagger-spec.md">
+&lt;i class="fas fa-file ">
+&lt;/i> OpenAPI 2.0 Specification&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//rest/swagger-spec.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//rest/swagger-codegen.md">
+&lt;i class="fas fa-file ">
+&lt;/i> OpenAPI REST Service via Codegen&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//rest/swagger-codegen.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//rest/rest-eve-extensions.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Extensions to Eve&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//rest/rest-eve-extensions.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//rest/rest-excersises.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Exercises&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//rest/rest-excersises.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//rest/swagger.md">
+&lt;i class="fas fa-file ">
+&lt;/i> OpenAPI REST Services with Swagger&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//rest/swagger.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//rest/rest-eve.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Rest Services with Eve&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//rest/rest-eve.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//rest/swagger-introspection.md">
+&lt;i class="fas fa-file ">
+&lt;/i> OpenAPI 3.0 REST Service via Introspection&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//rest/swagger-introspection.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//rest/rest-ai.md">
+&lt;i class="fas fa-file ">
+&lt;/i> REST AI services Example&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//rest/rest-ai.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//rest/rest.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Introduction to REST&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//rest/rest.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//git">
+&lt;i class="fas fa-folder ">
+&lt;/i> git&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//git">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//git/github.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Github&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//git/github.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//bigdata">
+&lt;i class="fas fa-folder ">
+&lt;/i> bigdata&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//bigdata">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//bigdata/python.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Python&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//bigdata/python.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//bigdata/assignments">
+&lt;i class="fas fa-folder ">
+&lt;/i> assignments&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//bigdata/assignments">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//bigdata/assignments/assignment8.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Assignment 8&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//bigdata/assignments/assignment8.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//bigdata/assignments/assignment3.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Assignment 3&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//bigdata/assignments/assignment3.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//bigdata/assignments/assignment7.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Assignment 7&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//bigdata/assignments/assignment7.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//bigdata/assignments/assignment6.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Assignment 6&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//bigdata/assignments/assignment6.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//bigdata/assignments/assignment2.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Assignment 2&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//bigdata/assignments/assignment2.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//bigdata/assignments/assignment5.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Assignment 5&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//bigdata/assignments/assignment5.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//bigdata/assignments/assignment1.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Assignment 1&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//bigdata/assignments/assignment1.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//bigdata/assignments/index.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Assignments&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//bigdata/assignments/index.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//bigdata/assignments/assignment4.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Assignment 4&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//bigdata/assignments/assignment4.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//bigdata/week5.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Physics with Big Data Applications&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//bigdata/week5.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//bigdata/week1.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Part I Motivation I&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//bigdata/week1.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//bigdata/week3.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Part III Cloud&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//bigdata/week3.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//bigdata/week7.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Sports with Big Data Applications&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//bigdata/week7.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//bigdata/github">
+&lt;i class="fas fa-folder ">
+&lt;/i> github&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//bigdata/github">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>             &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//bigdata/github/index.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Track Progress with Github&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//bigdata/github/index.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//bigdata/week6.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Introduction to Deep Learning&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//bigdata/week6.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//bigdata/week10.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Introduction to Deep Learning Part III: Deep Learning Algorithms and Usage&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//bigdata/week10.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//bigdata/week2.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Part II Motivation Archive&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//bigdata/week2.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//bigdata/week9.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Introduction to Deep Learning Part II: Applications&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//bigdata/week9.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//bigdata/intro-bd-deprecated.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Introduction to the Course&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//bigdata/intro-bd-deprecated.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//bigdata/week8.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Introduction to Deep Learning Part I&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//bigdata/week8.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//empty.md">
+&lt;i class="fas fa-file ">
+&lt;/i> &lt;/a>
+&lt;i class="fas fa-exclamation-triangle ">
+&lt;/i>&lt;/td>
+&lt;td>h&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//empty.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>     &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//deprecated">
+&lt;i class="fas fa-folder ">
+&lt;/i> deprecated&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//deprecated">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//deprecated/assignments.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Assignments&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//deprecated/assignments.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//deprecated/iot.md">
+&lt;i class="fas fa-file ">
+&lt;/i> Internet of Things&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//deprecated/iot.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//deprecated/iaas.md">
+&lt;i class="fas fa-file ">
+&lt;/i> How to Run VMs (IaaS)&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//deprecated/iaas.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//deprecated/iterative-mapreduce.md">
+&lt;i class="fas fa-file ">
+&lt;/i> How to Run Iterative MapReduce (PaaS)&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//deprecated/iterative-mapreduce.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//deprecated/mapreduce.md">
+&lt;i class="fas fa-file ">
+&lt;/i> How to Run MapReduce (PaaS)&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//deprecated/mapreduce.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>         &lt;a href="https://github.com/cloudmesh-community/book/blob/master/chapters//deprecated/saas.md">
+&lt;i class="fas fa-file ">
+&lt;/i> How to Build a Search Engine (SaaS)&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-community/book/blob/master/chapters//deprecated/saas.md">read&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: Autogenerating Analytics Rest Services</title><link>/docs/modules/cloudmesh-rest/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/cloudmesh-rest/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>On this page, we will deploy a Pipeline Anova SVM onto our openapi server, and subsequently train the model
+with data and make predictions from said data. All code needed for this is provided in the &lt;a href="https://github.com/cloudmesh/cloudmesh-openapi">cloudmesh-openapi&lt;/a> repository. The code is largely based on this &lt;a href="https://scikit-learn.org/stable/auto_examples/feature_selection/plot_feature_selection_pipeline.html">sklearn example&lt;/a>.&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-overview">1. Overview&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#11-prerequisite">1.1 Prerequisite&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#12-effort">1.2 Effort&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#13-list-of-topics-covered">1.3 List of Topics Covered&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#14-syntax-of-this-tutorial">1.4 Syntax of this Tutorial.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#2-creating-a-virtual-environment">2. Creating a virtual environment&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-the-python-code">3. The Python Code&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-generating-the-openapi-yaml-file">4. Generating the OpenAPI YAML file&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-the-openapi-yaml-file-optional">5. The OpenAPI YAML File (optional)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-starting-the-server">6. Starting the Server&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-interacting-with-the-endpoints">7. Interacting With the Endpoints&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#71-uploading-the-dataset">7.1 Uploading the Dataset&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#72-training-on-the-dataset">7.2 Training on the Dataset&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#73-making-predictions">7.3 Making Predictions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#8-clean-up-optional">8. Clean Up (optional)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-uninstallation-optional">9. Uninstallation (Optional)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#10-assignments">10. Assignments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#11-references">11. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="1-overview">1. Overview&lt;/h2>
+&lt;h3 id="11-prerequisite">1.1 Prerequisite&lt;/h3>
+&lt;p>It is also assumed that the user has installed and has familiarity with the following:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>python3 --version&lt;/code> &amp;gt;= 3.8&lt;/li>
+&lt;li>Linux Command line&lt;/li>
+&lt;/ul>
+&lt;h3 id="12-effort">1.2 Effort&lt;/h3>
+&lt;ul>
+&lt;li>15 minutes (not including assignment)&lt;/li>
+&lt;/ul>
+&lt;h3 id="13-list-of-topics-covered">1.3 List of Topics Covered&lt;/h3>
+&lt;p>In this module, we focus on the following:&lt;/p>
+&lt;ul>
+&lt;li>Training ML models with stateless requests&lt;/li>
+&lt;li>Generating RESTful APIs using &lt;code>cms openapi&lt;/code> for existing python code&lt;/li>
+&lt;li>Deploying openapi definitions onto a localserver&lt;/li>
+&lt;li>Interacting with newly created openapi services&lt;/li>
+&lt;/ul>
+&lt;h3 id="14-syntax-of-this-tutorial">1.4 Syntax of this Tutorial.&lt;/h3>
+&lt;p>We describe the syntax for terminal commands used in this tutorial
+using the following example:&lt;/p>
+&lt;pre>&lt;code>(TESTENV) ~ $ echo &amp;quot;hello&amp;quot;
+&lt;/code>&lt;/pre>&lt;p>Here, we are in the python virtual environment &lt;code>(TESTENV)&lt;/code> in the home directory &lt;code>~&lt;/code>. The &lt;code>$&lt;/code> symbol denotes the beginning of the terminal command (ie. &lt;code>echo &amp;quot;hello&amp;quot;&lt;/code>). When copying and pasting commands, do not include &lt;code>$&lt;/code> or anything before it.&lt;/p>
+&lt;h2 id="2-creating-a-virtual-environment">2. Creating a virtual environment&lt;/h2>
+&lt;p>It is best practice to create virtual environments when you do not envision needing a python package consistently. We also want to place all source code in a common directory called cm. Let us set up this create one for this tutorial.&lt;/p>
+&lt;p>On your Linux/Mac, open a new terminal.&lt;/p>
+&lt;pre>&lt;code>~ $ python3 -m venv ~/ENV3
+&lt;/code>&lt;/pre>&lt;p>The above will create a new python virtual environment. Activate it with the following.&lt;/p>
+&lt;pre>&lt;code>~ $ source ~/ENV3/bin/activate
+&lt;/code>&lt;/pre>&lt;p>First, we update pip and verify your python and pip are correct&lt;/p>
+&lt;pre>&lt;code>(ENV3) ~ $ which python
+/Users/user/ENV3/bin/python
+(ENV3) ~ $ which pip
+/Users/user/ENV3/bin/pip
+(ENV3) ~ $ pip install -U pip
+&lt;/code>&lt;/pre>&lt;p>Now we can use &lt;code>cloudmesh-installer&lt;/code> to install the code in developer mode. This gives you access to the source code.&lt;/p>
+&lt;p>First, create a new directory for the cloudmesh code.&lt;/p>
+&lt;pre>&lt;code>(ENV3) ~ $ mkdir ~/cm
+(ENV3) ~ $ cd ~/cm
+&lt;/code>&lt;/pre>&lt;p>Next, we install &lt;code>cloudmesh-installer&lt;/code> and use it to install cloudmesh openapi.&lt;/p>
+&lt;pre>&lt;code>(ENV3) ~/cm $ pip install -U pip
+(ENV3) ~/cm $ pip install cloudmesh-installer
+(ENV3) ~/cm $ cloudmesh-installer get openapi
+&lt;/code>&lt;/pre>&lt;p>Finally, for this tutorial, we use &lt;code>sklearn&lt;/code>. Install the needed packages as follows:&lt;/p>
+&lt;pre>&lt;code>(ENV3) ~/cm $ pip install sklearn pandas
+&lt;/code>&lt;/pre>&lt;h2 id="3-the-python-code">3. The Python Code&lt;/h2>
+&lt;p>Let&amp;rsquo;s take a look at the python code we would like to make a REST service from. First, let&amp;rsquo;s navigate to the local openapi repository that was installed with &lt;code>cloudmesh-installer&lt;/code>.&lt;/p>
+&lt;pre>&lt;code>(ENV3) ~/cm $ cd cloudmesh-openapi
+(ENV3) ~/cm/cloudmesh-openapi $ pwd
+/Users/user/cm/cloudmesh-openapi
+&lt;/code>&lt;/pre>&lt;p>Let us take a look at the PipelineAnova SVM example code.&lt;/p>
+&lt;p>A
+&lt;a href="https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html">Pipeline&lt;/a>
+is a &lt;em>pipeline&lt;/em> of transformations to apply with a final
+estimator. Analysis of variance
+(&lt;a href="https://en.wikipedia.org/wiki/Analysis_of_variance">ANOVA&lt;/a>) is used
+for feature selection. A Support vector machine
+&lt;a href="https://en.wikipedia.org/wiki/Support_vector_machine">SVM&lt;/a> is used as
+the actual learning model on the features.&lt;/p>
+&lt;p>Use your favorite editor to look at it (whether it be vscode, vim,
+nano, etc). We will use emacs&lt;/p>
+&lt;pre>&lt;code>(ENV3) ~/cm/cloudmesh-openapi $ emacs ./tests/Scikitlearn-experimental/sklearn_svm.py
+&lt;/code>&lt;/pre>&lt;p>The class within this file has two main methods to interact with (except for the file upload capability which is added at runtime)&lt;/p>
+&lt;pre>&lt;code>@classmethod
+def train(cls, filename: str) -&amp;gt; str:
+&amp;quot;&amp;quot;&amp;quot;
+Given the filename of an uploaded file, train a PipelineAnovaSVM
+model from the data. Assumption of data is the classifications
+are in the last column of the data.
+Returns the classification report of the test split
+&amp;quot;&amp;quot;&amp;quot;
+# some code...
+@classmethod
+def make_prediction(cls, model_name: str, params: str):
+&amp;quot;&amp;quot;&amp;quot;
+Make a prediction based on training configuration
+&amp;quot;&amp;quot;&amp;quot;
+# some code...
+&lt;/code>&lt;/pre>&lt;p>Note the parameters that each of these methods takes in. These parameters are expected as part of the stateless request for each method.&lt;/p>
+&lt;h2 id="4-generating-the-openapi-yaml-file">4. Generating the OpenAPI YAML file&lt;/h2>
+&lt;p>Let us now use the python code from above to create the openapi YAML file that we will deploy onto our server. To correctly generate this file, use the following command:&lt;/p>
+&lt;pre>&lt;code>(ENV3) ~/cm/cloudmesh-openapi $ cms openapi generate PipelineAnovaSVM \
+--filename=./tests/Scikitlearn-experimental/sklearn_svm.py \
+--import_class \
+--enable_upload
+&lt;/code>&lt;/pre>&lt;p>Let us digest the options we have specified:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>--filename&lt;/code> indicates the path to the python file in which our code is located&lt;/li>
+&lt;li>&lt;code>--import_class&lt;/code> notifies &lt;code>cms openapi&lt;/code> that the YAML file is generated
+from a class. The name of this class is specified as &lt;code>PipelineAnovaSVM&lt;/code>&lt;/li>
+&lt;li>&lt;code>--enable_upload&lt;/code> allows the user to upload files to be stored on the server for reference. This flag causes &lt;code>cms openapi&lt;/code> to auto-generate a new python file with the &lt;code>upload&lt;/code> method appended to the end of
+the file. For this example, you will notice a new file has been added in the same directory as &lt;code>sklearn_svm.py&lt;/code>. The file is aptly called: &lt;code>sklearn_svm_upload-enabled.py&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h2 id="5-the-openapi-yaml-file-optional">5. The OpenAPI YAML File (optional)&lt;/h2>
+&lt;p>If Section 2 above was correctly, cms will have generated the corresponding openapi YAML file. Let us take a look at it.&lt;/p>
+&lt;pre>&lt;code>(ENV3) ~/cm/cloudmesh-openapi $ emacs ./tests/Scikitlearn-experimental/sklearn_svm.yaml
+&lt;/code>&lt;/pre>&lt;p>This YAML file has a lot of information to digest. The basic structure is documented &lt;a href="https://swagger.io/docs/specification/basic-structure/">here&lt;/a>. However, it is not necessary to understand this information to deploy RESTful APIs.&lt;/p>
+&lt;p>However, take a look at &lt;code>paths:&lt;/code> on line 9 in this file. Under this section, we have several different endpoints for our API listed. Notice the correlation between the endpoints and the python file we generated from.&lt;/p>
+&lt;h2 id="6-starting-the-server">6. Starting the Server&lt;/h2>
+&lt;p>Using the YAML file from Section 2, we can now start the server.&lt;/p>
+&lt;pre>&lt;code>(ENV3) ~/cm/cloudmesh-openapi $ cms openapi server start ./tests/Scikitlearn-experimental/sklearn_svm.yaml
+&lt;/code>&lt;/pre>&lt;p>The server should now be active. Navigate to &lt;a href="http://localhost:8080/cloudmesh/ui">http://localhost:8080/cloudmesh/ui&lt;/a>.&lt;/p>
+&lt;p>&lt;img src="cloudmesh_ui.png" alt="Unavailable">&lt;/p>
+&lt;h2 id="7-interacting-with-the-endpoints">7. Interacting With the Endpoints&lt;/h2>
+&lt;h3 id="71-uploading-the-dataset">7.1 Uploading the Dataset&lt;/h3>
+&lt;p>We now have a nice user inteface to interact with our newly generated
+API. Let us upload the data set. We are going to use the iris data set in this example. We have provided it for you to use. Simply navigate to the &lt;code>/upload&lt;/code> endpoint by clicking on it, then click Try it out.&lt;/p>
+&lt;p>We can now upload the file. Click on Choose File and upload the data set located at &lt;code>~/cm/cloudmesh-openapi/tests/Scikitlearn-experimental/iris.data&lt;/code>. Simply hit Execute after the file is uploaded. We should then get a &lt;code>200&lt;/code> return code (telling us that everything went ok).&lt;/p>
+&lt;p>&lt;img src="upload_endpoint.png" alt="Unavaialable">&lt;/p>
+&lt;h3 id="72-training-on-the-dataset">7.2 Training on the Dataset&lt;/h3>
+&lt;p>The server now has our dataset. Let us now navigate to the &lt;code>/train&lt;/code> endpoint by, again, clicking on it. Similarly, click &lt;code>Try it out&lt;/code>. The parameter being asked for is the filename. The filename we are interested in is &lt;code>iris.data&lt;/code>. Then click execute. We should get another &lt;code>200&lt;/code> return code with a Classification Report in the Response Body.&lt;/p>
+&lt;p>&lt;img src="train_endpoint.png" alt="Unavailable">&lt;/p>
+&lt;h3 id="73-making-predictions">7.3 Making Predictions&lt;/h3>
+&lt;p>We now have a trained model on the iris data set. Let us now use it to make predictions. The model expects 4 attribute values: sepal length, seapl width, petal length, and petal width. Let us use the values &lt;code>5.1, 3.5, 1.4, 0.2&lt;/code> as our attributes. The expected classification is &lt;code>Iris-setosa&lt;/code>.&lt;/p>
+&lt;p>Navigate to the &lt;code>/make_prediction&lt;/code> endpoint as we have with other endpoints. Again, let us &lt;code>Try it out&lt;/code>. We need to provide the name of the model and the params (attribute values). For the model name, our model is aptly called &lt;code>iris&lt;/code> (based on the name of the data set).&lt;/p>
+&lt;p>&lt;img src="make_prediction_endpoint.png" alt="Unavailable">&lt;/p>
+&lt;p>As expected, we have a classification of &lt;code>Iris-setosa&lt;/code>.&lt;/p>
+&lt;h2 id="8-clean-up-optional">8. Clean Up (optional)&lt;/h2>
+&lt;p>At this point, we have created and trained a model using &lt;code>cms openapi&lt;/code>. After satisfactory use, we can shut down the server. Let us check what we have running.&lt;/p>
+&lt;pre>&lt;code>(ENV3) ~/cm/cloudmesh-openapi $ cms openapi server ps
+openapi server ps
+INFO: Running Cloudmesh OpenAPI Servers
++-------------+-------+--------------------------------------------------+
+| name | pid | spec |
++-------------+-------+--------------------------------------------------+
+| sklearn_svm | 94428 | ./tests/Scikitlearn- |
+| | | experimental/sklearn_svm.yaml |
++-------------+-------+--------------------------------------------------+
+&lt;/code>&lt;/pre>&lt;p>We can stop the server with the following command:&lt;/p>
+&lt;pre>&lt;code>(ENV3) ~/cm/cloudmesh-openapi $ cms openapi server stop sklearn_svm
+&lt;/code>&lt;/pre>&lt;p>We can verify the server is shut down by running the &lt;code>ps&lt;/code> command again.&lt;/p>
+&lt;pre>&lt;code>(ENV3) ~/cm/cloudmesh-openapi $ cms openapi server ps
+openapi server ps
+INFO: Running Cloudmesh OpenAPI Servers
+None
+&lt;/code>&lt;/pre>&lt;h2 id="9-uninstallation-optional">9. Uninstallation (Optional)&lt;/h2>
+&lt;p>After running this tutorial, you may uninstall all cloudmesh-related things as follows:&lt;/p>
+&lt;p>First, deactivate the virtual environment.&lt;/p>
+&lt;pre>&lt;code>(ENV3) ~/cm/cloudmesh-openapi $ deactivate
+~/cm/cloudmesh-openapi $ cd ~
+&lt;/code>&lt;/pre>&lt;p>Then, we remove the &lt;code>~/cm&lt;/code> directory.&lt;/p>
+&lt;pre>&lt;code>~ $ rm -r -f ~/cm
+&lt;/code>&lt;/pre>&lt;p>We also remove the cloudmesh hidden files:&lt;/p>
+&lt;pre>&lt;code>~ $ rm -r -f ~/.cloudmesh
+&lt;/code>&lt;/pre>&lt;p>Lastly, we delete our virtual environment.&lt;/p>
+&lt;pre>&lt;code>~ $ rm -r -f ~/ENV3
+&lt;/code>&lt;/pre>&lt;p>Cloudmesh is now succesfully uninstalled.&lt;/p>
+&lt;h2 id="10-assignments">10. Assignments&lt;/h2>
+&lt;p>Many ML models follow the same basic process for training and testing:&lt;/p>
+&lt;ol>
+&lt;li>Upload Training Data&lt;/li>
+&lt;li>Train the model&lt;/li>
+&lt;li>Test the model&lt;/li>
+&lt;/ol>
+&lt;p>Using the PipelineAnovaSVM code as a template, write python code for a new model and deploy it as a RESTful API as we have done above. Train and test your model using the provided iris data set. There are plenty of examples that can be referenced &lt;a href="https://scikit-learn.org/stable/auto_examples/index.html#">here&lt;/a>&lt;/p>
+&lt;h2 id="11-references">11. References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://scikit-learn.org">Scikit-learn Web Page&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: DevOps</title><link>/docs/modules/devops/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/devops/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>We present here a collection information and of tools related to DevOps.&lt;/p>
+&lt;/div></description></item><item><title>Docs: Google Colab</title><link>/docs/modules/python/google-colab/python-google-colab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/python/google-colab/python-google-colab/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>In this module we are going to introduce you to using Google Colab.&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-updates">1. Updates&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-introduction-to-google-colab">2. Introduction to Google Colab&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-programming-in-google-colab">3. Programming in Google Colab&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-benchmarking-in-google-colab-with-cloudmesh">4. Benchmarking in Google Colab with Cloudmesh&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-refernces">5. Refernces&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>In this section we are going to introduce you, how to use Google Colab
+to run deep learning models.&lt;/p>
+&lt;h2 id="1-updates">1. Updates&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Another Python notebook demonstrating StopWatch and Benchmark is available at:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://colab.research.google.com/drive/1tG7IcP-XMQiNVxU05yazKQYciQ9GpMat">https://colab.research.google.com/drive/1tG7IcP-XMQiNVxU05yazKQYciQ9GpMat&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>The line &lt;code>! pip install cloudmesh-installer&lt;/code> is not needed, but is used in the video.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="2-introduction-to-google-colab">2. Introduction to Google Colab&lt;/h2>
+&lt;p>This video contains the introduction to Google Colab. In this section
+we will be learning how to start a Google Colab project.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/oSzhLJ_1Z8s" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="3-programming-in-google-colab">3. Programming in Google Colab&lt;/h2>
+&lt;p>In this video we will learn how to create a simple, Colab Notebook.&lt;/p>
+&lt;p>Required Installations&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">pip install numpy
+&lt;/code>&lt;/pre>&lt;/div>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/znE_knoNnDE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="4-benchmarking-in-google-colab-with-cloudmesh">4. Benchmarking in Google Colab with Cloudmesh&lt;/h2>
+&lt;p>In this video we learn how to do a basic benchmark with Cloudmesh tools.
+Cloudmesh StopWatch will be used in this tutorial.&lt;/p>
+&lt;p>Required Installations&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">pip install numpy
+pip install cloudmesh-common
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;em>Correction: The video shows to also &lt;code>pip install cloudmesh-installer&lt;/code>. This is not necessary for this example.&lt;/em>&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/wkpyp55tfRA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="5-refernces">5. Refernces&lt;/h2>
+&lt;ol>
+&lt;li>Benchmark Colab Notebook. &lt;a href="https://colab.research.google.com/drive/1tG7IcP-XMQiNVxU05yazKQYciQ9GpMat">https://colab.research.google.com/drive/1tG7IcP-XMQiNVxU05yazKQYciQ9GpMat&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Modules from SDSC</title><link>/docs/modules/sdsc/</link><pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate><guid>/docs/modules/sdsc/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Modules contributed by SDSC.&lt;/p>
+&lt;/div></description></item><item><title>Docs: AI-First Engeneering Cybertraining Spring 2021 - Module</title><link>/docs/modules/ai-first/</link><pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate><guid>/docs/modules/ai-first/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Big Data Applications are an important topic that have impact in
+academia and industry.&lt;/p>
+&lt;/div></description></item><item><title>Docs: Big Data Applications</title><link>/docs/modules/bigdataapplications/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>/docs/modules/bigdataapplications/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Big Data Applications are an important topic that have impact in
+academia and industry.&lt;/p>
+&lt;/div></description></item><item><title>Docs: MNIST Example</title><link>/docs/modules/mnist-reu/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>/docs/modules/mnist-reu/</guid><description>
+&lt;p>&lt;img src="/images/MNIST.png" alt="MNIST Character Recognition">&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>We discuss in this module how to create a simple IPython Notebook to
+solve an image classification problem. MNIST contains a set of
+pictures.&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-overview">1. Overview&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#11-prerequisite">1.1. Prerequisite&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#12-effort">1.2. Effort&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#13-topics-covered">1.3. Topics covered&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#14-related-material">1.4. Related material&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#5-introduction-to-google-colab">5. Introduction to Google Colab&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#introduction-to-google-colab">Introduction to Google Colab&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#6-basic-python-in-google-colab">6. Basic Python in Google Colab&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-mnist-on-google-colab">7. MNIST On Google colab&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-assignments">8. Assignments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="1-overview">1. Overview&lt;/h2>
+&lt;h3 id="11-prerequisite">1.1. Prerequisite&lt;/h3>
+&lt;ul>
+&lt;li>Knowledge of Python&lt;/li>
+&lt;li>Google account&lt;/li>
+&lt;/ul>
+&lt;h3 id="12-effort">1.2. Effort&lt;/h3>
+&lt;ul>
+&lt;li>3 hours&lt;/li>
+&lt;/ul>
+&lt;h3 id="13-topics-covered">1.3. Topics covered&lt;/h3>
+&lt;ul>
+&lt;li>Using Google Colab&lt;/li>
+&lt;li>Running an AI application on Google Colab&lt;/li>
+&lt;/ul>
+&lt;h3 id="14-related-material">1.4. Related material&lt;/h3>
+&lt;p>Another &lt;a href="/courses/mnist">MNIST course&lt;/a> exist. However, this course has more information.&lt;/p>
+&lt;h2 id="5-introduction-to-google-colab">5. Introduction to Google Colab&lt;/h2>
+&lt;h3 id="introduction-to-google-colab">Introduction to Google Colab&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/modules/python/google-colab/python-google-colab">
+&lt;img alt="A Gentle Introduction to Google Colab (Web)" src="/images/colab.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/modules/python/google-colab/python-google-colab">
+A Gentle Introduction to Google Colab (Web)
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h2 id="6-basic-python-in-google-colab">6. Basic Python in Google Colab&lt;/h2>
+&lt;p>In this module, we will take a look at some fundamental Python Concepts
+needed for day-to-day coding.&lt;/p>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/modules/bigdataapplications/2020/python_initial">
+&lt;img alt="A Gentle Introduction to Python on Google Colab (Web)" src="/images/colab.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/modules/bigdataapplications/2020/python_initial">
+A Gentle Introduction to Python on Google Colab (Web)
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h2 id="7-mnist-on-google-colab">7. MNIST On Google colab&lt;/h2>
+&lt;p>Next, we discuss how to create a simple IPython
+Notebook to solve an image classification problem. MNIST contains a
+set of &lt;a href="https://docs.google.com/document/d/1E8orgHbNV6P8STl2lQxov2VHKSYyIISSj-XfsvQlRX4/edit?usp=sharing">pictures&lt;/a>.&lt;/p>
+&lt;p>A PDF containing both lectures is available at &lt;a href="https://drive.google.com/file/d/1228zuo_yg2FGkTz8ll75S-OCDO8CinNz/view">Colab-and-MNIST.pdf&lt;/a>&lt;/p>
+&lt;p>There are 5 videos&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://drive.google.com/file/d/1NQnrWboSI2kc38uTgd3OtFQkK44L5jZP/view">DNN MNIST introduction (Part I)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://drive.google.com/file/d/165fvbfdrrsUznzyO_ulPyKhn6Xtopgtv/view">DNN MNIST introduction (Part II)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://drive.google.com/file/d/1_K--i9O2QioJ7SVOKgd4NmV71yvSDRcj/view">DNN MNIST data preprocessing (Part III)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://drive.google.com/file/d/1pb11xVSv3lSY1sSefTSfVGmdYkzli8Ij/view">DNN MNIST model definition (Part IV)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://drive.google.com/file/d/1PTgID_ZRirgJXszLQJZzt03Fo0gtWWm4/view">DNN MNIST putting it all together (Part V)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="8-assignments">8. Assignments&lt;/h2>
+&lt;ol>
+&lt;li>Get an account on Google if you do not have one.&lt;/li>
+&lt;li>Do the optional Basic Python Colab lab module&lt;/li>
+&lt;li>Do MNIST in Colab.&lt;/li>
+&lt;/ol>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://research.google.com/colaboratory/faq.html">https://research.google.com/colaboratory/faq.html&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Sample</title><link>/docs/modules/sample/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>/docs/modules/sample/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>The samples need to be placed into various directories based on
+type. You need to make sure the title and the linkTitle in the page
+metadata are set. If they are in the same directory as another page
+make sure all are unique&lt;/p>
+&lt;/div></description></item></channel></rss>

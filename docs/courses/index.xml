@@ -1,0 +1,3073 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – Courses</title><link>/docs/courses/</link><description>Recent content in Courses on Cybertraining</description><generator>Hugo -- gohugo.io</generator><atom:link href="/docs/courses/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: REU 2021</title><link>/docs/courses/reu2021/</link><pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate><guid>/docs/courses/reu2021/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This course introduces the REU students to various topics in Intelligent Systems Engineering. The course was taught in Summer 2021.&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#rstudio-with-git-and-github-slides">Rstudio with Git and GitHub Slides&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#programming-with-python">Programming with Python&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#installation-of-python">Installation of Python&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#jupyter-notebooks">Jupyter Notebooks&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#github">Github&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#introduction-to-python">Introduction to Python&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#motivation-for-the-reu">Motivation for the REU&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#data-science-tools">Data Science Tools&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#ai-first-engineering">AI First Engineering&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="rstudio-with-git-and-github-slides">Rstudio with Git and GitHub Slides&lt;/h2>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://docs.google.com/presentation/d/1-xHcGI2ONgW5BGUFIaDQV2D8vFyVtm5phnnddxZ1JIE/edit?usp=sharing">
+&lt;img alt="Rstudio with Git and GitHub Slides" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://docs.google.com/presentation/d/1-xHcGI2ONgW5BGUFIaDQV2D8vFyVtm5phnnddxZ1JIE/edit?usp=sharing">
+Rstudio with Git and GitHub Slides
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h2 id="programming-with-python">Programming with Python&lt;/h2>
+&lt;p>Python is a great languge for doing data science and AI, a comprehensive list of features is available in book form. Please note that when installing Python, you always want to use a venv as this is best practice.&lt;/p>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://laszewski.github.io/publication/las-20-book-markdown/">
+&lt;img alt="Python" src="https://laszewski.github.io/publication/las-20-book-python/featured.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://laszewski.github.io/publication/las-20-book-markdown/"> Introduction to Python &lt;/a>
+&lt;a href="https://cloudmesh-community.github.io/pub//vonLaszewski-python.epub"> (ePub) &lt;/a>
+&lt;a href="https://cloudmesh-community.github.io/pub//vonLaszewski-python.pdf"> (PDF) &lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h2 id="installation-of-python">Installation of Python&lt;/h2>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/sYmQTUXnQBoBcyET1nXEJduHb-5ahJrwiZrY5BHYuBOKSqMNW9B1uvx-l--Q1-qI.VTBZh7RhO6D-nlMe">
+&lt;img alt="Instalation of Python" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/sYmQTUXnQBoBcyET1nXEJduHb-5ahJrwiZrY5BHYuBOKSqMNW9B1uvx-l--Q1-qI.VTBZh7RhO6D-nlMe">
+Installation of Python
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;p>Update to the Video:&lt;/p>
+&lt;p>Best practices in Python recommend to use a Python venv. This is pretty easy to do and creates a separate Python environment for you so you do not interfere with your system Python installation. Some IDEs may do this automatically, but it is still best practice to install one and bind the IDE against it. To do this:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Download Python version 3.9.5 just as shown in the first lecture.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>After the download you do an additional step as follows:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>on Mac:&lt;/p>
+&lt;pre>&lt;code>python3.9 -m venv ~/ENV3
+source ~/ENV/bin/activate
+&lt;/code>&lt;/pre>&lt;p>you need to do the source every time you start a new window or on mac ass it to .zprofile&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>
+&lt;p>on Windows you first install gitbash and do all yuour terminal work from gitbash as this is more Linux-like. In gitbash, run&lt;/p>
+&lt;pre>&lt;code>python -m venv ~/ENV3
+~/ENV/Script/activate
+&lt;/code>&lt;/pre>&lt;p>In case you like to add it to gitbash, you can add the source line to .bashrc and/or .bash_profile&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;ol start="3">
+&lt;li>
+&lt;p>In case you use VSCode, you can also do it individually in a directory where you have your code.&lt;/p>
+&lt;ul>
+&lt;li>On Mac: &lt;code>cd TO YOUR DIR; python3.9 -m venv .&lt;/code>&lt;/li>
+&lt;li>On Windows &lt;code>cd TO YOUR DIR; python -m venv .&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;p>Then start VSCode in the directory and it will ask you to use this venv. However, the global ENV3 venv
+may be better and you cen set your interpreter to it.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>On Pycharm we recommend you use the ENV3 and set the clobal interpreter&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="jupyter-notebooks">Jupyter Notebooks&lt;/h2>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/7LK71gUPMdvpH-7J0zITciuLpp7P38Ic8gQ3r42VeNFzBy52fQHdLyK0NUuYrynY.tgx5aNXykyAipzFt">
+&lt;img alt="Jupyter Notebooks" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/7LK71gUPMdvpH-7J0zITciuLpp7P38Ic8gQ3r42VeNFzBy52fQHdLyK0NUuYrynY.tgx5aNXykyAipzFt">
+In this lecture we provide a video that introduces you to Jupyter Notebooks.
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h2 id="github">Github&lt;/h2>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/C_5m4bQwPny-TW50aft0zQ2HR_ZCn_D22nbywWnyZqoZg89-oKpQHRo9jywvUIIN.1kc8yUrK9PPQQ8T_">
+&lt;img alt="Github" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/C_5m4bQwPny-TW50aft0zQ2HR_ZCn_D22nbywWnyZqoZg89-oKpQHRo9jywvUIIN.1kc8yUrK9PPQQ8T_">
+Video: Github
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/dYjAatyl--Dlc2v9RGbni5m5jM2iCY8fQYtre4A2FoYZnos9mtrjGRBkxPq3-aQv.jwJ5Gs0B58vg_da-">
+&lt;img alt="Github" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/dYjAatyl--Dlc2v9RGbni5m5jM2iCY8fQYtre4A2FoYZnos9mtrjGRBkxPq3-aQv.jwJ5Gs0B58vg_da-">
+Video: Github 2
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h2 id="introduction-to-python">Introduction to Python&lt;/h2>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://drive.google.com/file/d/1hauM2BunbmwWAViUt0bS2Yl7ZbQ5_T0h/view?usp=sharing">
+&lt;img alt="Introduction to Python" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://drive.google.com/file/d/1hauM2BunbmwWAViUt0bS2Yl7ZbQ5_T0h/view?usp=sharing">
+Slides: Introduction to Python
+* Strings, Numbers, Boolene, If
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/5Esz5JkozJajn5b__YmCPNGdaWUsSHBAO8YVkzfyvTTq9kzL1Xv0j_yXWz1jM15J.k19yEPveidXLT41Y">
+&lt;img alt="Rstudio with Git and GitHub Slides" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/5Esz5JkozJajn5b__YmCPNGdaWUsSHBAO8YVkzfyvTTq9kzL1Xv0j_yXWz1jM15J.k19yEPveidXLT41Y">
+Video: Introduction to Python (1)
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/jIR9L_qkMPXATo56Aua009SQo62CsEi_m2sIU3YPr39bbGvyw5mPBdZ9VVomLSqG.4aEp-Ye_l_TL8lub">
+&lt;img alt="Introduction to Python" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/jIR9L_qkMPXATo56Aua009SQo62CsEi_m2sIU3YPr39bbGvyw5mPBdZ9VVomLSqG.4aEp-Ye_l_TL8lub">
+Video: Introduction to Python (2)
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/QVziK8PteBlanKaQNG9J6uBmpyRLFnSVVcyRFKVGakBmRtzerwkutiCoGiydSxkY.W5rt607-OB0o1spc">
+&lt;img alt="Introduction to Python" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/QVziK8PteBlanKaQNG9J6uBmpyRLFnSVVcyRFKVGakBmRtzerwkutiCoGiydSxkY.W5rt607-OB0o1spc">
+Video: Introduction to Python (3)
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/rFC5DH7b_Ww4giIJ4DCmmoTRQrmVX74FQ_RRIjNazoNV2_N90-T7GQjCKm2rB39k.CKy9Cve13W2ijDcN">
+&lt;img alt="String, Numbers, Booleans Flow of control Using If statements" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/rFC5DH7b_Ww4giIJ4DCmmoTRQrmVX74FQ_RRIjNazoNV2_N90-T7GQjCKm2rB39k.CKy9Cve13W2ijDcN">
+Slides: String, Numbers, Booleans
+Flow of control Using If statements
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://drive.google.com/file/d/1_nN7iMtmKIOCvV3gB-vLwhIs3lfAALBF/view?usp=sharing">
+&lt;img alt="Slides: String, Numbers, Booleans Flow of control Using If statements" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://drive.google.com/file/d/1_nN7iMtmKIOCvV3gB-vLwhIs3lfAALBF/view?usp=sharing">
+Slides: String, Numbers, Booleans
+Flow of control Using If statements (2)
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://docs.google.com/document/d/1sU3Toi5NuT_DZN_mUCxY2kmae9QBYMT3fMU6Yc5K8so/edit?usp=sharing">
+&lt;img alt=" Python Exercises Lab2" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://docs.google.com/document/d/1sU3Toi5NuT_DZN_mUCxY2kmae9QBYMT3fMU6Yc5K8so/edit?usp=sharing">
+Python Exercises - Lab 2
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;p>The first exercise will require a simple for loop, while the second is more complicated, requiring nested for loops and a break statement.&lt;/p>
+&lt;p>&lt;em>General Instructions:&lt;/em> Create two different files with extension .ipnyb, one for each problem. The first file will be named factorial.ipnyb which is for the factorial problem, and the second prime_number.ipnyb for the prime number problem.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Write a program that can find the factorial of any given number. For example, find the factorial of the number 5 (often written as 5!) which is 1&lt;em>2&lt;/em>3&lt;em>4&lt;/em>5 and equals 120. Your program should take as input an integer from the user.&lt;/p>
+&lt;p>Note: The factorial is not defined for negative numbers and the factorial of Zero is 1; that is 0! = 1.&lt;/p>
+&lt;p>You should&lt;/p>
+&lt;ol>
+&lt;li>If the number is less than Zero return with an error message.&lt;/li>
+&lt;li>Check to see if the number is Zero—if it is then the answer is 1—print this out.&lt;/li>
+&lt;li>Otherwise use a loop to generate the result and print it out.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>A Prime Number is a positive whole number, greater than 1, that has no other divisors except the number 1 and the number itself. That is, it can only be divided by itself and the number 1, for example the numbers 2, 3, 5 and 7 are prime numbers as they cannot be divided by any other whole number. However, the numbers 4 and 6 are not because they can both be divided by the number 2 in addition the number 6 can also be divided by the number 3.&lt;/p>
+&lt;p>You should write a program to calculate prime number starting from 1 up to the
+value input by the user.&lt;/p>
+&lt;p>You should&lt;/p>
+&lt;ol>
+&lt;li>If the user inputs a number below 2, print an error message.&lt;/li>
+&lt;li>For any number greater than 2 loop for each integer from 2 to that number and determine if it can be divided by another number (you will probably need two for loops for this; one nested inside the other).&lt;/li>
+&lt;li>For each number that cannot be divided by any other number (that is its a prime number) print it out.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="motivation-for-the-reu">Motivation for the REU&lt;/h2>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/1P2w22PDcIUFn9ni1rhIUfP8qrqoTcSZEVSJIlhJj0ATBO_F1EiIxde4J-W1OH2L.6VI12LUQIY2_5f6h">
+&lt;img alt="Video: Motivation for the REU: Data is Driven Everything" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/1P2w22PDcIUFn9ni1rhIUfP8qrqoTcSZEVSJIlhJj0ATBO_F1EiIxde4J-W1OH2L.6VI12LUQIY2_5f6h">
+Video: Motivation for the REU: Data is Driven Everything
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://docs.google.com/presentation/d/1N9dyKK-yCHTouNe8qpL5y7C2IVSF9VS4Z9-CulE0LvY/edit?usp=sharing">
+&lt;img alt="Slides: Motivation for the REU: Data is Driven Everything" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://docs.google.com/presentation/d/1N9dyKK-yCHTouNe8qpL5y7C2IVSF9VS4Z9-CulE0LvY/edit?usp=sharing">
+Slides: Motivation for the REU: Data is Driven Everything
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://drive.google.com/file/d/1wbg1W5mVgObBhYkY76j9E7Q66VKyRmLL/view?usp=sharing">
+&lt;img alt="Slides: Descriptive Statistic" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://drive.google.com/file/d/1wbg1W5mVgObBhYkY76j9E7Q66VKyRmLL/view?usp=sharing">
+Slides: Descriptive Statistic
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://drive.google.com/file/d/1hgcN2VHcezc3lPHQfCOyUc_409OFcKbd/view?usp=sharing">
+&lt;img alt="Slides: Probability" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://drive.google.com/file/d/1hgcN2VHcezc3lPHQfCOyUc_409OFcKbd/view?usp=sharing">
+Slides: Probability
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/RWOguZRMv2kfZ0E4Av2hcX1SlEXtNy133dJ86rCG0RqeHhiW1PZ7HL-TeCmnHbRW.SU6BK7wgBbEl4dFe">
+&lt;img alt="Video: Motivation for the REU: Data is Driven Everything" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/RWOguZRMv2kfZ0E4Av2hcX1SlEXtNy133dJ86rCG0RqeHhiW1PZ7HL-TeCmnHbRW.SU6BK7wgBbEl4dFe">
+Video: Working on GitHUb Template and Mendeley references management
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h2 id="data-science-tools">Data Science Tools&lt;/h2>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://drive.google.com/file/d/1Efxe5QP6UNCsFTwmYvx0aCCcp_xK2Ixi/view?usp=sharing">
+&lt;img alt="Slides: Data Science Tools" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://drive.google.com/file/d/1Efxe5QP6UNCsFTwmYvx0aCCcp_xK2Ixi/view?usp=sharing">
+Slides: Data Science Tools
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/qZxBeplv7TiUB_gaTGUYyZw3di4Is1bCVDYSmmAFjFuMkp1xosgVI2sO-lJjSojh.p_sDdDdhn1KP6e3p">
+&lt;img alt="Numpy" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/qZxBeplv7TiUB_gaTGUYyZw3di4Is1bCVDYSmmAFjFuMkp1xosgVI2sO-lJjSojh.p_sDdDdhn1KP6e3p">
+Video: Numpy
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/wy6Vr2zcZ7bg3Nqrm7CY2eHk1oA_I_HFM8az5_unde6L0cxMEi_xfsUXWGqW70Va.5I_cBifw_-EDIFI0">
+&lt;img alt="Pandas data frame" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/wy6Vr2zcZ7bg3Nqrm7CY2eHk1oA_I_HFM8az5_unde6L0cxMEi_xfsUXWGqW70Va.5I_cBifw_-EDIFI0">
+Video: Pandas data frame
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/EMMqFXSOz6NNMRk5tyi0gDo9q3ZfKOvtOXkv1oQMa1-KS_Aj6cY447aKFJCB5R2F.KvGwgslwueWKHfhQ">
+&lt;img alt="Web Data mining" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/EMMqFXSOz6NNMRk5tyi0gDo9q3ZfKOvtOXkv1oQMa1-KS_Aj6cY447aKFJCB5R2F.KvGwgslwueWKHfhQ">
+Video: Web data mining
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/t82HdIjgcLxw4sEV_NyPAZzIE9-3RbWy-l2qGc47HvYgOgxSCHbFi1AWx-PaiXjw.NsuRLGfgbB595cEa">
+&lt;img alt="Pandas IO" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/t82HdIjgcLxw4sEV_NyPAZzIE9-3RbWy-l2qGc47HvYgOgxSCHbFi1AWx-PaiXjw.NsuRLGfgbB595cEa">
+Video: Pandas IO
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/KqawXQZyJw7Gpa64E7UC9wyz5NenluJMr5i1cTFjM34qrdGwWudK2ZP7atBVihax.b4Sv0iTEtctlmw7H">
+&lt;img alt="Pandas" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/KqawXQZyJw7Gpa64E7UC9wyz5NenluJMr5i1cTFjM34qrdGwWudK2ZP7atBVihax.b4Sv0iTEtctlmw7H">
+Video: Pandas
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/TiJJnitA6ziWOZutSEjyFGGKS0nc3lj_-lOPuGuKjNVdUO8HEp3uU9jlihaBgznt.rKnSt4gTS7B2ZXia">
+&lt;img alt="Matrix Computation" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/TiJJnitA6ziWOZutSEjyFGGKS0nc3lj_-lOPuGuKjNVdUO8HEp3uU9jlihaBgznt.rKnSt4gTS7B2ZXia">
+Video: Matrix computation
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/A7okJD5VpykMNa2S7hScShT-xfAttJ0DI7B5NPNsLkpLETPsF--5sRHmC5WkjJoU.ndWSLqDFfCgUkvMi">
+&lt;img alt="Pycharm Installation and Virtual Environment setup" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/A7okJD5VpykMNa2S7hScShT-xfAttJ0DI7B5NPNsLkpLETPsF--5sRHmC5WkjJoU.ndWSLqDFfCgUkvMi">
+Video: Pycharm Installation and Virtual Environment setup
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/gQS-so-yA7yzXfIF5LT33I5JCDPH39jpNneKTaOe7h_CEe7O4LkkdZdGzBtcT_6A.9844LB6DAuSp6TdE">
+&lt;img alt="Application of Matrix Operation using Images on Python" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/gQS-so-yA7yzXfIF5LT33I5JCDPH39jpNneKTaOe7h_CEe7O4LkkdZdGzBtcT_6A.9844LB6DAuSp6TdE">
+Video: Application of Matrix Operation using Images on Python
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/gQS-so-yA7yzXfIF5LT33I5JCDPH39jpNneKTaOe7h_CEe7O4LkkdZdGzBtcT_6A.9844LB6DAuSp6TdE">
+&lt;img alt="Data wrangling" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/gQS-so-yA7yzXfIF5LT33I5JCDPH39jpNneKTaOe7h_CEe7O4LkkdZdGzBtcT_6A.9844LB6DAuSp6TdE">
+Video: Data wrangling and Descriptive Statistic Using Python
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/68WLXABVM1CkxskItUsfy5GqWd8hzGzoe-1OjyJGyo8uQ6tUj0RwesrJpBV-k5eJ.K294I0l3cMV_-QQl">
+&lt;img alt="Data wrangling and Descriptive Statistic Using Python" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/68WLXABVM1CkxskItUsfy5GqWd8hzGzoe-1OjyJGyo8uQ6tUj0RwesrJpBV-k5eJ.K294I0l3cMV_-QQl">
+Video: Data wrangling and Descriptive Statistic Using Python
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/N4P3I_1QDDhauQUVFaoR7oLvp89xnWa129DKFw7h2iJ0maWz46S-6dCFgp4xVhm2.Luh9f6CCxomGNT39">
+&lt;img alt="FURY Visualization and Microsoft Lecture " src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/N4P3I_1QDDhauQUVFaoR7oLvp89xnWa129DKFw7h2iJ0maWz46S-6dCFgp4xVhm2.Luh9f6CCxomGNT39">
+Video: FURY Visualization and Microsoft Lecture
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/N4P3I_1QDDhauQUVFaoR7oLvp89xnWa129DKFw7h2iJ0maWz46S-6dCFgp4xVhm2.Luh9f6CCxomGNT39">
+&lt;img alt="Introduction to Probability" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/N4P3I_1QDDhauQUVFaoR7oLvp89xnWa129DKFw7h2iJ0maWz46S-6dCFgp4xVhm2.Luh9f6CCxomGNT39">
+Video: Instroduction to Probability
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h2 id="ai-first-engineering">AI First Engineering&lt;/h2>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/QeQXovAhCusbLHb4R0GToPj4Gts89fOYspSAeAAEqld7lE5M06SQCor0BNz62gXY.w4x5X7Y3Kt_c39eq">
+&lt;img alt="AI FIrst Engineering: Learning material" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/QeQXovAhCusbLHb4R0GToPj4Gts89fOYspSAeAAEqld7lE5M06SQCor0BNz62gXY.w4x5X7Y3Kt_c39eq">
+Video: AI First Engineering: Learning material
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/qHl3y01ZyY0wHg4bEV43PHz_eyfD_4fmvG7Fw95ymWRDYFJ3Sx2q9lpsp4vdGxl6.Y5kKUFQlJpeZn_ty">
+&lt;img alt="Adding content to your su21-reu repositorirs" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/qHl3y01ZyY0wHg4bEV43PHz_eyfD_4fmvG7Fw95ymWRDYFJ3Sx2q9lpsp4vdGxl6.Y5kKUFQlJpeZn_ty">
+Video: Adding content to your su21-reu repositories
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://docs.google.com/presentation/d/1uEBGALii_RfPQgsuqrl_hjhj4MUlL8CO2Hny6jqt8Qk/edit#slide=id.g94cec20bdc_1_0">
+&lt;img alt="AI First Engineering:" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://docs.google.com/presentation/d/1uEBGALii_RfPQgsuqrl_hjhj4MUlL8CO2Hny6jqt8Qk/edit#slide=id.g94cec20bdc_1_0">
+Slides: AI First Engineering
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table></description></item><item><title>Docs: AI-First Engineering Cybertraining</title><link>/docs/courses/ai-first/</link><pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate><guid>/docs/courses/ai-first/</guid><description>
+&lt;p>&lt;img src="/images/bigdata.png" alt="This is an image">&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This course introduces the students to AI-First Engineering Cybertraining we provide the following sections&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#class-material">Class Material&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#course-lectures-and-management">Course Lectures and Management&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#overview">Overview&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#lectures-on-particular-topics">Lectures on Particular Topics&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#introduction-to-ai-driven-digital-transformation">Introduction to AI-Driven Digital Transformation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#introduction-to-google-colab">Introduction to Google Colab&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#material">Material&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#health-and-medicine">Health and Medicine&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#ai-in-banking">AI in Banking&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#space-and-energy">Space and Energy&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#mobility-industry">Mobility (Industry)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#cloud-computing">Cloud Computing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#commerce">Commerce&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#complementary-material">Complementary Material&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#piazza">Piazza&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#scientific-writing-with-markdown">Scientific Writing with Markdown&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#git-pull-request">Git Pull Request&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#introduction-to-linux">Introduction to Linux&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#older-course-material">Older Course Material&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#computer-needs">Computer Needs&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="class-material">Class Material&lt;/h2>
+&lt;p>As part of this class, we will be using a variety of sources. To
+simplify the presentation we provide them in a variety of smaller
+packaged material including books, lecture notes, slides, presentations
+and code.&lt;/p>
+&lt;p>Note: We will regularly update the course material, so please
+always download the newest version. Some browsers try to
+be fancy and cache previous page visits. So please make sure to
+refresh the page.&lt;/p>
+&lt;p>We will use the following material:&lt;/p>
+&lt;h2 id="course-lectures-and-management">Course Lectures and Management&lt;/h2>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/course_lectures">
+&lt;img alt="Course Lectures" src="/images/bigdata.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/course_lectures">
+Course Lectures. These meeting notes are updated weekly (Web)
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>This course is built around the revolution driven by AI and in particular deep learning that is transforming all activities: industry, research, and lifestyle. It will a similar structure to &lt;a href="https://cybertraining-dsc.github.io/courses/bigdata2020/">The Big Data Class&lt;/a> and the details of the course will be adapted to the interests of participating students. It can include significant deep learning programming.&lt;/p>
+&lt;p>All activities &amp;ndash; Industry, Research, and Lifestyle &amp;ndash; are being transformed by Artificial Intelligence AI and Big Data. AI is currently dominated by deep learning implemented on a global pervasive computing environment - the global AI supercomputer. This course studies the technologies and applications of this transformation.&lt;/p>
+&lt;p>We review Core Technologies driving these transformations: Digital transformation moving to AI Transformation, Big Data, Cloud Computing, software and data engineering, Edge Computing and Internet of Things, The Network and Telecommunications, Apache Big Data Stack, Logistics and company infrastructure, Augmented and Virtual reality, Deep Learning.&lt;/p>
+&lt;p>There are new “Industries” over the last 25 years: The Internet, Remote collaboration and Social Media, Search, Cybersecurity, Smart homes and cities, Robotics. However, our focus is Traditional “Industries” Transformed: Computing, Transportation: ride-hailing, drones, electric self-driving autos/trucks, road management, travel, construction Industry, Space, Retail stores and e-commerce, Manufacturing: smart machines, digital twins, Agriculture and Food, Hospitality and Living spaces: buying homes, hotels, “room hailing”, Banking and Financial Technology: Insurance, mortgage, payments, stock market, bitcoin, Health: from DL for pathology to personalized genomics to remote surgery, Surveillance and Monitoring: &amp;ndash; Civilian Disaster response; Miltary Command and Control, Energy: Solar wind oil, Science; more data better analyzed; DL as the new applied mathematics, Sports: including Sabermetrics, Entertainment, Gaming including eSports, News, advertising, information creation and dissemination, education, fake news and Politics, Jobs.&lt;/p>
+&lt;p>We select material from above to match student interests.&lt;/p>
+&lt;p>Students can take the course in either software-based or report-based mode. The lectures with be offered in video form with a weekly discussion class. Python and Tensorflow will be main software used.&lt;/p>
+&lt;h2 id="lectures-on-particular-topics">Lectures on Particular Topics&lt;/h2>
+&lt;h3 id="introduction-to-ai-driven-digital-transformation">Introduction to AI-Driven Digital Transformation&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/introduction">
+&lt;img alt="Introduction to AI-Driven Digital Transformation (Web)" src="/images/aitransform.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/introduction">
+Introduction to AI-Driven Digital Transformation (Web)
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;!-- COMMENTED OUT
+### Big Data Usecases Survey
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/usecases">
+&lt;img alt="Big Data Usecases Survey" src="/images/usecases.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/usecases">
+This module covers 51 usecases of Big data that emerged from a NIST
+(National Institute for Standards and Technology) study of Big
+data. We cover the NIST Big Data Public Working Group (NBD-PWG)
+Process and summarizes the work of five subgroups: Definitions and
+Taxonomies Subgroup, Reference Architecture Subgroup, Security and
+Privacy Subgroup, Technology Roadmap Subgroup and the Requirements
+andUse Case Subgroup. 51 use cases collected in this process are
+briefly discussed with a classification of the source of parallelism
+and the high and low level computational structure. We describe the
+key features of this classification.
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+-->
+&lt;h3 id="introduction-to-google-colab">Introduction to Google Colab&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/python/google-colab/python-google-colab">
+&lt;img alt="A Gentle Introduction to Google Colab (Web)" src="/images/colab.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/python/google-colab/python-google-colab">
+A Gentle Introduction to Google Colab (Web)
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/python_initial">
+&lt;img alt="A Gentle Introduction to Python on Google Colab (Web)" src="/images/colab.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/python_initial">
+A Gentle Introduction to Python on Google Colab (Web)
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/google_colab_exercise">
+&lt;img alt="MNIST Classification on Google Colab (Web)" src="/images/colab.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/google_colab_exercise">
+MNIST Classification on Google Colab (Web)
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/google_colab_mlp">
+&lt;img alt="MNIST Classification with MLP on Google Colab (Web)" src="/images/colab.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/google_colab_mlp">
+MNIST-MLP Classification on Google Colab (Web)
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/google_colab_rnn">
+&lt;img alt="MNIST Classification with RNN on Google Colab (Web)" src="/images/colab.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/google_colab_rnn">
+MNIST-RNN Classification on Google Colab (Web)
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/google_colab_lstm">
+&lt;img alt="MNIST Classification with LSTM on Google Colab (Web)" src="/images/colab.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/google_colab_lstm">
+MNIST-LSTM Classification on Google Colab (Web)
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/google_colab_autoencoder">
+&lt;img alt="MNIST Classification with Autoencoder on Google Colab (Web)" src="/images/colab.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/google_colab_autoencoder">
+MNIST-Autoencoder Classification on Google Colab (Web)
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/google_colab_mlp_lstm">
+&lt;img alt="MNIST Classification with MLP &amp;#43; LSTM" src="/images/colab.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/google_colab_mlp_lstm">
+MNIST with MLP+LSTM Classification on Google Colab (Web)
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/google_colab_distributed_training_tensorflow">
+&lt;img alt="Distributed Training with MNIST" src="/images/colab.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/google_colab_distributed_training_tensorflow">
+Distributed Training with MNIST Classification on Google Colab (Web)
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/google_colab_pytorch_intro">
+&lt;img alt="PyTorch with MNIST" src="/images/colab.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/google_colab_pytorch_intro">
+PyTorch with MNIST Classification on Google Colab (Web)
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h2 id="material">Material&lt;/h2>
+&lt;!-- COMMENTED OUT
+### Physics
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/physics">
+&lt;img alt="Physics" src="/images/physics-hep.jpg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/physics">
+Big Data Applications and Analytics Discovery of Higgs Boson Part I
+(Unit 8) Section Units 9-11 Summary: This section starts by describing
+the LHC accelerator at CERN and evidence found by the experiments
+suggesting existence of a Higgs Boson. The huge number of authors on a
+paper, remarks on histograms and Feynman diagrams is followed by an
+accelerator picture gallery. The next unit is devoted to Python
+experiments looking at histograms of Higgs Boson production with
+various forms of shape of signal and various background and with
+various event totals. Then random variables and some simple principles
+of statistics are introduced with explanation as to why they are
+relevant to Physics counting experiments. The unit introduces Gaussian
+(normal) distributions and explains why they seen so often in natural
+phenomena. Several Python illustrations are given. Random Numbers with
+their Generators and Seeds lead to a discussion of Binomial and
+Poisson Distribution. Monte-Carlo and accept-reject methods. The
+Central Limit Theorem concludes discussion.
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+-->
+&lt;!-- COMMENTED OUT
+### Sports
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/sports">
+&lt;img alt="Sports" src="/images/sport.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/sports">
+Sports sees significant growth in analytics with pervasive statistics
+shifting to more sophisticated measures. We start with baseball as
+game is built around segments dominated by individuals where detailed
+(video/image) achievement measures including PITCHf/x and FIELDf/x are
+moving field into big data arena. There are interesting relationships
+between the economics of sports and big data analytics. We look at
+Wearables and consumer sports/recreation. The importance of spatial
+visualization is discussed. We look at other Sports: Soccer, Olympics,
+NFL Football, Basketball, Tennis and Horse Racing.
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+-->
+&lt;h3 id="health-and-medicine">Health and Medicine&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/health_and_medicine">
+&lt;img alt="Sports" src="/images/health.jpg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/health_and_medicine">
+Health and Medicine sector has become a much more needed service than
+ever. With the uprising of the Covid-19, resource usage, monitoring,
+research on anti-virals and many more challenging tasks were on the
+shoulders of scientists. To face such challenges, AI can become a
+worthy partner in solving some of the related problems efficiently and
+effectively.
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="ai-in-banking">AI in Banking&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/ai_in_banking">
+&lt;img alt="AI in Banking" src="/images/ai_in_banking.jpg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/ai_in_banking">
+AI in banking has become a vital component in providing best services to the
+peopel. AI provides securing bank transactions, providing suggestions and
+many other services for the clients. And legacy banking systems are also being
+reinforced with novel AI techniques to migrate business models with technology.
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;!-- COMMENTED OUT
+### Transportation Systems
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/transportation_systems">
+&lt;img alt="Transportation Systems" src="/images/transportation_system.jpg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/transportation_systems">
+Transportation systems is a vital component in human life. With the dawn of AI,
+transportation systems are also reinforced to provide better service for the people.
+Analyzing tera-bytes of data collected in day-to-day transportation activities are used
+to analyze issues and provide a better experience for the user.
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+-->
+&lt;h3 id="space-and-energy">Space and Energy&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/space_and_energy">
+&lt;img alt="Space and Energy" src="/images/space_and_energy.jpg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/space_and_energy">
+Energy is a term we find in everyday life. Conserving energy and smart usage is vital in managing energy demands.
+Here the role played by AI has become significant in recent years.
+Many efforts have been taken by industry leaders like Bill Gates to provide better solutions for efficient energy consumption.
+Apart from that Space explorations are also being reinforced with AI. Better communication, remote sensing,
+data analysis have become key components in succeeding the challenge to unravel the mysteries in the universe.
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="mobility-industry">Mobility (Industry)&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/mobility">
+&lt;img alt="Mobility (Industry)" src="/images/mobility.jpg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/mobility">
+Mobility is a key part in everyday life. From the personal car to space exploring rockets, there are many places that can
+be enhanced by using AI. Autonomous vehicles and sensing features provide safety and efficiency. Many motorcar companies
+have already moved towards AI to power the vehicles and provide new features for the drivers.
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="cloud-computing">Cloud Computing&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/cloud_computing">
+&lt;img alt="Cloud Computing" src="/images/cloud_computing.jpg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/cloud_computing">
+Cloud computing is a major component of Today's service infrastructures. Artificial intelligence, micro-services, storage,
+virtualization and parallel computing are some of the key aspects of cloud computing.
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="commerce">Commerce&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/commerce">
+&lt;img alt="Commerce" src="/images/commerce.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/ai-first/2021/commerce">
+Commerce is a field which is reinforced with AI and technologies to provide a better service to the clients.
+Amazon is one of the leading companies in e-commerce. The recommendation engines play a major role in e-commerce.
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h2 id="complementary-material">Complementary Material&lt;/h2>
+&lt;ul>
+&lt;li>When working with books, ePubs typically display better than PDF. For ePub, we recommend using iBooks on macOS and calibre on all
+other systems.&lt;/li>
+&lt;/ul>
+&lt;h3 id="piazza">Piazza&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://piazza.com/class/kedccsbsthm5sc">
+&lt;img alt="Piazza" src="/images/piazza.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://piazza.com/class/kedccsbsthm5sc">
+Piazza. The link for all those that participate in the IU class to its
+class Piazza.
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="scientific-writing-with-markdown">Scientific Writing with Markdown&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://laszewski.github.io/publication/las-20-book-markdown/">
+&lt;img alt="Markdown" src="https://laszewski.github.io/publication/las-20-book-markdown/featured_hu35c56d6c1465b1e20f3e20eeb0404972_1466540_720x0_resize_lanczos_2.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://laszewski.github.io/publication/las-20-book-markdown/"> Scientific Writing with Markdown &lt;/a>
+&lt;a href="https://cloudmesh-community.github.io/pub/vonLaszewski-writing.epub"> (ePub) &lt;/a>
+&lt;a href="https://cloudmesh-community.github.io/pub/vonLaszewski-writing.pdf"> (PDF) &lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="git-pull-request">Git Pull Request&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/tutorial/git-pull-request/">
+&lt;img alt="Git Pull Request" src="/images/youtube.jpg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/tutorial/git-pull-request/">
+Git Pull Request. Here you will learn how to do a simple git pull
+request either via the GitHub GUI or the git command line tools
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="introduction-to-linux">Introduction to Linux&lt;/h3>
+&lt;p>This course does not require you to do much Linux. However, if you do
+need it, we recommend the following as starting point listed&lt;/p>
+&lt;p>The most
+elementary Linux features can be learned in 12 hours. This includes
+bash, editor, directory structure, managing files. Under Windows, we
+recommend using gitbash, a terminal with all the
+commands built-in that you would need for elementary work.&lt;/p>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://laszewski.github.io/publication/las-20-book-linux/">
+&lt;img alt="Linux" src="https://laszewski.github.io/publication/las-20-book-linux/featured_hu9c80192b9ef636ff9a0c7a277fb84741_1248027_720x0_resize_lanczos_2.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://laszewski.github.io/publication/las-20-book-linux/"> Introduction to Linux &lt;/a>
+&lt;a href="https://cloudmesh-community.github.io/pub//vonLaszewski-linux.epub"> (ePub) &lt;/a>
+&lt;a href="https://cloudmesh-community.github.io/pub//vonLaszewski-linux.pdf"> (PDF) &lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="older-course-material">Older Course Material&lt;/h3>
+&lt;p>Older versions of the material are available at&lt;/p>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://cloudmesh-community.github.io/pub//vonLaszewski-e534.epub">
+&lt;img alt="Lecture Notes 2020" src="https://laszewski.github.io/publication/las-20-book-bigdata/featured_hu67f18d37c5bab7f45026548c1c5a89d2_1265828_720x0_resize_lanczos_2.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://cloudmesh-community.github.io/pub//vonLaszewski-e534.epub"> Lecture Notes 2020 &lt;/a>
+&lt;a href="https://cloudmesh-community.github.io/pub//vonLaszewski-e534.epub"> (ePub) &lt;/a>
+&lt;a href="https://cloudmesh-community.github.io/pub/vonLaszewski-e534.pdf"> (PDF) &lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="http://dsc.soic.indiana.edu/publications/E534-BigDataSystems-DeepLearning.pdf">
+&lt;img alt="Big Data Applications (Nov. 2019)" src="https://laszewski.github.io/publication/las-20-book-bigdata/featured_hu67f18d37c5bab7f45026548c1c5a89d2_1265828_720x0_resize_lanczos_2.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="http://dsc.soic.indiana.edu/publications/E534-BigDataSystems-DeepLearning.pdf"> Big Data Applications (Nov. 2019) &lt;/a>
+&lt;a href="404"> (ePub) &lt;/a>
+&lt;a href="http://dsc.soic.indiana.edu/publications/E534-BigDataSystems-DeepLearning.pdf"> (PDF) &lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://laszewski.github.io/publication/las-20-book-bigdata/">
+&lt;img alt="Big Data Applications (2018)" src="https://laszewski.github.io/publication/las-20-book-bigdata/featured_hu67f18d37c5bab7f45026548c1c5a89d2_1265828_720x0_resize_lanczos_2.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://laszewski.github.io/publication/las-20-book-bigdata/"> Big Data Applications (2018) &lt;/a>
+&lt;a href="https://cloudmesh-community.github.io/pub//vonLaszewski-big-data-applications.epub"> (ePub) &lt;/a>
+&lt;a href="https://cloudmesh-community.github.io/pub//vonLaszewski-big-data-applications.pdf"> (PDF) &lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h2 id="contributions">Contributions&lt;/h2>
+&lt;p>You can contribute to the material with useful links and sections that
+you find. Just make sure that you do not plagiarize when making
+contributions. Please review our guide on plagiarism.&lt;/p>
+&lt;h2 id="computer-needs">Computer Needs&lt;/h2>
+&lt;p>This course does not require a sophisticated computer. Most of the
+things can be done remotely. Even a Raspberry Pi with 4 or 8GB could
+be used as a terminal to log into remote computers. This will cost you
+between $50 - $100 dependent on which version and equipment. However,
+we will not teach you how to use or set up a Pi or another
+computer in this class. This is for you to do and find out.&lt;/p>
+&lt;p>In case you need to buy a new computer for school, make sure the
+computer is upgradable to 16GB of main memory. We do no longer
+recommend using HDD&amp;rsquo;s but use SSDs. Buy the fast ones, as not every
+SSD is the same. Samsung is offering some under the EVO Pro
+branding. Get as much memory as you can effort. Also, make sure
+you back up your work regularly. Either in online storage such as
+Google, or an external drive.&lt;/p></description></item><item><title>Docs: Big Data 2020</title><link>/docs/courses/bigdata2020/</link><pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate><guid>/docs/courses/bigdata2020/</guid><description>
+&lt;p>&lt;img src="/images/bigdata.png" alt="This is an image">&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This course introduces the students to Cloud Big Data
+Applications we provide the following sections&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#class-material">Class Material&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#course-lectures-and-management">Course Lectures and Management&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#lectures-on-particular-topics">Lectures on Particular Topics&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#introduction-to-ai-driven-digital-transformation">Introduction to AI-Driven Digital Transformation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#big-data-usecases-survey">Big Data Usecases Survey&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#introduction-to-google-colab">Introduction to Google Colab&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#material">Material&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#physics">Physics&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#sports">Sports&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#health-and-medicine">Health and Medicine&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#ai-in-banking">AI in Banking&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#transportation-systems">Transportation Systems&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#space-and-energy">Space and Energy&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#mobility-industry">Mobility (Industry)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#cloud-computing">Cloud Computing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#commerce">Commerce&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#complementary-material">Complementary Material&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#piazza">Piazza&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#scientific-writing-with-markdown">Scientific Writing with Markdown&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#git-pull-request">Git Pull Request&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#introduction-to-linux">Introduction to Linux&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#older-course-material">Older Course Material&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#contributions">Contributions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#computer-needs">Computer Needs&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="class-material">Class Material&lt;/h2>
+&lt;p>As part of this class, we will be using a variety of sources. To
+simplify the presentation we provide them in a variety of smaller
+packaged material including books, lecture notes, slides, presentations
+and code.&lt;/p>
+&lt;p>Note: We will regularly update the course material, so please
+always download the newest version. Some browsers try to
+be fancy and cache previous page visits. So please make sure to
+refresh the page.&lt;/p>
+&lt;p>We will use the following material:&lt;/p>
+&lt;h2 id="course-lectures-and-management">Course Lectures and Management&lt;/h2>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/bigdataapplications/2020/course_lectures">
+&lt;img alt="Course Lectures" src="/images/bigdata.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/bigdataapplications/2020/course_lectures">
+Course Lectures. These meeting notes are updated weekly (Web)
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h2 id="lectures-on-particular-topics">Lectures on Particular Topics&lt;/h2>
+&lt;h3 id="introduction-to-ai-driven-digital-transformation">Introduction to AI-Driven Digital Transformation&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/bigdataapplications/2020/introduction">
+&lt;img alt="Introduction to AI-Driven Digital Transformation (Web)" src="/images/aitransform.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/bigdataapplications/2020/introduction">
+Introduction to AI-Driven Digital Transformation (Web)
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="big-data-usecases-survey">Big Data Usecases Survey&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/bigdataapplications/2020/usecases">
+&lt;img alt="Big Data Usecases Survey" src="/images/usecases.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/bigdataapplications/2020/usecases">
+This module covers 51 usecases of Big data that emerged from a NIST
+(National Institute for Standards and Technology) study of Big
+data. We cover the NIST Big Data Public Working Group (NBD-PWG)
+Process and summarizes the work of five subgroups: Definitions and
+Taxonomies Subgroup, Reference Architecture Subgroup, Security and
+Privacy Subgroup, Technology Roadmap Subgroup and the Requirements
+andUse Case Subgroup. 51 use cases collected in this process are
+briefly discussed with a classification of the source of parallelism
+and the high and low level computational structure. We describe the
+key features of this classification.
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="introduction-to-google-colab">Introduction to Google Colab&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/python/google-colab/python-google-colab">
+&lt;img alt="A Gentle Introduction to Google Colab (Web)" src="/images/colab.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/python/google-colab/python-google-colab">
+A Gentle Introduction to Google Colab (Web)
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/bigdataapplications/2020/python_initial">
+&lt;img alt="A Gentle Introduction to Python on Google Colab (Web)" src="/images/colab.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/bigdataapplications/2020/python_initial">
+A Gentle Introduction to Python on Google Colab (Web)
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/bigdataapplications/2020/google_colab_exercise">
+&lt;img alt="MNIST Classification on Google Colab (Web)" src="/images/colab.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/bigdataapplications/2020/google_colab_exercise">
+MNIST Classification on Google Colab (Web)
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h2 id="material">Material&lt;/h2>
+&lt;h3 id="physics">Physics&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/bigdataapplications/2020/physics">
+&lt;img alt="Physics" src="/images/physics-hep.jpg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/bigdataapplications/2020/physics">
+Big Data Applications and Analytics Discovery of Higgs Boson Part I
+(Unit 8) Section Units 9-11 Summary: This section starts by describing
+the LHC accelerator at CERN and evidence found by the experiments
+suggesting existence of a Higgs Boson. The huge number of authors on a
+paper, remarks on histograms and Feynman diagrams is followed by an
+accelerator picture gallery. The next unit is devoted to Python
+experiments looking at histograms of Higgs Boson production with
+various forms of shape of signal and various background and with
+various event totals. Then random variables and some simple principles
+of statistics are introduced with explanation as to why they are
+relevant to Physics counting experiments. The unit introduces Gaussian
+(normal) distributions and explains why they seen so often in natural
+phenomena. Several Python illustrations are given. Random Numbers with
+their Generators and Seeds lead to a discussion of Binomial and
+Poisson Distribution. Monte-Carlo and accept-reject methods. The
+Central Limit Theorem concludes discussion.
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="sports">Sports&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/bigdataapplications/2020/sports">
+&lt;img alt="Sports" src="/images/sport.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/bigdataapplications/2020/sports">
+Sports sees significant growth in analytics with pervasive statistics
+shifting to more sophisticated measures. We start with baseball as
+game is built around segments dominated by individuals where detailed
+(video/image) achievement measures including PITCHf/x and FIELDf/x are
+moving field into big data arena. There are interesting relationships
+between the economics of sports and big data analytics. We look at
+Wearables and consumer sports/recreation. The importance of spatial
+visualization is discussed. We look at other Sports: Soccer, Olympics,
+NFL Football, Basketball, Tennis and Horse Racing.
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="health-and-medicine">Health and Medicine&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/bigdataapplications/2020/health_and_medicine">
+&lt;img alt="Sports" src="/images/health.jpg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/bigdataapplications/2020/health_and_medicine">
+Health and Medicine sector has become a much more needed service than
+ever. With the uprising of the Covid-19, resource usage, monitoring,
+research on anti-virals and many more challenging tasks were on the
+shoulders of scientists. To face such challenges, AI can become a
+worthy partner in solving some of the related problems efficiently and
+effectively.
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="ai-in-banking">AI in Banking&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/bigdataapplications/2020/ai_in_banking">
+&lt;img alt="AI in Banking" src="/images/ai_in_banking.jpg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/bigdataapplications/2020/ai_in_banking">
+AI in banking has become a vital component in providing best services to the
+peopel. AI provides securing bank transactions, providing suggestions and
+many other services for the clients. And legacy banking systems are also being
+reinforced with novel AI techniques to migrate business models with technology.
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="transportation-systems">Transportation Systems&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/bigdataapplications/2020/transportation_systems">
+&lt;img alt="Transportation Systems" src="/images/transportation_system.jpg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/bigdataapplications/2020/transportation_systems">
+Transportation systems is a vital component in human life. With the dawn of AI,
+transportation systems are also reinforced to provide better service for the people.
+Analyzing tera-bytes of data collected in day-to-day transportation activities are used
+to analyze issues and provide a better experience for the user.
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="space-and-energy">Space and Energy&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/bigdataapplications/2020/space_and_energy">
+&lt;img alt="Space and Energy" src="/images/space_and_energy.jpg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/bigdataapplications/2020/space_and_energy">
+Energy is a term we find in everyday life. Conserving energy and smart usage is vital in managing energy demands.
+Here the role played by AI has become significant in recent years.
+Many efforts have been taken by industry leaders like Bill Gates to provide better solutions for efficient energy consumption.
+Apart from that Space explorations are also being reinforced with AI. Better communication, remote sensing,
+data analysis have become key components in succeeding the challenge to unravel the mysteries in the universe.
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="mobility-industry">Mobility (Industry)&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/bigdataapplications/2020/mobility">
+&lt;img alt="Mobility (Industry)" src="/images/mobility.jpg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/bigdataapplications/2020/mobility">
+Mobility is a key part in everyday life. From the personal car to space exploring rockets, there are many places that can
+be enhanced by using AI. Autonomous vehicles and sensing features provide safety and efficiency. Many motorcar companies
+have already moved towards AI to power the vehicles and provide new features for the drivers.
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="cloud-computing">Cloud Computing&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/bigdataapplications/2020/cloud_computing">
+&lt;img alt="Cloud Computing" src="/images/cloud_computing.jpg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/bigdataapplications/2020/cloud_computing">
+Cloud computing is a major component of Today's service infrastructures. Artificial intelligence, micro-services, storage,
+virtualization and parallel computing are some of the key aspects of cloud computing.
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="commerce">Commerce&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/modules/bigdataapplications/2020/commerce">
+&lt;img alt="Commerce" src="/images/commerce.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/modules/bigdataapplications/2020/commerce">
+Commerce is a field which is reinforced with AI and technologies to provide a better service to the clients.
+Amazon is one of the leading companies in e-commerce. The recommendation engines play a major role in e-commerce.
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h2 id="complementary-material">Complementary Material&lt;/h2>
+&lt;ul>
+&lt;li>When working with books, ePubs typically display better than PDF. For ePub, we recommend using iBooks on macOS and calibre on all
+other systems.&lt;/li>
+&lt;/ul>
+&lt;h3 id="piazza">Piazza&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://piazza.com/class/kedccsbsthm5sc">
+&lt;img alt="Piazza" src="/images/piazza.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://piazza.com/class/kedccsbsthm5sc">
+Piazza. The link for all those that participate in the IU class to its
+class Piazza.
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="scientific-writing-with-markdown">Scientific Writing with Markdown&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://laszewski.github.io/publication/las-20-book-markdown/">
+&lt;img alt="Markdown" src="https://laszewski.github.io/publication/las-20-book-markdown/featured_hu35c56d6c1465b1e20f3e20eeb0404972_1466540_720x0_resize_lanczos_2.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://laszewski.github.io/publication/las-20-book-markdown/"> Scientific Writing with Markdown &lt;/a>
+&lt;a href="https://cloudmesh-community.github.io/pub/vonLaszewski-writing.epub"> (ePub) &lt;/a>
+&lt;a href="https://cloudmesh-community.github.io/pub/vonLaszewski-writing.pdf"> (PDF) &lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="git-pull-request">Git Pull Request&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="/docs/tutorial/git-pull-request/">
+&lt;img alt="Git Pull Request" src="/images/youtube.jpg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="/docs/tutorial/git-pull-request/">
+Git Pull Request. Here you will learn how to do a simple git pull
+request either via the GitHub GUI or the git command line tools
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="introduction-to-linux">Introduction to Linux&lt;/h3>
+&lt;p>This course does not require you to do much Linux. However, if you do
+need it, we recommend the following as starting point listed&lt;/p>
+&lt;p>The most
+elementary Linux features can be learned in 12 hours. This includes
+bash, editor, directory structure, managing files. Under Windows, we
+recommend using gitbash, a terminal with all the
+commands built-in that you would need for elementary work.&lt;/p>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://laszewski.github.io/publication/las-20-book-linux/">
+&lt;img alt="Linux" src="https://laszewski.github.io/publication/las-20-book-linux/featured_hu9c80192b9ef636ff9a0c7a277fb84741_1248027_720x0_resize_lanczos_2.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://laszewski.github.io/publication/las-20-book-linux/"> Introduction to Linux &lt;/a>
+&lt;a href="https://cloudmesh-community.github.io/pub//vonLaszewski-linux.epub"> (ePub) &lt;/a>
+&lt;a href="https://cloudmesh-community.github.io/pub//vonLaszewski-linux.pdf"> (PDF) &lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="older-course-material">Older Course Material&lt;/h3>
+&lt;p>Older versions of the material are available at&lt;/p>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://cloudmesh-community.github.io/pub//vonLaszewski-e534.epub">
+&lt;img alt="Lecture Notes 2020" src="https://laszewski.github.io/publication/las-20-book-bigdata/featured_hu67f18d37c5bab7f45026548c1c5a89d2_1265828_720x0_resize_lanczos_2.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://cloudmesh-community.github.io/pub//vonLaszewski-e534.epub"> Lecture Notes 2020 &lt;/a>
+&lt;a href="https://cloudmesh-community.github.io/pub//vonLaszewski-e534.epub"> (ePub) &lt;/a>
+&lt;a href="https://cloudmesh-community.github.io/pub/vonLaszewski-e534.pdf"> (PDF) &lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="http://dsc.soic.indiana.edu/publications/E534-BigDataSystems-DeepLearning.pdf">
+&lt;img alt="Big Data Applications (Nov. 2019)" src="https://laszewski.github.io/publication/las-20-book-bigdata/featured_hu67f18d37c5bab7f45026548c1c5a89d2_1265828_720x0_resize_lanczos_2.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="http://dsc.soic.indiana.edu/publications/E534-BigDataSystems-DeepLearning.pdf"> Big Data Applications (Nov. 2019) &lt;/a>
+&lt;a href="404"> (ePub) &lt;/a>
+&lt;a href="http://dsc.soic.indiana.edu/publications/E534-BigDataSystems-DeepLearning.pdf"> (PDF) &lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://laszewski.github.io/publication/las-20-book-bigdata/">
+&lt;img alt="Big Data Applications (2018)" src="https://laszewski.github.io/publication/las-20-book-bigdata/featured_hu67f18d37c5bab7f45026548c1c5a89d2_1265828_720x0_resize_lanczos_2.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://laszewski.github.io/publication/las-20-book-bigdata/"> Big Data Applications (2018) &lt;/a>
+&lt;a href="https://cloudmesh-community.github.io/pub//vonLaszewski-big-data-applications.epub"> (ePub) &lt;/a>
+&lt;a href="https://cloudmesh-community.github.io/pub//vonLaszewski-big-data-applications.pdf"> (PDF) &lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h2 id="contributions">Contributions&lt;/h2>
+&lt;p>You can contribute to the material with useful links and sections that
+you find. Just make sure that you do not plagiarize when making
+contributions. Please review our guide on plagiarism.&lt;/p>
+&lt;h2 id="computer-needs">Computer Needs&lt;/h2>
+&lt;p>This course does not require a sophisticated computer. Most of the
+things can be done remotely. Even a Raspberry Pi with 4 or 8GB could
+be used as a terminal to log into remote computers. This will cost you
+between $50 - $100 dependent on which version and equipment. However,
+we will not teach you how to use or set up a Pi or another
+computer in this class. This is for you to do and find out.&lt;/p>
+&lt;p>In case you need to buy a new computer for school, make sure the
+computer is upgradable to 16GB of main memory. We do no longer
+recommend using HDD&amp;rsquo;s but use SSDs. Buy the fast ones, as not every
+SSD is the same. Samsung is offering some under the EVO Pro
+branding. Get as much memory as you can effort. Also, make sure
+you back up your work regularly. Either in online storage such as
+Google, or an external drive.&lt;/p></description></item><item><title>Docs: REU 2020</title><link>/docs/courses/reu/</link><pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate><guid>/docs/courses/reu/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This course introduces the REU students to various topics in Intelligent Systems Engineering. The course was taught in Summer 2020.&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#computational-foundations">Computational Foundations&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#programming-with-python">Programming with Python&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#coronavirus-overview">Coronavirus Overview&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#basic-virology-and-immunology">Basic Virology and Immunology&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#clinical-presentation">Clinical Presentation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#management-of-covid-19">Management of COVID-19&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#investigational-therapeutics-and-vaccine-development">Investigational Therapeutics and Vaccine Development&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#coronavirus-genomics-superlab">Coronavirus Genomics Superlab&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#sars-by-the-numbers">SARS by the numbers&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#epidemiology">Epidemiology&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#introduction-to-epidemiological-terms">Introduction to Epidemiological Terms&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#where-are-we-now">Where Are We Now?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#where-will-we-be-next">Where Will We Be Next?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#approaches-to-long-term-planning">Approaches to Long-Term Planning&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#case-studies">Case Studies&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#introduction-to-aideep-learning">Introduction to AI/Deep Learning&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#deep-learning-in-health-and-medicine-a-overall-trends">Deep Learning in Health and Medicine A: Overall Trends&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#deep-learning-in-health-and-medicine-b-diagnostics">Deep Learning in Health and Medicine B: Diagnostics&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#deep-learning-in-health-and-medicine-c-examples">Deep Learning in Health and Medicine C: Examples&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#deep-learning-in-health-and-medicine-d-impact-of-corona-virus-covid-19">Deep Learning in Health and Medicine D: Impact of Corona Virus Covid-19&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#deep-learning-in-health-and-medicine-e-corona-virus-covid-19-and-recession">Deep Learning in Health and Medicine E: Corona Virus Covid-19 and Recession&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#deep-learning-in-health-and-medicine-f-tackling-corona-virus-covid-19">Deep Learning in Health and Medicine F: Tackling Corona Virus Covid-19&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#deep-learning-in-health-and-medicine-g-data-and-computational-science-and-the-corona-virus-covid-19">Deep Learning in Health and Medicine G: Data and Computational Science and The Corona Virus Covid-19&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#deep-learning-in-health-and-medicine-h-screening-covid-19-drug-candidates">Deep Learning in Health and Medicine H: Screening Covid-19 Drug Candidates&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#deep-learning-in-health-and-medicine-i-areas-for-covid19-study-and-pandemics-as-complex-systems">Deep Learning in Health and Medicine I: Areas for Covid19 Study and Pandemics as Complex Systems&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#reu-projects">REU Projects&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#big-data-technology-clouds-and-selected-applications">Big Data, technology, clouds and selected applications&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#cloud-computing">Cloud Computing&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="computational-foundations">Computational Foundations&lt;/h2>
+&lt;ul>
+&lt;li>Brief Overview of the Praxis AI Platform and Overview of the Learning Paths&lt;/li>
+&lt;li>Accessing Praxis Cloud&lt;/li>
+&lt;li>Introduction To Linux and the Command Line&lt;/li>
+&lt;li>Jupyter Notebooks&lt;/li>
+&lt;li>A Brief Intro to Machine Learning in Google Colaboratory&lt;/li>
+&lt;/ul>
+&lt;h2 id="programming-with-python">Programming with Python&lt;/h2>
+&lt;p>Selected chapters from out python Book&lt;/p>
+&lt;ul>
+&lt;li>Analyzing Patient Data&lt;/li>
+&lt;li>Loops Lists Analyzing Data&lt;/li>
+&lt;li>Functions Errors Exceptions&lt;/li>
+&lt;li>Defensive Programming Debugging&lt;/li>
+&lt;/ul>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://laszewski.github.io/publication/las-20-book-markdown/">
+&lt;img alt="Python" src="https://laszewski.github.io/publication/las-20-book-python/featured.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://laszewski.github.io/publication/las-20-book-markdown/"> Introduction to Python &lt;/a>
+&lt;a href="https://cloudmesh-community.github.io/pub//vonLaszewski-python.epub"> (ePub) &lt;/a>
+&lt;a href="https://cloudmesh-community.github.io/pub//vonLaszewski-python.pdf"> (PDF) &lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h2 id="coronavirus-overview">Coronavirus Overview&lt;/h2>
+&lt;h3 id="basic-virology-and-immunology">Basic Virology and Immunology&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://curriculum.covidstudentresponse.org/module-1-from-bench-to-bedside">
+&lt;img alt="Case Study: 1918 Influenza Pandemic" src="https://lh3.googleusercontent.com/jAEqPWzV1MqzAiA7fL6QYnLWRzpxvR4pZO83sXJ964eduG5RApqAkDlPRuSbHfvcAcbrx8HwcNgA2cB8cUOnVNK84qKOt6-lgJBPr5dMMmX20k6GUAcq6FnZtLLM0zX6e2MUA6Tn"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://curriculum.covidstudentresponse.org/module-1-from-bench-to-bedside">
+Case Study: 1918 Influenza Pandemic: Prior to COVID-19, the 1918 influenza pandemic was the most severe pandemic in recent history. First identified in military personnel in the spring of 1918, the influenza was an H1N1 virus of avian origin. It is commonly referred to by scientists and historians as “the Mother of all Pandemics.” This pandemic is often referred to as the “Spanish Flu” in the lay press, though this name is a misnomer, and the virus likely originated elsewhere. Contemporary reporting focused heavily on Spain, as it was one of few places at the time that did not have restrictions on the press during World War I.
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7190493/pdf/main.pdf%22">
+&lt;img alt="SnapShot: COVID-19" src="https://gblobscdn.gitbook.com/spaces%2F-M3BxArHvbKE82aKt02m%2Favatar-1588451403181.png?alt=media"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7190493/pdf/main.pdf%22">
+SnapShot: COVID-19: In December 2019, several cases of pneumonia of unknown origin were reported in Wuhan, China. The causative agent was characterized as a novel coronavirus, initially referred
+to as 2019-nCoV and renamed severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) (Zhou et al., 2020b). This respiratory illness, coronavirus disease 2019 (COVID-19),
+has spread rapidly by human-to-human transmission, caused major outbreaks worldwide, and resulted in considerable morbidity and mortality. On March 11, 2020, WHO classified
+COVID-19 as a pandemic. It has stressed health systems and the global economy, as governments balance prevention, clinical care, and socioeconomic challenges.
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://curriculum.covidstudentresponse.org/module-1-from-bench-to-bedside/basic-virology-and-immunology#basic-virology">
+&lt;img alt="Basic Virology and Immunology" src="https://lh5.googleusercontent.com/WgOZJZPiTRXr0ScNg4mmP0_B9EMBeounaQDnj4Z6uiNJZNZduXs9epnlEoP_xWt8CFHzWsdnGuPWXKS_RR4dWX7_aE1dcYc4aZdiAfiTnLYNj4C0lSIaLbsWWgHcV0KeLKWEcjQn"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://curriculum.covidstudentresponse.org/module-1-from-bench-to-bedside/basic-virology-and-immunology#basic-virology">
+Basic Virology and Immunology: In December 2019, a series of cases of pneumonia of unknown origin were reported in Wuhan, the capital city of Hubei province in China. The causative virus was isolated and characterized in January 2020 (Zhou et al., Nature 2020, Zhu et al., NEJM 2020). On January 12, 2020, the World Health Organization (WHO) tentatively named the virus as the 2019 novel coronavirus (2019-nCoV). On January 30, 2020 WHO issued a public health emergency of international concern (PHEIC) and on February 11, 2020, the WHO formally named the disease caused by the novel coronavirus as coronavirus disease 2019 (COVID-19). At that time, based on its genetic relatedness to known coronaviruses and established classification system, the International Committee on Taxonomy of Viruses classified and renamed 2019-nCoV as severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). On March 11, 2020, the WHO formally characterized the global spread of COVID-19 as a pandemic, the first to be caused by a coronavirus.
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="clinical-presentation">Clinical Presentation&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://curriculum.covidstudentresponse.org/module-1-from-bench-to-bedside/basic-virology-and-immunology#basic-virology%20https://curriculum.covidstudentresponse.org/module-1-from-bench-to-bedside/clinical-presentation-of-covid-19">
+&lt;img alt="Clinical Presentation" src="https://lh6.googleusercontent.com/SO7HSWJKEv2AOcasEyXd-q8q8M8idevuSURG0ftz0AiMfPJGLt9M29sS_ScSGgqG7-Meh4Uo97Vh-wlapgdFgzdfE0sqgmyi8iz5eiy1l-hieb2jjy2p4MUpPD0uzeteEa3WY4XS"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://curriculum.covidstudentresponse.org/module-1-from-bench-to-bedside/basic-virology-and-immunology#basic-virology%20https://curriculum.covidstudentresponse.org/module-1-from-bench-to-bedside/clinical-presentation-of-covid-19">
+Clinical Presentation
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="management-of-covid-19">Management of COVID-19&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://curriculum.covidstudentresponse.org/module-1-from-bench-to-bedside/management-of-covid-19">
+&lt;img alt="Management of COVID-19" src="https://lh3.googleusercontent.com/jE86vXWXwE5_LDoXcQ3GVLfyYy1Kfz5gO6K5AWdQk8ESk6Cc-RUynbxQl1P1LJQesvOKiCYgUMR5lEmC9C4purBfY5w29VBox5kZYQWF2nd7wY4GkuC5XQfr5SYj4o8mRFPMFbV3"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://curriculum.covidstudentresponse.org/module-1-from-bench-to-bedside/management-of-covid-19">
+Management of COVID-19
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="investigational-therapeutics-and-vaccine-development">Investigational Therapeutics and Vaccine Development&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://curriculum.covidstudentresponse.org/module-1-from-bench-to-bedside/investigational-therapeutics-and-vaccine-development">
+&lt;img alt="Investigational Therapeutics and Vaccine Development" src="https://lh6.googleusercontent.com/f-44zUin8uqllms16B82k4n_UNpR1T-bYSKpgAcYHFwP864MbeJiXgnXwElpRYUtScnrazTGj-kfLQD2kwO1PFzvUNle3CBMoqf62voKYNV1fP_6pOUV43vr11LKjcL1oIqirsGg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://curriculum.covidstudentresponse.org/module-1-from-bench-to-bedside/investigational-therapeutics-and-vaccine-development">
+Investigational Therapeutics and Vaccine Development
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="coronavirus-genomics-superlab">Coronavirus Genomics Superlab&lt;/h3>
+&lt;p>Pull from Computational Biology Journey&lt;/p>
+&lt;h3 id="sars-by-the-numbers">SARS by the numbers&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7224694/">
+&lt;img alt="SARS by the numbers" src="https://static.pubmed.gov/portal/portal3rc.fcgi/4160049/img/28977"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7224694/">
+SARS by the numbers
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h2 id="epidemiology">Epidemiology&lt;/h2>
+&lt;h3 id="introduction-to-epidemiological-terms">Introduction to Epidemiological Terms&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://curriculum.covidstudentresponse.org/module-2-epidemiology-principles">
+&lt;img alt="Principals" src="https://gblobscdn.gitbook.com/spaces%2F-M3BxArHvbKE82aKt02m%2Favatar-1588451403181.png?alt=media"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://curriculum.covidstudentresponse.org/module-2-epidemiology-principles">
+Principals
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://curriculum.covidstudentresponse.org/module-2-epidemiology-principles/summary">
+&lt;img alt="Summary" src="https://gblobscdn.gitbook.com/assets%2F-M3BxArHvbKE82aKt02m%2F-M45OBinINDYFo_R37Zq%2F-M45OOnrNmGiGdpxWxh4%2FHarvard%20Medical%20School%20COVID-19%20Education%20Committee%20Module%202%20Graphic%20Summary_04-04-2020.png?alt=media&amp;amp;token=9214c711-ad4f-450b-916c-e57b7a986941"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://curriculum.covidstudentresponse.org/module-2-epidemiology-principles/summary">
+Summary
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://curriculum.covidstudentresponse.org/module-2-epidemiology-principles/introduction-to-epidemiological-terms">
+&lt;img alt="Introduction" src="https://lh6.googleusercontent.com/JuXtFn-a7Bq8rz5QTO0taFwFNFbHKmHSDGwUm4ZWQu5OBytoraQTTQ_BwHOEp9x7lA5ePxJl5FwD7tY0TmHg3vCoozyQ7qj7eZkBmmMmYBuoDaSNIEwT9HsU3fsodKfUIaCLp3Wr"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://curriculum.covidstudentresponse.org/module-2-epidemiology-principles/introduction-to-epidemiological-terms">
+Introduction
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="where-are-we-now">Where Are We Now?&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://curriculum.covidstudentresponse.org/module-2-epidemiology-principles/where-are-we-now">
+&lt;img alt="Where" src="https://lh5.googleusercontent.com/uc-9xhbQCaLFcv4TbrhLg3MQD98NDX6FH3fpQ779NCTQ6BgcZWVSN9ACpDp11orFcjndq9-eMFplm_ynPcp202nhH73Asa79JHVluGPv6Z7IHQfvACUzJag_B7cboXYEPy8vJGEJ"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://curriculum.covidstudentresponse.org/module-2-epidemiology-principles/where-are-we-now">
+Where Are We Now?
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="where-will-we-be-next">Where Will We Be Next?&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://curriculum.covidstudentresponse.org/module-2-epidemiology-principles/approaches-to-prediction">
+&lt;img alt="Where Will We Be Next?" src="https://lh6.googleusercontent.com/BG0-Azf7hkmiepfnCwTBYEZC2NhPsVHSO6ijEVzZE9EifjeTsXyz3SqYILkv_nvRwDmWSxmKYR26ZunitJgrgZun2BVkLAB-j3k45a_PvWdghnlQ9C_ukslXQ2El9J9ljkpTKZKg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://curriculum.covidstudentresponse.org/module-2-epidemiology-principles/approaches-to-prediction">
+Where Will We Be Next?
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="approaches-to-long-term-planning">Approaches to Long-Term Planning&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://curriculum.covidstudentresponse.org/module-2-epidemiology-principles/approaches-to-long-term-planning">
+&lt;img alt="Approaches to Long-Term Planning" src="https://lh5.googleusercontent.com/LtgNuUDKn3auPgbY33ZukjIGnCs0OEIhPdHM1aw31d1GdRlWvC612DM358XZROHPsDkscstBRs8DsVi6V3A8gR5qq_Tco17OKvgI80NvXMa9jEsHrDwcU-Qd8189TySD55JSx-pQ"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://curriculum.covidstudentresponse.org/module-2-epidemiology-principles/approaches-to-long-term-planning">
+Approaches to Long-Term Planning
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="case-studies">Case Studies&lt;/h3>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://curriculum.covidstudentresponse.org/module-2-epidemiology-principles/case-study-1918-influenza-pandemic">
+&lt;img alt="Case Studies" src="https://lh3.googleusercontent.com/jAEqPWzV1MqzAiA7fL6QYnLWRzpxvR4pZO83sXJ964eduG5RApqAkDlPRuSbHfvcAcbrx8HwcNgA2cB8cUOnVNK84qKOt6-lgJBPr5dMMmX20k6GUAcq6FnZtLLM0zX6e2MUA6Tn"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://curriculum.covidstudentresponse.org/module-2-epidemiology-principles/case-study-1918-influenza-pandemic">
+1918-influenza-pandemic
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://curriculum.covidstudentresponse.org/module-2-epidemiology-principles/case-study-2009-h1n1-pandemic">
+&lt;img alt="" src="https://gblobscdn.gitbook.com/spaces%2F-M3BxArHvbKE82aKt02m%2Favatar-1588451403181.png?alt=media"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://curriculum.covidstudentresponse.org/module-2-epidemiology-principles/case-study-2009-h1n1-pandemic">
+2009 H1N1 pandemic
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://curriculum.covidstudentresponse.org/module-2-epidemiology-principles/case-study-south-korea-2020">
+&lt;img alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/250px-Flag_of_South_Korea.svg.png"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://curriculum.covidstudentresponse.org/module-2-epidemiology-principles/case-study-south-korea-2020">
+Soutch Korea 2020
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h2 id="introduction-to-aideep-learning">Introduction to AI/Deep Learning&lt;/h2>
+&lt;h3 id="deep-learning-in-health-and-medicine-a-overall-trends">Deep Learning in Health and Medicine A: Overall Trends&lt;/h3>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/OKCJyaI8Kdg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h3 id="deep-learning-in-health-and-medicine-b-diagnostics">Deep Learning in Health and Medicine B: Diagnostics&lt;/h3>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/MS_BxByAjBU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h3 id="deep-learning-in-health-and-medicine-c-examples">Deep Learning in Health and Medicine C: Examples&lt;/h3>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/LNj-voTfaIo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h3 id="deep-learning-in-health-and-medicine-d-impact-of-corona-virus-covid-19">Deep Learning in Health and Medicine D: Impact of Corona Virus Covid-19&lt;/h3>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/kljAHwOVTiE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h3 id="deep-learning-in-health-and-medicine-e-corona-virus-covid-19-and-recession">Deep Learning in Health and Medicine E: Corona Virus Covid-19 and Recession&lt;/h3>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/IfNL-1iCwU0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h3 id="deep-learning-in-health-and-medicine-f-tackling-corona-virus-covid-19">Deep Learning in Health and Medicine F: Tackling Corona Virus Covid-19&lt;/h3>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/UfoLyIYtLr4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h3 id="deep-learning-in-health-and-medicine-g-data-and-computational-science-and-the-corona-virus-covid-19">Deep Learning in Health and Medicine G: Data and Computational Science and The Corona Virus Covid-19&lt;/h3>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/P3QCw1BgpHM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h3 id="deep-learning-in-health-and-medicine-h-screening-covid-19-drug-candidates">Deep Learning in Health and Medicine H: Screening Covid-19 Drug Candidates&lt;/h3>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/V4oWXZGfB48" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h3 id="deep-learning-in-health-and-medicine-i-areas-for-covid19-study-and-pandemics-as-complex-systems">Deep Learning in Health and Medicine I: Areas for Covid19 Study and Pandemics as Complex Systems&lt;/h3>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/3dxBcQDDulM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="reu-projects">REU Projects&lt;/h2>
+&lt;ul>
+&lt;li>REU Individual Project Overview and Expectations&lt;/li>
+&lt;li>Accessing the Coronavirus Datasets&lt;/li>
+&lt;li>Primer on How to Analyze the Data&lt;/li>
+&lt;/ul>
+&lt;p>Effect of AI on Industry and its Transformation
+Introduction to AI First Engineering&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/h6U3dcNbc-E" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>Examples of Applications of Deep Learning&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/vL2JvfM-SSk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>Optimization &amp;ndash; a key goal of Statistics, AI and Deep Learning&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/qJBMrochMok" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>Learn the Deep Learning important words/components&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/edOmZOA9E7k" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>Deep Learning and Imaging: It&amp;rsquo;s first greast success&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/92as3CXolHo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>For the BIg Data Class we revised the following material
+Big Data Overview Fall 2019&lt;/p>
+&lt;h2 id="big-data-technology-clouds-and-selected-applications">Big Data, technology, clouds and selected applications&lt;/h2>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://www.youtube.com/playlist?list=PLy0VLh_GFyz_TQhQjKnx-Ef7i2Bfhi15L">
+&lt;img alt="Bigdara" src="https://i.ytimg.com/vi/3NVooE9EtqY/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&amp;amp;rs=AOn4CLAc-Eg4TwHCln2qnrhtsiapaPHIyQ"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://www.youtube.com/playlist?list=PLy0VLh_GFyz_TQhQjKnx-Ef7i2Bfhi15L">
+20 Videos covering Big Data, technology, clouds and selected applications
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h2 id="cloud-computing">Cloud Computing&lt;/h2>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://www.youtube.com/playlist?list=PLy0VLh_GFyz-dNRQYeX0OMnq7AeB_CeN0%22">
+&lt;img alt="Case Studies" src="https://i.ytimg.com/vi/bd9KXMUsQGM/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&amp;amp;rs=AOn4CLA3Jv5PPeZR53yO-O4VOyJ0lm156w"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://www.youtube.com/playlist?list=PLy0VLh_GFyz-dNRQYeX0OMnq7AeB_CeN0%22">
+18 Videos covering cloud computing
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table></description></item><item><title>Docs: Big Data 2019</title><link>/docs/courses/bigdata/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>/docs/courses/bigdata/</guid><description>
+&lt;!--
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This is a placeholder page that shows you how to use this template site.&lt;/p>
+&lt;/div>
+-->
+&lt;p>&lt;a href="https://laszewski.github.io/publication/las-20-book-bigdata/">
+&lt;figure>
+&lt;img src="https://laszewski.github.io/publication/las-20-book-bigdata/featured_hu67f18d37c5bab7f45026548c1c5a89d2_1265828_720x0_resize_lanczos_2.png" width="30%"/> &lt;figcaption>
+&lt;h4>Big Data Applications&lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/p>
+&lt;p>The document is available as an online book in
+&lt;a href="https://cloudmesh-community.github.io/pub//vonLaszewski-big-data-applications.epub">ePub&lt;/a>
+and
+&lt;a href="https://cloudmesh-community.github.io/pub//vonLaszewski-big-data-applications.pdf">PDF&lt;/a>&lt;/p>
+&lt;p>For ePub, we recommend using iBooks on macOS and calibre on all other systems.&lt;/p></description></item><item><title>Docs: Cloud Computing</title><link>/docs/courses/cloud/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>/docs/courses/cloud/</guid><description>
+&lt;!--
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This is a placeholder page that shows you how to use this template site.&lt;/p>
+&lt;/div>
+-->
+&lt;p>&lt;a href="https://laszewski.github.io/publication/las-20-book-cloudeng/">
+&lt;figure>
+&lt;img src="https://laszewski.github.io/publication/las-20-book-cloudeng/featured_hu48f601133e68cd0671d4babb966e2aa3_1260884_720x0_resize_lanczos_2.png" width="30%"/> &lt;figcaption>
+&lt;h4>Cloud Computing&lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/p>
+&lt;p>The document is available as an online book in
+&lt;a href="https://cloudmesh-community.github.io/pub//vonLaszewski-cloud.epub">ePub&lt;/a> and &lt;a href="https://cloudmesh-community.github.io/pub//vonLaszewski-cloud.pdf">PDF&lt;/a> from the
+following Web Page:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://laszewski.github.io/book/cloud/">https://laszewski.github.io/book/cloud/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>For ePub, we recommend using iBooks on Macos and calibre on all other systems.&lt;/p>
+&lt;p>THe book has over 590 pages. Topics coverd include:&lt;/p>
+&lt;ul>
+&lt;li>DEFINITION OF CLOUD COMPUTING&lt;/li>
+&lt;li>CLOUD DATACENTER&lt;/li>
+&lt;li>CLOUD ARCHITECTURE&lt;/li>
+&lt;li>CLOUD REST
+&lt;ul>
+&lt;li>NIST&lt;/li>
+&lt;li>GRAPHQL&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>HYPERVISOR
+&lt;ul>
+&lt;li>Virtualization
+&lt;ul>
+&lt;li>Virtual Machine Management with QEMU&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>IAAS
+&lt;ul>
+&lt;li>Multipass&lt;/li>
+&lt;li>Vagrant&lt;/li>
+&lt;li>Amazon Web Services&lt;/li>
+&lt;li>Microsoft Azure&lt;/li>
+&lt;li>Google IaaS Cloud Services&lt;/li>
+&lt;li>OpenStack&lt;/li>
+&lt;li>Python Libcloud&lt;/li>
+&lt;li>AWS Boto&lt;/li>
+&lt;li>Cloudmesh&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>MAPREDUCE
+&lt;ul>
+&lt;li>HADOOP&lt;/li>
+&lt;li>SPARK&lt;/li>
+&lt;li>HADOOP ECOSYSTEM&lt;/li>
+&lt;li>TWISTER&lt;/li>
+&lt;li>HADOOP RDMA&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>CONTAINERS
+&lt;ul>
+&lt;li>DOCKER&lt;/li>
+&lt;li>KUBERNETES&lt;/li>
+&lt;li>Singularity&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>SERVERLESS
+&lt;ul>
+&lt;li>FaaS&lt;/li>
+&lt;li>Apache OpenWhisk&lt;/li>
+&lt;li>Kubeless&lt;/li>
+&lt;li>OpenFaaS
+` * OpenLamda&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>MESSAGING
+&lt;ul>
+&lt;li>MQTT&lt;/li>
+&lt;li>Apache Avro&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>GO&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Data Science to Help Society</title><link>/docs/courses/society/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>/docs/courses/society/</guid><description>
+&lt;!--
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>TODO: why is it important&lt;/p>
+&lt;/div>
+-->
+&lt;h2 id="covid-101-climate-change-and-their-technologies">COVID 101, Climate Change and their Technologies&lt;/h2>
+&lt;h3 id="general-material">General Material&lt;/h3>
+&lt;h3 id="python-language">Python Language&lt;/h3>
+&lt;p>Need to add material here&lt;/p>
+&lt;h3 id="using-google-colab-and-jupyter-notebooks">Using Google CoLab and Jupyter notebooks&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>For questions on software, please mail &lt;a href="mailto:KevinWangfg@gmail.com">Fugang
+Wang&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Fugang can also give you help on python including introductory
+material if you need extra&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://colab.research.google.com/notebooks/intro.ipynb#recent=true">5 notebooks from Google&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Introduction to Machine Learning Using TensorFlow &lt;a href="https://drive.google.com/file/d/1Iv_b_WqV2ovPhanh2ab_yhmYgo_VQSxN/view?usp=sharing">(pptx)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Introduction to using Colab&lt;/strong> from IU class E534 with videos and
+note
+&lt;a href="https://docs.google.com/document/d/1KT3KHgV-jEIfnLSfI772kdKaFdXoiyAGjyLfU1TpzDA/edit?usp=sharing">(google docs)&lt;/a>
+This unit includes 3 videos&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>How to create a colab notebook &lt;a href="https://drive.google.com/open?id=17ezxX6PclXX5A5G18JRm69G1FEdzlWpg">(mp4)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>How to create a simple program &lt;a href="https://drive.google.com/open?id=1a831PDMQ9g9SxEohrNEs29TJXRngt_KX">(mp4)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>How to do benchmark &lt;a href="https://drive.google.com/open?id=1usVO36H3pNbpJYTi-YEue-nbOibHnQiY">(mp4)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Deep Learning for MNIST&lt;/strong> The docs are located alongside the video
+at&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://docs.google.com/document/d/1E8orgHbNV6P8STl2lQxov2VHKSYyIISSj-XfsvQlRX4/edit?usp=sharing">Introduction to MNIST&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>This teaches how to do deep learning on a handwriting example
+from NIST which is used in many textbooks&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>In the latter part of the document, a homework description is
+given. That can be ignored!&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>There are 5 videos&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>DNN MNIST Introduction &lt;a href="https://drive.google.com/open?id=1NQnrWboSI2kc38uTgd3OtFQkK44L5jZP">(mp4)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>DNN MNIST import section &lt;a href="https://drive.google.com/open?id=165fvbfdrrsUznzyO_ulPyKhn6Xtopgtv">(mp4)&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Running into import errors starting at the keras.models line
+in the code&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>DNN MNIST data preprocessing &lt;a href="https://drive.google.com/open?id=1_K--i9O2QioJ7SVOKgd4NmV71yvSDRcj">(mp4)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>DNN MNIST model definition &lt;a href="https://drive.google.com/open?id=1pb11xVSv3lSY1sSefTSfVGmdYkzli8Ij">(mp4)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>DNN MNIST final presentation &lt;a href="https://drive.google.com/open?id=1PTgID_ZRirgJXszLQJZzt03Fo0gtWWm4">(mp4)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Jupyter notebook on Google Colab for &lt;strong>COVID-19 data analysis&lt;/strong>
+&lt;a href="https://github.com/cloudmesh/cloudmesh-timeseries/blob/master/notebook/cybertraining-reu/REU_Covid.ipynb">ipynb&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Follow-up on Discussion of AI remaking Industry worldwide&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Class on AI First Engineering with 35 videos describing technologies
+and particular industries Commerce, Mobility, Banking, Health,
+Space, Energy in
+detail &lt;a href="https://www.youtube.com/playlist?list=PLy0VLh_GFyz_znIuyPaaSNteZsCJmw4vt">(youtube playlist)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Introductory Video (one of 35) discussing the Transformation -
+Industries invented and remade through AI
+&lt;a href="https://www.youtube.com/watch?v=h6U3dcNbc-E&amp;amp;list=PLy0VLh_GFyz_znIuyPaaSNteZsCJmw4vt&amp;amp;index=2&amp;amp;t=6s">(youtube)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Some online videos on deep learning&lt;/p>
+&lt;ul>
+&lt;li>Introduction to AI First Engineering
+&lt;a href="https://www.youtube.com/watch?v=h6U3dcNbc-E&amp;amp;list=PLy0VLh_GFyz_znIuyPaaSNteZsCJmw4vt&amp;amp;index=2">(youtube)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;ul>
+&lt;li>Examples of Applications of Deep Learning &lt;a href="https://www.youtube.com/watch?v=vL2JvfM-SSk&amp;amp;list=PLy0VLh_GFyz_znIuyPaaSNteZsCJmw4vt&amp;amp;index=4">(youtube)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Optimization -- a key in Statistics, AI and Deep Learning &lt;a href="https://www.youtube.com/watch?v=qJBMrochMok&amp;amp;list=PLy0VLh_GFyz_znIuyPaaSNteZsCJmw4vt&amp;amp;index=3">(youtube)&lt;/a>&lt;/p>
+&lt;p>Learn the Deep Learning important words and parts &lt;a href="https://www.youtube.com/watch?v=edOmZOA9E7k&amp;amp;list=PLy0VLh_GFyz_znIuyPaaSNteZsCJmw4vt&amp;amp;index=5">(youtube)&lt;/a>&lt;/p>
+&lt;p>Deep Learning and Imaging: It's first great success &lt;a href="https://www.youtube.com/watch?v=92as3CXolHo&amp;amp;list=PLy0VLh_GFyz_NPBf-rWkZiResTC2LvxU7&amp;amp;index=6">(youtube)&lt;/a>&lt;/p>
+&lt;h2 id="covid-material">Covid Material&lt;/h2>
+&lt;h3 id="covid-biology-starting-point">Covid Biology Starting point&lt;/h3>
+&lt;p>&lt;a href="https://curriculum.covidstudentresponse.org/">Medical Student COVID-19 Curriculum - COVID-19
+Curriculum&lt;/a> Module 1
+and then module 2&lt;/p>
+&lt;h3 id="compucell3d-modelling-material">Compucell3D Modelling material&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://compucell3d.org/SrcBin">Download&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://pythonscriptingmanual.readthedocs.io/en/4.1.1/">Manual&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://compucell3d.org/Models">List of NanoHub Tools&lt;/a>&lt;/li>
+&lt;li>For help please ask &lt;a href="mailto:julianoferrarigianlupi@gmail.com">Juliano Ferrari
+Gianlupi&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="interactive-two-part-virtual-miniworkshop-on-open-source-compucell3d">Interactive Two-Part Virtual Miniworkshop on Open-Source CompuCell3D&lt;/h3>
+&lt;p>Multiscale, Virtual-Tissue Spatio-Temporal Simulations of COVID-19
+Infection, Viral Spread and Immune Response and Treatment Regimes**
+&lt;a href="https://compucell3d.org/VTcovid19Symp">VTcovid19Symp&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Part I: Will be presented twice:&lt;/li>
+&lt;li>First Presentation June 11th, 2020, 2PM-5PM EST (6 PM- 9PM GMT)&lt;/li>
+&lt;li>Second Presentation June 12th, 9AM - 12 noon EST (1 PM - 4 PM GMT)&lt;/li>
+&lt;li>Part II: Will be presented twice:&lt;/li>
+&lt;li>First Presentation June 18th, 2020, 2PM-5PM EST (6 PM- 9PM GMT)&lt;/li>
+&lt;li>Second Presentation June 19th, 9AM - 12 noon EST (1 PM - 4 PM GMT)&lt;/li>
+&lt;/ul>
+&lt;h3 id="topics-in-covid-101">Topics in Covid 101&lt;/h3>
+&lt;ul>
+&lt;li>Biology&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> and Harvard
+medical school material above&lt;/li>
+&lt;li>Epidemiology&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/li>
+&lt;li>Public Health: Social Distancing and Policies&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;/li>
+&lt;li>HPC&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>&lt;/li>
+&lt;li>Data Science &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>&lt;sup>,&lt;/sup>&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>&lt;sup>,&lt;/sup>&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>&lt;/li>
+&lt;li>Modeling &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>&lt;sup>,&lt;/sup>&lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup>&lt;/li>
+&lt;/ul>
+&lt;h2 id="climate-change-material">Climate Change Material&lt;/h2>
+&lt;h3 id="topics-in-climate-change-russell-hofmann">Topics in Climate Change (Russell Hofmann)&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>This also needs Colab and deep learning background&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>A cursory and easy to understand review of climate issues in terms
+of AI: &lt;a href="https://arxiv.org/abs/1906.05433">Tackling Climate Change with Machine Learning&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>For application in extreme weather event prediction, an area where
+traditional modelling methods have always struggled:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://journals.ametsoc.org/doi/full/10.1175/MWR-D-18-0316.1">Interpretable Deep Learning for Spatial Analysis of Severe
+Hailstorms&lt;/a>&lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>AI4ESS Summer School:&lt;/strong> Anyone who is interested in using Machine
+learning for climate science research I highly recommend you
+register for the &lt;strong>Artificial Intelligence for Earth System
+Science&lt;/strong> summer school &amp;amp; interactive workshops which conveniently
+runs June 22^nd^ to 26^th^. Prior Experience with tensorflow/keras
+via google co-lab should be all the introductory skill needed to
+follow along. Register ASAP.
+&lt;a href="https://www2.cisl.ucar.edu/events/summer-school/ai4ess/2020/artificial-intelligence-earth-system-science-ai4ess-summer-school">https://www2.cisl.ucar.edu/events/summer-school/ai4ess/2020/artificial-intelligence-earth-system-science-ai4ess-summer-school&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Kaggle Climate Change &lt;a href="https://www.kaggle.com/leandrovrabelo/climate-change-forecast-sarima-model">Climate Change Forecast - SARIMA
+Model&lt;/a>
+with classic time series methods&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Plotting satellite data Notebook &lt;a href="https://drive.google.com/file/d/19rFug7X2zL2nMVLlV0ls2lZlRVgQPKc3/view?usp=sharing">(ipynb)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Accessing UCAR data &lt;a href="https://drive.google.com/file/d/15pdXCIBeR4BHW81HusB2qsk3cpzxTsEN/view?usp=sharing">(docx)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Hydrology with RNN and LSTM&amp;rsquo;s &lt;a href="https://drive.google.com/drive/folders/1tiMjjTbYZGVkj6s71m-2QvQ_rgt-akf_?usp=sharing">(more than 20 PDF&amp;rsquo;s)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="references">References&lt;/h2>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Y. M. Bar-On, A. I. Flamholz, R. Phillips, and R. Milo,
+&amp;ldquo;SARS-CoV-2 (COVID-19) by the numbers,&amp;rdquo; &lt;em>arXiv [q-bio.OT]&lt;/em>,
+28-Mar-2020. &lt;a href="http://arxiv.org/abs/2003.12886">http://arxiv.org/abs/2003.12886&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Jiangzhuo Chen, Simon Levin, Stephen Eubank, Henning Mortveit,
+Srinivasan Venkatramanan, Anil Vullikanti, and Madhav Marathe,
+&amp;ldquo;Networked Epidemiology for COVID-19,&amp;rdquo; &lt;em>Siam News&lt;/em>, vol. 53, no. 05,
+Jun. 2020.
+&lt;a href="https://sinews.siam.org/Details-Page/networked-epidemiology-for-covid-19">https://sinews.siam.org/Details-Page/networked-epidemiology-for-covid-19&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3" role="doc-endnote">
+&lt;p>A. Adiga, L. Wang, A. Sadilek, A. Tendulkar, S. Venkatramanan, A.
+Vullikanti, G. Aggarwal, A. Talekar, X. Ben, J. Chen, B. Lewis, S.
+Swarup, M. Tambe, and M. Marathe, &amp;ldquo;Interplay of global multi-scale human
+mobility, social distancing, government interventions, and COVID-19
+dynamics,&amp;rdquo; &lt;em>medRxiv - Public and Global Health&lt;/em>, 07-Jun-2020.
+&lt;a href="http://dx.doi.org/10.1101/2020.06.05.20123760">http://dx.doi.org/10.1101/2020.06.05.20123760&lt;/a> &lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4" role="doc-endnote">
+&lt;p>D. Machi, P. Bhattacharya, S. Hoops, J. Chen, H. Mortveit, S.
+Venkatramanan, B. Lewis, M. Wilson, A. Fadikar, T. Maiden, C. L.
+Barrett, and M. V. Marathe, &amp;ldquo;Scalable Epidemiological Workflows to
+Support COVID-19 Planning and Response,&amp;rdquo; May 2020. &lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5" role="doc-endnote">
+&lt;p>Luca Magri and Nguyen Anh Khoa Doan, &amp;ldquo;First-principles Machine
+Learning for COVID-19 Modeling,&amp;rdquo; &lt;em>Siam News&lt;/em>, vol. 53, no. 5, Jun. 2020.
+&lt;a href="https://sinews.siam.org/Details-Page/first-principles-machine-learning-for-covid-19-modeling">https://sinews.siam.org/Details-Page/first-principles-machine-learning-for-covid-19-modeling&lt;/a> &lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:6" role="doc-endnote">
+&lt;p>[Robert Marsland and Pankaj Mehta, &amp;ldquo;Data-driven modeling reveals a
+universal dynamic underlying the COVID-19 pandemic under social
+distancing,&amp;rdquo; &lt;em>arXiv [q-bio.PE]&lt;/em>, 21-Apr-2020.
+&lt;a href="http://arxiv.org/abs/2004.10666">http://arxiv.org/abs/2004.10666&lt;/a> &lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:7" role="doc-endnote">
+&lt;p>Geoffrey Fox, &amp;ldquo;Deep Learning Based Time Evolution.&amp;rdquo;.
+&lt;a href="http://dsc.soic.indiana.edu/publications/Summary-DeepLearningBasedTimeEvolution.pdf">http://dsc.soic.indiana.edu/publications/Summary-DeepLearningBasedTimeEvolution.pdf&lt;/a>. &lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:8" role="doc-endnote">
+&lt;p>T. J. Sego, J. O. Aponte-Serrano, J. F. Gianlupi, S. Heaps, K.
+Breithaupt, L. Brusch, J. M. Osborne, E. M. Quardokus, and J. A.
+Glazier, &amp;ldquo;A Modular Framework for Multiscale Spatial Modeling of Viral
+Infection and Immune Response in Epithelial Tissue,&amp;rdquo; &lt;em>BioRxiv&lt;/em>, 2020.
+&lt;a href="https://www.biorxiv.org/content/10.1101/2020.04.27.064139v2.abstract">https://www.biorxiv.org/content/10.1101/2020.04.27.064139v2.abstract&lt;/a> &lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:9" role="doc-endnote">
+&lt;p>Yafei Wang, Gary An, Andrew Becker, Chase Cockrell, Nicholson
+Collier, Morgan Craig, Courtney L. Davis, James Faeder, Ashlee N. Ford
+Versypt, Juliano F. Gianlupi, James A. Glazier, Randy Heiland, Thomas
+Hillen, Mohammad Aminul Islam, Adrianne Jenner, Bing Liu, Penelope A
+Morel, Aarthi Narayanan, Jonathan Ozik, Padmini Rangamani, Jason Edward
+Shoemaker, Amber M. Smith, Paul Macklin, &amp;ldquo;Rapid community-driven
+development of a SARS-CoV-2 tissue simulator,&amp;rdquo; &lt;em>BioRxiv&lt;/em>, 2020.
+&lt;a href="https://www.biorxiv.org/content/10.1101/2020.04.02.019075v2.abstract">https://www.biorxiv.org/content/10.1101/2020.04.02.019075v2.abstract&lt;/a> &lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:10" role="doc-endnote">
+&lt;p>Gagne II, D. J., S. E. Haupt, D. W. Nychka, and G. Thompson, 2019:
+Interpretable Deep Learning for Spatial Analysis of Severe Hailstorms.
+Mon. Wea. Rev., 147, 2827–2845,
+&lt;a href="https://doi.org/10.1175/MWR-D-18-0316.1">https://doi.org/10.1175/MWR-D-18-0316.1&lt;/a> &lt;a href="#fnref:10" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Docs: Intelligent Systems</title><link>/docs/courses/isystems/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>/docs/courses/isystems/</guid><description>
+&lt;p>&lt;a href="https://laszewski.github.io/publication/las-20-book-222/">
+&lt;figure>
+&lt;img src="https://laszewski.github.io/publication/las-20-book-222/featured_hu95172205c114621fc26f0d08a08e7118_996013_150x0_resize_lanczos_2.png" width="30%"/> &lt;figcaption>
+&lt;h4>Intelligent Systems Engineering&lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/p>
+&lt;p>The book is available in
+&lt;a href="https://cloudmesh-community.github.io/pub/vonLaszewski-222.epub">ePub&lt;/a> and
+&lt;a href="https://cloudmesh-community.github.io/pub/vonLaszewski-222.pdf">PDF&lt;/a>&lt;/p></description></item><item><title>Docs: Linux</title><link>/docs/courses/linux/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>/docs/courses/linux/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Linux will be used on many computers to develop and interact with cloud services. Especially popular are the command line tools that even exist on Windows. Thus we can have a uniform environment on all platforms using the bash shell.&lt;/p>
+&lt;/div>
+&lt;p>&lt;a href="https://laszewski.github.io/publication/las-20-book-linux/">&lt;img class="special-img-class" style="width:30%" src="https://laszewski.github.io/publication/las-20-book-linux/featured_hu9c80192b9ef636ff9a0c7a277fb84741_1248027_720x0_resize_lanczos_2.png"/>&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://laszewski.github.io/publication/las-20-book-linux/">Introduction to Linux&lt;/a> &lt;a href="https://cloudmesh-community.github.io/pub//vonLaszewski-linux.pdf">(PDF)&lt;/a> &lt;a href="https://cloudmesh-community.github.io/pub//vonLaszewski-linux.epub">(ePub)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>For ePub, we recommend using iBooks on MacOS and calibre on all other systems.&lt;/p>
+&lt;p>Topics covered include:&lt;/p>
+&lt;ul>
+&lt;li>Linux Shell&lt;/li>
+&lt;li>Perl one liners&lt;/li>
+&lt;li>Refcards&lt;/li>
+&lt;li>SSH
+&lt;ul>
+&lt;li>keygen&lt;/li>
+&lt;li>agents&lt;/li>
+&lt;li>port forwarding&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Shell on Windows&lt;/li>
+&lt;li>ZSH&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Markdown</title><link>/docs/courses/markdown/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>/docs/courses/markdown/</guid><description>
+&lt;!--
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This is a placeholder page that shows you how to use this template site.&lt;/p>
+&lt;/div>
+-->
+&lt;p>An important part of any scientific research is to communicate and
+document it. Previously we used LaTeX in this class to provide the
+ability to contribute professional-looking documents. However, here we
+will describe how you can use markdown to create scientific documents.
+We use markdown also on the Web page.&lt;/p>
+&lt;p>&lt;a href="https://laszewski.github.io/publication/las-20-book-markdown/">
+&lt;figure>
+&lt;img src="https://laszewski.github.io/publication/las-20-book-markdown/featured_hu35c56d6c1465b1e20f3e20eeb0404972_1466540_720x0_resize_lanczos_2.png" width="30%"/> &lt;figcaption>
+&lt;h4>Scientific Writing with Markdown&lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/p>
+&lt;p>The document is available as an online book in
+&lt;a href="https://cloudmesh-community.github.io/pub/vonLaszewski-writing.epub">ePub&lt;/a>
+and
+&lt;a href="https://cloudmesh-community.github.io/pub/vonLaszewski-writing.pdf">PDF&lt;/a>&lt;/p>
+&lt;p>For ePub, we recommend using iBooks on macOS and calibre on all other systems.&lt;/p>
+&lt;p>Topics covered include:&lt;/p>
+&lt;ul>
+&lt;li>Plagiarism&lt;/li>
+&lt;li>Writing Scientific Articles&lt;/li>
+&lt;li>Markdown (Pandoc format)&lt;/li>
+&lt;li>Markdown for presentations&lt;/li>
+&lt;li>Writing papers and reports with markdown&lt;/li>
+&lt;li>Emacs and markdown as an editor&lt;/li>
+&lt;li>Graphviz in markdown&lt;/li>
+&lt;/ul></description></item><item><title>Docs: OpenStack</title><link>/docs/courses/openstack/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>/docs/courses/openstack/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>OpenStack is usable via command line tools and REST APIs. YOu will be able to experiment with it on Chameleon Cloud.&lt;/p>
+&lt;/div>
+&lt;h1 id="openstack-with-chameleon-cloud">OpenStack with Chameleon Cloud&lt;/h1>
+&lt;p>We have put together from the chameleon cloud manual a subset of
+information that is useful for using OpenStack. This focusses mostly
+on Virtual machine provisioning. The reason we put our own
+documentation here is to promote more secure utilization of Chameleon
+Cloud.&lt;/p>
+&lt;p>Additional material on how to uniformly access OpenStack via a multicloud command line tool is available at:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://cloudmesh.github.io/cloudmesh-manual/">https://cloudmesh.github.io/cloudmesh-manual/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>We highly recommend you use the multicloud environment as it will
+allow you also to access AWS, Azure, Google, and other clouds from the
+same command line interface.&lt;/p>
+&lt;p>The Chameleon Cloud document is availanle as online book in ePub and PDF from the
+following Web Page:&lt;/p>
+&lt;p>&lt;a href="https://laszewski.github.io/publication/las-20-book-chameleon/">&lt;img class="special-img-class" style="width:30%" src="https://laszewski.github.io/publication/las-20-book-chameleon/featured_hu3782322a41506db4ba5a515e3ca35328_1268655_720x0_resize_lanczos_2.png"/>&lt;/a>&lt;/p>
+&lt;p>The book is available in
+&lt;a href="https://cloudmesh-community.github.io/pub/vonLaszewski-chameleon.epub">ePub&lt;/a>
+and
+&lt;a href="https://cloudmesh-community.github.io/pub/vonLaszewski-chameleon.pdf">PDF&lt;/a>.&lt;/p>
+&lt;p>For ePub, we recommend using iBooks on MacOS and calibre on all other systems.&lt;/p>
+&lt;p>Topics covered include:&lt;/p>
+&lt;ul>
+&lt;li>Using Chameleoncloud more securely&lt;/li>
+&lt;li>Resources&lt;/li>
+&lt;li>Hardware&lt;/li>
+&lt;li>Charging&lt;/li>
+&lt;li>Getting STarted&lt;/li>
+&lt;li>Virtual Machines&lt;/li>
+&lt;li>Commandline Interface&lt;/li>
+&lt;li>Horizon&lt;/li>
+&lt;li>Heat&lt;/li>
+&lt;li>Bare metal&lt;/li>
+&lt;li>FAQ&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Python</title><link>/docs/courses/python/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>/docs/courses/python/</guid><description>
+&lt;img src="/docs/courses/python/featured_hu1f843290fd829ec69bff8ebeb30e7767_131071_640x0_resize_catmullrom_2.png" width="640" height="880"/>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Python is an easy to learn programming language. It has efficient
+high-level data structures and a simple but effective approach to
+object-oriented programming. Python’s simple syntax and dynamic
+typing, together with its interpreted nature, make it an ideal
+language for scripting and rapid application development in many areas
+on most platforms.&lt;/p>
+&lt;/div>
+&lt;h1 id="introduction-to-python">Introduction to Python&lt;/h1>
+&lt;p>This online book will provide you with enough information to conduct your programming for the cloud in python. Although this
+the introduction was first developed for Cloud Computing related classes,
+it is a general introduction suitable for other classes.&lt;/p>
+&lt;p>&lt;a href="https://laszewski.github.io/publication/las-20-book-python/">
+&lt;figure>
+&lt;img src="https://laszewski.github.io/publication/las-20-book-python/featured.png" width="30%"/> &lt;figcaption>
+&lt;h4>Introduction to Python&lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/a>&lt;/p>
+&lt;p>The document is available as an online book in
+&lt;a href="https://cloudmesh-community.github.io/pub//vonLaszewski-python.epub">ePub&lt;/a>
+and
+&lt;a href="https://cloudmesh-community.github.io/pub//vonLaszewski-python.pdf">PDF&lt;/a>&lt;/p>
+&lt;p>For ePub, we recommend using iBooks on macOS and calibre on all other systems.&lt;/p>
+&lt;p>Topics covered include:&lt;/p>
+&lt;ul>
+&lt;li>Python Installation
+&lt;ul>
+&lt;li>Using Multiple different Python Versions&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>First Steps
+&lt;ul>
+&lt;li>REPL&lt;/li>
+&lt;li>Editors&lt;/li>
+&lt;li>Google Colab&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Python Language&lt;/li>
+&lt;li>Python Modules&lt;/li>
+&lt;li>Selected Libraries
+&lt;ul>
+&lt;li>Python Cloudmesh Common Library&lt;/li>
+&lt;li>Basic Matplotlib&lt;/li>
+&lt;li>Basic Numpy&lt;/li>
+&lt;li>Python Data Management&lt;/li>
+&lt;li>Python Data Formats&lt;/li>
+&lt;li>Python MongoDB&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Parallelism in Python&lt;/li>
+&lt;li>Scipy&lt;/li>
+&lt;li>Scikitlearn&lt;/li>
+&lt;li>Elementary Machine Learning&lt;/li>
+&lt;li>Dask&lt;/li>
+&lt;li>Applications
+&lt;ul>
+&lt;li>Fingerprint Matching&lt;/li>
+&lt;li>Face Detection&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>Docs: MNIST Classification on Google Colab</title><link>/docs/courses/mnist/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>/docs/courses/mnist/</guid><description>
+&lt;p>&lt;img src="/images/MNIST.png" alt="MNIST Character Recognition">&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>We discuss in this module how to create a simple IPython Notebook to
+solve an image classification problem. MNIST contains a set of
+pictures.&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#prerequisite">Prerequisite&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#effort">Effort&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#topics-covered">Topics covered&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#1-introduction-to-google-colab">1. Introduction to Google Colab&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-optional-basic-python-in-google-colab">2. (Optional) Basic Python in Google Colab&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-mnist-on-google-colab">3. MNIST On Google colab&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#assignments">Assignments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#references">References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="prerequisite">Prerequisite&lt;/h2>
+&lt;ul>
+&lt;li>Knowledge of Python&lt;/li>
+&lt;li>Google account&lt;/li>
+&lt;/ul>
+&lt;h2 id="effort">Effort&lt;/h2>
+&lt;ul>
+&lt;li>1 hour&lt;/li>
+&lt;/ul>
+&lt;h2 id="topics-covered">Topics covered&lt;/h2>
+&lt;ul>
+&lt;li>Using Google Colab&lt;/li>
+&lt;li>Running an AI application on Google Colab&lt;/li>
+&lt;/ul>
+&lt;h2 id="1-introduction-to-google-colab">1. Introduction to Google Colab&lt;/h2>
+&lt;p>This module will introduce you to how to use Google Colab to run deep learning models.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="/docs/modules/python/google-colab/python-google-colab">
+&lt;figure>
+&lt;img src="/images/colab.png" width="15%"/>
+&lt;/figure>
+A Gentle Introduction to Google Colab (Web)&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="2-optional-basic-python-in-google-colab">2. (Optional) Basic Python in Google Colab&lt;/h2>
+&lt;p>In this module, we will take a look at some fundamental Python Concepts
+needed for day-to-day coding.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="/docs/modules/bigdataapplications/2020/python_initial">
+&lt;figure>
+&lt;img src="/images/colab.png" width="15%"/>
+&lt;/figure>
+A Gentle Introduction to Python on Google Colab (Web)&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="3-mnist-on-google-colab">3. MNIST On Google colab&lt;/h2>
+&lt;p>In this module, we discuss how to create a simple IPython Notebook to solve an image classification problem. MNIST contains a set of pictures&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="/docs/modules/bigdataapplications/2020/google_colab_exercise">
+&lt;figure>
+&lt;img src="/images/colab.png" width="15%"/>
+&lt;/figure>
+MNIST Classification on Google Colab (Web)&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="assignments">Assignments&lt;/h2>
+&lt;ol>
+&lt;li>Get an account on Google if you do not have one.&lt;/li>
+&lt;li>Do the optional Basic Python Colab lab module&lt;/li>
+&lt;li>Do the MNIST Colab module.&lt;/li>
+&lt;/ol>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://research.google.com/colaboratory/faq.html">https://research.google.com/colaboratory/faq.html&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>
