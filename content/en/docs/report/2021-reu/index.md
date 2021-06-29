@@ -44,7 +44,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="TBD"
+  title="AI in Orthodontics"
   author="Whitney McNair"
   hid= "su21-reu-363"
   %}}
