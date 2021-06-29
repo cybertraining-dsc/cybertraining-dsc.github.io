@@ -1,0 +1,89 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cybertraining – comerce</title>
+    <link>/tags/comerce/</link>
+    <description>Recent content in comerce on Cybertraining</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="/tags/comerce/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Commerce</title>
+      <link>/docs/modules/ai-first/2021/commerce/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/modules/ai-first/2021/commerce/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1mAcwVUutv8n8-i5Yjc0wFSlJcwDG4DWaB-wMgdmOFVs/edit?usp=sharing&#34;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ai-in-commerce-a-the-old-way-of-doing-things&#34;&gt;AI in Commerce A: The Old way of doing things&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;AI in Commerce&lt;/li&gt;
+&lt;li&gt;AI-First Engineering, Deep Learning&lt;/li&gt;
+&lt;li&gt;E-commerce and the transformation of “Bricks and Mortar”&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/w07nShBHKRY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;ai-in-commerce-b-ai-in-retail&#34;&gt;AI in Commerce B: AI in Retail&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Personalization&lt;/li&gt;
+&lt;li&gt;Search&lt;/li&gt;
+&lt;li&gt;Image Processing to Speed up Shopping&lt;/li&gt;
+&lt;li&gt;Walmart&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Kqgbbrnaf1g&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;ai-in-commerce-c-the-revolution-that-is-amazon&#34;&gt;AI in Commerce C: The Revolution that is Amazon&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Retail Revolution&lt;/li&gt;
+&lt;li&gt;Saves Time, Effort and Novelity with Modernized Retail&lt;/li&gt;
+&lt;li&gt;Looking ahead of Retail evolution&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/M1TQp1CcjZk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;ai-in-commerce-d-dlmalls-e-commerce&#34;&gt;AI in Commerce D: DLMalls e-commerce&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Amazon sellers&lt;/li&gt;
+&lt;li&gt;Rise of Shopify&lt;/li&gt;
+&lt;li&gt;Selling Products on Amazon&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/kaZaxn5aHaE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;ai-in-commerce-e-recommender-engines-digital-media&#34;&gt;AI in Commerce E: Recommender Engines, Digital media&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Spotify recommender engines&lt;/li&gt;
+&lt;li&gt;Collaborative Filtering&lt;/li&gt;
+&lt;li&gt;Audio Modelling&lt;/li&gt;
+&lt;li&gt;DNN for Recommender engines&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/pY1KZu7EOn0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

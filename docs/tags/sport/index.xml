@@ -1,0 +1,247 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cybertraining – sport</title>
+    <link>/tags/sport/</link>
+    <description>Recent content in sport on Cybertraining</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="/tags/sport/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Sports</title>
+      <link>/docs/modules/bigdataapplications/2019/applications/sport/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/modules/bigdataapplications/2019/applications/sport/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Sports sees significant growth in analytics with pervasive statistics
+shifting to more sophisticated measures. We start with baseball as game
+is built around segments dominated by individuals where detailed
+(video/image) achievement measures including PITCHf/x and FIELDf/x are
+moving field into big data arena. There are interesting relationships
+between the economics of sports and big data analytics. We look at
+Wearables and consumer sports/recreation. The importance of spatial
+visualization is discussed. We look at other Sports: Soccer, Olympics,
+NFL Football, Basketball, Tennis and Horse Racing.&lt;/p&gt;
+&lt;h2 id=&#34;basic-sabermetrics&#34;&gt;Basic Sabermetrics&lt;/h2&gt;
+&lt;p&gt;This unit discusses baseball starting with the movie Moneyball and the
+2002-2003 Oakland Athletics. Unlike sports like basketball and soccer,
+most baseball action is built around individuals often interacting in
+pairs. This is much easier to quantify than many player phenomena in
+other sports. We discuss Performance-Dollar relationship including new
+stadiums and media/advertising. We look at classic baseball averages and
+sophisticated measures like Wins Above Replacement.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/open?id=0B8936_ytjfjmbWt6bGZuTFJ4TFE&#34;&gt;&lt;img src=&#34;images/presentation.png&#34; alt=&#34;Presentation&#34;&gt; Overview
+(40)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;introduction-and-sabermetrics-baseball-informatics-lesson&#34;&gt;Introduction and Sabermetrics (Baseball Informatics) Lesson&lt;/h3&gt;
+&lt;p&gt;Introduction to all Sports Informatics, Moneyball The 2002-2003 Oakland
+Athletics, Diamond Dollars economic model of baseball, Performance -
+Dollar relationship, Value of a Win.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Dd4zV__G5Q8&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Introduction and Sabermetrics (Baseball Informatics) Lesson
+(31:4)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;basic-sabermetrics-1&#34;&gt;Basic Sabermetrics&lt;/h3&gt;
+&lt;p&gt;Different Types of Baseball Data, Sabermetrics, Overview of all data,
+Details of some statistics based on basic data, OPS, wOBA, ERA, ERC,
+FIP, UZR.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=L0X-RQJZKrs&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Basic Sabermetrics
+(26:53)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;wins-above-replacement&#34;&gt;Wins Above Replacement&lt;/h3&gt;
+&lt;p&gt;Wins above Replacement WAR, Discussion of Calculation, Examples,
+Comparisons of different methods, Coefficient of Determination, Another,
+Sabermetrics Example, Summary of Sabermetrics.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=D6PHqPor4LA&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Wins Above Replacement
+(30:43)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;advanced-sabermetrics&#34;&gt;Advanced Sabermetrics&lt;/h2&gt;
+&lt;p&gt;This unit discusses &amp;lsquo;advanced sabermetrics&amp;rsquo; covering advances possible
+from using video from PITCHf/X, FIELDf/X, HITf/X, COMMANDf/X and MLBAM.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/open?id=0B8936_ytjfjmUDh0Y01GbW9tWnc&#34;&gt;&lt;img src=&#34;images/presentation.png&#34; alt=&#34;Presentation&#34;&gt; Sporta II
+(41)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;pitching-clustering&#34;&gt;Pitching Clustering&lt;/h3&gt;
+&lt;p&gt;A Big Data Pitcher Clustering method introduced by Vince Gennaro, Data
+from Blog and video at 2013 SABR conference.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=rZ9-b54aEvw&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Pitching Clustering
+(20:59)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;pitcher-quality&#34;&gt;Pitcher Quality&lt;/h3&gt;
+&lt;p&gt;Results of optimizing match ups, Data from video at 2013 SABR
+conference.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=OkkUaySvXOY&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Pitcher Quality
+(10:02)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;pitchfx&#34;&gt;PITCHf/X&lt;/h2&gt;
+&lt;p&gt;Examples of use of PITCHf/X.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=m7IXhsHgQmE&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; PITCHf/X
+(10:39)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;other-video-data-gathering-in-baseball&#34;&gt;Other Video Data Gathering in Baseball&lt;/h3&gt;
+&lt;p&gt;FIELDf/X, MLBAM, HITf/X, COMMANDf/X.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=nKZiOOGccms&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Other Video Data Gathering in Baseball
+(18:5)&lt;/a&gt; Other Sports&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;We look at Wearables and consumer sports/recreation. The importance of
+spatial visualization is discussed. We look at other Sports: Soccer,
+Olympics, NFL Football, Basketball, Tennis and Horse Racing.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/open?id=0B8936_ytjfjmUGdpUzFaRzhyWXM&#34;&gt;&lt;img src=&#34;images/presentation.png&#34; alt=&#34;Presentation&#34;&gt; Sport Sports III
+(44)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;wearables&#34;&gt;Wearables&lt;/h3&gt;
+&lt;p&gt;Consumer Sports, Stake Holders, and Multiple Factors.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=F_cPq6xIXw0&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Wearables
+(22:2)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;soccer-and-the-olympics&#34;&gt;Soccer and the Olympics&lt;/h3&gt;
+&lt;p&gt;Soccer, Tracking Players and Balls, Olympics.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=AiZneaLJMTs&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Soccer and the Olympics
+(8:28)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;spatial-visualization-in-nfl-and-nba&#34;&gt;Spatial Visualization in NFL and NBA&lt;/h3&gt;
+&lt;p&gt;NFL, NBA, and Spatial Visualization.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Uorh3RJLC1s&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Spatial Visualization in NFL and NBA
+(15:19)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;tennis-and-horse-racing&#34;&gt;Tennis and Horse Racing&lt;/h3&gt;
+&lt;p&gt;Tennis, Horse Racing, and Continued Emphasis on Spatial Visualization.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=2P-pismFSrI&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Tennis and Horse Racing
+(8:52)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;
+&lt;p&gt;\TODO{These resources have not all been checked to see if they still
+exist this is currently in progress}&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.slideshare.net/Tricon_Infotech/big-data-for-big-sports&#34;&gt;http://www.slideshare.net/Tricon_Infotech/big-data-for-big-sports&lt;/a&gt; [@www-slideshare-tricon-infotech]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.slideshare.net/BrandEmotivity/sports-analytics-innovation-summit-data-powered-storytelling&#34;&gt;http://www.slideshare.net/BrandEmotivity/sports-analytics-innovation-summit-data-powered-storytelling&lt;/a&gt; [@www-slideshare-sports]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.slideshare.net/elew/sport-analytics-innovation&#34;&gt;http://www.slideshare.net/elew/sport-analytics-innovation&lt;/a&gt; [@www-slideshare-elew-sport-analytics]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.wired.com/2013/02/catapault-smartball/&#34;&gt;http://www.wired.com/2013/02/catapault-smartball/&lt;/a&gt; [@www-wired-smartball]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.sloansportsconference.com/wp-content/uploads/2014/06/Automated_Playbook_Generation.pdf&#34;&gt;http://www.sloansportsconference.com/wp-content/uploads/2014/06/Automated_Playbook_Generation.pdf&lt;/a&gt; [@www-sloansportsconference-automated-playbook]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://autoscout.adsc.illinois.edu/publications/football-trajectory-dataset/&#34;&gt;http://autoscout.adsc.illinois.edu/publications/football-trajectory-dataset/&lt;/a&gt; [@www-autoscout-illinois-football-trajectory]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.sloansportsconference.com/wp-content/uploads/2012/02/Goldsberry_Sloan_Submission.pdf&#34;&gt;http://www.sloansportsconference.com/wp-content/uploads/2012/02/Goldsberry_Sloan_Submission.pdf&lt;/a&gt; [@sloansportconference-goldsberry]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://gamesetmap.com/&#34;&gt;http://gamesetmap.com/&lt;/a&gt; [@gamesetmap]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.slideshare.net/BrandEmotivity/sports-analytics-innovation-summit-data-powered-storytelling&#34;&gt;http://www.slideshare.net/BrandEmotivity/sports-analytics-innovation-summit-data-powered-storytelling&lt;/a&gt; [@www-slideshare-sports-datapowered]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.sloansportsconference.com/&#34;&gt;http://www.sloansportsconference.com/&lt;/a&gt; [@www-sloansportsconferences]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://sabr.org/&#34;&gt;http://sabr.org/&lt;/a&gt; [@www-sabr]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Sabermetrics&#34;&gt;http://en.wikipedia.org/wiki/Sabermetrics&lt;/a&gt; [@wikipedia-Sabermetrics]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Baseball_statistics&#34;&gt;http://en.wikipedia.org/wiki/Baseball_statistics&lt;/a&gt; [@www-wikipedia-baseball-statistics]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://m.mlb.com/news/article/68514514/mlbam-introduces-new-way-to-analyze-every-play&#34;&gt;http://m.mlb.com/news/article/68514514/mlbam-introduces-new-way-to-analyze-every-play&lt;/a&gt; [@www-mlb-mlbam-new-way-play]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.fangraphs.com/library/offense/offensive-statistics-list/&#34;&gt;http://www.fangraphs.com/library/offense/offensive-statistics-list/&lt;/a&gt; [@www-fangraphs-offensive-statistics]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Component_ERA&#34;&gt;http://en.wikipedia.org/wiki/Component_ERA&lt;/a&gt; [@www-wiki-component-era]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.fangraphs.com/library/pitching/fip/&#34;&gt;http://www.fangraphs.com/library/pitching/fip/&lt;/a&gt; [@www-fangraphs-pitching-fip]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Wins_Above_Replacement&#34;&gt;http://en.wikipedia.org/wiki/Wins_Above_Replacement&lt;/a&gt; [@www-wiki-wins-above-replacement]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.fangraphs.com/library/misc/war/&#34;&gt;http://www.fangraphs.com/library/misc/war/&lt;/a&gt; [@www-fangraphs-library-war]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.baseball-reference.com/about/war_explained.shtml&#34;&gt;http://www.baseball-reference.com/about/war_explained.shtml&lt;/a&gt; [@www-baseball-references-war-explained]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.baseball-reference.com/about/war_explained_comparison.shtml&#34;&gt;http://www.baseball-reference.com/about/war_explained_comparison.shtml&lt;/a&gt; [@www-baseball-references-war-explained-comparison]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.baseball-reference.com/about/war_explained_position.shtml&#34;&gt;http://www.baseball-reference.com/about/war_explained_position.shtml&lt;/a&gt; [@www-baseball-reference-war-explained-position]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.baseball-reference.com/about/war_explained_pitch.shtml&#34;&gt;http://www.baseball-reference.com/about/war_explained_pitch.shtml&lt;/a&gt; [@www-baseball-reference-war-explained-pitch]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.fangraphs.com/leaders.aspx?pos=all&amp;amp;stats=bat&amp;amp;lg=all&amp;amp;qual=y&amp;amp;type=8&amp;amp;season=2014&amp;amp;month=0&amp;amp;season1=1871&amp;amp;ind=0&#34;&gt;http://www.fangraphs.com/leaders.aspx?pos=all&amp;amp;stats=bat&amp;amp;lg=all&amp;amp;qual=y&amp;amp;type=8&amp;amp;season=2014&amp;amp;month=0&amp;amp;season1=1871&amp;amp;ind=0&lt;/a&gt; [@www-fangraphs-leaders-pose-qual]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://battingleadoff.com/2014/01/08/comparing-the-three-war-measures-part-ii/&#34;&gt;http://battingleadoff.com/2014/01/08/comparing-the-three-war-measures-part-ii/&lt;/a&gt; [@battingleadoff-baseball-player]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Coefficient_of_determination&#34;&gt;http://en.wikipedia.org/wiki/Coefficient_of_determination&lt;/a&gt; [@www-wiki-coefficient-of-determination]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.sloansportsconference.com/wp-content/uploads/2014/02/2014_SSAC_Data-driven-Method-for-In-game-Decision-Making.pdf&#34;&gt;http://www.sloansportsconference.com/wp-content/uploads/2014/02/2014_SSAC_Data-driven-Method-for-In-game-Decision-Making.pdf&lt;/a&gt; [@ganeshapillai2014data]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://courses.edx.org/courses/BUx/SABR101x/2T2014/courseware/10e616fc7649469ab4457ae18df92b20/&#34;&gt;https://courses.edx.org/courses/BUx/SABR101x/2T2014/courseware/10e616fc7649469ab4457ae18df92b20/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://vincegennaro.mlblogs.com/&#34;&gt;http://vincegennaro.mlblogs.com/&lt;/a&gt; [@www-vincegennaro-mlblogs]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=H-kx-x_d0Mk&#34;&gt;https://www.youtube.com/watch?v=H-kx-x_d0Mk&lt;/a&gt; [@www-youtube-watch]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.baseballprospectus.com/article.php?articleid=13109&#34;&gt;http://www.baseballprospectus.com/article.php?articleid=13109&lt;/a&gt; [@www-baseball-prospectus-spinning-yarn]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://baseball.physics.illinois.edu/FastPFXGuide.pdf&#34;&gt;http://baseball.physics.illinois.edu/FastPFXGuide.pdf&lt;/a&gt; [@baseball-physics-PITCHf]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://baseball.physics.illinois.edu/FieldFX-TDR-GregR.pdf&#34;&gt;http://baseball.physics.illinois.edu/FieldFX-TDR-GregR.pdf&lt;/a&gt; [@baseball-physics-fieldfx]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://regressing.deadspin.com/mlb-announces-revolutionary-new-fielding-tracking-syste-1534200504&#34;&gt;http://regressing.deadspin.com/mlb-announces-revolutionary-new-fielding-tracking-syste-1534200504&lt;/a&gt; [@www-deadspin-field-tracking-syste]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://grantland.com/the-triangle/mlb-advanced-media-play-tracking-bob-bowman-interview/&#34;&gt;http://grantland.com/the-triangle/mlb-advanced-media-play-tracking-bob-bowman-interview/&lt;/a&gt; [@grantland-mlb-bob-bowman]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=YkjtnuNmK74&#34;&gt;https://www.youtube.com/watch?v=YkjtnuNmK74&lt;/a&gt; [@www-youtube-science-home-run]&lt;/p&gt;
+&lt;p&gt;These resources do not exsit:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;del&gt;&lt;a href=&#34;http://www.sportvision.com/baseball&#34;&gt;http://www.sportvision.com/baseball&lt;/a&gt;&lt;/del&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;del&gt;&lt;a href=&#34;http://www.sportvision.com/media/pitchfx-how-it-works&#34;&gt;http://www.sportvision.com/media/pitchfx-how-it-works&lt;/a&gt;&lt;/del&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;del&gt;&lt;a href=&#34;http://www.sportvision.com/baseball/fieldfx&#34;&gt;http://www.sportvision.com/baseball/fieldfx&lt;/a&gt;&lt;/del&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;del&gt;&lt;a href=&#34;http://www.sportvision.com/baseball/hitfx&#34;&gt;http://www.sportvision.com/baseball/hitfx&lt;/a&gt;&lt;/del&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;del&gt;&lt;a href=&#34;http://www.trakus.com/technology.asp#tNetText&#34;&gt;http://www.trakus.com/technology.asp#tNetText&lt;/a&gt;&lt;/del&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;del&gt;&lt;a href=&#34;http://www.sloansportsconference.com/?page_id=481&amp;amp;sort_cate=Research%20Paper&#34;&gt;http://www.sloansportsconference.com/?page_id=481&amp;amp;sort_cate=Research%20Paper&lt;/a&gt;&lt;/del&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;del&gt;&lt;a href=&#34;http://www.liveathos.com/apparel/app&#34;&gt;http://www.liveathos.com/apparel/app&lt;/a&gt;&lt;/del&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

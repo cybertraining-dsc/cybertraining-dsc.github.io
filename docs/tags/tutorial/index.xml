@@ -1,0 +1,191 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cybertraining – tutorial</title>
+    <link>/tags/tutorial/</link>
+    <description>Recent content in tutorial on Cybertraining</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 24 Jun 2021 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Report: Tutorial on Installing Python</title>
+      <link>/report/su21-reu-361/tutorials/python/</link>
+      <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/report/su21-reu-361/tutorials/python/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;This tutorial teaches how to install Python on Windows 10.&lt;/p&gt;
+&lt;p&gt;Contents&lt;/p&gt;
+&lt;div class=&#34;toc&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#incorrect-python-version-on-command-prompt&#34;&gt;Incorrect Python Version on Command Prompt&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; python&lt;/p&gt;
+&lt;h1 id=&#34;steps&#34;&gt;Steps&lt;/h1&gt;
+&lt;p&gt;Click the following image to be redirected to a 2 minute YouTube walkthrough.&lt;/p&gt;
+&lt;div align=&#34;left&#34;&gt;
+  &lt;a href=&#34;https://www.youtube.com/watch?v=T6UYyu5XVMc&#34;&gt;&lt;img src=&#34;https://img.youtube.com/vi/T6UYyu5XVMc/0.jpg&#34; alt=&#34;IMAGE ALT TEXT&#34;&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/T6UYyu5XVMc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;First, open up any web browser. This tutorial utilizes Google Chrome, but any other browser should work as long as it is not a 1990s version of Netscape. (Do not worry— you probably don&amp;rsquo;t have this.) The browser of choice can be Microsoft Edge, Firefox, Opera— as long as it can perform a search on a search engine, access a webpage, and download a file.
+&lt;br&gt;
+ &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open your browser by clicking the search box in the bottom left of your screen, where it says &amp;ldquo;Type here to search&amp;rdquo;. Then, type &amp;ldquo;google chrome&amp;rdquo; (or whatever is the name of the browser you use) and click it once it appears.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The &amp;ldquo;Type here to search&amp;rdquo; box could be missing if you have customized your taskbar (the taskbar is the long box typically located on the bottom of your screen which has icons). In this case, just click the Windows logo in the bottom left and type your browser name.&lt;/li&gt;
+&lt;li&gt;This is just one way to open your browser. You can even click a shortcut to your web browser on your taskbar, on your Desktop, or your Start Menu. In computing, there is typically many ways to accomplish the same end objective.
+&lt;br&gt;
+ &lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Once your browser has loaded, search for &amp;ldquo;python&amp;rdquo; on Google or any search engine. Click the result that reads &amp;ldquo;Downloads&amp;rdquo; from the website &amp;ldquo;python.org&amp;rdquo;.
+&lt;br&gt;
+ &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As of June 2021, the latest version of Python is &lt;code&gt;3.9.5&lt;/code&gt;. You may see a different number. As long as you click the button under &amp;ldquo;Download the latest version for Windows&amp;rdquo;, this will work. Try it now.
+&lt;br&gt;
+ &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Once the download has completed, open the file by clicking on it in your Downloads pane.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;If you are utilizing a school-issued computer, you may be prevented from opening this .exe file because you are not the administrator. Please email or otherwise get in contact with your instructor, professor, or head of IT to discuss installing Python.
+&lt;br&gt;
+ &lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Be sure to check the box that reads &amp;ldquo;Add Python x.x to PATH&amp;rdquo;. This will allow you to run commands from the terminal/command prompt.
+&lt;br&gt;
+ &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &amp;ldquo;Install Now&amp;rdquo;. The default options that entail this selection are appropriate for this experiment&amp;rsquo;s intents and purposes; choosing &amp;ldquo;Customize installation&amp;rdquo; may create reproducibility issues down the road, so please select &amp;ldquo;Install Now&amp;rdquo; instead.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The UAC prompt will pop up. UAC stands for &amp;ldquo;User Account Control&amp;rdquo; and exists so that the computer will not have unauthorized changes performed on it. Click &amp;ldquo;Yes&amp;rdquo; because Python is safe. School-issued computers may ask for an administrator password, so refer to step 5&amp;rsquo;s sidenote.
+&lt;br&gt;
+ &lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sit back and watch the green progress bar, whose speed will depend on the power of the computer.
+&lt;br&gt;
+ &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If the setup was successful, then it will say so. Click &amp;ldquo;Close&amp;rdquo;.
+&lt;br&gt;
+ &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click the &amp;ldquo;Type here to search&amp;rdquo; box in the bottom-left of the screen, type &amp;ldquo;cmd&amp;rdquo;, and press Enter.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;An alternative method is to press the Windows key and the &amp;ldquo;R&amp;rdquo; key at the same time, type &amp;ldquo;cmd&amp;rdquo;, and press Enter. This is convenient for those who like to use the keyboard.
+&lt;br&gt;
+ &lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Type &lt;code&gt;python --version&lt;/code&gt; and the output should read &amp;ldquo;Python x.x.x&amp;rdquo;; as long as it is the latest version from the website, congratulations. Python is installed on the computer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;troubleshooting&#34;&gt;Troubleshooting&lt;/h1&gt;
+&lt;h2 id=&#34;incorrect-python-version-on-command-prompt&#34;&gt;Incorrect Python Version on Command Prompt&lt;/h2&gt;
+&lt;p&gt;If the computer has installed an older version of Python, running &lt;code&gt;python --version&lt;/code&gt; on Command Prompt may output an older version. Typing &lt;code&gt;python3 --version&lt;/code&gt; may output the correct, latest version.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Report: Tutorial on Installing Visual Studio Code</title>
+      <link>/report/su21-reu-361/tutorials/visual-studio-code/</link>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/report/su21-reu-361/tutorials/visual-studio-code/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;This tutorial teaches how to install Visual Studio Code on Windows 10.&lt;/p&gt;
+&lt;p&gt;Contents&lt;/p&gt;
+&lt;div class=&#34;toc&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#steps&#34;&gt;Steps&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; visual-studio-code&lt;/p&gt;
+&lt;h2 id=&#34;steps&#34;&gt;Steps&lt;/h2&gt;
+&lt;p&gt;Click the following image to be redirected to a YouTube video tutorial for installing Visual Studio Code (also called VSCode).&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/DG_wQslWWAc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;Sidenote: An exasperated reader may wonder, &amp;ldquo;why go through steps 1-3 when it can be as easy as clicking a link to the VSCode download page?&amp;rdquo; This &lt;em&gt;would&lt;/em&gt; be easier, but hyperlinks (or URLs) are bound to change through the years of website maintenance and alterations. (One could also argue that steps 1-3 could become incorrect, as well, but hopefully they will not.) If you, time-traveler, would like to try your luck, go here: &lt;a href=&#34;https://code.visualstudio.com/download&#34;&gt;https://code.visualstudio.com/download&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If the link works, skip to step 4.&lt;/p&gt;
+&lt;p&gt;P.S. It should be second-nature to a user to quickly search, find, download, and install a program. It is vital to ensure that the correct program is downloaded and installed, however. Over time, guides like this one can become deprecated, but one must be resilient in problem-solving. Use search engines like Google to find what you are looking for. If one path does not work, take another that will lead to the same destination or a better one.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open up your favorite web browser. This can be done by pressing the Windows key and typing in the name of the browser, like &lt;code&gt;google chrome&lt;/code&gt; (as long as this browser is already installed on your computer). Then press Enter.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Once the browser loads, search for &lt;code&gt;visual studio code&lt;/code&gt; through the address bar. Press Enter and you will see a list of results through the default search engine (Google, Bing, or whatever is configured on your browser).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Identify the result that reads &lt;code&gt;code.visualstudio.com&lt;/code&gt;. If using Google, a subresult should read &lt;code&gt;Download&lt;/code&gt;. Click that link.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This tutorial assumes that the reader is using Windows. Click the blue link that reads &lt;code&gt;Windows&lt;/code&gt;. The download will commence; wait for it to finish.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click and open the file once it finishes; the license agreement will appear. If you are proficient in legalese, you can read the wall of text. Then, click &lt;code&gt;I accept the agreement&lt;/code&gt; and click &lt;code&gt;Next&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;code&gt;Next&lt;/code&gt; again; it is best to leave the default install path alone for reproducibility in this experiment.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;code&gt;Next&lt;/code&gt; again to create a Start Menu folder. Ensure that &lt;code&gt;Add to PATH&lt;/code&gt; is checked. &lt;code&gt;Create a desktop icon&lt;/code&gt; can be checked for convenience; it is up to the reader&amp;rsquo;s choice. Then click &lt;code&gt;Next&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click Install and watch the green progress bar go at the speed of light. Once completed, click Finish. VSCode will open as long as everything went smoothly.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

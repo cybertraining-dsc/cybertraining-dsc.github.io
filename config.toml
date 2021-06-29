@@ -1,5 +1,11 @@
 baseURL = "/"
 title = "Cybertraining"
+publishDir = "docs"
+# ignoreFiles = [ "\\.rst$"]
+
+
+#baseURL = "/"
+#title = "Cybertraining"
 #publishDir = "docs"
 # ignoreFiles = [ "\\.rst$"]
 

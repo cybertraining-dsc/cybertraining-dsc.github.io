@@ -1,0 +1,7 @@
+numpy
+matplotlib
+pandas
+cloudmesh-common
+cloudmesh-cmd5
+jupyter
+jupyter-lab
