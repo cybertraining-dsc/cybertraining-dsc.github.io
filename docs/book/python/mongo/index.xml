@@ -1,0 +1,1111 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – Mongo</title><link>/docs/book/python/mongo/</link><description>Recent content in Mongo on Cybertraining</description><generator>Hugo -- gohugo.io</generator><atom:link href="/docs/book/python/mongo/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: MongoDB in Python</title><link>/docs/book/python/mongo/mongodb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/book/python/mongo/mongodb/</guid><description>
+&lt;p>Gregor von Laszewski (&lt;a href="mailto:laszewski@gmail.com">laszewski@gmail.com&lt;/a>)&lt;/p>
+&lt;hr>
+&lt;p>&lt;img src="https://github.com/cloudmesh-community/book/raw/main/chapters/data/images/learning.png" alt=""> &lt;strong>Learning Objectives&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Introduction to basic MongoDB knowledge&lt;/li>
+&lt;li>Use of MongoDB via PyMongo&lt;/li>
+&lt;li>Use of MongoEngine MongoEngine and Object-Document mapper,&lt;/li>
+&lt;li>Use of Flask-Mongo&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>In today&amp;rsquo;s era, NoSQL databases have developed an enormous potential
+to process the unstructured data efficiently. Modern information is
+complex, extensive, and may not have pre-existing relationships. With
+the advent of the advanced search engines, machine learning, and
+Artificial Intelligence, technology expectations to process, store, and
+analyze such data have grown tremendously [@www-upwork]. The NoSQL
+database engines such as MongoDB, Redis, and Cassandra have successfully
+overcome the traditional relational database challenges such as
+scalability, performance, unstructured data growth, agile sprint cycles,
+and growing needs of processing data in real-time with minimal hardware
+processing power [@www-guru99]. The NoSQL databases are a new generation
+of engines that do not necessarily require SQL language and are sometimes
+also called &lt;em>Not Only SQL&lt;/em> databases. However, most of them support
+various third-party open connectivity drivers that can map NoSQL queries
+to SQL&amp;rsquo;s. It would be safe to say that although NoSQL databases are
+still far from replacing the relational databases, they are adding an
+immense value when used in hybrid IT environments in conjunction with
+relational databases, based on the application specific needs
+[@www-guru99]. We will be covering the MongoDB technology,
+its driver PyMongo, its object-document mapper MongoEngine, and the
+Flask-PyMongo micro-web framework that make MongoDB more attractive
+and user-friendly.&lt;/p>
+&lt;h2 id="cloudmesh-mongodb-usage-quickstart">Cloudmesh MongoDB Usage Quickstart&lt;/h2>
+&lt;p>Before you read on we like you to read this quickstart. The easiest way
+for many of the activities we do to interact with MongoDB is to use
+our cloudmesh functionality. This prelude section is not intended to
+describe all the details, but get you started quickly while leveraging cloudmesh&lt;/p>
+&lt;p>This is done via the cloudmesh cmd5 and the cloudmesh_community/cm
+code:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://cloudmesh-community.github.io/cm/">https://cloudmesh-community.github.io/cm/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>To install mongo on for example macOS you can use&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ cms admin mongo install
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>To start, stop and see the status of mongo you can use&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ cms admin mongo start
+$ cms admin mongo stop
+$ cms admin mongo status
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>To add an object to Mongo, you simply have to define a dict with
+predefined values for &lt;code>kind&lt;/code> and &lt;code>cloud&lt;/code>. In future such attributes
+can be passed to the function to determine the MongoDB collection.&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">cloudmesh.mongo.DataBaseDecorator&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">DatabaseUpdate&lt;/span>
+&lt;span style="color:#5c35cc;font-weight:bold">@DatabaseUpdate&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">def&lt;/span> &lt;span style="color:#000">test&lt;/span>&lt;span style="color:#000;font-weight:bold">():&lt;/span>
+&lt;span style="color:#000">data&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#34;kind&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;test&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#34;cloud&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;testcloud&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#34;value&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;hello&amp;#34;&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">return&lt;/span> &lt;span style="color:#000">data&lt;/span>
+&lt;span style="color:#000">result&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">test&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>When you invoke the function it will automatically store the
+information into MongoDB. Naturally this requires that the
+&lt;code>~/.cloudmesh/cloudmesh.yaml&lt;/code> file is properly configured.&lt;/p>
+&lt;h2 id="mongodb">MongoDB&lt;/h2>
+&lt;p>Today MongoDB is one of leading NoSQL database which is fully capable
+of handling dynamic changes, processing large volumes of complex and
+unstructured data, easily using object-oriented programming features;
+as well as distributed system challenges [@www-mongodb]. At its core,
+MongoDB is an open source, cross-platform, document database mainly
+written in C++ language.&lt;/p>
+&lt;h3 id="installation">Installation&lt;/h3>
+&lt;p>MongoDB can be installed on various Unix Platforms, including Linux,
+Ubuntu, Amazon Linux, etc [@www-digitaloceaninst]. This section focuses
+on installing MongoDB on Ubuntu 18.04 Bionic Beaver used as a standard
+OS for a virtual machine used as a part of Big Data Application Class
+during the 2018 Fall semester.&lt;/p>
+&lt;h4 id="installation-procedure">Installation procedure&lt;/h4>
+&lt;p>Before installing, it is recommended to configure the non-root user and
+provide the administrative privileges to it, in order to be able to
+perform general MongoDB admin tasks. This can be accomplished by login
+as the root user in the following manner [@www-digitaloceanprep].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ adduser mongoadmin
+$ usermod -aG sudo sammy
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>When logged in as a regular user, one can perform actions with superuser
+privileges by typing &lt;em>sudo&lt;/em> before each command [@www-digitaloceanprep].&lt;/p>
+&lt;p>Once the user set up is completed, one can login as a regular user (mongoadmin)
+and use the following instructions to install MongoDB.&lt;/p>
+&lt;p>To update the Ubuntu packages to the most recent versions, use the next command:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ sudo apt update
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>To install the MongoDB package:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ sudo apt install -y mongodb
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>To check the service and database status:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ sudo systemctl status mongodb
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Verifying the status of a successful MongoDB installation can be confirmed
+with an output similar to this:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ mongodb.service - An object/document-oriented database
+Loaded: loaded &lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>/lib/systemd/system/mongodb.service&lt;span style="color:#000;font-weight:bold">;&lt;/span> enabled&lt;span style="color:#000;font-weight:bold">;&lt;/span> vendor preset: enabled&lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span>
+Active: **active** &lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>running&lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span> since Sat 2018-11-15 07:48:04 UTC&lt;span style="color:#000;font-weight:bold">;&lt;/span> 2min 17s ago
+Docs: man:mongod&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>1&lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span>
+Main PID: &lt;span style="color:#0000cf;font-weight:bold">2312&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>mongod&lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span>
+Tasks: &lt;span style="color:#0000cf;font-weight:bold">23&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>limit: 1153&lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span>
+CGroup: /system.slice/mongodb.service
+└─2312 /usr/bin/mongod --unixSocketPrefix&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>/run/mongodb --config /etc/mongodb.conf
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>To verify the configuration, more specifically the installed version, server,
+and port, use the following command:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ mongo --eval &lt;span style="color:#4e9a06">&amp;#39;db.runCommand({ connectionStatus: 1 })&amp;#39;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Similarly, to restart MongoDB, use the following:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ sudo systemctl restart mongodb
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>To allow access to MongoDB from an outside hosted server one can use the
+following command which opens the fire-wall connections [@www-digitaloceaninst].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ sudo ufw allow from your_other_server_ip/32 to any port &lt;span style="color:#0000cf;font-weight:bold">27017&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Status can be verified by using:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ sudo ufw status
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Other MongoDB configurations can be edited through the &lt;em>/etc/mongodb.conf&lt;/em>
+files such as port and hostnames, file paths.&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ sudo nano /etc/mongodb.conf
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Also, to complete this step, a server&amp;rsquo;s IP address must be added to the
+bindIP value [@www-digitaloceaninst].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ &lt;span style="color:#000">logappend&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#204a87">true&lt;/span>
+&lt;span style="color:#000">bind_ip&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> 127.0.0.1,your_server_ip
+*port &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> 27017*
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>MongoDB is now listening for a remote connection that can be accessed
+by anyone with appropriate credentials [@www-digitaloceaninst].&lt;/p>
+&lt;h3 id="collections-and-documents">Collections and Documents&lt;/h3>
+&lt;p>Each database within Mongo environment contains collections which in
+turn contain documents. Collections and documents are analogous to
+tables and rows respectively to the relational databases. The document
+structure is in a key-value form which allows storing of complex data
+types composed out of field and value pairs. Documents are objects
+which correspond to native data types in many programming languages,
+hence a well defined, embedded document can help reduce expensive
+joins and improve query performance. The &lt;code>_id&lt;/code> field helps to identify
+each document uniquely [@www-guru99].&lt;/p>
+&lt;p>MongoDB offers flexibility to write records that are not restricted by
+column types. The data storage approach is flexible as it allows one
+to store data as it grows and to fulfill varying needs of applications
+and/or users. It supports JSON like binary points known as BSON where
+data can be stored without specifying the type of data. Moreover, it
+can be distributed to multiple machines at high speed. It includes a
+sharding feature that partitions and spreads the data out across
+various servers. This makes MongoDB an excellent choice for cloud data
+processing. Its utilities can load high volumes of data at high speed
+which ultimately provides greater flexibility and availability in a
+cloud-based environment [@www-upwork].&lt;/p>
+&lt;p>The dynamic schema structure within MongoDB allows easy testing of the
+small sprints in the Agile project management life cycles and research
+projects that require frequent changes to the data structure with
+minimal downtime. Contrary to this flexible process, modifying the
+data structure of relational databases can be a very tedious process
+[@www-upwork].&lt;/p>
+&lt;h4 id="collection-example">Collection example&lt;/h4>
+&lt;p>The following collection example for a person named &lt;em>Albert&lt;/em> includes
+additional information such as age, status, and group
+[@www-mongocollection].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-json" data-lang="json">&lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#a40000">name:&lt;/span> &lt;span style="color:#204a87;font-weight:bold">&amp;#34;Albert&amp;#34;&lt;/span>
+&lt;span style="color:#a40000">age&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;21&amp;#34;&lt;/span>
+&lt;span style="color:#a40000">status&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;Open&amp;#34;&lt;/span>
+&lt;span style="color:#a40000">group&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;AI&amp;#34;&lt;/span> &lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;Machine Learning&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="document-structure">Document structure&lt;/h4>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-json" data-lang="json">&lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#a40000">field1:&lt;/span> &lt;span style="color:#a40000">value1,&lt;/span>
+&lt;span style="color:#a40000">field2:&lt;/span> &lt;span style="color:#a40000">value2,&lt;/span>
+&lt;span style="color:#a40000">field3:&lt;/span> &lt;span style="color:#a40000">value3,&lt;/span>
+&lt;span style="color:#a40000">...&lt;/span>
+&lt;span style="color:#a40000">fieldN:&lt;/span> &lt;span style="color:#a40000">valueN&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="collection-operations">Collection Operations&lt;/h4>
+&lt;p>If collection does not exists, MongoDB database will create a collection
+by default.&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">&amp;gt; db.myNewCollection1.insertOne&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">{&lt;/span> x: &lt;span style="color:#0000cf;font-weight:bold">1&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">}&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span>
+&amp;gt; db.myNewCollection2.createIndex&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">{&lt;/span> y: &lt;span style="color:#0000cf;font-weight:bold">1&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">}&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="mongodb-querying">MongoDB Querying&lt;/h3>
+&lt;p>The data retrieval patterns, the frequency of data manipulation
+statements such as insert, updates, and deletes may demand for the use
+of indexes or incorporating the sharding feature to improve query
+performance and efficiency of MongoDB environment [@www-guru99]. One
+of the significant difference between relational databases and NoSQL
+databases are joins. In the relational database, one can combine
+results from two or more tables using a common column, often called as
+&lt;em>key&lt;/em>. The native table contains the &lt;em>primary key&lt;/em> column while the
+referenced table contains a &lt;em>foreign key&lt;/em>. This mechanism allows one
+to make changes in a single row instead of changing all rows in the
+referenced table. This action is referred to as
+&lt;em>normalization&lt;/em>. MongoDB is a document database and mainly contains
+denormalized data which means the data is repeated instead of indexed
+over a specific key. If the same data is required in more than one
+table, it needs to be repeated. This constraint has been eliminated in
+MongoDB&amp;rsquo;s new version 3.2. The new release introduced a &lt;em>$lookup&lt;/em>
+feature which more likely works as a left-outer-join. Lookups are
+restricted to aggregated functions which means that data usually need
+some type of filtering and grouping operations to be conducted
+beforehand. For this reason, joins in MongoDB require more complicated
+querying compared to the traditional relational database
+joins. Although at this time, &lt;em>lookups&lt;/em> are still very far from
+replacing &lt;em>joins&lt;/em>, this is a prominent feature that can resolve some
+of the relational data challenges for MongoDB
+[@www-sitepoint]. MongoDB queries support regular expressions as well
+as range asks for specific fields that eliminate the need of returning
+entire documents [@www-guru99]. MongoDB collections do not enforce
+document structure like SQL databases which is a compelling
+feature. However, it is essential to keep in mind the needs of the
+applications[@www-upwork].&lt;/p>
+&lt;h4 id="mongo-queries-examples">Mongo Queries examples&lt;/h4>
+&lt;p>The queries can be executed from Mongo shell as well as through
+scripts.&lt;/p>
+&lt;p>To query the data from a MongoDB collection, one would use MongoDB&amp;rsquo;s
+&lt;em>find()&lt;/em> method.&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">&amp;gt; db.COLLECTION_NAME.find&lt;span style="color:#ce5c00;font-weight:bold">()&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The output can be formatted by using the &lt;em>pretty()&lt;/em> command.&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">&amp;gt; db.mycol.find&lt;span style="color:#ce5c00;font-weight:bold">()&lt;/span>.pretty&lt;span style="color:#ce5c00;font-weight:bold">()&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The MongoDB insert statements can be performed in the following manner:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">&amp;gt; db.COLLECTION_NAME.insert&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>document&lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>&amp;ldquo;The &lt;em>$lookup&lt;/em> command performs a left-outer-join to an unsharded
+collection in the same database to filter in documents from the
+&lt;em>joined&lt;/em> collection for processing&amp;rdquo; [@www-mongodblookup].&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-json" data-lang="json">&lt;span style="color:#a40000">$&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#a40000">$lookup:&lt;/span>
+&lt;span style="color:#a40000">{&lt;/span>
+&lt;span style="color:#a40000">from:&lt;/span> &lt;span style="color:#a40000">&amp;lt;collection&lt;/span> &lt;span style="color:#a40000">to&lt;/span> &lt;span style="color:#a40000">join&amp;gt;,&lt;/span>
+&lt;span style="color:#a40000">localField:&lt;/span> &lt;span style="color:#a40000">&amp;lt;field&lt;/span> &lt;span style="color:#a40000">from&lt;/span> &lt;span style="color:#a40000">the&lt;/span> &lt;span style="color:#a40000">input&lt;/span> &lt;span style="color:#a40000">documents&amp;gt;,&lt;/span>
+&lt;span style="color:#a40000">foreignField:&lt;/span> &lt;span style="color:#a40000">&amp;lt;field&lt;/span> &lt;span style="color:#a40000">from&lt;/span> &lt;span style="color:#a40000">the&lt;/span> &lt;span style="color:#a40000">documents&lt;/span> &lt;span style="color:#a40000">of&lt;/span> &lt;span style="color:#a40000">the&lt;/span> &lt;span style="color:#204a87;font-weight:bold">&amp;#34;from&amp;#34;&lt;/span> &lt;span style="color:#a40000">collection&amp;gt;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#a40000">as:&lt;/span> &lt;span style="color:#a40000">&amp;lt;output&lt;/span> &lt;span style="color:#a40000">array&lt;/span> &lt;span style="color:#a40000">field&amp;gt;&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#a40000">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>This operation is equivalent to the following SQL operation:&lt;/p>
+&lt;pre>&lt;code> $ SELECT *, &amp;lt;output array field&amp;gt;
+FROM collection
+WHERE &amp;lt;output array field&amp;gt; IN (SELECT *
+FROM &amp;lt;collection to join&amp;gt;
+WHERE &amp;lt;foreignField&amp;gt; = &amp;lt;collection.localField&amp;gt;);`
+&lt;/code>&lt;/pre>
+&lt;p>To perform a Like Match (Regex), one would use the following command:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">&amp;gt; db.products.find&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">{&lt;/span> sku: &lt;span style="color:#ce5c00;font-weight:bold">{&lt;/span> &lt;span style="color:#000">$regex&lt;/span>: /789$/ &lt;span style="color:#ce5c00;font-weight:bold">}&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">}&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="mongodb-basic-functions">MongoDB Basic Functions&lt;/h3>
+&lt;p>When it comes to the technical elements of MongoDB, it posses a
+rich interface for importing and storage of external data in various
+formats. By using the Mongo &lt;em>Import/Export&lt;/em> tool, one can easily
+transfer contents from JSON, CSV, or TSV files into a database. MongoDB
+supports CRUD (create, read, update, delete) operations efficiently
+and has detailed documentation available on the product website.
+It can also query the geospatial data, and it is capable of storing
+geospatial data in GeoJSON objects. The &lt;em>aggregation&lt;/em> operation of
+the MongoDB process data records and returns computed results. MongoDB
+aggregation framework is modeled on the concept of data pipelines
+[@www-mongoexportimport].&lt;/p>
+&lt;h4 id="importexport-functions-examples">Import/Export functions examples&lt;/h4>
+&lt;p>To import JSON documents, one would use the following command:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ mongoimport --db users --collection contacts --file contacts.json
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The CSV import uses the input file name to import a collection, hence,
+the collection name is optional [@www-mongoexportimport].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ mongoimport --db users --type csv --headerline --file /opt/backups/contacts.csv
+&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>&amp;ldquo;&lt;em>Mongoexport&lt;/em> is a utility that produces a JSON or CSV export of data stored
+in a MongoDB instance&amp;rdquo; [@www-mongoexportimport].&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ mongoexport --db &lt;span style="color:#204a87">test&lt;/span> --collection traffic --out traffic.json
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="security-features">Security Features&lt;/h3>
+&lt;p>Data security is a crucial aspect of the enterprise infrastructure management
+and is the reason why MongoDB provides various security features such as
+ole based access control, numerous authentication options, and encryption.
+It supports mechanisms such as SCRAM, LDAP, and Kerberos authentication.
+The administrator can create role/collection-based access control; also
+roles can be predefined or custom. MongoDB can audit activities such
+as DDL, CRUD statements, authentication and authorization operations
+[@www-mongosecurity].&lt;/p>
+&lt;h4 id="collection-based-access-control-example">Collection based access control example&lt;/h4>
+&lt;p>A user defined role can contain the following privileges [@www-mongosecurity].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ privileges: &lt;span style="color:#ce5c00;font-weight:bold">[&lt;/span>
+&lt;span style="color:#ce5c00;font-weight:bold">{&lt;/span> resource: &lt;span style="color:#ce5c00;font-weight:bold">{&lt;/span> db: &lt;span style="color:#4e9a06">&amp;#34;products&amp;#34;&lt;/span>, collection: &lt;span style="color:#4e9a06">&amp;#34;inventory&amp;#34;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">}&lt;/span>, actions: &lt;span style="color:#ce5c00;font-weight:bold">[&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;find&amp;#34;&lt;/span>, &lt;span style="color:#4e9a06">&amp;#34;update&amp;#34;&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">}&lt;/span>,
+&lt;span style="color:#ce5c00;font-weight:bold">{&lt;/span> resource: &lt;span style="color:#ce5c00;font-weight:bold">{&lt;/span> db: &lt;span style="color:#4e9a06">&amp;#34;products&amp;#34;&lt;/span>, collection: &lt;span style="color:#4e9a06">&amp;#34;orders&amp;#34;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">}&lt;/span>, actions: &lt;span style="color:#ce5c00;font-weight:bold">[&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;find&amp;#34;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">}&lt;/span>
+&lt;span style="color:#ce5c00;font-weight:bold">]&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="mongodb-cloud-service">MongoDB Cloud Service&lt;/h3>
+&lt;p>In regards to the cloud technologies, MongoDB also offers fully automated
+cloud service called &lt;em>Atlas&lt;/em> with competitive pricing options. Mongo Atlas
+Cloud interface offers interactive GUI for managing cloud resources and
+deploying applications quickly. The service is equipped with geographically
+distributed instances to ensure no single point failure. Also, a well-rounded
+performance monitoring interface allows users to promptly detect anomalies and
+generate index suggestions to optimize the performance and reliability of the
+database. Global technology leaders such as Google, Facebook, eBay, and Nokia
+are leveraging MongoDB and &lt;em>Atlas&lt;/em> cloud services making MongoDB one of the most
+popular choices among the NoSQL databases [@www-mongoatlas].&lt;/p>
+&lt;h2 id="pymongo">PyMongo&lt;/h2>
+&lt;p>PyMongo is the official Python driver or distribution that allows work
+with a NoSQL type database called &lt;em>MongoDB&lt;/em> [@api-mongodb-com-api]. The
+first version of the driver was developed in 2009 [@www-pymongo-blog],
+only two years after the development of MongoDB was started. This driver
+allows developers to combine both Python&amp;rsquo;s versatility and MongoDB&amp;rsquo;s
+flexible schema nature into successful applications. Currently, this
+driver supports MongoDB versions 2.6, 3.0, 3.2, 3.4, 3.6, and 4.0
+[@www-github]. MongoDB and Python represent a compatible fit considering
+that BSON (binary JSON) used in this NoSQL database is very similar
+to Python dictionaries, which makes the collaboration between the two
+even more appealing [@www-mongodb-slideshare]. For this reason, dictionaries
+are the recommended tools to be used in PyMongo when representing
+documents [@www-gearheart].&lt;/p>
+&lt;h3 id="installation-1">Installation&lt;/h3>
+&lt;p>Prior to being able to exploit the benefits of Python and MongoDB
+simultaneously, the PyMongo distribution must be installed using
+&lt;em>pip&lt;/em>. To install it on all platforms, the following command should
+be used [@www-api-mongodb-installation]:&lt;/p>
+&lt;p>&lt;code>$ python -m pip install pymongo&lt;/code>&lt;/p>
+&lt;p>Specific versions of PyMongo can be installed with command lines
+such as in our example where the 3.5.1 version is installed
+[@www-api-mongodb-installation].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ python -m pip install &lt;span style="color:#000">pymongo&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">==&lt;/span>3.5.1
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>A single line of code can be used to upgrade the driver as well
+[@www-api-mongodb-installation].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ python -m pip install --upgrade pymongo
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Furthermore, the installation process can be completed with
+the help of the &lt;em>easy_install&lt;/em> tool, which requires users to use
+the following command [@www-api-mongodb-installation].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ python -m easy_install pymongo
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>To do an upgrade of the driver using this tool, the following
+command is recommended [@www-api-mongodb-installation]:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ python -m easy_install -U pymongo
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>There are many other ways of installing PyMongo directly from
+the source, however, they require for C extension dependencies
+to be installed prior to the driver installation step, as they
+are the ones that skim through the sources on GitHub and use
+the most up-to-date links to install the driver
+[@www-api-mongodb-installation].&lt;/p>
+&lt;p>To check if the installation was completed accurately, the
+following command is used in the Python console
+[@www-realpython].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">import pymongo
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>If the command returns zero exceptions within the Python
+shell, one can consider for the PyMongo installation to
+have been completed successfully.&lt;/p>
+&lt;h3 id="dependencies">Dependencies&lt;/h3>
+&lt;p>The PyMongo driver has a few dependencies that should
+be taken into consideration prior to its usage. Currently,
+it supports CPython 2.7, 3.4+, PyPy, and PyPy 3.5+
+interpreters [@www-github]. An optional dependency that
+requires some additional components to be installed is
+the GSSAPI authentication [@www-github]. For the Unix based
+machines, it requires &lt;em>pykerberos&lt;/em>, while for the Windows
+machines &lt;em>WinKerberos&lt;/em> is needed to fullfill this requirement
+[@www-github]. The automatic installation of this dependency
+can be done simultaneously with the driver installation, in
+the following manner:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ python -m pip install pymongo&lt;span style="color:#ce5c00;font-weight:bold">[&lt;/span>gssapi&lt;span style="color:#ce5c00;font-weight:bold">]&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Other third-party dependencies such as &lt;em>ipaddress&lt;/em>, &lt;em>certifi&lt;/em>,
+or &lt;em>wincerstore&lt;/em> are necessary for connections with help of
+TLS/SSL and can also be simultaneously installed along with the
+driver installation [@www-github].&lt;/p>
+&lt;h3 id="running-pymongo-with-mongo-deamon">Running PyMongo with Mongo Deamon&lt;/h3>
+&lt;p>Once PyMongo is installed, the Mongo deamon can be run with a
+very simple command in a new terminal window [@www-realpython].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ mongod
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="connecting-to-a-database-using-mongoclient">Connecting to a database using MongoClient&lt;/h3>
+&lt;p>In order to be able to establish a connection with a database,
+a MongoClient class needs to be imported, which sub-sequentially
+allows the MongoClient object to communicate with the database
+[@www-realpython].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">pymongo&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">MongoClient&lt;/span>
+&lt;span style="color:#000">client&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">MongoClient&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>This command allows a connection with a default, local host
+through port 27017, however, depending on the programming
+requirements, one can also specify those by listing them in the
+client instance or use the same information via the Mongo URI
+format [@www-realpython].&lt;/p>
+&lt;h3 id="accessing-databases">Accessing Databases&lt;/h3>
+&lt;p>Since MongoClient plays a server role, it can be used to access
+any desired databases in an easy way. To do that, one can use two
+different approaches. The first approach would be doing this via
+the &lt;em>attribute&lt;/em> method where the name of the desired database is
+listed as an attribute, and the second approach, which would
+include a dictionary-style access [@www-realpython]. For example,
+to access a database called &lt;em>cloudmesh_community&lt;/em>, one would use
+the following commands for the attribute and for the dictionary
+method, respectively.&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">db&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">client&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">cloudmesh_community&lt;/span>
+&lt;span style="color:#000">db&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">client&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;cloudmesh_community&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="creating-a-database">Creating a Database&lt;/h3>
+&lt;p>Creating a database is a straight forward process. First, one must
+create a MongoClient object and specify the connection (IP address)
+as well as the name of the database they are trying to create
+[@www-w3schools]. The example of this command is presented in the
+followng section:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">pymongo&lt;/span>
+&lt;span style="color:#000">client&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">pymongo&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">MongoClient&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;mongodb://localhost:27017/&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000">db&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">client&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;cloudmesh&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="inserting-and-retrieving-documents-querying">Inserting and Retrieving Documents (Querying)&lt;/h3>
+&lt;p>Creating documents and storing data using PyMongo is equally easy
+as accessing and creating databases. In order to add new data, a
+collection must be specified first. In this example, a decision is
+made to use the &lt;em>cloudmesh&lt;/em> group of documents.&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">cloudmesh&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">cloudmesh&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Once this step is completed, data may be inserted using the
+&lt;em>insert_one()&lt;/em> method, which means that only one document is
+being created. Of course, insertion of multiple documents at
+the same time is possible as well with use of the &lt;em>insert_many()&lt;/em>
+method [@www-realpython]. An example of this method is as follows:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">course_info&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#39;course&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;Big Data Applications and Analytics&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#39;instructor&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#39; Gregor von Laszewski&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#39;chapter&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;technologies&amp;#39;&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000">result&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">cloudmesh&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">insert_one&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">course_info&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>&lt;span style="color:#a40000">`&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Another example of this method would be to create a collection.
+If we wanted to create a collection of students in the
+&lt;em>cloudmesh_community&lt;/em>, we would do it in the following manner:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">student&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;name&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;John&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;st_id&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">52642&lt;/span>&lt;span style="color:#000;font-weight:bold">},&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;name&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;Mercedes&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;st_id&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">5717&lt;/span>&lt;span style="color:#000;font-weight:bold">},&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;name&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;Anna&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;st_id&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">5654&lt;/span>&lt;span style="color:#000;font-weight:bold">},&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;name&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;Greg&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;st_id&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">5423&lt;/span>&lt;span style="color:#000;font-weight:bold">},&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;name&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;Amaya&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;st_id&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">3540&lt;/span>&lt;span style="color:#000;font-weight:bold">},&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;name&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;Cameron&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;st_id&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">2343&lt;/span>&lt;span style="color:#000;font-weight:bold">},&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;name&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;Bozer&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;st_id&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">4143&lt;/span>&lt;span style="color:#000;font-weight:bold">},&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;name&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;Cody&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;price&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">2165&lt;/span>&lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">]&lt;/span>
+&lt;span style="color:#000">client&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">MongoClient&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;mongodb://localhost:27017/&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">with&lt;/span> &lt;span style="color:#000">client&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>
+&lt;span style="color:#000">db&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">client&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">cloudmesh&lt;/span>
+&lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">students&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">insert_many&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">student&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Retrieving documents is equally simple as creating them. The
+&lt;em>find_one()&lt;/em> method can be used to retrieve one document
+[@www-realpython]. An implementation of this method is given
+in the following example.&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">gregors_course&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">cloudmesh&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">find_one&lt;/span>&lt;span style="color:#000;font-weight:bold">({&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;instructor&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;Gregor von Laszewski&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">})&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Similarly, to retieve multiple documents, one would use the
+&lt;em>find()&lt;/em> method instead of the &lt;em>find_one()&lt;/em>. For example, to
+find all courses thought by professor von Laszewski, one would
+use the following command:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">gregors_course&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">cloudmesh&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">find&lt;/span>&lt;span style="color:#000;font-weight:bold">({&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;instructor&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;Gregor von Laszewski&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">})&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>One thing that users should be cognizant of when using the &lt;em>find()&lt;/em>
+method is that it does not return results in an array format but
+as a &lt;em>cursor&lt;/em> object, which is a combination of methods that work
+together to help with data querying [@www-realpython]. In order to
+return individual documents, iteration over the result must be
+completed [@www-realpython].&lt;/p>
+&lt;h3 id="limiting-results">Limiting Results&lt;/h3>
+&lt;p>When it comes to working with large databases it is always useful to
+limit the number of query results. PyMongo supports this option
+with its &lt;em>limit()&lt;/em> method [@www-w3schools]. This method takes in one
+parameter which specifies the number of documents to be returned
+[@www-w3schools]. For example, if we had a collection with a large
+number of cloud technologies as individual documents, one could
+modify the query results to return only the top 10 technologies.
+To do this, the following example could be utilized:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">client&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">pymongo&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">MongoClient&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;mongodb://localhost:27017/&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000">db&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">client&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;cloudmesh&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span>
+&lt;span style="color:#000">col&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">db&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;technologies&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span>
+&lt;span style="color:#000">topten&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">col&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">find&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">limit&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">10&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="updating-collection">Updating Collection&lt;/h3>
+&lt;p>Updating documents is very similar to inserting and retrieving
+the same. Depending on the number of documents to be updated,
+one would use the &lt;em>update_one()&lt;/em> or &lt;em>update_many()&lt;/em> method
+[@www-w3schools]. Two parameters need to be passed in the
+&lt;em>update_one()&lt;/em> method for it to successfully execute. The
+first argument is the query object that specifies the document
+to be changed, and the second argument is the object that
+specifies the new value in the document. An example of
+the &lt;em>update_one()&lt;/em> method in action is the following:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">myquery&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;course&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;Big Data Applications and Analytics&amp;#39;&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000">newvalues&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;$set&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;course&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;Cloud Computing&amp;#39;&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Updating all documents that fall under the same criteria can be
+done with the &lt;em>update_many&lt;/em> method [@www-w3schools]. For example,
+to update all documents in which course title starts with letter
+&lt;em>B&lt;/em> with a different instructor information, we would do the
+following:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">client&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">pymongo&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">MongoClient&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;mongodb://localhost:27017/&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000">db&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">client&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;cloudmesh&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span>
+&lt;span style="color:#000">col&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">db&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;courses&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span>
+&lt;span style="color:#000">query&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;course&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;$regex&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;^B&amp;#39;&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000">newvalues&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;$set&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;instructor&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;Gregor von Laszewski&amp;#39;&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000">edited&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">col&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">update_many&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">query&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">newvalues&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="counting-documents">Counting Documents&lt;/h3>
+&lt;p>Counting documents can be done with one simple operation called
+&lt;em>count_documents()&lt;/em> instead of using a full query
+[@www-pymongo-tutorial]. For example, we can count the documents
+in the &lt;em>cloudmesh_commpunity&lt;/em> by using the following command:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">cloudmesh&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">count_documents&lt;/span>&lt;span style="color:#000;font-weight:bold">({})&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>To create a more specific count, one would use a command similar
+to this:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">cloudmesh&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">count_documents&lt;/span>&lt;span style="color:#000;font-weight:bold">({&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;author&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;von Laszewski&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">})&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>This technology supports some more advanced querying options as
+well. Those advanced queries allow one to add certain contraints
+and narrow down the results even more. For example, to get the
+courses thought by professor von Laszewski after a certain date,
+one would use the following command:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">d&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">datetime&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">datetime&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">2017&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">11&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">12&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">12&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">for&lt;/span> &lt;span style="color:#000">course&lt;/span> &lt;span style="color:#204a87;font-weight:bold">in&lt;/span> &lt;span style="color:#000">cloudmesh&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">find&lt;/span>&lt;span style="color:#000;font-weight:bold">({&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;date&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;$lt&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000">d&lt;/span>&lt;span style="color:#000;font-weight:bold">}})&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">sort&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;author&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">):&lt;/span>
+&lt;span style="color:#000">pprint&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">pprint&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">course&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="indexing">Indexing&lt;/h3>
+&lt;p>Indexing is a very important part of querying. It can greately
+improve query performance but also add functionality and aide in
+storing documents [@www-pymongo-tutorial].&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;To create a unique index on a key that rejects documents whose
+value for that key already exists in the index&amp;rdquo;
+[@www-pymongo-tutorial].&lt;/p>
+&lt;/blockquote>
+&lt;p>We need to firstly create the index in the following manner:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">result&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">profiles&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">create_index&lt;/span>&lt;span style="color:#000;font-weight:bold">([(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;user_id&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">pymongo&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">ASCENDING&lt;/span>&lt;span style="color:#000;font-weight:bold">)],&lt;/span>
+&lt;span style="color:#000">unique&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#3465a4">True&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#204a87">sorted&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87">list&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">profiles&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">index_information&lt;/span>&lt;span style="color:#000;font-weight:bold">()))&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>This command acutally creates two different indexes. The first
+one is the *_id* , created by MongoDB automatically, and the
+second one is the &lt;em>user_id&lt;/em>, created by the user.&lt;/p>
+&lt;p>The purpose of those indexes is to cleverly prevent future
+additions of invalid &lt;em>user_ids&lt;/em> into a collection.&lt;/p>
+&lt;h3 id="sorting">Sorting&lt;/h3>
+&lt;p>Sorting on the server-side is also avaialable via MongoDB.
+The PyMongo &lt;em>sort()&lt;/em> method is equivalent to the SQL
+&lt;em>order by&lt;/em> statement and it can be performed as &lt;em>pymongo.ascending&lt;/em>
+and &lt;em>pymongo.descending&lt;/em> [@book-ohiggins]. This method is much
+more efficient as it is being completed on the server-side,
+compared to the sorting completed on the client side. For example,
+to return all users with first name &lt;em>Gregor&lt;/em> sorted in descending
+order by birthdate we would use a command such as this:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">users&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">cloudmesh&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">users&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">find&lt;/span>&lt;span style="color:#000;font-weight:bold">({&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;firstname&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;Gregor&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">})&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">sort&lt;/span>&lt;span style="color:#000;font-weight:bold">((&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;dateofbirth&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">pymongo&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">DESCENDING&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">for&lt;/span> &lt;span style="color:#000">user&lt;/span> &lt;span style="color:#204a87;font-weight:bold">in&lt;/span> &lt;span style="color:#000">users&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">print&lt;/span> &lt;span style="color:#000">user&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">get&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;email&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="aggregation">Aggregation&lt;/h3>
+&lt;p>Aggregation operations are used to process given data and produce
+summarized results. Aggregation operations collect data from a number
+of documents and provide collective results by grouping data. PyMongo
+in its documentation offers a separate framework that supports data
+aggregation. This aggregation framework can be used to&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;provide projection capabilities to reshape the returned data&amp;rdquo;
+[@www-mongo-aggregation].&lt;/p>
+&lt;/blockquote>
+&lt;p>In the aggregation pipeline, documents pass through multiple pipeline
+stages which convert documents into result data. The basic pipeline
+stages include filters. Those filters act like document transformation
+by helping change the document output form. Other pipelines help group
+or sort documents with specific fields. By using native operations from
+MongoDB, the pipeline operators are efficient in aggregating results.&lt;/p>
+&lt;p>The &lt;em>addFields&lt;/em> stage is used to add new fields into documents. It
+reshapes each document in stream, similarly to the &lt;em>project&lt;/em> stage.
+The output document will contain existing fields from input documents
+and the newly added fields @www-docs-mongodb]. The following example
+shows how to add &lt;em>student details&lt;/em> into a document.&lt;/p>
+&lt;pre>&lt;code> db.cloudmesh_community.aggregate([
+{
+$addFields: {
+&amp;quot;document.StudentDetails&amp;quot;: {
+$concat:['$document.student.FirstName', '$document.student.LastName']
+}
+}
+} ])
+&lt;/code>&lt;/pre>
+&lt;p>The &lt;em>bucket&lt;/em> stage is used to categorize incoming documents
+into groups based on specified expressions. Those groups are
+called &lt;em>buckets&lt;/em> [@www-docs-mongodb]. The following example shows
+the &lt;em>bucket&lt;/em> stage in action.&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">user&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">aggregate&lt;/span>&lt;span style="color:#000;font-weight:bold">([&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$group&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#34;_id&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#34;city&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$city&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#34;age&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#34;$let&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#34;vars&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#34;age&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$subtract&amp;#34;&lt;/span> &lt;span style="color:#000;font-weight:bold">:[{&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$year&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000">new&lt;/span> &lt;span style="color:#000">Date&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span> &lt;span style="color:#000;font-weight:bold">},{&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$year&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$birthDay&amp;#34;&lt;/span> &lt;span style="color:#000;font-weight:bold">}]&lt;/span> &lt;span style="color:#000;font-weight:bold">}},&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#34;in&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#34;$switch&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#34;branches&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;case&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$lt&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$$age&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">20&lt;/span> &lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#000;font-weight:bold">},&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;then&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">0&lt;/span> &lt;span style="color:#000;font-weight:bold">},&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;case&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$lt&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$$age&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">30&lt;/span> &lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#000;font-weight:bold">},&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;then&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">20&lt;/span> &lt;span style="color:#000;font-weight:bold">},&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;case&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$lt&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$$age&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">40&lt;/span> &lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#000;font-weight:bold">},&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;then&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">30&lt;/span> &lt;span style="color:#000;font-weight:bold">},&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;case&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$lt&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$$age&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">50&lt;/span> &lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#000;font-weight:bold">},&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;then&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">40&lt;/span> &lt;span style="color:#000;font-weight:bold">},&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;case&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$lt&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$$age&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">200&lt;/span> &lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#000;font-weight:bold">},&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;then&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">50&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">},&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#34;count&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$sum&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">1&lt;/span> &lt;span style="color:#000;font-weight:bold">}}})&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>In the &lt;em>bucketAuto&lt;/em> stage, the boundaries are automatically
+determined in an attempt to evenly distribute documents into
+a specified number of buckets. In the following operation,
+input documents are grouped into four buckets according to
+the values in the price field [@www-docs-mongodb].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">artwork&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">aggregate&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">bucketAuto&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#000">groupBy&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$price&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#000">buckets&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">4&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;em>collStats&lt;/em> stage returns statistics regarding a collection
+or view [@www-docs-mongodb].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">matrices&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">aggregate&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">collStats&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#000">latencyStats&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#000">histograms&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000">true&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;em>count&lt;/em> stage passes a document to the next stage that
+contains the number documents that were input to the stage
+[@www-docs-mongodb].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">scores&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">aggregate&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">match&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#000">score&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">gt&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">80&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">},&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">count&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;passing_scores&amp;#34;&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">])&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;em>facet&lt;/em> stage helps process multiple aggregation pipelines
+in a single stage [@www-docs-mongodb].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">artwork&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">aggregate&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">facet&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;categorizedByTags&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">unwind&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$tags&amp;#34;&lt;/span> &lt;span style="color:#000;font-weight:bold">},&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">sortByCount&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$tags&amp;#34;&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">],&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;categorizedByPrice&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span>
+&lt;span style="color:#ce5c00;font-weight:bold">//&lt;/span> &lt;span style="color:#000">Filter&lt;/span> &lt;span style="color:#000">out&lt;/span> &lt;span style="color:#000">documents&lt;/span> &lt;span style="color:#000">without&lt;/span> &lt;span style="color:#000">a&lt;/span> &lt;span style="color:#000">price&lt;/span> &lt;span style="color:#000">e&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">g&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">_id&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">7&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">match&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#000">price&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">exists&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">1&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">},&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">bucket&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#000">groupBy&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$price&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#000">boundaries&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">0&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">150&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">200&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">300&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">400&lt;/span> &lt;span style="color:#000;font-weight:bold">],&lt;/span>
+&lt;span style="color:#000">default&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;Other&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#000">output&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;count&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#204a87">sum&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">1&lt;/span> &lt;span style="color:#000;font-weight:bold">},&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#34;titles&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">push&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$title&amp;#34;&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">}],&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;categorizedByYears(Auto)&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">bucketAuto&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#000">groupBy&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$year&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>&lt;span style="color:#000">buckets&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">4&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">]}}])&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;em>geoNear&lt;/em> stage returns an ordered stream of documents
+based on the proximity to a geospatial point. The output documents
+include an additional distance field and can include a location
+identifier field [@www-docs-mongodb].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">places&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">aggregate&lt;/span>&lt;span style="color:#000;font-weight:bold">([&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">geoNear&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#000">near&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#204a87">type&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;Point&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">coordinates&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">-&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">73.99279&lt;/span> &lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">40.719296&lt;/span> &lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#000;font-weight:bold">},&lt;/span>
+&lt;span style="color:#000">distanceField&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;dist.calculated&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#000">maxDistance&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">2&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#000">query&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#204a87">type&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;public&amp;#34;&lt;/span> &lt;span style="color:#000;font-weight:bold">},&lt;/span>
+&lt;span style="color:#000">includeLocs&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;dist.location&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#000">num&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">5&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#000">spherical&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000">true&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">}])&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;em>graphLookup&lt;/em> stage performs a recursive search on a
+collection. To each output document, it adds a new array field
+that contains the traversal results of the recursive search
+for that document [@www-docs-mongodb].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">travelers&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">aggregate&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">graphLookup&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#000">from&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;airports&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#000">startWith&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$nearestAirport&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#000">connectFromField&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;connects&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#000">connectToField&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;airport&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#000">maxDepth&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">2&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#000">depthField&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;numConnections&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">as&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;destinations&amp;#34;&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;em>group&lt;/em> stage consumes the document data per each
+distinct group. It has a RAM limit of 100 MB. If the
+stage exceeds this limit, the &lt;em>group&lt;/em> produces an
+error [@www-docs-mongodb].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">sales&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">aggregate&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>
+&lt;span style="color:#000;font-weight:bold">[&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">group&lt;/span> &lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#000">_id&lt;/span> &lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#000">month&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">month&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$date&amp;#34;&lt;/span> &lt;span style="color:#000;font-weight:bold">},&lt;/span> &lt;span style="color:#000">day&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">dayOfMonth&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$date&amp;#34;&lt;/span> &lt;span style="color:#000;font-weight:bold">},&lt;/span>
+&lt;span style="color:#000">year&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">year&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$date&amp;#34;&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">},&lt;/span>
+&lt;span style="color:#000">totalPrice&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#204a87">sum&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">multiply&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$price&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$quantity&amp;#34;&lt;/span> &lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">},&lt;/span>
+&lt;span style="color:#000">averageQuantity&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">avg&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$quantity&amp;#34;&lt;/span> &lt;span style="color:#000;font-weight:bold">},&lt;/span>
+&lt;span style="color:#000">count&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#204a87">sum&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">1&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">]&lt;/span>
+&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;em>indexStats&lt;/em> stage returns statistics regarding
+the use of each index for a collection [@www-docs-mongodb].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">orders&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">aggregate&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">indexStats&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;em>limit&lt;/em> stage is used for controlling the number of
+documents passed to the next stage in the pipeline
+[@www-docs-mongodb].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">article&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">aggregate&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">limit&lt;/span> &lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">5&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;em>listLocalSessions&lt;/em> stage gives the session information
+currently connected to mongos or mongod instance
+[@www-docs-mongodb].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">aggregate&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">listLocalSessions&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#000">allUsers&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000">true&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;em>listSessions&lt;/em> stage lists out all session that have
+been active long enough to propagate to the &lt;em>system.sessions&lt;/em>
+collection [@www-docs-mongodb].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python"> &lt;span style="color:#000">use&lt;/span> &lt;span style="color:#000">config&lt;/span>
+&lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">system&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">sessions&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">aggregate&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">listSessions&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#000">allUsers&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000">true&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;em>lookup&lt;/em> stage is useful for performing outer joins to
+other collections in the same database [@www-docs-mongodb].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">lookup&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#000">from&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;lt;&lt;/span>&lt;span style="color:#000">collection&lt;/span> &lt;span style="color:#000">to&lt;/span> &lt;span style="color:#000">join&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">&amp;gt;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#000">localField&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;lt;&lt;/span>&lt;span style="color:#000">field&lt;/span> &lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">the&lt;/span> &lt;span style="color:#000">input&lt;/span> &lt;span style="color:#000">documents&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">&amp;gt;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#000">foreignField&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;lt;&lt;/span>&lt;span style="color:#000">field&lt;/span> &lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">the&lt;/span> &lt;span style="color:#000">documents&lt;/span> &lt;span style="color:#000">of&lt;/span> &lt;span style="color:#000">the&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;from&amp;#34;&lt;/span> &lt;span style="color:#000">collection&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">&amp;gt;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">as&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;lt;&lt;/span>&lt;span style="color:#000">output&lt;/span> &lt;span style="color:#000">array&lt;/span> &lt;span style="color:#000">field&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">&amp;gt;&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;em>match&lt;/em> stage is used to filter the document stream.
+Only matching documents pass to next stage [@www-docs-mongodb].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">articles&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">aggregate&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>
+&lt;span style="color:#000;font-weight:bold">[&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">match&lt;/span> &lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#000">author&lt;/span> &lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;dave&amp;#34;&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">]&lt;/span>
+&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;em>project&lt;/em> stage is used to reshape the documents by
+adding or deleting the fields.&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">books&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">aggregate&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">project&lt;/span> &lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#000">title&lt;/span> &lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">1&lt;/span> &lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">author&lt;/span> &lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">1&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;em>redact&lt;/em> stage reshapes stream documents by restricting
+information using information stored in documents themselves
+[@www-docs-mongodb].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python"> &lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">accounts&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">aggregate&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>
+&lt;span style="color:#000;font-weight:bold">[&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">match&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#000">status&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;A&amp;#34;&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">},&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">redact&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">cond&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">if&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">eq&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$level&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">5&lt;/span> &lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#000;font-weight:bold">},&lt;/span>
+&lt;span style="color:#000">then&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$$PRUNE&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">else&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$$DESCEND&amp;#34;&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">]);&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;em>replaceRoot&lt;/em> stage is used to replace a document with
+a specified embedded document [@www-docs-mongodb].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python"> &lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">produce&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">aggregate&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">replaceRoot&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#000">newRoot&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$in_stock&amp;#34;&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;em>sample&lt;/em> stage is used to sample out data by randomly
+selecting number of documents form input [@www-docs-mongodb].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python"> &lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">users&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">aggregate&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>
+&lt;span style="color:#000;font-weight:bold">[&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">sample&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#000">size&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">3&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">]&lt;/span>
+&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;em>skip&lt;/em> stage skips specified initial number of documents
+and passes remaining documents to the pipeline [@www-docs-mongodb].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">article&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">aggregate&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">skip&lt;/span> &lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">5&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">);&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;em>sort&lt;/em> stage is useful while reordering document stream
+by a specified sort key [@www-docs-mongodb].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python"> &lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">users&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">aggregate&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>
+&lt;span style="color:#000;font-weight:bold">[&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">sort&lt;/span> &lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#000">age&lt;/span> &lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">-&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">1&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">posts&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">1&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">]&lt;/span>
+&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;em>sortByCounts&lt;/em> stage groups the incoming documents
+based on a specified expression value and counts documents
+in each distinct group [@www-docs-mongodb].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">exhibits&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">aggregate&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>
+&lt;span style="color:#000;font-weight:bold">[&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">unwind&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$tags&amp;#34;&lt;/span> &lt;span style="color:#000;font-weight:bold">},&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">sortByCount&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$tags&amp;#34;&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;em>unwind&lt;/em> stage deconstructs an array field from the
+input documents to output a document for each element [@www-docs-mongodb].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">inventory&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">aggregate&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">unwind&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$sizes&amp;#34;&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">inventory&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">aggregate&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">unwind&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#000">path&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$sizes&amp;#34;&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;em>out&lt;/em> stage is used to write aggregation pipeline results
+into a collection. This stage should be the last stage of a
+pipeline [@www-docs-mongodb].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">books&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">aggregate&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">group&lt;/span> &lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#000">_id&lt;/span> &lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$author&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">books&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">push&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;$title&amp;#34;&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#000;font-weight:bold">},&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#a40000">$&lt;/span>&lt;span style="color:#000">out&lt;/span> &lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;authors&amp;#34;&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Another option from the &lt;em>aggregation operations&lt;/em> is the Map/Reduce
+framework, which essentially includes two different functions,
+&lt;em>map&lt;/em> and &lt;em>reduce&lt;/em>. The first one provides the key value pair for
+each tag in the array, while the latter one&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;sums over all of the emitted values for a given key&amp;rdquo;
+[@www-mongo-aggregation].&lt;/p>
+&lt;/blockquote>
+&lt;p>The last step in the Map/Reduce process it to call the
+&lt;em>map_reduce()&lt;/em> function and iterate over the results
+[@www-mongo-aggregation]. The Map/Reduce operation provides
+result data in a collection or returns results in-line. One
+can perform subsequent operations with the same input collection
+if the output of the same is written to a collection
+[@www-docs-map-reduce]. An operation that produces results
+in a in-line form must provide results with in the BSON
+document size limit. The current limit for a BSON document is
+16 MB. These types of operations are not supported by views
+[@www-docs-map-reduce]. The PyMongo&amp;rsquo;s API supports all
+features of the MongoDB&amp;rsquo;s Map/Reduce engine [@www-api-map-reduce].
+Moreover, Map/Reduce has the ability to get more detailed results
+by passing &lt;em>full_response=True&lt;/em> argument to the &lt;em>map_reduce()&lt;/em>
+function [@www-api-map-reduce].&lt;/p>
+&lt;h3 id="deleting-documents-from-a-collection">Deleting Documents from a Collection&lt;/h3>
+&lt;p>The deletion of documents with PyMongo is fairly straight
+forward. To do so, one would use the &lt;em>remove()&lt;/em> method of
+the PyMongo Collection object [@book-ohiggins]. Similarly
+to the reads and updates, specification of documents to be
+removed is a must. For example, removal of the entire
+document collection with a score of 1, would required one
+to use the following command:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">cloudmesh&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">users&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">remove&lt;/span>&lt;span style="color:#000;font-weight:bold">({&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;score&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">1&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">safe&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#3465a4">True&lt;/span>&lt;span style="color:#000;font-weight:bold">})&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;em>safe&lt;/em> parameter set to &lt;em>True&lt;/em> ensures the operation was
+completed [@book-ohiggins].&lt;/p>
+&lt;h3 id="copying-a-database">Copying a Database&lt;/h3>
+&lt;p>Copying databases within the same mongod instance or between
+different mongod servers is made possible with the &lt;em>command()&lt;/em>
+method after connecting to the desired mongod instance
+[@www-pymongo-documentation-copydb]. For example, to copy the
+&lt;em>cloudmesh&lt;/em> database and name the new database &lt;em>cloudmesh_copy&lt;/em>,
+one would use the &lt;em>command()&lt;/em> method in the following manner:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">client&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">admin&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">command&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;copydb&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#000">fromdb&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;cloudmesh&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#000">todb&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;cloudmesh_copy&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>There are two ways to copy a database between servers. If a
+server is not password-prodected, one would not need to
+pass in the credentials nor to authenticate to the admin
+database [@www-pymongo-documentation-copydb]. In that case,
+to copy a database one would use the following command:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">client&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">admin&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">command&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;copydb&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#000">fromdb&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;cloudmesh&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#000">todb&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;cloudmesh_copy&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#000">fromhost&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;source.example.com&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>On the other hand, if the server where we are copying the
+database to is protected, one would use this command instead:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">client&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">MongoClient&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;target.example.com&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#000">username&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;administrator&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#000">password&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;pwd&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000">client&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">admin&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">command&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;copydb&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#000">fromdb&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;cloudmesh&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#000">todb&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;cloudmesh_copy&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#000">fromhost&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;source.example.com&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="pymongo-strengths">PyMongo Strengths&lt;/h3>
+&lt;p>One of PyMongo strengths is that allows document creation and
+querying natively&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;through the use of existing language features such as nested
+dictionaries and lists&amp;rdquo; [@book-ohiggins].&lt;/p>
+&lt;/blockquote>
+&lt;p>For moderately experienced Python developers, it is very easy to
+learn it and quickly feel comfortable with it.&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;For these reasons, MongoDB and Python make a powerful
+combination for rapid, iterative development of horizontally
+scalable backend applications&amp;rdquo; [@book-ohiggins].&lt;/p>
+&lt;/blockquote>
+&lt;p>According to [@book-ohiggins], MongoDB is very applicable
+to modern applications, which makes PyMongo equally valuable
+[@book-ohiggins].&lt;/p>
+&lt;h2 id="mongoengine">MongoEngine&lt;/h2>
+&lt;blockquote>
+&lt;p>&amp;ldquo;MongoEngine is an Object-Document Mapper, written in Python
+for working with MongoDB&amp;rdquo; [@www-docs-mongoengine].&lt;/p>
+&lt;/blockquote>
+&lt;p>It is actually a library that allows a more advanced communication
+with MongoDB compared to PyMongo. As MongoEngine is technically
+considered to be an object-document mapper(ODM), it can also be
+considered to be&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;equivalent to a SQL-based object relational mapper(ORM)&amp;rdquo;
+[@www-realpython].&lt;/p>
+&lt;/blockquote>
+&lt;p>The primary technique why one would use an ODM includes
+&lt;em>data conversion&lt;/em> between computer systems that are not
+compatible with each other [@www-wikiodm]. For the purpose of
+converting data to the appropriate form, a &lt;em>virtual object
+database&lt;/em> must be created within the utilized programming
+language [@www-wikiodm]. This library is also used to define
+schemata for documents within MongoDB, which ultimately helps
+with minimizing coding errors as well defining methods
+on existing fields [@www-mongoengine-schema]. It is also
+very beneficial to the overall workflow as it tracks changes
+made to the documents and aids in the document saving process
+[@www-mongoengine-instances].&lt;/p>
+&lt;h3 id="installation-2">Installation&lt;/h3>
+&lt;p>The installation process for this technology is fairly simple
+as it is considered to be a library. To install it, one would
+use the following command [@www-installing]:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ pip install mongoengine
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>A &lt;em>bleeding-edge&lt;/em> version of MongoEngine can be installed directly
+from GitHub by first cloning the repository on the local machine,
+virtual machine, or cloud.&lt;/p>
+&lt;h3 id="connecting-to-a-database-using-mongoengine">Connecting to a database using MongoEngine&lt;/h3>
+&lt;p>Once installed, MongoEngine needs to be connected to an
+instance of the mongod, similarly to PyMongo [@www-connecting].
+The &lt;em>connect()&lt;/em> function must be used to successfully
+complete this step and the argument that must be used in
+this function is the name of the desired database [@www-connecting].
+Prior to using this function, the function name needs
+to be imported from the MongoEngine library.&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">mongoengine&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">connect&lt;/span>
+&lt;span style="color:#000">connect&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;cloudmesh_community&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Similarly to the MongoClient, MongoEngine uses the local
+host and port 27017 by default, however, the &lt;em>connect()&lt;/em>
+function also allows specifying other hosts and port
+arguments as well [@www-connecting].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">connect&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;cloudmesh_community&amp;#39;&lt;/span>, &lt;span style="color:#000">host&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;196.185.1.62&amp;#39;&lt;/span>, &lt;span style="color:#000">port&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>16758&lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Other types of connections are also supported (i.e. URI)
+and they can be completed by providing the URI in the
+&lt;em>connect()&lt;/em> function [@www-connecting].&lt;/p>
+&lt;h3 id="querying-using-mongoengine">Querying using MongoEngine&lt;/h3>
+&lt;p>To query MongoDB using MongoEngine an &lt;em>objects attribute&lt;/em>
+is used, which is, technically, a part of the document
+class [@www-querying]. This attribute is called the
+&lt;em>QuerySetManager&lt;/em> which in return&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;creates a new &lt;em>QuerySet&lt;/em> object on access&amp;rdquo; [@www-querying].&lt;/p>
+&lt;/blockquote>
+&lt;p>To be able to access individual documents from a database,
+this object needs to be iterated over. For example, to
+return/print all students in the &lt;em>cloudmesh_community&lt;/em> object
+(database), the following command would be used.&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">for&lt;/span> &lt;span style="color:#000">user&lt;/span> &lt;span style="color:#204a87;font-weight:bold">in&lt;/span> &lt;span style="color:#000">cloudmesh_community&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">objects&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">print&lt;/span> &lt;span style="color:#000">cloudmesh_community&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">student&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>MongoEngine also has a capability of query filtering
+which means that a keyword can be used within the called
+&lt;em>QuerySet&lt;/em> object to retrieve specific information
+[@www-querying]. Let us say one would like to iterate over
+&lt;em>cloudmesh_community&lt;/em> students that are natives of Indiana.
+To achieve this, one would use the following command:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">indy_students&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">cloudmesh_community&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">objects&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">state&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;IN&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>This library also allows the use of all operators except
+for the equality operator in its queries, and moreover,
+has the capability of handling &lt;em>string queries&lt;/em>, &lt;em>geo queries&lt;/em>,
+&lt;em>list querying&lt;/em>, and querying of the raw PyMongo queries
+[@www-querying].&lt;/p>
+&lt;p>The string queries are useful in performing text operations
+in the conditional queries. A query to find a document exactly
+matching and with state &lt;em>ACTIVE&lt;/em> can be performed in the
+following manner:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">cloudmesh_community&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">find&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span> &lt;span style="color:#000">State&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">exact&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;ACTIVE&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The query to retrieve document data for names that start with
+a case sensitive &lt;em>AL&lt;/em> can be written as:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">cloudmesh_community&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">find&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span> &lt;span style="color:#000">Name&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">startswith&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;AL&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>To perform an exact same query for the non-key-sensitive &lt;em>AL&lt;/em> one
+would use the following command:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">cloudmesh_community&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">find&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span> &lt;span style="color:#000">Name&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">istartswith&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;AL&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The MongoEngine allows data extraction of geographical locations
+by using Geo queries. The &lt;em>geo_within&lt;/em> operator checks if a
+geometry is within a polygon.&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python"> &lt;span style="color:#000">cloudmesh_community&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">objects&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>
+&lt;span style="color:#000">point__geo_within&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#000;font-weight:bold">[[[&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">40&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">5&lt;/span>&lt;span style="color:#000;font-weight:bold">],&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">40&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">6&lt;/span>&lt;span style="color:#000;font-weight:bold">],&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">41&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">6&lt;/span>&lt;span style="color:#000;font-weight:bold">],&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">40&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">5&lt;/span>&lt;span style="color:#000;font-weight:bold">]]])&lt;/span>
+&lt;span style="color:#000">cloudmesh_community&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">objects&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>
+&lt;span style="color:#000">point__geo_within&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#000;font-weight:bold">{&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;type&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;Polygon&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#34;coordinates&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000;font-weight:bold">[[[&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">40&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">5&lt;/span>&lt;span style="color:#000;font-weight:bold">],&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">40&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">6&lt;/span>&lt;span style="color:#000;font-weight:bold">],&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">41&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">6&lt;/span>&lt;span style="color:#000;font-weight:bold">],&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">40&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">5&lt;/span>&lt;span style="color:#000;font-weight:bold">]]]})&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The list query looks up the documents where the specified fields
+matches exactly to the given value. To match all pages that have
+the word &lt;em>coding&lt;/em> as an item in the &lt;em>tags&lt;/em> list one would use
+the following query:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python"> &lt;span style="color:#204a87;font-weight:bold">class&lt;/span> &lt;span style="color:#000">Page&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">Document&lt;/span>&lt;span style="color:#000;font-weight:bold">):&lt;/span>
+&lt;span style="color:#000">tags&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">ListField&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">StringField&lt;/span>&lt;span style="color:#000;font-weight:bold">())&lt;/span>
+&lt;span style="color:#000">Page&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">objects&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">tags&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;coding&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Overall, it would be safe to say that MongoEngine has good
+compatibility with Python. It provides different functions
+to utilize Python easily with MongoDBand which makes this
+pair even more attractive to application developers.&lt;/p>
+&lt;h2 id="flask-pymongo">Flask-PyMongo&lt;/h2>
+&lt;blockquote>
+&lt;p>&amp;ldquo;Flask is a micro-web framework written in Python&amp;rdquo;
+[@www-flask-framework].&lt;/p>
+&lt;/blockquote>
+&lt;p>It was developed after Django, and it is very pythonic
+in nature which implies that it is explicitly the targeting
+the Python user community. It is lightweight as it does not
+require additional tools or libraries and hence is classified
+as a Micro-Web framework. It is often used with MongoDB using
+PyMongo connector, and it treats data within MongoDB as searchable
+Python dictionaries. The applications such as Pinterest, LinkedIn,
+and the community web page for Flask are using the Flask framework.
+Moreover, it supports various features such as the RESTful request
+dispatching, secure cookies, Google app engine compatibility, and
+integrated support for unit testing, etc [@www-flask-framework].
+When it comes to connecting to a database, the connection details
+for MongoDB can be passed as a variable or configured in PyMongo
+constructor with additional arguments such as username and password,
+if required. It is important that versions of both Flask and MongoDB
+are compatible with each other to avoid functionality breaks
+[@www-flask-pymongo].&lt;/p>
+&lt;h3 id="installation-3">Installation&lt;/h3>
+&lt;p>Flask-PyMongo can be installed with an easy command such as this:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ pip install Flask-PyMongo
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>PyMongo can be added in the following manner:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python"> &lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">flask&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">Flask&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">flask_pymongo&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">PyMongo&lt;/span>
+&lt;span style="color:#000">app&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">Flask&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">__name__&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000">app&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">config&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;MONGO_URI&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;mongodb://localhost:27017/cloudmesh_community&amp;#34;&lt;/span>
+&lt;span style="color:#000">mongo&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">PyMongo&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">app&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="configuration">Configuration&lt;/h3>
+&lt;p>There are two ways to configure Flask-PyMongo. The first way
+would be to pass a MongoDB URI to the PyMongo constructor,
+while the second way would be to&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;assign it to the MONGO_URI Flask confiuration variable&amp;rdquo;
+[@www-flask-pymongo].&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="connection-to-multiple-databasesservers">Connection to multiple databases/servers&lt;/h3>
+&lt;p>Multiple PyMongo instances can be used to connect to multiple
+databases or database servers. To achieve this, once would
+use a command similar to the following:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python"> &lt;span style="color:#000">app&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">Flask&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">__name__&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000">mongo1&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">PyMongo&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">app&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">uri&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;mongodb://localhost:27017/cloudmesh_community_one&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000">mongo2&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">PyMongo&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">app&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">uri&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;mongodb://localhost:27017/cloudmesh_community_two&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000">mongo3&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">PyMongo&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">app&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">uri&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#34;mongodb://another.host:27017/cloudmesh_community_Three&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="flask-pymongo-methods">Flask-PyMongo Methods&lt;/h3>
+&lt;p>Flask-PyMongo provides helpers for some common tasks.
+One of them is the &lt;em>Collection.find_one_or_404&lt;/em> method
+shown in the following example:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python"> &lt;span style="color:#5c35cc;font-weight:bold">@app.route&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;/user/&amp;lt;username&amp;gt;&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">def&lt;/span> &lt;span style="color:#000">user_profile&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">username&lt;/span>&lt;span style="color:#000;font-weight:bold">):&lt;/span>
+&lt;span style="color:#000">user&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">mongo&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">cloudmesh_community&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">find_one_or_404&lt;/span>&lt;span style="color:#000;font-weight:bold">({&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;_id&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000">username&lt;/span>&lt;span style="color:#000;font-weight:bold">})&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">return&lt;/span> &lt;span style="color:#000">render_template&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;user.html&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">user&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#000">user&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>This method is very similar to the MongoDB&amp;rsquo;s &lt;em>find_one()&lt;/em>
+method, however, instead of returning &lt;em>None&lt;/em> it causes
+a &lt;em>404 Not Found HTTP&lt;/em> status [@www-flask-pymongo].&lt;/p>
+&lt;p>Similarly, the &lt;em>PyMongo.send_file&lt;/em> and &lt;em>PyMongo.save_file&lt;/em>
+methods work on the file-like objects and save them to GridFS
+using the given file name [@www-flask-pymongo].&lt;/p>
+&lt;h3 id="additional-libraries">Additional Libraries&lt;/h3>
+&lt;p>Flask-MongoAlchemy and Flask-MongoEngine are the additional
+libraries that can be used to connect to a MongoDB database
+while using enhanced features with the Flask app. The
+Flask-MongoAlchemy is used as a proxy between Python and
+MongoDB to connect. It provides an option such as server or
+database based authentication to connect to MongoDB. While the
+default is set server based, to use a database-based authentication,
+the config value &lt;em>MONGOALCHEMY_SERVER_AUTH&lt;/em> parameter must be
+set to &lt;em>False&lt;/em> [@www-pythonhosted-MongoAlchemy].&lt;/p>
+&lt;p>Flask-MongoEngine is the Flask extension that provides
+integration with the MongoEngine. It handles connection
+management for the apps. It can be installed through &lt;em>pip&lt;/em> and
+set up very easily as well. The default configuration
+is set to the local host and port 27017. For the custom port
+and in cases where MongoDB is running on another server, the host
+and port must be explicitly specified in connect strings within
+the &lt;em>MONGODB_SETTINGS&lt;/em> dictionary with &lt;em>app.config&lt;/em>, along with
+the database username and password, in cases where a database
+authentication is enabled. The URI style connections are also
+supported and supply the URI as the host in the &lt;em>MONGODB_SETTINGS&lt;/em>
+dictionary with &lt;em>app.config&lt;/em>. There are various custom query sets
+that are available within Flask-Mongoengine that are attached to
+Mongoengine&amp;rsquo;s default queryset [@www-flask-mongoengine].&lt;/p>
+&lt;h3 id="classes-and-wrappers">Classes and Wrappers&lt;/h3>
+&lt;p>Attributes such as &lt;em>cx&lt;/em> and &lt;em>db&lt;/em> in the PyMongo objects are
+the ones that help provide access to the MongoDB server
+[@www-flask-pymongo]. To achieve this, one must pass the
+Flask app to the constructor or call &lt;em>init_app()&lt;/em> [@www-flask-pymongo].&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;Flask-PyMongo wraps PyMongo&amp;rsquo;s MongoClient, Database, and
+Collection classes, and overrides their attribute and item
+accessors&amp;rdquo; [@www-flask-pymongo].&lt;/p>
+&lt;/blockquote>
+&lt;p>This type of wrapping allows Flask-PyMongo to add methods to
+&lt;em>Collection&lt;/em> while at the same time allowing a MongoDB-style
+dotted expressions in the code [@www-flask-pymongo].&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87">type&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">mongo&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">cx&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#204a87">type&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">mongo&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">db&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#204a87">type&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">mongo&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">db&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">cloudmesh_community&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Flask-PyMongo creates connectivity between Python and Flask
+using a MongoDB database and supports&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;extensions that can add application features as if they were
+implemented in Flask itself&amp;rdquo; [@www-wiki-flask],&lt;/p>
+&lt;/blockquote>
+&lt;p>hence, it can be used as an additional Flask functionality in
+Python code. The extensions are there for the purpose of
+supporting form validations, authentication technologies,
+object-relational mappers and framework related tools which
+ultimately adds a lot of strength to this micro-web framework
+[@www-wiki-flask]. One of the main reasons and benefits why it is
+frequently used with MongoDB is its capability of adding more
+control over databases and history [@www-wiki-flask].&lt;/p></description></item><item><title>Docs: Mongoengine</title><link>/docs/book/python/mongo/mongoengine/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/book/python/mongo/mongoengine/</guid><description>
+&lt;p>Gregor von Laszewski (&lt;a href="mailto:laszewski@gmail.com">laszewski@gmail.com&lt;/a>)&lt;/p>
+&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>MongoEngine is a document mapper for working with mongoldb with
+python. To be able to use mongo engine MongodD should be already
+installed and running.&lt;/p>
+&lt;h2 id="install-and-connect">Install and connect&lt;/h2>
+&lt;p>Mongoengine can be installed by running:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash"> $ pip install mongo engine
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>This will install six, pymongo and mongoengine.&lt;/p>
+&lt;p>To connect to mongoldb use connect () function by specifying mongoldb
+instance name. You don&amp;rsquo;t need to go to mongo shell but this can be
+done from unix shell or cmd line. In this case we are connecting to a
+database named student_db.&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">mongo&lt;/span> &lt;span style="color:#000">engine&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">*&lt;/span> &lt;span style="color:#000">connect&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#a40000">‘&lt;/span>&lt;span style="color:#000">student_db&lt;/span>&lt;span style="color:#a40000">’&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>If mongodb is running on a port different from default port , port
+number and host need to be specified. If mongoldb needs
+authentication username and password need to be specified.&lt;/p>
+&lt;h2 id="basics">Basics&lt;/h2>
+&lt;p>Mongodb does not enforce schemas. Comparing to RDBMS, Row in mongoldb
+is called a &amp;ldquo;document&amp;rdquo; and table can be compared to &lt;em>Collection&lt;/em>.
+Defining a schema is helpful as it minimizes coding error&amp;rsquo;s. To define
+a schema we create a class that inherits from document.&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">mongoengine&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">*&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">class&lt;/span> &lt;span style="color:#000">Student&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">Document&lt;/span>&lt;span style="color:#000;font-weight:bold">):&lt;/span>
+&lt;span style="color:#000">first_name&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">StringField&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">max_length&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">50&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000">last_name&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">StringField&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">max_length&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">50&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>:o2: TODO: Can you fix the code sections and look at the examples we
+provided.&lt;/p>
+&lt;p>Fields are not mandatory but if needed, set the required keyword
+argument to True. There are multiple values available for field
+types. Each field can be customized by by keyword argument. If each
+student is sending text messages to Universities central database ,
+these can be stored using Mongodb. Each text can have different data
+types, some might have images or some might have url&amp;rsquo;s. So we can
+create a class text and link it to student by using Reference field
+(similar to foreign key in RDBMS).&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">class&lt;/span> &lt;span style="color:#000">Text&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">Document&lt;/span>&lt;span style="color:#000;font-weight:bold">):&lt;/span>
+&lt;span style="color:#000">title&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">StringField&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">max_length&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">120&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">required&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#3465a4">True&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000">author&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">ReferenceField&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">Student&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000">meta&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;allow_inheritance&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#3465a4">True&lt;/span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">class&lt;/span> &lt;span style="color:#000">OnlyText&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">Text&lt;/span>&lt;span style="color:#000;font-weight:bold">):&lt;/span>
+&lt;span style="color:#000">content&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">StringField&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">class&lt;/span> &lt;span style="color:#000">ImagePost&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">Text&lt;/span>&lt;span style="color:#000;font-weight:bold">):&lt;/span>
+&lt;span style="color:#000">image_path&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">StringField&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">class&lt;/span> &lt;span style="color:#000">LinkPost&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">Text&lt;/span>&lt;span style="color:#000;font-weight:bold">):&lt;/span>
+&lt;span style="color:#000">link_url&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">StringField&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>MongoDb supports adding tags to individual texts rather then storing
+them separately and then having them referenced.Similarly Comments can
+also be stored directly in a Text.&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">class&lt;/span> &lt;span style="color:#000">Text&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">Document&lt;/span>&lt;span style="color:#000;font-weight:bold">):&lt;/span>
+&lt;span style="color:#000">title&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">StringField&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">max_length&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">120&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">required&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#3465a4">True&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000">author&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">ReferenceField&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">User&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000">tags&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">ListField&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">StringField&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">max_length&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">30&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span>
+&lt;span style="color:#000">comments&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">ListField&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">EmbeddedDocumentField&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">Comment&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>For accessing data: if we need to get titles.&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">for&lt;/span> &lt;span style="color:#000">text&lt;/span> &lt;span style="color:#204a87;font-weight:bold">in&lt;/span> &lt;span style="color:#000">OnlyText&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">objects&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">print&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">text&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">title&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Searching texts with tags.&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">for&lt;/span> &lt;span style="color:#000">text&lt;/span> &lt;span style="color:#204a87;font-weight:bold">in&lt;/span> &lt;span style="color:#000">Text&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">objects&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">tags&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;mongodb&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">):&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">print&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">text&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">title&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>

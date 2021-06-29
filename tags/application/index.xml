@@ -1,0 +1,2334 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – application</title><link>/tags/application/</link><description>Recent content in application on Cybertraining</description><generator>Hugo -- gohugo.io</generator><atom:link href="/tags/application/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Big Data Use Cases Survey</title><link>/docs/modules/bigdataapplications/2019/applications/usecases/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/bigdataapplications/2019/applications/usecases/</guid><description>
+&lt;p>This section covers 51 values of X and an overall study of Big data that
+emerged from a NIST (National Institute for Standards and Technology)
+study of Big data. The section covers the NIST Big Data Public Working
+Group (NBD-PWG) Process and summarizes the work of five subgroups:
+Definitions and Taxonomies Subgroup, Reference Architecture Subgroup,
+Security and Privacy Subgroup, Technology Roadmap Subgroup and the
+Requirements andUse Case Subgroup. 51 use cases collected in this
+process are briefly discussed with a classification of the source of
+parallelism and the high and low level computational structure. We
+describe the key features of this classification.&lt;/p>
+&lt;h2 id="nist-big-data-public-working-group">NIST Big Data Public Working Group&lt;/h2>
+&lt;p>This unit covers the NIST Big Data Public Working Group (NBD-PWG)
+Process and summarizes the work of five subgroups: Definitions and
+Taxonomies Subgroup, Reference Architecture Subgroup, Security and
+Privacy Subgroup, Technology Roadmap Subgroup and the Requirements and
+Use Case Subgroup. The work of latter is continued in next two units.&lt;/p>
+&lt;p>&lt;a href="https://drive.google.com/open?id=0B8936_ytjfjmODIxNGttU1pveWc">&lt;img src="images/presentation.png" alt="Presentation"> Overview
+(45)&lt;/a>&lt;/p>
+&lt;h3 id="introduction-to-nist-big-data-public-working">Introduction to NIST Big Data Public Working&lt;/h3>
+&lt;p>The focus of the (NBD-PWG) is to form a community of interest from
+industry, academia, and government, with the goal of developing a
+consensus definitions, taxonomies, secure reference architectures, and
+technology roadmap. The aim is to create vendor-neutral, technology and
+infrastructure agnostic deliverables to enable big data stakeholders to
+pick-and-choose best analytics tools for their processing and
+visualization requirements on the most suitable computing platforms and
+clusters while allowing value-added from big data service providers and
+flow of data between the stakeholders in a cohesive and secure manner.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=3oKdmuH0N3k">&lt;img src="images/video.png" alt="Video"> Introduction
+(13:02)&lt;/a>&lt;/p>
+&lt;h3 id="definitions-and-taxonomies-subgroup">Definitions and Taxonomies Subgroup&lt;/h3>
+&lt;p>The focus is to gain a better understanding of the principles of Big
+Data. It is important to develop a consensus-based common language and
+vocabulary terms used in Big Data across stakeholders from industry,
+academia, and government. In addition, it is also critical to identify
+essential actors with roles and responsibility, and subdivide them into
+components and sub-components on how they interact/ relate with each
+other according to their similarities and differences.&lt;/p>
+&lt;p>For Definitions: Compile terms used from all stakeholders regarding the
+meaning of Big Data from various standard bodies, domain applications,
+and diversified operational environments. For Taxonomies: Identify key
+actors with their roles and responsibilities from all stakeholders,
+categorize them into components and subcomponents based on their
+similarities and differences. In particular data Science and Big Data
+terms are discussed.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=7eOtuBV8udo">&lt;img src="images/video.png" alt="Video"> Taxonomies
+(7:42)&lt;/a>&lt;/p>
+&lt;h3 id="reference-architecture-subgroup">Reference Architecture Subgroup&lt;/h3>
+&lt;p>The focus is to form a community of interest from industry, academia,
+and government, with the goal of developing a consensus-based approach
+to orchestrate vendor-neutral, technology and infrastructure agnostic
+for analytics tools and computing environments. The goal is to enable
+Big Data stakeholders to pick-and-choose technology-agnostic analytics
+tools for processing and visualization in any computing platform and
+cluster while allowing value-added from Big Data service providers and
+the flow of the data between the stakeholders in a cohesive and secure
+manner. Results include a reference architecture with well defined
+components and linkage as well as several exemplars.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=h4ylW0vztDw">&lt;img src="images/video.png" alt="Video"> Architecture
+(10:05)&lt;/a>&lt;/p>
+&lt;h3 id="security-and-privacy-subgroup">Security and Privacy Subgroup&lt;/h3>
+&lt;p>The focus is to form a community of interest from industry, academia,
+and government, with the goal of developing a consensus secure reference
+architecture to handle security and privacy issues across all
+stakeholders. This includes gaining an understanding of what standards
+are available or under development, as well as identifies which key
+organizations are working on these standards. The Top Ten Big Data
+Security and Privacy Challenges from the CSA (Cloud Security Alliance)
+BDWG are studied. Specialized use cases include Retail/Marketing, Modern
+Day Consumerism, Nielsen Homescan, Web Traffic Analysis, Healthcare,
+Health Information Exchange, Genetic Privacy, Pharma Clinical Trial Data
+Sharing, Cyber-security, Government, Military and Education.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=dHrHk-GvruY">&lt;img src="images/video.png" alt="Video"> Security (9:51)&lt;/a>&lt;/p>
+&lt;h3 id="technology-roadmap-subgroup">Technology Roadmap Subgroup&lt;/h3>
+&lt;p>The focus is to form a community of interest from industry, academia,
+and government, with the goal of developing a consensus vision with
+recommendations on how Big Data should move forward by performing a good
+gap analysis through the materials gathered from all other NBD
+subgroups. This includes setting standardization and adoption priorities
+through an understanding of what standards are available or under
+development as part of the recommendations. Tasks are gather input from
+NBD subgroups and study the taxonomies for the actors' roles and
+responsibility, use cases and requirements, and secure reference
+architecture; gain understanding of what standards are available or
+under development for Big Data; perform a thorough gap analysis and
+document the findings; identify what possible barriers may delay or
+prevent adoption of Big Data; and document vision and recommendations.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=va0UCR5gMTA">&lt;img src="images/video.png" alt="Video"> Technology
+(4:14)&lt;/a>&lt;/p>
+&lt;h3 id="interfaces-subgroup">Interfaces Subgroup&lt;/h3>
+&lt;p>This subgroup is working on the following document: &lt;em>NIST Big Data
+Interoperability Framework: Volume 8, Reference Architecture Interface&lt;/em>.&lt;/p>
+&lt;p>This document summarizes interfaces that are instrumental for the
+interaction with Clouds, Containers, and HPC systems to manage virtual
+clusters to support the NIST Big Data Reference Architecture (NBDRA).
+The Representational State Transfer (REST) paradigm is used to define
+these interfaces allowing easy integration and adoption by a wide
+variety of frameworks. . This volume, Volume 8, uses the work performed
+by the NBD-PWG to identify objects instrumental for the NIST Big Data
+Reference Architecture (NBDRA) which is introduced in the NBDIF: Volume
+6, Reference Architecture.&lt;/p>
+&lt;p>This presentation was given at the &lt;em>2nd NIST Big Data Public Working
+Group (NBD-PWG) Workshop&lt;/em> in Washington DC in June 2017. It explains our
+thoughts on deriving automatically a reference architecture form the
+Reference Architecture Interface specifications directly from the
+document.&lt;/p>
+&lt;p>The workshop Web page is located at&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://bigdatawg.nist.gov/workshop2.php">https://bigdatawg.nist.gov/workshop2.php&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>The agenda of the workshop is as follows:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://bigdatawg.nist.gov/2017_NIST_Big_Data_PWG_WorkshopAgenda_with_Speakers_Bio.pdf">https://bigdatawg.nist.gov/2017_NIST_Big_Data_PWG_WorkshopAgenda_with_Speakers_Bio.pdf&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>The Web cas of the presentation is given bellow, while you need to fast
+forward to a particular time&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Webcast: Interface subgroup:
+&lt;a href="https://www.nist.gov/news-events/events/2017/06/2nd-nist-big-data-public-working-group-nbd-pwg-workshop">https://www.nist.gov/news-events/events/2017/06/2nd-nist-big-data-public-working-group-nbd-pwg-workshop&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>see: Big Data Working Group Day 1, part 2 Time start: 21:00 min,
+Time end: 44:00&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Slides:
+&lt;a href="https://github.com/cloudmesh/cloudmesh.rest/blob/master/docs/NBDPWG-vol8.pptx?raw=true">https://github.com/cloudmesh/cloudmesh.rest/blob/master/docs/NBDPWG-vol8.pptx?raw=true&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Document:
+&lt;a href="https://github.com/cloudmesh/cloudmesh.rest/raw/master/docs/NIST.SP.1500-8-draft.pdf">https://github.com/cloudmesh/cloudmesh.rest/raw/master/docs/NIST.SP.1500-8-draft.pdf&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>You are welcome to view other presentations if you are interested.&lt;/p>
+&lt;h3 id="requirements-and-use-case-subgroup">Requirements and Use Case Subgroup&lt;/h3>
+&lt;p>The focus is to form a community of interest from industry, academia,
+and government, with the goal of developing a consensus list of Big Data
+requirements across all stakeholders. This includes gathering and
+understanding various use cases from diversified application
+domains.Tasks are gather use case input from all stakeholders; derive
+Big Data requirements from each use case; analyze/prioritize a list of
+challenging general requirements that may delay or prevent adoption of
+Big Data deployment; develop a set of general patterns capturing the
+&lt;em>essence&lt;/em> of use cases (not done yet) and work with Reference
+Architecture to validate requirements and reference architecture by
+explicitly implementing some patterns based on use cases. The progress
+of gathering use cases (discussed in next two units) and requirements
+systemization are discussed.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=f_vxmx3CmMU">&lt;img src="images/video.png" alt="Video"> Requirements
+(27:28)&lt;/a>&lt;/p>
+&lt;h2 id="51-big-data-use-cases">51 Big Data Use Cases&lt;/h2>
+&lt;p>This units consists of one or more slides for each of the 51 use cases -
+typically additional (more than one) slides are associated with
+pictures. Each of the use cases is identified with source of parallelism
+and the high and low level computational structure. As each new
+classification topic is introduced we briefly discuss it but full
+discussion of topics is given in following unit.&lt;/p>
+&lt;p>&lt;a href="https://drive.google.com/open?id=0B8936_ytjfjmYUlKckhLSUQxMUk">&lt;img src="images/presentation.png" alt="Presentation"> 51 Use Cases
+(100)&lt;/a>&lt;/p>
+&lt;h3 id="government-use-cases">Government Use Cases&lt;/h3>
+&lt;p>This covers Census 2010 and 2000 - Title 13 Big Data; National Archives
+and Records Administration Accession NARA, Search, Retrieve,
+Preservation; Statistical Survey Response Improvement (Adaptive Design)
+and Non-Traditional Data in Statistical Survey Response Improvement
+(Adaptive Design).&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=e0ks_BuYUVM">&lt;img src="images/video.png" alt="Video"> Government Use Cases
+(17:43)&lt;/a>&lt;/p>
+&lt;h3 id="commercial-use-cases">Commercial Use Cases&lt;/h3>
+&lt;p>This covers Cloud Eco-System, for Financial Industries (Banking,
+Securities &amp;amp; Investments, Insurance) transacting business within the
+United States; Mendeley - An International Network of Research; Netflix
+Movie Service; Web Search; IaaS (Infrastructure as a Service) Big Data
+Business Continuity &amp;amp; Disaster Recovery (BC/DR) Within A Cloud
+Eco-System; Cargo Shipping; Materials Data for Manufacturing and
+Simulation driven Materials Genomics.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=URy9u8_34ww">&lt;img src="images/video.png" alt="Video"> Commercial Use Cases
+(17:43)&lt;/a>&lt;/p>
+&lt;h3 id="defense-use-cases">Defense Use Cases&lt;/h3>
+&lt;p>This covers Large Scale Geospatial Analysis and Visualization; Object
+identification and tracking from Wide Area Large Format Imagery (WALF)
+Imagery or Full Motion Video (FMV) - Persistent Surveillance and
+Intelligence Data Processing and Analysis.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=FXFfE8zcco8">&lt;img src="images/video.png" alt="Video"> Defense Use Cases
+(15:43)&lt;/a>&lt;/p>
+&lt;h3 id="healthcare-and-life-science-use-cases">Healthcare and Life Science Use Cases&lt;/h3>
+&lt;p>This covers Electronic Medical Record (EMR) Data; Pathology
+Imaging/digital pathology; Computational Bioimaging; Genomic
+Measurements; Comparative analysis for metagenomes and genomes;
+Individualized Diabetes Management; Statistical Relational Artificial
+Intelligence for Health Care; World Population Scale Epidemiological
+Study; Social Contagion Modeling for Planning, Public Health and
+Disaster Management and Biodiversity and LifeWatch.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=uGeYrXENlpU">&lt;img src="images/video.png" alt="Video"> Healthcare and Life Science Use Cases
+(30:11)&lt;/a>&lt;/p>
+&lt;h3 id="deep-learning-and-social-networks-use-cases">Deep Learning and Social Networks Use Cases&lt;/h3>
+&lt;p>This covers Large-scale Deep Learning; Organizing large-scale,
+unstructured collections of consumer photos; Truthy: Information
+diffusion research from Twitter Data; Crowd Sourcing in the Humanities
+as Source for Bigand Dynamic Data; CINET: Cyberinfrastructure for
+Network (Graph) Science and Analytics and NIST Information Access
+Division analytic technology performance measurement, evaluations, and
+standards.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=bdWyhT8bvE4">&lt;img src="images/video.png" alt="Video"> Deep Learning and Social Networks Use Cases
+(14:19)&lt;/a>&lt;/p>
+&lt;h3 id="research-ecosystem-use-cases">Research Ecosystem Use Cases&lt;/h3>
+&lt;p>DataNet Federation Consortium DFC; The &amp;lsquo;Discinnet process&amp;rsquo;, metadata
+-big data global experiment; Semantic Graph-search on Scientific
+Chemical and Text-based Data and Light source beamlines.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=jjyv4RmMIUU">&lt;img src="images/video.png" alt="Video"> Research Ecosystem Use Cases
+(9:09)&lt;/a>&lt;/p>
+&lt;h3 id="astronomy-and-physics-use-cases">Astronomy and Physics Use Cases&lt;/h3>
+&lt;p>This covers Catalina Real-Time Transient Survey (CRTS): a digital,
+panoramic, synoptic sky survey; DOE Extreme Data from Cosmological Sky
+Survey and Simulations; Large Survey Data for Cosmology; Particle
+Physics: Analysis of LHC Large Hadron Collider Data: Discovery of Higgs
+particle and Belle II High Energy Physics Experiment.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=MPEe8yDVwAo">&lt;img src="images/video.png" alt="Video"> Astronomy and Physics Use Cases
+(17:33)&lt;/a>&lt;/p>
+&lt;h3 id="environment-earth-and-polar-science-use-cases">Environment, Earth and Polar Science Use Cases&lt;/h3>
+&lt;p>EISCAT 3D incoherent scatter radar system; ENVRI, Common Operations of
+Environmental Research Infrastructure; Radar Data Analysis for CReSIS
+Remote Sensing of Ice Sheets; UAVSAR Data Processing, DataProduct
+Delivery, and Data Services; NASA LARC/GSFC iRODS Federation Testbed;
+MERRA Analytic Services MERRA/AS; Atmospheric Turbulence - Event
+Discovery and Predictive Analytics; Climate Studies using the Community
+Earth System Model at DOE&amp;rsquo;s NERSC center; DOE-BER Subsurface
+Biogeochemistry Scientific Focus Area and DOE-BER AmeriFlux and FLUXNET
+Networks.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=YJGk-uvaUCg">&lt;img src="images/video.png" alt="Video"> Environment, Earth and Polar Science Use Cases
+(25:29)&lt;/a>&lt;/p>
+&lt;h3 id="energy-use-case">Energy Use Case&lt;/h3>
+&lt;p>This covers Consumption forecasting in Smart Grids.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=5y_O-a8_Fbg">&lt;img src="images/video.png" alt="Video"> Energy Use Case
+(4:01)&lt;/a>&lt;/p>
+&lt;h2 id="features-of-51-big-data-use-cases">Features of 51 Big Data Use Cases&lt;/h2>
+&lt;p>This unit discusses the categories used to classify the 51 use-cases.
+These categories include concepts used for parallelism and low and high
+level computational structure. The first lesson is an introduction to
+all categories and the further lessons give details of particular
+categories.&lt;/p>
+&lt;p>&lt;a href="https://drive.google.com/open?id=0B8936_ytjfjmREJTMHhjMktXRHc">&lt;img src="images/presentation.png" alt="Presentation"> Features
+(43)&lt;/a>&lt;/p>
+&lt;h3 id="summary-of-use-case-classification">Summary of Use Case Classification&lt;/h3>
+&lt;p>This discusses concepts used for parallelism and low and high level
+computational structure. Parallelism can be over People (users or
+subjects), Decision makers; Items such as Images, EMR, Sequences;
+observations, contents of online store; Sensors &amp;ndash; Internet of Things;
+Events; (Complex) Nodes in a Graph; Simple nodes as in a learning
+network; Tweets, Blogs, Documents, Web Pages etc.; Files or data to be
+backed up, moved or assigned metadata; Particles/cells/mesh points. Low
+level computational types include PP (Pleasingly Parallel); MR
+(MapReduce); MRStat; MRIter (Iterative MapReduce); Graph; Fusion; MC
+(Monte Carlo) and Streaming. High level computational types include
+Classification; S/Q (Search and Query); Index; CF (Collaborative
+Filtering); ML (Machine Learning); EGO (Large Scale Optimizations); EM
+(Expectation maximization); GIS; HPC; Agents. Patterns include Classic
+Database; NoSQL; Basic processing of data as in backup or metadata; GIS;
+Host of Sensors processed on demand; Pleasingly parallel processing; HPC
+assimilated with observational data; Agent-based models; Multi-modal
+data fusion or Knowledge Management; Crowd Sourcing.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=X0vEmbn1Ld8">&lt;img src="images/video.png" alt="Video"> Summary of Use Case Classification
+(23:39)&lt;/a>&lt;/p>
+&lt;h3 id="databasesql-use-case-classification">Database(SQL) Use Case Classification&lt;/h3>
+&lt;p>This discusses classic (SQL) database approach to data handling with
+Search&amp;amp;Query and Index features. Comparisons are made to NoSQL
+approaches.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=jIVdQID11Q4">&lt;img src="images/video.png" alt="Video"> Database (SQL) Use Case Classification
+(11:13)&lt;/a>&lt;/p>
+&lt;h3 id="nosql-use-case-classification">NoSQL Use Case Classification&lt;/h3>
+&lt;p>This discusses NoSQL (compared in previous lesson) with HDFS, Hadoop and
+Hbase. The Apache Big data stack is introduced and further details of
+comparison with SQL.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=uGL8cFPrhoE">&lt;img src="images/video.png" alt="Video"> NoSQL Use Case Classification
+(11:20)&lt;/a>&lt;/p>
+&lt;h3 id="other-use-case-classifications">Other Use Case Classifications&lt;/h3>
+&lt;p>This discusses a subset of use case features: GIS, Sensors. the support
+of data analysis and fusion by streaming data between filters.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=79IwNCNjVWU">&lt;img src="images/video.png" alt="Video"> Use Case Classifications I
+(12:42)&lt;/a> This discusses a
+subset of use case features: Pleasingly parallel, MRStat, Data
+Assimilation, Crowd sourcing, Agents, data fusion and agents, EGO and
+security.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=b-olNbWCJyg">&lt;img src="images/video.png" alt="Video"> Use Case Classifications II
+(20:18)&lt;/a>&lt;/p>
+&lt;p>This discusses a subset of use case features: Classification, Monte
+Carlo, Streaming, PP, MR, MRStat, MRIter and HPC(MPI), global and local
+analytics (machine learning), parallel computing, Expectation
+Maximization, graphs and Collaborative Filtering.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=ewqoFGxyQmc">&lt;img src="images/video.png" alt="Video"> Use Case Classifications III
+(17:25)&lt;/a>&lt;/p>
+&lt;p>\TODO{These resources have not all been checked to see if they still
+exist this is currently in progress}&lt;/p>
+&lt;h3 id="resources">Resources&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nist.gov/el/cyber-physical-systems/big-data-pwg">NIST Big Data Public Working Group (NBD-PWG)
+Process&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://dx.doi.org/10.6028/NIST.SP.1500-1">Big Data Definitions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://dx.doi.org/10.6028/NIST.SP.1500-2">Big Data Taxonomies&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://dx.doi.org/10.6028/NIST.SP.1500-3">Big Data Use Cases and
+Requirements&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://dx.doi.org/10.6028/NIST.SP.1500-4">Big Data Security and
+Privacy&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://dx.doi.org/10.6028/NIST.SP.1500-5">Big Data Architecture White Paper
+Survey&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://dx.doi.org/10.6028/NIST.SP.1500-6">Big Data Reference
+Architecture&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://dx.doi.org/10.6028/NIST.SP.1500-7">Big Data Standards
+Roadmap&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Some of the links bellow may be outdated. Please let us know the new
+links and notify us of the outdated links.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=l4Qii7T8zeg">DCGSA Standard Cloud&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://bigdatawg.nist.gov/usecases.php">On line 51 Use Cases&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://bigdatawg.nist.gov/_uploadfiles/M0245_v5_6066621242.docx">Summary of Requirements
+Subgroup&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;del>&lt;a href="http://mendeley.com%20http//dev.mendeley.com">Use Case 6 Mendeley&lt;/a>&lt;/del> &lt;strong>(this link does not exist any longer)&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;del>&lt;a href="http://www.slideshare.net/xamat/building-largescale-realworld-recommender-systems-recsys2012-tutoria">Use Case 7 Netflix&lt;/a>&lt;/del>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Use Case 8 Search&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://www.slideshare.net/kleinerperkins/kpcb-internet-trends-2013">http://www.slideshare.net/kleinerperkins/kpcb-internet-trends-2013&lt;/a>,&lt;/li>
+&lt;li>&lt;a href="http://webcourse.cs.technion.ac.il/236621/Winter2011-2012/en/ho_Lectures.html">http://webcourse.cs.technion.ac.il/236621/Winter2011-2012/en/ho_Lectures.html&lt;/a>,&lt;/li>
+&lt;li>&lt;a href="http://www.ifis.cs.tu-bs.de/teaching/ss-11/irws">http://www.ifis.cs.tu-bs.de/teaching/ss-11/irws&lt;/a>,&lt;/li>
+&lt;li>&lt;a href="http://www.slideshare.net/beechung/recommender-systems-tutorialpart1intro">http://www.slideshare.net/beechung/recommender-systems-tutorialpart1intro&lt;/a>,&lt;/li>
+&lt;li>&lt;a href="http://www.worldwidewebsize.com/">http://www.worldwidewebsize.com/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.disasterrecovery.org/">Use Case 9 IaaS (Infrastructure as a Service) Big Data Business
+Continuity &amp;amp; Disaster Recovery (BC/DR) Within A Cloud Eco-System
+provided by Cloud Service Providers (CSPs) and Cloud Brokerage
+Service Providers (CBSPs)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.materialsproject.org/">Use Case 11 and Use Case 12 Simulation driven Materials
+Genomics&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Use Case 13 Large Scale Geospatial Analysis and Visualization&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://www.opengeospatial.org/standards">http://www.opengeospatial.org/standards&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://geojson.org/">http://geojson.org/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://earth-info.nga.mil/publications/specs/printed/CADRG/cadrg.html">http://earth-info.nga.mil/publications/specs/printed/CADRG/cadrg.html&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Use Case 14 Object identification and tracking from Wide Area Large
+Format Imagery (WALF) Imagery or Full Motion Video (FMV) -
+Persistent Surveillance&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://www.militaryaerospace.com/topics/m/video/79088650/persistent-surveillance-relies-on-extracting-relevant-data-points-and-connecting-the-dots.htm">http://www.militaryaerospace.com/topics/m/video/79088650/persistent-surveillance-relies-on-extracting-relevant-data-points-and-connecting-the-dots.htm&lt;/a>,&lt;/li>
+&lt;li>&lt;a href="http://www.defencetalk.com/wide-area-persistent-surveillance-revolutionizes-tactical-isr-45745/">http://www.defencetalk.com/wide-area-persistent-surveillance-revolutionizes-tactical-isr-45745/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Use Case 15 Intelligence Data Processing and Analysis&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="http://www.afcea-aberdeen.org/files/presentations/AFCEAAberdeen_DCGSA_COLWells_PS.pdf">http://www.afcea-aberdeen.org/files/presentations/AFCEAAberdeen_DCGSA_COLWells_PS.pdf&lt;/a>,&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://stids.c4i.gmu.edu/STIDS2011/papers/STIDS2011_CR_T1_SalmenEtAl.pdf">http://stids.c4i.gmu.edu/STIDS2011/papers/STIDS2011_CR_T1_SalmenEtAl.pdf&lt;/a>,&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;del>&lt;a href="http://stids.c4i.gmu.edu/papers/STIDSPapers/STIDS2012/_T14/_SmithEtAl/_HorizontalIntegrationOfWarfighterIntel.pdf">http://stids.c4i.gmu.edu/papers/STIDSPapers/STIDS2012/_T14/_SmithEtAl/_HorizontalIntegrationOfWarfighterIntel.pdf&lt;/a>,&lt;/del>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;del>&lt;a href="https://www.youtube.com/watch?v=l4Qii7T8zeg">https://www.youtube.com/watch?v=l4Qii7T8zeg&lt;/a>&lt;/del>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;del>&lt;a href="http://dcgsa.apg.army.mil/">http://dcgsa.apg.army.mil/&lt;/a>&lt;/del>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Use Case 16 Electronic Medical Record (EMR) Data:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="http://www.regenstrief.org/">Regenstrief Institute&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://loinc.org/">Logical observation identifiers names and
+codes&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.ihie.org/">Indiana Health Information Exchange&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;del>&lt;a href="http://www.iom.edu/Activities/Quality/LearningHealthcare.aspx">Institute of Medicine Learning Healthcare
+System&lt;/a>&lt;/del>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Use Case 17&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://web.cci.emory.edu/confluence/display/PAIS%3E">Pathology Imaging/digital
+pathology&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://web.cci.emory.edu/confluence/display/HadoopGIS">https://web.cci.emory.edu/confluence/display/HadoopGIS&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Use Case 19 Genome in a Bottle Consortium:&lt;/p>
+&lt;ul>
+&lt;li>&lt;del>&lt;a href="https://bigdatacoursespring2015.appspot.com/www.genomeinabottle.org">www.genomeinabottle.org&lt;/a>&lt;/del>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://img.jgi.doe.gov/">Use Case 20 Comparative analysis for metagenomes and
+genomes&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Use Case 25&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.biodiversitycatalogue.org/">Biodiversity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.lifewatch.eu/web/guest/home">LifeWatch&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Use Case 26 Deep Learning: Recent popular press coverage of deep
+learning technology:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://www.nytimes.com/2012/11/24/science/scientists-see-advances-in-deep-learning-a-part-of-artificial-intelligence.html">http://www.nytimes.com/2012/11/24/science/scientists-see-advances-in-deep-learning-a-part-of-artificial-intelligence.html&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.nytimes.com/2012/06/26/technology/in-a-big-network-of-computers-evidence-of-machine-learning.html">http://www.nytimes.com/2012/06/26/technology/in-a-big-network-of-computers-evidence-of-machine-learning.html&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.wired.com/2013/06/andrew_ng/">http://www.wired.com/2013/06/andrew_ng/&lt;/a>,&lt;/li>
+&lt;li>&lt;del>&lt;a href="http://www.stanford.edu/~acoates/papers/CoatesHuvalWangWuNgCatanzaro_icml2013.pdf">A recent research paper on HPC for Deep
+Learning&lt;/a>&lt;/del>&lt;/li>
+&lt;li>Widely-used tutorials and references for Deep Learning:
+&lt;ul>
+&lt;li>&lt;a href="http://ufldl.stanford.edu/wiki/index.php/Main_Page">http://ufldl.stanford.edu/wiki/index.php/Main_Page&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://deeplearning.net/">http://deeplearning.net/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://vision.soic.indiana.edu/projects/disco/">Use Case 27 Organizing large-scale, unstructured collections of
+consumer photos&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Use Case 28&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://truthy.indiana.edu/">Truthy: Information diffusion research from Twitter
+Data&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://cnets.indiana.edu/groups/nan/truthy/">http://cnets.indiana.edu/groups/nan/truthy/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://cnets.indiana.edu/groups/nan/despic/">http://cnets.indiana.edu/groups/nan/despic/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;del>&lt;a href="http://cinet.vbi.vt.edu/cinet_new/">Use Case 30 CINET: Cyberinfrastructure for Network (Graph) Science
+and Analytics&lt;/a>&lt;/del>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.nist.gov/itl/iad/">Use Case 31 NIST Information Access Division analytic technology
+performance measurement, evaluations, and
+standards&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Use Case 32&lt;/p>
+&lt;ul>
+&lt;li>DataNet Federation Consortium DFC: &lt;a href="http://datafed.org/">The DataNet Federation
+Consortium&lt;/a>,&lt;/li>
+&lt;li>&lt;a href="http://irods.org/">iRODS&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Use Case 33 The &amp;lsquo;Discinnet process&amp;rsquo;, &lt;a href="http://www.discinnet.org/">big data global
+experiment&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Use Case 34 Semantic Graph-search on Scientific Chemical and
+Text-based Data&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://www.eurekalert.org/pub_releases/2013-07/aiop-ffm071813.php">http://www.eurekalert.org/pub_releases/2013-07/aiop-ffm071813.php&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://xpdb.nist.gov/chemblast/pdb.pl">http://xpdb.nist.gov/chemblast/pdb.pl&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Use Case 35 Light source beamlines&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://www-als.lbl.gov/">http://www-als.lbl.gov/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www1.aps.anl.gov/">https://www1.aps.anl.gov/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Use Case 36&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://crts.caltech.edu/">CRTS survey&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.lpl.arizona.edu/css/">CSS survey&lt;/a>&lt;/li>
+&lt;li>For an &lt;a href="http://arxiv.org/abs/1209.1681">overview of the classification
+challenges&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Use Case 37 DOE Extreme Data from Cosmological Sky Survey and
+Simulations&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://www.lsst.org/lsst/">http://www.lsst.org/lsst/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.nersc.gov/">http://www.nersc.gov/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.nersc.gov/assets/Uploads/HabibcosmosimV2.pdf">http://www.nersc.gov/assets/Uploads/HabibcosmosimV2.pdf&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Use Case 38 Large Survey Data for Cosmology&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://desi.lbl.gov/">http://desi.lbl.gov/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.darkenergysurvey.org/">http://www.darkenergysurvey.org/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Use Case 39 Particle Physics: Analysis of LHC Large Hadron Collider
+Data: Discovery of Higgs particle&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://grids.ucs.indiana.edu/ptliupages/publications/Where%20does%20all%20the%20data%20come%20from%20v7.pdf">http://grids.ucs.indiana.edu/ptliupages/publications/Where%20does%20all%20the%20data%20come%20from%20v7.pdf&lt;/a>,&lt;/li>
+&lt;li>&lt;a href="http://www.es.net/assets/pubs_presos/High-throughput-lessons-from-the-LHC-experience.Johnston.TNC2013.pdf">http://www.es.net/assets/pubs_presos/High-throughput-lessons-from-the-LHC-experience.Johnston.TNC2013.pdf&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;del>&lt;a href="http://belle2.kek.jp/">Use Case 40 Belle II High Energy Physics
+Experiment&lt;/a>&lt;/del> &lt;strong>(old link does not exist, new link: &lt;a href="https://www.belle2.org">https://www.belle2.org&lt;/a>)&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.eiscat3d.se/">Use Case 41 EISCAT 3D incoherent scatter radar
+system&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Use Case 42 ENVRI, Common Operations of Environmental Research
+Infrastructure&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://envri.eu/">ENVRI Project website&lt;/a>&lt;/li>
+&lt;li>&lt;del>&lt;a href="http://confluence.envri.eu:8090/display/ERM/Start">ENVRI Reference Model&lt;/a>&lt;/del>&lt;/li>
+&lt;li>&lt;del>&lt;a href="http://confluence.envri.eu:8090/download/attachments/327687/D3.3%20Analysis%20of%20Requirements%20V1.0.pdf?version=1&amp;amp;modificationDate=1366965933706&amp;amp;api=v2">ENVRI deliverable D3.2 : Analysis of common requirements of
+Environmental Research
+Infrastructures&lt;/a>&lt;/del>&lt;/li>
+&lt;li>&lt;a href="https://www.icos-ri.eu/">ICOS&lt;/a>,&lt;/li>
+&lt;li>&lt;a href="http://www.euro-argo.eu/">Euro-Argo&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.eiscat3d.se/node">EISCAT 3D&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.lifewatch.com/">LifeWatch&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.epos-eu.org/">EPOS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.emso-eu.org/">EMSO&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.cresis.ku.edu/%3E">Use Case 43 Radar Data Analysis for CReSIS Remote Sensing of Ice
+Sheets&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Use Case 44 UAVSAR Data Processing, Data Product Delivery, and Data
+Services&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://uavsar.jpl.nasa.gov/">http://uavsar.jpl.nasa.gov/&lt;/a>,&lt;/li>
+&lt;li>&lt;a href="http://www.asf.alaska.edu/program/sdc">http://www.asf.alaska.edu/program/sdc&lt;/a>,&lt;/li>
+&lt;li>&lt;a href="http://geo-gateway.org/main.html">http://geo-gateway.org/main.html&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Use Case 47 Atmospheric Turbulence - Event Discovery and Predictive
+Analytics&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://oceanworld.tamu.edu/resources/oceanography-book/teleconnections.htm">http://oceanworld.tamu.edu/resources/oceanography-book/teleconnections.htm&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.forbes.com/sites/toddwoody/2012/03/21/meet-the-scientists-mining-big-data-to-predict-the-weather/">http://www.forbes.com/sites/toddwoody/2012/03/21/meet-the-scientists-mining-big-data-to-predict-the-weather/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Use Case 48 Climate Studies using the Community Earth System Model
+at DOE&amp;rsquo;s NERSC center&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://www-pcmdi.llnl.gov/">http://www-pcmdi.llnl.gov/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.nersc.gov/">http://www.nersc.gov/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://science.energy.gov/ber/research/cesd/">http://science.energy.gov/ber/research/cesd/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www2.cisl.ucar.edu/">http://www2.cisl.ucar.edu/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Use Case 50 DOE-BER AmeriFlux and FLUXNET Networks&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://ameriflux.lbl.gov/">http://ameriflux.lbl.gov/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.fluxdata.org/default.aspx">http://www.fluxdata.org/default.aspx&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Use Case 51 Consumption forecasting in Smart Grids&lt;/p>
+&lt;ul>
+&lt;li>&lt;del>&lt;a href="http://smartgrid.usc.edu/">http://smartgrid.usc.edu/&lt;/a>&lt;/del> &lt;strong>(old link does not exsit, new link: &lt;a href="http://dslab.usc.edu/smartgrid.php">http://dslab.usc.edu/smartgrid.php&lt;/a>)&lt;/strong>&lt;/li>
+&lt;li>&lt;a href="http://ganges.usc.edu/wiki/Smart_Grid">http://ganges.usc.edu/wiki/Smart_Grid&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.ladwp.com/ladwp/faces/ladwp/aboutus/a-power/a-p-smartgridla?_afrLoop=157401916661989&amp;amp;_afrWindowMode=0&amp;amp;_afrWindowId=null#%40%3F_afrWindowId%3Dnull%26_afrLoop%3D157401916661989%26_afrWindowMode%3D0%26_adf.ctrl-state%3Db7yulr4rl_17">https://www.ladwp.com/ladwp/faces/ladwp/aboutus/a-power/a-p-smartgridla?_afrLoop=157401916661989&amp;amp;_afrWindowMode=0&amp;amp;_afrWindowId=null#%40%3F_afrWindowId%3Dnull%26_afrLoop%3D157401916661989%26_afrWindowMode%3D0%26_adf.ctrl-state%3Db7yulr4rl_17&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6475927">http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6475927&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>Docs: e-Commerce and LifeStyle</title><link>/docs/modules/bigdataapplications/2019/applications/lifestyle/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/bigdataapplications/2019/applications/lifestyle/</guid><description>
+&lt;p>Recommender systems operate under the hood of such widely recognized
+sites as Amazon, eBay, Monster and Netflix where everything is a
+recommendation. This involves a symbiotic relationship between vendor
+and buyer whereby the buyer provides the vendor with information about
+their preferences, while the vendor then offers recommendations tailored
+to match their needs. Kaggle competitions h improve the success of the
+Netflix and other recommender systems. Attention is paid to models that
+are used to compare how changes to the systems affect their overall
+performance. It is interesting that the humble ranking has become such a
+dominant driver of the world&amp;rsquo;s economy. More examples of recommender
+systems are given from Google News, Retail stores and in depth Yahoo!
+covering the multi-faceted criteria used in deciding recommendations on
+web sites.&lt;/p>
+&lt;p>The formulation of recommendations in terms of points in a space or bag
+is given where bags of item properties, user properties, rankings and
+users are useful. Detail is given on basic principles behind recommender
+systems: user-based collaborative filtering, which uses similarities in
+user rankings to predict their interests, and the Pearson correlation,
+used to statistically quantify correlations between users viewed as
+points in a space of items. Items are viewed as points in a space of
+users in item-based collaborative filtering. The Cosine Similarity is
+introduced, the difference between implicit and explicit ratings and the
+k Nearest Neighbors algorithm. General features like the curse of
+dimensionality in high dimensions are discussed. A simple Python k
+Nearest Neighbor code and its application to an artificial data set in 3
+dimensions is given. Results are visualized in Matplotlib in 2D and with
+Plotviz in 3D. The concept of a training and a testing set are
+introduced with training set pre labeled. Recommender system are used to
+discuss clustering with k-means based clustering methods used and their
+results examined in Plotviz. The original labelling is compared to
+clustering results and extension to 28 clusters given. General issues in
+clustering are discussed including local optima, the use of annealing to
+avoid this and value of heuristic algorithms.&lt;/p>
+&lt;h2 id="s-recommender">Recommender Systems&lt;/h2>
+&lt;p>We introduce Recommender systems as an optimization technology used in a
+variety of applications and contexts online. They operate in the
+background of such widely recognized sites as Amazon, eBay, Monster and
+Netflix where everything is a recommendation. This involves a symbiotic
+relationship between vendor and buyer whereby the buyer provides the
+vendor with information about their preferences, while the vendor then
+offers recommendations tailored to match their needs, to the benefit of
+both.&lt;/p>
+&lt;p>There follows an exploration of the Kaggle competition site, other
+recommender systems and Netflix, as well as competitions held to improve
+the success of the Netflix recommender system. Finally attention is paid
+to models that are used to compare how changes to the systems affect
+their overall performance. It is interesting how the humble ranking has
+become such a dominant driver of the world&amp;rsquo;s economy.&lt;/p>
+&lt;p>&lt;a href="https://drive.google.com/open?id=0B6wqDMIyK2P7YkIwczVfQlJqVG8">&lt;img src="images/presentation.png" alt="Presentation"> Lifestyle Recommender
+(45)&lt;/a>&lt;/p>
+&lt;h3 id="recommender-systems-as-an-optimization-problem">Recommender Systems as an Optimization Problem&lt;/h3>
+&lt;p>We define a set of general recommender systems as matching of items to
+people or perhaps collections of items to collections of people where
+items can be other people, products in a store, movies, jobs, events,
+web pages etc. We present this as &amp;ldquo;yet another optimization problem&amp;rdquo;.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=kO023BIW2dw">&lt;img src="images/video.png" alt="Video"> Recommender Systems I
+(8:06)&lt;/a>&lt;/p>
+&lt;h3 id="recommender-systems-introduction">Recommender Systems Introduction&lt;/h3>
+&lt;p>We give a general discussion of recommender systems and point out that
+they are particularly valuable in long tail of tems (to be recommended)
+that are not commonly known. We pose them as a rating system and relate
+them to information retrieval rating systems. We can contrast
+recommender systems based on user profile and context; the most familiar
+collaborative filtering of others ranking; item properties; knowledge
+and hybrid cases mixing some or all of these.&lt;/p>
+&lt;p>&lt;a href="https://youtu.be/KbjBKrzFYKg">&lt;img src="images/video.png" alt="Video"> Recommender Systems Introduction
+(12:56)&lt;/a>&lt;/p>
+&lt;h3 id="kaggle-competitions">Kaggle Competitions&lt;/h3>
+&lt;p>We look at Kaggle competitions with examples from web site. In
+particular we discuss an Irvine class project involving ranking jokes.&lt;/p>
+&lt;p>&lt;a href="https://youtu.be/DFH7GPrbsJA">&lt;img src="images/video.png" alt="Video"> Kaggle Competitions: (3:36)&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;img src="images/warning.png" alt="Warning"> &lt;em>Please not that we typically do not accept any projects
+using kaggle data for this classes. This class is not about winning a
+kaggle competition and if done wrong it does not fullfill the minimum
+requiremnt for this class. Please consult with the instructor.&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="examples-of-recommender-systems">Examples of Recommender Systems&lt;/h3>
+&lt;p>We go through a list of 9 recommender systems from the same Irvine
+class.&lt;/p>
+&lt;p>&lt;a href="https://youtu.be/1Eh1epQj-EQ">&lt;img src="images/video.png" alt="Video"> Examples of Recommender Systems
+(1:00)&lt;/a>&lt;/p>
+&lt;h3 id="netflix-on-recommender-systems">Netflix on Recommender Systems&lt;/h3>
+&lt;p>We summarize some interesting points from a tutorial from Netflix for
+whom &lt;em>everything is a recommendation&lt;/em>. Rankings are given in multiple
+categories and categories that reflect user interests are especially
+important. Criteria used include explicit user preferences, implicit
+based on ratings and hybrid methods as well as freshness and diversity.
+Netflix tries to explain the rationale of its recommendations. We give
+some data on Netflix operations and some methods used in its recommender
+systems. We describe the famous Netflix Kaggle competition to improve
+its rating system. The analogy to maximizing click through rate is given
+and the objectives of optimization are given.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=ModhdIT9D24">&lt;img src="images/video.png" alt="Video"> Netflix on Recommender Systems
+(14:20)&lt;/a>&lt;/p>
+&lt;p>Next we go through Netflix&amp;rsquo;s methodology in letting data speak for
+itself in optimizing the recommender engine. An example iis given on
+choosing self produced movies. A/B testing is discussed with examples
+showing how testing does allow optimizing of sophisticated criteria.
+This lesson is concluded by comments on Netflix technology and the full
+spectrum of issues that are involved including user interface, data, AB
+testing, systems and architectures. We comment on optimizing for a
+household rather than optimizing for individuals in household.&lt;/p>
+&lt;p>&lt;a href="https://youtu.be/B8cjaOQ57LI">&lt;img src="images/video.png" alt="Video"> Consumer Data Science (13:04)&lt;/a>&lt;/p>
+&lt;h3 id="other-examples-of-recommender-systems">Other Examples of Recommender Systems&lt;/h3>
+&lt;p>We continue the discussion of recommender systems and their use in
+e-commerce. More examples are given from Google News, Retail stores and
+in depth Yahoo! covering the multi-faceted criteria used in deciding
+recommendations on web sites. Then the formulation of recommendations in
+terms of points in a space or bag is given.&lt;/p>
+&lt;p>Here bags of item properties, user properties, rankings and users are
+useful. Then we go into detail on basic principles behind recommender
+systems: user-based collaborative filtering, which uses similarities in
+user rankings to predict their interests, and the Pearson correlation,
+used to statistically quantify correlations between users viewed as
+points in a space of items.&lt;/p>
+&lt;p>&lt;a href="https://drive.google.com/open?id=0B6wqDMIyK2P7UVloVElaZ2FXcTg">&lt;img src="images/presentation.png" alt="Presentation"> Lifestyle Recommender
+(49)&lt;/a>&lt;/p>
+&lt;p>We start with a quick recap of recommender systems from previous unit;
+what they are with brief examples.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=PwS8UE4TDS4">&lt;img src="images/video.png" alt="Video"> Recap and Examples of Recommender Systems
+(5:48)&lt;/a>&lt;/p>
+&lt;h4 id="examples-of-recommender-systems-1">Examples of Recommender Systems&lt;/h4>
+&lt;p>We give 2 examples in more detail: namely Google News and Markdown in
+Retail.&lt;/p>
+&lt;p>&lt;a href="https://youtu.be/og07mH9fU0M">&lt;img src="images/video.png" alt="Video"> Examples of Recommender Systems
+(8:34)&lt;/a>&lt;/p>
+&lt;h4 id="recommender-systems-in-yahoo-use-case-example">Recommender Systems in Yahoo Use Case Example&lt;/h4>
+&lt;p>We describe in greatest detail the methods used to optimize Yahoo web
+sites. There are two lessons discussing general approach and a third
+lesson examines a particular personalized Yahoo page with its different
+components. We point out the different criteria that must be blended in
+making decisions; these criteria include analysis of what user does
+after a particular page is clicked; is the user satisfied and cannot
+that we quantified by purchase decisions etc. We need to choose
+Articles, ads, modules, movies, users, updates, etc to optimize metrics
+such as relevance score, CTR, revenue, engagement.These lesson stress
+that if though we have big data, the recommender data is sparse. We
+discuss the approach that involves both batch (offline) and on-line
+(real time) components.&lt;/p>
+&lt;p>&lt;a href="https://youtu.be/FBn7HpGFNvg">&lt;img src="images/video.png" alt="Video"> Recap of Recommender Systems II
+(8:46)&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://youtu.be/VS2Y4lAiP5A">&lt;img src="images/video.png" alt="Video"> Recap of Recommender Systems III
+(10:48)&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://youtu.be/HrRJWEF8EfU">&lt;img src="images/video.png" alt="Video"> Case Study of Recommender systems
+(3:21)&lt;/a>&lt;/p>
+&lt;h4 id="user-based-nearest-neighbor-collaborative-filtering">User-based nearest-neighbor collaborative filtering&lt;/h4>
+&lt;p>Collaborative filtering is a core approach to recommender systems. There
+is user-based and item-based collaborative filtering and here we discuss
+the user-based case. Here similarities in user rankings allow one to
+predict their interests, and typically this quantified by the Pearson
+correlation, used to statistically quantify correlations between users.&lt;/p>
+&lt;p>&lt;a href="https://youtu.be/lsf_AE-8dSk">&lt;img src="images/video.png" alt="Video"> User-based nearest-neighbor collaborative filtering I
+(7:20)&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://youtu.be/U7-qeX2ItPk">&lt;img src="images/video.png" alt="Video"> User-based nearest-neighbor collaborative filtering II
+(7:29)&lt;/a>&lt;/p>
+&lt;h4 id="vector-space-formulation-of-recommender-systems">Vector Space Formulation of Recommender Systems&lt;/h4>
+&lt;p>We go through recommender systems thinking of them as formulated in a
+funny vector space. This suggests using clustering to make
+recommendations.&lt;/p>
+&lt;p>&lt;a href="https://youtu.be/IlQUZOXlaSU">&lt;img src="images/video.png" alt="Video"> Vector Space Formulation of Recommender Systems new
+(9:06)&lt;/a>&lt;/p>
+&lt;h3 id="resources">Resources&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="http://pages.cs.wisc.edu/~beechung/icml11-tutorial/">http://pages.cs.wisc.edu/~beechung/icml11-tutorial/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="item-based-collaborative-filtering-and-its-technologies">Item-based Collaborative Filtering and its Technologies&lt;/h2>
+&lt;p>We move on to item-based collaborative filtering where items are viewed
+as points in a space of users. The Cosine Similarity is introduced, the
+difference between implicit and explicit ratings and the k Nearest
+Neighbors algorithm. General features like the curse of dimensionality
+in high dimensions are discussed.&lt;/p>
+&lt;p>&lt;a href="https://drive.google.com/open?id=0B6wqDMIyK2P7UExxVFc5YlpOZ28">&lt;img src="images/presentation.png" alt="Presentation"> Lifestyle Filtering
+(18)&lt;/a>&lt;/p>
+&lt;h3 id="item-based-collaborative-filtering">Item-based Collaborative Filtering&lt;/h3>
+&lt;p>We covered user-based collaborative filtering in the previous unit. Here
+we start by discussing memory-based real time and model based offline
+(batch) approaches. Now we look at item-based collaborative filtering
+where items are viewed in the space of users and the cosine measure is
+used to quantify distances. WE discuss optimizations and how batch
+processing can help. We discuss different Likert ranking scales and
+issues with new items that do not have a significant number of rankings.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=HTdYGaOTlFI">&lt;img src="images/video.png" alt="Video"> Item Based Filtering
+(11:18)&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://youtu.be/SM8EJdAa4mw">&lt;img src="images/video.png" alt="Video"> k Nearest Neighbors and High Dimensional Spaces
+(7:16)&lt;/a>&lt;/p>
+&lt;h3 id="s-knn">k-Nearest Neighbors and High Dimensional Spaces&lt;/h3>
+&lt;p>We define the k Nearest Neighbor algorithms and present the Python
+software but do not use it. We give examples from Wikipedia and describe
+performance issues. This algorithm illustrates the curse of
+dimensionality. If items were a real vectors in a low dimension space,
+there would be faster solution methods.&lt;/p>
+&lt;p>&lt;a href="https://youtu.be/2NqUsDGQDy8">&lt;img src="images/video.png" alt="Video"> k Nearest Neighbors and High Dimensional Spaces
+(10:03)&lt;/a>&lt;/p>
+&lt;h4 id="recommender-systems---k-neighbors">Recommender Systems - K-Neighbors&lt;/h4>
+&lt;p>Next we provide some sample Python code for the k Nearest Neighbor and its application to
+an artificial data set in 3 dimensions. Results are visualized in
+Matplotlib in 2D and with Plotviz in 3D. The concept of training and
+testing sets are introduced with training set pre-labelled.
+This lesson is adapted from the Python k Nearest Neighbor code found on the
+web associated with a book by Harrington on Machine Learning [??]. There are
+two data sets. First we consider a set of 4 2D vectors divided into two
+categories (clusters) and use k=3 Nearest Neighbor algorithm to classify
+3 test points. Second we consider a 3D dataset that has already been
+classified and show how to normalize. In this lesson we just use
+Matplotlib to give 2D plots.&lt;/p>
+&lt;p>The lesson goes through an example of using k NN classification
+algorithm by dividing dataset into 2 subsets. One is training set with
+initial classification; the other is test point to be classified by k=3
+NN using training set. The code records fraction of points with a
+different classification from that input. One can experiment with
+different sizes of the two subsets. The Python implementation of
+algorithm is analyzed in detail.&lt;/p>
+&lt;h4 id="plotviz">Plotviz&lt;/h4>
+&lt;p>The clustering methods are used and their results examined in
+Plotviz. The original labelling is compared to clustering results and
+extension to 28 clusters given. General issues in clustering are
+discussed including local optima, the use of annealing to avoid this
+and value of heuristic algorithms.&lt;/p>
+&lt;h4 id="files">Files&lt;/h4>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cloudmesh-community/book/blob/master/examples/python/knn/kNN.py">https://github.com/cloudmesh-community/book/blob/master/examples/python/knn/kNN.py&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/cloudmesh-community/book/blob/master/examples/python/knn/kNN_Driver.py">https://github.com/cloudmesh-community/book/blob/master/examples/python/knn/kNN_Driver.py&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/cloudmesh-community/book/blob/master/examples/python/knn/dating_test_set2.txt">https://github.com/cloudmesh-community/book/blob/master/examples/python/knn/dating_test_set2.txt&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/cloudmesh-community/book/blob/master/examples/python/knn/clusterFinal-M3-C3Dating-ReClustered.pviz">https://github.com/cloudmesh-community/book/blob/master/examples/python/knn/clusterFinal-M3-C3Dating-ReClustered.pviz&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/cloudmesh-community/book/blob/master/examples/python/knn/dating_rating_original_labels.pviz">https://github.com/cloudmesh-community/book/blob/master/examples/python/knn/dating_rating_original_labels.pviz&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/cloudmesh-community/book/blob/master/examples/python/knn/clusterFinal-M30-C28.pviz">https://github.com/cloudmesh-community/book/blob/master/examples/python/knn/clusterFinal-M30-C28.pviz&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/cloudmesh-community/book/blob/master/examples/python/plotviz/clusterfinal_m3_c3dating_reclustered.pviz">https://github.com/cloudmesh-community/book/blob/master/examples/python/plotviz/clusterfinal_m3_c3dating_reclustered.pviz&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/cloudmesh-community/book/blob/master/examples/python/plotviz/fungi_lsu_3_15_to_3_26_zeroidx.pviz">https://github.com/cloudmesh-community/book/blob/master/examples/python/plotviz/fungi_lsu_3_15_to_3_26_zeroidx.pviz&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="resources-k-means">Resources k-means&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="http://www.slideshare.net/xamat/building-largescale-realworld-recommender-systems-recsys2012-tutorial">http://www.slideshare.net/xamat/building-largescale-realworld-recommender-systems-recsys2012-tutorial&lt;/a> [@www-slideshare-building]&lt;/li>
+&lt;li>&lt;a href="http://www.ifi.uzh.ch/ce/teaching/spring2012/16-Recommender-Systems_Slides.pdf">http://www.ifi.uzh.ch/ce/teaching/spring2012/16-Recommender-Systems_Slides.pdf&lt;/a> [@www-ifi-teaching]&lt;/li>
+&lt;li>&lt;a href="https://www.kaggle.com/">https://www.kaggle.com/&lt;/a> [@www-kaggle]&lt;/li>
+&lt;li>&lt;a href="http://www.ics.uci.edu/~welling/teaching/CS77Bwinter12/CS77B_w12.html">http://www.ics.uci.edu/~welling/teaching/CS77Bwinter12/CS77B_w12.html&lt;/a> [@www-ics-uci-welling]&lt;/li>
+&lt;li>&lt;a href="https://berkeleydatascience.files.wordpress.com/2012/01/20120117berkeley1.pdf">Jeff
+Hammerbacher&lt;/a>[@20120117berkeley1]&lt;/li>
+&lt;li>&lt;a href="http://www.techworld.com/news/apps/netflix-foretells-house-of-cards-success-with-cassandra-big-data-engine-3437514/">http://www.techworld.com/news/apps/netflix-foretells-house-of-cards-success-with-cassandra-big-data-engine-3437514/&lt;/a> [@www-techworld-netflix]&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/A/B_testing">https://en.wikipedia.org/wiki/A/B_testing&lt;/a> [@wikipedia-ABtesting]&lt;/li>
+&lt;li>&lt;a href="http://www.infoq.com/presentations/Netflix-Architecture">http://www.infoq.com/presentations/Netflix-Architecture&lt;/a> [@www-infoq-architec]&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Physics</title><link>/docs/modules/bigdataapplications/2019/applications/physics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/bigdataapplications/2019/applications/physics/</guid><description>
+&lt;p>This section starts by describing the LHC accelerator at CERN and
+evidence found by the experiments suggesting existence of a Higgs Boson.
+The huge number of authors on a paper, remarks on histograms and Feynman
+diagrams is followed by an accelerator picture gallery. The next unit is
+devoted to Python experiments looking at histograms of Higgs Boson
+production with various forms of shape of signal and various background
+and with various event totals. Then random variables and some simple
+principles of statistics are introduced with explanation as to why they
+are relevant to Physics counting experiments. The unit introduces
+Gaussian (normal) distributions and explains why they seen so often in
+natural phenomena. Several Python illustrations are given. Random
+Numbers with their Generators and Seeds lead to a discussion of Binomial
+and Poisson Distribution. Monte-Carlo and accept-reject methods. The
+Central Limit Theorem concludes discussion.&lt;/p>
+&lt;h2 id="looking-for-higgs-particles">Looking for Higgs Particles&lt;/h2>
+&lt;h3 id="bumps-in-histograms-experiments-and-accelerators">Bumps in Histograms, Experiments and Accelerators&lt;/h3>
+&lt;p>This unit is devoted to Python and Java experiments looking at
+histograms of Higgs Boson production with various forms of shape of
+signal and various background and with various event totals. The
+lectures use Python but use of Java is described.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://drive.google.com/open?id=0B8936_ytjfjmYXNoM3ZadGR6QlE">&lt;img src="images/presentation.png" alt="Presentation">
+Higgs (20)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&amp;lt;{gitcode}/physics/mr-higgs/higgs-classI-sloping.py&amp;gt;&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="particle-counting">Particle Counting&lt;/h3>
+&lt;p>We return to particle case with slides used in introduction and stress
+that particles often manifested as bumps in histograms and those bumps
+need to be large enough to stand out from background in a statistically
+significant fashion.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=iaypHlgFyuU">&lt;img src="images/video.png" alt="Video"> Discovery of Higgs Particle
+(13:49)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>We give a few details on one LHC experiment ATLAS. Experimental physics
+papers have a staggering number of authors and quite big budgets.
+Feynman diagrams describe processes in a fundamental fashion.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://youtu.be/UAMzmOgjj7I">&lt;img src="images/video.png" alt="Video"> Looking for Higgs Particle and Counting Introduction II
+(7:38)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="experimental-facilities">Experimental Facilities&lt;/h3>
+&lt;p>We give a few details on one LHC experiment ATLAS. Experimental physics
+papers have a staggering number of authors and quite big budgets.
+Feynman diagrams describe processes in a fundamental fashion.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://youtu.be/BW12d780qT8">&lt;img src="images/video.png" alt="Video"> Looking for Higgs Particle Experiments
+(9:29)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="accelerator-picture-gallery-of-big-science">Accelerator Picture Gallery of Big Science&lt;/h3>
+&lt;p>This lesson gives a small picture gallery of accelerators. Accelerators,
+detection chambers and magnets in tunnels and a large underground
+laboratory used fpr experiments where you need to be shielded from
+background like cosmic rays.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://youtu.be/WLJIxWWMYi8">&lt;img src="images/video.png" alt="Video"> Accelerator Picture Gallery of Big Science
+(11:21)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="resources">Resources&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="http://grids.ucs.indiana.edu/ptliupages/publications/Where%20does%20all%20the%20data%20come%20from%20v7.pdf">http://grids.ucs.indiana.edu/ptliupages/publications/Where%20does%20all%20the%20data%20come%20from%20v7.pdf&lt;/a> [@fox2011does]&lt;/li>
+&lt;li>&lt;a href="http://www.sciencedirect.com/science/article/pii/S037026931200857X">http://www.sciencedirect.com/science/article/pii/S037026931200857X&lt;/a> [@aad2012observation]&lt;/li>
+&lt;li>&lt;a href="http://www.nature.com/news/specials/lhc/interactive.html">http://www.nature.com/news/specials/lhc/interactive.html&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Looking for Higgs Particles: Python Event Counting for Signal and
+Background (Part 2)&lt;/p>
+&lt;p>This unit is devoted to Python experiments looking at histograms of
+Higgs Boson production with various forms of shape of signal and various
+background and with various event totals.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://drive.google.com/open?id=0B8936_ytjfjmUHRpV2g2V28walE">&lt;img src="images/presentation.png" alt="Presentation"> Higgs II
+(29)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Files:&lt;/p>
+&lt;ul>
+&lt;li>&amp;lt;{gitcode}/physics/mr-higgs/higgs-classI-sloping.py&amp;gt;&lt;/li>
+&lt;li>&amp;lt;{gitcode}/physics/number-theory/higgs-classIII.py&amp;gt;&lt;/li>
+&lt;li>&amp;lt;{gitcode}/physics/mr-higgs/higgs-classII-uniform.py&amp;gt;&lt;/li>
+&lt;/ul>
+&lt;h3 id="event-counting">Event Counting&lt;/h3>
+&lt;p>We define &lt;em>event counting&lt;/em> data collection environments. We discuss the
+python and Java code to generate events according to a particular
+scenario (the important idea of Monte Carlo data). Here a sloping
+background plus either a Higgs particle generated similarly to LHC
+observation or one observed with better resolution (smaller measurement
+error).&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://youtu.be/h8-szCeFugQ">&lt;img src="images/video.png" alt="Video"> Event Counting (7:02)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="monte-carlo">Monte Carlo&lt;/h3>
+&lt;p>This uses Monte Carlo data both to generate data like the experimental
+observations and explore effect of changing amount of data and changing
+measurement resolution for Higgs.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="http://youtu.be/bl2f0tAzLj4">&lt;img src="images/video.png" alt="Video"> With Python examples of Signal plus Background
+(7:33)&lt;/a> This lesson continues the
+examination of Monte Carlo data looking at effect of change in
+number of Higgs particles produced and in change in shape of
+background.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://youtu.be/bw3fd5cfQhk">&lt;img src="images/video.png" alt="Video"> Change shape of background &amp;amp; num of Higgs Particles
+(7:01)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="resources-1">Resources&lt;/h3>
+&lt;ul>
+&lt;li>Python for Data Analysis: Agile Tools for Real World Data By Wes
+McKinney, Publisher: O&amp;rsquo;Reilly Media, Released: October 2012,
+Pages: 472. [@mckinney-python]&lt;/li>
+&lt;li>&lt;a href="http://jwork.org/scavis/api/">http://jwork.org/scavis/api/&lt;/a> [@jwork-api]&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/DataMelt">https://en.wikipedia.org/wiki/DataMelt&lt;/a> [@wikipedia-datamelt]&lt;/li>
+&lt;/ul>
+&lt;h3 id="random-variables-physics-and-normal-distributions">Random Variables, Physics and Normal Distributions&lt;/h3>
+&lt;p>We introduce random variables and some simple principles of statistics
+and explains why they are relevant to Physics counting experiments. The
+unit introduces Gaussian (normal) distributions and explains why they
+seen so often in natural phenomena. Several Python illustrations are
+given. Java is currently not available in this unit.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://drive.google.com/open?id=0B8936_ytjfjmNWhrS0xadk16SWM">&lt;img src="images/presentation.png" alt="Presentation">
+Higgs (39)&lt;/a>&lt;/li>
+&lt;li>&amp;lt;{gitcode}/physics/number-theory/higgs-classIII.py&amp;gt;&lt;/li>
+&lt;/ul>
+&lt;h3 id="statistics-overview-and-fundamental-idea-random-variables">Statistics Overview and Fundamental Idea: Random Variables&lt;/h3>
+&lt;p>We go through the many different areas of statistics covered in the
+Physics unit. We define the statistics concept of a random variable.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=_sLGyt4qWWk">&lt;img src="images/video.png" alt="Video"> Random variables and normal distributions
+(8:19)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="physics-and-random-variables">Physics and Random Variables&lt;/h3>
+&lt;p>We describe the DIKW pipeline for the analysis of this type of physics
+experiment and go through details of analysis pipeline for the LHC ATLAS
+experiment. We give examples of event displays showing the final state
+particles seen in a few events. We illustrate how physicists decide
+whats going on with a plot of expected Higgs production experimental
+cross sections (probabilities) for signal and background.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://youtu.be/Tn3GBxgplxg">&lt;img src="images/video.png" alt="Video"> Physics and Random Variables I
+(8:34)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://youtu.be/qWEjp0OtvdA">&lt;img src="images/video.png" alt="Video"> Physics and Random Variables II
+(5:50)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="statistics-of-events-with-normal-distributions">Statistics of Events with Normal Distributions&lt;/h3>
+&lt;p>We introduce Poisson and Binomial distributions and define independent
+identically distributed (IID) random variables. We give the law of large
+numbers defining the errors in counting and leading to Gaussian
+distributions for many things. We demonstrate this in Python
+experiments.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://youtu.be/LMBtpWOOQLo">&lt;img src="images/video.png" alt="Video"> Statistics of Events with Normal Distributions
+(11:25)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="gaussian-distributions">Gaussian Distributions&lt;/h3>
+&lt;p>We introduce the Gaussian distribution and give Python examples of the
+fluctuations in counting Gaussian distributions.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://youtu.be/LWIbPa-P5W0">&lt;img src="images/video.png" alt="Video"> Gaussian Distributions
+(9:08)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="using-statistics">Using Statistics&lt;/h3>
+&lt;p>We discuss the significance of a standard deviation and role of biases
+and insufficient statistics with a Python example in getting incorrect
+answers.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://youtu.be/n4jlUrGwgic">&lt;img src="images/video.png" alt="Video"> Using Statistics (14:02)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="resources-2">Resources&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="http://indico.cern.ch/event/20453/session/6/contribution/15?materialId=slides">http://indico.cern.ch/event/20453/session/6/contribution/15?materialId=slides&lt;/a>&lt;/li>
+&lt;li>&lt;del>&lt;a href="http://www.atlas.ch/photos/events.html">http://www.atlas.ch/photos/events.html&lt;/a>&lt;/del> (this link is outdated)&lt;/li>
+&lt;li>&lt;a href="https://cms.cern/">https://cms.cern/&lt;/a> [@cms]&lt;/li>
+&lt;/ul>
+&lt;h3 id="random-numbers-distributions-and-central-limit-theorem">Random Numbers, Distributions and Central Limit Theorem&lt;/h3>
+&lt;p>We discuss Random Numbers with their Generators and Seeds. It introduces
+Binomial and Poisson Distribution. Monte-Carlo and accept-reject methods
+are discussed. The Central Limit Theorem and Bayes law concludes
+discussion. Python and Java (for student - not reviewed in class)
+examples and Physics applications are given.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://drive.google.com/open?id=0B8936_ytjfjmTUxkZXVRRmlBSUk">&lt;img src="images/presentation.png" alt="Presentation"> Higgs
+III (44)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Files:&lt;/p>
+&lt;ul>
+&lt;li>&amp;lt;{gitcode}/physics/calculated-dice-roll/higgs-classIV-seeds.py&amp;gt;&lt;/li>
+&lt;/ul>
+&lt;h4 id="generators-and-seeds">Generators and Seeds&lt;/h4>
+&lt;p>We define random numbers and describe how to generate them on the
+computer giving Python examples. We define the seed used to define to
+specify how to start generation.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=de4AQ9AFt54">&lt;img src="images/video.png" alt="Video"> Higgs Particle Counting Errors
+(6:28)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://youtu.be/9QY5qkQj2Ag">&lt;img src="images/video.png" alt="Video"> Generators and Seeds II
+(7:10)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h4 id="binomial-distribution">Binomial Distribution&lt;/h4>
+&lt;p>We define binomial distribution and give LHC data as an example of where
+this distribution valid.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://youtu.be/DPd-eVI_twQ">&lt;img src="images/video.png" alt="Video"> Binomial Distribution:
+(12:38)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h4 id="accept-reject">Accept-Reject&lt;/h4>
+&lt;p>We introduce an advanced method &lt;strong>accept/reject&lt;/strong> for generating random
+variables with arbitrary distributions.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://youtu.be/GfshkKMKCj8">&lt;img src="images/video.png" alt="Video"> Accept-Reject (5:54)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h4 id="monte-carlo-method">Monte Carlo Method&lt;/h4>
+&lt;p>We define Monte Carlo method which usually uses accept/reject method in
+typical case for distribution.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://youtu.be/kIQ-BTyDfOQ">&lt;img src="images/video.png" alt="Video"> Monte Carlo Method (2:23)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h4 id="poisson-distribution">Poisson Distribution&lt;/h4>
+&lt;p>We extend the Binomial to the Poisson distribution and give a set of
+amusing examples from Wikipedia.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://youtu.be/WFvgsVo-k4s">&lt;img src="images/video.png" alt="Video"> Poisson Distribution (4:37)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h4 id="central-limit-theorem">Central Limit Theorem&lt;/h4>
+&lt;p>We introduce Central Limit Theorem and give examples from Wikipedia.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://youtu.be/ZO53iKlPn7c">&lt;img src="images/video.png" alt="Video"> Central Limit Theorem
+(4:47)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h4 id="interpretation-of-probability-bayes-v-frequency">Interpretation of Probability: Bayes v. Frequency&lt;/h4>
+&lt;p>This lesson describes difference between Bayes and frequency views of
+probability. Bayes&amp;rsquo;s law of conditional probability is derived and
+applied to Higgs example to enable information about Higgs from multiple
+channels and multiple experiments to be accumulated.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://youtu.be/jzDkExAQI9M">&lt;img src="images/video.png" alt="Video"> Interpretation of Probability
+(12:39)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h4 id="resources-3">Resources&lt;/h4>
+&lt;p>\TODO{integrate physics-references.bib}&lt;/p>
+&lt;h2 id="ska----square-kilometer-array">SKA &amp;ndash; Square Kilometer Array&lt;/h2>
+&lt;p>Professor Diamond, accompanied by Dr. Rosie Bolton from the SKA Regional
+Centre Project gave a presentation at SC17 &amp;ldquo;into the deepest reaches of
+the observable universe as they describe the SKA&amp;rsquo;s international
+partnership that will map and study the entire sky in greater detail
+than ever before.&amp;rdquo;&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://sc17.supercomputing.org/presentation/?id=inspkr101&amp;amp;sess=sess263">http://sc17.supercomputing.org/presentation/?id=inspkr101&amp;amp;sess=sess263&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>A summary article about this effort is available at:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.hpcwire.com/2017/11/17/sc17-keynote-hpc-powers-ska-efforts-peer-deep-cosmos/">https://www.hpcwire.com/2017/11/17/sc17-keynote-hpc-powers-ska-efforts-peer-deep-cosmos/&lt;/a>
+The video is hosted at&lt;/li>
+&lt;li>&lt;a href="http://sc17.supercomputing.org/presentation/?id=inspkr101&amp;amp;sess=sess263">http://sc17.supercomputing.org/presentation/?id=inspkr101&amp;amp;sess=sess263&lt;/a>
+Start at about 1:03:00 (e.g. the one hour mark)&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Radar</title><link>/docs/modules/bigdataapplications/2019/applications/radar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/bigdataapplications/2019/applications/radar/</guid><description>
+&lt;p>The changing global climate is suspected to have long-term effects on
+much of the world&amp;rsquo;s inhabitants. Among the various effects, the rising
+sea level will directly affect many people living in low-lying coastal
+regions. While the ocean-s thermal expansion has been the dominant
+contributor to rises in sea level, the potential contribution of
+discharges from the polar ice sheets in Greenland and Antarctica may
+provide a more significant threat due to the unpredictable response to
+the changing climate. The Radar-Informatics unit provides a glimpse in
+the processes fueling global climate change and explains what methods
+are used for ice data acquisitions and analysis.&lt;/p>
+&lt;p>&lt;a href="https://drive.google.com/open?id=0B8936_ytjfjmZ0VzZ0ZIenpUMTQ">&lt;img src="images/presentation.png" alt="Presentation"> Radar
+(58)&lt;/a>&lt;/p>
+&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>This lesson motivates radar-informatics by building on previous
+discussions on why X-applications are growing in data size and why
+analytics are necessary for acquiring knowledge from large data. The
+lesson details three mosaics of a changing Greenland ice sheet and
+provides a concise overview to subsequent lessons by detailing
+explaining how other remote sensing technologies, such as the radar, can
+be used to sound the polar ice sheets and what we are doing with radar
+images to extract knowledge to be incorporated into numerical models.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://youtu.be/LXOncC2AhsI">&lt;img src="images/video.png" alt="Video"> Radar Informatics (3:31)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="remote-sensing">Remote Sensing&lt;/h2>
+&lt;p>This lesson explains the basics of remote sensing, the characteristics
+of remote sensors and remote sensing applications. Emphasis is on image
+acquisition and data collection in the electromagnetic spectrum.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://youtu.be/TTrm9rmZySQ">&lt;img src="images/video.png" alt="Video"> Remote Sensing (6:43)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="ice-sheet-science">Ice Sheet Science&lt;/h2>
+&lt;p>This lesson provides a brief understanding on why melt water at the base
+of the ice sheet can be detrimental and why it&amp;rsquo;s important for sensors
+to sound the bedrock.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://youtu.be/rDpjMLguVBc">&lt;img src="images/video.png" alt="Video"> Ice Sheet Science (1:00)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="global-climate-change">Global Climate Change&lt;/h2>
+&lt;p>This lesson provides an understanding and the processes for the
+greenhouse effect, how warming effects the Polar Regions, and the
+implications of a rise in sea level.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://youtu.be/f9hzzJX0qDs">&lt;img src="images/video.png" alt="Video"> Global Climate Change
+(2:51)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="radio-overview">Radio Overview&lt;/h2>
+&lt;p>This lesson provides an elementary introduction to radar and its
+importance to remote sensing, especially to acquiring information about
+Greenland and Antarctica.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://youtu.be/PuI7F-RMKCI">&lt;img src="images/video.png" alt="Video"> Radio Overview (4:16)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="radio-informatics">Radio Informatics&lt;/h2>
+&lt;p>This lesson focuses on the use of sophisticated computer vision
+algorithms, such as active contours and a hidden markov model to support
+data analysis for extracting layers, so ice sheet models can accurately
+forecast future changes in climate.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://youtu.be/q3Pwyt49syE">&lt;img src="images/video.png" alt="Video"> Radio Informatics (3:35)&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Sensors</title><link>/docs/modules/bigdataapplications/2019/applications/sensor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/bigdataapplications/2019/applications/sensor/</guid><description>
+&lt;p>We start with the Internet of Things IoT giving examples like monitors
+of machine operation, QR codes, surveillance cameras, scientific
+sensors, drones and self driving cars and more generally transportation
+systems. We give examples of robots and drones. We introduce the
+Industrial Internet of Things IIoT and summarize surveys and
+expectations Industry wide. We give examples from General Electric.
+Sensor clouds control the many small distributed devices of IoT and
+IIoT. More detail is given for radar data gathered by sensors;
+ubiquitous or smart cities and homes including U-Korea; and finally the
+smart electric grid.&lt;/p>
+&lt;p>&lt;a href="https://drive.google.com/open?id=0B8936_ytjfjmVXZCUnR3TnVMMFk">&lt;img src="images/presentation.png" alt="Presentation"> Sensor I(31)&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://drive.google.com/open?id=0B8936_ytjfjmelMwSUl6Q1lLV1k">&lt;img src="images/presentation.png" alt="Presentation"> Sensor II(44)&lt;/a>&lt;/p>
+&lt;h2 id="internet-of-things">Internet of Things&lt;/h2>
+&lt;p>There are predicted to be 24-50 Billion devices on the Internet by 2020;
+these are typically some sort of sensor defined as any source or sink of
+time series data. Sensors include smartphones, webcams, monitors of
+machine operation, barcodes, surveillance cameras, scientific sensors
+(especially in earth and environmental science), drones and self driving
+cars and more generally transportation systems. The lesson gives many
+examples of distributed sensors, which form a Grid that is controlled by
+a cloud.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=0O0-mz-CWtQ">&lt;img src="images/video.png" alt="Video"> Internet of Things (12:36)&lt;/a>&lt;/p>
+&lt;h2 id="robotics-and-iot">Robotics and IoT&lt;/h2>
+&lt;p>Examples of Robots and Drones.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=ABP0Yygw2Zg">&lt;img src="images/video.png" alt="Video"> Robotics and IoT Expectations (8:05)&lt;/a>&lt;/p>
+&lt;h2 id="industrial-internet-of-things">Industrial Internet of Things&lt;/h2>
+&lt;p>We summarize surveys and expectations Industry wide.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=kxKzBfd62Og">&lt;img src="images/video.png" alt="Video"> Industrial Internet of Things (24:02)&lt;/a>&lt;/p>
+&lt;h2 id="sensor-clouds">Sensor Clouds&lt;/h2>
+&lt;p>We describe the architecture of a Sensor Cloud control environment and
+gives example of interface to an older version of it. The performance of
+system is measured in terms of processing latency as a function of
+number of involved sensors with each delivering data at 1.8 Mbps rate.&lt;/p>
+&lt;p>&lt;a href="https://youtu.be/0egT1FsVGrU">&lt;img src="images/video.png" alt="Video"> Sensor Clouds (4:40)&lt;/a>&lt;/p>
+&lt;h2 id="earthenvironmentpolar-science-data-gathered-by-sensors">Earth/Environment/Polar Science data gathered by Sensors&lt;/h2>
+&lt;p>This lesson gives examples of some sensors in the
+Earth/Environment/Polar Science field. It starts with material from the
+CReSIS polar remote sensing project and then looks at the NSF Ocean
+Observing Initiative and NASA&amp;rsquo;s MODIS or Moderate Resolution Imaging
+Spectroradiometer instrument on a satellite.&lt;/p>
+&lt;p>&lt;a href="https://youtu.be/CS2gX7axWfI">&lt;img src="images/video.png" alt="Video"> Earth/Environment/Polar Science data gathered by Sensors
+(4:58)&lt;/a>&lt;/p>
+&lt;h2 id="ubiquitoussmart-cities">Ubiquitous/Smart Cities&lt;/h2>
+&lt;p>For Ubiquitous/Smart cities we give two examples: Iniquitous Korea and
+smart electrical grids.&lt;/p>
+&lt;p>&lt;a href="https://youtu.be/MFFIItQ3SOo">&lt;img src="images/video.png" alt="Video"> Ubiquitous/Smart Cities (1:44)&lt;/a>&lt;/p>
+&lt;h2 id="u-korea-uubiquitous">U-Korea (U=Ubiquitous)&lt;/h2>
+&lt;p>Korea has an interesting positioning where it is first worldwide in
+broadband access per capita, e-government, scientific literacy and total
+working hours. However it is far down in measures like quality of life
+and GDP. U-Korea aims to improve the latter by Pervasive computing,
+everywhere, anytime i.e. by spreading sensors everywhere. The example of
+a &amp;lsquo;High-Tech Utopia&amp;rsquo; New Songdo is given.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=U38zWbSI2n4">&lt;img src="images/video.png" alt="Video"> U-Korea (U=Ubiquitous) (2:49)&lt;/a>&lt;/p>
+&lt;h2 id="smart-grid">Smart Grid&lt;/h2>
+&lt;p>The electrical Smart Grid aims to enhance USA&amp;rsquo;s aging electrical
+infrastructure by pervasive deployment of sensors and the integration of
+their measurement in a cloud or equivalent server infrastructure. A
+variety of new instruments include smart meters, power monitors, and
+measures of solar irradiance, wind speed, and temperature. One goal is
+autonomous local power units where good use is made of waste heat.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=UfEiIzaZzI8">&lt;img src="images/video.png" alt="Video"> Smart Grid (6:04)&lt;/a>&lt;/p>
+&lt;h2 id="resources">Resources&lt;/h2>
+&lt;p>\TODO{These resources have not all been checked to see if they still
+exist this is currently in progress}&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="http://www.accenture.com/SiteCollectionDocuments/PDF/Accenture-Industrial-Internet-Changing-Competitive-Landscape-Industries.pdf">http://www.accenture.com/SiteCollectionDocuments/PDF/Accenture-Industrial-Internet-Changing-Competitive-Landscape-Industries.pdf&lt;/a> [@www-accenture-insight-industrial]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.gesoftware.com/ge-predictivity-infographic">http://www.gesoftware.com/ge-predictivity-infographic&lt;/a> [@www-predix-ge-Industrial]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.getransportation.com/railconnect360/rail-landscape">http://www.getransportation.com/railconnect360/rail-landscape&lt;/a> [@www-getransportation-digital]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.gesoftware.com/sites/default/files/GE-Software-Modernizing-Machine-to-Machine-Interactions.pdf">http://www.gesoftware.com/sites/default/files/GE-Software-Modernizing-Machine-to-Machine-Interactions.pdf&lt;/a> [@www-ge-digital-software]&lt;/p>
+&lt;p>These resources do not exsit:&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;del>&lt;a href="https://www.gesoftware.com/minds-and-machines">https://www.gesoftware.com/minds-and-machines&lt;/a>&lt;/del>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;del>&lt;a href="https://www.gesoftware.com/predix">https://www.gesoftware.com/predix&lt;/a>&lt;/del>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;del>&lt;a href="https://www.gesoftware.com/sites/default/files/the-industrial-internet/index.html">https://www.gesoftware.com/sites/default/files/the-industrial-internet/index.html&lt;/a>&lt;/del>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;del>&lt;a href="https://developer.cisco.com/site/eiot/discover/overview/">https://developer.cisco.com/site/eiot/discover/overview/&lt;/a>&lt;/del>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Sports</title><link>/docs/modules/bigdataapplications/2019/applications/sport/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/bigdataapplications/2019/applications/sport/</guid><description>
+&lt;p>Sports sees significant growth in analytics with pervasive statistics
+shifting to more sophisticated measures. We start with baseball as game
+is built around segments dominated by individuals where detailed
+(video/image) achievement measures including PITCHf/x and FIELDf/x are
+moving field into big data arena. There are interesting relationships
+between the economics of sports and big data analytics. We look at
+Wearables and consumer sports/recreation. The importance of spatial
+visualization is discussed. We look at other Sports: Soccer, Olympics,
+NFL Football, Basketball, Tennis and Horse Racing.&lt;/p>
+&lt;h2 id="basic-sabermetrics">Basic Sabermetrics&lt;/h2>
+&lt;p>This unit discusses baseball starting with the movie Moneyball and the
+2002-2003 Oakland Athletics. Unlike sports like basketball and soccer,
+most baseball action is built around individuals often interacting in
+pairs. This is much easier to quantify than many player phenomena in
+other sports. We discuss Performance-Dollar relationship including new
+stadiums and media/advertising. We look at classic baseball averages and
+sophisticated measures like Wins Above Replacement.&lt;/p>
+&lt;p>&lt;a href="https://drive.google.com/open?id=0B8936_ytjfjmbWt6bGZuTFJ4TFE">&lt;img src="images/presentation.png" alt="Presentation"> Overview
+(40)&lt;/a>&lt;/p>
+&lt;h3 id="introduction-and-sabermetrics-baseball-informatics-lesson">Introduction and Sabermetrics (Baseball Informatics) Lesson&lt;/h3>
+&lt;p>Introduction to all Sports Informatics, Moneyball The 2002-2003 Oakland
+Athletics, Diamond Dollars economic model of baseball, Performance -
+Dollar relationship, Value of a Win.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=Dd4zV__G5Q8">&lt;img src="images/video.png" alt="Video"> Introduction and Sabermetrics (Baseball Informatics) Lesson
+(31:4)&lt;/a>&lt;/p>
+&lt;h3 id="basic-sabermetrics-1">Basic Sabermetrics&lt;/h3>
+&lt;p>Different Types of Baseball Data, Sabermetrics, Overview of all data,
+Details of some statistics based on basic data, OPS, wOBA, ERA, ERC,
+FIP, UZR.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=L0X-RQJZKrs">&lt;img src="images/video.png" alt="Video"> Basic Sabermetrics
+(26:53)&lt;/a>&lt;/p>
+&lt;h3 id="wins-above-replacement">Wins Above Replacement&lt;/h3>
+&lt;p>Wins above Replacement WAR, Discussion of Calculation, Examples,
+Comparisons of different methods, Coefficient of Determination, Another,
+Sabermetrics Example, Summary of Sabermetrics.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=D6PHqPor4LA">&lt;img src="images/video.png" alt="Video"> Wins Above Replacement
+(30:43)&lt;/a>&lt;/p>
+&lt;h2 id="advanced-sabermetrics">Advanced Sabermetrics&lt;/h2>
+&lt;p>This unit discusses &amp;lsquo;advanced sabermetrics&amp;rsquo; covering advances possible
+from using video from PITCHf/X, FIELDf/X, HITf/X, COMMANDf/X and MLBAM.&lt;/p>
+&lt;p>&lt;a href="https://drive.google.com/open?id=0B8936_ytjfjmUDh0Y01GbW9tWnc">&lt;img src="images/presentation.png" alt="Presentation"> Sporta II
+(41)&lt;/a>&lt;/p>
+&lt;h3 id="pitching-clustering">Pitching Clustering&lt;/h3>
+&lt;p>A Big Data Pitcher Clustering method introduced by Vince Gennaro, Data
+from Blog and video at 2013 SABR conference.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=rZ9-b54aEvw">&lt;img src="images/video.png" alt="Video"> Pitching Clustering
+(20:59)&lt;/a>&lt;/p>
+&lt;h3 id="pitcher-quality">Pitcher Quality&lt;/h3>
+&lt;p>Results of optimizing match ups, Data from video at 2013 SABR
+conference.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=OkkUaySvXOY">&lt;img src="images/video.png" alt="Video"> Pitcher Quality
+(10:02)&lt;/a>&lt;/p>
+&lt;h2 id="pitchfx">PITCHf/X&lt;/h2>
+&lt;p>Examples of use of PITCHf/X.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=m7IXhsHgQmE">&lt;img src="images/video.png" alt="Video"> PITCHf/X
+(10:39)&lt;/a>&lt;/p>
+&lt;h3 id="other-video-data-gathering-in-baseball">Other Video Data Gathering in Baseball&lt;/h3>
+&lt;p>FIELDf/X, MLBAM, HITf/X, COMMANDf/X.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=nKZiOOGccms">&lt;img src="images/video.png" alt="Video"> Other Video Data Gathering in Baseball
+(18:5)&lt;/a> Other Sports&lt;/p>
+&lt;hr>
+&lt;p>We look at Wearables and consumer sports/recreation. The importance of
+spatial visualization is discussed. We look at other Sports: Soccer,
+Olympics, NFL Football, Basketball, Tennis and Horse Racing.&lt;/p>
+&lt;p>&lt;a href="https://drive.google.com/open?id=0B8936_ytjfjmUGdpUzFaRzhyWXM">&lt;img src="images/presentation.png" alt="Presentation"> Sport Sports III
+(44)&lt;/a>&lt;/p>
+&lt;h3 id="wearables">Wearables&lt;/h3>
+&lt;p>Consumer Sports, Stake Holders, and Multiple Factors.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=F_cPq6xIXw0">&lt;img src="images/video.png" alt="Video"> Wearables
+(22:2)&lt;/a>&lt;/p>
+&lt;h3 id="soccer-and-the-olympics">Soccer and the Olympics&lt;/h3>
+&lt;p>Soccer, Tracking Players and Balls, Olympics.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=AiZneaLJMTs">&lt;img src="images/video.png" alt="Video"> Soccer and the Olympics
+(8:28)&lt;/a>&lt;/p>
+&lt;h3 id="spatial-visualization-in-nfl-and-nba">Spatial Visualization in NFL and NBA&lt;/h3>
+&lt;p>NFL, NBA, and Spatial Visualization.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=Uorh3RJLC1s">&lt;img src="images/video.png" alt="Video"> Spatial Visualization in NFL and NBA
+(15:19)&lt;/a>&lt;/p>
+&lt;h3 id="tennis-and-horse-racing">Tennis and Horse Racing&lt;/h3>
+&lt;p>Tennis, Horse Racing, and Continued Emphasis on Spatial Visualization.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=2P-pismFSrI">&lt;img src="images/video.png" alt="Video"> Tennis and Horse Racing
+(8:52)&lt;/a>&lt;/p>
+&lt;h3 id="resources">Resources&lt;/h3>
+&lt;p>\TODO{These resources have not all been checked to see if they still
+exist this is currently in progress}&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="http://www.slideshare.net/Tricon_Infotech/big-data-for-big-sports">http://www.slideshare.net/Tricon_Infotech/big-data-for-big-sports&lt;/a> [@www-slideshare-tricon-infotech]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.slideshare.net/BrandEmotivity/sports-analytics-innovation-summit-data-powered-storytelling">http://www.slideshare.net/BrandEmotivity/sports-analytics-innovation-summit-data-powered-storytelling&lt;/a> [@www-slideshare-sports]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.slideshare.net/elew/sport-analytics-innovation">http://www.slideshare.net/elew/sport-analytics-innovation&lt;/a> [@www-slideshare-elew-sport-analytics]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.wired.com/2013/02/catapault-smartball/">http://www.wired.com/2013/02/catapault-smartball/&lt;/a> [@www-wired-smartball]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.sloansportsconference.com/wp-content/uploads/2014/06/Automated_Playbook_Generation.pdf">http://www.sloansportsconference.com/wp-content/uploads/2014/06/Automated_Playbook_Generation.pdf&lt;/a> [@www-sloansportsconference-automated-playbook]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://autoscout.adsc.illinois.edu/publications/football-trajectory-dataset/">http://autoscout.adsc.illinois.edu/publications/football-trajectory-dataset/&lt;/a> [@www-autoscout-illinois-football-trajectory]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.sloansportsconference.com/wp-content/uploads/2012/02/Goldsberry_Sloan_Submission.pdf">http://www.sloansportsconference.com/wp-content/uploads/2012/02/Goldsberry_Sloan_Submission.pdf&lt;/a> [@sloansportconference-goldsberry]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://gamesetmap.com/">http://gamesetmap.com/&lt;/a> [@gamesetmap]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.slideshare.net/BrandEmotivity/sports-analytics-innovation-summit-data-powered-storytelling">http://www.slideshare.net/BrandEmotivity/sports-analytics-innovation-summit-data-powered-storytelling&lt;/a> [@www-slideshare-sports-datapowered]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.sloansportsconference.com/">http://www.sloansportsconference.com/&lt;/a> [@www-sloansportsconferences]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://sabr.org/">http://sabr.org/&lt;/a> [@www-sabr]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://en.wikipedia.org/wiki/Sabermetrics">http://en.wikipedia.org/wiki/Sabermetrics&lt;/a> [@wikipedia-Sabermetrics]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://en.wikipedia.org/wiki/Baseball_statistics">http://en.wikipedia.org/wiki/Baseball_statistics&lt;/a> [@www-wikipedia-baseball-statistics]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://m.mlb.com/news/article/68514514/mlbam-introduces-new-way-to-analyze-every-play">http://m.mlb.com/news/article/68514514/mlbam-introduces-new-way-to-analyze-every-play&lt;/a> [@www-mlb-mlbam-new-way-play]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.fangraphs.com/library/offense/offensive-statistics-list/">http://www.fangraphs.com/library/offense/offensive-statistics-list/&lt;/a> [@www-fangraphs-offensive-statistics]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://en.wikipedia.org/wiki/Component_ERA">http://en.wikipedia.org/wiki/Component_ERA&lt;/a> [@www-wiki-component-era]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.fangraphs.com/library/pitching/fip/">http://www.fangraphs.com/library/pitching/fip/&lt;/a> [@www-fangraphs-pitching-fip]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://en.wikipedia.org/wiki/Wins_Above_Replacement">http://en.wikipedia.org/wiki/Wins_Above_Replacement&lt;/a> [@www-wiki-wins-above-replacement]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.fangraphs.com/library/misc/war/">http://www.fangraphs.com/library/misc/war/&lt;/a> [@www-fangraphs-library-war]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.baseball-reference.com/about/war_explained.shtml">http://www.baseball-reference.com/about/war_explained.shtml&lt;/a> [@www-baseball-references-war-explained]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.baseball-reference.com/about/war_explained_comparison.shtml">http://www.baseball-reference.com/about/war_explained_comparison.shtml&lt;/a> [@www-baseball-references-war-explained-comparison]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.baseball-reference.com/about/war_explained_position.shtml">http://www.baseball-reference.com/about/war_explained_position.shtml&lt;/a> [@www-baseball-reference-war-explained-position]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.baseball-reference.com/about/war_explained_pitch.shtml">http://www.baseball-reference.com/about/war_explained_pitch.shtml&lt;/a> [@www-baseball-reference-war-explained-pitch]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.fangraphs.com/leaders.aspx?pos=all&amp;amp;stats=bat&amp;amp;lg=all&amp;amp;qual=y&amp;amp;type=8&amp;amp;season=2014&amp;amp;month=0&amp;amp;season1=1871&amp;amp;ind=0">http://www.fangraphs.com/leaders.aspx?pos=all&amp;amp;stats=bat&amp;amp;lg=all&amp;amp;qual=y&amp;amp;type=8&amp;amp;season=2014&amp;amp;month=0&amp;amp;season1=1871&amp;amp;ind=0&lt;/a> [@www-fangraphs-leaders-pose-qual]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://battingleadoff.com/2014/01/08/comparing-the-three-war-measures-part-ii/">http://battingleadoff.com/2014/01/08/comparing-the-three-war-measures-part-ii/&lt;/a> [@battingleadoff-baseball-player]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://en.wikipedia.org/wiki/Coefficient_of_determination">http://en.wikipedia.org/wiki/Coefficient_of_determination&lt;/a> [@www-wiki-coefficient-of-determination]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.sloansportsconference.com/wp-content/uploads/2014/02/2014_SSAC_Data-driven-Method-for-In-game-Decision-Making.pdf">http://www.sloansportsconference.com/wp-content/uploads/2014/02/2014_SSAC_Data-driven-Method-for-In-game-Decision-Making.pdf&lt;/a> [@ganeshapillai2014data]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://courses.edx.org/courses/BUx/SABR101x/2T2014/courseware/10e616fc7649469ab4457ae18df92b20/">https://courses.edx.org/courses/BUx/SABR101x/2T2014/courseware/10e616fc7649469ab4457ae18df92b20/&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://vincegennaro.mlblogs.com/">http://vincegennaro.mlblogs.com/&lt;/a> [@www-vincegennaro-mlblogs]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=H-kx-x_d0Mk">https://www.youtube.com/watch?v=H-kx-x_d0Mk&lt;/a> [@www-youtube-watch]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.baseballprospectus.com/article.php?articleid=13109">http://www.baseballprospectus.com/article.php?articleid=13109&lt;/a> [@www-baseball-prospectus-spinning-yarn]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://baseball.physics.illinois.edu/FastPFXGuide.pdf">http://baseball.physics.illinois.edu/FastPFXGuide.pdf&lt;/a> [@baseball-physics-PITCHf]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://baseball.physics.illinois.edu/FieldFX-TDR-GregR.pdf">http://baseball.physics.illinois.edu/FieldFX-TDR-GregR.pdf&lt;/a> [@baseball-physics-fieldfx]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://regressing.deadspin.com/mlb-announces-revolutionary-new-fielding-tracking-syste-1534200504">http://regressing.deadspin.com/mlb-announces-revolutionary-new-fielding-tracking-syste-1534200504&lt;/a> [@www-deadspin-field-tracking-syste]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://grantland.com/the-triangle/mlb-advanced-media-play-tracking-bob-bowman-interview/">http://grantland.com/the-triangle/mlb-advanced-media-play-tracking-bob-bowman-interview/&lt;/a> [@grantland-mlb-bob-bowman]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=YkjtnuNmK74">https://www.youtube.com/watch?v=YkjtnuNmK74&lt;/a> [@www-youtube-science-home-run]&lt;/p>
+&lt;p>These resources do not exsit:&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;del>&lt;a href="http://www.sportvision.com/baseball">http://www.sportvision.com/baseball&lt;/a>&lt;/del>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;del>&lt;a href="http://www.sportvision.com/media/pitchfx-how-it-works">http://www.sportvision.com/media/pitchfx-how-it-works&lt;/a>&lt;/del>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;del>&lt;a href="http://www.sportvision.com/baseball/fieldfx">http://www.sportvision.com/baseball/fieldfx&lt;/a>&lt;/del>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;del>&lt;a href="http://www.sportvision.com/baseball/hitfx">http://www.sportvision.com/baseball/hitfx&lt;/a>&lt;/del>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;del>&lt;a href="http://www.trakus.com/technology.asp#tNetText">http://www.trakus.com/technology.asp#tNetText&lt;/a>&lt;/del>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;del>&lt;a href="http://www.sloansportsconference.com/?page_id=481&amp;amp;sort_cate=Research%20Paper">http://www.sloansportsconference.com/?page_id=481&amp;amp;sort_cate=Research%20Paper&lt;/a>&lt;/del>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;del>&lt;a href="http://www.liveathos.com/apparel/app">http://www.liveathos.com/apparel/app&lt;/a>&lt;/del>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Web Search and Text Mining</title><link>/docs/modules/bigdataapplications/2019/applications/web/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/bigdataapplications/2019/applications/web/</guid><description>
+&lt;p>This section starts with an overview of data mining and puts our study
+of classification, clustering and exploration methods in context. We
+examine the problem to be solved in web and text search and note the
+relevance of history with libraries, catalogs and concordances. An
+overview of web search is given describing the continued evolution of
+search engines and the relation to the field of Information.&lt;/p>
+&lt;p>The importance of recall, precision and diversity is discussed. The
+important Bag of Words model is introduced and both Boolean queries and
+the more general fuzzy indices. The important vector space model and
+revisiting the Cosine Similarity as a distance in this bag follows. The
+basic TF-IDF approach is dis cussed. Relevance is discussed with a
+probabilistic model while the distinction between Bayesian and frequency
+views of probability distribution completes this unit.&lt;/p>
+&lt;p>We start with an overview of the different steps (data analytics) in web
+search and then goes key steps in detail starting with document
+preparation. An inverted index is described and then how it is prepared
+for web search. The Boolean and Vector Space approach to query
+processing follow. This is followed by Link Structure Analysis including
+Hubs, Authorities and PageRank. The application of PageRank ideas as
+reputation outside web search is covered. The web graph structure,
+crawling it and issues in web advertising and search follow. The use of
+clustering and topic models completes the section.&lt;/p>
+&lt;h2 id="web-search-and-text-mining">Web Search and Text Mining&lt;/h2>
+&lt;p>The unit starts with the web with its size, shape (coming from the
+mutual linkage of pages by URL&amp;rsquo;s) and universal power laws for number of
+pages with particular number of URL&amp;rsquo;s linking out or in to page.
+Information retrieval is introduced and compared to web search. A
+comparison is given between semantic searches as in databases and the
+full text search that is base of Web search. The origin of web search in
+libraries, catalogs and concordances is summarized. DIKW &amp;ndash; Data
+Information Knowledge Wisdom &amp;ndash; model for web search is discussed. Then
+features of documents, collections and the important Bag of Words
+representation. Queries are presented in context of an Information
+Retrieval architecture. The method of judging quality of results
+including recall, precision and diversity is described. A time line for
+evolution of search engines is given.&lt;/p>
+&lt;p>Boolean and Vector Space models for query including the cosine
+similarity are introduced. Web Crawlers are discussed and then the steps
+needed to analyze data from Web and produce a set of terms. Building and
+accessing an inverted index is followed by the importance of term
+specificity and how it is captured in TF-IDF. We note how frequencies
+are converted into belief and relevance.&lt;/p>
+&lt;p>&lt;a href="https://drive.google.com/open?id=0B8936_ytjfjmeWVSYk9RVXcyOFk">&lt;img src="images/presentation.png" alt="Presentation"> Web Search and Text Mining (56)&lt;/a>&lt;/p>
+&lt;h3 id="the-problem">The Problem&lt;/h3>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=RFBeAWBkUsI">&lt;img src="images/video.png" alt="Video"> Text Mining (9:56)&lt;/a>&lt;/p>
+&lt;p>This lesson starts with the web with its size, shape (coming from the
+mutual linkage of pages by URL&amp;rsquo;s) and universal power laws for number of
+pages with particular number of URL&amp;rsquo;s linking out or in to page.&lt;/p>
+&lt;h3 id="information-retrieval">Information Retrieval&lt;/h3>
+&lt;p>&lt;a href="https://youtu.be/KtWhk2cdRa4">&lt;img src="images/video.png" alt="Video"> Information Retrieval (6:06)&lt;/a>&lt;/p>
+&lt;p>Information retrieval is introduced A comparison is given between
+semantic searches as in databases and the full text search that is base
+of Web search. The ACM classification illustrates potential complexity
+of ontologies. Some differences between web search and information
+retrieval are given.&lt;/p>
+&lt;h3 id="history">History&lt;/h3>
+&lt;p>&lt;a href="https://youtu.be/J7D61uH5gVM">&lt;img src="images/video.png" alt="Video"> Web Search History (5:48)&lt;/a>&lt;/p>
+&lt;p>The origin of web search in libraries, catalogs and concordances is
+summarized.&lt;/p>
+&lt;h3 id="key-fundamental-principles">Key Fundamental Principles&lt;/h3>
+&lt;p>&lt;a href="https://youtu.be/yPFi6xFnDHE">&lt;img src="images/video.png" alt="Video"> Principles (9:30)&lt;/a>&lt;/p>
+&lt;p>This lesson describes the DIKW &amp;ndash; Data Information Knowledge Wisdom &amp;ndash;
+model for web search. Then it discusses documents, collections and the
+important Bag of Words representation.&lt;/p>
+&lt;h3 id="information-retrieval-web-search-components">Information Retrieval (Web Search) Components&lt;/h3>
+&lt;p>&lt;a href="https://youtu.be/EGsnonXgb3Y">&lt;img src="images/video.png" alt="Video"> Fundamental Principals of Web Search (5:06)&lt;/a>&lt;/p>
+&lt;p>This describes queries in context of an Information Retrieval
+architecture. The method of judging quality of results including recall,
+precision and diversity is described.&lt;/p>
+&lt;h2 id="search-engines">Search Engines&lt;/h2>
+&lt;p>&lt;a href="https://youtu.be/kBV-99N6f7k">&lt;img src="images/video.png" alt="Video"> Search Engines (3:08)&lt;/a>&lt;/p>
+&lt;p>This short lesson describes a time line for evolution of search engines.
+The first web search approaches were directly built on Information
+retrieval but in 1998 the field was changed when Google was founded and
+showed the importance of URL structure as exemplified by PageRank.&lt;/p>
+&lt;h3 id="boolean-and-vector-space-models">Boolean and Vector Space Models&lt;/h3>
+&lt;p>&lt;a href="https://youtu.be/JzGBA0OhsIk">&lt;img src="images/video.png" alt="Video"> Boolean and Vector Space Model (6:17)&lt;/a>&lt;/p>
+&lt;p>This lesson describes the Boolean and Vector Space models for query
+including the cosine similarity.&lt;/p>
+&lt;h3 id="web-crawling-and-document-preparation">Web crawling and Document Preparation&lt;/h3>
+&lt;p>&lt;a href="https://youtu.be/Wv-r-PJ9lro">&lt;img src="images/video.png" alt="Video"> Web crawling and Document Preparation (4:55)&lt;/a>&lt;/p>
+&lt;p>This describes a Web Crawler and then the steps needed to analyze data
+from Web and produce a set of terms.&lt;/p>
+&lt;h3 id="indices">Indices&lt;/h3>
+&lt;p>&lt;a href="https://youtu.be/NY2SmrHoBVM">&lt;img src="images/video.png" alt="Video"> Indices (5:44)&lt;/a>&lt;/p>
+&lt;p>This lesson describes both building and accessing an inverted index. It
+describes how phrases are treated and gives details of query structure
+from some early logs.&lt;/p>
+&lt;h3 id="tf-idf-and-probabilistic-models">TF-IDF and Probabilistic Models&lt;/h3>
+&lt;p>&lt;a href="https://youtu.be/9P_HUmpselU">&lt;img src="images/video.png" alt="Video"> TF-IDF and Probabilistic Models (3:57)&lt;/a>&lt;/p>
+&lt;p>It describes the importance of term specificity and how it is captured
+in TF-IDF. It notes how frequencies are converted into belief and
+relevance.&lt;/p>
+&lt;h2 id="topics-in-web-search-and-text-mining">Topics in Web Search and Text Mining&lt;/h2>
+&lt;p>&lt;a href="https://drive.google.com/open?id=0B6wqDMIyK2P7YmpLbzQ0X2xpbDg%7D%7BPDF">&lt;img src="images/presentation.png" alt="Presentation"> Text Mining (33)&lt;/a>&lt;/p>
+&lt;p>We start with an overview of the different steps (data analytics) in web
+search. This is followed by Link Structure Analysis including Hubs,
+Authorities and PageRank. The application of PageRank ideas as
+reputation outside web search is covered. Issues in web advertising and
+search follow. his leads to emerging field of computational advertising.
+The use of clustering and topic models completes unit with Google News
+as an example.&lt;/p>
+&lt;h3 id="data-analytics-for-web-search">Data Analytics for Web Search&lt;/h3>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=kHEFxhWwhx0">&lt;img src="images/video.png" alt="Video"> Web Search and Text Mining II (6:11)&lt;/a>&lt;/p>
+&lt;p>This short lesson describes the different steps needed in web search
+including: Get the digital data (from web or from scanning); Crawl web;
+Preprocess data to get searchable things (words, positions); Form
+Inverted Index mapping words to documents; Rank relevance of documents
+with potentially sophisticated techniques; and integrate technology to
+support advertising and ways to allow or stop pages artificially
+enhancing relevance.&lt;/p>
+&lt;h3 id="link-structure-analysis-including-pagerank">Link Structure Analysis including PageRank&lt;/h3>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=ApDu-7_1LYk">&lt;img src="images/video.png" alt="Video"> Related Applications (17:24)&lt;/a>&lt;/p>
+&lt;p>The value of links and the concepts of Hubs and Authorities are
+discussed. This leads to definition of PageRank with examples.
+Extensions of PageRank viewed as a reputation are discussed with journal
+rankings and university department rankings as examples. There are many
+extension of these ideas which are not discussed here although topic
+models are covered briefly in a later lesson.&lt;/p>
+&lt;h3 id="web-advertising-and-search">Web Advertising and Search&lt;/h3>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=375sY1YMk5U">&lt;img src="images/video.png" alt="Video"> Web Advertising and Search (9:02)&lt;/a>&lt;/p>
+&lt;p>Internet and mobile advertising is growing fast and can be personalized
+more than for traditional media. There are several advertising types
+Sponsored search, Contextual ads, Display ads and different models: Cost
+per viewing, cost per clicking and cost per action. This leads to
+emerging field of computational advertising.&lt;/p>
+&lt;h3 id="clustering-and-topic-models">Clustering and Topic Models&lt;/h3>
+&lt;p>&lt;a href="https://youtu.be/95cHMyZ-TUs">&lt;img src="images/video.png" alt="Video"> Clustering and Topic Models (6:21)&lt;/a>&lt;/p>
+&lt;p>We discuss briefly approaches to defining groups of documents. We
+illustrate this for Google News and give an example that this can give
+different answers from word-based analyses. We mention some work at
+Indiana University on a Latent Semantic Indexing model.&lt;/p>
+&lt;h3 id="resources">Resources&lt;/h3>
+&lt;p>All resources accessed March 2018.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://saedsayad.com/data_mining_map.htm">http://saedsayad.com/data_mining_map.htm&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://webcourse.cs.technion.ac.il/236621/Winter2011-2012/en/ho_Lectures.html">http://webcourse.cs.technion.ac.il/236621/Winter2011-2012/en/ho_Lectures.html&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=yPFi6xFnDHE">The Web Graph: an
+Overviews&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://hal.archives-ouvertes.fr/file/index/docid/54458/filename/webgraph.pdf">Jean-Loup Guillaume and Matthieu
+Latapy&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.sciencedirect.com/science/article/pii/S0167923612001844">Constructing a reliable Web graph with information on browsing
+behavior, Yiqun Liu, Yufei Xue, Danqing Xu, Rongwei Cen, Min Zhang,
+Shaoping Ma, Liyun
+Ru&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.ifis.cs.tu-bs.de/teaching/ss-11/irws">http://www.ifis.cs.tu-bs.de/teaching/ss-11/irws&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/PageRank">https://en.wikipedia.org/wiki/PageRank&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.slideshare.net/kleinerperkins/kpcb-internet-trends-2013">Meeker/Wu May 29 2013 Internet Trends D11
+Conference&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: AI-First Engineering Cybertraining Spring 2021</title><link>/docs/modules/ai-first/2021/course_lectures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/ai-first/2021/course_lectures/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This describes weekly meeting and overall videos and homeworks&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#week-1">Week 1&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#lecture">Lecture&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#assignments">Assignments&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#week-2">Week 2&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#introduction">Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#google-colab">Google Colab&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#first-dl-deep-learning-mnist-example-spring-2021">First DL: Deep Learning MNIST Example Spring 2021&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#introdlopt-introduction-to-deep-learning-and-optimization">IntroDLOpt: Introduction to Deep Learning and Optimization&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#opt-overview-of-optimization-spring2021">Opt: Overview of Optimization Spring2021&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#dlbasic-deep-learning---some-examples-spring-2021">DLBasic: Deep Learning - Some examples Spring 2021&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#dlbasic-components-of-deep-learning-systems">DLBasic: Components of Deep Learning Systems&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#dlbasic-summary-of-types-of-deep-learning-systems">DLBasic: Summary of Types of Deep Learning Systems&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#week-3">Week 3&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#deep-learning-examples-1">Deep Learning Examples, 1&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#week-4">Week 4&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#deep-learning-examples-2-plus-components">Deep Learning Examples, 2 plus Components&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#week-5">Week 5&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#deep-learning-networks-plus-overview-of-optimization">Deep Learning Networks plus Overview of Optimization&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#week-6">Week 6&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#deep-learning-and-ai-examples-in-health-and-medicine">Deep Learning and AI Examples in Health and Medicine&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#week-7">Week 7&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#deep-learning-and-ai-examples">Deep Learning and AI Examples&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#week-8">Week 8&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#deep-learning-and-ai-examples-1">Deep Learning and AI Examples&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#week-9">Week 9&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#deep-learning-and-ai-examples-2">Deep Learning and AI Examples&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#week-10">Week 10&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#github-for-the-class-project">GitHub for the Class project&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#week-11">Week 11&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#the-final-project">The Final Project&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#week-12">Week 12&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#practical-issues-in-deep-learning-for-earthquakes">Practical Issues in Deep Learning for Earthquakes&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#week-13">Week 13&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#practical-issues-in-deep-learning-for-earthquakes-1">Practical Issues in Deep Learning for Earthquakes&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="week-1">Week 1&lt;/h2>
+&lt;h3 id="lecture">Lecture&lt;/h3>
+&lt;p>Our first meeting is 01:10P-02:25P on Tuesday&lt;/p>
+&lt;p>The zoom will be &lt;a href="https://iu.zoom.us/my/gc.fox">https://iu.zoom.us/my/gc.fox&lt;/a>&lt;/p>
+&lt;p>We will discuss how to interact with us. We can adjust the course
+somewhat.&lt;/p>
+&lt;p>Also as lectures are/will be put on YouTube, we will go to one lecture per week &amp;ndash; we will choose day&lt;/p>
+&lt;p>The Syllabus has a general course description&lt;/p>
+&lt;p>Please communicate initially by email &lt;a href="mailto:gcf@iu.edu">gcf@iu.edu&lt;/a>&lt;/p>
+&lt;p>This first class discussed structure of class and agreed to have a section on deep learning technology.&lt;/p>
+&lt;p>We gave &lt;a href="https://docs.google.com/presentation/d/1esj3zXCswQm5n8kfF-BvRH2Ih6oqNpPQjq02UPzvIB0/edit?usp=sharing">Introductory Lecture&lt;/a>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/mjWXGR9NcHU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;h3 id="assignments">Assignments&lt;/h3>
+&lt;ul>
+&lt;li>Assignment Github: Get a github.com account&lt;/li>
+&lt;li>Assignment Slack: Enroll in our slack at
+*
+&lt;a href="https://join.slack.com/t/cybertraining-3bz7942/shared_invite/zt-kzs969ea-x35oX9wdjspX7NmkpSfUpw">https://join.slack.com/t/cybertraining-3bz7942/shared_invite/zt-kzs969ea-x35oX9wdjspX7NmkpSfUpw&lt;/a>
+Post your github account name into the slack channel #general and #ai&lt;/li>
+&lt;li>Post a 2-3 paragraph &lt;strong>formal&lt;/strong> Bio (see IEEE papers what a formal
+bio is. Use google to find examples for Bios or look at Geoffreys or
+Gregors Web Pages.)&lt;/li>
+&lt;/ul>
+&lt;h2 id="week-2">Week 2&lt;/h2>
+&lt;h3 id="introduction">Introduction&lt;/h3>
+&lt;p>We gave an introductory lecture to optimization and deep learning. Unfortunately we didn&amp;rsquo;t record the zoom serssion but we did make an offline recording with &lt;a href="https://docs.google.com/presentation/d/1_aKqvFx0aObxpNsWA7IRPWgujMjrWBTa20dtUut6DuI/edit?usp=sharing">slides IntroDLOpt: Introduction to Deep Learning and Optimization&lt;/a> and YouTube
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/PCZZQ93xmGI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;h3 id="google-colab">Google Colab&lt;/h3>
+&lt;p>We also went through material on using Google Colab with examples. This is a lecture plus four Python notebooks&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.google.com/presentation/d/1YoXPaDeHldUJM8gnbOvDsmc_U6ff5T6bYq_We1JHNMg/edit?usp=sharing">First DL: Deep Learning MNIST Example Spring 2021&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://colab.research.google.com/notebooks/welcome.ipynb">Welcome To Colaboratory&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cybertraining-dsc.github.io/modules/python/google-colab/python-google-colab/">Google Colab: A gentle introduction to Google Colab for Programming&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cybertraining-dsc.github.io/modules/bigdataapplications/2020/python_initial/">Python Warm Up&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cybertraining-dsc.github.io/modules/bigdataapplications/2020/google_colab_exercise/">MNIST Classification on Google Colab&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>with recorded video&lt;/p>
+&lt;h3 id="first-dl-deep-learning-mnist-example-spring-2021">First DL: Deep Learning MNIST Example Spring 2021&lt;/h3>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/r-aD0oHVAdA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>We now have recorded all the introductory deep learning material&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.google.com/presentation/d/1_aKqvFx0aObxpNsWA7IRPWgujMjrWBTa20dtUut6DuI/edit?usp=sharing">slides IntroDLOpt: Introduction to Deep Learning and Optimization&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.google.com/presentation/d/1NP36rgNLTP9P7NpFBRufC96tePX1-65BllVNGnXAIbY/edit?usp=sharing">slides Opt: Overview of Optimization&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.google.com/presentation/d/1Kbojr5Qd7vZ2TcxdBA7RlmwJ5kG0NEbZm-zrYad6ktc/edit?usp=sharing">slides DLBasic: Deep Learning - Some examples&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.google.com/presentation/d/1YXso4WEkp9e9Eu1LSIgpBGkEX_8ZO8R_TZaqZHc4XNU/edit?usp=sharing">slides DLBasic: Components of Deep Learning&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.google.com/presentation/d/1sjQ00oY0h6tlsYG9aN93KRjNuBHPC_7WzCmAiax2X74/edit?usp=sharing">slides DLBasic: Types of Deep Learning Networks: Summary&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>with recorded videos&lt;/p>
+&lt;h3 id="introdlopt-introduction-to-deep-learning-and-optimization">IntroDLOpt: Introduction to Deep Learning and Optimization&lt;/h3>
+&lt;ul>
+&lt;li>Video: IntroDLOpt: Introduction to Deep Learning and Optimization
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/PCZZQ93xmGI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="opt-overview-of-optimization-spring2021">Opt: Overview of Optimization Spring2021&lt;/h3>
+&lt;ul>
+&lt;li>Video: Opt: Overview of Optimization Spring2021
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/kFBqj4U9XyA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="dlbasic-deep-learning---some-examples-spring-2021">DLBasic: Deep Learning - Some examples Spring 2021&lt;/h3>
+&lt;ul>
+&lt;li>Video: DLBasic: Deep Learning - Some examples Spring 2021
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/sJ-9YjgS35w" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="dlbasic-components-of-deep-learning-systems">DLBasic: Components of Deep Learning Systems&lt;/h3>
+&lt;ul>
+&lt;li>Video: DLBasic: Components of Deep Learning Systems
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/z9-OFr__Y-w" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="dlbasic-summary-of-types-of-deep-learning-systems">DLBasic: Summary of Types of Deep Learning Systems&lt;/h3>
+&lt;ul>
+&lt;li>Video: DLBasic: Summary of Types of Deep Learning Systems
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/4Ma3SFFLhYY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="week-3">Week 3&lt;/h2>
+&lt;h3 id="deep-learning-examples-1">Deep Learning Examples, 1&lt;/h3>
+&lt;p>We discussed deep learning examples covering first half of slides &lt;a href="https://docs.google.com/presentation/d/1Kbojr5Qd7vZ2TcxdBA7RlmwJ5kG0NEbZm-zrYad6ktc/edit?usp=sharing">DLBasic: Deep Learning - Some examples&lt;/a> with recorded video
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/whzCJUKJzN4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;h2 id="week-4">Week 4&lt;/h2>
+&lt;h3 id="deep-learning-examples-2-plus-components">Deep Learning Examples, 2 plus Components&lt;/h3>
+&lt;p>We concluded deep learning examples and covered components with slides &lt;a href="https://docs.google.com/presentation/d/1njxcgyZMVS846WS4FAyYn-sb4AUT-0yylNHjYWFD0f8/edit?usp=sharing">Deep Learning: More Examples and Components&lt;/a> with recorded video
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/tfDdb8mSL98" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;h2 id="week-5">Week 5&lt;/h2>
+&lt;h3 id="deep-learning-networks-plus-overview-of-optimization">Deep Learning Networks plus Overview of Optimization&lt;/h3>
+&lt;p>We covered two topics in this weeks video&lt;/p>
+&lt;ul>
+&lt;li>Deep Learning Networks with presentation &lt;a href="https://docs.google.com/presentation/d/1sjQ00oY0h6tlsYG9aN93KRjNuBHPC_7WzCmAiax2X74/edit?usp=sharing">DLBasic: Types of Deep Learning Networks: Summary&lt;/a>&lt;/li>
+&lt;li>General Issues in Optimization with presentation &lt;a href="https://docs.google.com/presentation/d/1mFfF5St-DKoQyKEIaZu4tOZNO_N0h4313QlGYXbH_oE/edit?usp=sharing">Week5 Presentation on Optimization&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>with recorded video
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/hGUDURDMet8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;h2 id="week-6">Week 6&lt;/h2>
+&lt;h3 id="deep-learning-and-ai-examples-in-health-and-medicine">Deep Learning and AI Examples in Health and Medicine&lt;/h3>
+&lt;p>We went about 2/3rds of way through presentation &lt;a href="https://docs.google.com/presentation/d/1TdJ33B735nHUlKXqCdBwoyqsNIlPdmbx6wc0ExCG1d8/edit?usp=sharing">AI First Scenarios: Health and Medicine&lt;/a>&lt;/p>
+&lt;p>with recorded video
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/Efbvy4tAcNg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;h2 id="week-7">Week 7&lt;/h2>
+&lt;h3 id="deep-learning-and-ai-examples">Deep Learning and AI Examples&lt;/h3>
+&lt;ul>
+&lt;li>We finished the last 1/3rd of the presentation &lt;a href="https://docs.google.com/presentation/d/1TdJ33B735nHUlKXqCdBwoyqsNIlPdmbx6wc0ExCG1d8/edit?usp=sharing">AI First Scenarios: Health and Medicine&lt;/a>&lt;/li>
+&lt;li>We finished &lt;a href="https://docs.google.com/presentation/d/1ZQUV7NihZRrsMsERx4wtjIH0qt0WRqGgbNDzcZAEjRI/edit?usp=sharing">AI First Scenarios - Space&lt;/a>&lt;/li>
+&lt;li>We started &lt;a href="https://docs.google.com/presentation/d/1pSJs_HllfZsdk_iGKoCSUQjPceX3G1fm0oybDxw-2Zs/edit?usp=sharing">AI First Scenarios - Energy&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>with recorded video
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/EG6OH1cUN8c" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;h2 id="week-8">Week 8&lt;/h2>
+&lt;h3 id="deep-learning-and-ai-examples-1">Deep Learning and AI Examples&lt;/h3>
+&lt;ul>
+&lt;li>We finished &lt;a href="https://docs.google.com/presentation/d/1pSJs_HllfZsdk_iGKoCSUQjPceX3G1fm0oybDxw-2Zs/edit?usp=sharing">AI First Scenarios - Energy&lt;/a>&lt;/li>
+&lt;li>We started &lt;a href="https://docs.google.com/presentation/d/1nK2cw542OERuHoxWGEsYH-Y1eSJMHO6yxh1tsFiUtNQ/edit?usp=sharing">AI First Scenarios: Banking and FinTech&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>with recorded video
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/_mIBVwLLTmI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;h2 id="week-9">Week 9&lt;/h2>
+&lt;h3 id="deep-learning-and-ai-examples-2">Deep Learning and AI Examples&lt;/h3>
+&lt;ul>
+&lt;li>We ended &lt;a href="https://docs.google.com/presentation/d/1nK2cw542OERuHoxWGEsYH-Y1eSJMHO6yxh1tsFiUtNQ/edit?usp=sharing">AI First Scenarios: Banking and FinTech&lt;/a>&lt;/li>
+&lt;li>We started &lt;a href="https://docs.google.com/presentation/d/1_hd1H-nQ-E4kPFE8HVLWTxoFdZJ4Db4QgKNlhSbZA5M/edit?usp=sharing">AI Scenarios in Mobility and Transportation Systems&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>with recorded video
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/_TbKRO5Tw4o" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;h2 id="week-10">Week 10&lt;/h2>
+&lt;h3 id="github-for-the-class-project">GitHub for the Class project&lt;/h3>
+&lt;ul>
+&lt;li>We explain how to use GitHub for the class project. A video is available on YouTube. Please note that we only uploaded the relevant portion. The other half of the lecture went into individual comments for each student which we have not published. The comments are included in the GitHub repository.&lt;/li>
+&lt;/ul>
+&lt;p>Note project guidelines are given &lt;a href="https://cybertraining-dsc.github.io/courses/ai-first/project-guidelines/">here&lt;/a>&lt;/p>
+&lt;p>Video
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/PBMPWjavraU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;h2 id="week-11">Week 11&lt;/h2>
+&lt;h3 id="the-final-project">The Final Project&lt;/h3>
+&lt;ul>
+&lt;li>We described the gidelines of final projects in &lt;a href="https://docs.google.com/presentation/d/1YqHJmamwPV0TNxjwn9Uh4BQcBXqKLCM0MY18raP3Zl4/edit?usp=sharing">Slides&lt;/a>&lt;/li>
+&lt;li>We were impressed by the seven student presentations describing their chosen project and approach.&lt;/li>
+&lt;/ul>
+&lt;p>Video
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/gUhZdkke9A8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;h2 id="week-12">Week 12&lt;/h2>
+&lt;h3 id="practical-issues-in-deep-learning-for-earthquakes">Practical Issues in Deep Learning for Earthquakes&lt;/h3>
+&lt;p>We used our research on Earthquake forecasting, to illustrate deep learning for Time Series with &lt;a href="https://docs.google.com/presentation/d/1ykYnX0uvxPE-M-c-Tau8irU3IqYuvj8Ws8iUqd5RCxQ/edit?usp=sharing">slides&lt;/a>&lt;/p>
+&lt;p>Video
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/nQBr2347Xqg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;h2 id="week-13">Week 13&lt;/h2>
+&lt;h3 id="practical-issues-in-deep-learning-for-earthquakes-1">Practical Issues in Deep Learning for Earthquakes&lt;/h3>
+&lt;p>We continued discussion that illustrated deep learning for Time Series with the same &lt;a href="https://docs.google.com/presentation/d/1ykYnX0uvxPE-M-c-Tau8irU3IqYuvj8Ws8iUqd5RCxQ/edit?usp=sharing">slides&lt;/a> as last week&lt;/p>
+&lt;p>Video
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/jM2OJYDQE-Y" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p></description></item><item><title>Docs: Mobility (Industry)</title><link>/docs/modules/ai-first/2021/mobility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/ai-first/2021/mobility/</guid><description>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;ol>
+&lt;li>Industry being transformed by a) Autonomy (AI) and b) Electric power&lt;/li>
+&lt;li>Established Organizations can’t change
+&lt;ul>
+&lt;li>General Motors (employees: 225,000 in 2016 to around 180,000 in 2018) finds it hard to compete with Tesla (42000 employees)&lt;/li>
+&lt;li>Market value GM was half the market value of Tesla at the start of 2020 but is now just 11% October 2020&lt;/li>
+&lt;li>GM purchased Cruise to compete&lt;/li>
+&lt;li>Funding and then buying startups is an important “transformation” strategy&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Autonomy needs Sensors Computers Algorithms and Software
+&lt;ul>
+&lt;li>Also experience (training data)&lt;/li>
+&lt;li>Algorithms main bottleneck; others will automatically improve although lots of interesting work in new sensors, computers and software&lt;/li>
+&lt;li>Over the last 3 years, electrical power has gone from interesting to “bound to happen”; Tesla’s happy customers probably contribute to this&lt;/li>
+&lt;li>Batteries and Charging stations needed&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;a href="https://drive.google.com/file/d/1_N3JwUz4Hj7YE_rmYPZRYdJUTbs7eDdw/view?usp=sharing">Summary Slides&lt;/a>&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/1UYAq4VfpJ4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>&lt;a href="https://docs.google.com/presentation/d/19yAgjNjsoSzPxEqn1Ghr9tG51EfGocuc6_JjOi_0Ijk/edit?usp=sharing">Full Slide Deck&lt;/a>&lt;/p>
+&lt;h2 id="mobility-industry-a-introduction">Mobility Industry A: Introduction&lt;/h2>
+&lt;ul>
+&lt;li>Futures of Automobile Industry, Mobility, and Ride-Hailing&lt;/li>
+&lt;li>Self-cleaning cars&lt;/li>
+&lt;li>Medical Transportation&lt;/li>
+&lt;li>Society of Automotive Engineers, Levels 0-5&lt;/li>
+&lt;li>Gartner’s conservative View&lt;/li>
+&lt;/ul>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/cUn4FbJdkjY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="mobility-industry-b-self-driving-ai">Mobility Industry B: Self Driving AI&lt;/h2>
+&lt;ul>
+&lt;li>Image processing and Deep Learning&lt;/li>
+&lt;li>Examples of Self Driving cars&lt;/li>
+&lt;li>Road construction Industry&lt;/li>
+&lt;li>Role of Simulated data&lt;/li>
+&lt;li>Role of AI in autonomy&lt;/li>
+&lt;li>Fleet cars&lt;/li>
+&lt;li>3 Leaders: Waymo, Cruise, NVIDIA&lt;/li>
+&lt;/ul>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/LgS05R23q3M" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="mobility-industry-c-general-motors-view">Mobility Industry C: General Motors View&lt;/h2>
+&lt;ul>
+&lt;li>Talk by Dave Brooks at GM, &amp;ldquo;AI for Automotive Engineering&amp;rdquo;&lt;/li>
+&lt;li>Zero crashes, zero emission, zero congestion&lt;/li>
+&lt;li>GM moving to electric autonomous vehicles&lt;/li>
+&lt;/ul>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/pybTudmAod0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="mobility-industry-d-self-driving-snippets">Mobility Industry D: Self Driving Snippets&lt;/h2>
+&lt;ul>
+&lt;li>Worries about and data on its Progress&lt;/li>
+&lt;li>Tesla’s specialized self-driving chip&lt;/li>
+&lt;li>Some tasks that are hard for AI&lt;/li>
+&lt;li>Scooters and Bikes&lt;/li>
+&lt;/ul>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/-YzXTfeVZMw" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="mobility-industry-e-electrical-power">Mobility Industry E: Electrical Power&lt;/h2>
+&lt;ul>
+&lt;li>Rise in use of electrical power&lt;/li>
+&lt;li>Special opportunities in e-Trucks and time scale&lt;/li>
+&lt;li>Future of Trucks&lt;/li>
+&lt;li>Tesla market value&lt;/li>
+&lt;li>Drones and Robot deliveries; role of 5G&lt;/li>
+&lt;li>Robots in Logistics&lt;/li>
+&lt;/ul>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/EwPsb_izTTo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div></description></item><item><title>Docs: Space and Energy</title><link>/docs/modules/ai-first/2021/space_and_energy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/ai-first/2021/space_and_energy/</guid><description>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;ol>
+&lt;li>Energy sources and AI for powering Grids.&lt;/li>
+&lt;li>Energy Solution from Bill Gates&lt;/li>
+&lt;li>Space and AI&lt;/li>
+&lt;/ol>
+&lt;p>&lt;a href="https://docs.google.com/presentation/d/1411g_YlmX0ibGTovY8roBhqRYJgcoJ_SAb-0NQBKgMs/edit?usp=sharing">Full Slide Deck&lt;/a>&lt;/p>
+&lt;h2 id="a-energy">A: Energy&lt;/h2>
+&lt;ul>
+&lt;li>Distributed Energy Resources as a grid of renewables with a hierarchical set of Local Distribution Areas&lt;/li>
+&lt;li>Electric Vehicles in Grid&lt;/li>
+&lt;li>Economics of microgrids&lt;/li>
+&lt;li>Investment into Clean Energy&lt;/li>
+&lt;li>Batteries&lt;/li>
+&lt;li>Fusion and Deep Learning for plasma stability&lt;/li>
+&lt;li>AI for Power Grid, Virtual Power Plant, Power Consumption Monitoring, Electricity Trading&lt;/li>
+&lt;/ul>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/rdGWniEHpT8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>&lt;a href="https://drive.google.com/file/d/1JkBbAy58e7DAmVx2jj2-WVkUnWGA72UK/view?usp=sharing">Slides&lt;/a>&lt;/p>
+&lt;h2 id="b-clean-energy-startups-from-bill-gates">B: Clean Energy startups from Bill Gates&lt;/h2>
+&lt;ul>
+&lt;li>26 Startups in areas like long-duration storage, nuclear energy, carbon capture, batteries, fusion, and hydropower …&lt;/li>
+&lt;li>The slide deck gives links to 26 companies from their website and pitchbook which describes their startup status (#employees, funding)&lt;/li>
+&lt;li>It summarizes their products&lt;/li>
+&lt;/ul>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/rgq99JSKoe8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>&lt;a href="https://drive.google.com/file/d/18zfISCIknCKWEpVDf4qinVmrH1f6aQ6X/view?usp=sharing">Slides&lt;/a>&lt;/p>
+&lt;h2 id="c-space">C: Space&lt;/h2>
+&lt;ul>
+&lt;li>Space supports AI with communications, image data and global navigation&lt;/li>
+&lt;li>AI Supports space in AI-controlled remote manufacturing, imaging control, system control, dynamic spectrum use&lt;/li>
+&lt;li>Privatization of Space - SpaceX, Investment&lt;/li>
+&lt;li>57,000 satellites through 2029&lt;/li>
+&lt;/ul>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/bpXNLFa7piY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>&lt;a href="https://drive.google.com/file/d/173WROavlVriMm3HEAY-4Ttd4cg9lR1Gu/view?usp=sharing">Slides&lt;/a>&lt;/p></description></item><item><title>Docs: AI In Banking</title><link>/docs/modules/ai-first/2021/ai_in_banking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/ai-first/2021/ai_in_banking/</guid><description>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>In this lecture, AI in Banking is discussed. Here we focus on the transition of legacy banks towards AI based
+banking, real world examples of AI in Banking, banking systems and banking as a service.&lt;/p>
+&lt;p>&lt;a href="https://docs.google.com/presentation/d/10gQtuXuqAtdc4x7briVis1iQSbqu6XmZCtSlBb2np38/edit?usp=sharing">Slides&lt;/a>&lt;/p>
+&lt;h2 id="ai-in-banking-a-the-transition-of-legacy-banks">AI in Banking A: The Transition of legacy Banks&lt;/h2>
+&lt;ol>
+&lt;li>Types of AI that is used&lt;/li>
+&lt;li>Closing of physical branches&lt;/li>
+&lt;li>Making the transition&lt;/li>
+&lt;li>Growth in Fintech as legacy bank services decline&lt;/li>
+&lt;/ol>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/h5xR8uisfSc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="ai-in-banking-b-fintech">AI in Banking B: FinTech&lt;/h2>
+&lt;ol>
+&lt;li>Fintech examples and investment&lt;/li>
+&lt;li>Broad areas of finance/banking where Fintech operating&lt;/li>
+&lt;/ol>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/k0o74_e7xec" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="ai-in-banking-c-neobanks">AI in Banking C: Neobanks&lt;/h2>
+&lt;ol>
+&lt;li>Types and Examples of neobanks&lt;/li>
+&lt;li>Customer uptake by world region&lt;/li>
+&lt;li>Neobanking in Small and Medium Business segment&lt;/li>
+&lt;li>Neobanking in real estate, mortgages&lt;/li>
+&lt;li>South American Examples&lt;/li>
+&lt;/ol>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/DMS_h_qkpDk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="ai-in-banking-d-the-system">AI in Banking D: The System&lt;/h2>
+&lt;ol>
+&lt;li>The Front, Middle, Back Office&lt;/li>
+&lt;li>Front Office: Chatbots&lt;/li>
+&lt;li>Robo-advisors&lt;/li>
+&lt;li>Middle Office: Fraud, Money laundering&lt;/li>
+&lt;li>Fintech&lt;/li>
+&lt;li>Payment Gateways (Back Office)&lt;/li>
+&lt;li>Banking as a Service&lt;/li>
+&lt;/ol>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/V6KuN0yZQws" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="ai-in-banking-e-examples">AI in Banking E: Examples&lt;/h2>
+&lt;ol>
+&lt;li>Credit cards&lt;/li>
+&lt;li>The stock trading ecosystem&lt;/li>
+&lt;li>Robots counting coins&lt;/li>
+&lt;li>AI in Insurance: Chatbots, Customer Support&lt;/li>
+&lt;li>Banking itself&lt;/li>
+&lt;li>Handwriting recognition&lt;/li>
+&lt;li>Detect leaks for insurance&lt;/li>
+&lt;/ol>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/0uWDWfeLLuY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="ai-in-banking-f-as-a-service">AI in Banking F: As a Service&lt;/h2>
+&lt;ol>
+&lt;li>Banking Services Stack&lt;/li>
+&lt;li>Business Model&lt;/li>
+&lt;li>Several Examples&lt;/li>
+&lt;li>Metrics compared among examples&lt;/li>
+&lt;li>Breadth, Depth, Reputation, Speed to Market, Scalability&lt;/li>
+&lt;/ol>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/UYY0-OJltqQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div></description></item><item><title>Docs: Transportation Systems</title><link>/docs/modules/ai-first/2021/transportation_systems/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/ai-first/2021/transportation_systems/</guid><description>
+&lt;h2 id="transportation-systems-summary">Transportation Systems Summary&lt;/h2>
+&lt;ol>
+&lt;li>The ride-hailing industry highlights the growth of a new “Transportation System” TS
+a. For ride-hailing TS controls rides matching drivers and customers; it predicts how to position cars and how to avoid traffic slowdowns
+b. However, TS is much bigger outside ride-hailing as we move into the “connected vehicle” era
+c. TS will probably find autonomous vehicles easier to deal with than human drivers&lt;/li>
+&lt;li>Cloud Fog and Edge components&lt;/li>
+&lt;li>Autonomous AI was centered on generalized image processing&lt;/li>
+&lt;li>TS also needs AI (and DL) but this is for routing and geospatial time-series; different technologies from those for image processing&lt;/li>
+&lt;/ol>
+&lt;p>&lt;a href="https://docs.google.com/presentation/d/19yAgjNjsoSzPxEqn1Ghr9tG51EfGocuc6_JjOi_0Ijk/edit?usp=sharing">Slides&lt;/a>&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/1UYAq4VfpJ4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="transportation-systems-a-introduction">Transportation Systems A: Introduction&lt;/h2>
+&lt;ol>
+&lt;li>“Smart” Insurance&lt;/li>
+&lt;li>Fundamentals of Ride-Hailing&lt;/li>
+&lt;/ol>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/aRBi94QTyvQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="transportation-systems-b-components-of-a-ride-hailing-system">Transportation Systems B: Components of a Ride-Hailing System&lt;/h2>
+&lt;ol>
+&lt;li>Transportation Brain and Services&lt;/li>
+&lt;li>Maps, Routing,&lt;/li>
+&lt;li>Traffic forecasting with deep learning&lt;/li>
+&lt;/ol>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/obUYIj4cNao" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="transportation-systems-c-different-ai-approaches-in-ride-hailing">Transportation Systems C: Different AI Approaches in Ride-Hailing&lt;/h2>
+&lt;ol>
+&lt;li>View as a Time Series: LSTM and ARIMA&lt;/li>
+&lt;li>View as an image in a 2D earth surface - Convolutional networks&lt;/li>
+&lt;li>Use of Graph Neural Nets&lt;/li>
+&lt;li>Use of Convolutional Recurrent Neural Nets&lt;/li>
+&lt;li>Spatio-temporal modeling&lt;/li>
+&lt;li>Comparison of data with predictions&lt;/li>
+&lt;li>Reinforcement Learning&lt;/li>
+&lt;li>Formulation of General Geospatial Time-Series Problem&lt;/li>
+&lt;/ol>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/k9qFE5WdQWA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div></description></item><item><title>Docs: Commerce</title><link>/docs/modules/ai-first/2021/commerce/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/ai-first/2021/commerce/</guid><description>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>&lt;a href="https://docs.google.com/presentation/d/1mAcwVUutv8n8-i5Yjc0wFSlJcwDG4DWaB-wMgdmOFVs/edit?usp=sharing">Slides&lt;/a>&lt;/p>
+&lt;h2 id="ai-in-commerce-a-the-old-way-of-doing-things">AI in Commerce A: The Old way of doing things&lt;/h2>
+&lt;ol>
+&lt;li>AI in Commerce&lt;/li>
+&lt;li>AI-First Engineering, Deep Learning&lt;/li>
+&lt;li>E-commerce and the transformation of “Bricks and Mortar”&lt;/li>
+&lt;/ol>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/w07nShBHKRY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="ai-in-commerce-b-ai-in-retail">AI in Commerce B: AI in Retail&lt;/h2>
+&lt;ol>
+&lt;li>Personalization&lt;/li>
+&lt;li>Search&lt;/li>
+&lt;li>Image Processing to Speed up Shopping&lt;/li>
+&lt;li>Walmart&lt;/li>
+&lt;/ol>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/Kqgbbrnaf1g" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="ai-in-commerce-c-the-revolution-that-is-amazon">AI in Commerce C: The Revolution that is Amazon&lt;/h2>
+&lt;ol>
+&lt;li>Retail Revolution&lt;/li>
+&lt;li>Saves Time, Effort and Novelity with Modernized Retail&lt;/li>
+&lt;li>Looking ahead of Retail evolution&lt;/li>
+&lt;/ol>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/M1TQp1CcjZk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="ai-in-commerce-d-dlmalls-e-commerce">AI in Commerce D: DLMalls e-commerce&lt;/h2>
+&lt;ol>
+&lt;li>Amazon sellers&lt;/li>
+&lt;li>Rise of Shopify&lt;/li>
+&lt;li>Selling Products on Amazon&lt;/li>
+&lt;/ol>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/kaZaxn5aHaE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="ai-in-commerce-e-recommender-engines-digital-media">AI in Commerce E: Recommender Engines, Digital media&lt;/h2>
+&lt;ol>
+&lt;li>Spotify recommender engines&lt;/li>
+&lt;li>Collaborative Filtering&lt;/li>
+&lt;li>Audio Modelling&lt;/li>
+&lt;li>DNN for Recommender engines&lt;/li>
+&lt;/ol>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/pY1KZu7EOn0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div></description></item><item><title>Docs: Python Warm Up</title><link>/docs/modules/ai-first/2021/python_initial/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/ai-first/2021/python_initial/</guid><description>
+&lt;h2 id="python-exercise-on-google-colab">Python Exercise on Google Colab&lt;/h2>
+&lt;div class="aside">
+&lt;table style="width:100%">
+&lt;tr>
+&lt;td>&lt;a href="https://colab.research.google.com/github/cybertraining-dsc/cybertraining-dsc.github.io/blob/master/content/en/modules/notebooks/python_warmup.ipynb" target="_parent">&lt;img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/blob/master/content/en/modules/notebooks/python_warmup.ipynb" target="_parent">&lt;img src="https://www.tensorflow.org/images/GitHub-Mark-32px.png" alt=""/> View in Github&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://raw.githubusercontent.com/cybertraining-dsc/cybertraining-dsc.github.io/master/content/en/modules/notebooks/python_warmup.ipynb" target="_parent">&lt;img src="https://www.tensorflow.org/images/download_logo_32px.png" alt=""/>&lt;/a> Download Notebook&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;/div>
+&lt;p>In this exercise, we will take a look at some basic Python Concepts needed for
+day-to-day coding.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/x1ICvWDlvB0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>Check the installed Python version.&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#a40000">!&lt;/span> &lt;span style="color:#000">python&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">--&lt;/span>&lt;span style="color:#000">version&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>Python 3.7.6
+&lt;/code>&lt;/pre>
+&lt;h2 id="simple-for-loop">Simple For Loop&lt;/h2>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">for&lt;/span> &lt;span style="color:#000">i&lt;/span> &lt;span style="color:#204a87;font-weight:bold">in&lt;/span> &lt;span style="color:#204a87">range&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">10&lt;/span>&lt;span style="color:#000;font-weight:bold">):&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">print&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">i&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+&lt;/code>&lt;/pre>
+&lt;h2 id="list">List&lt;/h2>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">list_items&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;a&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;b&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;c&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;d&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;e&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="retrieving-an-element">Retrieving an Element&lt;/h3>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">list_items&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">2&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>'c'
+&lt;/code>&lt;/pre>
+&lt;h3 id="append-new-values">Append New Values&lt;/h3>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">list_items&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">append&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;f&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">list_items&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>['a', 'b', 'c', 'd', 'e', 'f']
+&lt;/code>&lt;/pre>
+&lt;h3 id="remove-an-element">Remove an Element&lt;/h3>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">list_items&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">remove&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;a&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">list_items&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>['b', 'c', 'd', 'e', 'f']
+&lt;/code>&lt;/pre>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/oudT4sRIuwU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="dictionary">Dictionary&lt;/h2>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">dictionary_items&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;a&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">1&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;b&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">2&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;c&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">3&lt;/span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="retrieving-an-item-by-key">Retrieving an Item by Key&lt;/h3>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">dictionary_items&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;b&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>2
+&lt;/code>&lt;/pre>
+&lt;h3 id="append-new-item-with-key">Append New Item with Key&lt;/h3>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">dictionary_items&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;c&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">4&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">dictionary_items&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>{'a': 1, 'b': 2, 'c': 4}
+&lt;/code>&lt;/pre>
+&lt;h3 id="delete-an-item-with-key">Delete an Item with Key&lt;/h3>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">del&lt;/span> &lt;span style="color:#000">dictionary_items&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;a&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">dictionary_items&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>{'b': 2, 'c': 4}
+&lt;/code>&lt;/pre>
+&lt;h2 id="comparators">Comparators&lt;/h2>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">x&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">10&lt;/span>
+&lt;span style="color:#000">y&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">20&lt;/span>
+&lt;span style="color:#000">z&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">30&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">x&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;gt;&lt;/span> &lt;span style="color:#000">y&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>False
+&lt;/code>&lt;/pre>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">x&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;lt;&lt;/span> &lt;span style="color:#000">z&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>True
+&lt;/code>&lt;/pre>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">z&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">==&lt;/span> &lt;span style="color:#000">x&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>False
+&lt;/code>&lt;/pre>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000">x&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;lt;&lt;/span> &lt;span style="color:#000">z&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">print&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;This is True&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>This is True
+&lt;/code>&lt;/pre>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000">x&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;gt;&lt;/span> &lt;span style="color:#000">z&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">print&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;This is True&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">else&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">print&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;This is False&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>This is False
+&lt;/code>&lt;/pre>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/GKU6-SNZGQc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="arithmetic">Arithmetic&lt;/h2>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">k&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">x&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">*&lt;/span> &lt;span style="color:#000">y&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">*&lt;/span> &lt;span style="color:#000">z&lt;/span>
+&lt;span style="color:#000">k&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>6000
+&lt;/code>&lt;/pre>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">j&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">x&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">+&lt;/span> &lt;span style="color:#000">y&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">+&lt;/span> &lt;span style="color:#000">z&lt;/span>
+&lt;span style="color:#000">j&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>60
+&lt;/code>&lt;/pre>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">m&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">x&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">-&lt;/span>&lt;span style="color:#000">y&lt;/span>
+&lt;span style="color:#000">m&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>-10
+&lt;/code>&lt;/pre>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">n&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">x&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">/&lt;/span> &lt;span style="color:#000">z&lt;/span>
+&lt;span style="color:#000">n&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>0.3333333333333333
+&lt;/code>&lt;/pre>
+&lt;h2 id="numpy">Numpy&lt;/h2>
+&lt;h3 id="create-a-random-numpy-array">Create a Random Numpy Array&lt;/h3>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">numpy&lt;/span> &lt;span style="color:#204a87;font-weight:bold">as&lt;/span> &lt;span style="color:#000">np&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">a&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">np&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">random&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">rand&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">100&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000">a&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">shape&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>(100,)
+&lt;/code>&lt;/pre>
+&lt;h3 id="reshape-numpy-array">Reshape Numpy Array&lt;/h3>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">b&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">a&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">reshape&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">10&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">10&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000">b&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">shape&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>(10, 10)
+&lt;/code>&lt;/pre>
+&lt;h3 id="manipulate-array-elements">Manipulate Array Elements&lt;/h3>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">c&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">b&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">*&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">10&lt;/span>
+&lt;span style="color:#000">c&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">0&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>array([3.33575458, 7.39029235, 5.54086921, 9.88592471, 4.9246252 ,
+1.76107178, 3.5817523 , 3.74828708, 3.57490794, 6.55752319])
+&lt;/code>&lt;/pre>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">c&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">np&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">mean&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">b&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>&lt;span style="color:#000">axis&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">1&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000">c&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">shape&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>10
+&lt;/code>&lt;/pre>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">print&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">c&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>[0.60673061 0.4223565 0.42687517 0.6260857 0.60814217 0.66445627
+0.54888432 0.68262262 0.42523459 0.61504903]
+&lt;/code>&lt;/pre></description></item></channel></rss>
