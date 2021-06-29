@@ -60,7 +60,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="Energy Consumption"
+  title="Cyber Attacks Detection Using AI Algorithms"
   author="Victor Adankai"
   hid= "su21-reu-365"
   %}}
