@@ -34,7 +34,7 @@ reu-add:
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-365.git
 
 add: reu-add
-	#cd content/en/report; git submodule add git@github.com:cloudmesh/cloudmesh-openapi.git
+	cd content/en/report; git submodule add git@github.com:cloudmesh/cloudmesh-openapi.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/fa20-523-301.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/fa20-523-302.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/fa20-523-304.git

@@ -190,3 +190,6 @@
 [submodule "content/en/report/su21-reu-378"]
 	path = content/en/report/su21-reu-378
 	url = git@github.com:cybertraining-dsc/su21-reu-378.git
+[submodule "content/en/report/cloudmesh-openapi"]
+	path = content/en/report/cloudmesh-openapi
+	url = git@github.com:cloudmesh/cloudmesh-openapi.git
