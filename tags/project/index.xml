@@ -90,7 +90,7 @@
 &lt;/ol>
 &lt;h1 id="troubleshooting">Troubleshooting&lt;/h1>
 &lt;h2 id="incorrect-python-version-on-command-prompt">Incorrect Python Version on Command Prompt&lt;/h2>
-&lt;p>If the computer has installed an older version of Python, running &lt;code>python --version&lt;/code> on Command Prompt may output an older version. Typing &lt;code>python3 --version&lt;/code> may output the correct, latest version.&lt;/p></description></item><item><title>Report: Detection of Cyber Attacks on IoT Devices Using Deep Learning</title><link>/report/su21-reu-365/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-365/project/</guid><description>
+&lt;p>If the computer has installed an older version of Python, running &lt;code>python --version&lt;/code> on Command Prompt may output an older version. Typing &lt;code>python3 --version&lt;/code> may output the correct, latest version.&lt;/p></description></item><item><title>Report: Cyber Attacks Detection Using AI Algorithms</title><link>/report/su21-reu-365/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-365/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-365/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-365/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-365/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-365/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
@@ -112,7 +112,6 @@ Status: draft, Type: Project&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#convolutional-neural-network-cnn">Convolutional Neural Network (CNN)&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#2-datasets">2. Datasets&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#4-benchmark">4. Benchmark&lt;/a>&lt;/li>
@@ -123,7 +122,7 @@ Status: draft, Type: Project&lt;/p>
 &lt;/nav>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> AI, ML, DL, Cybersecurity, Cyber Attacks, IoT.&lt;/p>
+&lt;p>&lt;strong>Keywords:&lt;/strong> AI, ML, DL, Cybersecurity, Cyber Attacks.&lt;/p>
 &lt;h2 id="1-introduction">1. Introduction&lt;/h2>
 &lt;ul>
 &lt;li>Find literature about AI and Cyber Attacks on IoT Devices Dectection.&lt;/li>
@@ -147,9 +146,7 @@ Status: draft, Type: Project&lt;/p>
 &lt;/ul>
 &lt;h4 id="examples-of-ai-algorithms-for-cyber-attacks-detection">Examples of AI Algorithms for Cyber Attacks Detection&lt;/h4>
 &lt;ul>
-&lt;li>
-&lt;h2 id="convolutional-neural-network-cnn">Convolutional Neural Network (CNN)&lt;/h2>
-&lt;/li>
+&lt;li>Convolutional Neural Network (CNN)&lt;/li>
 &lt;li>Autoencoder (AE)&lt;/li>
 &lt;li>Deep Belief Network (DBN)&lt;/li>
 &lt;li>Recurrent Neural Network (RNN)&lt;/li>
@@ -217,7 +214,7 @@ Status: draft, Type: Project&lt;/p>
 &lt;/nav>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;p>&lt;strong>Keywords:&lt;/strong> Dentronics, neural pathways, prosthodotics.&lt;/p>
 &lt;h2 id="1-introduction">1. Introduction&lt;/h2>
 &lt;ul>
 &lt;li>&lt;input disabled="" type="checkbox"> Find literature about Dentronics and its effects&lt;/li>
@@ -281,7 +278,7 @@ Status: draft, Type: Project&lt;/p>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> No abbrevations in title e.g. EOS&lt;/li>
 &lt;/ul>
 &lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Blockchain-based cryptocurrency is a popular investment of today&amp;rsquo;s age. However, the U.S. Securities and Exchange Commission warns that high-risk accompanies these investments[^1]. This project applies machine learning and Artificial Intelligence (AI) to historical records of these coins to predict future prices; this aims to minimize investment risk.&lt;/p>
 &lt;p>Contents&lt;/p>
 &lt;div class="toc">
 &lt;nav id="TableOfContents">
@@ -320,14 +317,12 @@ Status: draft, Type: Project&lt;/p>
 &lt;p>An attractive new invention such as blockchain is a particularly desirable investment opportunity. However, its severe volatility can scare away possible investors; in 2017, one Bitcoin was worth $1,000 USD; a year later, its value multiplied by 20; and just a few months later, it decreased back down to $5,000&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>.&lt;/p>
 &lt;p>Artificial intelligence will be applied in this experiment to predict the future price of blockchain cryptocurrencies on the Electro-Optical System.&lt;/p>
 &lt;h2 id="2-datasets">2. Datasets&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Find online price checker and rip/scalp prices&lt;/li>
-&lt;/ul>
+&lt;p>This project utilizes a .csv file containing the historical prices of the EOS coin from the first day of its inception on 1 July 2017, to the last scraped day 12 December 2020&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>. From this data, the project will attempt to predict the prices from the end date until the present day.&lt;/p>
 &lt;h2 id="3-using-images">3. Using Images&lt;/h2>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/eos_price.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Line graph of EOS price from 1 July 2017 til 12 December 2020. Generated using timeseries_generator.ipynb located in project/code.&lt;/p>
 &lt;h2 id="4-benchmark">4. Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common&lt;/p>
 &lt;h2 id="5-conclusion">5. Conclusion&lt;/h2>
 &lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
 &lt;h2 id="6-acknowledgments">6. Acknowledgments&lt;/h2>
@@ -346,6 +341,10 @@ the first square bracket.&lt;/p>
 &lt;li id="fn:2" role="doc-endnote">
 &lt;p>Jeremy Swinfen Green, Understanding cryptocurrency market fluctuations, [Online resource]
 &lt;a href="https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/">https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3" role="doc-endnote">
+&lt;p>Mehmet Tarik Akcay, Historical Data for Top 20 Coins by Market Cap, [Online resource]
+&lt;a href="https://www.kaggle.com/mtakcy/historical-data-for-top-20-coins-by-market-cap?select=eos.csv">https://www.kaggle.com/mtakcy/historical-data-for-top-20-coins-by-market-cap?select=eos.csv&lt;/a> &lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item><item><title>Report:</title><link>/report/hid-example/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/hid-example/project/</guid><description>
@@ -562,7 +561,7 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report: AI in Healthcare</title><link>/report/su21-reu-362/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-362/project/</guid><description>
+&lt;/section></description></item><item><title>Report: Breast Cancer and Genetics</title><link>/report/su21-reu-362/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-362/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-362/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-362/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-362/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-362/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
@@ -578,10 +577,11 @@ Status: draft, Type: Project&lt;/p>
 &lt;li>&lt;a href="#2-datasets">2. Datasets&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#5-example-of-an-ai-algorithm-in-healthcare">5. Example of an AI algorithm in Healthcare&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-datasets">6. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-benchmark">7. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-conclusion">8. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-acknowledgments">9. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#10-references">10. References&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/nav>
 &lt;/div>
@@ -620,16 +620,18 @@ the download function.&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> Write the program&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> Verify that it works&lt;/li>
 &lt;/ul>
-&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;h2 id="6-datasets">6. Datasets&lt;/h2>
+&lt;p>The dataset contains target sequencing data for about 1680 patients with breast cancer.&lt;/p>
+&lt;h2 id="7-benchmark">7. Benchmark&lt;/h2>
 &lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
-&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;h2 id="8-conclusion">8. Conclusion&lt;/h2>
 &lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
-&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;h2 id="9-acknowledgments">9. Acknowledgments&lt;/h2>
 &lt;ul>
 &lt;li>&lt;input disabled="" type="checkbox"> Gregor guided me through this process
 Please add acknowledgments to all that contributed or helped on this project.&lt;/li>
 &lt;/ul>
-&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;h2 id="10-references">10. References&lt;/h2>
 &lt;ul>
 &lt;li>&lt;input disabled="" type="checkbox"> Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
 one point automatically change the references from superscript to square brackets it is best to introduce a space before
@@ -1229,7 +1231,7 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report: Project: Analysing Images</title><link>/report/su21-reu-372/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-372/project/</guid><description>
+&lt;/section></description></item><item><title>Report: Project: Analysing Hashimoto disease causes using AI</title><link>/report/su21-reu-372/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-372/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-372/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-372/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-372/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-372/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
@@ -1309,6 +1311,9 @@ at the beginning of your project.&lt;/p>
 &lt;li>When using bulleted lists use * and not -&lt;/li>
 &lt;/ol>
 &lt;h2 id="5-datasets">5. Datasets&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Querying the datasets of womans with hashimoto diaseas in an are of 3 cities @data.world&lt;/li>
+&lt;/ul>
 &lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
 However, if the data is publicly available you program must contain a download function instead that you customize.
 Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
@@ -1653,9 +1658,115 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-378/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-378/project/</guid><description>
+&lt;/section></description></item><item><title>Report: Project: Analysis of Autism in three different cities using AI</title><link>/report/su21-reu-378/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-378/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Myra Saunders, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378">su21-reu-378&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Analyzing respiratory factors at birth that can lead to autism in African Americans&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Do not include this tip in your document:&lt;/p>
+&lt;blockquote>
+&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Here comes a convincing introduction to the problem&lt;/p>
+&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
+&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
+set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
+bound into cybertraining.&lt;/p>
+&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
+&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
+Thus the following is wrong:&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+This author does ignore proper markdown while not using empty lines between context changes
+1. This is because this author ignors all best practices
+&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+We do not ignore proper markdown while using empty lines between context changes
+1. This is because we encourage best practices to cause issues.
+&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
+&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
+We will not review any document that does not pass this check.&lt;/p>
+&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
+&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
+comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
+&lt;ol>
+&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
+&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
+&lt;/ol>
+&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
+&lt;p>You have two choices for the final project.&lt;/p>
+&lt;ol>
+&lt;li>Project, That is a final report that includes code.&lt;/li>
+&lt;li>Report, that is a final project without code.&lt;/li>
+&lt;/ol>
+&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
+at the beginning of your project.&lt;/p>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
+&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
+&lt;ol>
+&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
+&lt;li>When using bulleted lists use * and not -&lt;/li>
+&lt;/ol>
+&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Querying the dataset autism prevalence studies summary with an area of three cities @data.world&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Find a similar dataset in kaggle.com&lt;/li>
+&lt;/ul>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-379/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-379/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-379/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-379/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-379/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-379/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
 &lt;p>RonDaisja Dunn, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378">su21-reu-378&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
@@ -9236,373 +9347,6 @@ platform Twitter as a way to convey his message to the American people. The twee
 &lt;/li>
 &lt;li id="fn:5" role="doc-endnote">
 &lt;p>Bryan, B., The government shutdown is now the longest on record and the fight between Trump and Democrats is only getting uglier. Here&amp;rsquo;s everything you missed. 21-Jan-2019. [online]. Available at: &lt;a href="https://www.businessinsider.com/government-shutdown-timeline-deadline-trump-democrats-2019-1">https://www.businessinsider.com/government-shutdown-timeline-deadline-trump-democrats-2019-1&lt;/a>. &lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: Trending Youtube Videos Analysis</title><link>/report/fa20-523-327/project/project/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/fa20-523-327/project/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/fa20-523-327/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-327/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/fa20-523-327/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-327/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: final, Type: Project&lt;/p>
-&lt;p>Adam Chai, fa20-523-327
-&lt;a href="https://github.com/cybertraining-dsc/fa20-523-327/blob/main/project/project.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>The internet has created a revolution for how people connect, understand topics, and consume information. Today, the consumption of the media is easier than ever. Going onto the internet and finding interesting content takes less than a minute to do. In the already growing industry of amateur or professional video production, Youtube is one of many go-to platforms for viewers and creators to collide. Social media creates an avenue for Youtubers to help promote their videos and reach a wider audience. For hours on end, viewers can watch nearly any type of content uploaded onto the site. However, it is harder for video creators to make an interesting video any person can enjoy than a viewer to find one of those videos. In the congested mass of videos, how can a Youtuber create a unique identity allowing their videos to go viral? This report will address this issue by creating a prediction of how Youtube popularizes a video and a solution to help a video go viral.&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-background-research-and-previous-work">2. Background Research and Previous Work&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-choice-of-data-set">3. Choice of Data-set&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4data-preprocessing">4.Data Preprocessing&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-model-creation-and-methodology">5. Model Creation and Methodology&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-insights">6. Insights&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#7-benchmarks">7. Benchmarks&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-conclusion">8. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#81-limitations">8.1 Limitations&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-acknowledgments">9. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#10-references">10. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> youtube, videos, trending, popular, big data, viral, content creation, entertainment, lifestyle&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Youtube has two billion monthly active users making it the second-largest social network behind Facebook &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. This statistic only accounts for users that login into their Google account while they watch a Youtube video. Hinting, there can be hundreds of millions of more people watching Youtube. Youtube&amp;rsquo;s primary feature during release was to allow anyone to upload videos so the world can watch it. This function has changed drastically throughout the years and turned Youtube into the epicenter for anything to upload a video. Businesses, schools, and even governments are fully invested in Youtube to help promote their content for their respective benefits. Today, being a Youtuber is a respected profession allowing anyone the opportunity to showcase their talent in content production. Youtube is changing the world by exposing their users to the content they would have never experience in person.&lt;/p>
-&lt;p>This report will investigate trending Youtube videos. Specifically, the report will be using a trending Youtube videos dataset (US only) and will be used to predict how a video will trend on Youtube. Trending videos on Youtube are aimed to surface videos to a wide range of audience who will find interesting. Some content inherently cannot be added to the trending section such as videos primarily containing guns, drugs, etc. There are a lot of hypothesis people created to understand the Youtube algorithm, and the Google Staff has hinted what will make a video trend,&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>Are appealing to a wide range of viewers&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Are not misleading, cickbaity, or sensational&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Capture the breadth of what&amp;rsquo;s happening on YouTube and in the world&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Showcase a diversity of creators&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Ideally, are surprising or novel&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;p>but these criteria Youtube has set are not well defined&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. Meaning, the determinants, and weights for how a Youtube video will trend will not be explicitly stated and it is up for Youtubers to interpret what exactly will allow their video to trend. In fact, Youtubers have argued the loose standard Youtube created is not true at all. Youtubers are constantly attempting to crack this code, evolving and purposely tailoring their videos in hopes it will go viral. Creating Youtube videos appealing to a wide audience is difficult. It takes enormous creativity and dedication for a random person to enjoy a video found online. Most people on Youtube have specific interests and follow certain industries, however; anyone can appreciate an entertaining video.&lt;/p>
-&lt;h2 id="2-background-research-and-previous-work">2. Background Research and Previous Work&lt;/h2>
-&lt;p>After reviewing other background literature and works from other authors within this field, many people have ventured into how a video will be popular on Youtube. Most findings online consist of analysis or unique findings for popular videos. Several people have researched to predict if a video will be popular (views) on Youtube but do not cover the scope if it will reach the trending section on Youtube. Other analysis includes likes/dislikes predictor, comment creator, title scorer, and many more. Additionally, there has been analysis done on topics that are similar to Youtube which can be applied in this instance. A combination of these findings can be helpful and lead this research in the right direction.&lt;/p>
-&lt;h2 id="3-choice-of-data-set">3. Choice of Data-set&lt;/h2>
-&lt;p>To understand what determines if a video will trend on Youtube the dataset chosen for this project is a trending Youtube videos dataset (US)&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>. Meaning all videos within the dataset are uploaded from the US and reached the trending section on Youtube. The dataset was retrieved from the popular data science website, Kaggle. The dataset chosen is one of the most popular datasets available on Kaggle and many people have analyzed it. The dataset is known for being readable and having a high usability score.&lt;/p>
-&lt;p>The Trending Youtube dataset contains 40,949 entries and 16 labels covering the basic information of a trending Youtube video.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Label&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>video_id&lt;/td>
-&lt;td>unique video id&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>trending_date&lt;/td>
-&lt;td>the date when a video trended on Youtube&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>title&lt;/td>
-&lt;td>title of the video&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>channel_title&lt;/td>
-&lt;td>name of the channel that created the video&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>category_id&lt;/td>
-&lt;td>category of video&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>publish_time&lt;/td>
-&lt;td>time and date when the video was uploaded&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>tags&lt;/td>
-&lt;td>keywords associated with the video&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>views&lt;/td>
-&lt;td>the number of views a video has&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>likes&lt;/td>
-&lt;td>the number of likes a video has&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>dislikes&lt;/td>
-&lt;td>the number of dislikes a video has&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>comment_count&lt;/td>
-&lt;td>the amount of comments commented&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>thumbnail_link&lt;/td>
-&lt;td>link to thumbnail picture&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>comments_disabled&lt;/td>
-&lt;td>boolean variable for allowing comments&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>ratings_disabled&lt;/td>
-&lt;td>boolean variable for allowing ratings (likes, dislikes)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>video_error_or_removed&lt;/td>
-&lt;td>boolean variable if a video is still available&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>description&lt;/td>
-&lt;td>the description of the video&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>A combination of these labels will be used in creating a model to discover how a video will trend on Youtube. The drawbacks of using this dataset are various labels are not covered such as the number of subscribers a channel has or the likelihood of someone that sees the video will click on it and older data is being used (all videos were uploaded and trended between 2017 and 2018).&lt;/p>
-&lt;h2 id="4data-preprocessing">4.Data Preprocessing&lt;/h2>
-&lt;p>All work done on this project was completed through Google Colab. Once the dataset is imported from Kaggle onto Google Colab data preprocessing is necessary to translate the raw data into a readable format. Pandas and Datetime are used for data preprocessing.&lt;/p>
-&lt;p>To begin there are several labels which can be taken out of the model as they do not appear relevant or cannot be run through the model:&lt;/p>
-&lt;ul>
-&lt;li>video_id: this label is a unique identifier for each video not necessary to use&lt;/li>
-&lt;li>title: could not be translated into a numerical value&lt;/li>
-&lt;li>channel_title: could not be translated into a numerical value&lt;/li>
-&lt;li>tags: many tags appear to be irrelevant to the actual video therefore this will be taken out&lt;/li>
-&lt;li>thumbnail_link: cannot be run through the model&lt;/li>
-&lt;li>description: irrelevant for most videos, does not add value descriptions it appears to promote their channel and sponsors&lt;/li>
-&lt;/ul>
-&lt;p>To address duplicates within the dataset after checking all records there are no duplicates within the dataset, except for empty descriptions. After removing descriptions from the dataset duplicates will no longer be an issue.&lt;/p>
-&lt;p>Several labels need to be converted into an integer so they can be run through the model:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>trending_date&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>publish_time&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>comments_disabled&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>ratings_disabled&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>video_error_or_removed&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;p>Pandas reads the trending_date and publish_time labels as objects which need to be changed to integer values. To convert date columns the data type first needs to be converted into datetime. After conversion, another datetime function will be used to separate the month, day, and year into their columns.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-327/raw/main/project/images/figure1.png" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Converting into Dates&lt;/p>
-&lt;p>Next, the comments disabled, ratings disbaled, and video error or removed can be easily converted with an easy function from their boolean values into 1 or 0 values.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-327/raw/main/project/images/figure2.png" alt="Figure 2">&lt;/p>
-&lt;p>&lt;strong>Figure 2:&lt;/strong> Converting boolean variables into 1 or 0&lt;/p>
-&lt;h2 id="5-model-creation-and-methodology">5. Model Creation and Methodology&lt;/h2>
-&lt;p>There are various ways this model can be built but this project follows the documentation on Scikit-learn. After researching successful methods the model built for this project will be using Scikit-learn Decision Tree and Random Forest. Decision Tree can be used as a multiple regression with a tree-like structure since there is an unlimited number of layers, the decision tree can achieve high accuracy and cause an overfitting problem. Random Forest will randomly select samples and features to train different trees and averages the score of different trees therefore reducing overfitting &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>To begin model creation the 80/20, Train/Test Ratio will be used to create the model. In computing, the Pareto Principle is a safe and common approach for model creation&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>. To determine the accuracy of the model an explained variance score will be applied to determine accuracy. Explained variance is the measure of discrepancy between a model and actual data &lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>. The best possible score is 1.0 meaning there is a stronger strength of association. When creating the model it is important to check if there are highly correlated predictors in the model or else the possibility of multicollinearity can occur. To find highly correlated variables Pearson&amp;rsquo;s correlation coefficient can be used. Correlation coefficients are used to measure how strong a relationship is between two variables &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>. A value of one indicates a strong positive relationship whereas a negative one indicates a strong negative relationship.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-327/raw/main/project/images/figure3.png" alt="Figure 3">&lt;/p>
-&lt;p>&lt;strong>Figure 3:&lt;/strong> Pearson&amp;rsquo;s Correlation Graph&lt;/p>
-&lt;p>When looking at the model it is clear there is a high correlation between likes, dislikes, category_id, and comment_count. Other highly correlated variables to each other include comments_disabled and ratings_disabled, and dates. What this means are videos that disable comments are also likely to disable ratings. The correlation between dates can infer how quickly popular videos will likely trend on Youtube. Assuming the rest of the labels were not necessary or are not optimal the first decision tree and random forest model created consists of the labels likes, dislikes, and comment_count. After scoring the explained variance score the model fell scores around .9.&lt;/p>
-&lt;p>After going through combinations of labels, when the models had every label it produced the highest explained variance score of around .96. This score is a good result and could mean the models created are very accurate. The reason for a higher explained variance score can be the dates are important if a video will trend. For the visualization, Figure 4 illustrates the relationship between predicted and actual values for views. When examining the image the predicted values are nearly overlapping the actual values. It is very hard to tell any differences. Several discrepancies shown in the image are an over-prediction early within the model and near the end. Although there are over predictions it still closely follows actual values.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-327/raw/main/project/images/figure4.png" alt="Figure 4">&lt;/p>
-&lt;p>&lt;strong>Figure 4:&lt;/strong> Predicted vs. Actual Values Graph&lt;/p>
-&lt;h2 id="6-insights">6. Insights&lt;/h2>
-&lt;p>Looking back at Youtube&amp;rsquo;s trending section dividing the dataset into category ids is necessary to discover what content Youtube defines as widely appealing. The figures below show the count of videos in each category and the top 10 categories.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:center">&lt;strong>Figure 5:&lt;/strong> Count of videos in each Category&lt;/th>
-&lt;th style="text-align:center">&lt;strong>Figure 6:&lt;/strong> Top 10 Categories&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:center">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-327/raw/main/project/images/figure5.png" alt="Figure 5">&lt;/td>
-&lt;td style="text-align:center">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-327/raw/main/project/images/figure6.png" alt="Figure 6">&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>Category ID List&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Category ID&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Film &amp;amp; Animation&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>10&lt;/td>
-&lt;td>Music&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>17&lt;/td>
-&lt;td>Pets &amp;amp; Animals&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>22&lt;/td>
-&lt;td>People &amp;amp; Blogs&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>23&lt;/td>
-&lt;td>Comedy&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>24&lt;/td>
-&lt;td>Entertainment&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>25&lt;/td>
-&lt;td>News &amp;amp; Politics&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>26&lt;/td>
-&lt;td>Howto &amp;amp; Style&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>27&lt;/td>
-&lt;td>Education&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>28&lt;/td>
-&lt;td>Science &amp;amp; Technology&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>The full list of category IDs can be found &lt;a href="https://gist.github.com/dgp/1b24bf2961521bd75d6c">HERE&lt;/a> &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>&lt;/p>
-&lt;p>When diving deeper into the dataset there are clear preferences for videos under certain categories. Entertainment, Music, and Howto &amp;amp; Style categories dominate the trend for categories. This can be an indicator of Youtube&amp;rsquo;s preference for the type of content they want to mainstream on the website.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:center">&lt;strong>Figure 8:&lt;/strong> Entertainment Videos&lt;/th>
-&lt;th style="text-align:center">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-327/raw/main/project/images/figure8.png" alt="Figure 8">&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:center">&lt;strong>Figure 9:&lt;/strong> Music Videos&lt;/td>
-&lt;td style="text-align:center">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-327/raw/main/project/images/figure8.png" alt="Figure 9">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">:&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;:&lt;/td>
-&lt;td style="text-align:center">:&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-:&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">&lt;strong>Figure 10:&lt;/strong> Howto &amp;amp; Style Videos!&lt;/td>
-&lt;td style="text-align:center">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-327/raw/main/project/images/figure10.png" alt="Figure 10">&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>The figures shown are the first three results of a video within their category. Taking a look at the title and comparing them to their category description several videos appear to not fit within their category. The guidelines for the entertainment and howto &amp;amp; style categories do not have set criteria. However, the music category explicitly shows videos based on music most videos under music are music videos from popular artists.&lt;/p>
-&lt;p>An important task to understand how Youtube picks videos to trend on Youtube is to discover how many channels have trended on Youtube.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Channel Title&lt;/th>
-&lt;th>Number of trended videos&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>ESPN&lt;/td>
-&lt;td>203&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>The Tonight Show Starring Jimmy Fallon&lt;/td>
-&lt;td>197&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Vox&lt;/td>
-&lt;td>193&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>TheEllenShow&lt;/td>
-&lt;td>193&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Netflix&lt;/td>
-&lt;td>193&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>The Late Show with Stephen Colbert&lt;/td>
-&lt;td>187&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Jimmy Kimmel Live&lt;/td>
-&lt;td>186&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Late Night with Seth Meyers&lt;/td>
-&lt;td>183&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Screen Junkies&lt;/td>
-&lt;td>182&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>NBA&lt;/td>
-&lt;td>181&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>Many channels can consistently reach the trending section on a weekly basis. There were 2207 unique channels within the dataset that trended on Youtube. The number of unique channels trending on shows Youtube tries to diversify and promote unique channels on the trending section.&lt;/p>
-&lt;p>Other insights discovered are the average ratio between likes to dislikes for a trending Youtube video is 20:1. This means for every dislike there are twenty likes. A ratio this skewed is important to consider for a popular video because it is hard to reach this ratio. Additionally, the average views for a trending video are about 2.3 million views while the average number of comments for a video is 8.4 thousand. A combination of weights of these three statistics can contribute if a video will reach the trending section.&lt;/p>
-&lt;p>To discover if these insights hold truth comparison of a random video will be selected.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-327/raw/main/project/images/figure11.png" alt="Figure 11">&lt;/p>
-&lt;p>&lt;strong>Figure 11:&lt;/strong> Randomly Selected Video&lt;/p>
-&lt;p>The amount of views the video has does not surpass the two million mark but the ratio of likes and dislikes holds at 32:1. The category for the video is music and the amount of comments is far below the average threshold at 1690. Although this video is not reaching certain criteria the ratio of likes to dislikes seems to outweigh the other averages. This signifies a combination of all requirements is important but if any indicator far exceeds the average for the other categories Youtube will allow the video to reach the trending section.&lt;/p>
-&lt;h2 id="7-benchmarks">7. Benchmarks&lt;/h2>
-&lt;p>The performance measures for this program were done through Cloudmesh StopWatch and Benchmark&lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup>. The instances where the benchmark was measured include loading the dataset, data preparation, timing each model, and the overral code execution. To clarify the performance measures for the program will time how fast sections of code are running through the system.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-327/raw/main/project/images/figure7.png" alt="Figure 7">&lt;/p>
-&lt;p>&lt;strong>Figure 7:&lt;/strong> Benchmarks&lt;/p>
-&lt;p>When inspecting the results for the tests, Model 1 took 15 seconds to complete while the final model took 24 seconds. Model 1 contained 4 labels while the final model had 13. By increasing the number of labels there are in the model there is a 62.5% increase in time for execution. The overral code execution took 50 seconds to run which shows the models are RAM intensive meaning it takes a lot of time for the calculations to execute.&lt;/p>
-&lt;h2 id="8-conclusion">8. Conclusion&lt;/h2>
-&lt;p>The results indicate engagement from viewers is vital for a video to trend on Youtube. For any video to trend viewers need to like, comment, and even dislike allowing more people to become aware of a video. Videos featuring obscure or illicit content, ie. drugs, guns, nudity, etc., cannot reach the trending section on Youtube because it cannot appeal to a wide range of audiences. Youtube promotes and encourages content any viewer can watch. Several categories such as entertainment, music, and howto &amp;amp; style are some of the most popular categories on Youtube allowing most videos to upload through these categories. Many Youtube channels once they reach the trending section can stay consistent allowing their other videos to have a higher chance of trending. Many Youtube channels adapted to this model producing video content in a similar manner to help reach the trending section. This brings up a flaw within the model of the Youtube trending section. Youtubers are continuously producing content that had success within the past contradicting an important aspect of the trending section stating videos are, &amp;ldquo;Ideally, are surprising or novel.&amp;rdquo; Various successful channels like ESPN, The Tonight Show, or Netflix are producing videos that are unique but individually are very similar to each other. If a Youtuber is seeking consistent views, producing unique videos until one is successful will help other videos if the content is similar to the successful one. Ultimately, engaging viewer interaction and producing generally accepting content for a Youtuber can increase the likelihood their videos will reach the trending section.&lt;/p>
-&lt;h2 id="81-limitations">8.1 Limitations&lt;/h2>
-&lt;p>Although this current work brings substantial analysis and understanding of this topic the model could be improved in several ways. First, the dataset being used is missing various fields that can impact the likelihood a video will trend such as the number of subscribers a channel has, the number of people that see the video but do not click on the video, and does that channel promote ads on Youtube for viewers to check out the channel. The number of subscribers is available to scrape but the other two fields are sensitive information not accessible to the public. It can be important to have this information because Youtube can prioritize channels uploading content under categories they want to surface or if they pay Youtube to surface their channel. Youtube might be giving private information to help Youtubers become successful. As stated earlier the dataset being used is a couple of years old and the way Youtube promotes videos could have changed within the time frame. Within several years generally accepting content can change. Another limiting factor is the dataset being used only contains videos uploaded within the US meaning it does not account for videos uploaded worldwide. Youtube can prioritize certain content through select regions or this could be meaningless if Youtube promotes the same content throughout the world. The final limitation of this report was not being able to score Youtube video titles and thumbnails. Within Youtube&amp;rsquo;s criteria for popular videos that appear as clickbait will not trend on Youtube. This entails titles and/or thumbnails must have ratings Youtube scores so it does not allow clickbait to surface. Other limitations can include incorrect scrapping and videos that were about to trend. These are various limitations this report faces, however; once this class is over these will be addressed.&lt;/p>
-&lt;h2 id="9-acknowledgments">9. Acknowledgments&lt;/h2>
-&lt;p>Adam Chai would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and the associate instructors in the &lt;em>FA20-BL-ENGR-E534-11530: Big Data Applications&lt;/em> course (offered in the Fall 2020 semester at Indiana University, Bloomington) for their continued assistance and suggestions with regard to exploring this idea and also for their aid with preparing the various drafts of this article.&lt;/p>
-&lt;h2 id="10-references">10. References&lt;/h2>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Moshin, Maryam. 10 Youtube Statistics, Oberlo &lt;a href="https://www.oberlo.com/blog/youtube-statistics#:~:text=YouTube%20has%202%20billion%20users,users%20than%20YouTube%20is%20Facebook.">https://www.oberlo.com/blog/youtube-statistics#:~:text=YouTube%20has%202%20billion%20users,users%20than%20YouTube%20is%20Facebook.&lt;/a>[Accessed Dec 7, 2020] &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>Google Staff, Trending on Youtube, Google. &lt;a href="https://support.google.com/youtube/answer/7239739?hl=en#:~:text=Trending%20helps%20viewers%20see%20what's,surprising%2C%20like%20a%20viral%20video.">https://support.google.com/youtube/answer/7239739?hl=en#:~:text=Trending%20helps%20viewers%20see%20what's,surprising%2C%20like%20a%20viral%20video.&lt;/a> [Accessed Oct 15, 2020] &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:3" role="doc-endnote">
-&lt;p>Jolly. Mitchell, Trending YouTube Video Statistics, Kaggle. &lt;a href="https://www.kaggle.com/datasnaek/youtube-new">https://www.kaggle.com/datasnaek/youtube-new&lt;/a> [Accessed Oct 15, 2020] &lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:4" role="doc-endnote">
-&lt;p>Li. Yuping, Eng. Kent, Zhang. Liqian, YouTube Videos Prediction: Will this video be popular?, Stanford &lt;a href="http://cs229.stanford.edu/proj2019aut/data/assignment_308832_raw/26647615.pdf">http://cs229.stanford.edu/proj2019aut/data/assignment_308832_raw/26647615.pdf&lt;/a> [Accessed Oct 20, 2020] &lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:5" role="doc-endnote">
-&lt;p>Pradeep, Gulipalli, The Pareto Principle for Data Scientist, KDnuggets. &lt;a href="https://www.kdnuggets.com/2019/03/pareto-principle-data-scientists.html">https://www.kdnuggets.com/2019/03/pareto-principle-data-scientists.html&lt;/a> [Accessed Dec 5, 2020] &lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:6" role="doc-endnote">
-&lt;p>Statistics How Staff, Explained Variance Variation, StatisticsHowTo. &lt;a href="https://www.statisticshowto.com/explained-variance-variation/">https://www.statisticshowto.com/explained-variance-variation/&lt;/a> [Accessed Dec 5, 2020] &lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:7" role="doc-endnote">
-&lt;p>Statistics How Staff, Correlation Coefficient Formula, StatsticsHowTo. &lt;a href="https://www.statisticshowto.com/probability-and-statistics/correlation-coefficient-formula/">https://www.statisticshowto.com/probability-and-statistics/correlation-coefficient-formula/&lt;/a> [Accessed Dec 6, 2020] &lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:8" role="doc-endnote">
-&lt;p>Prathap, Dinesh. Youtube api video category list, Github. &lt;a href="https://gist.github.com/dgp/1b24bf2961521bd75d6c">https://gist.github.com/dgp/1b24bf2961521bd75d6c&lt;/a> [Accessed Dec 7, 2020] &lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:9" role="doc-endnote">
-&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item></channel></rss>

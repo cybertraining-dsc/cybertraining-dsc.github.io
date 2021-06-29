@@ -2077,7 +2077,7 @@ set of &lt;a href="https://docs.google.com/document/d/1E8orgHbNV6P8STl2lQxov2VHK
 &lt;h2 id="9-references">9. References&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://research.google.com/colaboratory/faq.html">https://research.google.com/colaboratory/faq.html&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Report: Detection of Cyber Attacks on IoT Devices Using Deep Learning</title><link>/report/su21-reu-365/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-365/project/</guid><description>
+&lt;/ul></description></item><item><title>Report: Cyber Attacks Detection Using AI Algorithms</title><link>/report/su21-reu-365/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-365/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-365/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-365/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-365/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-365/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
@@ -2099,7 +2099,6 @@ Status: draft, Type: Project&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;a href="#convolutional-neural-network-cnn">Convolutional Neural Network (CNN)&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#2-datasets">2. Datasets&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#4-benchmark">4. Benchmark&lt;/a>&lt;/li>
@@ -2110,7 +2109,7 @@ Status: draft, Type: Project&lt;/p>
 &lt;/nav>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> AI, ML, DL, Cybersecurity, Cyber Attacks, IoT.&lt;/p>
+&lt;p>&lt;strong>Keywords:&lt;/strong> AI, ML, DL, Cybersecurity, Cyber Attacks.&lt;/p>
 &lt;h2 id="1-introduction">1. Introduction&lt;/h2>
 &lt;ul>
 &lt;li>Find literature about AI and Cyber Attacks on IoT Devices Dectection.&lt;/li>
@@ -2134,9 +2133,7 @@ Status: draft, Type: Project&lt;/p>
 &lt;/ul>
 &lt;h4 id="examples-of-ai-algorithms-for-cyber-attacks-detection">Examples of AI Algorithms for Cyber Attacks Detection&lt;/h4>
 &lt;ul>
-&lt;li>
-&lt;h2 id="convolutional-neural-network-cnn">Convolutional Neural Network (CNN)&lt;/h2>
-&lt;/li>
+&lt;li>Convolutional Neural Network (CNN)&lt;/li>
 &lt;li>Autoencoder (AE)&lt;/li>
 &lt;li>Deep Belief Network (DBN)&lt;/li>
 &lt;li>Recurrent Neural Network (RNN)&lt;/li>
@@ -2204,7 +2201,7 @@ Status: draft, Type: Project&lt;/p>
 &lt;/nav>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;p>&lt;strong>Keywords:&lt;/strong> Dentronics, neural pathways, prosthodotics.&lt;/p>
 &lt;h2 id="1-introduction">1. Introduction&lt;/h2>
 &lt;ul>
 &lt;li>&lt;input disabled="" type="checkbox"> Find literature about Dentronics and its effects&lt;/li>
