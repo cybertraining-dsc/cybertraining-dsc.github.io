@@ -20,7 +20,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="Project: Classification of Hyperspectral Images"
+  title="Classification of Hyperspectral Images"
   author="Carlos Theran"
   hid= "su21-reu-360"
   %}}
@@ -60,7 +60,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="Project: Energy Consumption"
+  title="Energy Consumption"
   author="Victor Adankai"
   hid= "su21-reu-365"
   %}}
