@@ -116,7 +116,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="TBD"
+  title="Analysing Hashimoto disease causes using AI"
   hid="su21-reu-372" 
   author="Sheimy Paz"
   %}}
