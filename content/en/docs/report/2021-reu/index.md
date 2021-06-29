@@ -100,7 +100,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="TBD"
+  title="Marine aninmal population analysis using AI"
   hid="su21-reu-370" 
   author="Tiamia WIlliams"
   %}}
