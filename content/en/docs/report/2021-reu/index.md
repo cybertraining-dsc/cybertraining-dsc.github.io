@@ -165,7 +165,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="TBD"
+  title="Analysis of Autism in three different cities using AI"
   hid="su21-reu-378"
   author="Myra Saunders"
   %}}
