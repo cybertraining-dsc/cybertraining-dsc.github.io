@@ -101,7 +101,7 @@ Best practices in Python recommend to use a Python venv. This is pretty easy to 
 	url="https://famu.zoom.us/rec/share/7LK71gUPMdvpH-7J0zITciuLpp7P38Ic8gQ3r42VeNFzBy52fQHdLyK0NUuYrynY.tgx5aNXykyAipzFt"
 >}}
 
-In this lecture we provide a video that introduces you to Jupyter Notebooks.
+Jupyter Notebooks: This lecture provides an introduction to Jupyter Notebooks using Visual Studio as IDE.
 
 {{< /view_module >}}
 
@@ -110,21 +110,19 @@ In this lecture we provide a video that introduces you to Jupyter Notebooks.
 {{< view_module
 	alt="Github"
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
-	url="https://famu.zoom.us/rec/share/C_5m4bQwPny-TW50aft0zQ2HR_ZCn_D22nbywWnyZqoZg89-oKpQHRo9jywvUIIN.1kc8yUrK9PPQQ8T_"
+	url="https://famu.zoom.us/rec/share/C_5m4bQwPny-TW50aft0zQ2HR_ZCn_D22nbywWnyZqoZg89-oKpQHRo9jywvUIIN.1kc8yUrK9PPQQ8T"
 	>}}
 
 Video: Github
 
 {{< /view_module >}}
-
-
-
 {{< view_module
 	alt="Github"
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/dYjAatyl--Dlc2v9RGbni5m5jM2iCY8fQYtre4A2FoYZnos9mtrjGRBkxPq3-aQv.jwJ5Gs0B58vg_da-"
 	>}}
-Video: Github 2
+Video-Github 2: In this lecture the student can learn how to create a project on RStudio and link it with a repository on GitHub to commit, 
+                pull and push the code from RStudio.
 {{< /view_module >}}
 
 ## Introduction to Python 
@@ -135,9 +133,7 @@ Video: Github 2
 	url="https://drive.google.com/file/d/1hauM2BunbmwWAViUt0bS2Yl7ZbQ5_T0h/view?usp=sharing"
 	>}}
 
-Slides: Introduction to Python
-
-* Strings, Numbers, Boolene, If
+Slides: This introduction to Python cover the different data type, how to convert type of variable, understand and create flow control usign conditional statements.
 {{< /view_module >}}
 
 {{< view_module
@@ -145,7 +141,7 @@ Slides: Introduction to Python
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/5Esz5JkozJajn5b__YmCPNGdaWUsSHBAO8YVkzfyvTTq9kzL1Xv0j_yXWz1jM15J.k19yEPveidXLT41Y"
 	>}}
-Video: Introduction to Python (1)
+Video-Introduction to Python (1): This introduction to Python cover the different data type, how to convert type of variable, understand and create flow control usign conditional statements.
 {{< /view_module >}}
 
 {{< view_module
@@ -154,11 +150,9 @@ Video: Introduction to Python (1)
 	url="https://famu.zoom.us/rec/share/jIR9L_qkMPXATo56Aua009SQo62CsEi_m2sIU3YPr39bbGvyw5mPBdZ9VVomLSqG.4aEp-Ye_l_TL8lub"
 	>}}
 
-Video: Introduction to Python (2)
+Video-Introduction to Python (2): This introduction to Python cover the different data type, how to convert type of variable, understand and create flow control usign conditional statements.
 
 {{< /view_module >}}
-
-
 
 
 {{< view_module
@@ -167,7 +161,7 @@ Video: Introduction to Python (2)
 	url="https://famu.zoom.us/rec/share/QVziK8PteBlanKaQNG9J6uBmpyRLFnSVVcyRFKVGakBmRtzerwkutiCoGiydSxkY.W5rt607-OB0o1spc"
 	>}}
 
-Video: Introduction to Python (3)
+Video-Introduction to Python (3): This lecture introduces the use of Google Colab to code your python program using the resources provided by Google. Also, DataFrame is introduced and use to manipulate and analyze data.
 
 {{< /view_module >}}
 
@@ -329,7 +323,8 @@ Video: Pandas
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/TiJJnitA6ziWOZutSEjyFGGKS0nc3lj_-lOPuGuKjNVdUO8HEp3uU9jlihaBgznt.rKnSt4gTS7B2ZXia"
 	>}}
-Video: Matrix computation
+Video-Matrix computation: Linear algebra is a main compornent in the field of Data Science. As a consequence, this lecture introduces the main matrix operations such as, 
+addition, substraction, multiplication, and picewise multiplication. 
 {{< /view_module >}}
 
 {{< view_module
@@ -345,7 +340,7 @@ Video: Pycharm Installation and Virtual Environment setup
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/gQS-so-yA7yzXfIF5LT33I5JCDPH39jpNneKTaOe7h_CEe7O4LkkdZdGzBtcT_6A.9844LB6DAuSp6TdE"
 	>}}
-Video: Application of Matrix Operation using Images on Python
+Video: This lecture the student can learn the different applications of Matrix Operation using images on Python.
 {{< /view_module >}}
 
 {{< view_module
