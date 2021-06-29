@@ -500,34 +500,34 @@ In this project, the R2 score of the test data is calculated. The model with the
 &lt;ol>
 &lt;li id="fn:1" role="doc-endnote">
 &lt;p>Jia Li and Richard E. Just, Modeling household energy consumption and adoption of energy efficient technology, Energy Economics, vol. 72, pp. 404-415, 2018.
-Available: &lt;a href="https://www.sciencedirect.com/science/article/pii/S0140988318301440#bbb0180">https://www.sciencedirect.com/science/article/pii/S0140988318301440#bbb0180&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+Available: &lt;a href="https://www.sciencedirect.com/science/article/pii/S0140988318301440#bbb0180">https://www.sciencedirect.com/science/article/pii/S0140988318301440#bbb0180&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:2" role="doc-endnote">
-&lt;p>Domestic Power Consumption, [Online resource] &lt;a href="https://en.wikipedia.org/wiki/Domestic_energy_consumption">https://en.wikipedia.org/wiki/Domestic_energy_consumption&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>Domestic Power Consumption, [Online resource] &lt;a href="https://en.wikipedia.org/wiki/Domestic_energy_consumption">https://en.wikipedia.org/wiki/Domestic_energy_consumption&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:3" role="doc-endnote">
-&lt;p>Use of energy explained - Energy use in homes, [Online resource] &lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>Use of energy explained - Energy use in homes, [Online resource] &lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:4" role="doc-endnote">
-&lt;p>Yating Li, William A. Pizer, and Libo Wu, Climate change and residential electricity consumption in the Yangtze River Delta, China, Research article, Available: &lt;a href="https://www.pnas.org/content/116/2/472#ref-1">https://www.pnas.org/content/116/2/472#ref-1&lt;/a> &lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>Yating Li, William A. Pizer, and Libo Wu, Climate change and residential electricity consumption in the Yangtze River Delta, China, Research article, Available: &lt;a href="https://www.pnas.org/content/116/2/472#ref-1">https://www.pnas.org/content/116/2/472#ref-1&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:5" role="doc-endnote">
-&lt;p>Residential Power Usage dataset, &lt;a href="https://www.kaggle.com/srinuti/residential-power-usage-3years-data-timeseries">https://www.kaggle.com/srinuti/residential-power-usage-3years-data-timeseries&lt;/a> &lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>Residential Power Usage dataset, &lt;a href="https://www.kaggle.com/srinuti/residential-power-usage-3years-data-timeseries">https://www.kaggle.com/srinuti/residential-power-usage-3years-data-timeseries&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:6" role="doc-endnote">
-&lt;p>Residential Power Usage Prediction script, &lt;a href="https://github.com/cybertraining-dsc/fa20-523-314/blob/main/project/code/residential_power_usage_prediction.ipynb">https://github.com/cybertraining-dsc/fa20-523-314/blob/main/project/code/residential_power_usage_prediction.ipynb&lt;/a> &lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>Residential Power Usage Prediction script, &lt;a href="https://github.com/cybertraining-dsc/fa20-523-314/blob/main/project/code/residential_power_usage_prediction.ipynb">https://github.com/cybertraining-dsc/fa20-523-314/blob/main/project/code/residential_power_usage_prediction.ipynb&lt;/a>&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:7" role="doc-endnote">
-&lt;p>seaborn: statistical data visualization, &lt;a href="https://seaborn.pydata.org/index.html">https://seaborn.pydata.org/index.html&lt;/a> &lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>seaborn: statistical data visualization, &lt;a href="https://seaborn.pydata.org/index.html">https://seaborn.pydata.org/index.html&lt;/a>&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:8" role="doc-endnote">
-&lt;p>Group by: split-apply-combine, &lt;a href="https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html">https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html&lt;/a> &lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>Group by: split-apply-combine, &lt;a href="https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html">https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html&lt;/a>&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:9" role="doc-endnote">
-&lt;p>Mean Square Error &amp;amp; R2 Score Clearly Explained, [Online resource] &lt;a href="https://www.bmc.com/blogs/mean-squared-error-r2-and-variance-in-regression-analysis/">https://www.bmc.com/blogs/mean-squared-error-r2-and-variance-in-regression-analysis/&lt;/a> &lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>Mean Square Error &amp;amp; R2 Score Clearly Explained, [Online resource] &lt;a href="https://www.bmc.com/blogs/mean-squared-error-r2-and-variance-in-regression-analysis/">https://www.bmc.com/blogs/mean-squared-error-r2-and-variance-in-regression-analysis/&lt;/a>&amp;#160;&lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:10" role="doc-endnote">
-&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:10" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:10" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item><item><title>Report: Project: Forecasting Natural Gas Demand/Supply</title><link>/report/sp21-599-356/project/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/sp21-599-356/project/</guid><description>
@@ -664,59 +664,59 @@ Also, those are trained by using deep learning methods such as the multi-layer p
 &lt;ol>
 &lt;li id="fn:1" role="doc-endnote">
 &lt;p>2020 Monthly Energy Statistics, [Online resource]
-&lt;a href="http://www.keei.re.kr/keei/download/MES2009.pdf">http://www.keei.re.kr/keei/download/MES2009.pdf&lt;/a>, Sep. 2020 &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;a href="http://www.keei.re.kr/keei/download/MES2009.pdf">http://www.keei.re.kr/keei/download/MES2009.pdf&lt;/a>, Sep. 2020&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:2" role="doc-endnote">
 &lt;p>KOGAS profile, [Online resource]
-&lt;a href="https://www.kogas.or.kr:9450/eng/contents.do?key=1498">https://www.kogas.or.kr:9450/eng/contents.do?key=1498&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;a href="https://www.kogas.or.kr:9450/eng/contents.do?key=1498">https://www.kogas.or.kr:9450/eng/contents.do?key=1498&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:3" role="doc-endnote">
 &lt;p>LNG production phase, [Online resource]
-&lt;a href="https://www.kogas.or.kr:9450/portal/contents.do?key=2014">https://www.kogas.or.kr:9450/portal/contents.do?key=2014&lt;/a> &lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;a href="https://www.kogas.or.kr:9450/portal/contents.do?key=2014">https://www.kogas.or.kr:9450/portal/contents.do?key=2014&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:4" role="doc-endnote">
 &lt;p>NG wholesale charges, [Online resource]
-&lt;a href="https://www.kogas.or.kr:9450/portal/contents.do?key=2026">https://www.kogas.or.kr:9450/portal/contents.do?key=2026&lt;/a> &lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;a href="https://www.kogas.or.kr:9450/portal/contents.do?key=2026">https://www.kogas.or.kr:9450/portal/contents.do?key=2026&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:5" role="doc-endnote">
 &lt;p>Natural gas explained, [Online resource],
-&lt;a href="https://www.eia.gov/energyexplained/natural-gas/factors-affecting-natural-gas-prices.php">https://www.eia.gov/energyexplained/natural-gas/factors-affecting-natural-gas-prices.php&lt;/a>, Aug, 2020 &lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;a href="https://www.eia.gov/energyexplained/natural-gas/factors-affecting-natural-gas-prices.php">https://www.eia.gov/energyexplained/natural-gas/factors-affecting-natural-gas-prices.php&lt;/a>, Aug, 2020&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:6" role="doc-endnote">
-&lt;p>A. Khotanzad and H. Elragal, &amp;ldquo;Natural gas load forecasting with combination of adaptive neural networks,&amp;rdquo; IJCNN'99. International Joint Conference on Neural Networks. Proceedings (Cat. No.99CH36339), 1999, pp. 4069-4072 vol.6, doi: 10.1109/IJCNN.1999.830812. &lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>A. Khotanzad and H. Elragal, &amp;ldquo;Natural gas load forecasting with combination of adaptive neural networks,&amp;rdquo; IJCNN'99. International Joint Conference on Neural Networks. Proceedings (Cat. No.99CH36339), 1999, pp. 4069-4072 vol.6, doi: 10.1109/IJCNN.1999.830812.&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:7" role="doc-endnote">
-&lt;p>A. Khotanzad, H. Elragal and T. . -L. Lu, &amp;ldquo;Combination of artificial neural-network forecasters for prediction of natural gas consumption,&amp;rdquo; in IEEE Transactions on Neural Networks, vol. 11, no. 2, pp. 464-473, March 2000, doi: 10.1109/72.839015. &lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>A. Khotanzad, H. Elragal and T. . -L. Lu, &amp;ldquo;Combination of artificial neural-network forecasters for prediction of natural gas consumption,&amp;rdquo; in IEEE Transactions on Neural Networks, vol. 11, no. 2, pp. 464-473, March 2000, doi: 10.1109/72.839015.&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:8" role="doc-endnote">
-&lt;p>M. Akpinar, M. F. Adak and N. Yumusak, &amp;ldquo;Forecasting natural gas consumption with hybrid neural networks — Artificial bee colony,&amp;rdquo; 2016 2nd International Conference on Intelligent Energy and Power Systems (IEPS), 2016, pp. 1-6, doi: 10.1109/IEPS.2016.7521852. &lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>M. Akpinar, M. F. Adak and N. Yumusak, &amp;ldquo;Forecasting natural gas consumption with hybrid neural networks — Artificial bee colony,&amp;rdquo; 2016 2nd International Conference on Intelligent Energy and Power Systems (IEPS), 2016, pp. 1-6, doi: 10.1109/IEPS.2016.7521852.&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:9" role="doc-endnote">
-&lt;p>A. Anagnostis, E. Papageorgiou, V. Dafopoulos and D. Bochtis, &amp;ldquo;Applying Long Short-Term Memory Networks for natural gas demand prediction,&amp;rdquo; 2019 10th International Conference on Information, Intelligence, Systems and Applications (IISA), 2019, pp. 1-7, doi: 10.1109/IISA.2019.8900746. &lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>A. Anagnostis, E. Papageorgiou, V. Dafopoulos and D. Bochtis, &amp;ldquo;Applying Long Short-Term Memory Networks for natural gas demand prediction,&amp;rdquo; 2019 10th International Conference on Information, Intelligence, Systems and Applications (IISA), 2019, pp. 1-7, doi: 10.1109/IISA.2019.8900746.&amp;#160;&lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:10" role="doc-endnote">
 &lt;p>NG supply dataset, [Online resource],
-&lt;a href="https://www.data.go.kr/data/15049904/fileData.do">https://www.data.go.kr/data/15049904/fileData.do&lt;/a>, Apr, 2020 &lt;a href="#fnref:10" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;a href="https://www.data.go.kr/data/15049904/fileData.do">https://www.data.go.kr/data/15049904/fileData.do&lt;/a>, Apr, 2020&amp;#160;&lt;a href="#fnref:10" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:11" role="doc-endnote">
 &lt;p>Regional climate dataset, [Online resource]
-&lt;a href="https://data.kma.go.kr/climate/RankState/selectRankStatisticsDivisionList.do?pgmNo=179">https://data.kma.go.kr/climate/RankState/selectRankStatisticsDivisionList.do?pgmNo=179&lt;/a> &lt;a href="#fnref:11" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;a href="https://data.kma.go.kr/climate/RankState/selectRankStatisticsDivisionList.do?pgmNo=179">https://data.kma.go.kr/climate/RankState/selectRankStatisticsDivisionList.do?pgmNo=179&lt;/a>&amp;#160;&lt;a href="#fnref:11" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:12" role="doc-endnote">
 &lt;p>Crude oil orice dataset, [Online resource]
-&lt;a href="https://www.petronet.co.kr/main2.jsp">https://www.petronet.co.kr/main2.jsp&lt;/a> &lt;a href="#fnref:12" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;a href="https://www.petronet.co.kr/main2.jsp">https://www.petronet.co.kr/main2.jsp&lt;/a>&amp;#160;&lt;a href="#fnref:12" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:13" role="doc-endnote">
 &lt;p>Bituminous coal price dataset, [Online resource]
-&lt;a href="https://www.kores.net/komis/price/mineralprice/ironoreenergy/pricetrend/baseMetals.do?mc_seq=3030003&amp;amp;mnrl_pc_mc_seq=506">https://www.kores.net/komis/price/mineralprice/ironoreenergy/pricetrend/baseMetals.do?mc_seq=3030003&amp;amp;mnrl_pc_mc_seq=506&lt;/a> &lt;a href="#fnref:13" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;a href="https://www.kores.net/komis/price/mineralprice/ironoreenergy/pricetrend/baseMetals.do?mc_seq=3030003&amp;amp;mnrl_pc_mc_seq=506">https://www.kores.net/komis/price/mineralprice/ironoreenergy/pricetrend/baseMetals.do?mc_seq=3030003&amp;amp;mnrl_pc_mc_seq=506&lt;/a>&amp;#160;&lt;a href="#fnref:13" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:14" role="doc-endnote">
 &lt;p>Won-Dollar exchange rate dateset, [Online resource]
-&lt;a href="http://ecos.bok.or.kr/flex/EasySearch.jsp?langGubun=K&amp;amp;topCode=022Y013">http://ecos.bok.or.kr/flex/EasySearch.jsp?langGubun=K&amp;amp;topCode=022Y013&lt;/a> &lt;a href="#fnref:14" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;a href="http://ecos.bok.or.kr/flex/EasySearch.jsp?langGubun=K&amp;amp;topCode=022Y013">http://ecos.bok.or.kr/flex/EasySearch.jsp?langGubun=K&amp;amp;topCode=022Y013&lt;/a>&amp;#160;&lt;a href="#fnref:14" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:15" role="doc-endnote">
 &lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
-&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:15" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:15" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item></channel></rss>
