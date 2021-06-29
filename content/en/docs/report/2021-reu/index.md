@@ -36,7 +36,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="AI in Healthcare"
+  title="Breast Cancer and Genetics"
   author="Kehinde Ezekiel"
   hid= "su21-reu-362"
   %}}
