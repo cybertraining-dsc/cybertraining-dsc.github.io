@@ -30,9 +30,6 @@ Status: draft, Type: Project&lt;/p&gt;
 
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; No abbrevations in title e.g. EOS&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;Blockchain-based cryptocurrency is a popular investment of today&amp;rsquo;s age. However, the U.S. Securities and Exchange Commission warns that high-risk accompanies these investments[^1]. This project applies machine learning and Artificial Intelligence (AI) to historical records of these coins to predict future prices; this aims to minimize investment risk.&lt;/p&gt;
 &lt;p&gt;Contents&lt;/p&gt;
