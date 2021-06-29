@@ -133,7 +133,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="TBD"
+  title="AI Time Series Analysis"
   hid="su21-reu-374" 
   author="Victor Adankai"
   %}}
