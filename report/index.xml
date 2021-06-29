@@ -13,7 +13,7 @@
 &lt;/div>
 &lt;p>&lt;strong>Keywords:&lt;/strong> python&lt;/p>
 &lt;h1 id="steps">Steps&lt;/h1>
-&lt;p>Click the image below to be redirected to a 2 minute YouTube walkthrough.&lt;/p>
+&lt;p>Click the following image to be redirected to a 2 minute YouTube walkthrough.&lt;/p>
 &lt;div align="left">
 &lt;a href="https://www.youtube.com/watch?v=T6UYyu5XVMc">&lt;img src="https://img.youtube.com/vi/T6UYyu5XVMc/0.jpg" alt="IMAGE ALT TEXT">&lt;/a>
 &lt;/div>
@@ -90,33 +90,127 @@
 &lt;/ol>
 &lt;h1 id="troubleshooting">Troubleshooting&lt;/h1>
 &lt;h2 id="incorrect-python-version-on-command-prompt">Incorrect Python Version on Command Prompt&lt;/h2>
-&lt;p>If the computer has installed an older version of Python, running &lt;code>python --version&lt;/code> on Command Prompt may output an older version. Typing &lt;code>python3 --version&lt;/code> may output the correct, latest version.&lt;/p></description></item><item><title>Report: Project: Analyzing Price Changes on the Electro-Optical System Blockchain</title><link>/report/su21-reu-361/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+&lt;p>If the computer has installed an older version of Python, running &lt;code>python --version&lt;/code> on Command Prompt may output an older version. Typing &lt;code>python3 --version&lt;/code> may output the correct, latest version.&lt;/p></description></item><item><title>Report: Detection of Cyber Attacks on IoT Devices Using Deep Learning</title><link>/report/su21-reu-365/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-365/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-365/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-365/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-365/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-365/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
-&lt;p>Jacques Fleischer, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-361">su21-reu-361&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;p>Victor Adankai, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-365">su21-reu-365&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
-&lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> :o2: No abbrevations in title e.g. EOS&lt;/li>
-&lt;/ul>
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
 &lt;p>Contents&lt;/p>
 &lt;div class="toc">
 &lt;nav id="TableOfContents">
 &lt;ul>
-&lt;li>&lt;a href="#to-do">To-do&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#tutorials">Tutorials&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>
+&lt;ul>
+&lt;li>
+&lt;ul>
+&lt;li>&lt;a href="#types-of-cyber-attacks">Types of Cyber Attacks&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#examples-of-ai-algorithms-for-cyber-attacks-detection">Examples of AI Algorithms for Cyber Attacks Detection&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#convolutional-neural-network-cnn">Convolutional Neural Network (CNN)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-datasets">2. Datasets&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-benchmark">4. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-conclusion">5. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-acknowledgments">6. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-references">7. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> AI, ML, DL, Cybersecurity, Cyber Attacks, IoT.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;ul>
+&lt;li>Find literature about AI and Cyber Attacks on IoT Devices Dectection.&lt;/li>
+&lt;li>Analyze the literature and explain how AI for Cyber Attacks on IOT Devices Detection are beneficial.&lt;/li>
+&lt;/ul>
+&lt;h4 id="types-of-cyber-attacks">Types of Cyber Attacks&lt;/h4>
+&lt;ul>
+&lt;li>Denial of service (DoS) Attack:&lt;/li>
+&lt;li>Remote to Local Attack:&lt;/li>
+&lt;li>Probing:&lt;/li>
+&lt;li>User to Root Attack:&lt;/li>
+&lt;li>Adversarial Attacks:&lt;/li>
+&lt;li>Poisoning Attack:&lt;/li>
+&lt;li>Evasion Attack:&lt;/li>
+&lt;li>Integrity Attack:&lt;/li>
+&lt;li>Malware Attack:&lt;/li>
+&lt;li>Phising Attack:&lt;/li>
+&lt;li>Zero Day Attack:&lt;/li>
+&lt;li>Sinkhole Attack:&lt;/li>
+&lt;li>Causative Attack:&lt;/li>
+&lt;/ul>
+&lt;h4 id="examples-of-ai-algorithms-for-cyber-attacks-detection">Examples of AI Algorithms for Cyber Attacks Detection&lt;/h4>
+&lt;ul>
+&lt;li>
+&lt;h2 id="convolutional-neural-network-cnn">Convolutional Neural Network (CNN)&lt;/h2>
+&lt;/li>
+&lt;li>Autoencoder (AE)&lt;/li>
+&lt;li>Deep Belief Network (DBN)&lt;/li>
+&lt;li>Recurrent Neural Network (RNN)&lt;/li>
+&lt;li>Generative Adversal Network (GAN)&lt;/li>
+&lt;li>Deep Reinforcement Learning (DIL)&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-datasets">2. Datasets&lt;/h2>
+&lt;ul>
+&lt;li>Finding data sets in IoT Devices Cyber Attacks.&lt;/li>
+&lt;li>Can any of the data sets be used in AI?&lt;/li>
+&lt;li>What are the challenges with IoT Devices Cyber Attacks data set? Privacy, HIPPA, Size, Avalibility&lt;/li>
+&lt;li>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/li>
+&lt;/ul>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;ul>
+&lt;li>Place a cool image into projects images in my directory&lt;/li>
+&lt;li>Correct the following link, replace the fa number with my su number and thne chart of png.&lt;/li>
+&lt;li>If the image has been copied, you must use a reference such as shown in the Figure 1 caption.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-benchmark">4. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]&lt;/p>
+&lt;h2 id="5-conclusion">5. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="6-acknowledgments">6. Acknowledgments&lt;/h2>
+&lt;ul>
+&lt;li>Gregor von Laszewski&lt;/li>
+&lt;li>Yohn Jairo Bautista&lt;/li>
+&lt;li>Carlos Theran&lt;/li>
+&lt;/ul>
+&lt;h2 id="7-references">7. References&lt;/h2>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Dentronics: Artifical intelligence in dentistry</title><link>/report/su21-reu-376/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-376/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-376/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-376/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Jamyla Young, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-376">su21-reu-376&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-data-sets">2. Data sets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-example-of-an-ai-algorithm-in-dentronics">5. Example of an AI algorithm in Dentronics&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-conclusion">7. Conclusion&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
 &lt;/ul>
@@ -124,86 +218,47 @@ Status: draft, Type: Project&lt;/p>
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
-&lt;h2 id="to-do">To-do&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> My first research on blockchain&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Add blockchain explanation to introduction&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> What does blockchain have to do with AI?&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> What codes exist that demonstrate the use of blockchain with AI using Python?&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> What is the code in this project that will be developed?&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> What is the performance of this code?&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> What is my conclusion?&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Never, ever use the words &amp;lsquo;I&amp;rsquo; or &amp;lsquo;my&amp;rsquo; in a report&lt;/li>
-&lt;/ul>
-&lt;h2 id="tutorials">Tutorials&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Install software Visual Studio Code (create video tutorial or written instructions)&lt;/li>
-&lt;/ul>
 &lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Do not include this tip in your document:&lt;/p>
-&lt;blockquote>
-&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Find literature about Dentronics and its effects&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Analyze the literature&lt;/li>
 &lt;/ul>
-&lt;/blockquote>
-&lt;p>Here comes a convincing introduction to the problem&lt;/p>
-&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
-&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
-set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
-bound into cybertraining.&lt;/p>
-&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
-&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
-Thus the following is wrong:&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-This author does ignore proper markdown while not using empty lines between context changes
-1. This is because this author ignors all best practices
-&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-We do not ignore proper markdown while using empty lines between context changes
-1. This is because we encourage best practices to cause issues.
-&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
-&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
-We will not review any document that does not pass this check.&lt;/p>
-&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
-&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
-comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
-&lt;ol>
-&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
-&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
-&lt;/ol>
-&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
-&lt;p>You have two choices for the final project.&lt;/p>
-&lt;ol>
-&lt;li>Project, That is a final report that includes code.&lt;/li>
-&lt;li>Report, that is a final project without code.&lt;/li>
-&lt;/ol>
-&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
-at the beginning of your project.&lt;/p>
+&lt;h2 id="2-data-sets">2. Data sets&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Find data sets about effects about dentronics&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Identify the purpose of data sets&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What are the challenges with Dentronics data sets? HIPPA, size, availibility&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub. However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/li>
+&lt;/ul>
 &lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Place a cool image into projects images in my directory&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Correct the following, replace the fa number with my su number and the chart of png&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> if image is copied , you must use a reference such as shown in the Figure 1 caption&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> list&lt;/li>
+&lt;/ul>
 &lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
 &lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
-&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
-&lt;ol>
-&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
-&lt;li>When using bulleted lists use * and not -&lt;/li>
-&lt;/ol>
-&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
-&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
-However, if the data is publicly available you program must contain a download function instead that you customize.
-Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
-the download function.&lt;/p>
+&lt;h2 id="5-example-of-an-ai-algorithm-in-dentronics">5. Example of an AI algorithm in Dentronics&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete data set that will be used&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete algorithm that is used to anaylze the data set&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Write the program&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Verify that it works&lt;/li>
+&lt;/ul>
 &lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
 &lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
-&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;h2 id="7-conclusion">7. Conclusion&lt;/h2>
 &lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
 &lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Gregor helped me&lt;/li>
+&lt;/ul>
 &lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
 &lt;h2 id="9-references">9. References&lt;/h2>
-&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
-one point automatically change the references from superscript to square brackets it is best to introduce a space before
-the first square bracket.&lt;/p>
+&lt;p>-[ ] Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at one point automatically change the references from superscript to square brackets it is best to introduce a space before the first square bracket.&lt;/p>
 &lt;section class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
@@ -214,6 +269,83 @@ the first square bracket.&lt;/p>
 &lt;li id="fn:2" role="doc-endnote">
 &lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Analyzing Price Changes on the Electro-Optical System Blockchain</title><link>/report/su21-reu-361/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-361/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-361/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Jacques Fleischer, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-361">su21-reu-361&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> No abbrevations in title e.g. EOS&lt;/li>
+&lt;/ul>
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#to-do">To-do&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#tutorials">Tutorials&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-datasets">2. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-benchmark">4. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-conclusion">5. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-acknowledgments">6. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-references">7. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> cryptocurrency, investing, business, blockchain.&lt;/p>
+&lt;h2 id="to-do">To-do&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> My first research on blockchain&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Add blockchain explanation to introduction&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What does blockchain have to do with AI?&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What codes exist that demonstrate the use of blockchain with AI using Python?&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What is the code in this project that will be developed?&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What is the performance of this code?&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What is my conclusion?&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Never, ever use the words &amp;lsquo;I&amp;rsquo; or &amp;lsquo;my&amp;rsquo; in a report&lt;/li>
+&lt;/ul>
+&lt;h2 id="tutorials">Tutorials&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Install software Visual Studio Code (create video tutorial or written instructions)&lt;/li>
+&lt;/ul>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Blockchain is &amp;ldquo;an open, distributed ledger&amp;rdquo; which records transactions of cryptocurrency. It is decentralized, which means that these transactions are shared and distributed among all participants on the blockchain for maximum accountability. Furthermore, this new &amp;ldquo;blockchain&amp;rdquo; technology is becoming an increasingly popular alternative to mainstream transactions through traditional banks&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>An attractive new invention such as blockchain is a particularly desirable investment opportunity. However, its severe volatility can scare away possible investors; in 2017, one Bitcoin was worth $1,000 USD; a year later, its value multiplied by 20; and just a few months later, it decreased back down to $5,000&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>Artificial intelligence will be applied in this experiment to predict the future price of blockchain cryptocurrencies on the Electro-Optical System.&lt;/p>
+&lt;h2 id="2-datasets">2. Datasets&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Find online price checker and rip/scalp prices&lt;/li>
+&lt;/ul>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-benchmark">4. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="5-conclusion">5. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="6-acknowledgments">6. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="7-references">7. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Marco Iansiti and Karim R. Lakhani, The Truth About Blockchain, [Online resource]
+&lt;a href="https://hbr.org/2017/01/the-truth-about-blockchain">https://hbr.org/2017/01/the-truth-about-blockchain&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Jeremy Swinfen Green, Understanding cryptocurrency market fluctuations, [Online resource]
+&lt;a href="https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/">https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item><item><title>Report:</title><link>/report/hid-example/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/hid-example/project/</guid><description>
@@ -325,8 +457,8 @@ the first square bracket.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item><item><title>Report: Project: Classification of Hyperspectral Images</title><link>/report/su21-reu-360/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-360/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-360/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-360/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-360/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-360/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-360/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-360/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
 &lt;p>Carlos Theran, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-360">su21-reu-360&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-360/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
@@ -430,11 +562,11 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-362/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-362/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-362/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-362/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+&lt;/section></description></item><item><title>Report: AI in Healthcare</title><link>/report/su21-reu-362/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-362/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-362/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-362/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-362/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-362/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
-&lt;p>Firstname Lastname, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-362">su21-reu-362&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;p>Kehinde Ezekiel, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-362">su21-reu-362&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
@@ -443,13 +575,9 @@ Status: draft, Type: Project&lt;/p>
 &lt;nav id="TableOfContents">
 &lt;ul>
 &lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-datasets">2. Datasets&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-example-of-an-ai-algorithm-in-healthcare">5. Example of an AI algorithm in Healthcare&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
@@ -458,287 +586,55 @@ Status: draft, Type: Project&lt;/p>
 &lt;/nav>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;p>&lt;strong>Keywords:&lt;/strong> ai, data science, disease, COVID-19.&lt;/p>
 &lt;h2 id="1-introduction">1. Introduction&lt;/h2>
 &lt;p>Do not include this tip in your document:&lt;/p>
-&lt;blockquote>
-&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Find literature about AI and healthcare disparities&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Find literature about AI and COVID-19&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Analyze the literature and explain how data science, ai is better to healthcare.&lt;/li>
 &lt;/ul>
-&lt;/blockquote>
-&lt;p>Here comes a convincing introduction to the problem&lt;/p>
-&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
-&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
-set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
-bound into cybertraining.&lt;/p>
-&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
-&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
-Thus the following is wrong:&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-This author does ignore proper markdown while not using empty lines between context changes
-1. This is because this author ignors all best practices
-&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-We do not ignore proper markdown while using empty lines between context changes
-1. This is because we encourage best practices to cause issues.
-&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
-&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
-We will not review any document that does not pass this check.&lt;/p>
-&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
-&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
-comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
-&lt;ol>
-&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
-&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
-&lt;/ol>
-&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
-&lt;p>You have two choices for the final project.&lt;/p>
-&lt;ol>
-&lt;li>Project, That is a final report that includes code.&lt;/li>
-&lt;li>Report, that is a final project without code.&lt;/li>
-&lt;/ol>
-&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
-at the beginning of your project.&lt;/p>
-&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
-&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
-&lt;ol>
-&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
-&lt;li>When using bulleted lists use * and not -&lt;/li>
-&lt;/ol>
-&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
-&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+&lt;h2 id="2-datasets">2. Datasets&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Finding datasets in orthodontics&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Can any of the datasets be used in AI?&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What are the challenges with Healthcare dataset? Privacy, Inconsistent Dataset&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
 However, if the data is publicly available you program must contain a download function instead that you customize.
 Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
-the download function.&lt;/p>
+the download function.&lt;/li>
+&lt;/ul>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Place a cool image into projects images in my directory&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Correct the following link, replace the fa number with my su number and the chart of png&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> If the image has been copied, I must use a reference as shown in the Figure 1 caption&lt;/li>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.\&lt;/p>
+&lt;h2 id="5-example-of-an-ai-algorithm-in-healthcare">5. Example of an AI algorithm in Healthcare&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete datasets that will be used.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete algorithm that is used to analyze the datasets&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Write the program&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Verify that it works&lt;/li>
+&lt;/ul>
 &lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
 &lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
 &lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
 &lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
 &lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
-&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Gregor guided me through this process
+Please add acknowledgments to all that contributed or helped on this project.&lt;/li>
+&lt;/ul>
 &lt;h2 id="9-references">9. References&lt;/h2>
-&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
 one point automatically change the references from superscript to square brackets it is best to introduce a space before
-the first square bracket.&lt;/p>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Use of energy explained - Energy use in homes, [Online resource]
-&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
-&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: Project: FAMU Coding Project</title><link>/report/su21-reu-363/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-363/project/</guid><description>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Title to vague&lt;/li>
+the first square bracket.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-363/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-363/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: draft, Type: Project&lt;/p>
-&lt;p>Whitney McNair, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-363">su21-reu-363&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-363/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Do not include this tip in your document:&lt;/p>
-&lt;blockquote>
-&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/blockquote>
-&lt;p>Here comes a convincing introduction to the problem&lt;/p>
-&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
-&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
-set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
-bound into cybertraining.&lt;/p>
-&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
-&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
-Thus the following is wrong:&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-This author does ignore proper markdown while not using empty lines between context changes
-1. This is because this author ignors all best practices
-&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-We do not ignore proper markdown while using empty lines between context changes
-1. This is because we encourage best practices to cause issues.
-&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
-&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
-We will not review any document that does not pass this check.&lt;/p>
-&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
-&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
-comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
-&lt;ol>
-&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
-&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
-&lt;/ol>
-&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
-&lt;p>You have two choices for the final project.&lt;/p>
-&lt;ol>
-&lt;li>Project, That is a final report that includes code.&lt;/li>
-&lt;li>Report, that is a final project without code.&lt;/li>
-&lt;/ol>
-&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
-at the beginning of your project.&lt;/p>
-&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
-&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
-&lt;ol>
-&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
-&lt;li>When using bulleted lists use * and not -&lt;/li>
-&lt;/ol>
-&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
-&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
-However, if the data is publicly available you program must contain a download function instead that you customize.
-Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
-the download function.&lt;/p>
-&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
-&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
-&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
-&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
-&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
-&lt;h2 id="9-references">9. References&lt;/h2>
-&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
-one point automatically change the references from superscript to square brackets it is best to introduce a space before
-the first square bracket.&lt;/p>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Use of energy explained - Energy use in homes, [Online resource]
-&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
-&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: Project: Motion Prediction for Autonomous Vehicles</title><link>/report/su21-reu-365/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-365/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-365/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-365/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: draft, Type: Project&lt;/p>
-&lt;p>Victor Adankai, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-365">su21-reu-365&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-365/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Do not include this tip in your document:&lt;/p>
-&lt;blockquote>
-&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/blockquote>
-&lt;p>Here comes a convincing introduction to the problem&lt;/p>
-&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
-&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
-set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
-bound into cybertraining.&lt;/p>
-&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
-&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
-Thus the following is wrong:&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-This author does ignore proper markdown while not using empty lines between context changes
-1. This is because this author ignors all best practices
-&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-We do not ignore proper markdown while using empty lines between context changes
-1. This is because we encourage best practices to cause issues.
-&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
-&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
-We will not review any document that does not pass this check.&lt;/p>
-&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
-&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
-comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
-&lt;ol>
-&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
-&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
-&lt;/ol>
-&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
-&lt;p>You have two choices for the final project.&lt;/p>
-&lt;ol>
-&lt;li>Project, That is a final report that includes code.&lt;/li>
-&lt;li>Report, that is a final project without code.&lt;/li>
-&lt;/ol>
-&lt;p>You will be including the type of the project as a prefix to your title, as well as in the Type tag
-at the beginning of your project.&lt;/p>
-&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
-&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
-&lt;ol>
-&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
-&lt;li>When using bulleted lists use * and not -&lt;/li>
-&lt;/ol>
-&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
-&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
-However, if the data is publicly available you program must contain a download function instead that you customize.
-Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
-the download function.&lt;/p>
-&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
-&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
-&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
-&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
-&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
-&lt;h2 id="9-references">9. References&lt;/h2>
-&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
-one point automatically change the references from superscript to square brackets it is best to introduce a space before
-the first square bracket.&lt;/p>
 &lt;section class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
@@ -752,8 +648,8 @@ the first square bracket.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-366/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-366/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-366/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-366/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-366/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-366/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-366/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-366/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
 &lt;p>Firstname Lastname, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-366">su21-reu-366&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-366/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
@@ -858,8 +754,8 @@ the first square bracket.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-367/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-367/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-367/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-367/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-367/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-367/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-367/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-367/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
 &lt;p>Firstname Lastname, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-367">su21-reu-367&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-367/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
@@ -964,8 +860,8 @@ the first square bracket.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-368/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-368/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-368/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-368/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-368/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-368/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-368/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-368/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
 &lt;p>Yohn Jairo Parra Bautista, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-368">su21-reu-368&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-368/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
@@ -1069,72 +965,61 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report: Cervical Cancer Analysis</title><link>/report/su21-reu-369/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-369/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-369/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-369/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+&lt;/section></description></item><item><title>Report: Increasing Cervical Cancer Risk Analysis</title><link>/report/su21-reu-369/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-369/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-369/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-369/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
 &lt;p>Theresa Jean-Baptistee, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-369">su21-reu-369&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-369/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Cervical Cancer is an increasing matter that is affecting various women across the nation, in this project we will be analyzing risk factors that are producing higher chances of this cancer.&lt;/p>
 &lt;p>Contents&lt;/p>
 &lt;div class="toc">
 &lt;nav id="TableOfContents">
 &lt;ul>
 &lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#2-datasets">2. DataSets&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#3-other-people-works">3. Other People Works&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-images">4. Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-benchmark">5 Benchmark&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-acknowledgments">7. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-references">8. References&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/nav>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;p>&lt;strong>Keywords:&lt;/strong> Cervical, Cancer, Diseases, Data, conditions&lt;/p>
 &lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
-&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
-set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
-bound into cybertraining.&lt;/p>
-&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
-&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
-Thus the following is wrong:&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-This author does ignore proper markdown while not using empty lines between context changes
-1. This is because this author ignors all best practices
-&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-We do not ignore proper markdown while using empty lines between context changes
-1. This is because we encourage best practices to cause issues.
-&lt;/code>&lt;/pre>&lt;h2 id="2-datasets">2. DataSets&lt;/h2>
-&lt;p>Description about my data sets&lt;/p>
+&lt;ul>
+&lt;li>Find literature on Cervical Cancer, Images of Cervics&lt;/li>
+&lt;li>Analyzing reading and explain the importance of cancer in the cervix and along with how it affects the future of
+the cervixs&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-datasets">2. DataSets&lt;/h2>
+&lt;ul>
+&lt;li>The age of a person&lt;/li>
+&lt;li>Medical status&lt;/li>
+&lt;li>Tabacoo intake&lt;/li>
+&lt;li>resources: &lt;a href="https://ieeexplore.ieee.org/document/8691126">https://ieeexplore.ieee.org/document/8691126&lt;/a>&lt;/li>
+&lt;/ul>
 &lt;h2 id="3-other-people-works">3. Other People Works&lt;/h2>
 &lt;p>research of work others have done with the data set and what I have learned from that work.
 put a refrence in section #9 for each work i have found&lt;/p>
-&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="4-images">4. Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/blob/main/project/images/download-2021-06-29T15-34-01-628Z.png" alt="Figure 1">&lt;/p>
+&lt;h2 id="5-benchmark">5 Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]&lt;/p>
 &lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
 &lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
-&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;h2 id="7-acknowledgments">7. Acknowledgments&lt;/h2>
 &lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
-&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;h2 id="8-references">8. References&lt;/h2>
 &lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
 one point automatically change the references from superscript to square brackets it is best to introduce a space before
-the first square bracket.&lt;/p>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
-&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: Project: Marine aninmal population analysis using AI</title><link>/report/su21-reu-370/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-370/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-370/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-370/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+the first square bracket.&lt;/p></description></item><item><title>Report: Project: Marine aninmal population analysis using AI</title><link>/report/su21-reu-370/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-370/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-370/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-370/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-370/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-370/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
 &lt;p>Timia Williams, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-370">su21-reu-370&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-370/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
@@ -1239,8 +1124,8 @@ the first square bracket.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-371/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-371/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-371/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-371/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-371/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-371/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-371/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-371/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
 &lt;p>Firstname Lastname, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-371">su21-reu-371&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-371/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
@@ -1345,8 +1230,8 @@ the first square bracket.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item><item><title>Report: Project: Analysing Images</title><link>/report/su21-reu-372/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-372/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-372/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-372/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-372/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-372/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-372/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-372/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
 &lt;p>Sheimy Paz, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-372">su21-reu-372&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-372/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
@@ -1451,8 +1336,8 @@ the first square bracket.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-373/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-373/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-373/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-373/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-373/actions">&lt;img src="https://github.com/su21-reu-373/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-373/actions">&lt;img src="https://github.com/su21-reu-373/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
 &lt;p>Firstname Lastname, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-373">su21-reu-373&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-373/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
@@ -1556,115 +1441,9 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report: Motion Prediction For Autonomous Vehicles</title><link>/report/su21-reu-374/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-374/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: draft, Type: Project&lt;/p>
-&lt;p>Victor Adankai, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374">su21-reu-374&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Do not include this tip in your document:&lt;/p>
-&lt;blockquote>
-&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/blockquote>
-&lt;p>Here comes a convincing introduction to the problem&lt;/p>
-&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
-&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
-set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
-bound into cybertraining.&lt;/p>
-&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
-&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
-Thus the following is wrong:&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-This author does ignore proper markdown while not using empty lines between context changes
-1. This is because this author ignors all best practices
-&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-We do not ignore proper markdown while using empty lines between context changes
-1. This is because we encourage best practices to cause issues.
-&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
-&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
-We will not review any document that does not pass this check.&lt;/p>
-&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
-&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
-comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
-&lt;ol>
-&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
-&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
-&lt;/ol>
-&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
-&lt;p>You have two choices for the final project.&lt;/p>
-&lt;ol>
-&lt;li>Project, That is a final report that includes code.&lt;/li>
-&lt;li>Report, that is a final project without code.&lt;/li>
-&lt;/ol>
-&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
-at the beginning of your project.&lt;/p>
-&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
-&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
-&lt;ol>
-&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
-&lt;li>When using bulleted lists use * and not -&lt;/li>
-&lt;/ol>
-&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
-&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
-However, if the data is publicly available you program must contain a download function instead that you customize.
-Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
-the download function.&lt;/p>
-&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
-&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
-&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
-&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
-&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
-&lt;h2 id="9-references">9. References&lt;/h2>
-&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
-one point automatically change the references from superscript to square brackets it is best to introduce a space before
-the first square bracket.&lt;/p>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Use of energy explained - Energy use in homes, [Online resource]
-&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
-&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
 &lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-375/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-375/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-375/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-375/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-375/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-375/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-375/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-375/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
 &lt;p>Firstname Lastname, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-375">su21-reu-375&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-375/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
@@ -1768,11 +1547,11 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-376/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-376/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-377/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-377/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-377/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-377/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-377/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-377/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
-&lt;p>Jamyla Young, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-376">su21-reu-376&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;p>RonDaisja Dunn, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-377">su21-reu-377&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-377/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
@@ -1874,11 +1653,11 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-377/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-377/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-377/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-377/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-378/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-378/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
-&lt;p>RonDaisja Dunn, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-377">su21-reu-377&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-377/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;p>RonDaisja Dunn, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378">su21-reu-378&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
@@ -1983,41 +1762,66 @@ the first square bracket.&lt;/p>
 &lt;/section></description></item><item><title>Report: Tutorial on Installing Visual Studio Code</title><link>/report/su21-reu-361/tutorials/visual-studio-code/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/tutorials/visual-studio-code/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>How to install Visual Studio Code&lt;/p>
+&lt;p>This tutorial teaches how to install Visual Studio Code on Windows 10.&lt;/p>
 &lt;p>Contents&lt;/p>
 &lt;div class="toc">
 &lt;nav id="TableOfContents">
 &lt;ul>
-&lt;li>&lt;a href="#install">Install&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#steps">Steps&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/nav>
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Keywords:&lt;/strong> visual-studio-code&lt;/p>
-&lt;h2 id="install">Install&lt;/h2>
-&lt;p>Navigate to Visual Studio Code download page&lt;/p>
+&lt;h2 id="steps">Steps&lt;/h2>
+&lt;p>Click the following image to be redirected to a YouTube video tutorial for installing Visual Studio Code (also called VSCode).&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/UtwCUNCYR0s" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
-&lt;/div></description></item><item><title>Report: Project: Object Recognition</title><link>/report/su21-reu-364/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-364/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-364/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-364/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+&lt;iframe src="https://www.youtube.com/embed/DG_wQslWWAc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>Sidenote: An exasperated reader may wonder, &amp;ldquo;why go through steps 1-3 when it can be as easy as clicking a link to the VSCode download page?&amp;rdquo; This &lt;em>would&lt;/em> be easier, but hyperlinks (or URLs) are bound to change through the years of website maintenance and alterations. (One could also argue that steps 1-3 could become incorrect, as well, but hopefully they will not.) If you, time-traveler, would like to try your luck, go here: &lt;a href="https://code.visualstudio.com/download">https://code.visualstudio.com/download&lt;/a>&lt;/p>
+&lt;p>If the link works, skip to step 4.&lt;/p>
+&lt;p>P.S. It should be second-nature to a user to quickly search, find, download, and install a program. It is vital to ensure that the correct program is downloaded and installed, however. Over time, guides like this one can become deprecated, but one must be resilient in problem-solving. Use search engines like Google to find what you are looking for. If one path does not work, take another that will lead to the same destination or a better one.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Open up your favorite web browser. This can be done by pressing the Windows key and typing in the name of the browser, like &lt;code>google chrome&lt;/code> (as long as this browser is already installed on your computer). Then press Enter.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Once the browser loads, search for &lt;code>visual studio code&lt;/code> through the address bar. Press Enter and you will see a list of results through the default search engine (Google, Bing, or whatever is configured on your browser).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Identify the result that reads &lt;code>code.visualstudio.com&lt;/code>. If using Google, a subresult should read &lt;code>Download&lt;/code>. Click that link.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>This tutorial assumes that the reader is using Windows. Click the blue link that reads &lt;code>Windows&lt;/code>. The download will commence; wait for it to finish.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click and open the file once it finishes; the license agreement will appear. If you are proficient in legalese, you can read the wall of text. Then, click &lt;code>I accept the agreement&lt;/code> and click &lt;code>Next&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Next&lt;/code> again; it is best to leave the default install path alone for reproducibility in this experiment.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Next&lt;/code> again to create a Start Menu folder. Ensure that &lt;code>Add to PATH&lt;/code> is checked. &lt;code>Create a desktop icon&lt;/code> can be checked for convenience; it is up to the reader&amp;rsquo;s choice. Then click &lt;code>Next&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click Install and watch the green progress bar go at the speed of light. Once completed, click Finish. VSCode will open as long as everything went smoothly.&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Report: Project: Object Recognition</title><link>/report/su21-reu-364/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-364/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-364/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-364/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-364/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-364/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: final, Type: Project&lt;/p>
 &lt;p>David Umanzor, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-364">su21-reu-364&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-364/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>In this project we are studying the ability of AI to recognize and tag objects or subjects from a photo with accuracy&lt;/p>
 &lt;p>Contents&lt;/p>
 &lt;div class="toc">
 &lt;nav id="TableOfContents">
 &lt;ul>
 &lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#22-paste-copy-from-word-or-other-editors-is-a-disaster">2.2. Paste Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-data-sets">2. Data Sets&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-example-of-an-ai-algorithm-with-object-recognition">5. Example of an AI algorithm with Object Recognition&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
@@ -2026,72 +1830,197 @@ Status: final, Type: Project&lt;/p>
 &lt;/nav>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;p>&lt;strong>Keywords:&lt;/strong> ai, object recognition, image processing, computer vision.&lt;/p>
 &lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Do not include this tip in your document:&lt;/p>
-&lt;blockquote>
-&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Find liturature about image processing aand object recognition.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Analyze liturature &amp;amp; explain how this relates.&lt;/li>
 &lt;/ul>
-&lt;/blockquote>
-&lt;p>Here comes a convincing introduction to the problem&lt;/p>
-&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
-&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
-set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
-bound into cybertraining.&lt;/p>
-&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
-&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
-Thus the following is wrong:&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-This author does ignore proper markdown while not using empty lines between context changes
-1. This is because this author ignors all best practices
-&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-We do not ignore proper markdown while using empty lines between context changes
-1. This is because we encourage best practices to cause issues.
-&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
-&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
-We will not review any document that does not pass this check.&lt;/p>
-&lt;h2 id="22-paste-copy-from-word-or-other-editors-is-a-disaster">2.2. Paste Copy from Word or other Editors is a Disaster!&lt;/h2>
-&lt;p>We recommend that you use a proper that is integrated with GitHub or you use the commandline tools. We may include
-comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
-&lt;ol>
-&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
-&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
-&lt;/ol>
-&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
-&lt;p>You have two choices for the final project.&lt;/p>
-&lt;ol>
-&lt;li>Project, That is a final report that includes code.&lt;/li>
-&lt;li>Report, that is a final project without code.&lt;/li>
-&lt;/ol>
-&lt;p>You will be including the type of the project as a prefix to your title, as well as in the Type tag
-at the beginning of your project.&lt;/p>
+&lt;h2 id="2-data-sets">2. Data Sets&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Collect image sets for the AI to recognize.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What do these data sets specify.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What are the challenges with Object Recognition? Accuracy.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Datasets can be huge and GitHub has lmited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available your program must contain a download function instead that you customize.
+Write it using pythons &amp;lsquo;request&amp;rsquo;&lt;/li>
+&lt;/ul>
 &lt;h2 id="3-using-images">3. Using Images&lt;/h2>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Place cool image into projects images in my directory (data set of its ability to be accurate).&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Correct the following link, replace the fa with su, and the numbers to my reu numbers, change chart.png to file name.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> If the image has been copied, you must use a reference such as shown in the Figure 1 caption.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/li>
+&lt;/ul>
 &lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
-&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
-&lt;ol>
-&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
-&lt;li>When using bulleted lists use * and not -&lt;/li>
-&lt;/ol>
-&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
-&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
-However, if the data is publicly available you program must contain a download function instead that you customize.
-Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
-the download function.&lt;/p>
+&lt;h2 id="5-example-of-an-ai-algorithm-with-object-recognition">5. Example of an AI algorithm with Object Recognition&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete data set that will be used.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Identify the conrete algorithm that completes the image processing for Object Recognition.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Write the program.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Verify that it works.&lt;/li>
+&lt;/ul>
 &lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
 &lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
 &lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
 &lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
 &lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
 &lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Gregor Von Laszewski&lt;/li>
+&lt;/ul>
 &lt;h2 id="9-references">9. References&lt;/h2>
-&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
 one point automatically change the references from superscript to square brackets it is best to introduce a space before
-the first square bracket.&lt;/p>
+the first square bracket.&lt;/li>
+&lt;/ul>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: AI in Orthodontics</title><link>/report/su21-reu-363/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-363/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-363/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-363/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-363/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-363/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Whitney McNair, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-363">su21-reu-363&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-363/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>In this effort we are analzying X-ray images in AI and identify cavitites&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-data-sets">2. Data Sets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-example-of-a-ai-algorighm-in-orthodontics">5. Example of a AI algorighm in Orthodontics&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> ai, orthodontics, x-rays.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Find literature about AI and Orthodontics x-rays.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Analyze the literature and explain how ai or x-rays are beneficial.&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-data-sets">2. Data Sets&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Finding data sets in Orthodontics.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Can any of the data sets be used in AI?&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What are the challenges with Orthodontics data set? Privacy, HIPPA, Size, Avalibility&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/li>
+&lt;/ul>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Place a cool image into projects images in my directory&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Correct the following link, replace the fa number with my su number and thne chart of png.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> If the image has been copied, you must use a reference such as shown in the Figure 1 caption.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="5-example-of-a-ai-algorighm-in-orthodontics">5. Example of a AI algorighm in Orthodontics&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete data sets that will be used.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete algorighm to analyze the data sets.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Write the program.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Verify that it works.&lt;/li>
+&lt;/ul>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Gregor guided me throughout this process.&lt;/li>
+&lt;/ul>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/li>
+&lt;/ul>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: AI Time Series Analysis</title><link>/report/su21-reu-374/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-374/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-312/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-312/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Zyion Morris, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374">su21-reu-374&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/edit/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-datasets">2. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-benchmark">4. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-conclusion">5. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-acknowledgments">6. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-references">7. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> AI, ML, DL, Cybersecurity, Cyber Attacks, IoT.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> ass tasks&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-datasets">2. Datasets&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> add tasks&lt;/li>
+&lt;/ul>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Place a cool image into projects images in my directory&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Correct the following link, replace the fa number with my su number and thne chart of png.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> If the image has been copied, you must use a reference such as shown in the Figure 1 caption.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-benchmark">4. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="5-conclusion">5. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="6-acknowledgments">6. Acknowledgments&lt;/h2>
+&lt;p>Needs full sentence&lt;/p>
+&lt;ul>
+&lt;li>Gregor von Laszewski&lt;/li>
+&lt;li>Yohn Jairo Bautista&lt;/li>
+&lt;li>Carlos Theran&lt;/li>
+&lt;/ul>
+&lt;h2 id="7-references">7. References&lt;/h2>
 &lt;section class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
@@ -8645,223 +8574,6 @@ researchers have found to be higher in historically segregated communities. In 1
 &lt;/li>
 &lt;li id="fn:14" role="doc-endnote">
 &lt;p>&lt;a href="http://paperpile.com/b/9IXs7U/FjdO">&amp;ldquo;Telehealth Network Grant Program,&amp;rdquo; Feb. 12, 2020. &lt;a href="https://www.hrsa.gov/grants/find-funding/hrsa-20-036">https://www.hrsa.gov/grants/find-funding/hrsa-20-036&lt;/a> (accessed Dec. 07, 2020).&lt;/a> &lt;a href="#fnref:14" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: Online Store Customer Revenue Prediction</title><link>/report/fa20-523-337/project/project/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/fa20-523-337/project/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/fa20-523-337/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/fa20-523-337/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: final, Type: Project&lt;/p>
-&lt;p>Balaji Dhamodharan, &lt;a href="mailto:bdhamodh@iu.edu">bdhamodh@iu.edu&lt;/a>, fa20-523-337
-Anantha Janakiraman, &lt;a href="mailto:ajanakir@iu.edu">ajanakir@iu.edu&lt;/a>, fa20-523-351&lt;/p>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/fa20-523-337/edit/main/project/project.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>&lt;strong>Situation&lt;/strong> The 80/20 rule has proven true for many businesses–only a small percentage of customers produce most of the revenue. As such, marketing teams are challenged to make appropriate investments in promotional strategies. The objective of this project is to explore different machine learning techniques and identify an optimized model that can help the marketing team understand customer behavior and make informed decisions.&lt;/p>
-&lt;p>&lt;strong>Task&lt;/strong> The challenge is to analyze a Google Merchandise Store (also known as GStore, where Google swag is sold) customer dataset to predict revenue per customer. Hopefully this exploration will lead to actionable insights and help allocating marketing budgets for those companies who choose to use data analysis on top of GA data [^1].&lt;/p>
-&lt;p>&lt;strong>Action&lt;/strong> This exploration is based on a Kaggle competition and there are two datasets available in Kaggle. One is the test dataset (test.csv) and the other one is the training dataset (train.csv) and together the datasets contain customer transaction information ranging from August 2016 to April 2018. The action plan for this project is to first conduct data exploration that includes but not limited to investigating the statistics of data, examining the target variable distribution and other data distributions visually, determining imputation strategy based on the nature of missing data, exploring different techniques to scale the data, identifying features that may not be needed - for example, columns with constant variance, exploring different encoding techniques to convert categorical data to numerical data and identifying features with high collinearity. The preprocessed data will then be trained using a linear regression model with basic parameter setting and K-Fold cross validation. Based on the outcome of this initial model further experimentation will be conducted to tune the hyper parameters including regularization and also add new derived features to improve the accuracy of the model. Apart from linear regression other machine learning techniques like ensemble methods will be explored and compared.&lt;/p>
-&lt;p>&lt;strong>Result&lt;/strong> The best performing model determined based on the RMSE value will be used in the inference process to predict the revenue per customer. The Kaggle competition requires to predict the natural log of sum of all transactions per customer&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-datasets">2. Datasets&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#21-metrics">2.1 Metrics&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#22-source-code">2.2 Source Code&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#3-methodology">3. Methodology&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#31-load-data">3.1 Load Data&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#32-data-exploration">3.2 Data Exploration&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#321-exploratory-data-analysis">3.2.1 Exploratory Data Analysis&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#33-data-pre-processing">3.3 Data Pre-Processing&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#34-feature-engineering">3.4 Feature Engineering&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#34-feature-selection">3.4 Feature Selection&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#341-data-preparation">3.4.1 Data Preparation&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#35-model-algorithms-and-optimization-methods">3.5 Model Algorithms and Optimization Methods&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#351-linear-regression-model">3.5.1 Linear Regression Model&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#352-xgboost-regressor">3.5.2 XGBoost Regressor&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#353-lightgbm-regressor">3.5.3 LightGBM Regressor&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#354-lasso-regression">3.5.4 Lasso Regression&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#355-ridge-regressor">3.5.5 Ridge Regressor&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#4-benchmark-results">4. Benchmark Results&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-software-technologies">5. Software Technologies&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#61-model-pipeline">6.1 Model Pipeline&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#62-feature-exploration-and-pre-processing">6.2 Feature Exploration and Pre-Processing&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#63-outcome-of-experiments">6.3 Outcome of Experiments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#64-limitations">6.4 Limitations&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#7-previous-explorations">7. Previous Explorations&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-acknowlegements">8. Acknowlegements&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> ecommerce, regression analysis, big data&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>The objective of this exploration is to predict the natural log of total revenue per customer which is a real valued continuous output and an algorithm like linear regression will be ideal to predict the response variable that is continuous using a set of predictor variables given the basic assumption that there is a linear relationship between the predictor and response variables.&lt;/p>
-&lt;h2 id="2-datasets">2. Datasets&lt;/h2>
-&lt;p>As mentioned in the earlier sections, the dataset used in this model exploration was downloaded from Kaggle &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> and available in CSV file format. The training contains more than 872K observations and based on the size of the dataset it would be ideal to use mini-batch or gradient descent optimization techniques to identify the coefficients that best describe the model. The target variable as observed in the dataset is a continuous variable which implies that the use case is a regression problem. As mentioned earlier, there are several machine learning techniques that can be explored for this type of problem including regression and ensemble methods with different parameter settings. The sparsity of potential features in the datasets indicates that multiple experimentations will be required to determine the best performing model. Also based on initial review of the datasets, it also observed that some of the categorical features exhibit low to medium cardinality and if these features are going to be retained in the final dataset used for training then it is important to choose the right encoding technique.&lt;/p>
-&lt;ul>
-&lt;li>Train.csv User transactions from August 1st, 2016 to August 1st, 2017 &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/li>
-&lt;li>Test.csv User transactions from August 2nd, 2017 to April 30th, 2018 &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/li>
-&lt;/ul>
-&lt;h3 id="21-metrics">2.1 Metrics&lt;/h3>
-&lt;p>The metrics used for evaluation in this analysis is the root mean squared error (RMSE). The root mean squared error function forms the objective/cost function which will be minimized to estimate optimal parameters for the linear function using Gradient Descent. The plan is to conduct multiple experiments with different iterations to obtain convergence and try different hyper-parameters (e.g. learning rate).&lt;/p>
-&lt;p>RMSE is defined as:&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/loss.png" alt="Figure 1.1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> RMSE&lt;/p>
-&lt;p>where y-hat is the natural log of the predicted revenue for a customer and y is the natural log of the actual summed revenue value plus one as seen in Figure-1.&lt;/p>
-&lt;h3 id="22-source-code">2.2 Source Code&lt;/h3>
-&lt;p>Follow this &lt;a href="https://github.com/cybertraining-dsc/fa20-523-337/blob/main/project/code/project.ipynb">link&lt;/a> to the source code for subsequent sections in this report.&lt;/p>
-&lt;h2 id="3-methodology">3. Methodology&lt;/h2>
-&lt;p>The CRISP-DM process methodology was followed in this project. The high-level implementation steps are shown in Figure-2.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/methodology.png" alt="Methodology">&lt;/p>
-&lt;p>&lt;strong>Figure 2:&lt;/strong> Project Methodology&lt;/p>
-&lt;h3 id="31-load-data">3.1 Load Data&lt;/h3>
-&lt;p>The data that was obtained from Kaggle was over 2.6 GB (for Train and Test). As the size of the dataset was significantly large, it was hosted onto a storage bucket in Google Cloud Platform and ingested into the modeling process through standard application API libraries. Also in this project from the available datasets, the Train dataset was used to build the models and test the results because the real end goal is to test the effectiveness of algorithm. Since the test set doesn&amp;rsquo;t contain the Target Variable (rightly so!), it will not be consumed during the testing and evaluation phase in this exploration.&lt;/p>
-&lt;h3 id="32-data-exploration">3.2 Data Exploration&lt;/h3>
-&lt;p>The dataset obtained for this project is large and it contains over 872k records. The dataset also contains 12 predictor variables and 1 target variable. The target Variable is totals.transactionRevenue and the objective of this exploration is to predict the total transaction revenue of an online store customer as accurately as possible.&lt;/p>
-&lt;p>&lt;strong>Target Variable:&lt;/strong> The Target Variable is totals.transactionRevenue has the transaction value of each visit. But, this column contains 98.72% of missing values for revenue (no purchase). The Target variable had a skewed distribution originally and after performing a lognormal distribution on the target variable it has a normal distribution.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/y_after_transformation.png" alt="Target Variable">&lt;/p>
-&lt;p>&lt;strong>Figure 3:&lt;/strong> Target Variable&lt;/p>
-&lt;h4 id="321-exploratory-data-analysis">3.2.1 Exploratory Data Analysis&lt;/h4>
-&lt;p>&lt;strong>Browser:&lt;/strong> The most popular browser is Google Chrome. Also, it was observed during the analysis that second and third best users were using safari and firefox respectively.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/device_browser.png" alt="Browser Variable">&lt;/p>
-&lt;p>&lt;strong>Figure 4:&lt;/strong> Browser Variable&lt;/p>
-&lt;p>&lt;strong>Device Category:&lt;/strong> Almost 70% of users were accessing online store via desktop&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/device_category.png" alt="Device Category Variable">&lt;/p>
-&lt;p>&lt;strong>Figure 5:&lt;/strong> Device Category Variable&lt;/p>
-&lt;p>&lt;strong>OperatingSystem:&lt;/strong> Windows is the popular operating system among the desktop users. However, among the mobile users, what&amp;rsquo;s interesting is, almost equal number of ios users (slightly lower) as android users accessed google play store. The reason why this is interesting is because, google play store is primarily used by android users and ios users almost always use Apple Store for downloading apps to their mobile devices. So it is interesting to know, almost equal number of ios users visit google store as well.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/device_operating_system.png" alt="OperatingSystem">&lt;/p>
-&lt;p>&lt;strong>Figure 6:&lt;/strong> Operating System&lt;/p>
-&lt;p>&lt;strong>GeoNetwork-City:&lt;/strong> Mountain View, California tops the cities list for the users who accessed online store. However in the top 10 cities, 4 cities are from California.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/geo_network_city.png" alt="GeoNetwork-City">&lt;/p>
-&lt;p>&lt;strong>Figure 7:&lt;/strong> GeoNetwork City&lt;/p>
-&lt;p>&lt;strong>GeoNetwork-Country:&lt;/strong> Customers from US are way ahead of other customers from different countries. May be this could be due to the fact that online store data that was provided was pulled from US Google Play Store (Possible BIAS!).&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/geo_network_country.png" alt="GeoNetwork-Country">&lt;/p>
-&lt;p>&lt;strong>Figure 8:&lt;/strong> GeoNetwork Country&lt;/p>
-&lt;p>&lt;strong>GeoNetwork-Region:&lt;/strong> It is already known that majority of the customers are from US, so America region tops the list.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/geo_network_continent.png" alt="GeoNetwork-Region">&lt;/p>
-&lt;p>&lt;strong>Figure 9:&lt;/strong> GeoNetwork Region&lt;/p>
-&lt;p>&lt;strong>GeoNetwork-Metro:&lt;/strong> SFO tops the list for all metro cities, followed by New York and then London.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/geo_network_metro.png" alt="GeoNetwork-Metro">&lt;/p>
-&lt;p>&lt;strong>Figure 10:&lt;/strong> GeoNetwork Region&lt;/p>
-&lt;p>&lt;strong>Ad Sources:&lt;/strong> Google Merchandise and Google Online Store are the top sources where the traffic is coming from to the Online Store.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/traffic_source_adcontent.png" alt="GeoNetwork-Metro">&lt;/p>
-&lt;p>&lt;strong>Figure 11:&lt;/strong> Ad Sources&lt;/p>
-&lt;h3 id="33-data-pre-processing">3.3 Data Pre-Processing&lt;/h3>
-&lt;p>Data Pre-Processing is an important step to build a Machine Learning Model. The data pre-processing step typically consists of data cleaning, transformation, standardization and feature selection, so only the most cleaner and accurate data is fed to a model. The dataset that was downloaded for this project contains several issues with formatting, lot of missing values, less to no variance (zero variance) in some of features and it was also observed the target variable does not have random distribution. The variables such as totals_newVisits, totals_bounces, trafficSource_adwordsClickInfo_page, trafficSource_isTrueDirect, totals_bounces, totals_newVisits had missing values. The missing values were imputed with zeroes, so the machine learning algorithm is able to execute without errors and there are no issues during categorical to numerical encoding. This is a very important step in building the Machine Learning Pipeline.&lt;/p>
-&lt;h3 id="34-feature-engineering">3.4 Feature Engineering&lt;/h3>
-&lt;p>Feature Engineering is the process of extracting the hidden signals/features, so the model can use these features to increase the predictive power. This step is the fundamental difference between a good model and a bad model. Also, there is no one-size-fits all approach for Feature Engineering. It is extremely time consuming and requires a lot of domain knowledge as well.
-For this project, a set of sophisticated functions to extract date related values such as Month, Year, Data, Weekday, WeekofYear have been created. It was observed that browser and operating systems are redundant features and instead of removing them, they were merged to create a combined feature which will potentially increase the predictive power. Also as part of feature engineering several features were derived like mean, sum and count of pageviews and hits that should help increase the feature space and ultimately reduce the total error increasing the overall accuracy of the model.&lt;/p>
-&lt;h3 id="34-feature-selection">3.4 Feature Selection&lt;/h3>
-&lt;p>Feature Selection refers to selection of features in your data that would improve your machine learning model. There is subtle variation between Feature Selection and Feature Engineering. The Feature Engineering technique is designed to extract more feature from the dataset and the feature selection technique allows only relevant features into the dataset. Also, how does anyone know what are the relevant features? There are several methodologies and techniques that are developed over the years but there is no one-size-fits-all methodology.&lt;/p>
-&lt;p>Feature Selection like Feature Engineering is more of an art than science. There are several iterative procedure that uses Information Gain, Entropy and Correlation scores to decide which feature gets into the model. There are also advanced Deep learning models that can be built or tree based models that can help observe variables of high importance after the model is built. Similar to Feature Engineering, Feature Selection should also require domain specific knowledge to develop festure selection strategies.&lt;/p>
-&lt;p>In this project, the features that had constant variance in the data were dropped and also the features that had mostly null values with only one Non-null value were dropped too. These features do not possess any statistical significance and add very less value to the modeling process. Also, depending on the final result, different techniques and strategies can be explored to optimize and improve the performance of the model.&lt;/p>
-&lt;h4 id="341-data-preparation">3.4.1 Data Preparation&lt;/h4>
-&lt;p>Scikit learn has inbuilt libraries to handle Train/Test Split as part the model_selection package. The dataset was split randomly with 80% Training and 20% Testing datasets.&lt;/p>
-&lt;h3 id="35-model-algorithms-and-optimization-methods">3.5 Model Algorithms and Optimization Methods&lt;/h3>
-&lt;p>Different Machine Learning algorithms and techniques were explored in this project and the outcome of the exploration along with different parameter settings have been discussed in the following sections.&lt;/p>
-&lt;h4 id="351-linear-regression-model">3.5.1 Linear Regression Model&lt;/h4>
-&lt;p>Linear regression is a supervised learning model that follows a linear approach in that it assumes a linear relationship between one ore more predictor variables (x) and a single target or response variable (y). The target variable can be calculated as a linear combination of the predictors or in other words the target is the calculated by weighted sum of the inputs and bias where the weights are estimated through different optimization techniques. Linear regression is referred to as simple linear regression when there is only one predictor variable involved and referred to as multiple linear regression when there are more than one predictor variables involved. The error between the predicted output and the ground truth is generally calculated using RMSE (root mean squared error). This is one of the classic modeling techniques that was explored in this project because the target variable (revenue per customer) is a real valued continuous output and exhibits a significant linear relationship with the independent variables or the input variables &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>In the exploration, SKLearn Linear Regression performed well overall. A 5 fold cross validation was performed and the best RMSE Score for this model observed was: 1.89. As shown in the Figure-12, the training and test RMSE error values are very close indicating that there is no overfitting the data.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/linear_regression3.png" alt="Linear Regression">&lt;/p>
-&lt;p>&lt;strong>Figure 12:&lt;/strong> Linear Regression Model&lt;/p>
-&lt;h4 id="352-xgboost-regressor">3.5.2 XGBoost Regressor&lt;/h4>
-&lt;p>XGBoost regression is a gradient boosting regression technique and one of the popular gradient boosting frameworks that exists today. It follows the ensemble principle where a collection of weak learners improve the prediction accuracy. The prediction in the current step S is weighed based on the outcomes from the previous step S-1. Weak learning is slightly better than random learning and that is one of the key strengths of gradient boosting technique. The XGBoost algorithm was explored for this project for several reasons including it offers built-in regularization that helps avoid overfitting, it can handle missing values effectively and it also does cross validation automatically. The feature space for the dataset being used is sparse and believe the potential to overfit the data is high which is one of the primary reasons for exploring XGBoost &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>XGBoost Regressor performed very well. It was the best performing model with the lowest RMSE score of 1.619. Also the training and test scores are reasonably close and it doesn&amp;rsquo;t look like there was the problem of over fitting the training data. Multiple training iterations of this model were explored with different parameters and most of the iterations resulted in significant error reduction compared to the other models making it the best performing model overall.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/xgboost3new.png" alt="XGBoost">&lt;/p>
-&lt;p>&lt;strong>Figure 13:&lt;/strong> XGBoost Model&lt;/p>
-&lt;h4 id="353-lightgbm-regressor">3.5.3 LightGBM Regressor&lt;/h4>
-&lt;p>LightGBM is a popular gradient boosting framework similar to XGBoost and is gaining popularity in the recent days. The important difference between lightGBM and other gradient boosting frameworks is that LightGBM grows the tree vertically or in other words it grows the tree leaf-wise compared to other frameworks where the trees grow horizontally. In this project the lightGBM framework was experimented primarily because this framework works well on large dataset with more than 10K observations. The algorithm also has a high throughput while using reasonably less memory but there is one problem with overfitting the data which was controlled to a large extent in this exploration using appropriate hyper parameter setting and achieved optimal performance &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>&lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>LightGBM Regression was the second best performing model in terms of RMSE scores. Also the training and test scores observed were slightly different indicating a potential problem of overfitting as discussed earlier. As in other experiments, multiple training iterations of this model were explored with different parameter settings and although it achieved reasonable error reduction compared to most of the other models that were explored, it still did not outperform the XGBoost regressor making it the second best performing model.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/lighgbm3new.png" alt="lightgbm">&lt;/p>
-&lt;p>&lt;strong>Figure 14:&lt;/strong> LightGBM Model&lt;/p>
-&lt;h4 id="354-lasso-regression">3.5.4 Lasso Regression&lt;/h4>
-&lt;p>Lasso is a regression technique that uses L1 regularization. In statistics, lasso regression is a method to do automatic variable selection and regularization to improve prediction accuracy and performance of the statistical model. Lasso regression by nature makes the coefficient for some of the variables zero meaning these variables are automatically eliminated from the modeling process. The L1 regularization parameter helps control overfitting and will need to be explored for a range of values for a specific problem. When the regularization penalty tends to be zero there is no regularization, and the loss function is mostly influenced by the squared loss and in contrary if the regularization penalty tends to be closer to infinity then the objective function is mostly influenced by the regularization part. It is always ideal to explore a range of values for the regularization penalty to improve the accuracy and avoid overfitting &lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup>&lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>In this project, Lasso is one of the important techniques that was explored primarily because the problem being solved is a regression problem and there is possibility to overfit the data due to the number of observations and feature space. During the model training phase different ranges for regularization penalty were explored and the appropriate value that helped achieve maximum reduction in the total RMSE score was identified.&lt;/p>
-&lt;p>Lasso performed slightly better than baseline model. However, it did not outperform lightGBM or XGBoost or tree based models in general.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/lasso3new.png" alt="lasso">&lt;/p>
-&lt;p>&lt;strong>Figure 15:&lt;/strong> Lasso Model&lt;/p>
-&lt;h4 id="355-ridge-regressor">3.5.5 Ridge Regressor&lt;/h4>
-&lt;p>Ridge is a regression technique that uses L2 regularization. Ridge regression does not offer automatic variable selection in the sense that it is not make the weights zero on any of the variable used in the model and the regularization term in a ridge regression is slightly different than the lasso regression. The regularization term is the sum of the square of coefficients multiplied by the penalty whereas in lasso it is the sum of the absolute value of the coefficients. The regularization term is a gentle trade-off between fitting the model and overfitting the model and like in lasso it helps improve prediction accuracy as well as performance of the statistical model. The L2 regularization parameter helps control overfitting and will need to be explored for a range of values for a specific problem similar to Lasso. The regularization parameter also helps reduce multicollinearity in the model. Similar to Lasso, when the regularization penalty tends to be zero there is no regularization, and the loss function is mostly influenced by the squared loss and in contrary if the regularization penalty tends to be closer to infinity then the objective function is mostly influenced by the regularization part. As in the case of Lasso, it is always ideal to explore a range of values for the regularization penalty to improve the accuracy and avoid overfitting &lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup>&lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>In this project, Ridge regression is one of the important techniques that was explored again primarily because the problem being solved is a regression problem and there is possibility to overfit the data due to the number of observations and feature space. During the model training phase different ranges for regularization penalty were explored and the appropriate value that helped achieve maximum reduction in the total RMSE score was identified. Ridge performed slightly better than baseline model. However like Lasso, it did not outperform lightGBM or XGBoost or tree based models in general.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/ridge3new.png" alt="Ridge">&lt;/p>
-&lt;p>&lt;strong>Figure 16:&lt;/strong> Ridge Model&lt;/p>
-&lt;h2 id="4-benchmark-results">4. Benchmark Results&lt;/h2>
-&lt;p>There are some interesting observations from the benchmark results seen in Figure-17. As expected, the data exploration and pre-processing performed very well and the data load and flattening of JSON took only a few hundred milliseconds on a platform like Google Colab compared to more than a minute running the same code locally on a desktop. The grid search for linear regression as expected took more time than the grid search for regularization techniques which is an interesting finding. The model training phase using ridge regression took only half the time approximately 250 seconds compared to 811 seconds for lasso regression. The highest training time of approximately 1800 seconds was recorded with XGBoost regressor and although the original assumption was that this modeling technique would consume time and significant system resources to complete the training process, the total time of 1800 seconds was certainly in the higher end. But, considering the fact that random forest regressor took more than 90 minutes to complete the training process during the experimentation phase, XGBoost performed much better than random forest. The other interesting observation was between LightGBM and XGBoost where LightGBM took significantly less time than XGBoost regressor and if performance and high availability are key considerations during operationalization with slight compromise on model performance then LightGBM would be an ideal candidate for real time operationalization.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/benchmark1.png" alt="Benchmark">&lt;/p>
-&lt;p>&lt;strong>Figure 17:&lt;/strong> Benchmark Results&lt;/p>
-&lt;h2 id="5-software-technologies">5. Software Technologies&lt;/h2>
-&lt;p>In this project tools like Python and Google Colab Jupyter Notebook were used. Also several Python packages were employed in this exploration such as Pandas, Numpy, Matplotlib, sklearn&lt;/p>
-&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
-&lt;p>As a project team the intention was to create a template that can be utilized for any ML project. The dataset that was used for this project was challenging in a way that it required a lot of data cleaning, flattening and transformation to get the data into the required format.&lt;/p>
-&lt;h3 id="61-model-pipeline">6.1 Model Pipeline&lt;/h3>
-&lt;p>In this project, multiple regression and tree based models from scikit learn library were explored with various hyper parameter setting and other methods like the lightGBM. The goal of the model pipeline was to explore and examine data, identify data pre-processing methods, imputation strategies, derive features and try different feature extraction methods was to perform different experiments with different parameter setting and identify the optimized with low RMSE that can be operationalized in Production. The parameters were explored within the boundary of this problem setting using different techniques.&lt;/p>
-&lt;h3 id="62-feature-exploration-and-pre-processing">6.2 Feature Exploration and Pre-Processing&lt;/h3>
-&lt;p>As part of this project a few features were engineered and included in the training dataset. The feature importance visualizations that were generated after the model training process indicate that these engineered features were part of the top 30% of high impact features and they contributed reasonably to improving the overall accuracy of the model. During additional experimentation phase, the possibility of including few other potential features that could be derived from the dataset was explored and those additional features were included in the final dataset that was used during model training. Although these features did not contribute largely to reducing the error it gave an opportunity to share ideas and methods to develop these new features. Also during feature exploration phase other imputation strategies were evaluated, attempted to identify more outliers and tried different encoding techniques for categorical variables and ultimately determined that label encoder or ordinal encoder is the best way forward. Also some of the low importance features were excluded and the model was retrained to validate if the same or better RMSE value could be achieved.&lt;/p>
-&lt;h3 id="63-outcome-of-experiments">6.3 Outcome of Experiments&lt;/h3>
-&lt;p>Multiple modeling techniques were explored as part of this project like Linear regression, gradient boosting algorithms and linear regression regularization techniques. The techniques were explored with basic parameter setting and based on the outcome of those experiments, the hyper parameters were tuned using grid search to obtain the best estimator evaluated on RMSE. Also, during grid search K-Fold cross validation of training data was used and the cross validated results were examined through a results table. The fit_intercept flag played a significant role resulting in an optimal error. As part of the different experimentations that were performed, random forest algorithm was also explored but it suffered performance issues and it seemed like it would require more iterations to converge which is why it was dropped from our results and further exploration. Although random forest was not explored, gradient boosting techniques were part of the experimentations and the best RMSE from XGBoost. The LightGBM regressor was also explored with different parameter settings but it did not produce better RMSE score than XGBoost.&lt;/p>
-&lt;p>In the case of XGBoost, there was improvement to the RMSE score as different tree depths, feature fraction, learning rate, number of children, bagging fraction, sub-sample were explored. There was significant improvement to the error metric when these parameters were adjusted in an intuitive way. Also, linear regression with regularization techniques were explored and although there was some improvement to the error metric compared to the basic linear regression model they did not perform better than the gradient boosting method that was explored. So, based on different explorations and experimentations a reasonably conclusion can be made that gradient boosting technique performed better for the given problem setting and generated the best RMSE score. Based on the evaluation results of XGBoost on the dataset used, the recommendation would be to test the XGBoost model with real time data and the performance of the model can be evaluated in real-time scenario too and additionally, if needed, hyper parameter tuning can be performed on the XGBoost model specifically for the real-time scenario &lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>. The feature engineering process on the dataset helped derive features with additional predictive value and a pipeline was built to reuse the same process in different modeling techniques. Five different models were tested including Linear Regression, XGBoost, Light GBM, Lasso and Ridge. The summary of all the models can be seen in Figure-17.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/model_results_new2new.png" alt="Model_Results">&lt;/p>
-&lt;p>&lt;strong>Figure 18:&lt;/strong> Model Results Summary&lt;/p>
-&lt;h3 id="64-limitations">6.4 Limitations&lt;/h3>
-&lt;p>Due to the limited capacity of our Colab Notebook setup, there was difficulty in performing cross Validation for XGBoost and LightGBM. The KFold cross validation with different parameter settings would have helped identify the best estimator for these models, helped achieve even better rmse scores and potentially avoid overfitting, if any. The tree based models performed well in this dataset and it would be beneficial to explore other tree based models like Random Forest in the future and evaluate/compare the performance.&lt;/p>
-&lt;h2 id="7-previous-explorations">7. Previous Explorations&lt;/h2>
-&lt;p>The Online GStore customer revenue prediction problem is a Kaggle competition with more than 4100 entries. It is one of the popular challenges in Kaggle with a prize money of $45,000. Although the goal was not to make it to the top in the leader board, the challenge gave a huge opportunity to explore different methods, techniques, tools and resources. The one important difference between many of the previous of explorations versus what has been achieved in this exploration is the number of different machine learning algorithms that was explored and the performance for each of those different techniques were examined. Based on review of several submissions in Kaggle there were only a very few kernel entries that explored different parameter settings and making intuitive adjustments to them to make the model perform at an optimum level like what has been accomplished in this project. The other uniqueness that was brought to this submission was identifying techniques that offered good performance and consumed less system resources in terms of operationalization. There is lot of scope to continue exploration and attempt other techniques to identify the best performing model.&lt;/p>
-&lt;h2 id="8-acknowlegements">8. Acknowlegements&lt;/h2>
-&lt;p>The team would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and the other instructors in the Big Data Applications course for their guidance and support through the course of this project and advise on documenting the results of various explorations.&lt;/p>
-&lt;h2 id="9-references">9. References&lt;/h2>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Kaggle Competition,2019,Predict the Online Store Revenue,[online] Available at: &lt;a href="https://www.kaggle.com/c/ga-customer-revenue-prediction/rules">https://www.kaggle.com/c/ga-customer-revenue-prediction/rules&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>Kaggle Competition,2019,Predict the Online Store Revenue, Data, [online] Available at: &lt;a href="https://www.kaggle.com/c/ga-customer-revenue-prediction/data">https://www.kaggle.com/c/ga-customer-revenue-prediction/data&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:3" role="doc-endnote">
-&lt;p>Machine Learning Mastery,2016,Brownlee, Linear Regression Model, [online] Available at: &lt;a href="https://machinelearningmastery.com/linear-regression-for-machine-learning">https://machinelearningmastery.com/linear-regression-for-machine-learning&lt;/a> &lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:4" role="doc-endnote">
-&lt;p>XGBoost 2020,xgboost developers, XGBoost, [online] Available at: &lt;a href="https://xgboost.readthedocs.io">https://xgboost.readthedocs.io&lt;/a> &lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:5" role="doc-endnote">
-&lt;p>Datacamp,2019,Pathak, Using XGBoost in Python, [online] Available at: &lt;a href="https://www.datacamp.com/community/tutorials/xgboost-in-python">https://www.datacamp.com/community/tutorials/xgboost-in-python&lt;/a> &lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:6" role="doc-endnote">
-&lt;p>Towards Datascience,2017,Lutins, Ensemble Methods in Machine Learning, [online] Available at: &lt;a href="https://towardsdatascience.com/ensemble-methods-in-machine-learning-what-are-they-and-why-use-them-68ec3f9fef5f">https://towardsdatascience.com/ensemble-methods-in-machine-learning-what-are-they-and-why-use-them-68ec3f9fef5f&lt;/a> &lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:7" role="doc-endnote">
-&lt;p>Medium 2017,Mandot, What is LightGBM,[online] Available at: &lt;a href="https://medium.com/@pushkarmandot/https-medium-com-pushkarmandot-what-is-lightgbm-how-to-implement-it-how-to-fine-tune-the-parameters-60347819b7fc">https://medium.com/@pushkarmandot/https-medium-com-pushkarmandot-what-is-lightgbm-how-to-implement-it-how-to-fine-tune-the-parameters-60347819b7fc&lt;/a> &lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:8" role="doc-endnote">
-&lt;p>Kaggle 2018,Daniel, Google Analytics Customer Revenue Prediction, [online] Available at: &lt;a href="https://www.kaggle.com/fabiendaniel/lgbm-starter">https://www.kaggle.com/fabiendaniel/lgbm-starter&lt;/a> &lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:9" role="doc-endnote">
-&lt;p>Towards Datascience,2018,Bhattacharya, Ridge and Lasso regression, [online] Available at: &lt;a href="https://towardsdatascience.com/ridge-and-lasso-regression-a-complete-guide-with-python-scikit-learn-e20e34bcbf0b">https://towardsdatascience.com/ridge-and-lasso-regression-a-complete-guide-with-python-scikit-learn-e20e34bcbf0b&lt;/a> &lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:10" role="doc-endnote">
-&lt;p>Datacamp,2019,Oleszak, Regularization: Ridge, Lasso and Elastic Net, [online] Available at: &lt;a href="https://www.datacamp.com/community/tutorials/tutorial-ridge-lasso-elastic-net">https://www.datacamp.com/community/tutorials/tutorial-ridge-lasso-elastic-net&lt;/a> &lt;a href="#fnref:10" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item></channel></rss>

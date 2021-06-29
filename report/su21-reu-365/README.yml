@@ -6,7 +6,7 @@ owner:
   community: "reu"
   semester: "sp21"
 project:
-  title: TBD
-  url: TBD
+  title: "Detection of Cyber Attacks on IoT Devices Using Deep Learning"
+  url: "https://github.com/cybertraining-dsc/su21-reu-365"
   author:
     - su21-reu-365

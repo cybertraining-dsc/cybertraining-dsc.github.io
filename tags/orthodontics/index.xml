@@ -1,0 +1,83 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – orthodontics</title><link>/tags/orthodontics/</link><description>Recent content in orthodontics on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 16 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/orthodontics/index.xml" rel="self" type="application/rss+xml"/><item><title>Report: Project: AI in Orthodontics</title><link>/report/su21-reu-363/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-363/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-363/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-363/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-363/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-363/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Whitney McNair, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-363">su21-reu-363&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-363/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>In this effort we are analzying X-ray images in AI and identify cavitites&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-data-sets">2. Data Sets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-example-of-a-ai-algorighm-in-orthodontics">5. Example of a AI algorighm in Orthodontics&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> ai, orthodontics, x-rays.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Find literature about AI and Orthodontics x-rays.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Analyze the literature and explain how ai or x-rays are beneficial.&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-data-sets">2. Data Sets&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Finding data sets in Orthodontics.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Can any of the data sets be used in AI?&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What are the challenges with Orthodontics data set? Privacy, HIPPA, Size, Avalibility&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/li>
+&lt;/ul>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Place a cool image into projects images in my directory&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Correct the following link, replace the fa number with my su number and thne chart of png.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> If the image has been copied, you must use a reference such as shown in the Figure 1 caption.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="5-example-of-a-ai-algorighm-in-orthodontics">5. Example of a AI algorighm in Orthodontics&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete data sets that will be used.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete algorighm to analyze the data sets.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Write the program.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Verify that it works.&lt;/li>
+&lt;/ul>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Gregor guided me throughout this process.&lt;/li>
+&lt;/ul>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/li>
+&lt;/ul>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item></channel></rss>

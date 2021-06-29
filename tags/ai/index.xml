@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – ai</title><link>/tags/ai/</link><description>Recent content in ai on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 15 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Practical K-Means, Map Reduce, and Page Rank for Big Data Applications and Analytics</title><link>/docs/modules/bigdataapplications/2019/applications/kmeans/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/bigdataapplications/2019/applications/kmeans/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – ai</title><link>/tags/ai/</link><description>Recent content in ai on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 16 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Practical K-Means, Map Reduce, and Page Rank for Big Data Applications and Analytics</title><link>/docs/modules/bigdataapplications/2019/applications/kmeans/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/bigdataapplications/2019/applications/kmeans/</guid><description>
 &lt;p>We use the K-means Python code in SciPy package to show real code for
 clustering. After a simple example we generate 4 clusters of distinct
 centers and various choice for sizes using Matplotlib tor visualization.
@@ -2077,7 +2077,415 @@ set of &lt;a href="https://docs.google.com/document/d/1E8orgHbNV6P8STl2lQxov2VHK
 &lt;h2 id="9-references">9. References&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://research.google.com/colaboratory/faq.html">https://research.google.com/colaboratory/faq.html&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Report: Aquatic Toxicity Analysis with the aid of Autonomous Surface Vehicle (ASV)</title><link>/report/fa20-523-312/project/project/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/fa20-523-312/project/project/</guid><description>
+&lt;/ul></description></item><item><title>Report: Detection of Cyber Attacks on IoT Devices Using Deep Learning</title><link>/report/su21-reu-365/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-365/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-365/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-365/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-365/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-365/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Victor Adankai, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-365">su21-reu-365&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>
+&lt;ul>
+&lt;li>
+&lt;ul>
+&lt;li>&lt;a href="#types-of-cyber-attacks">Types of Cyber Attacks&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#examples-of-ai-algorithms-for-cyber-attacks-detection">Examples of AI Algorithms for Cyber Attacks Detection&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#convolutional-neural-network-cnn">Convolutional Neural Network (CNN)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-datasets">2. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-benchmark">4. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-conclusion">5. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-acknowledgments">6. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-references">7. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> AI, ML, DL, Cybersecurity, Cyber Attacks, IoT.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;ul>
+&lt;li>Find literature about AI and Cyber Attacks on IoT Devices Dectection.&lt;/li>
+&lt;li>Analyze the literature and explain how AI for Cyber Attacks on IOT Devices Detection are beneficial.&lt;/li>
+&lt;/ul>
+&lt;h4 id="types-of-cyber-attacks">Types of Cyber Attacks&lt;/h4>
+&lt;ul>
+&lt;li>Denial of service (DoS) Attack:&lt;/li>
+&lt;li>Remote to Local Attack:&lt;/li>
+&lt;li>Probing:&lt;/li>
+&lt;li>User to Root Attack:&lt;/li>
+&lt;li>Adversarial Attacks:&lt;/li>
+&lt;li>Poisoning Attack:&lt;/li>
+&lt;li>Evasion Attack:&lt;/li>
+&lt;li>Integrity Attack:&lt;/li>
+&lt;li>Malware Attack:&lt;/li>
+&lt;li>Phising Attack:&lt;/li>
+&lt;li>Zero Day Attack:&lt;/li>
+&lt;li>Sinkhole Attack:&lt;/li>
+&lt;li>Causative Attack:&lt;/li>
+&lt;/ul>
+&lt;h4 id="examples-of-ai-algorithms-for-cyber-attacks-detection">Examples of AI Algorithms for Cyber Attacks Detection&lt;/h4>
+&lt;ul>
+&lt;li>
+&lt;h2 id="convolutional-neural-network-cnn">Convolutional Neural Network (CNN)&lt;/h2>
+&lt;/li>
+&lt;li>Autoencoder (AE)&lt;/li>
+&lt;li>Deep Belief Network (DBN)&lt;/li>
+&lt;li>Recurrent Neural Network (RNN)&lt;/li>
+&lt;li>Generative Adversal Network (GAN)&lt;/li>
+&lt;li>Deep Reinforcement Learning (DIL)&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-datasets">2. Datasets&lt;/h2>
+&lt;ul>
+&lt;li>Finding data sets in IoT Devices Cyber Attacks.&lt;/li>
+&lt;li>Can any of the data sets be used in AI?&lt;/li>
+&lt;li>What are the challenges with IoT Devices Cyber Attacks data set? Privacy, HIPPA, Size, Avalibility&lt;/li>
+&lt;li>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/li>
+&lt;/ul>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;ul>
+&lt;li>Place a cool image into projects images in my directory&lt;/li>
+&lt;li>Correct the following link, replace the fa number with my su number and thne chart of png.&lt;/li>
+&lt;li>If the image has been copied, you must use a reference such as shown in the Figure 1 caption.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-benchmark">4. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]&lt;/p>
+&lt;h2 id="5-conclusion">5. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="6-acknowledgments">6. Acknowledgments&lt;/h2>
+&lt;ul>
+&lt;li>Gregor von Laszewski&lt;/li>
+&lt;li>Yohn Jairo Bautista&lt;/li>
+&lt;li>Carlos Theran&lt;/li>
+&lt;/ul>
+&lt;h2 id="7-references">7. References&lt;/h2>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Dentronics: Artifical intelligence in dentistry</title><link>/report/su21-reu-376/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-376/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-376/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-376/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Jamyla Young, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-376">su21-reu-376&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-data-sets">2. Data sets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-example-of-an-ai-algorithm-in-dentronics">5. Example of an AI algorithm in Dentronics&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-conclusion">7. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Find literature about Dentronics and its effects&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Analyze the literature&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-data-sets">2. Data sets&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Find data sets about effects about dentronics&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Identify the purpose of data sets&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What are the challenges with Dentronics data sets? HIPPA, size, availibility&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub. However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/li>
+&lt;/ul>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Place a cool image into projects images in my directory&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Correct the following, replace the fa number with my su number and the chart of png&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> if image is copied , you must use a reference such as shown in the Figure 1 caption&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> list&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="5-example-of-an-ai-algorithm-in-dentronics">5. Example of an AI algorithm in Dentronics&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete data set that will be used&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete algorithm that is used to anaylze the data set&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Write the program&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Verify that it works&lt;/li>
+&lt;/ul>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="7-conclusion">7. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Gregor helped me&lt;/li>
+&lt;/ul>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;p>-[ ] Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at one point automatically change the references from superscript to square brackets it is best to introduce a space before the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: Object Recognition</title><link>/report/su21-reu-364/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-364/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-364/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-364/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-364/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-364/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: final, Type: Project&lt;/p>
+&lt;p>David Umanzor, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-364">su21-reu-364&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-364/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>In this project we are studying the ability of AI to recognize and tag objects or subjects from a photo with accuracy&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-data-sets">2. Data Sets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-example-of-an-ai-algorithm-with-object-recognition">5. Example of an AI algorithm with Object Recognition&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> ai, object recognition, image processing, computer vision.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Find liturature about image processing aand object recognition.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Analyze liturature &amp;amp; explain how this relates.&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-data-sets">2. Data Sets&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Collect image sets for the AI to recognize.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What do these data sets specify.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What are the challenges with Object Recognition? Accuracy.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Datasets can be huge and GitHub has lmited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available your program must contain a download function instead that you customize.
+Write it using pythons &amp;lsquo;request&amp;rsquo;&lt;/li>
+&lt;/ul>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Place cool image into projects images in my directory (data set of its ability to be accurate).&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Correct the following link, replace the fa with su, and the numbers to my reu numbers, change chart.png to file name.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> If the image has been copied, you must use a reference such as shown in the Figure 1 caption.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="5-example-of-an-ai-algorithm-with-object-recognition">5. Example of an AI algorithm with Object Recognition&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete data set that will be used.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Identify the conrete algorithm that completes the image processing for Object Recognition.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Write the program.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Verify that it works.&lt;/li>
+&lt;/ul>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Gregor Von Laszewski&lt;/li>
+&lt;/ul>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/li>
+&lt;/ul>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: AI in Orthodontics</title><link>/report/su21-reu-363/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-363/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-363/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-363/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-363/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-363/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Whitney McNair, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-363">su21-reu-363&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-363/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>In this effort we are analzying X-ray images in AI and identify cavitites&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-data-sets">2. Data Sets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-example-of-a-ai-algorighm-in-orthodontics">5. Example of a AI algorighm in Orthodontics&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> ai, orthodontics, x-rays.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Find literature about AI and Orthodontics x-rays.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Analyze the literature and explain how ai or x-rays are beneficial.&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-data-sets">2. Data Sets&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Finding data sets in Orthodontics.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Can any of the data sets be used in AI?&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What are the challenges with Orthodontics data set? Privacy, HIPPA, Size, Avalibility&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/li>
+&lt;/ul>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Place a cool image into projects images in my directory&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Correct the following link, replace the fa number with my su number and thne chart of png.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> If the image has been copied, you must use a reference such as shown in the Figure 1 caption.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="5-example-of-a-ai-algorighm-in-orthodontics">5. Example of a AI algorighm in Orthodontics&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete data sets that will be used.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete algorighm to analyze the data sets.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Write the program.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Verify that it works.&lt;/li>
+&lt;/ul>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Gregor guided me throughout this process.&lt;/li>
+&lt;/ul>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/li>
+&lt;/ul>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: AI Time Series Analysis</title><link>/report/su21-reu-374/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-374/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-312/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-312/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Zyion Morris, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374">su21-reu-374&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/edit/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-datasets">2. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-benchmark">4. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-conclusion">5. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-acknowledgments">6. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-references">7. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> AI, ML, DL, Cybersecurity, Cyber Attacks, IoT.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> ass tasks&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-datasets">2. Datasets&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> add tasks&lt;/li>
+&lt;/ul>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Place a cool image into projects images in my directory&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Correct the following link, replace the fa number with my su number and thne chart of png.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> If the image has been copied, you must use a reference such as shown in the Figure 1 caption.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-benchmark">4. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="5-conclusion">5. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="6-acknowledgments">6. Acknowledgments&lt;/h2>
+&lt;p>Needs full sentence&lt;/p>
+&lt;ul>
+&lt;li>Gregor von Laszewski&lt;/li>
+&lt;li>Yohn Jairo Bautista&lt;/li>
+&lt;li>Carlos Theran&lt;/li>
+&lt;/ul>
+&lt;h2 id="7-references">7. References&lt;/h2>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Aquatic Toxicity Analysis with the aid of Autonomous Surface Vehicle (ASV)</title><link>/report/fa20-523-312/project/project/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/fa20-523-312/project/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/fa20-523-312/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-312/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/fa20-523-312/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-312/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: final, Type: Project&lt;/p>
@@ -9400,831 +9808,6 @@ to problems such as food and water shortages, the study of agriculture could imp
 &lt;/li>
 &lt;li id="fn:7" role="doc-endnote">
 &lt;p>&amp;ldquo;Data from: A field-scale sensor network data set for monitoring and modeling the spatial and temporal variation of soil moisture in a dryland agricultural field&amp;rdquo;, USDA: Ag Data Commons, 2020. [Online]. Available: &lt;a href="https://data.nal.usda.gov/dataset/data-field-scale-sensor-network-data-set-monitoring-and-modeling-spatial-and-temporal-variation-soil-moisture-dryland-agricultural-field">https://data.nal.usda.gov/dataset/data-field-scale-sensor-network-data-set-monitoring-and-modeling-spatial-and-temporal-variation-soil-moisture-dryland-agricultural-field&lt;/a>. [Accessed: 19- Oct- 2020]. &lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: Big Data in Sports Game Predictions and How It is Used in Sports Gambling</title><link>/report/fa20-523-331/report/report/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/fa20-523-331/report/report/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/fa20-523-331/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-331/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/fa20-523-331/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-331/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: final, Type: Report&lt;/p>
-&lt;p>Mansukh Kandhari, &lt;a href="https://github.com/cybertraining-dsc/fa20-523-331/">fa20-523-331&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/fa20-523-331/blob/master/report/report.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Big data in sports is being used more and more as technology advances and this has a very big impact, especially when it comes to sports gambling. Sports gambling has been around for a while and it is gaining popularity with it being legalized in more places across the world. It is a very lucrative industry and the bookmakers use everything they can to make sure the overall odds are in their favor so they can reduce the risk of paying out to the betters and ensure a steady return. Sports statistics and data is more important than ever for bookmakers to come up with the odds they put out to the public. Odds are no longer just determined by expert analyzers for a specific sport. The compilation of odds uses a lot of historical data about team and player performance and looks at the most intricate details in order to ensure accuracy. Bookmakers spend a lot of money to employ the best statisticians and the best algorithms. There are also many companies that solely focus on sports data analysis, who often work with bookmakers around the world. On the other hand, big data for sports game analysis is also used by gamblers to gain a competitive edge. Many different algorithms have been created by researchers and gamblers to try to beat the bookmakers, some more successful than others. Oftentimes these not only involve examining sports data, but also analysing data from different bookmakers odds in order to determine the best bets to place. Overall, big data is very important in this field and this research paper aims to show the various techniques that are used by different stakeholders.&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-background">2. Background&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-how-bookmakes-determine-odds">3. How bookmakes Determine odds&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-poisson-model">5. Poisson Model&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-algorithms-and-prediction-models">6. Algorithms and prediction models&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#7-conclusion">7. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-references">8. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> sports, sportsbook, betting, gambling, data analysis, machine learning, punter(British word for gambler)&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Big Data in sports has been used for years by various stakeholders in this industry to do everything from predicting game outcomes to injury prevention. It is also becoming very prevalent in the area of sports gambling. Ever since the Supreme court decision in Murphy v. National Collegiate Athletic Association that overturned a ban on sports betting, the majority of states in the US have passed legislation to allow sports gambling &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. In 2019, the global sports betting market was valued at 85.047 US Dollars so this is an already very big industry that is expanding &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. There are various platforms that allow betting in this industry including tangible sports books, casinos, racetracks, and many online and mobile gambling apps. The interesting thing about big data in sports betting is that it is being used on both sides in this market. It is used by bookmakers to create game models and come up with different spreads and odds, but big data analysis is also being used by gamblers to gain a competetive advantage and place more accurate bets. Various prediction models using machine learning and big data analytics have been created and they can sometimes be very accurate. For example, Google correctly predicted 14 out of the 16 matches in the 2014 world cup and Microsoft did even better by correctly predicting 15 out of the 16 matches during that year &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>. Many big companies have spent a lot of time gathering lots of data and creating prediction algorithms, inlcuding ESPN&amp;rsquo;s Football Power index that gives the probility of one team beating another, Analytics Powerhouse 538 that determines scores of games using their ELO method, and Accuscore which runs Mone Carlo Simulations on worldwide sporting events &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. Bookmakers use all their possible tools and algorithms to put out the best odds that will give them a return. They often employ teams of statisticians that use the most advanced prediction models and information from data analysis companies to come up with their odds. If sports data analysis is vastly being used by people other than bookies and prediction models can often be very accurate, one might wonder how people haven&amp;rsquo;t made millions off sports betting and how bookmakers are still in business? This report analyzes how big data analytics are used by bookmakers to come up with the odds they put out for games while also examining how it is used on the gamblers side. It aims to analysize various prediction models created by sports betters, researchers, and AI companies, and see how they compare to the way big data is used by bookmakers. Besides giving an analysis of how big data is used in this field, it will show if betting guided by prediction models can give a consistent return.&lt;/p>
-&lt;h2 id="2-background">2. Background&lt;/h2>
-&lt;p>Many people with an interest in sports betting prediction have created models, some that involve machine learning and AI. A few of these projects have had some very interesting results using different types of data and analysis techniques. Jordan Bailey created an NBA prediction model based on the over under bets &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>. For context, bookmakers will set a point total for a game and bettors can bet on whether the actual score will be over or under the point total set by the book. This type of betting is offered for many types of sports. Using NBA box scores for 5 previous seasons and data on historical betting lines created by various bookmakers, Bailey created a logistical regression model that would return a prediction on if the score was over or under a point total set by a bookmaker. Two models were created, one that predicted if a game would be over a set line and one that predicted if it would be under a set line. The datasets for these models were structured in a way where each specific game was represented as the box scores for the 3 previous games for each team, so 6 previous games &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>. When creating the model, the first four seasons were used as the training set and the fifth season was used as the testing data to make predictions on &lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>. In order to determine the significance of results, Bailey set up a &amp;ldquo;confidence threshold&amp;rdquo; of 62 percent for the probability his model returned on a game being over or under. The prediction was &amp;ldquo;confident&amp;rdquo; if the probability of the prediction was above the set threshold. When testing the models, the over model predicted 88 games confidently and 52 games correctly, with an accuracy of 59.09 percent. The under model predicted 96 games confidently and correctly predicted 52 games with an accuracy of 54.16 percent &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>. To simulate how the model would perform on betting with 10,000 dollars, a bet was made every time the model predicted a confident bet for the 2018 NBA season. The accuracy on the bets were 52.52 percent and the total after the simulation was 11,880 dollars.&lt;/p>
-&lt;h2 id="3-how-bookmakes-determine-odds">3. How bookmakes Determine odds&lt;/h2>
-&lt;p>It is no secret that bookmakers use a lot of data and apply various statistical techniques to come up with betting odds. The statistical techniques used and the data that bookmakers look at vary from sport to sport, for example, a popular method for modeling soccer uses the Poisson distribution since it can be very accurate but also because it makes it easy to add time decay to the inputs &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>. Big data and data accuracy plays such a big part for bookmakers that many companies in the sports betting market have multi million dollar contracts with big leagues like the NFL &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>. The NBA also recently extended their contracts with Sportradar and Genius Sports group that will have the rights to distribute official NBA data to licenced sports betting operators in the United States &lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup>. Companies like Sportradar collect and analyze official data and provide services to various bookmakers. The accuracy of data can be very important, a difference of something as little as one yard can make such a big difference; therefore, the industry values the accuracy of data that the leagues itself can provide. Bookmakers employ various mathematicians to analyze historical sports data to come up with odds; however, sports data isn’t the only thing that bookmakers look at when determining how they will make odds for a game. At the end of the day, the gambling industry is a numbers game that thrives on ensuring the probability is in the houses favor. Bookmakers use various techniques involving big data and factors such as public opinion to do so.&lt;/p>
-&lt;p>Big data is being used more and more in various industries, and in the gambling industry, it isn&amp;rsquo;t just used to come up with odds. One major way it is used is by gathering data about user demographics &lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup>. When using an online sportsbook, the casino can gather data about a users age, location, gender, excetera which can provide valuable insights that can be used for product development and marketing purposes. By using user demographic data to provide targeted advertising, casinos and bookmakers can attract more betters which will increase revenue. As said by former odds compiler Matthew Trenhaile, &amp;ldquo;Their [bookmakers] product is entertainment and not the selling of an intellectual contest between punter and bookmaker. It is foolish to think this has ever been the product that bookmakers have sold.They sell an adrenaline rush and anyone who thinks great characters pitting themselves against the punters and taking anyone on in horse racing betting rings is what betting used to be about is kidding himself or herself.&amp;rdquo; Due to the probability of making money in sports betting, and really every type of gambling, being in the houses favor, online casinos and sportsbooks use big data to increase the number of bets placed by customers; nevertheless, using models to come up with odds is the heart of this industry which makes it the most important way big data analytics is used by bookmakers.&lt;/p>
-&lt;p>When odds are being made for a sports book, a lot of things are taken into consideration in the process. Bookmakers have teams of statisticians that analyze historical data of the teams in order to come up with game prediction models, often using machine learning based algorithms&lt;sup id="fnref:11">&lt;a href="#fn:11" class="footnote-ref" role="doc-noteref">11&lt;/a>&lt;/sup>. When bookmakers are actually making the odds, these statistical models created from large amounts of data aren&amp;rsquo;t the only thing they use. When bookmakers are creating odds, their goal isn&amp;rsquo;t to come up with an accurate game prediction, it is to have the lowest probability of paying out, so they will add a margin in order to statistically ensure a profit regardless of the outcome. Some times public opinion is used by bookmakers to sway their odds. For example, if a team has been on an unexpected winning streak, the bookmakers will often overestimate their odds, even against a team that will statistically do better than them, since people will be more inclined to take that bet resulting in the bookmaker reducing their probability of paying out &lt;sup id="fnref:12">&lt;a href="#fn:12" class="footnote-ref" role="doc-noteref">12&lt;/a>&lt;/sup>. Furthermore, bookmakers will often &amp;ldquo;hedge&amp;rdquo; bets to cover potential losses if an unexpected outcome occurs. For example, if a large amount of people are betting on a team regardless of the odds, the bookmakers will have a large payout if that outcome occurs, so they will start offering more favorable odds on the opposite outcome so they can bring in bets that would cover their losses &lt;sup id="fnref:11">&lt;a href="#fn:11" class="footnote-ref" role="doc-noteref">11&lt;/a>&lt;/sup>. At the end of the day, when bookmakers set out their odds they will always make sure they are statistically in their favor. Even though bookmakers heavily analyze sports data in order to come up with prediction models, the odds put out don&amp;rsquo;t exactly reflect the true probability of a game outcome. Game prediction models is used to come up with the most probable event occurring but bookmakers add a margin that is skews the actual probability in order to statistically ensure a profit &lt;sup id="fnref:13">&lt;a href="#fn:13" class="footnote-ref" role="doc-noteref">13&lt;/a>&lt;/sup>. An example of a coin toss can show how these margins work &lt;sup id="fnref:13">&lt;a href="#fn:13" class="footnote-ref" role="doc-noteref">13&lt;/a>&lt;/sup>. If one were to bet on a coin toss, there is a 50 percent change of heads winning and a 50 percent change of tails winning so that means neither side is favored and the market of this bet is 100 percent. As a bookmaker is trying to ensure a profit, they will add a margin to the actual game winning probability in order to mitigate risk and ensure that the odds are in their favor. The margins that the bookmakers put on the actual probability is determined by many factors such as public opinion and perception of a team &lt;sup id="fnref:14">&lt;a href="#fn:14" class="footnote-ref" role="doc-noteref">14&lt;/a>&lt;/sup>. Gamblers are actually able to calculate the margins that the bookmakers put on a bet using a relatively simple formula. This formula varies for the type of sports the gambler is trying to calculate the odds for. In a two way market such as tennis or basketball, a person can figure out the bookmakers margin using the decimal odds places for both sides &lt;sup id="fnref:13">&lt;a href="#fn:13" class="footnote-ref" role="doc-noteref">13&lt;/a>&lt;/sup>. This formula is 100(1/decimal odds) + 1000(1/other decimal odds). The amount the market percentage is over 100 is the margin the bookmaker has on the better; therefore, the margin percentage the bookmaker has over the gambler can be determined by subtracting 100 from that formula.&lt;/p>
-&lt;h2 id="5-poisson-model">5. Poisson Model&lt;/h2>
-&lt;p>One of the most popular models for soccer game predictions is the Poisson distribution model. According to former odds compiler Matthew Trenhaile, the Poisson distribution model for soccer prediction can be very accurate and is very useful since it is easy to add time decay to the inputs &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>. Refinements can easily be made as a game progresses and goal input changes to easily re calculate the odds, which is useful for bookmakers. The Poisson distribution for soccer game predictions is not only used on a large scale by bookmakers to calculate odds, but it is also often used by even small time bettors to determine how they will bet. A Poisson model for soccer games can even be created on Excel for betters who want to place their bets more accurately. This process works by using historical data of how many goals a team scored and how many goals they let in and comparing it to a leagues average in order to determine the number of goals each team is likely to score in a game. It starts with calculating the average number of goals scored for home games and away games for the whole league and determining a team&amp;rsquo;s &amp;ldquo;attack strength&amp;rdquo; and &amp;ldquo;defense strength&amp;rdquo; &lt;sup id="fnref:15">&lt;a href="#fn:15" class="footnote-ref" role="doc-noteref">15&lt;/a>&lt;/sup>. The attack strength is a team&amp;rsquo;s average number of goals per game divided by the league average of goals per game. Similarly, a teams defense strength is determined by dividing a teams average number of goals conceded by the leagues average number of goals conceded. The goal expectancy for the home team is calculated by multiplying the team&amp;rsquo;s attack strength with the away team&amp;rsquo;s defense strength and the league&amp;rsquo;s average number of home goals. The goal expectancy for the away team is calculated by multiplying the away teams attack strength with the home teams defense strength and multiplying it by the leagues average number of away goals &lt;sup id="fnref:15">&lt;a href="#fn:15" class="footnote-ref" role="doc-noteref">15&lt;/a>&lt;/sup>. With this information, one can determine the probability for the range of goal outcomes on both sides using a formula created by the French mathematician Simeon Denis Poisson. The Poisson distribution indicates the probability of a given number of events occurring over a fixed interval, so it can be used to determine the probability of the number of goals scored in a soccer game. The formula for this for soccer prediction is P(x events in interval) = (e-μ) (μx) / x! . This formula determines the probability of the number of goals being scored (x) using Euler’s number (e) and the goal expectancy (μ). With this formula, we can see the probability each team has for scoring a number of goals in a game. Usually the distribution is done for 0-5 goals to see the percentages of each team scoring on the goal interval. This can be used by bookmakers to determine odds and by gamblers to make well educated bets.&lt;/p>
-&lt;h2 id="6-algorithms-and-prediction-models">6. Algorithms and prediction models&lt;/h2>
-&lt;p>Gamblers often use various models, driven by big data, in order to help them place more accurate bets. Many different models have been created in the sports field that use factors such as historical sports data in order to come up with game prediction models. A lot of people who have come up with good prediction models will not share how they work and sometimes offer a subscription service where eager gamblers can pay to receive game picks. When it comes to making the best sports betting algorithms, it isn&amp;rsquo;t just about the amount of data a person can acquire. Creating algorithms that predict well takes understanding the sport and the meaning behind each type of data. In regards to creating sports prediction algorithms and the data that goes behind it, Micheal Beuoy, an actuary and popular sports data analyst said, &amp;ldquo;I think it takes discipline combined with a solid understanding of the sport you’re trying to analyze. If you don’t understand the context behind your numbers, no amount of advanced analysis and complicated algorithms is going to help you make sense of them. You need discipline because it is very easy to lock in on a particular theory and only pay attention to the data points that confirm that theory. A good practice is to always set aside a portion of your data before you start analysing. Once you’ve built what you think is your &amp;ldquo;best&amp;rdquo; model or theory, you can then test it against this alternative dataset.&amp;rdquo; Creating sports prediction algorithms requires a lot of different types of analysis and the methods that yield the best results are always changing.&lt;/p>
-&lt;p>Creating good models requires understanding the sport well and using specific types of data in the algorithms. A creator of an NBA game prediction algorithm who runs a website called Fast Break Bets, which sells a game prediction service, primarily uses NBA game statistics known as efficiency metrics to come up with his model &lt;sup id="fnref:16">&lt;a href="#fn:16" class="footnote-ref" role="doc-noteref">16&lt;/a>&lt;/sup>. As the creator of the algorithm is profiting off eager gamblers, the exacts of how it works have not been released but the creator explains the type of data he uses to make his algorithm work. The NBA is a game of efficiency since there is a shot clock and possessions are changed very quickly, so the score total of games can greatly vary by how fast or slow paced a team is. The creator of this algorithm uses an offensive and defensive rating that measures how many points a team scores and allows per 100 possessions, since 100 possessions is close to the NBA average of possessions per game &lt;sup id="fnref:16">&lt;a href="#fn:16" class="footnote-ref" role="doc-noteref">16&lt;/a>&lt;/sup>. The algorithm also uses effective field goal percentage, turnover rate, and rebounding rate with offensive and defensive rating to optimize the efficiency metrics. Another major factor that this creator uses in the algorithm is the NBA season schedule and how often a team plays games in a time span &lt;sup id="fnref:16">&lt;a href="#fn:16" class="footnote-ref" role="doc-noteref">16&lt;/a>&lt;/sup>. This is due to the fact that players get fatigued playing games close to each other and coaches will therefore limit the amount of time some of the players will be on the court in order to give them a rest. This is important since player statistics can greatly vary from person to person on a team. Using this information of efficiency metrics, player performance, and the frequency of games played, the creator was able to create a prediction model that works well enough for people to pay for his game picks.&lt;/p>
-&lt;p>In research done by Manuel Silvero, he studied 5 famous algorithms that used Neural Network and Machine learning and concluded that their accuracy varies from 50-70 percent, depending on the sport &lt;sup id="fnref:17">&lt;a href="#fn:17" class="footnote-ref" role="doc-noteref">17&lt;/a>&lt;/sup>. Purucker in 1996 was one of the first computational sports prediction model and used an Artificial Neural Network with backward propagation &lt;sup id="fnref:18">&lt;a href="#fn:18" class="footnote-ref" role="doc-noteref">18&lt;/a>&lt;/sup>. It was 61 percent accurate. In 2003, Khan expanded Puruckers work and was more acurate. Data on 208 matches was collected and the elements used were total yardage differential, rushing yardage differential, turnover differential, away team indicator and home team indicator &lt;sup id="fnref:18">&lt;a href="#fn:18" class="footnote-ref" role="doc-noteref">18&lt;/a>&lt;/sup>. The first 192 matches of the season were used as the training data set for the model. When tested on the remaining games of the season, the models predicted at a 75 percent accuracy. This was compared to predictions created by 8 ESPN sportscasters for the same games and they only predicted 63 percent of those matches correctly.&lt;/p>
-&lt;p>One of the most accurate models created, in terms of receiving a good return on a bet, was created by Lisandro Kaunitz of the University of Tokyo, and relied on data from odds that bookmakers put out rather than historical game data &lt;sup id="fnref:12">&lt;a href="#fn:12" class="footnote-ref" role="doc-noteref">12&lt;/a>&lt;/sup>. When it comes to statistical models for sports, big data from historical sports games are often analyzed in order to come up with game predictions and to gain insight on things like team, player, and position performance. In the market of sports betting, these models are used to come up with odds and also by bettors to place bets. Gamblers have came up with different game prediction models in order to beat the books, mainly comprising of historical sports data while sometimes also using historical betting data &lt;sup id="fnref:12">&lt;a href="#fn:12" class="footnote-ref" role="doc-noteref">12&lt;/a>&lt;/sup>. Kaunitz created a model that mainly focused on analysing data of the odds created by bookmakers, rather than sports team data, to predict good bets to place. The basis of his model relied on a technique bookmakers use to reduce their payout risk, known as hedging. This concept and the way bookmakers use it to reduce their risk of payout is covered in section 3. Kaunitz betting model worked by gathering the odds for a game created by various bookmakers and determining the average odds available. Using statistical analysis of odds offered, Kaunitz was able to determine any outliers from the average odds for a game &lt;sup id="fnref:12">&lt;a href="#fn:12" class="footnote-ref" role="doc-noteref">12&lt;/a>&lt;/sup>. Using these outliers, Kaunitz could determine if a bet would favor them or not. After various simulations and models, Kaunitz&amp;rsquo;s and his team took their strategy into the real world, and their bets payed out 47.2 percent of the time. They received an 8.5 percent return and profited $957.50 in 265 bets &lt;sup id="fnref:12">&lt;a href="#fn:12" class="footnote-ref" role="doc-noteref">12&lt;/a>&lt;/sup>. Due to their impressive returns, bookmakers caught on and started to limit the amount that they could bet&lt;/p>
-&lt;h2 id="7-conclusion">7. Conclusion&lt;/h2>
-&lt;p>Overall, big data plays a very important role in the sports betting industry and it is used by various stakeholders. Bookmakers use it to come up with odds and gamblers use it for a competitive advantage. Although data analysis is very important on both ends, this research shows that it is very hard to receive a consistent return as a gambler. From 1989 to 2000 for NFl betting, the bookmakers favorite won 66.7 percent of the time and from 2001 and 2012, the bookmakers favorite won 66.9 percent of the time &lt;sup id="fnref:19">&lt;a href="#fn:19" class="footnote-ref" role="doc-noteref">19&lt;/a>&lt;/sup>. Even though technology has advanced and people use the most sophisticated algorithms to come up with prediction models, the bookmaker seems to have the advantage. This is due to the fact that bookmakers spend tons of money gathering the most accurate data and employ some of the best statisticians and sports analysing firms, but also due to the way they hedge bets and use public opinion to modify odds in order prevent potential losses. Bookmakers adjust for a margin when they are compiling their odds, because just like everything in the gambling industry, the probability is set up so that the house will always win in the long run. Gamblers have created various algorithms in order to make the most educated sports bet. These use historical team data but sometimes also use data from betting odds. Some of the best betting algorithms work by analyzing bookmakers' odds and determining where the odds are significantly different from the expected outcome of the game. As seen with Lisandro Kaunitz from the University of Tokyo, when bookmakers see that gamblers are beating the system they can start to limit a person&amp;rsquo;s bets. Overall, big data plays a huge role in the sports gambling industry. Even though what happens on the field or the court is often based on chance, there are significant trends that can be seen when statistically analyzing sports data. At the end of the day, big data plays a big role in this industry for bookmakers and gamblers alike.&lt;/p>
-&lt;h2 id="8-references">8. References&lt;/h2>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>INSIGHT: Sports Betting in States Races on a Year After SCOTUS Overturns Ban,&amp;quot; Bloomberg Law, 04-Jun-2019. [Online]. Available: &lt;a href="https://news.bloomberglaw.com/us-law-week/insight-sports-betting-in-states-races-on-a-year-after-scotus-overturns-ban">https://news.bloomberglaw.com/us-law-week/insight-sports-betting-in-states-races-on-a-year-after-scotus-overturns-ban&lt;/a>. &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>Research and Markets, &amp;ldquo;Global Sports Betting Market Worth $85 Billion in 2019 - Industry Assessment and Forecasts Throughout 2020-2025,&amp;rdquo; GlobeNewswire News Room, 31-Aug-2020. [Online]. Available: &lt;a href="https://www.globenewswire.com/news-release/2020/08/31/2086041/0/en/Global-Sports-Betting-Market-Worth-85-Billion-in-2019-Industry-Assessment-and-Forecasts-Throughout-2020-2025.html">https://www.globenewswire.com/news-release/2020/08/31/2086041/0/en/Global-Sports-Betting-Market-Worth-85-Billion-in-2019-Industry-Assessment-and-Forecasts-Throughout-2020-2025.html&lt;/a>. &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:3" role="doc-endnote">
-&lt;p>R. Delgado, &amp;ldquo;How Big Data is Changing the Gambling World: Articles: Chief Data Officer,&amp;rdquo; Articles | Chief Data Officer | Innovation Enterprise, 01-Sep-2016. [Online]. Available: &lt;a href="https://channels.theinnovationenterprise.com/articles/how-big-data-is-changing-the-gambling-world">https://channels.theinnovationenterprise.com/articles/how-big-data-is-changing-the-gambling-world&lt;/a>. [Accessed: 29-Nov-2020]. &lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:4" role="doc-endnote">
-&lt;p>J. Zalcman, &amp;ldquo;HOW TO CREATE A SPORTS BETTING ALGORITHM,&amp;rdquo; Oddsfactory, 16-Nov-2020. [Online]. Available: &lt;a href="https://theoddsfactory.com/how-to-create-a-sports-betting-algorithm/">https://theoddsfactory.com/how-to-create-a-sports-betting-algorithm/&lt;/a>. [Accessed: 2020]. &lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:5" role="doc-endnote">
-&lt;p>J. Bailey, &amp;ldquo;Applying Data Science to Sports Betting,&amp;rdquo; Medium, 18-Sep-2018. [Online]. Available: &lt;a href="https://medium.com/@jxbailey23/applying-data-science-to-sports-betting-1856ac0b2cab">https://medium.com/@jxbailey23/applying-data-science-to-sports-betting-1856ac0b2cab&lt;/a>. [Accessed: 2020]. &lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:6" role="doc-endnote">
-&lt;p>J. Bailey, &amp;ldquo;Jordan-Bailey/DSI_Capstone_Project,&amp;rdquo; DSI_Capstone_Project, 14-Sep-2018. [Online]. Available: &lt;a href="https://github.com/Jordan-Bailey/DSI_Capstone_Project/blob/master/Technical_Report.md">https://github.com/Jordan-Bailey/DSI_Capstone_Project/blob/master/Technical_Report.md&lt;/a>. [Accessed: 01-Dec-2020]. &lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:7" role="doc-endnote">
-&lt;p>M. Trenhaile, &amp;ldquo;How Bookmakers Create their Odds, from a Former Odds Compiler,&amp;rdquo; Medium, 29-Jun-2017. [Online]. Available: &lt;a href="https://medium.com/@TrademateSports/how-bookmakers-create-their-odds-from-a-former-odds-compiler-5b36b4937439">https://medium.com/@TrademateSports/how-bookmakers-create-their-odds-from-a-former-odds-compiler-5b36b4937439&lt;/a>. [Accessed: Nov-2020]. &lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:8" role="doc-endnote">
-&lt;p>K. J. Brooks, &amp;ldquo;The new game in town for pro sports leagues: Selling stats,&amp;rdquo; CBS News, 09-Jan-2020. [Online]. Available: &lt;a href="https://www.cbsnews.com/news/nba-nfl-sports-nascar-leagues-selling-stats-to-gambling-companies/">https://www.cbsnews.com/news/nba-nfl-sports-nascar-leagues-selling-stats-to-gambling-companies/&lt;/a>. [Accessed: 2020]. &lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:9" role="doc-endnote">
-&lt;p>C. Murphy, &amp;ldquo;NBA extends data partnerships with Sportradar and Genius Sports Group,&amp;rdquo; SBC Americas, 29-Oct-2020. [Online]. Available: &lt;a href="https://sbcamericas.com/2020/10/29/nba-extends-data-partnerships-with-sportradar-and-genius-sports-group/">https://sbcamericas.com/2020/10/29/nba-extends-data-partnerships-with-sportradar-and-genius-sports-group/&lt;/a>. [Accessed: 2020]. &lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:10" role="doc-endnote">
-&lt;p>&amp;ldquo;How Big Data Analytics Are Transforming the Global Gambling Industry,&amp;rdquo; Analytics Insight, 17-Jan-2020. [Online]. Available: &lt;a href="https://www.analyticsinsight.net/how-big-data-analytics-are-transforming-the-global-gambling-industry/">https://www.analyticsinsight.net/how-big-data-analytics-are-transforming-the-global-gambling-industry/&lt;/a>. [Accessed: Oct-2020]. &lt;a href="#fnref:10" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:11" role="doc-endnote">
-&lt;p>arXiv, &amp;ldquo;The Secret Betting Strategy That Beats Online Bookmakers,&amp;rdquo; MIT Technology Review, 19-Oct-2017. [Online]. Available: &lt;a href="https://www.technologyreview.com/2017/10/19/67760/the-secret-betting-strategy-that-beats-online-bookmakers/">https://www.technologyreview.com/2017/10/19/67760/the-secret-betting-strategy-that-beats-online-bookmakers/&lt;/a>. [Accessed: 2020]. &lt;a href="#fnref:11" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:12" role="doc-endnote">
-&lt;p>A. Dörr, &amp;ldquo;How to apply predictive analytics to Premiership football to beat the bookies,&amp;rdquo; Dataconomy, 19-Mar-2019. [Online]. Available: &lt;a href="https://dataconomy.com/2019/03/how-to-apply-predictive-analytics-to-premiership-football-to-beat-the-bookies%EF%BB%BF/">https://dataconomy.com/2019/03/how-to-apply-predictive-analytics-to-premiership-football-to-beat-the-bookies%EF%BB%BF/&lt;/a>. [Accessed: 2020]. &lt;a href="#fnref:12" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:13" role="doc-endnote">
-&lt;p>S. Hubbard, &amp;ldquo;Betting Margins Explained: How to Calculate Sports Margins,&amp;rdquo; BettingLounge, 24-Sep-2020. [Online]. Available: &lt;a href="https://bettinglounge.co.uk/guides/sports-betting-explained/betting-margins/">https://bettinglounge.co.uk/guides/sports-betting-explained/betting-margins/&lt;/a>. [Accessed: 2020]. &lt;a href="#fnref:13" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:14" role="doc-endnote">
-&lt;p>&amp;ldquo;Sportsbook Profit Margins,&amp;rdquo; Sports Insights, 18-Sep-2015. [Online]. Available: &lt;a href="https://www.sportsinsights.com/betting-tools/sportsbook-profit-margins/">https://www.sportsinsights.com/betting-tools/sportsbook-profit-margins/&lt;/a>. [Accessed: 2020]. &lt;a href="#fnref:14" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:15" role="doc-endnote">
-&lt;p>B. Cronin, &amp;ldquo;Poisson Distribution: Predict the score in soccer betting,&amp;rdquo; Pinnacle, 27-Apr-2017. [Online]. Available: &lt;a href="https://www.pinnacle.com/en/betting-articles/Soccer/how-to-calculate-poisson-distribution/MD62MLXUMKMXZ6A8">https://www.pinnacle.com/en/betting-articles/Soccer/how-to-calculate-poisson-distribution/MD62MLXUMKMXZ6A8&lt;/a>. [Accessed: 2020]. &lt;a href="#fnref:15" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:16" role="doc-endnote">
-&lt;p>Stephen, &amp;ldquo;NBA Betting Model Explained: Sports Betting Picks, Tips, and Blog,&amp;rdquo; FAST BREAK BETS, 11-Nov-2017. [Online]. Available: &lt;a href="https://www.fastbreakbets.com/nba-picks/nba-betting-model-explained/">https://www.fastbreakbets.com/nba-picks/nba-betting-model-explained/&lt;/a>. [Accessed: 05-Dec-2020]. &lt;a href="#fnref:16" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:17" role="doc-endnote">
-&lt;p>M. Silverio, &amp;ldquo;My findings on using machine learning for sports betting: Do bookmakers always win?,&amp;rdquo; Medium, 26-Aug-2020. [Online]. Available: &lt;a href="https://towardsdatascience.com/my-findings-on-using-machine-learning-for-sports-betting-do-bookmakers-always-win-6bc8684baa8c">https://towardsdatascience.com/my-findings-on-using-machine-learning-for-sports-betting-do-bookmakers-always-win-6bc8684baa8c&lt;/a>. [Accessed: 2020]. &lt;a href="#fnref:17" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:18" role="doc-endnote">
-&lt;p>R. P. Bunker and F. Thabtah, &amp;ldquo;A machine learning framework for sport result prediction,&amp;rdquo; Applied Computing and Informatics, 19-Sep-2017. [Online]. Available: &lt;a href="https://www.sciencedirect.com/science/article/pii/S2210832717301485">https://www.sciencedirect.com/science/article/pii/S2210832717301485&lt;/a>. [Accessed: 2020]. &lt;a href="#fnref:18" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:19" role="doc-endnote">
-&lt;p>M. Beouy, &amp;ldquo;BGO - The Casino of the Future,&amp;rdquo; bgo Online Casino. [Online]. Available: &amp;lt;https://www.bgo.com/casino-of-the-future/the-future-of-sports-betting/. [Accessed: 05-Dec-2020]&amp;gt;. &lt;a href="#fnref:19" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: Analyzing LSTM Performance on Predicting the Stock Market for Multiple Time Steps</title><link>/report/fa20-523-313/project/project/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/fa20-523-313/project/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/fa20-523-313/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/fa20-523-313/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: final Type: Project&lt;/p>
-&lt;p>Fauzan Isnaini, &lt;a href="https://github.com/cybertraining-dsc/fa20-523-313/">fa20-523-313&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/fa20-523-313/blob/main/project/project.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Predicting the stock market has been an attractive
-field of research for a long time because it promises big wealth for anyone who can find the secret. For a long time, traders around the world have been relying on fundamental analysis and technical analysis to predict the market. Now with the advancement of big data, some financial institutions are beginning to predict the market by creating a model of the market using machine learning. While some researches produce promising results, most of them are directed at predicting the next day&amp;rsquo;s market behavior. In this study, we created an LSTM model to predict the market for multiple time frames. We then analyzed the performance of the model for some different time periods. From our observations, LSTM is good at predicting 30 time steps ahead, but the RMSE became larger as the time frame gets longer.&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-background-research-and-previous-work">2. Background Research and Previous Work&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#21-macd-in-technical-analysis">2.1 MACD in Technical Analysis&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#22-time-series-forecasting">2.2 Time Series Forecasting&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#23-using-lstm-in-stock-prediction-and-quantitative-trading">2.3 Using LSTM in Stock Prediction and Quantitative Trading&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#3-choice-of-data-sets">3. Choice of Data-sets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-methodology">4. Methodology&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#41-technology">4.1 Technology&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#42-data-preprocessing">4.2 Data Preprocessing&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#43-the-lstm-model">4.3 The LSTM Model&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#5-results">5. Results&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-conclusion-and-future-works">6. Conclusion and Future Works&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#7-acknowledgements">7. Acknowledgements&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-references">8. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> stock, market, predictive analytics, LSTM, random forest, regression, technical analysis&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Stock market prediction is a fascinating field of study for many analysts and researchers becauseof the significant amount of money circulating in the market. While there are numerous studies conducted in this field, predicting the stock market remains a challenging task, because of its noisy and non-stationary nature &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. The stock market is &amp;ldquo;noisy&amp;rdquo; because it is sensitive to mass psychology. The trends and patterns in the stock market can also change abruptly because of bad news, natural disasters, and some unforeseen circumstances, thus it is considered non-stationary.&lt;/p>
-&lt;p>The efficient market hypothesis even suggests that predicting or forecasting the financial market is unrealistic because price changes in the real world are unpredictable. All the changes in prices of the financial market are based on immediate economic events or news. Investors are profit-oriented, their buying or selling decisions are made according to the most recent events regardless of past analysis or plans. The argument about this Efficient Market Hypothesis has never been ended. So far, there is no strong proof that can verify if the efficient market hypothesis is proper or not &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>However, as Mostafa &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup> claims, financial markets are predictable to a certain extent. The past experience of many price changes over a certain period of time in the financial market and the undiscounted serial correlations among vital economic events affecting the future financial market are two main pieces of evidence opposing the Efficient Market Hypothesis.&lt;/p>
-&lt;p>The most popular methods in predicting the stock markets are technical and fundamental analysis. Fundamental analysis is mainly based on three essential aspects &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>: (i) macroeconomic analysis such as Gross Domestic Products and Consumer Price Index (CPI) which analyses the effect of the macroeconomic environment on the future profit of a company, (ii) industry analysis which estimates the value of the company based on industry status and prospect, and (iii) company analysis which analyses the current operation and financial status of a company to evaluate its internal value.&lt;/p>
-&lt;p>On the other hand, technical analysis is grouped into eight domains &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>: sentiment, flow-of-funds, raw data, trend, momentum, volume, cycle, and volatility. Sentiment represents the behaviors of various market participants. Flow-of-funds is a type of indicator used to investigate the financial status of various investors to pre-evaluate their strength in terms of buying and selling stocks, then, corresponding strategies, such as short squeeze can be adopted. Raw data include stock price series and price patterns such as K-line diagrams and bar charts. Trend and momentum are examples of price-based indicators, trend is used for tracing the stock price trends while momentum is used to evaluate the velocity of the price change and judge whether a trend reversal in stock price is about to occur. Volume is an indicator that reflects the enthusiasm of both buyers and sellers for investing, it is also a basis for predicting stock price movements. The cycle is based on the theory that stock prices vary periodically in the form of a long cycle of more than 10 years containing short cycles of a few days or weeks. Finally, volatility is often used to investigate the fluctuation range of stock prices and to evaluate risk and identify the level of support and resistance.&lt;/p>
-&lt;p>While those two are still the most popular approaches, the age of big data has brought a new method to predict the stock market: quantitative analysis. In this new method, the stock market is captured into a mathematical model, and machine learning is used to predict its behavior. Research by Alzazah and Cheng &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> analyzed more than 50 articles to compare various machine learning (ML) and deep learning (DL) methods used to find which method could be more effective in prediction and for which types and amount of data. This research has proven that quantitative analysis with LSTM gives a promising result as the predictor of a stock market.&lt;/p>
-&lt;p>In this study, we analyzed the performance of LSTM in predicting the stock market for multiple time frames. LSTM model is used because it is designed to forecast, predict, and classify time series data &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. Despite the promising result in LSTM, most of the previous studies are conducted in building a model to predict the next day&amp;rsquo;s price. Thus, we wanted to know how accurate the LSTM model in predicting the stock market for a longer time frame (i.e. from daily to monthly time frame). We also chose to incorporate technical analysis rather than fundamental analysis in our model, because while fundamental analysis tends to be accurate in the yearly period, it could not predict the fluctuation in the given time frame.&lt;/p>
-&lt;h2 id="2-background-research-and-previous-work">2. Background Research and Previous Work&lt;/h2>
-&lt;h3 id="21-macd-in-technical-analysis">2.1 MACD in Technical Analysis&lt;/h3>
-&lt;p>MACD &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup> is an acronym for moving average convergence/divergence. It is a widely used technical indicator to confirm either the bullish or bearish phase of the market. In essence, the MACD indicator shows the perceived strength of a downward or upward movement in price. Technically, it’s an oscillator, which is a term used for indicators that fluctuate between two extreme values, for example, from 0 to 100.
-MACD evolved from the exponential moving average (EMA), which was proposed by Gerald Appel in the 1970s. The standard MACD is the 12-day EMA subtracted by the 26-day EMA, which is also called the DIF. The MACD histogram, which was developed by T. Aspray in 1986, measures the signed distance between the MACD and its signal line calculated using the 9-day EMA of the MACD, which is called the DEA. Similar to the MACD, the MACD histogram is an oscillator that fluctuates above and below the zero line. The construction formula of MACD is given in figure 1.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/raw/main/project/images/MACDFormula.png" alt="MACD Formula">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> MACD formula &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>&lt;/p>
-&lt;p>The number of the MACD histogram is usually called the MACD bar or OSC. The analysis process of the cross and deviation strategy of DIF and DEA includes the following three steps: (i) Calculate the values of DIF and DEA, (ii)When DIF and DEA are positive, the MACD line cuts the signal line in the uptrend, and the divergence is positive, there is a buy signal confirmation, and (iii)When DIF and DEA are negative, the signal line cuts the MACD line in the downtrend, and the divergence is negative, there is a sell signal confirmation.&lt;/p>
-&lt;h3 id="22-time-series-forecasting">2.2 Time Series Forecasting&lt;/h3>
-&lt;p>Time series analysis and dynamic modeling &lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup> is an interesting research area with a great number of applications in business, economics, ﬁnance, and computer science. The aim of time series analysis is to study the path observations of time series and build a model to describe the structure of data and then predict the future values of time series. Due to the importance of time series forecasting in many branches of applied sciences, it is essential to build an effective model with the aim of improving the forecasting accuracy. A variety of time series forecasting models have been evolved in the literature.&lt;/p>
-&lt;p>Time series forecasting is traditionally performed in econometric using ARIMA models, which is generalized by Box and Jenkins. ARIMA has been a standard method for time series forecasting for a long time. Even though ARIMA models are very prevalent in modeling economical and ﬁnancial time series, they have some major limitations. For instance, in a simple ARIMA model, it is hard to model the non-linear relationships between variables. Furthermore, it is assumed that there is a constant standard deviation in errors in ARIMA model, which is in practice may not be satisﬁed. When an ARIMA model is integrated with a Generalized Auto-regressive Conditional Heteroskedasticity(GARCH) model, this assumption can be relaxed. On the other hand, the optimization of a GARCH model and its parameters might be challenging and problematic. There are several other applications of ARIMA for modeling short and long-run effects of economics parameters.&lt;/p>
-&lt;p>Recently, new techniques in deep learning have been developed to address the challenges related to the forecasting models. LSTM (Long Short-Term Memory) is a special case of the Recurrent Neural Network (RNN) method that was initially introduced by Hochreiter and Schmidhuber. Even though it is a relatively new approach to address prediction problems. Deep learning-based approaches have gained popularity among researchers.&lt;/p>
-&lt;p>LSTM is designed to forecast, predict, and classify time series data even long time lags between vital events that happened before. LSTMs have been applied to solve several problems; among those, handwriting Recognition and speech recognition made LSTM famous. LSTM has copious advantages compared with traditional back-propagation neural networks and normal recurrent neural networks. The constant error backpropagation inside memory blocks enables LSTM ability to overcome long time lags in case of problems similar to those discussed above; LSTM can handle noise, distributed representations, and continuous values; LSTM requires no need for parameter fine-tuning, it works well over a broad range of parameters such as learning rate, input gate bias, and output gate bias &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h3 id="23-using-lstm-in-stock-prediction-and-quantitative-trading">2.3 Using LSTM in Stock Prediction and Quantitative Trading&lt;/h3>
-&lt;p>During the pre-deep learning era, Financial Time Series modeling has mainly concentrated in the field of ARIMA and any modifications on this, and the result has proved that the traditional time series model does provide decent predictive power to a limit. More recently, deep learning methods have demonstrated better performances thanks to improved computational power and the ability to learn non-linear relationships enclosed in various financial features.&lt;/p>
-&lt;p>The direction of the financial market is always stochastic and volatile and the return of the security return is deemed to be unpredictable. Analysts now are trying to apply the modeling techniques from Natural Language Processing into the field of Finance as the similarity of having the sequential property in the data. Zhou &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup> has constructed and applied the Long Short Term Memory Model (LSTM) and the traditional ARIMA model, into the prediction of stock prices on the next day. It was proven that the LSTM model performed better than the ARIMA model.&lt;/p>
-&lt;h2 id="3-choice-of-data-sets">3. Choice of Data-sets&lt;/h2>
-&lt;p>This project used the historical data of the Jakarta Composite Index (JKSE) from Yahoo Finance &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>. The JKSE is a national stock index of Indonesia, which consists of 700 companies. We choose to incorporate the composite index because it has a beta value of 1, which means it has neutral volatility compared to an individual stock to be incorporated into a model. The dataset contains the Open, High, Low, Close, and Volume data for daily time period on the stock index. The daily data is taken from January 1st, 2013 until November 17th, 2020. We choose the daily data over the monthly data because it offers a more complete pattern. Figure 2 and 3 provides a snapshot of the first few rows of the daily and monthly data respectively.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/raw/main/project/images/newdailyhead.png" alt="Head of Daily Data">&lt;/p>
-&lt;p>&lt;strong>Figure 2:&lt;/strong> Snapshot of the first rows of the daily data&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/raw/main/project/images/newMonthlyHead.png" alt="Head of Monthly Data">&lt;/p>
-&lt;p>&lt;strong>Figure 3:&lt;/strong> Snapshot of the first rows of the monthly data&lt;/p>
-&lt;p>We also used the MACD technical indicator as an input to our model. The MACD parameters are generated using the ta-lib library &lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup> based on the Yahoo Finance data. Figure 4 and 5 provides a snapshot of the first few rows of the daily and monthly data respectively after incorporating the MACD technical indicator.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/raw/main/project/images/MACDonDaily.png" alt="Daily MACD">&lt;/p>
-&lt;p>&lt;strong>Figure 4:&lt;/strong> MACD on the daily data&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/raw/main/project/images/newMACDonMonthly.png" alt="Monthly MACD">&lt;/p>
-&lt;p>&lt;strong>Figure 5:&lt;/strong> MACD on the monthly data&lt;/p>
-&lt;h2 id="4-methodology">4. Methodology&lt;/h2>
-&lt;h3 id="41-technology">4.1 Technology&lt;/h3>
-&lt;p>Python &lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup> was the language of choice for this project. This was an easy decision for these reasons &lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup>:&lt;/p>
-&lt;ol>
-&lt;li>Python as a language has an enormous community behind it. Any problems that might be encountered can be easily solved with a trip to Stack Overflow. Python is among the most popular languages on the site which makes it very likely there will be a direct answer to any query.&lt;/li>
-&lt;li>Python has an abundance of powerful tools ready for scientific computing. Packages such as Numpy, Pandas, and SciPy are freely available and well documented. Packages such as these can dramatically reduce, and simplify the code needed to write a given program. This makes iteration quick.&lt;/li>
-&lt;li>Python as a language is forgiving and allows for programs that look like pseudo code. This is useful when pseudocode given in academic papers needs to be implemented and tested. Using Python, this step is usually reasonably trivial.&lt;/li>
-&lt;/ol>
-&lt;p>In building the LSTM model, Keras &lt;sup id="fnref:11">&lt;a href="#fn:11" class="footnote-ref" role="doc-noteref">11&lt;/a>&lt;/sup> library is used. It contains numerous implementations of commonly used neural network building blocks such as layers, objectives, activation functions, optimizers, and a host of tools to make working with image and text data easier. The code is hosted on GitHub, and community support forums include the GitHub issues page, a Gitter channel, and a Slack channel.&lt;/p>
-&lt;h3 id="42-data-preprocessing">4.2 Data Preprocessing&lt;/h3>
-&lt;p>After downloading the historical datasets from Yahoo Finance, the MACD technical indicator is generated using the ta-lib library. Because MACD needs to capture data from the previous time period, the MACD values on the first rows of the data are missing. These rows are then removed before being split into 8:2 proportions for training and testing purposes in the LSTM model.&lt;/p>
-&lt;h3 id="43-the-lstm-model">4.3 The LSTM Model&lt;/h3>
-&lt;p>A multivariate LSTM model with two hidden layers is used, with a dropout parameter of 0.2. Adam is used as the optimization algorithm. The model uses 90 days time steps, which means it uses the past 90 days of data to predict the output. It has 8 features, which are the Close, Low, High, Open, Volume, MACD, MACD Signal, and MACD Histogram. It then gives one output, which is the open price for the given time frame. We then analyze the performance of our model for each of the time frames.&lt;/p>
-&lt;h2 id="5-results">5. Results&lt;/h2>
-&lt;p>We used callback function to find the best number of epochs in the model. Figure 6 gives the mean squared error (MSE) curve of the prediction in the training dataset for each given epoch. It shows that the MSE converges after 20 epochs, with a value of 0.0243.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/raw/main/project/images/newlossepochs.png" alt="Epoch Loss">&lt;/p>
-&lt;p>&lt;strong>Figure 6:&lt;/strong> MSE on the training data for each given epoch&lt;/p>
-&lt;p>Figure 7 shows the root mean squared error (RMSE) on the testing dataset for each time frame. It clearly shows that the RMSE becomes bigger on a longer time frame. When predicting the next day period, the RMSE is 323.41, while when predicting 30 days ahead, the RMSE increase to 481.32. But overall, these values are still acceptable because they are smaller than the standard deviation of the actual dataset of 667.31.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/raw/main/project/images/RMSEonTimeFrame.png" alt="RMSE">&lt;/p>
-&lt;p>&lt;strong>Figure 7:&lt;/strong> RMSE on the training data for each time frame&lt;/p>
-&lt;p>Figure 8 and Figure 9 compare the predicted values on the training data for 1 day and 30 days time frames respectively, while Figure 10 and 11 give the comparison on the test data. It can be seen that the model cannot predict steep ramps in the price change, thus it is lagged from the actual price. The predicted price becomes further lagged when predicting for a longer time frame, thus resulting in a bigger RMSE.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/raw/main/project/images/newOneDayPredict.png" alt="Next Day Prediction">&lt;/p>
-&lt;p>&lt;strong>Figure 8:&lt;/strong> Comparison between the next day prediction and its actual values based on the training data&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/raw/main/project/images/newThirtyDaysPredict.png" alt="30 Days Prediction">&lt;/p>
-&lt;p>&lt;strong>Figure 9:&lt;/strong> Comparison between the 30 days time frame prediction and its actual values based on the training data&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/raw/main/project/images/newonedaytest.png" alt="Next Day Test">&lt;/p>
-&lt;p>&lt;strong>Figure 10:&lt;/strong> Comparison between the next day prediction and its actual values based on the testing data&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/raw/main/project/images/thirtydaystest.png" alt="30 Days Test">&lt;/p>
-&lt;p>&lt;strong>Figure 11:&lt;/strong> Comparison between the 30 days time frame prediction and its actual values based on the testing data&lt;/p>
-&lt;p>We also found that a longer training dataset does not always give a better prediction because the model might overfit with the training data. In fact, when we used historical market data from January 2000, the RMSE became close to 3,000. This might be due to overall the stock market tends to always get higher every year. When the data is too old, the model needs to compensate for the time when the price is still very low.&lt;/p>
-&lt;p>We also capture the time needed to run each critical process using cloudmesh-common benchmark and stopwatch framework &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>. The stopwatch recordings are shown in Table 1. The table shows that training the model took the longest time. It also highlights the system&amp;rsquo;s specification used in running the program.&lt;/p>
-&lt;p>&lt;strong>Table 1:&lt;/strong> Benchmark results&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/raw/main/project/images/benchmark1.png" alt="Table 1">&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-313/raw/main/project/images/stopwatch.png" alt="Stopwatch">&lt;/p>
-&lt;h2 id="6-conclusion-and-future-works">6. Conclusion and Future Works&lt;/h2>
-&lt;p>We have analyzed the performance of LSTM in predicting the stock price for different time frames. While it gives a promising result in predicting the next day&amp;rsquo;s price, the prediction becomes less accurate for a longer time frame. This might be due to the non-stationarity nature of the stock market. The stock market trends can change abruptly because of a sudden change in the political and economic conditions. Using the daily market data, our model gives promising results within 30 days time frame.
-This project has analyzed the performance of LSTM using RMSE, but further research may measure the performance based on the potential financial gain. After all, the stock market is a place to make money, thus financial gain is a better metric of performance.
-Further improvement may also be done on our model. We only used price data and MACD technical indicator for the prediction. Further research may utilize other technical indicators, such as RSI and Stochastics to get a better prediction.&lt;/p>
-&lt;h2 id="7-acknowledgements">7. Acknowledgements&lt;/h2>
-&lt;p>The author would like to thank Dr. Geoffrey Fox, Dr. Gregor von Laszewski, and the associate instructors in the FA20-BL-ENGR-E534-11530: Big Data Applications course (offered in the Fall 2020 semester at Indiana University, Bloomington) for their continued assistance and suggestions concerning exploring this idea and also for their aid with preparing the various drafts of this article.&lt;/p>
-&lt;h2 id="8-references">8. References&lt;/h2>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>D. Shah, H. Isah, and F. Zulkernine, &amp;ldquo;Stock Market Analysis: A Review and Taxonomy of Prediction Techniques,&amp;rdquo; International Journal of Financial Studies, vol. 7, no. 2, p. 26, 2019. &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>F. S. Alzazah and X. Cheng, &amp;ldquo;Recent Advances in Stock Market Prediction Using Text Mining: A Survey,&amp;rdquo; E-Business [Working Title], 2020. &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:3" role="doc-endnote">
-&lt;p>A. Mostafa and Y. S., &amp;ldquo;Introduction to financial forecasting. Applied Intelligence,&amp;rdquo; Applied Intelligence, 1996. &lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:4" role="doc-endnote">
-&lt;p>S. Siami-Namini, N. Tavakoli, and A. S. Namin, &amp;ldquo;A Comparison of ARIMA and LSTM in Forecasting Time Series,&amp;rdquo; 2018 17th IEEE International Conference on Machine Learning and Applications (ICMLA), 2018. &lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:5" role="doc-endnote">
-&lt;p>G. von Laszewski, &amp;ldquo;cloudmesh/cloudmesh-common,&amp;rdquo; GitHub, 2020. [Online]. Available: &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>. [Accessed: 08-Dec-2020]. &lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:6" role="doc-endnote">
-&lt;p>J. Wang and J. Kim, &amp;ldquo;Predicting Stock Price Trend Using MACD Optimized by Historical Volatility.&amp;rdquo; &lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:7" role="doc-endnote">
-&lt;p>V. Bielinskas, &amp;ldquo;Multivariate Time Series Prediction with LSTM and Multiple features (Predict Google Stock Price),&amp;rdquo; Youtube, 2020. [Online]. Available: &lt;a href="https://www.youtube.com/watch?v=gSYiKKoREFI">https://www.youtube.com/watch?v=gSYiKKoREFI&lt;/a>. [Accessed: 08-Dec-2020]. &lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:8" role="doc-endnote">
-&lt;p>&amp;ldquo;Composite Index (JKSE) Charts, Data &amp;amp; News,&amp;rdquo; Yahoo! Finance, 08-Dec-2020. [Online]. Available: &lt;a href="https://finance.yahoo.com/quote/%5EJKSE/">https://finance.yahoo.com/quote/^JKSE/&lt;/a>. [Accessed: 08-Dec-2020]. &lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:9" role="doc-endnote">
-&lt;p>J. Bosco and F. Khan, Stock Market Prediction and Efficiency Analysis using Recurrent Neural Network. Berlin, Germany: 2018, 2018. &lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:10" role="doc-endnote">
-&lt;p>F. Isnaini, &amp;ldquo;cybertraining-dsc/fa20-523-313,&amp;rdquo; GitHub, 08-Dec-2020. [Online]. Available: &lt;a href="https://github.com/cybertraining-dsc/fa20-523-313/blob/main/project/code/multivariate.ipynb">https://github.com/cybertraining-dsc/fa20-523-313/blob/main/project/code/multivariate.ipynb&lt;/a>. [Accessed: 08-Dec-2020]. &lt;a href="#fnref:10" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:11" role="doc-endnote">
-&lt;p>TA-Lib. [Online]. Available: &lt;a href="https://mrjbq7.github.io/ta-lib/func_groups/momentum_indicators.html">https://mrjbq7.github.io/ta-lib/func_groups/momentum_indicators.html&lt;/a>. [Accessed: 08-Dec-2020]. &lt;a href="#fnref:11" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: Stock Price Reactions to Earnings Announcements</title><link>/report/fa20-523-336/project/project/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/fa20-523-336/project/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/fa20-523-336/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-336/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/fa20-523-336/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-336/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: final, Type: Project&lt;/p>
-&lt;p>Matthew Frechette, &lt;a href="https://github.com/cybertraining-dsc/fa20-523-336/">fa20-523-336&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/fa20-523-336/blob/main/project/project.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>On average the US stock market sees a total of $192 billion a day trading hands. Massive companies, hedge funds, and other high level institutions use the markets to capitalize on companies potential and growth over time. The authors used Financial Modeling Prep to gather over 20 years of historical stock data and earnings calls to understand better what happens during company&amp;rsquo;s earnings annoucements. The results showed that over a large sample size of companies, identifying a strong coorelation was rather difficult, yet companies with strong price trend tendencies were more predictable to beat earnings expectations.&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-background-and-previous-work">2. Background And Previous Work&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-the-data">3. The Data&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-the-idea">4. The Idea&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-the-process">5. The Process&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#51-data-collection">5.1. Data Collection&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#52-finding-earnings-data">5.2. Finding Earnings Data&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#53-calculations-and-results">5.3. Calculations And Results&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#6-the-results">6. The Results&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#61-test-results---calculation-1">6.1 Test Results - Calculation 1&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#62-test-results---calculation-2">6.2 Test Results - Calculation 2&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#63-full-results---calculation-3">6.3 Full Results - Calculation 3&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#7-conclusion">7. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-acknowledgements">8. Acknowledgements&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> stocks, stock, finance, earnings, company, market, stock market, revenue, eps&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>For the final project a topic was picked that is wildly popular in today’s world. The stock markets. Mathematicians and data scientists, for decades upon decades, have dedicated billions of dollars to study market patterns, movements, and company predictions. With the stock market providing so much potential for riches, it is no doubt that it has gained the attention and spending dollars of some of the most influential and richest companies in the world. Although this project comes nowhere near to what some hedge funds and data scientists are currently doing, my idea for the project was thought of in hopes to get a slightly better understanding on the ways the prices move after a company releases their earnings reports. Earnings reports are issued by companies after each fiscal quarter (4 months) and provide some interesting insight into how the company is doing, if they have improved, and whether or not they have reached their goals. Earnings also provide great opportunities for investors as they can find companies with good or bad earnings to profit off of (either short or long).
-For this final project, a report along with a software component was picked to better understand the topic as a whole. Sitting down to write software for a project would allow for a better grasp of the topic and to understand the data at hand better.&lt;/p>
-&lt;h2 id="2-background-and-previous-work">2. Background And Previous Work&lt;/h2>
-&lt;p>After reviewing other data studies and public ideas on the topic, it was concluded that there weren&amp;rsquo;t any major studies done specifically on the price reaction during earnings. The studies that are currently out there didn&amp;rsquo;t cover quiet the amount of data that was wanted to be seen, nor did they covered all of the calculation points that should have been in a full study. Additionally, most of the studies that were done focused more on the technical side of price movements and price patterns, but not a lot on the fundamental earnings of a company. Back testing, is the act of testing a strategy in the past to see how it would perform. (Finding the success rate, return on investment, investment hold time, etc.) Since this study was not particularly looking to find the best investment strategy, but simply to find how price and earnings announcements interact with one another, it was chosen not to incorporate a back testing strategy into the software, but use percentage test analysis and evaluate multiple areas of price changes during the earnings day. These tests were dependent on the trend of the stock price and the earnings results from the announcement. In addition to determining the price reaction from these announcements, it would also provide and insight into how buyer sentiment changes during these times as a price drop usually indicates negative buyer/investor interest in the security.&lt;/p>
-&lt;h2 id="3-the-data">3. The Data&lt;/h2>
-&lt;p>For this project data from Financial Modeling Prep is used, or FMP as it refer to in the code and report. Financial Modeling Prep is a three-year-old internet company headquartered in France that provides financial data to other organizations around the world. Their data is reliable and has a fast pull speed which allowed the software to capture company data quickly and efficiently. FMP supported all of the data requirements that were needed for this project: Company Historical Prices, Earnings Dates, Earnings per share, and company expected earnings.&lt;/p>
-&lt;h2 id="4-the-idea">4. The Idea&lt;/h2>
-&lt;p>Going into this project, it was wanted to find a way to best measure and capture buyer / investor sentiment about a company but wasn’t sure exactly where to start. There were a wide range of ideas that included evaluating price changes due to executive staff changes, price changes during days of the week/month/year, and even price changes based on the weather that day. Although some ideas may have been more intricate and harder to calculate than others, it was thought that the best idea to capture the sentiment of investors was to further investigate price changes in stocks around their earning dates. Many investors are hesitant to invest in companies in the short term during these periods as it is sometimes cause for uncertainty and harsh volatility in the stock’s price.
-For this project, the studies planned to look at markets as a whole and had the ability to access over 7000 US based stock’s data to get more broad and hopefully accurate results. However, to only get better and more know/verifiable stock data, only stocks from the S&amp;amp;P500 list were picked. The idea for the software included finding the historical stock price on the days that earnings were being released and capturing how the actual earnings per share (EPS) compared to the predicted earnings per share. If the actual EPS is equal to or greater than the predicted EPS that advisors publish, which is all public data, the stock price is thought to increase during the trading day. The program developed tested this theory. Additionally, it was wanted to see how these stock prices were affected by stocks in certain trends. A stock is typically said to be in an uptrend if it is making higher highs, and high lows, and also above the 20 period and 50 period moving averages. A stock making lower lows and lower highs it said to be in a downtrend. The software was able to capture this by comparing the stock’s historical price data and moving averages at the time of the earnings release. My original prediction was that stocks in an uptrend that underperformed on earnings would recover faster / have a lower loss% than that of stocks in a downtrend that underperformed on earnings. All of the resulting data is shown in the results section of this report.&lt;/p>
-&lt;h2 id="5-the-process">5. The Process&lt;/h2>
-&lt;h3 id="51-data-collection">5.1. Data Collection&lt;/h3>
-&lt;p>The first and simplest part of the project was to gather the data from FMP. As this is a generally routine task and would need to be completed for every stock that was needed to be accessed, a function was created to more effectively gather this data. FMPgetStockHistoricalData(ticker, apiKey). The function took in a stock ticker and API key. The stock ticker must be reflective of a currently listed company on one of the US stock-exchanges. For example, entering a company that has been delisted (STGC: Startech Global) would result in an invalid result. The function also requires an FMP API key which can be purchased with unlimited pull requests for less than $20/month. This function returns a list of OHLC objects which store the stock’s open, high, low and close prices for the day, in addition to the month day and year of the price data. This is incredibly valuable data as it allows the software quick access to specific days in the company’s history.&lt;/p>
-&lt;h3 id="52-finding-earnings-data">5.2. Finding Earnings Data&lt;/h3>
-&lt;p>Secondly, the earnings data from the company must be gathered, FMP has the ability to pull earnings results going back roughly 20 years depending on the company, this is more than adequate for this software as the calculations will not solely be using the earnings reports from one company or industry. After the earnings dates, eps, and expected eps is pulled from the API call, it is stored in an earningsData object which possessed the date, eps, expected eps, revenue, and expected revenue for that specific earning call. A function in the software called FMPfindStockEarningData() returns a list of all earningsData object for further analysis.&lt;/p>
-&lt;h3 id="53-calculations-and-results">5.3. Calculations And Results&lt;/h3>
-&lt;p>The final and most complex area of the software’s processes include the calculations and results formulations functions. This is where all of the company’s stock data is computed to better understand the price action after the company exhibits an earnings call. This function formulates 10 main calculations listed in Table 1.&lt;/p>
-&lt;p>The first set of calculation would be used to identify stocks that are projected to beat earnings based off the historical trend. Using a strategy like this is not recommended and most likely will not be very accurate as a trend does not always correlate to the company actually being profitable.&lt;/p>
-&lt;p>&lt;strong>Table 1&lt;/strong>: Table shows the calculations that are to be performed on the SP500 dataset.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Calculation&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>A.&lt;/td>
-&lt;td>% of (+) beat earnings when the stock is in an uptrend&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>B.&lt;/td>
-&lt;td>% of (-) missed earnings when the stock is in a downtrend&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>These calculations find the likelihood of a stock’s price movement based on the company&amp;rsquo;s earnings results.
-Stocks that perform well (or beat earnings) are typically looked at by investors as buying opportunities, and thus the security’s price increases. This is not always the case however, and the results of this will be shown later in the report. Sometimes, investors project the stock to beat earnings by more than others and in turn find even some positive earnings results bearish. This can cause major stockholder to sell their shares and bring the price down.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Calculation&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>C.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increases from open&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>D.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increase from the previous day’s close&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>E.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from open&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>F.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from the previous day’s close&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>The final set of calculations the software is performing, looks at all parts of the stock and its trend. It identifies the likelihood of a stock price increasing due to (+) beat or (-) missed earnings, while it is in a specific type of trend reflective of the earnings direction. This can be used by investors to find stocks in an uptrend or downtrend, who also want to play the earnings direction and try to profit from it.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Calculation&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>G.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increases from open and is in a current uptrend&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>H.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increases from the previous day’s close and is in an uptrend&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>I.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from open and is in a current downtrend&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>J.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from the previous day’s close and is in a downtrend&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="6-the-results">6. The Results&lt;/h2>
-&lt;p>The results here are caclulated based on the data gathered and calculated during SP500 companyies' earnings.&lt;/p>
-&lt;h3 id="61-test-results---calculation-1">6.1 Test Results - Calculation 1&lt;/h3>
-&lt;p>&lt;strong>Table 2&lt;/strong>: Table shows the results of the calculation on AAPL stock price going back 20 years.&lt;/p>
-&lt;p>Stock Scanned: AAPL&lt;/p>
-&lt;p>Caclulated using the code on: &lt;a href="https://github.com/cybertraining-dsc/fa20-523-336/blob/main/project/project.py">https://github.com/cybertraining-dsc/fa20-523-336/blob/main/project/project.py&lt;/a> API key required.&lt;/p>
-&lt;ul>
-&lt;li>Total Data Points Evaluated: 10,000&lt;/li>
-&lt;li>Total Beat Earnings: 64 (84.2%)&lt;/li>
-&lt;li>Total Missed Earnings: 12 (15.8%)&lt;/li>
-&lt;li>Calculation Total in Seconds: 1&lt;/li>
-&lt;/ul>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Calculation&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;th>Result&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>A.&lt;/td>
-&lt;td>% of (+) beat earnings when the stock is in an uptrend&lt;/td>
-&lt;td>84%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>B.&lt;/td>
-&lt;td>% of (-) missed earnings when the stock is in a downtrend&lt;/td>
-&lt;td>0%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>C.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increases from open&lt;/td>
-&lt;td>40.63%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>D.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increase from the previous day’s close&lt;/td>
-&lt;td>67.19%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>E.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from open&lt;/td>
-&lt;td>50%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>F.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from the previous day’s close&lt;/td>
-&lt;td>75%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>G.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increases from open and is in a current uptrend&lt;/td>
-&lt;td>39.68%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>H.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increases from the previous day’s close and is in an uptrend&lt;/td>
-&lt;td>66.67%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>I.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from open and is in a current downtrend&lt;/td>
-&lt;td>0%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>J.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from the previous day’s close and is in a downtrend&lt;/td>
-&lt;td>0%&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3 id="62-test-results---calculation-2">6.2 Test Results - Calculation 2&lt;/h3>
-&lt;p>&lt;strong>Table 3&lt;/strong>: Table shows the results of the calculation on AAPL, MSFT, TWLO, GE, and NVDA&amp;rsquo;s stock price going back to their IPO. This caclulation gathers more data.&lt;/p>
-&lt;p>Stocks Scanned: AAPL, MSFT, TWLO, GE, NVDA&lt;/p>
-&lt;p>For the second results scan, 5 popular companies within the S&amp;amp;P500 were picked, in the technology and energy sector. This first test was meant to get a baseline of calculations of strong stocks in this index and get an estimated calculation time for the operation. After running the first calculation, the results were as followed. The total calculation time clocked in at just over 8 seconds for the 5 stock calculations (1.6 seconds/stock). At this rate, calculating all 500 stocks from the S&amp;amp;P500 should take around 13:20 minutes.&lt;/p>
-&lt;p>From the 5 stocks scanned, there were over 36,170 data points evaluated, 222 earnings beats, and 98 earnings misses. When stocks are in a current uptrend, the company is expected to beat earnings expectations 78.6% of the time, and when the stock is in a current downtrend the company is expected to miss earnings 59.7% of the time. This means that if the stock is in an uptrend, investors predicting a company will beat earnings would be correct more than 3/4 of the time. Of the stocks evaluated, if the company beat earnings, the price would increase from the open 42.3% of the time, and increase from the past close 61.3% of the time. Additionally, if a company missed earnings expectations, the stock price closed below the open 59% of the time, and below the previous close 60% of the time. This leads to the prediction that investors are more concerned about the company missing earnings, rather than the company beating earnings. The company missing earning expectations is more detrimental to the stock price than the company beating earnings predictions. Lastly, of these 5 stocks, the price increases from open, when earnings have been beat and the stock is in an uptrend, 43.5% of the time. Notice since we added the uptrend filter on this scan, it results a higher calculation than calculation C but only slightly. Stocks that are in an uptrend and beat earnings, increase from the previous close 63.9% of the time. Again, these results are only slightly higher than calculation D. If the stock is in a downtrend and the company misses earnings, the stock price will decrease from the open 60.1% of the time and will decrease from the previous close 54.3% of the time. This means that stocks that are in a downtrend and miss earnings, tend to actually have a spike up in premarket hours (before open 9:30amET) and then crash further throughout the day, since the decrease from open % is greater than the decrease from past close %.&lt;/p>
-&lt;p>Caclulated using the code on: &lt;a href="https://github.com/cybertraining-dsc/fa20-523-336/blob/main/project/project.py">https://github.com/cybertraining-dsc/fa20-523-336/blob/main/project/project.py&lt;/a> API key required.&lt;/p>
-&lt;ul>
-&lt;li>Total Data Points Evaluated: 36,170&lt;/li>
-&lt;li>Total Beat Earnings: 222 (69.38%)&lt;/li>
-&lt;li>Total Missed Earnings: 98 (30.62%)&lt;/li>
-&lt;li>Calculation Total in Seconds: 8&lt;/li>
-&lt;/ul>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Calculation&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;th>Result&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>A.&lt;/td>
-&lt;td>% of (+) beat earnings when the stock is in an uptrend&lt;/td>
-&lt;td>78.60%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>B.&lt;/td>
-&lt;td>% of (-) missed earnings when the stock is in a downtrend&lt;/td>
-&lt;td>59.74%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>C.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increases from open&lt;/td>
-&lt;td>42.34%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>D.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increase from the previous day’s close&lt;/td>
-&lt;td>61.26%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>E.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from open&lt;/td>
-&lt;td>59.18%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>F.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from the previous day’s close&lt;/td>
-&lt;td>60.2%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>G.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increases from open and is in a current uptrend&lt;/td>
-&lt;td>43.46%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>H.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increases from the previous day’s close and is in an uptrend&lt;/td>
-&lt;td>63.87%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>I.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from open and is in a current downtrend&lt;/td>
-&lt;td>60.87%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>J.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from the previous day’s close and is in a downtrend&lt;/td>
-&lt;td>54.35%&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3 id="63-full-results---calculation-3">6.3 Full Results - Calculation 3&lt;/h3>
-&lt;p>This calculation find the test results based all stocks in the SP500.&lt;/p>
-&lt;p>The final results scanned all stocks in the S&amp;amp;P500 and took roughly 17 minutes (1023 seconds in total) to complete. This was one of the things that originally was surprising as the first scan pointed toward the full calculations taking less time than it did. The total data points scanned totaled 3.7 million. From the results gathered on the full results pull, the changes between the first test scan and the full scan were identified. The calculation result percentages seemed to average out and begin to navigate towards the 50% (random) mark, although there were a few scan results that yielded some potential advantage across the board.&lt;/p>
-&lt;p>Caclulated using the code on: &lt;a href="https://github.com/cybertraining-dsc/fa20-523-336/blob/main/project/project.py">https://github.com/cybertraining-dsc/fa20-523-336/blob/main/project/project.py&lt;/a> API key required.&lt;/p>
-&lt;ul>
-&lt;li>Total Data Points Evaluated: 3,704,001&lt;/li>
-&lt;li>Total Beat Earnings: 20,789 (62.3%)&lt;/li>
-&lt;li>Total Missed Earnings: 12,577 (37.7%)&lt;/li>
-&lt;li>Calculation Total in Seconds: 1023 (17 minutes)&lt;/li>
-&lt;/ul>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Calculation&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;th>Result&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>A.&lt;/td>
-&lt;td>% of (+) beat earnings when the stock is in an uptrend&lt;/td>
-&lt;td>61.6% (-17% difference)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>B.&lt;/td>
-&lt;td>% of (-) missed earnings when the stock is in a downtrend&lt;/td>
-&lt;td>34.54% (-25.2% difference)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>C.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increases from open&lt;/td>
-&lt;td>51.8% (+9.46% difference)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>D.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increase from the previous day’s close&lt;/td>
-&lt;td>56.74% (-4.52% difference)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>E.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from open&lt;/td>
-&lt;td>50.92% (-8.26% difference)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>F.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from the previous day’s close&lt;/td>
-&lt;td>56.92% (-3.28% difference)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>G.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increases from open and is in a current uptrend&lt;/td>
-&lt;td>52.84% (+9.38% difference)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>H.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increases from the previous day’s close and is in an uptrend&lt;/td>
-&lt;td>57.68% (-6.19% difference)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>I.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from open and is in a current downtrend&lt;/td>
-&lt;td>53.76% (-7.11% difference)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>J.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from the previous day’s close and is in a downtrend&lt;/td>
-&lt;td>58.48% (-4.13% difference)&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>Although these results tend to show more randomness than the 5 scanned in the results of Calculation 1 in Section 6.1, there are a few scans that could yield a profitable and predictive strategy for investors, and/or provide some insight into what the price of a security may do. One area where the software is still able to predict events is in scan A, where we are evaluating the probability that the company will beat earning solely based on what the stock price trend is doing. If we only looked while investing in S&amp;amp;P500 stocks, an investor would be able to assume the company will beat earnings 61.6% of the time if the stock is above the 20 and 50 period moving averages. Of these times, the stock price will increase from the past close 57.68% of the time.&lt;/p>
-&lt;h2 id="7-conclusion">7. Conclusion&lt;/h2>
-&lt;p>To conclude, as more and more companies are evaluated in the software&amp;rsquo;s calculations, the chance of unusual and unique events increase. Theoretically, if a company outperforms their expected earnings and shows number better than what financial advisors predict the company to earn, investors should be encouraged to buy more shares in the company and in turn drive the price of the security higher. Sometimes however, stock prices act in the opposite effect during earnings times as large hedge funds and corporations sell off large volume shares of stock to fear other investors into selling. This can snowball the stock price down to where large institutions can repurchase massive amount of those shares again. This is usually refered to as market manipulation. (In a sort of dollar cost averaging method) Because of this, and many other market manipulation activities that occur on stock markets across the globe, positive earnings announcements do not always yield positive buyer sentiment and a price increase. Concluded from this research, it can be said that the strongest correlation to a stock beating earnings estimates, is the price trend of the security. If the stock is in a current uptrend, the chance of that security beating earnings is over 60% (based on SP500 Stock Calculations) With this, earnings announcements are something that many investors should and could look at while investing both short term and long term in companies, however, to develop a truly profitable trading strategy, more work and analysis would need to be conducted. The market moves in ways that few can acurately explain, and as more stocks are scanned and analyzed, the randomness and factor of luck began to show.&lt;/p>
-&lt;h2 id="8-acknowledgements">8. Acknowledgements&lt;/h2>
-&lt;p>Thank you to Dr. Gregor Von Laszewski, Dr. Geoffrey Fox and all other AI staff that helped with the planning and teaching of the I423 class during the COVID-19 pandemic through the fall 2020 semester. This class helped to better understand areas of big data and the science behind it. Additionally, the class gave participants the ability to learn more about their own chosen topic. Thank you.&lt;/p>
-&lt;h2 id="9-references">9. References&lt;/h2></description></item><item><title>Report: Project: Stock level prediction</title><link>/report/sp21-599-353/project/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/sp21-599-353/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/sp21-599-353/actions">&lt;img src="https://github.com/cybertraining-dsc/sp21-599-353/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/sp21-599-353/actions">&lt;img src="https://github.com/cybertraining-dsc/sp21-599-353/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: final, Type: Project&lt;/p>
-&lt;p>Rishabh Agrawal, &lt;a href="https://github.com/cybertraining-dsc/sp21-599-353/">sp21-599-353&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/sp21-599-353/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/cybertraining-dsc/sp21-599-353/blob/main/project/code/Stock%20Prediction.ipynb">Stock Prediction.pynb&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/cybertraining-dsc/sp21-599-353/blob/main/project/code/Stock%20Prediction.pdf">Stock Prediction.pdf&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>This project includes a deep learning model for stock prediction. It uses LSTM, RNN which is the standart for time series prediction.
-It seems to be the right approach. The author really loved this project since he loves stocks.
-He invests often, and is also in love with tech, so he finds ways to combine both of them. Most existing models for stock prediction
-dont include the volume, and Rishabh intendede to use that as an input, but it didn&amp;rsquo;t go exactly as planned.&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-existing-lstm-models">2. Existing LSTM Models&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#21-what-is-lstm">2.1. What is LSTM?&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#22-existing-lstm-models-and-why-they-dont-do-great">2.2. Existing LSTM models and why they don&amp;rsquo;t do great&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-datasets">3. Datasets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-results">4. Results&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#7-conclusion">7. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, LSTM, Time Series prediction, transformers.&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Using deep learning for stock level prediction is not a new concept, but this project is trying to address a different issue her. Volume. Almost no model actually uses volume, daily volume or weekly volume.
-People that are experts in this field and do a technical analysis(TA) of stocks use volume for their prediction extensively, so why not use it in the model? It could be ground breaking.&lt;/p>
-&lt;p>LSTM is the obvious match for this kind of problem, but this project will also try to incorporate transformers in the model. The data set used will be from Yahoo Finance&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="2-existing-lstm-models">2. Existing LSTM Models&lt;/h2>
-&lt;p>There are quite a few models out there for stock prediction. But what exactly is LSTM? How does it work, and how is it the obvious option here? There are other models too.
-Why the current LSTM models aren&amp;rsquo;t that great? How good/bad do they perform?&lt;/p>
-&lt;h2 id="21-what-is-lstm">2.1. What is LSTM?&lt;/h2>
-&lt;p>LSTM is short for Long Short Term Memory networks. It comes under the branch of Recurrant Nueral Networks. LSTMs are explicitly designed to avoid the long-term dependency problem.
-Remembering information for long periods of time is practically their default behavior, not something they struggle to learn!
-All recurrent neural networks have the form of a chain of repeating modules of neural network. In standard RNNs, this repeating module will have a very simple structure, such as a single tanh layer&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>.
-LSTM is also used for other time series forecasting such as weather and climate. It is an area of deep learning that works on considering the last few instances of the time series instead of the entire time series as a whole.
-A recurrent neural network can be thought of as multiple copies of the same network, each passing a message to a successor&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/sp21-599-353/raw/main/project/images/lstm.png" alt="LSTM">
-&lt;br />Fig 1 LSTM&lt;/p>
-&lt;p>This chain-like nature reveals that recurrent neural networks are intimately related to sequences and lists. They’re the natural architecture of neural network to use for such data. LSTMs are explicitly designed to avoid the long-term dependency problem. Remembering information for long periods of time is practically their default behavior, not something they struggle to learn.&lt;/p>
-&lt;h2 id="22-existing-lstm-models-and-why-they-dont-do-great">2.2. Existing LSTM models and why they don&amp;rsquo;t do great&lt;/h2>
-&lt;p>This data corroborates what we can see from Figure 4. The low values in RMSE and decent values in R2 show that the LSTM may be good at predicting the next values for the time series in consideration.&lt;/p>
-&lt;p>Figure 5 shows a sample of 100 actual prices compared to predicted ones, from August 13, 2018 to January 4, 2019.
-&lt;a href="https://www.blueskycapitalmanagement.com/machine-learning-in-finance-why-you-should-not-use-lstms-to-predict-the-stock-market/">&lt;img src="https://github.com/cybertraining-dsc/sp21-599-353/raw/main/project/images/lstm_pred.png" alt="LSTM prediction">&lt;/a>
-&lt;br />Fig 5 LSTM Prediction 1 &lt;a href="https://www.blueskycapitalmanagement.com/machine-learning-in-finance-why-you-should-not-use-lstms-to-predict-the-stock-market/">Image Source&lt;/a>&lt;/p>
-&lt;p>This figure makes us draw a different conclusion. While in aggregate it seemed that the LSTM is effective at predicting the next day values,
-in reality the prediction made for the next day is very close to the actual value of the previous day.
-This can be further seen by Figure 6, which shows the actual prices lagged by 1 day compared to the predicted price&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>&lt;a href="https://www.blueskycapitalmanagement.com/machine-learning-in-finance-why-you-should-not-use-lstms-to-predict-the-stock-market/">&lt;img src="https://github.com/cybertraining-dsc/sp21-599-353/raw/main/project/images/lstm_pred2.png" alt="LSTM prediction2">&lt;/a>
-&lt;br />Fig 6 LSTM Prediction 2 &lt;a href="https://www.blueskycapitalmanagement.com/machine-learning-in-finance-why-you-should-not-use-lstms-to-predict-the-stock-market/">Image Source&lt;/a>&lt;/p>
-&lt;p>In one other model on Google Colab we see an output like this&lt;/p>
-&lt;p>&lt;a href="https://colab.research.google.com/github/Mishaall/Geodemographic-Segmentation-ANN/blob/master/Google_Stock_Price_Prediction_RNN.ipynb#scrollTo=skhdvmCywHrr">&lt;img src="https://github.com/cybertraining-dsc/sp21-599-353/raw/main/project/images/lstm_pred3.png" alt="LSTM prediction3">&lt;/a>
-&lt;br />Fig 7 LSTM Prediction 3 &lt;a href="https://colab.research.google.com/github/Mishaall/Geodemographic-Segmentation-ANN/blob/master/Google_Stock_Price_Prediction_RNN.ipynb#scrollTo=skhdvmCywHrr">Image Source&lt;/a>&lt;/p>
-&lt;p>Here we can see that clearly the model did not do well. In this model, the LSTM didn&amp;rsquo;t even get the trends correctly. There is definitely need for some changes in the layers, and droupout coeffecient.
-My guess is that this model was really overfitted since the first half of the prediction did reletively well&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="3-datasets">3. Datasets&lt;/h2>
-&lt;p>As mentioned above, the Yahoo finance Data set will be used. It is really easy to get. Data can be download from any time stamp to as new as today. There is a download csv button to do so.
-Here is an example of &lt;a href="https://finance.yahoo.com/quote/aapl/history?ltr=1">AAPL stock&lt;/a> on Yahoo Finance&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>For this project the Amazon stock was chosen. The all time max historic data was downloaded from Yahoo Finance in csv format. Here is the &lt;a href="https://github.com/cybertraining-dsc/sp21-599-353/blob/main/project/code/AMZN_Stock_Price.csv">link&lt;/a>&lt;/p>
-&lt;h2 id="4-results">4. Results&lt;/h2>
-&lt;p>Fig 8 shows the result of my model. The results weren&amp;rsquo;t as expected. This project was meant to be for adding volume to the input layer. We tried to do that in the model, but it failed. It gave a straight
-line for the prediction. This project did find a unique way to use the LSTM. It played around with the layers, number of layers, the droupout coeffecient to find the most accurate balance. The output shows a more
-reliable and believable output, and that is some progress. There might be ways to incorporate volume. Later, maybe it needs better scaling. But the prediction did get the trends pretty accurately, even
-though it might not have gotten the exact price correctly. Amazon stock alse soared unbelievabley this year due to COVID-19 and many other external factors that were not incorporated in the model at
-all, so it is really common to see an undervalued prediction.&lt;br />
-&lt;img src="https://github.com/cybertraining-dsc/sp21-599-353/raw/main/project/images/AMZN_stock_prediction_graph.png" alt="LSTM results">
-&lt;br />Fig 8&lt;/p>
-&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
-&lt;p>Cloudmesh was used for the benchmark for this project. According to the documentaion&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>, I used the StopWatch.start() and StopWatch.stop() functions. Fig 9 shows the output. Loading the dataset or prediction of the data doesn&amp;rsquo;t take long at all. The majority of the time is taken for the training
-wihch is expected. Google Colab was the tool used and utilized the GPU which is why each epoch just took about 2 seconds. When a personal CPU or the default CPU provided by Google Colab was used,
-it took about 30-40 seconds for each epoch. You can see the system configuration in Fig 9 too.
-&lt;img src="https://github.com/cybertraining-dsc/sp21-599-353/raw/main/project/images/benchmark.png" alt="Cloudmesh Benchmark">
-&lt;br />Fig 9 Cloudmesh Benchmark Results&lt;/p>
-&lt;h2 id="7-conclusion">7. Conclusion&lt;/h2>
-&lt;p>Even though the model did not do as expected, we were not able to add volume as an input, we were still able to find some success with changing the number layers and the coeffecient values. We can see
-that the model can successfully predict the trend of the stock prices, even with the external factors affecting the prices a little. The next step for this project would be to try to scale the volume
-and add it as an input to the model. One other, but rather difficult add-on could be to try to add some external factors as inputs. For an aggregate input of external factors, we could use
-sentiment analysis through Twitter tweets as an input to the model too.&lt;/p>
-&lt;h2 id="9-references">9. References&lt;/h2>
-&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
-one point automatically change the references from superscript to square brackets it is best to introduce a space before
-the first square bracket.&lt;/p>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Using dataset for stocks, [Online resource]
-&lt;a href="https://finance.yahoo.com/">https://finance.yahoo.com/&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>Understanding LSTM Networks, [Online Resource]
-&lt;a href="https://colah.github.io/posts/2015-08-Understanding-LSTMs/">https://colah.github.io/posts/2015-08-Understanding-LSTMs/&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:3" role="doc-endnote">
-&lt;p>AI stock market forecast, [Online resource]
-&lt;a href="http://ai-marketers.com/ai-stock-market-forecast/">http://ai-marketers.com/ai-stock-market-forecast/&lt;/a> &lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:4" role="doc-endnote">
-&lt;p>Why You Should Not Use LSTM’s to Predict the Stock Market, [Online resource]
-&lt;a href="https://www.blueskycapitalmanagement.com/machine-learning-in-finance-why-you-should-not-use-lstms-to-predict-the-stock-market/">https://www.blueskycapitalmanagement.com/machine-learning-in-finance-why-you-should-not-use-lstms-to-predict-the-stock-market/&lt;/a> &lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:5" role="doc-endnote">
-&lt;p>Google Stock Price Prediction RNN, [Google Colab]
-&lt;a href="https://colab.research.google.com/github/Mishaall/Geodemographic-Segmentation-ANN/blob/master/Google_Stock_Price_Prediction_RNN.ipynb#scrollTo=skhdvmCywHrr">https://colab.research.google.com/github/Mishaall/Geodemographic-Segmentation-ANN/blob/master/Google_Stock_Price_Prediction_RNN.ipynb#scrollTo=skhdvmCywHrr&lt;/a> &lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:6" role="doc-endnote">
-&lt;p>Cloudmesh, [Documentation]
-&lt;a href="https://cloudmesh.github.io/cloudmesh-manual/autoapi/cloudmeshcommon/cloudmesh/common/StopWatch/index.html#module-cloudmesh-common.cloudmesh.common.StopWatch">https://cloudmesh.github.io/cloudmesh-manual/autoapi/cloudmeshcommon/cloudmesh/common/StopWatch/index.html#module-cloudmesh-common.cloudmesh.common.StopWatch&lt;/a> &lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: Review of Text-to-Voice Synthesis Technologies</title><link>/report/fa20-523-350/report/report/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/fa20-523-350/report/report/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/fa20-523-350/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-350/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/fa20-523-350/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-350/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: final&lt;/p>
-&lt;p>Eugene Wang, &lt;a href="https://github.com/cybertraining-dsc/fa20-523-350/">fa20-523-350&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/fa20-523-350/blob/main/report/report.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>The paper is about the most popular and most successful voice synthesis methods in the recent 5 years. Area of examples that would be explored in order to produce such a review paper would consist of both academic research papers and examples real world successful applications. For each specific example examined, its dataset, theory/model, training algorithms, and the purpose and use for that specific method/technology would be examined and reviewed. Overall, the paper will compare the similarities and differences between these methods and explore how big data enabled these new voice-synthesis technologies. And last, the changes these technologies will bring to our world in the future is discussed and both positive and negatives implications are explored in depth. This paper is meant to be informative to the both general audience and professionals about the how voice-synthesizing techniques has been transformed by big data, most important developments in the academic research of this field, and how these technologies are adopted to create innovation and value. But also to explain the logic and other technicalities behind these algorithms created by academia and applied to real world purposes. Codes and datasets of voices will be supplemented as for the purpose of demonstrations of these technologies in working.&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-overview-of-the-technology">2. Overview of the Technology&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-main-example-tacotron-1--2-and-wavenet-for-voice-synthesis">3. Main Example: Tacotron 1 &amp;amp; 2 and WaveNet for Voice Synthesis&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#31-application-and-implications-of-a-lifelike-tts-system-like-tacotron-2">3.1 Application and Implications of a lifelike TTS system like Tacotron 2&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#4-other-example-a-deep-voice-baidus-real-time-neural-text-to-speech-system">4. Other Example A: Deep Voice: Baidu&amp;rsquo;s Real Time Neural Text-to-Speech System&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-other-example-b-siris-hybrid-mixture-density-network-based-approach-to-tts">5. Other Example B: Siri&amp;rsquo;s Hybrid Mixture Density Network Based Approach to TTS&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#7-references">7. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> Text-to-Speech Synthesis, Speech Synthesis, Artificial Voice&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>The idea of making machines talk has be around for many over 200 years. For example, in as early as 1779, a scientist called Christian Gottlieb Kratzenstein built models of the human vocal tract (the cavity in human beings where voice is produced in) that can produce the sound of long vowels (a, e, i , o, u)&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. From then till the 1950s, there have been many successful studies and attempts to make physical models that mechanically imitate the human voice. In the late 1960s, the people trying to synthesize human voice started to do it electronically. In 1961, by utilizing the IBM 704 (one of the first mass produced computers), John Larry Kelly Jr and Louis Gerstman, made a voice recorder synthesizer (aka. vocoder). Their system was able to recreate the song &amp;quot;Daisy Bell&amp;quot;&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. Before the current deep neural network trend, modern systems for text-to-Speech (TTS) or speech synthesis has been dominated by concatenative methods and then statistical parametric methods. Creating the ability for humans to converse with computers or any machines is a one of those age-old dreams of humans. A human-computer interaction technology that provides the computers to comprehend raw human speech has been revolutionized in last couple of years by the amount of big data we have now and the implementation, mainly deep neural networks, that feeds on big data.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-350/main/report/images/TTScomponents.png" alt="Figure1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Illustration of a typical TTS system&lt;/p>
-&lt;h2 id="2-overview-of-the-technology">2. Overview of the Technology&lt;/h2>
-&lt;p>Concatenative methods work by stringing together segments of prerecorded speech segments. The best of concatenative methods is the Unit Selection. The recorded voice segments in unit selection is categorized into individual phones, diphones, half-phones, morphemes, syllable, words, and phrases. Unit selection divides a sentence into segmented units by a speech recognizer, then these units are filled in with recorded voice segments based on parameters like frequency, duration, syllable position, as well as these parameters of its neighboring units &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>. The output of this system can be undistinguishable from natural voice, but only in very specific context that it is being tuned for and provided that the system has a very large database of speeches, usually in the range of dozens of hours of speech. This system suffers from boundary artifacts, which are unnatural connections between the sewed-together speech segments.&lt;/p>
-&lt;p>What came after concatenative methods are the statistical parametric methods, it solved many of the concatenative method&amp;rsquo;s boundary artifact problems. Statistical Parametric methods are also called Hidden-Markov-Models-based (HHM-based) methods, because HMM are often the choice to model the probability distribution of speech parameters. The HH model selects the most likely speech parameters like frequency spectrum, fundamental frequency, and duration (prosody), given the word sequence and trained model parameters. Last, these speech parameters are combined to construct a final speech wave form. Statistical parametric synthesis can be described as /&amp;ldquo;generating the average of some sets of similarly sounding speech segment&amp;rdquo; &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. The advantage that statistical parametric methods have over concatenative methods is the ability to modify aspects of the speech such as the gender of speaker, or the emotion and emphasis of the speech. The use of statistical parametric methods marks the beginning of the transition from a knowledge-based system to a data-based system for speech synthesis.&lt;/p>
-&lt;p>From a high-level point of view, a text-to-speech system is composed of two components. The first component starts with text normalization, also called preprocessing or tokenization. Text normalization converts symbols, numbers, and abbreviations into normal dictionary words. After text normalization, the first components end with text-to-phenome. Text-to-phenome is the process of dividing the text into units like words, phrases, and sentences; then converting these units into target phonetic representations, or target prosody (frequency contour, durations, etc.) The second component, often called the synthesizer or vocoder, takes the symbolic phonetic representations and converts them into the final sound.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-350/main/report/images/prosody.jpeg" alt="Figure2">&lt;/p>
-&lt;p>&lt;strong>Figure 2:&lt;/strong> Illustration of prosody&lt;/p>
-&lt;h2 id="3-main-example-tacotron-1--2-and-wavenet-for-voice-synthesis">3. Main Example: Tacotron 1 &amp;amp; 2 and WaveNet for Voice Synthesis&lt;/h2>
-&lt;p>The Tacotron a TTS system that begin by using a sequence to sequence architecture implemented with neural network to produce magnitude spectrograms with a given string of text. The first component of Tacotron is one single neural network that was trained from 24.6 hours of speech audio recorded by a professional female speaker. The effectiveness of a neural network in speech synthesis shows how big data approaches are improving and changing up the speech synthesis methodologies. Tacotron uses the Giffin-Lim algorithm for its second component, the vocoder. The authors note that their choice of approach for the second component is only used as a placeholder at that time, and they anticipated that the Tacotron is be more advanced with alternative approaches for the second component, the vocoder, in the future &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>. And Tacotron 2 is what the authors of the original Tacotron might have envisioned.&lt;/p>
-&lt;p>Tacotron 2 is a TTS system built entirely using neural network architectures for both its first and second component. Tacotron 2 combines the original tacotron’s first component and combine it with Google’s WaveNet that serves as the second component. The tacotron-style first component responsible for preprocessing and text-to-phenome, produces mel spectrograms given the original text input. Mel spectrograms are representations of frequencies in mel scale as it varies over different time. The mel spectrograms are then fed into WaveNet, a vocoder that serves as the second component, which outputs the final sound &lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>WaveNet is a deep neural network model that can generate raw audio. What is different about WaveNet is that it can model and generate the raw audio form. Typically, audio is digitized by sampling a single data point for every very small-time interval. A raw audio wave form typically contains 16,000 sample point in every second of audio. With that many sample points per second, an audio clip of a simple speech would contain millions and billions of data points. To make a generative model for these sample audio points, the model needs to be autoregressive, meaning every sample point generated by the model is influenced by its earlier sample points that is also generated by the model itself &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>. A very difficult challenge that DeepMind solved. Before DeepMind came up with WaveNet, they made pixelRNN and pixel CNN. Which proved that it is possible to generate a complicated image one pixel at a time given a large amount of quality training data. This time instead of an image generated a pixel at a time, an audio clip is generated one sample point at a time.&lt;/p>
-&lt;p>WaveNet is trained with audio recordings, or wave forms, from real human speech. After training the model, WaveNet can generate synthetic utterances of human speech that does not actually mean anything. WaveNet would be fed a random audio sample point, and it will predict the next audio sample point and feed it back to itself and generating the next one, so on and so forth, producing complex realistic speech wave form. To apply WaveNet to TTS systems, it would have to be trained not only the human speech but also each training sample’s corresponding linguistic and phonetic features. This way, WaveNet would be conditioned on both the previous audio sample points and the words we want WaveNet to say. In a real working TTS system, these linguistic and phonetic features are the product of the first component, which is responsible for text-to-phenome &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-350/main/report/images/autoregressive.png" alt="Figure3">&lt;/p>
-&lt;p>&lt;strong>Figure 3:&lt;/strong> Illustration of an Autoregressive Model&lt;/p>
-&lt;h3 id="31-application-and-implications-of-a-lifelike-tts-system-like-tacotron-2">3.1 Application and Implications of a lifelike TTS system like Tacotron 2&lt;/h3>
-&lt;p>The powerful and lifelike TTS system by Tacotron 2 and Wavenet enhances many real-life applications that relies on having a machine talk, but most predominantly in human-computer interaction like smart phone voice assistant. And naturally, with a TTS system so lifelike, there are some concerns it would be used for nefarious purposes; but it also enables great enhancements to current applications of TTS systems. In one example researchers are able to build system that adds a speech encoder system on top of Tacotron 2 and Wavenet, and make it so it would be able to clone anyone’s voice signature and produce any speech wave forms with that person’s voice with just a few seconds of his or her original speech recording &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>. The objective of the speaker encoder network added on to Tacotron 2 and Wavenet is to learn a high quality representation of a target speaker’s voice. In other words, the speaker encoder network is made to learn the &amp;ldquo;essence&amp;rdquo; and intricacies of human voices. The theory is that with this speech embeddings (representations) of a particular voice signature, Tacotron 2 and Wavenet would be able to use that to generate brand new speeches with the same voice signature. The most importance reason why this system is able to work with and extrapolate from an unseen and small amount of audio recording of the target speaker is a large and diverse amount of data of different speakers used to train the speaker encoder network &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>. This demonstrates that not only big data contributed to the success of this network but that the big data also has to be the right data, with &amp;ldquo;right&amp;rdquo; being having a diverse amount of different variations in speakers.&lt;/p>
-&lt;p>One possible benefit of such a system can provide is in speech to speech translation across different languages. Because the system only requires couple seconds of un-transcribed reference audio recorded from the target speaker, this system can be used to enhance current, top of the line, speech to speech translation system like Google Translate by generating the output speech that is in another language with the original speaker’s voice. This makes the generated speech more natural and realistic sounding for the intended listener of the translated speech in a real world setting &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>. An example of a fun implementation of such a system is the option to choose celebrity’s voices, like John Legend’s voice, as the voice of your Google Assistant in your smart phone or your Google Home &lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup>. But a different and potentially dangerous implication of a system being misused and abused is not hard to imagine as well, especially that sometimes the artificially synthesized speech by these latest TTS systems are rated as indistinguishable from real human speech &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>. According to a study, our brain does not register significant differences between a morphed voice and a real voice &lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup>. In other words, while we can still somewhat distinguish between a genuine and artificial voice, we probably will be fooled most of the time if we are not particularly paying attention and on the look out for it. For example, people can be fooled into believing or doing certain things, because the voice that they talked too belongs to someone who that trust or someone who they believe holds a certain type of authority. While there are people coming up with technical solutions to safeguard us, the first step is to raise awareness about the existence of this technology and how sophisticated it can be &lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="4-other-example-a-deep-voice-baidus-real-time-neural-text-to-speech-system">4. Other Example A: Deep Voice: Baidu&amp;rsquo;s Real Time Neural Text-to-Speech System&lt;/h2>
-&lt;p>Just like Google&amp;rsquo;s Tacotron and Wavenet, this paper&amp;rsquo;s authors from Baidu, a Google competitor, also elected to use neural networks and big data to train and implement every component of a TTS system, called Deep Voice. This further demonstrates the effectiveness of the approach of using big data to train deep neural networks. Baidu&amp;rsquo;s Deep Voice TTS system is consisted of five components, in their respective order they are: grapheme-to-phoneme model, segmentation model, phoneme duration model, fundamental frequency model, and audio synthesis model. The first grapheme-to-phoneme model is self explanatory, it is referred to as the &amp;ldquo;first component&amp;rdquo; of a TTS system in a two-component view. Grapheme-to-phoneme model converts text into phonemes. The second segmentation model is used to draw the boundaries between each phoneme (or each utterance) in the audio file given the audio file&amp;rsquo;s transcription. The third phoneme duration model predicts the time or duration of each phoneme. The forth fundamental frequency model predicts whether or not each phoneme is &amp;ldquo;silent&amp;rdquo;, as sometimes a part of a word is spelled but not voiced; if it is voiced, the model predicts its fundamental frequency. The fifth and final model, the audio synthesis model, combines the output of the prior four models and synthesize the final finished output audio. Baidu&amp;rsquo;s audio synthesis model is a modified version of DeepMind&amp;rsquo;s WaveNet &lt;sup id="fnref:11">&lt;a href="#fn:11" class="footnote-ref" role="doc-noteref">11&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>All five models that compose Baidu&amp;rsquo;s Deep Voice are implemented with neural networks, making Deep Voice also an truly end to end &amp;ldquo;neural speech&amp;rdquo; synthesis model, also serving as a proof that the deep learning with big data approaches can be applied to every part and component of a TTS system. As to making it real time, the TTS system needs to be optimized to near instantaneous speeds. Baidu&amp;rsquo;s researchers experimented with various hyperparameter configurations, also including changing the amount of detail (and size) of the training data, data type, size/type of computational medium (CPU, GPU), amount of nonlinearities in the model, different memory cache techniques, and the overall size (computational requirements) of the models. They timed each of these configurations and scored the quality (MOS, Mean Opinion Scores) of each of their synthesized speech. The result shows a trade off between speech quality and synthesis speed. Without sacrificing too much audio quality, Deep Voice is able to produce a sufficient quality, 16 kHz audio, at 400 time faster that WaveNet and achieving the goal of making Deep Voice real-time or faster than real-time &lt;sup id="fnref:11">&lt;a href="#fn:11" class="footnote-ref" role="doc-noteref">11&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="5-other-example-b-siris-hybrid-mixture-density-network-based-approach-to-tts">5. Other Example B: Siri&amp;rsquo;s Hybrid Mixture Density Network Based Approach to TTS&lt;/h2>
-&lt;p>Siri is Apple&amp;rsquo;s virtual assistant that is communicated through the use of natural language user interface, predominantly through speech. Siri is capable of perform user instructed actions, make recommendations, and more by delegating requests to other internet services. Apple&amp;rsquo;s three operating systems: iOS, iPadOS, watchOS, tvOS, and macOS all come with Siri. Siri was first released with iOS in iPhones in 2011, after Apple acquired it a year before. Within the components that make up Siri is a TTS system that is used to generate a spoken, verbal response to user&amp;rsquo;s input. Throughout the years, different techniques and technologies have been used to implement the TTS system of Siri in order to make it better.&lt;/p>
-&lt;p>The old Siri uses predominantly a unit selection approach to its TTS system. Within predictable and narrow usage applications, older unit selection speech synthesis method still shines, because it can still produce adequately good speeches given that the system contains a very large amount of quality speech recordings. But the out performance of deep learning approaches over traditional methods had become more and more clear. Apple gave Siri a new and more natural voice by switching their old TTS system to one implement with a hybrid mixture density network based unit selection TTS system &lt;sup id="fnref:12">&lt;a href="#fn:12" class="footnote-ref" role="doc-noteref">12&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>This hybrid mixture density network based unit selection approach first uses a function to pick the most probable audio units for each speech segments, then uses a second function to find the most optimal (natural sounding) combination of the selected candidates for each broken down segment of the entire speech. The role of the mixture density network here in Siri is to serve as these two functions mentioned: a unified target model and concatenation model that is able to predict distributions of the target features of a speech and the cost of concatenation between the sample audio units. The function that models the distributions of target features used to be commonly implemented with hidden Markov models in a statistical parametric approaches of TTS. But it has since been replaced by the better deep learning approaches. The concatenation cost function is used to measure the acoustic difference between two units for the purpose of guaging their sound&amp;rsquo;s naturalness when concatenated. Hence the concatenation cost function is what is used during the search for the optimal sequence (or combinations) of units in the unit audio speech space &lt;sup id="fnref:12">&lt;a href="#fn:12" class="footnote-ref" role="doc-noteref">12&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>Starting in iOS 10 in 2017 until this moment, Siri&amp;rsquo;s TTS system had been upgraded with neural network approaches, and the new Siri&amp;rsquo;s voice is demonstrated to be massively preferred over the old one in controlled A/B testing &lt;sup id="fnref:12">&lt;a href="#fn:12" class="footnote-ref" role="doc-noteref">12&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-350/main/report/images/siriabtest.png" alt="Figure4">&lt;/p>
-&lt;p>&lt;strong>Figure 4:&lt;/strong> Results of AB Pairwise Testing of Old and New Voices of Siri&lt;/p>
-&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
-&lt;p>The Tacotron, Deep Voice, and Siri&amp;rsquo;s TTS system are the three advance cutting edge TTS technologies. All of them are designed with deep neural networks as the main work horse with big data simultaneously acting as their food and their vitamins. With the knowledge of the history of TTS systems and its how its basic theoretical components, and through these three examples, we can see how big data and neural networks have revolutionized the speech synthesis technology field. Although, these advancements open potential dangers of it being used to exploit trust between people by the means of impersonation, they do provide us with even more real life benefits ranging from language translation to personal virtual assistants.&lt;/p>
-&lt;h2 id="7-references">7. References&lt;/h2>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>J. Ohala, &amp;ldquo;Christian Gottlieb Kratzenstein: Pioneer in Speech Synthesis&amp;rdquo;, ICPhS. (2011) &lt;a href="https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2011/OnlineProceedings/SpecialSession/Session7/Ohala/Ohala.pdf">https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2011/OnlineProceedings/SpecialSession/Session7/Ohala/Ohala.pdf&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>J. Mullennix and S. Stern, &amp;ldquo;Synthesized Speech Technologies: Tools for Aiding Impairment&amp;rdquo;, University of Pittsburh at Johnsonstown (2010) &lt;a href="https://books.google.com/books?id=ZISTvI4vVPsC&amp;amp;pg=PA11&amp;amp;lpg=PA11&amp;amp;dq=bell+labs+Carol+Lockbaum&amp;amp;hl=en#v=onepage&amp;amp;q=bell%20labs%20Carol%20Lockbaum&amp;amp;f=false">https://books.google.com/books?id=ZISTvI4vVPsC&amp;amp;pg=PA11&amp;amp;lpg=PA11&amp;amp;dq=bell+labs+Carol+Lockbaum&amp;amp;hl=en#v=onepage&amp;amp;q=bell%20labs%20Carol%20Lockbaum&amp;amp;f=false&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:3" role="doc-endnote">
-&lt;p>A. Hunt and A. W. Black, &amp;ldquo;Unit Selection in a Concatenative Speech Synthesis System Using a Large Speech Database&amp;rdquo;, ATR Interpreting Telecommunications Research Labs. (1996) &lt;a href="https://www.ee.columbia.edu/~dpwe/e6820/papers/HuntB96-speechsynth.pdf">https://www.ee.columbia.edu/~dpwe/e6820/papers/HuntB96-speechsynth.pdf&lt;/a> &lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:4" role="doc-endnote">
-&lt;p>A. W. Black, H. Zen and K. Tokuda, &amp;ldquo;Statistical Parametric Speech Synthesis&amp;rdquo;, Language Technologies Institute, Carnegie Mellon University (2009) &lt;a href="https://doi.org/10.1016/j.specom.2009.04.004">https://doi.org/10.1016/j.specom.2009.04.004&lt;/a> &lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:5" role="doc-endnote">
-&lt;p>Wang, Yuxuan, et al. &amp;ldquo;Tacotron: Towards End-to-End Speech Synthesis&amp;rdquo;, Google Inc, (2017) &lt;a href="https://arxiv.org/pdf/1703.10135.pdf">https://arxiv.org/pdf/1703.10135.pdf&lt;/a> &lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:6" role="doc-endnote">
-&lt;p>Shen, Jonathan, et al. &amp;ldquo;Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions&amp;rdquo;, Google Inc, (2018) &lt;a href="https://arxiv.org/abs/1712.05884.pdf">https://arxiv.org/abs/1712.05884.pdf&lt;/a> &lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:7" role="doc-endnote">
-&lt;p>Oord, Aaron van den, et al. &amp;ldquo;WaveNet: a Generative Model for Raw Audio&amp;rdquo;, Deepmind (2016) &lt;a href="https://arxiv.org/pdf/1609.03499.pdf">https://arxiv.org/pdf/1609.03499.pdf&lt;/a> &lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:8" role="doc-endnote">
-&lt;p>Jia, Ye et al. &amp;ldquo;Transfer Learning from Speaker Verification to Multispeaker Text-To-Speech Synthesis&amp;rdquo;, Google Inc., (2019) &lt;a href="https://arxiv.org/abs/1806.04558">https://arxiv.org/abs/1806.04558&lt;/a> &lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:9" role="doc-endnote">
-&lt;p>Marr, Bernard, &amp;ldquo;Artificial Intelligence Can Now Copy Your Voice: What Does That Mean For Humans?&amp;rdquo;, Forbes, (2019) &lt;a href="https://www.forbes.com/sites/bernardmarr/2019/05/06/artificial-intelligence-can-now-copy-your-voice-what-does-that-mean-for-humans/">https://www.forbes.com/sites/bernardmarr/2019/05/06/artificial-intelligence-can-now-copy-your-voice-what-does-that-mean-for-humans/&lt;/a> &lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:10" role="doc-endnote">
-&lt;p>Neupane, Ajaya, et al. &amp;ldquo;The Crux of Voice (In)Security: A Brain Study of Speaker Legitimacy Detection&amp;rdquo;, NDSS Symposium, (2019) &lt;a href="https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_08-3_Neupane_paper.pdf">https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_08-3_Neupane_paper.pdf&lt;/a> &lt;a href="#fnref:10" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:11" role="doc-endnote">
-&lt;p>O. A. Sercan, et al. &amp;ldquo;Deep Voice: Real-time Neural Text-to-Speech&amp;rdquo;, Baidu Silicon Valley Artificial Intelligence Lab, (2017) &lt;a href="https://arxiv.org/abs/1702.07825">https://arxiv.org/abs/1702.07825&lt;/a> &lt;a href="#fnref:11" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:12" role="doc-endnote">
-&lt;p>Siri Team, &amp;ldquo;Deep Learning for Siri’s Voice: On-device Deep Mixture Density Networks for Hybrid Unit Selection Synthesis&amp;rdquo;, Apple Inc, (2017) &lt;a href="https://machinelearning.apple.com/research/siri-voices">https://machinelearning.apple.com/research/siri-voices&lt;/a> &lt;a href="#fnref:12" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item></channel></rss>

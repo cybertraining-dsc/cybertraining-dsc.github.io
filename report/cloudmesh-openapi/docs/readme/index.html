@@ -1,0 +1,603 @@
+<!doctype html><html lang=en class=no-js><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=generator content="Hugo 0.79.1"><meta name=ROBOTS content="NOINDEX, NOFOLLOW"><link rel="shortcut icon" href=/favicons/favicon.ico><link rel=apple-touch-icon href=/favicons/apple-touch-icon-180x180.png sizes=180x180><link rel=icon type=image/png href=/favicons/favicon-16x16.png sizes=16x16><link rel=icon type=image/png href=/favicons/favicon-32x32.png sizes=32x32><link rel=icon type=image/png href=/favicons/android-36x36.png sizes=36x36><link rel=icon type=image/png href=/favicons/android-48x48.png sizes=48x48><link rel=icon type=image/png href=/favicons/android-72x72.png sizes=72x72><link rel=icon type=image/png href=/favicons/android-96x96.png sizes=96x96><link rel=icon type=image/png href=/favicons/android-144x144.png sizes=144x144><link rel=icon type=image/png href=/favicons/android-192x192.png sizes=192x192><title>Cybertraining</title><meta name=description content="by the Digital Science Center"><meta property="og:title" content><meta property="og:description" content="Cloudmesh OpenAPI Service Generator =================================== **Note:** The README.md page is outomatically generated, do not edit it. To modify change the content in https://github.com/cloudmesh/cloudmesh-openapi/blob/main/README-source.md Curley brackets must use two in README-source.md |image| |Python| |License| |Format| |Status| |Travis| Prerequisites ------------- - We use recommend Python 3.8.2 Python or newer. - We recommend pip version 20.0.2 or newer - We recommend that you use a venv (see developer install) - MongoDB installed as regular program not as service - Please run cim init command to start mongodb server We have not checked if it works on older versions."><meta property="og:type" content="article"><meta property="og:url" content="/report/cloudmesh-openapi/docs/readme/"><meta property="og:site_name" content="Cybertraining"><meta itemprop=name content><meta itemprop=description content="Cloudmesh OpenAPI Service Generator =================================== **Note:** The README.md page is outomatically generated, do not edit it. To modify change the content in https://github.com/cloudmesh/cloudmesh-openapi/blob/main/README-source.md Curley brackets must use two in README-source.md |image| |Python| |License| |Format| |Status| |Travis| Prerequisites ------------- - We use recommend Python 3.8.2 Python or newer. - We recommend pip version 20.0.2 or newer - We recommend that you use a venv (see developer install) - MongoDB installed as regular program not as service - Please run cim init command to start mongodb server We have not checked if it works on older versions."><meta itemprop=wordCount content="3094"><meta itemprop=keywords content><meta name=twitter:card content="summary"><meta name=twitter:title content><meta name=twitter:description content="Cloudmesh OpenAPI Service Generator =================================== **Note:** The README.md page is outomatically generated, do not edit it. To modify change the content in https://github.com/cloudmesh/cloudmesh-openapi/blob/main/README-source.md Curley brackets must use two in README-source.md |image| |Python| |License| |Format| |Status| |Travis| Prerequisites ------------- - We use recommend Python 3.8.2 Python or newer. - We recommend pip version 20.0.2 or newer - We recommend that you use a venv (see developer install) - MongoDB installed as regular program not as service - Please run cim init command to start mongodb server We have not checked if it works on older versions."><link rel=preload href=/scss/main.min.38f7016c100fd6fe016169222c96e00ef49b4c22d4f199ee64f2dce7c9cf0d28.css as=style><link href=/scss/main.min.38f7016c100fd6fe016169222c96e00ef49b4c22d4f199ee64f2dce7c9cf0d28.css rel=stylesheet integrity><script src=https://code.jquery.com/jquery-3.5.1.min.js integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=anonymous></script></head><body class=td-page><header><nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar"><a class=navbar-brand href=/><span class=navbar-logo><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500" style="enable-background:new 0 0 500 500"><g><path style="fill:#fff" d="M116.8525 421.9722c-5.7041.0-10.3442-4.3127-10.3442-9.6129V88.183c0-5.3002 4.6401-9.6117 10.3442-9.6117H320.858c3.0347.0 9.3959.5498 11.7506 2.6302l.3545.3442 58.905 63.2912c2.3101 2.491 2.9202 8.4928 2.9202 11.3184v256.2039c0 5.3002-4.6407 9.6129-10.3436 9.6129H116.8525z"/><g><g><g><path style="fill:#767676" d="M384.4445 423.2066H116.852c-6.3839.0-11.5786-4.8658-11.5786-10.8474V88.1831c0-5.9804 5.1947-10.8461 11.5786-10.8461h204.0062c.377.0 9.2786.0329 12.568 2.9389l.3947.3833 58.9508 63.337c3.2135 3.4652 3.2514 11.7924 3.2514 12.1593v256.2036C396.0231 418.3408 390.8284 423.2066 384.4445 423.2066zM116.5079 411.9189c.0848.0278.1999.0531.3441.0531h267.5925c.1442.0.2581-.0253.3441-.0531V156.1556c-.0076-.9033-.3593-3.7347-.7034-5.0037l-57.6527-61.9416c-1.4651-.3176-4.4533-.6389-5.5742-.6389H116.852c-.143.0-.2594.024-.3441.0531V411.9189zm267.4533-261.149zM327.0321 89.371v.0013V89.371z"/></g></g></g><g><g><path style="fill:#5b7fc0" d="M189.0874 210.1754l.0012-.0012c7.7751.0012 15.0295 4.1862 18.932 10.9234 1.9177 3.3159 2.9305 7.1011 2.9293 10.9378.0 5.8394-2.2733 11.3304-6.4032 15.4604-4.1288 4.1288-9.6186 6.4032-15.458 6.4032s-11.328-2.2733-15.458-6.4032-6.4032-9.6186-6.4056-15.4628c.0012-6.025 2.454-11.4897 6.4116-15.4473C177.5953 212.627 183.0601 210.1742 189.0874 210.1754zM197.0804 232.033c.0012-1.4042-.3687-2.7868-1.063-3.9887-1.4293-2.4684-4.0833-3.9995-6.9299-4.0019-4.4077.0024-7.993 3.5877-7.993 7.993.0 2.1356.832 4.1431 2.3427 5.6539 1.5083 1.5083 3.5159 2.3403 5.6503 2.3415 2.1356.0 4.1443-.8308 5.6539-2.3403S197.0816 234.1722 197.0804 232.033z"/><path style="opacity:.3;fill:#fff" d="M189.0898 210.176c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3136 2.9377 7.0988 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8066-21.8612-21.8613.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 212.6276 183.0612 210.176 189.0898 210.176zM197.0839 232.0372c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 236.239 197.0839 234.2399 197.0839 232.0372z"/><g><defs><path id="SVGID_1_" d="M194.7376 237.6875c-1.4461 1.4461-3.4452 2.3439-5.6479 2.3439-4.4077-.0024-7.9918-3.5865-7.9942-7.9942.0024-4.4125 3.5937-7.999 7.9942-7.9942 2.8443.0 5.497 1.5323 6.924 3.9983.6991 1.2067 1.0702 2.5881 1.0702 3.9959C197.0839 234.2399 196.1861 236.239 194.7376 237.6875z"/></defs><clipPath id="SVGID_2_"><use xlink:href="#SVGID_1_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_2_);fill:#fff" d="M190.0704 225.0237c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9546.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.663-2.8588-6.116.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C193.7885 225.7247 191.9774 225.0237 190.0704 225.0237z"/><path style="opacity:.13;clip-path:url(#SVGID_2_);fill:#020202" d="M190.0704 225.0237c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9546.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.663-2.8588-6.116.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C193.7885 225.7247 191.9774 225.0237 190.0704 225.0237z"/></g><g><defs><path id="SVGID_3_" d="M189.0898 210.176c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3136 2.9377 7.0988 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8066-21.8612-21.8613.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 212.6276 183.0612 210.176 189.0898 210.176zM197.0839 232.0372c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 236.239 197.0839 234.2399 197.0839 232.0372z"/></defs><clipPath id="SVGID_4_"><use xlink:href="#SVGID_3_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_4_);fill:#5b7fc0" d="M172.6595 215.6045c-3.96 3.96-6.4116 9.4235-6.4116 15.452-.0024 12.0547 9.8066 21.8636 21.8613 21.8612 12.0547.0024 21.8636-9.797 21.8613-21.8612.0024-3.8475-1.0151-7.6326-2.9353-10.9462-3.8977-6.7324-11.1497-10.9151-18.926-10.9151C182.0806 209.1953 176.6171 211.647 172.6595 215.6045z"/></g></g><rect x="198.8952" y="225.1043" style="fill:#5b7fc0" width="122.6266" height="13.8671"/></g><g><path style="fill:#d95140" d="M189.0874 155.7611l.0012-.0012c7.7751.0012 15.0295 4.1862 18.932 10.9234 1.9177 3.3159 2.9305 7.1011 2.9293 10.9378.0 5.8394-2.2733 11.3304-6.4032 15.4604-4.1288 4.1288-9.6186 6.4032-15.458 6.4032s-11.328-2.2733-15.458-6.4032-6.4032-9.6186-6.4056-15.4628c.0012-6.0249 2.454-11.4897 6.4116-15.4473C177.5953 158.2128 183.0601 155.7599 189.0874 155.7611zM197.0804 177.6188c.0012-1.4042-.3687-2.7868-1.063-3.9887-1.4293-2.4684-4.0833-3.9995-6.9299-4.0019-4.4077.0024-7.993 3.5877-7.993 7.993.0 2.1356.832 4.1431 2.3427 5.6539 1.5083 1.5083 3.5159 2.3403 5.6503 2.3415 2.1356.0 4.1443-.8308 5.6539-2.3403C196.2508 181.7667 197.0816 179.758 197.0804 177.6188z"/><path style="opacity:.3;fill:#fff" d="M189.0898 155.7617c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3135 2.9377 7.0987 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8066-21.8612-21.8613.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 158.2134 183.0612 155.7617 189.0898 155.7617zM197.0839 177.623c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 181.8248 197.0839 179.8256 197.0839 177.623z"/><g><defs><path id="SVGID_5_" d="M194.7376 183.2733c-1.4461 1.4461-3.4452 2.3439-5.6479 2.3439-4.4077-.0024-7.9918-3.5865-7.9942-7.9942.0024-4.4125 3.5937-7.9989 7.9942-7.9942 2.8443.0 5.497 1.5323 6.924 3.9983.6991 1.2067 1.0702 2.5881 1.0702 3.9959C197.0839 179.8256 196.1861 181.8248 194.7376 183.2733z"/></defs><clipPath id="SVGID_6_"><use xlink:href="#SVGID_5_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_6_);fill:#fff" d="M190.0704 170.6095c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9546.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.663-2.8588-6.116.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C193.7885 171.3104 191.9774 170.6095 190.0704 170.6095z"/><path style="opacity:.13;clip-path:url(#SVGID_6_);fill:#020202" d="M190.0704 170.6095c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9546.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.663-2.8588-6.116.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C193.7885 171.3104 191.9774 170.6095 190.0704 170.6095z"/></g><g><defs><path id="SVGID_7_" d="M189.0898 155.7617c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3135 2.9377 7.0987 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8066-21.8612-21.8613.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 158.2134 183.0612 155.7617 189.0898 155.7617zM197.0839 177.623c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 181.8248 197.0839 179.8256 197.0839 177.623z"/></defs><clipPath id="SVGID_8_"><use xlink:href="#SVGID_7_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_8_);fill:#d95140" d="M172.6595 161.1903c-3.96 3.96-6.4116 9.4235-6.4116 15.452-.0024 12.0547 9.8066 21.8636 21.8613 21.8613 12.0547.0024 21.8636-9.797 21.8613-21.8613.0024-3.8474-1.0151-7.6326-2.9353-10.9462-3.8977-6.7324-11.1497-10.9151-18.926-10.9151C182.0806 154.7811 176.6171 157.2327 172.6595 161.1903z"/></g><rect x="198.8952" y="170.69" style="fill:#d95140" width="122.6266" height="13.8671"/></g><g><g><path style="fill:#56a55c" d="M189.5379 264.6147l.0012-.0012c7.7751.0012 15.0294 4.1862 18.932 10.9235 1.9177 3.3159 2.9305 7.1011 2.9293 10.9378.0 5.8394-2.2733 11.3304-6.4032 15.4604-4.1288 4.1288-9.6186 6.4032-15.458 6.4032-5.8394.0-11.3281-2.2733-15.458-6.4032-4.13-4.13-6.4032-9.6186-6.4056-15.4628.0012-6.0249 2.454-11.4897 6.4116-15.4472C178.0458 267.0663 183.5105 264.6135 189.5379 264.6147zM197.5309 286.4723c.0012-1.4042-.3687-2.7868-1.063-3.9887-1.4293-2.4684-4.0833-3.9995-6.9299-4.0019-4.4077.0024-7.993 3.5877-7.993 7.993.0 2.1356.832 4.1431 2.3427 5.6538 1.5083 1.5083 3.5159 2.3403 5.6503 2.3415 2.1356.0 4.1443-.8308 5.6539-2.3403C196.7013 290.6202 197.5321 288.6115 197.5309 286.4723z"/><path style="opacity:.3;fill:#fff" d="M189.5403 264.6153c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3135 2.9377 7.0987 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8065-21.8612-21.8613.0-6.0285 2.4516-11.492 6.4116-15.452C178.0482 267.0669 183.5117 264.6153 189.5403 264.6153zM197.5344 286.4765c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9941.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.6366 290.6783 197.5344 288.6792 197.5344 286.4765z"/><g><defs><path id="SVGID_9_" d="M195.1881 292.1268c-1.4461 1.4461-3.4452 2.3439-5.6479 2.3439-4.4077-.0024-7.9918-3.5865-7.9942-7.9942.0024-4.4125 3.5937-7.9989 7.9942-7.9941 2.8443.0 5.497 1.5323 6.924 3.9983.6991 1.2067 1.0702 2.5881 1.0702 3.9959C197.5344 288.6792 196.6366 290.6783 195.1881 292.1268z"/></defs><clipPath id="SVGID_10_"><use xlink:href="#SVGID_9_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_10_);fill:#fff" d="M190.5209 279.463c-4.4005-.0048-7.9918 3.5817-7.9942 7.9941.0011 1.9547.7088 3.7452 1.8782 5.1354-1.7446-1.4674-2.8575-3.6631-2.8588-6.1161.0024-4.4125 3.5936-7.999 7.9942-7.9941 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C194.239 280.164 192.4279 279.463 190.5209 279.463z"/><path style="opacity:.13;clip-path:url(#SVGID_10_);fill:#020202" d="M190.5209 279.463c-4.4005-.0048-7.9918 3.5817-7.9942 7.9941.0011 1.9547.7088 3.7452 1.8782 5.1354-1.7446-1.4674-2.8575-3.6631-2.8588-6.1161.0024-4.4125 3.5936-7.999 7.9942-7.9941 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C194.239 280.164 192.4279 279.463 190.5209 279.463z"/></g><g><defs><path id="SVGID_11_" d="M189.5403 264.6153c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3135 2.9377 7.0987 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8065-21.8612-21.8613.0-6.0285 2.4516-11.492 6.4116-15.452C178.0482 267.0669 183.5117 264.6153 189.5403 264.6153zM197.5344 286.4765c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9941.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.6366 290.6783 197.5344 288.6792 197.5344 286.4765z"/></defs><clipPath id="SVGID_12_"><use xlink:href="#SVGID_11_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_12_);fill:#56a55c" d="M173.11 270.0439c-3.96 3.96-6.4116 9.4235-6.4116 15.452-.0024 12.0547 9.8066 21.8636 21.8613 21.8613 12.0547.0024 21.8636-9.797 21.8613-21.8613.0024-3.8474-1.0151-7.6326-2.9353-10.9462-3.8977-6.7325-11.1497-10.9151-18.926-10.9151C182.5311 263.6346 177.0676 266.0863 173.11 270.0439z"/></g></g><rect x="199.3456" y="279.5436" style="fill:#56a55c" width="122.6266" height="13.8671"/></g><g><g><path style="fill:#f1bc42" d="M189.0874 318.7208l.0012-.0012c7.7751.0012 15.0295 4.1862 18.932 10.9234 1.9177 3.3159 2.9305 7.1011 2.9293 10.9378.0 5.8394-2.2733 11.3305-6.4032 15.4604-4.1288 4.1288-9.6186 6.4032-15.458 6.4032s-11.328-2.2733-15.458-6.4032-6.4032-9.6186-6.4056-15.4628c.0012-6.025 2.454-11.4897 6.4116-15.4472C177.5953 321.1724 183.0601 318.7196 189.0874 318.7208zM197.0804 340.5784c.0012-1.4042-.3687-2.7868-1.063-3.9887-1.4293-2.4684-4.0833-3.9995-6.9299-4.0019-4.4077.0024-7.993 3.5877-7.993 7.993.0 2.1356.832 4.1431 2.3427 5.6539 1.5083 1.5083 3.5159 2.3403 5.6503 2.3415 2.1356.0 4.1443-.8308 5.6539-2.3403S197.0816 342.7176 197.0804 340.5784z"/><path style="opacity:.3;fill:#fff" d="M189.0898 318.7214c7.7763.0 15.0283 4.1826 18.926 10.915 1.9201 3.3136 2.9377 7.0988 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8612-12.0547.0024-21.8636-9.8065-21.8612-21.8612.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 321.173 183.0612 318.7214 189.0898 318.7214zM197.0839 340.5826c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 344.7844 197.0839 342.7853 197.0839 340.5826z"/><g><defs><path id="SVGID_13_" d="M194.7376 346.2329c-1.4461 1.4461-3.4452 2.3439-5.6479 2.3439-4.4077-.0024-7.9918-3.5865-7.9942-7.9942.0024-4.4125 3.5937-7.999 7.9942-7.9942 2.8443.0 5.497 1.5323 6.924 3.9983.6991 1.2067 1.0702 2.5881 1.0702 3.9959C197.0839 342.7853 196.1861 344.7844 194.7376 346.2329z"/></defs><clipPath id="SVGID_14_"><use xlink:href="#SVGID_13_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_14_);fill:#fff" d="M190.0704 333.5691c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9547.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.6631-2.8588-6.1161.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0834 6.1218 2.8788C193.7885 334.2701 191.9774 333.5691 190.0704 333.5691z"/><path style="opacity:.13;clip-path:url(#SVGID_14_);fill:#020202" d="M190.0704 333.5691c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9547.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.6631-2.8588-6.1161.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0834 6.1218 2.8788C193.7885 334.2701 191.9774 333.5691 190.0704 333.5691z"/></g><g><defs><path id="SVGID_15_" d="M189.0898 318.7214c7.7763.0 15.0283 4.1826 18.926 10.915 1.9201 3.3136 2.9377 7.0988 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8612-12.0547.0024-21.8636-9.8065-21.8612-21.8612.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 321.173 183.0612 318.7214 189.0898 318.7214zM197.0839 340.5826c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 344.7844 197.0839 342.7853 197.0839 340.5826z"/></defs><clipPath id="SVGID_16_"><use xlink:href="#SVGID_15_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_16_);fill:#f1bc42" d="M172.6595 324.15c-3.96 3.96-6.4116 9.4235-6.4116 15.452-.0024 12.0547 9.8066 21.8636 21.8613 21.8612 12.0547.0024 21.8636-9.797 21.8613-21.8612.0024-3.8474-1.0151-7.6327-2.9353-10.9462-3.8977-6.7324-11.1497-10.9151-18.926-10.9151C182.0806 317.7407 176.6171 320.1924 172.6595 324.15z"/></g></g><rect x="198.8952" y="333.6497" style="fill:#f1bc42" width="122.6266" height="13.8671"/></g></g></svg></span><span class="text-uppercase font-weight-bold">Cybertraining</span></a><div class="td-navbar-nav-scroll ml-md-auto" id=main_navbar><ul class="navbar-nav mt-2 mt-lg-0"><li class="nav-item mr-4 mb-2 mb-lg-0"><a class=nav-link href=/about/><span>About</span></a></li><li class="nav-item mr-4 mb-2 mb-lg-0"><a class=nav-link href=/docs/><i class="fas fa-book"></i><span>Content</span></a></li><li class="nav-item mr-4 mb-2 mb-lg-0"><a class=nav-link href=https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/ target=_blank><i class="fab fa-github"></i><span>GitHub</span></a></li></ul></div><div class="navbar-nav d-none d-lg-block"></div></nav></header><div class="container-fluid td-outer"><div class=td-main><div class="row flex-xl-nowrap"><aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none"><script>$(function(){$("#td-section-nav a").removeClass("active");$("#td-section-nav #m-reportcloudmesh-openapidocsreadme").addClass("active");$("#td-section-nav #m-reportcloudmesh-openapidocsreadme-li span").addClass("td-sidebar-nav-active-item");$("#td-section-nav #m-reportcloudmesh-openapidocsreadme").parents("li").addClass("active-path");$("#td-section-nav li.active-path").addClass("show");$("#td-section-nav li.active-path").children("input").prop('checked',true);$("#td-section-nav #m-reportcloudmesh-openapidocsreadme-li").siblings("li").addClass("show");$("#td-section-nav #m-reportcloudmesh-openapidocsreadme-li").children("ul").children("li").addClass("show");$("#td-sidebar-menu").toggleClass("d-none");});</script><div id=td-sidebar-menu class="td-sidebar__inner d-none"><form class="td-sidebar__search d-flex align-items-center"><button class="btn btn-link td-sidebar__toggle d-md-none p-0 ml-3 fas fa-bars" type=button data-toggle=collapse data-target=#td-section-nav aria-controls=td-docs-nav aria-expanded=false aria-label="Toggle section navigation"></button></form><nav class="collapse td-sidebar-nav foldable-nav" id=td-section-nav><ul class="td-sidebar-nav__section pr-md-3 ul-0"><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id=m-report-li><a href=/report/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section tree-root" id=m-report><span>Reports</span></a><ul class=ul-1><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportsu21-reu-361tutorialspython-li><input type=checkbox id=m-reportsu21-reu-361tutorialspython-check>
+<label for=m-reportsu21-reu-361tutorialspython-check><a href=/report/su21-reu-361/tutorials/python/ title="Tutorial on Installing Python" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportsu21-reu-361tutorialspython><span>Install Python</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportsu21-reu-365project-li><input type=checkbox id=m-reportsu21-reu-365project-check>
+<label for=m-reportsu21-reu-365project-check><a href=/report/su21-reu-365/project/ title="Detection of Cyber Attacks on IoT Devices Using Deep Learning" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportsu21-reu-365project><span>Cyber Attacks Detection</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportsu21-reu-376project-li><input type=checkbox id=m-reportsu21-reu-376project-check>
+<label for=m-reportsu21-reu-376project-check><a href=/report/su21-reu-376/project/ title="Dentronics: Artifical intelligence in dentistry" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportsu21-reu-376project><span>dentronics</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportsu21-reu-361project-li><input type=checkbox id=m-reportsu21-reu-361project-check>
+<label for=m-reportsu21-reu-361project-check><a href=/report/su21-reu-361/project/ title="Analyzing Price Changes on the Electro-Optical System Blockchain" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportsu21-reu-361project><span>Electro-Optical System Blockchain</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reporthid-exampleproject-li><input type=checkbox id=m-reporthid-exampleproject-check>
+<label for=m-reporthid-exampleproject-check><a href=/report/hid-example/project/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reporthid-exampleproject><span>Example</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportsu21-reu-360project-li><input type=checkbox id=m-reportsu21-reu-360project-check>
+<label for=m-reportsu21-reu-360project-check><a href=/report/su21-reu-360/project/ title="Project: Classification of Hyperspectral Images" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportsu21-reu-360project><span>Example</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportsu21-reu-362project-li><input type=checkbox id=m-reportsu21-reu-362project-check>
+<label for=m-reportsu21-reu-362project-check><a href=/report/su21-reu-362/project/ title="AI in Healthcare" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportsu21-reu-362project><span>Example</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportsu21-reu-366project-li><input type=checkbox id=m-reportsu21-reu-366project-check>
+<label for=m-reportsu21-reu-366project-check><a href=/report/su21-reu-366/project/ title="Project: This is the Descriptive Title of the Example" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportsu21-reu-366project><span>Example</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportsu21-reu-367project-li><input type=checkbox id=m-reportsu21-reu-367project-check>
+<label for=m-reportsu21-reu-367project-check><a href=/report/su21-reu-367/project/ title="Project: This is the Descriptive Title of the Example" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportsu21-reu-367project><span>Example</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportsu21-reu-368project-li><input type=checkbox id=m-reportsu21-reu-368project-check>
+<label for=m-reportsu21-reu-368project-check><a href=/report/su21-reu-368/project/ title="Project: This is the Descriptive Title of the Example" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportsu21-reu-368project><span>Example</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportsu21-reu-369project-li><input type=checkbox id=m-reportsu21-reu-369project-check>
+<label for=m-reportsu21-reu-369project-check><a href=/report/su21-reu-369/project/ title="Increasing Cervical Cancer Risk Analysis" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportsu21-reu-369project><span>Example</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportsu21-reu-370project-li><input type=checkbox id=m-reportsu21-reu-370project-check>
+<label for=m-reportsu21-reu-370project-check><a href=/report/su21-reu-370/project/ title="Project: Marine aninmal population analysis using AI" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportsu21-reu-370project><span>Example</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportsu21-reu-371project-li><input type=checkbox id=m-reportsu21-reu-371project-check>
+<label for=m-reportsu21-reu-371project-check><a href=/report/su21-reu-371/project/ title="Project: This is the Descriptive Title of the Example" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportsu21-reu-371project><span>Example</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportsu21-reu-372project-li><input type=checkbox id=m-reportsu21-reu-372project-check>
+<label for=m-reportsu21-reu-372project-check><a href=/report/su21-reu-372/project/ title="Project: Analysing Images" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportsu21-reu-372project><span>Example</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportsu21-reu-373project-li><input type=checkbox id=m-reportsu21-reu-373project-check>
+<label for=m-reportsu21-reu-373project-check><a href=/report/su21-reu-373/project/ title="Project: This is the Descriptive Title of the Example" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportsu21-reu-373project><span>Example</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportsu21-reu-375project-li><input type=checkbox id=m-reportsu21-reu-375project-check>
+<label for=m-reportsu21-reu-375project-check><a href=/report/su21-reu-375/project/ title="Project: This is the Descriptive Title of the Example" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportsu21-reu-375project><span>Example</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportsu21-reu-377project-li><input type=checkbox id=m-reportsu21-reu-377project-check>
+<label for=m-reportsu21-reu-377project-check><a href=/report/su21-reu-377/project/ title="Project: This is the Descriptive Title of the Example" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportsu21-reu-377project><span>Example</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportsu21-reu-378project-li><input type=checkbox id=m-reportsu21-reu-378project-check>
+<label for=m-reportsu21-reu-378project-check><a href=/report/su21-reu-378/project/ title="Project: This is the Descriptive Title of the Example" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportsu21-reu-378project><span>Example</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportsu21-reu-361tutorialsvisual-studio-code-li><input type=checkbox id=m-reportsu21-reu-361tutorialsvisual-studio-code-check>
+<label for=m-reportsu21-reu-361tutorialsvisual-studio-code-check><a href=/report/su21-reu-361/tutorials/visual-studio-code/ title="Tutorial on Installing Visual Studio Code" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportsu21-reu-361tutorialsvisual-studio-code><span>Install VSCode</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportsu21-reu-364project-li><input type=checkbox id=m-reportsu21-reu-364project-check>
+<label for=m-reportsu21-reu-364project-check><a href=/report/su21-reu-364/project/ title="Project: Object Recognition" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportsu21-reu-364project><span>Object Recognition</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportsu21-reu-363project-li><input type=checkbox id=m-reportsu21-reu-363project-check>
+<label for=m-reportsu21-reu-363project-check><a href=/report/su21-reu-363/project/ title="Project: AI in Orthodontics" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportsu21-reu-363project><span>Orthodontics</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportsu21-reu-374project-li><input type=checkbox id=m-reportsu21-reu-374project-check>
+<label for=m-reportsu21-reu-374project-check><a href=/report/su21-reu-374/project/ title="AI Time Series Analysis" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportsu21-reu-374project><span>TIme Series</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportfa20-523-312projectproject-li><input type=checkbox id=m-reportfa20-523-312projectproject-check>
+<label for=m-reportfa20-523-312projectproject-check><a href=/report/fa20-523-312/project/project/ title="Aquatic Toxicity Analysis with the aid of Autonomous Surface Vehicle (ASV)" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportfa20-523-312projectproject><span>ASV</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportfa20-523-328reportreport-li><input type=checkbox id=m-reportfa20-523-328reportreport-check>
+<label for=m-reportfa20-523-328reportreport-check><a href=/report/fa20-523-328/report/report/ title="How Big Data has Affected Statistics in Baseball" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportfa20-523-328reportreport><span>Baseball</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportfa20-523-343reportreport-li><input type=checkbox id=m-reportfa20-523-343reportreport-check>
+<label for=m-reportfa20-523-343reportreport-check><a href=/report/fa20-523-343/report/report/ title="Predictive Model For Pitches Thrown By Major League Baseball Pitchers" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportfa20-523-343reportreport><span>Baseball</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportfa20-523-317reportreport-li><input type=checkbox id=m-reportfa20-523-317reportreport-check>
+<label for=m-reportfa20-523-317reportreport-check><a href=/report/fa20-523-317/report/report/ title="Big Data Analytics in the National Basketball Association" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportfa20-523-317reportreport><span>Basketball</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportfa20-523-329reportreport-li><input type=checkbox id=m-reportfa20-523-329reportreport-check>
+<label for=m-reportfa20-523-329reportreport-check><a href=/report/fa20-523-329/report/report/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportfa20-523-329reportreport><span>Big Data in E-Commerce</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportfa20-523-330projectproject-li><input type=checkbox id=m-reportfa20-523-330projectproject-check>
+<label for=m-reportfa20-523-330projectproject-check><a href=/report/fa20-523-330/project/project/ title="Big Data Analytics in Brazilian E-Commerce" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportfa20-523-330projectproject><span>Brazilian E-Commerce</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportfa20-523-349projectproject-li><input type=checkbox id=m-reportfa20-523-349projectproject-check>
+<label for=m-reportfa20-523-349projectproject-check><a href=/report/fa20-523-349/project/project/ title="Rank Forecasting in Car Racing" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportfa20-523-349projectproject><span>Car Racing</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportfa20-523-334reportreport-li><input type=checkbox id=m-reportfa20-523-334reportreport-check>
+<label for=m-reportfa20-523-334reportreport-check><a href=/report/fa20-523-334/report/report/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportfa20-523-334reportreport><span>Change of Internet Capabilities Throughout the World</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportsp21-599-355project-li><input type=checkbox id=m-reportsp21-599-355project-check>
+<label for=m-reportsp21-599-355project-check><a href=/report/sp21-599-355/project/ title="Project: Chat Bots in Customer Service" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportsp21-599-355project><span>Chat Bot</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportfa20-523-342projectproject-li><input type=checkbox id=m-reportfa20-523-342projectproject-check>
+<label for=m-reportfa20-523-342projectproject-check><a href=/report/fa20-523-342/project/project/ title="COVID-19 Analysis" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportfa20-523-342projectproject><span>COVID-19</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportfa20-523-332projectproject-li><input type=checkbox id=m-reportfa20-523-332projectproject-check>
+<label for=m-reportfa20-523-332projectproject-check><a href=/report/fa20-523-332/project/project/ title="Analyzing the Relationship of Cryptocurrencies with Foriegn Exchange Rates and Global Stock Market Indices" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportfa20-523-332projectproject><span>Cryptocurrencies</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportsp21-599-359project-li><input type=checkbox id=m-reportsp21-599-359project-check>
+<label for=m-reportsp21-599-359project-check><a href=/report/sp21-599-359/project/ title="Project: Deep Learning in Drug Discovery" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportsp21-599-359project><span>Drug Discovery</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportfa20-523-339projectproject-li><input type=checkbox id=m-reportfa20-523-339projectproject-check>
+<label for=m-reportfa20-523-339projectproject-check><a href=/report/fa20-523-339/project/project/ title="Big Data Application in E-commerce" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportfa20-523-339projectproject><span>E-commerce</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportfa20-523-314projectproject-li><input type=checkbox id=m-reportfa20-523-314projectproject-check>
+<label for=m-reportfa20-523-314projectproject-check><a href=/report/fa20-523-314/project/project/ title="Residential Power Usage Prediction" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportfa20-523-314projectproject><span>Energy consumption</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportfa20-523-340reportreport-li><input type=checkbox id=m-reportfa20-523-340reportreport-check>
+<label for=m-reportfa20-523-340reportreport-check><a href=/report/fa20-523-340/report/report/ title="Big Data Applications in the Gaming Industry" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportfa20-523-340reportreport><span>Gaming</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportsp21-599-356project-li><input type=checkbox id=m-reportsp21-599-356project-check>
+<label for=m-reportsp21-599-356project-check><a href=/report/sp21-599-356/project/ title="Project: Forecasting Natural Gas Demand/Supply" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportsp21-599-356project><span>Gas Demand/Supply</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportfa20-523-315reportreport-li><input type=checkbox id=m-reportfa20-523-315reportreport-check>
+<label for=m-reportfa20-523-315reportreport-check><a href=/report/fa20-523-315/report/report/ title="Big Data on Gesture Recognition and Machine Learning" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportfa20-523-315reportreport><span>Gesture Recognitio</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportfa20-523-352reportreport-li><input type=checkbox id=m-reportfa20-523-352reportreport-check>
+<label for=m-reportfa20-523-352reportreport-check><a href=/report/fa20-523-352/report/report/ title="Big Data in the Healthcare Industry" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportfa20-523-352reportreport><span>Healthcare</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportfa20-523-309projectproject-li><input type=checkbox id=m-reportfa20-523-309projectproject-check>
+<label for=m-reportfa20-523-309projectproject-check><a href=/report/fa20-523-309/project/project/ title="Analysis of Various Machine Learning Classification Techniques in Detecting Heart Disease" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportfa20-523-309projectproject><span>Heart Desease</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportfa20-523-323projectproject-li><input type=checkbox id=m-reportfa20-523-323projectproject-check>
+<label for=m-reportfa20-523-323projectproject-check><a href=/report/fa20-523-323/project/project/ title="Predicting Hotel Reservation Cancellation Rates" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportfa20-523-323projectproject><span>Hotel reservations</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportfa20-523-326projectproject-li><input type=checkbox id=m-reportfa20-523-326projectproject-check>
+<label for=m-reportfa20-523-326projectproject-check><a href=/report/fa20-523-326/project/project/ title="Analysis of Future of Buffalo Breeds and Milk Production Growth in India" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportfa20-523-326projectproject><span>Milk Production</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportfa20-523-341projectproject-li><input type=checkbox id=m-reportfa20-523-341projectproject-check>
+<label for=m-reportfa20-523-341projectproject-check><a href=/report/fa20-523-341/project/project/ title="Music Mood Classification" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportfa20-523-341projectproject><span>Music Classification</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportfa20-523-333projectproject-li><input type=checkbox id=m-reportfa20-523-333projectproject-check>
+<label for=m-reportfa20-523-333projectproject-check><a href=/report/fa20-523-333/project/project/ title="Does Modern Day Music Lack Uniqueness Compared to Music before the 21st Century" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportfa20-523-333projectproject><span>Music uniquness</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportfa20-523-301projectproject-li><input type=checkbox id=m-reportfa20-523-301projectproject-check>
+<label for=m-reportfa20-523-301projectproject-check><a href=/report/fa20-523-301/project/project/ title="NBA Performance and Injury" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportfa20-523-301projectproject><span>NBA</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportfa20-523-308projectproject-li><input type=checkbox id=m-reportfa20-523-308projectproject-check>
+<label for=m-reportfa20-523-308projectproject-check><a href=/report/fa20-523-308/project/project/ title="NFL Regular Season Skilled Position Player Performance as a Predictor of Playoff Appearance Overtime" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportfa20-523-308projectproject><span>NFL</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportsp21-599-358project-li><input type=checkbox id=m-reportsp21-599-358project-check>
+<label for=m-reportsp21-599-358project-check><a href=/report/sp21-599-358/project/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportsp21-599-358project><span>Project: Training A Vehicle Using Camera Feed from Vehicle Simulation</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportsp21-599-357project-li><input type=checkbox id=m-reportsp21-599-357project-check>
+<label for=m-reportsp21-599-357project-check><a href=/report/sp21-599-357/project/ title="Project: Structural Protein Sequences Classification" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportsp21-599-357project><span>Protein Sequencing</span></a></label></li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-reportfa20-523-304reportreport-li><input type=checkbox id=m-reportfa20-523-304reportreport-check>
+<label for=m-reportfa20-523-304reportreport-check><a href=/report/fa20-523-304/report/report/ title="How Big Data Can Eliminate Racial Bias and Structural Discrimination" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-reportfa20-523-304reportreport><span>Racial bias</span></a></label></li></ul></li></ul></nav></div></aside><aside class="d-none d-xl-block col-xl-2 td-sidebar-toc d-print-none"><div class="td-page-meta ml-2 pb-1 pt-2 mb-0"><a href=https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/edit/main/content/en/report/cloudmesh-openapi/docs/README.rst target=_blank><i class="fa fa-edit fa-fw"></i>Edit this page</a>
+<a href="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/new/main/content/en/report/cloudmesh-openapi/docs/README.rst?filename=change-me.md&value=---%0Atitle%3A+%22Long+Page+Title%22%0AlinkTitle%3A+%22Short+Nav+Title%22%0Aweight%3A+100%0Adescription%3A+%3E-%0A+++++Page+description+for+heading+and+indexes.%0A---%0A%0A%23%23+Heading%0A%0AEdit+this+template+to+create+your+new+page.%0A%0A%2A+Give+it+a+good+name%2C+ending+in+%60.md%60+-+e.g.+%60getting-started.md%60%0A%2A+Edit+the+%22front+matter%22+section+at+the+top+of+the+page+%28weight+controls+how+its+ordered+amongst+other+pages+in+the+same+directory%3B+lowest+number+first%29.%0A%2A+Add+a+good+commit+message+at+the+bottom+of+the+page+%28%3C80+characters%3B+use+the+extended+description+field+for+more+detail%29.%0A%2A+Create+a+new+branch+so+you+can+preview+your+new+file+and+request+a+review+via+Pull+Request.%0A" target=_blank><i class="fa fa-edit fa-fw"></i>Create child page</a>
+<a href="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/issues/new?title=" target=_blank><i class="fab fa-github fa-fw"></i>Create documentation issue</a>
+<a href=https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/issues/new target=_blank><i class="fas fa-tasks fa-fw"></i>Create project issue</a>
+<a id=print href=/report/_print/><i class="fa fa-print fa-fw"></i>Print entire section</a></div><div class="taxonomy taxonomy-terms-cloud taxo-tags"><h5 class=taxonomy-title>Tag Cloud</h5><ul class=taxonomy-terms><li><a class=taxonomy-term href=/tags/report/ data-taxonomy-term=report><span class=taxonomy-label>report</span><span class=taxonomy-count>4</span></a></li><li><a class=taxonomy-term href=/tags/ai/ data-taxonomy-term=ai><span class=taxonomy-label>ai</span><span class=taxonomy-count>60</span></a></li><li><a class=taxonomy-term href=/tags/application/ data-taxonomy-term=application><span class=taxonomy-label>application</span><span class=taxonomy-count>14</span></a></li><li><a class=taxonomy-term href=/tags/assignment/ data-taxonomy-term=assignment><span class=taxonomy-label>assignment</span><span class=taxonomy-count>8</span></a></li><li><a class=taxonomy-term href=/tags/biology/ data-taxonomy-term=biology><span class=taxonomy-label>biology</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/blockchain/ data-taxonomy-term=blockchain><span class=taxonomy-label>blockchain</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/cloud/ data-taxonomy-term=cloud><span class=taxonomy-label>cloud</span><span class=taxonomy-count>4</span></a></li><li><a class=taxonomy-term href=/tags/cloudmesh/ data-taxonomy-term=cloudmesh><span class=taxonomy-label>cloudmesh</span><span class=taxonomy-count>2</span></a></li><li><a class=taxonomy-term href=/tags/collab/ data-taxonomy-term=collab><span class=taxonomy-label>collab</span><span class=taxonomy-count>10</span></a></li><li><a class=taxonomy-term href=/tags/comerce/ data-taxonomy-term=comerce><span class=taxonomy-label>comerce</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/commerce/ data-taxonomy-term=commerce><span class=taxonomy-label>commerce</span><span class=taxonomy-count>2</span></a></li><li><a class=taxonomy-term href=/tags/computer-vision/ data-taxonomy-term=computer-vision><span class=taxonomy-label>computer vision</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/contrib/ data-taxonomy-term=contrib><span class=taxonomy-label>contrib</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/cryptocurrency/ data-taxonomy-term=cryptocurrency><span class=taxonomy-label>cryptocurrency</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/cyberattacks/ data-taxonomy-term=cyberattacks><span class=taxonomy-label>cyberattacks</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/cybersecurity/ data-taxonomy-term=cybersecurity><span class=taxonomy-label>cybersecurity</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/data-science/ data-taxonomy-term=data-science><span class=taxonomy-label>data science</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/dentistry/ data-taxonomy-term=dentistry><span class=taxonomy-label>dentistry</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/devops/ data-taxonomy-term=devops><span class=taxonomy-label>devops</span><span class=taxonomy-count>7</span></a></li><li><a class=taxonomy-term href=/tags/dl/ data-taxonomy-term=dl><span class=taxonomy-label>dl</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/download/ data-taxonomy-term=download><span class=taxonomy-label>download</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/energy/ data-taxonomy-term=energy><span class=taxonomy-label>energy</span><span class=taxonomy-count>3</span></a></li><li><a class=taxonomy-term href=/tags/environment/ data-taxonomy-term=environment><span class=taxonomy-label>environment</span><span class=taxonomy-count>3</span></a></li><li><a class=taxonomy-term href=/tags/faq/ data-taxonomy-term=faq><span class=taxonomy-label>FAQ</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/figure/ data-taxonomy-term=figure><span class=taxonomy-label>figure</span><span class=taxonomy-count>2</span></a></li><li><a class=taxonomy-term href=/tags/finance/ data-taxonomy-term=finance><span class=taxonomy-label>finance</span><span class=taxonomy-count>12</span></a></li><li><a class=taxonomy-term href=/tags/git/ data-taxonomy-term=git><span class=taxonomy-label>git</span><span class=taxonomy-count>4</span></a></li><li><a class=taxonomy-term href=/tags/graph/ data-taxonomy-term=graph><span class=taxonomy-label>graph</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/health/ data-taxonomy-term=health><span class=taxonomy-label>health</span><span class=taxonomy-count>10</span></a></li><li><a class=taxonomy-term href=/tags/image-processing/ data-taxonomy-term=image-processing><span class=taxonomy-label>image processing</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/investing/ data-taxonomy-term=investing><span class=taxonomy-label>investing</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/iot/ data-taxonomy-term=iot><span class=taxonomy-label>IoT</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/jupyter/ data-taxonomy-term=jupyter><span class=taxonomy-label>jupyter</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/kmeans/ data-taxonomy-term=kmeans><span class=taxonomy-label>kmeans</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/lifestle/ data-taxonomy-term=lifestle><span class=taxonomy-label>lifestle</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/lifestyle/ data-taxonomy-term=lifestyle><span class=taxonomy-label>lifestyle</span><span class=taxonomy-count>3</span></a></li><li><a class=taxonomy-term href=/tags/mermaid/ data-taxonomy-term=mermaid><span class=taxonomy-label>mermaid</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/ml/ data-taxonomy-term=ml><span class=taxonomy-label>ml</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/mnist/ data-taxonomy-term=mnist><span class=taxonomy-label>mnist</span><span class=taxonomy-count>10</span></a></li><li><a class=taxonomy-term href=/tags/mobility/ data-taxonomy-term=mobility><span class=taxonomy-label>mobility</span><span class=taxonomy-count>2</span></a></li><li><a class=taxonomy-term href=/tags/module/ data-taxonomy-term=module><span class=taxonomy-label>module</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/nlp/ data-taxonomy-term=nlp><span class=taxonomy-label>nlp</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/notebook/ data-taxonomy-term=notebook><span class=taxonomy-label>notebook</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/nvidia/ data-taxonomy-term=nvidia><span class=taxonomy-label>nvidia</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/object-recognition/ data-taxonomy-term=object-recognition><span class=taxonomy-label>object recognition</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/orthodontics/ data-taxonomy-term=orthodontics><span class=taxonomy-label>orthodontics</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/physics/ data-taxonomy-term=physics><span class=taxonomy-label>physics</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/plotviz/ data-taxonomy-term=plotviz><span class=taxonomy-label>plotviz</span><span class=taxonomy-count>2</span></a></li><li><a class=taxonomy-term href=/tags/project/ data-taxonomy-term=project><span class=taxonomy-label>project</span><span class=taxonomy-count>53</span></a></li><li><a class=taxonomy-term href=/tags/python/ data-taxonomy-term=python><span class=taxonomy-label>python</span><span class=taxonomy-count>34</span></a></li><li><a class=taxonomy-term href=/tags/radar/ data-taxonomy-term=radar><span class=taxonomy-label>radar</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/report/ data-taxonomy-term=report><span class=taxonomy-label>report</span><span class=taxonomy-count>11</span></a></li><li><a class=taxonomy-term href=/tags/rest/ data-taxonomy-term=rest><span class=taxonomy-label>rest</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/reu/ data-taxonomy-term=reu><span class=taxonomy-label>reu</span><span class=taxonomy-count>22</span></a></li><li><a class=taxonomy-term href=/tags/sensor/ data-taxonomy-term=sensor><span class=taxonomy-label>sensor</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/space/ data-taxonomy-term=space><span class=taxonomy-label>space</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/sport/ data-taxonomy-term=sport><span class=taxonomy-label>sport</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/sports/ data-taxonomy-term=sports><span class=taxonomy-label>sports</span><span class=taxonomy-count>7</span></a></li><li><a class=taxonomy-term href=/tags/statistics/ data-taxonomy-term=statistics><span class=taxonomy-label>statistics</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/transportation/ data-taxonomy-term=transportation><span class=taxonomy-label>transportation</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/tutorial/ data-taxonomy-term=tutorial><span class=taxonomy-label>tutorial</span><span class=taxonomy-count>2</span></a></li><li><a class=taxonomy-term href=/tags/usecases/ data-taxonomy-term=usecases><span class=taxonomy-label>usecases</span><span class=taxonomy-count>1</span></a></li><li><a class=taxonomy-term href=/tags/web/ data-taxonomy-term=web><span class=taxonomy-label>web</span><span class=taxonomy-count>1</span></a></li></ul></div><div class="taxonomy taxonomy-terms-cloud taxo-categories"><h5 class=taxonomy-title>Cloud of Categories</h5><ul class=taxonomy-terms><li><a class=taxonomy-term href=/categories/sample/ data-taxonomy-term=sample><span class=taxonomy-label>sample</span><span class=taxonomy-count>4</span></a></li></ul></div></aside><main class="col-12 col-md-9 col-xl-8 pl-md-5" role=main><nav aria-label=breadcrumb class="d-none d-md-block d-print-none"><ol class="breadcrumb spb-1"><li class=breadcrumb-item><a href=/report/>Reports</a></li><li class="breadcrumb-item active" aria-current=page><a href=/report/cloudmesh-openapi/docs/readme/></a></li></ol></nav><div class=td-content><h1></h1><header class=article-meta><p class=reading-time><i class="fa fa-clock" aria-hidden=true></i>15 minute read</p></header>Cloudmesh OpenAPI Service Generator
+===================================
+**Note:** The README.md page is outomatically generated, do not edit
+it. To modify change the content in
+https://github.com/cloudmesh/cloudmesh-openapi/blob/main/README-source.md
+Curley brackets must use two in README-source.md
+|image| |Python| |License| |Format| |Status| |Travis|
+Prerequisites
+-------------
+- We use recommend Python 3.8.2 Python or newer.
+- We recommend pip version 20.0.2 or newer
+- We recommend that you use a venv (see developer install)
+- MongoDB installed as regular program not as service
+- Please run cim init command to start mongodb server
+We have not checked if it works on older versions.
+Installation
+------------
+Make sure that ``cloudmesh`` is properly installed on your machine and
+you have mongodb setup to work with cloudmesh.
+More details to setting up ``mongo`` can be found in the
+- `Cloudmesh
+Manual <https://cloudmesh.github.io/cloudmesh-manual/installation/install.html>`__
+User Installation
+~~~~~~~~~~~~~~~~~
+Make sure you use a python venv before installing. Users can install the
+code with
+.. code:: bash
+python -m venv ~/ENV3
+source ~/ENV3/bin/activate # on windows ENV3\Scripts\activate
+mkdir cm
+cd cm
+pip installl cloudmesh-installer get openapi
+cms help
+cms gui quick
+# fill out mongo variables
+# make sure autinstall is True
+cms admin mongo install --force
+.. code:: bash
+$ pip install cloudmesh-openapi
+Developer Installation
+~~~~~~~~~~~~~~~~~~~~~~
+Developers install also the source code
+.. code:: bash
+python -m venv ~/ENV3
+source ~/ENV3/bin/activate # on windows ENV3\Scripts\activate
+mkdir cm
+cd cm
+pip install cloudmesh-installer
+cloudmesh-installer get openapi
+cms help
+cms gui quick
+# fill out mongo variables
+# make sure autinstall is True
+cms admin mongo install --force
+Overview
+--------
+When getting started using the ``openapi``, please first call:
+::
+cms help openapi
+This will show the available functions and options. For your convenience
+we include the manual page later on in this document.
+Quick steps to generate,start and stop CPU sample example
+---------------------------------------------------------
+Navigate to ~/cm/cloudmesh-openapi folder and run following commands
+Generate yaml file
+~~~~~~~~~~~~~~~~~~
+::
+cms openapi generate get_processor_name --filename=./tests/server-cpu/cpu.py
+Start server
+~~~~~~~~~~~~
+::
+cms openapi server start ./tests/server-cpu/cpu.yaml
+Issue a Request
+~~~~~~~~~~~~~~~
+::
+curl -X GET "http://localhost:8080/cloudmesh/get_processor_name" -H "accept: text/plain"
+Stop server
+~~~~~~~~~~~
+::
+cms openapi server stop cpu
+End-to-end walkthrough
+----------------------
+Writing Python
+~~~~~~~~~~~~~~
+Cloudmesh uses introspection to generate an OpenAPI compliant YAML
+specification that will allow your Python code to run as a web service.
+For this reason, any code you write must conform to a set of guidelines.
+- The parameters and return values of any functions you write must use
+typing
+- Your functions must include docstrings
+- If a function uses or returns a class, that class must be defined as
+a dataclass in the same file
+The following function is a great example to get started. Note how x, y,
+and the return value are all typed. In this case they are all ``float``,
+but other types are supported. The description in the docstring will be
+added to your YAML specification to help describe what the function
+does.
+.. code:: python
+def add(x: float, y: float) -> float:
+"""
+adding float and float.
+:param x: x value
+:type x: float
+:param y: y value
+:type y: float
+:return: result
+:return type: float
+"""
+return x + y
+Generating OpenAPI specification
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Once you have a Python function you would like to deploy as a web
+service, you can generate the OpenAPI specification. Navigate to your
+.py file’s directory and generate the YAML. This will print information
+to your console about the YAML file that was generated.
+::
+$ cms openapi generate [function_name] --filename=[filename.py]
+If you would like to include more than one function in your web service,
+like addition and subtraction, use the ``--all_functions`` flag. This
+will ignore functions whose names start with ‘\_’.
+.. code:: bash
+$ cms openapi generate --filename=[filename.py] --all_functions
+You can even write a class like Calculator that contains functions for
+addition, subtraction, etc. You can generate a specification for an
+entire class by using the ``--import_class`` flag.
+.. code:: bash
+$ cms openapi generate [ClassName] --filename=[filename.py] --import_class
+Starting a server
+~~~~~~~~~~~~~~~~~
+Once you have generated a specification, you can start the web service
+on your localhost by providing the path to the YAML file. This will
+print information to your console about the server
+::
+$ cms openapi server start ./[filename.yaml]
+Starting: [server name]
+PID: [PID]
+Spec: ./[filename.py]
+URL: http://localhost:8080/cloudmesh
+Cloudmesh UI: http://localhost:8080/cloudmesh/ui
+Sending requests to the server
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Now you have two options to interact with the web service. The first is
+to navigate the the Cloudmesh UI and click on each endpoint to test the
+functionality. The second is to use curl commands to submit requests.
+::
+$ curl -X GET "http://localhost:8080/cloudmesh/add?x=1.2&y=1.5" -H "accept: text/plain"
+   2.7
+Stopping the server
+~~~~~~~~~~~~~~~~~~~
+Now you can stop the server using the name of the server. If you forgot
+the name, use ``cms openapi server ps`` to get a list of server
+processes.
+::
+$ cms openapi stop [server name]
+Manual
+------
+.. code:: bash
+Pytests
+-------
+Please follow `Pytest Information <tests/readme.md>`__ document for
+pytests related information
+Examples
+--------
+One function in python file
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Please check `Python file <tests/server-cpu/cpu.py>`__.
+2. Run below command to generate yaml file and start server
+::
+cms openapi generate get_processor_name --filename=./tests/server-cpu/cpu.py
+Multiple functions in python file
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Please check `Python
+file <tests/generator-calculator/calculator.py>`__
+2. Run below command to generate yaml file and start server
+::
+cms openapi generate --filename=./tests/generator-calculator/calculator.py --all_functions
+::
+cms openapi generate server start ./tests/generator-calculator/calculator.py
+Function(s) in python class file
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Please check `Python
+file <tests/generator-testclass/calculator.py>`__
+2. Run below command to generate yaml file and start server
+::
+cms openapi generate --filename=./tests/generator-testclass/calculator.py --import_class"
+::
+cms openapi generate server start ./tests/generator-testclass/calculator.py
+Uploading data
+~~~~~~~~~~~~~~
+Code to handle uploads is located in
+cloudmesh-openapi/tests/generator-upload. The code snippet in
+uploadexample.py and the specification in uploadexample.yaml can be
+added to existing projects by adding the ``--enable_upload`` flag to the
+``cms openapi generate`` command. The web service will be able to
+retrieve the uploaded file from ~/.cloudmesh/upload-file/.
+Upload example
+^^^^^^^^^^^^^^
+This example shows how to upload a CSV file and how the web service can
+retrieve it.
+First, generate the OpenAPI specification and start the server
+::
+cms openapi generate print_csv2np --filename=./tests/generator-upload/csv_reader.py --enable_upload
+cms openapi server start ./tests/generator-upload/csv_reader.yaml
+Next, navigate to localhost:8080/cloudmesh/ui. Click to open the /upload
+endpoint, then click ‘Try it out.’ Click to choose a file to upload,
+then upload ``tests/generator-upload/np_test.csv``. Click ‘Execute’ to
+complete the upload.
+The uploaded file will be located at
+``~/.cloudmesh/upload-file/[filename]``.
+``tests/generator-upload/csv_reader.py`` contains some example code to
+retrieve the array in the uploaded file. To see this in action, click to
+open the /print_csv2np endpoint, then click ‘Try it out.’ Enter
+“np_test.csv” in the field that prompts for a filename, and then click
+Execute to view the numpy array defined by the CSV file.
+Downloading data
+~~~~~~~~~~~~~~~~
+Always the same
+abc.txt <- /data/xyz/klmn.txt
+Merge openapi’s
+~~~~~~~~~~~~~~~
+::
+merge [APIS...] - > single.yaml
+Running AI Services in the Cloud using OpenApi
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Google
+^^^^^^
+After you create your google cloud account, it is recommended to
+download and install Google’s `Cloud
+SDK <https://cloud.google.com/sdk/docs/quickstarts>`__. This will enable
+CLI. Make sure you enable all the required services.
+For example:
+::
+gcloud services enable servicemanagement.googleapis.com
+::
+gcloud services enable endpoints.googleapis.com
+and any other services you might be using for your specific Cloud API
+function.
+To begin using the tests for any of the Google Cloud Platform AI
+services you must first set up a Google account (set up a free tier
+account): `Google Account
+Setup <https://cloud.google.com/billing/docs/how-to/manage-billing-account>`__
+After you create your google cloud account, it is recommended to
+download and install Google’s `Cloud
+SDK <https://cloud.google.com/sdk/docs/quickstarts>`__. This will enable
+CLI. Make sure you enable all the required services.
+For example:
+::
+gcloud services enable servicemanagement.googleapis.com
+::
+gcloud services enable servicecontrol.googleapis.com
+::
+gcloud services enable endpoints.googleapis.com
+and any other services you might be using for your specific Cloud API
+function.
+It is also required to install the cloudmesh-cloud package, if not
+already installed:
+.. code:: bash
+cloudmesh-installer get cloud
+cloudmesh-installer install cloud
+This will allow you automatically fill out the cloudmesh yaml file with
+your credentials once you generate the servcie account JSON file.
+After you have verified your account is created you must then give your
+account access to the proper APIs and create a project in the Google
+Cloud Platform(GCP) console.
+1. Go to the `project
+selector <console.cloud.google.com/projectselector2/home>`__
+2. Follow directions from Google to create a project linked to your
+account
+Quickstart Google Python API
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+::
+pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+- For quickstart in using Google API for Python visit
+`here <https://developers.google.com/docs/api/quickstart/python>`__
+Setting up your Google account
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Before you generate the service account JSON file for your account you
+will want to enable a number of services in the GCP console.
+- Google Compute
+- Billing
+- Cloud Natural Language API
+- Translate API
+1. To do this you will need to click the menu icon in the Dashboard
+navigation bar. Ensure you are in the correct porject.
+2. Once that menu is open hover over the “APIs and Services” menu item
+and click on “Dashboard” in the submenu.
+3. At the dashboard click on the “+ Enable APIs and Services” button at
+the top of the dashboard
+4. Search for **cloud natural language** to find the API in the search
+results and click the result
+5. Once the page opens click “Enable”
+6. Do the same for the **translate** API to enable that as well
+7. Do the same for the **compute engine API** to enable that as well
+You must now properly set up the account roles to ensure you will have
+access to the API. Follow the directions from Google to `set up proper
+authentication <https://cloud.google.com/natural-language/docs/setup#auth>`__
+Make you account an owner for each of the APIs in the IAM tool as
+directed in the authentication steps for the natural language API. This
+makes your service account have proper access to the required APIs and
+once the private key is downloaded those will be stored there.
+It is VERY important that you create a service account and download the
+private key as described in the directions from Google. If you do not
+the cms google commands will not work properly.
+Once you have properly set up your permissions please make sure you
+download your JSON private key for the service account that has
+permissions set up for the required API services. These steps to
+download are found
+`here <https://cloud.google.com/natural-language/docs/setup#sa-create>`__.
+Please take note of where you store the downloaded JSON and copy the
+path string to a easily accessible location.
+The client libraries for each API are included in teh requirements.txt
+file for the openapi proejct and should be isntalled when the package is
+installed. If not, follow directions outlined by google install each
+package:
+::
+google-cloud-translate
+google-cloud-language
+To pass the information from your service account private key file ot
+the cloudmesh yaml file run the following command:
+.. code:: bash
+cms register update --kind=google --service=compute --filename=<<google json file>>
+Running the Google Natural Language and Translate REST Services
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+1. Navigate to the ``~/.cloudmesh`` repo and create a cache directory
+for your text examples you would like to analyze.
+.. code:: bash
+mkdir text-cache
+2. Add any plain text files your would like to analyze to this directory
+with a name that has no special characters or spaces. You can copy
+the files at this location,
+``./cloudmesh-openapi/tests/textanaysis-example-text/reviews/`` into
+the text-cache if you want to use provided examples.
+3. Navigate to the ``./cloudmesh-openapi`` directory on your machine
+4. Utilize the generate command to create the OpenAPI spec
+.. code:: bash
+cms openapi generate TextAnalysis --filename=./tests/generator-natural-lang/natural-lang-analysis.py --all_functions
+5. Start the server after the yaml file is generated ot the same
+directory as the .py file
+.. code:: bash
+cms openapie start server ./tests/generator-natural-lang/natural-lang-analysis.yaml
+6. Run a curl command against the newly running server to verify it
+returns a result as expected.
+- Sample text file name is only meant to be the name of the file not
+the full path.
+.. code:: bash
+curl -X GET "http://127.0.0.1:8080/cloudmesh/analyze?filename=<<sample text file name>>&cloud=google"
+
+   -  This is currently only ready to translate a single word through
+the API.
+.. code:: bash
+curl -X GET "http://127.0.0.1:8080/cloudmesh/translate_text?cloud=google&text=<<word to translate>>&lang=<<lang code>>"
+7. Stop the server
+.. code:: bash
+cms openapi server stop natural-lang-analysis
+AWS
+^^^
+Sign up for AWS
+- Go to https://portal.aws.amazon.com/billing/signup
+- Follow online instructions
+Create an IAM User
+- For instructions, see
+`here <https://docs.aws.amazon.com/iam/latest/userguide/getting-started_create-admin-group.html>`__
+Set up AWS CLI and AWS SDKs
+- To download and instructions to install AWS CLI, see
+`here <https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install>`__
+Install Boto 3
+.. code:: bash
+pip install boto3
+- For quickstart, vist
+`here <https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html>`__
+As long as you enable all the services you need for using AWS AI APIs
+you should be able to write your functions for OpenAPI
+Azure
+^^^^^
+Setting up Azure Sentiment Analysis and Translation Services
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+1. Create an Azure subscription. If you don’t have one, create a `free
+account <https://azure.microsoft.com/try/cognitive-services>`__
+2. Create a `Text Analysis
+resource <https://portal.azure.com/#create/microsoft.cognitiveservicestextanalytics>`__
+- This link will require you to be logged in to the Azure portal
+3. Create a `Translation
+Resource <https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-apis-create-account?tabs=multiservice%2cwindows>`__
+4. The microsoft packages are included in the openapi package
+requirements file so they should be installed. If they are not,
+install the following:
+::
+pip install msrest
+pip install azure-ai-textanalytics
+5. Navigate to the ``~/.cloudmesh`` repo and create a cache directory
+for your text examples you would like to analyze.
+.. code:: bash
+mkdir text-cache
+6. Add any plain text files your would like to analyze to this
+directory with a name that has no special characters or spaces. You
+can copy the files at this location,
+``./cloudmesh-openapi/tests/textanaysis-example-text/reviews/`` into
+the text-cache if you want to use provided examples.
+7. Navigate to the ``./cloudmesh-openapi`` directory on your machine
+8. Utilize the generate command to create the OpenAPI spec
+.. code:: bash
+cms openapi generate TextAnalysis --filename=./tests/generator-natural-lang/natural-lang-analysis.py --all_functions
+9. Start the server after the yaml file is generated ot the same
+directory as the .py file
+.. code:: bash
+cms openapie start server ./tests/generator-natural-lang/natural-lang-analysis.yaml
+10. Run a curl command against the newly running server to verify it
+returns a result as expected.
+- Sample text file name is only meant to be the name of the file
+not the full path.
+.. code:: bash
+curl -X GET "http://127.0.0.1:8080/cloudmesh/analyze?filename=<<sample text file name>>&cloud=azure"
+
+    -  This is currently only ready to translate a single word through
+the API.
+- Available language tags are described in the `Azure
+docs <https://docs.microsoft.com/en-us/azure/cognitive-services/translator/reference/v3-0-languages>`__
+.. code:: bash
+curl -X GET "http://127.0.0.1:8080/cloudmesh/translate_text?cloud=azure&text=<<word to translate>>&lang=<<lang code>>"
+11. Stop the server
+.. code:: bash
+cms openapi server stop natural-lang-analysis
+The natural langauge analysis API can be improved by allowing for full
+phrase translation via the API. If you contribute to this API there is
+room for improvement to add custom translation models as well if
+preferred to pre-trained APIs.
+Setting up Azure ComputerVision AI services
+'''''''''''''''''''''''''''''''''''''''''''
+Prerequisite
+Using the Azure Computer Vision AI service, you can describe, analyze
+and/ or get tags for a locally stored image or you can read the text
+from an image or hand-written file.
+- Azure subscription. If you don’t have one, create a `free
+account <https://azure.microsoft.com/try/cognitive-services>`__
+before you continue further.
+- Create a Computer Vision resource and get the
+COMPUTER_VISION_SUBSCRIPTION_KEY and COMPUTER_VISION_ENDPOINT. Follow
+`instructions <https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-apis-create-account?tabs=singleservice%2cunix>`__
+to get the same.
+- Install following Python packages in your virtual environment:
+- requests
+- Pillow
+- Install Computer Vision client library
+.. code:: bash
+pip install --upgrade azure-cognitiveservices-vision-computervision
+Steps to implement and use Azure AI image and text *REST-services*
+- Go to ``./cloudmesh-openapi`` directory
+- Run following command to generate the YAML files
+.. code:: bash
+cms openapi generate AzureAiImage --filename=./tests/generator-azureai/azure-ai-image-function.py --all_functions --enable_upload
+cms openapi generate AzureAiText --filename=./tests/generator-azureai/azure-ai-text-function.py --all_functions --enable_upload
+- Verify the *YAML* files created in ``./tests/generator-azureai``
+directory
+.. code:: bash
+azure-ai-image-function.yaml
+azure-ai-text-function.yaml
+- Start the REST service by running following command in
+``./cloudmesh-openapi`` directory
+.. code:: bash
+cms openapi server start ./tests/generator-azureai/azure-ai-image-function.yaml
+The default port used for starting the service is 8080. In case you want
+to start more than one REST service, use a different port in following
+command:
+.. code:: bash
+cms openapi server start ./tests/generator-azureai/azure-ai-text-function.yaml --port=<**Use a different port than 8080**>
+- Access the REST service using http://localhost:8080/cloudmesh/ui/
+- After you have started the azure-ai-image-function or
+azure-ai-text-function on default port 8080, run following command to
+upload the image or text_image file
+.. code:: bash
+curl -X POST "http://localhost:8080/cloudmesh/upload" -H "accept: text/plain" -H "Content-Type: multipart/form-data" -F "upload=@tests/generator-azureai/<image_name_with_extension>;type=image/jpeg"
+Keep your test image files at ``./tests/generator-azureai/`` directory
+- With *azure-ai-text-function* started on port=8080, in order to test
+the azure ai function for text detection in an image, run following
+command
+.. code:: bash
+curl -X GET "http://localhost:8080/cloudmesh/azure-ai-text-function_upload-enabled/get_text_results?image_name=<image_name_with_extension_uploaded_earlier>" -H "accept: text/plain"
+- With *azure-ai-image-function* started on port=8080, in order to test
+the azure ai function for describing an image, run following command
+.. code:: bash
+curl -X GET "http://localhost:8080/cloudmesh/azure-ai-image-function_upload-enabled/get_image_desc?image_name=<image_name_with_extension_uploaded_earlier>" -H "accept: text/plain"
+- With *azure-ai-image-function* started on port=8080, in order to test
+the azure ai function for analyzing an image, run following command
+.. code:: bash
+curl -X GET "http://localhost:8080/cloudmesh/azure-ai-image-function_upload-enabled/get_image_analysis?image_name=<image_name_with_extension_uploaded_earlier>" -H "accept: text/plain"
+- With *azure-ai-image-function* started on port=8080, in order to test
+the azure ai function for identifying tags in an image, run following
+command
+.. code:: bash
+curl -X GET "http://localhost:8080/cloudmesh/azure-ai-image-function_upload-enabled/get_image_tags?image_name=<image_name_with_extension_uploaded_earlier>" -H "accept: text/plain"
+- Check the running REST services using following command:
+.. code:: bash
+cms openapi server ps
+- Stop the REST service using following command(s):
+.. code:: bash
+cms openapi server stop azure-ai-image-function
+cms openapi server stop azure-ai-text-function
+Test
+----
+The following table lists the different test we have, we provide
+additional information for the tests in the test directory in a README
+file. Summaries are provided below the table
++-----------------------+-----------------------+-----------------------+
+| Test | Short Description | Link |
++=======================+=======================+=======================+
+| Generator-calculator | Test to check if | `test_01_generator.py |
+| | calculator api is | <https://github.com/ | | | generated correctly. | cloudmesh/cloudmesh-o | | | this is to test | penapi/blob/main/te | | | multiple function in | sts/generator-calcula | | | one python file | tor/test_01_generator | | | | .py>`__ |
++-----------------------+-----------------------+-----------------------+
+| Generator-testclass | Test to check if | `test_02_generator.py |
+| | calculator api is | <https://github.com/ | | | generated correctly. | cloudmesh/cloudmesh-o | | | this is to test | penapi/blob/main/te | | | multiple function in | sts/generator-testcla | | | one python class file | ss/test_02_generator. | | | | py>`__ |
++-----------------------+-----------------------+-----------------------+
+| Server-cpu | Test to check if cpu | `test_03_generator.py |
+| | api is generated | <https://github.com/ | | | correctly. this is to | cloudmesh/cloudmesh-o | | | test single function | penapi/blob/main/te | | | in one python file | sts/server-cpu/test_0 | | | and function name is | 3_generator.py>`__ |
+| | different than file | |
+| | name | |
++-----------------------+-----------------------+-----------------------+
+| Server-cms | Test to check if cms | `test_04_generator.py |
+| | api is generated | <https://github.com/ | | | correctly. this is to | cloudmesh/cloudmesh-o | | | test multiple | penapi/blob/main/te | | | function in one | sts/server-cms/test_0 | | | python file. | 4_generator.py>`__ |
++-----------------------+-----------------------+-----------------------+
+| Registry | test_001_registry.py | `Link <https://github | | | - runs tests for | .com/cloudmesh/cloudm | | | registry. description | esh-openapi/blob/mast | | | is in tests/readme.md | er/tests/readme.md>`_ |
+| | | _ |
++-----------------------+-----------------------+-----------------------+
+| Image-Analysis | image_test.py - Runs | `image <https://githu | | | benchmark for text | b.com/cloudmesh/cloud | | | detection for google | mesh-openapi/blob/mas | | | vision api and aws | ter/tests/image-analy | | | rekognition. | sis/readme.md>`__ |
+| | Description in | |
+| | image-analysis/README | |
+| | .md | |
++-----------------------+-----------------------+-----------------------+
+For more infromation about test cases ,please check `tests
+info <https://github.com/cloudmesh/cloudmesh-openapi/blob/main/tests/readme.md>`__
+- `test_001_registry <tests/test_001_registry.py>`__
+- `test_003_server_manage_cpu <tests/test_003_server_manage_cpu.py>`__
+- `test_010_generator <tests/test_010_generator.py>`__
+- `test_011_generator_cpu <tests/test_011_generator_cpu.py>`__
+- `test_012_generator_calculator <tests/test_012_generator_calculator.py>`__
+- `test_015_generator_azureai <tests/test_015_generator_azureai.py>`__
+- `test_020_server_manage <tests/test_020_server_manage.py>`__
+- `test_server_cms_cpu <tests/test_server_cms_cpu.py>`__
+.. |image| image:: https://img.shields.io/pypi/v/cloudmesh-openapi.svg
+:target: https://pypi.org/project/cloudmesh-openapi/
+.. |Python| image:: https://img.shields.io/pypi/pyversions/cloudmesh-openapi.svg
+:target: https://pypi.python.org/pypi/cloudmesh-openapi
+.. |License| image:: https://img.shields.io/badge/License-Apache%202.0-blue.svg
+:target: https://github.com/cloudmesh/cloudmesh-openapi/blob/main/LICENSE
+.. |Format| image:: https://img.shields.io/pypi/format/cloudmesh-openapi.svg
+:target: https://pypi.python.org/pypi/cloudmesh-openapi
+.. |Status| image:: https://img.shields.io/pypi/status/cloudmesh-openapi.svg
+:target: https://pypi.python.org/pypi/cloudmesh-openapi
+.. |Travis| image:: https://travis-ci.com/cloudmesh/cloudmesh-openapi.svg?branch=main
+:target: https://travis-ci.com/cloudmesh/cloudmesh-openapi<div class="text-muted mt-5 pt-3 border-top"></div></div></main></div></div><footer class="bg-dark py-5 row d-print-none"><div class="container-fluid mx-sm-5"><div class=row><div class="col-6 col-sm-4 text-xs-center order-sm-2"><ul class="list-inline mb-0"><li class="list-inline-item mx-2 h3" data-toggle=tooltip data-placement=top title="Gregor von Laszewski" aria-label="Gregor von Laszewski"><a class=text-white target=_blank rel=noopener href=https://laszewski.github.io aria-label="Gregor von Laszewski"><i class="fa fa-envelope"></i></a></li></ul></div><div class="col-6 col-sm-4 text-right text-xs-center order-sm-3"><ul class="list-inline mb-0"><li class="list-inline-item mx-2 h3" data-toggle=tooltip data-placement=top title=GitHub aria-label=GitHub><a class=text-white target=_blank rel=noopener href=https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/ aria-label=GitHub><i class="fab fa-github"></i></a></li></ul></div><div class="col-12 col-sm-4 text-center py-2 order-sm-2"><small class=text-white>&copy; 2021 Indiana University, 2020 All Rights Reserved</small><p class=mt-2><a href=/about/>About Cybertraining</a></p></div></div></div></footer></div><script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js integrity=sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js integrity=sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/npm/mermaid@8.9.2/dist/mermaid.min.js integrity=sha384-uQikAXnCAqsMb3ygtdqBYvcwvHUkzGIpjdGyy9owhURXHUxLC5LgTcSxJQH/RzjK crossorigin=anonymous></script><script src=/js/deflate.js></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/katex.min.css integrity=sha384-Cqd8ihRLum0CCg8rz0hYKPoLZ3uw+gES2rXQXycqnL5pgVQIflxAUDS7ZSjITLb5 crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/katex.min.js integrity=sha384-1Or6BdeNQb0ezrmtGeqQHFpppNd7a/gw29xeiSikBbsb44xu3uAo8c7FwbF5jhbd crossorigin=anonymous></script><script defer src=https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/contrib/mhchem.min.js integrity=sha384-LIgAiYlGSAdpNC9+YDjDPF6JeS/RRIumtNo0CmyQERZ/+g0h9MbuYQwf/5pQ4Y4M crossorigin=anonymous></script><script defer src=https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/contrib/auto-render.min.js integrity=sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl crossorigin=anonymous onload=renderMathInElement(document.body,null);></script><script src=/js/main.min.24fdf50398b189e91e0fc406ea4341e93f56846c34eecd790e12aab363ef5e3c.js integrity="sha256-JP31A5ixiekeD8QG6kNB6T9WhGw07s15DhKqs2PvXjw=" crossorigin=anonymous></script></body></html>
