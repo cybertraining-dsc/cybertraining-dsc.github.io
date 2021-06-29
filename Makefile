@@ -13,6 +13,7 @@ uuu:
 
 
 reu-add:
+	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-378.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-377.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-376.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-366.git

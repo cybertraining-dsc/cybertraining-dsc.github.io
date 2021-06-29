@@ -20,7 +20,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="Project: Classification of Hyperspectral Images"
+  title="Classification of Hyperspectral Images"
   author="Carlos Theran"
   hid= "su21-reu-360"
   %}}
@@ -28,7 +28,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="Project: Analyzing Price Changes on the Electro-Optical System Blockchain"
+  title="Analyzing Price Changes on the Electro-Optical System Blockchain"
   author="Jacques Fleischer"
   hid= "su21-reu-361"
   %}}
@@ -36,7 +36,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="TBD"
+  title="AI in Healthcare"
   author="Kehinde Ezekiel"
   hid= "su21-reu-362"
   %}}
@@ -60,7 +60,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="Project: Energy Consumption"
+  title="Energy Consumption"
   author="Victor Adankai"
   hid= "su21-reu-365"
   %}}
@@ -157,12 +157,17 @@ REU 2021.
 
 ---
 
-
 * {{% addprojectreport
   title="TBD"
   hid="su21-reu-377"
   author="RonDaisja Dunn"
   %}}
-
 ---
 
+* {{% addprojectreport
+  title="TBD"
+  hid="su21-reu-378"
+  author="Myra Saunders"
+  %}}
+
+---
