@@ -409,8 +409,16 @@ Video: Adding content to your su21-reu repositories
 Slides: AI First Engineering
 {{< /view_module >}}
 
+## Datasets for Projects
 
-
+{{< view_module
+	alt="Datasets for Projects: Data world and Kaggle"
+	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
+	url="https://famu.zoom.us/rec/share/ZCGd71WnfCxm_3J4f2HM6y6NHvGN8Ew1Q7nQK9b8or0OTX7F6Zkjar_qOibvaawW.CLZoIchNsXyy5Rf_"
+	url="https://famu.zoom.us/rec/share/gDJ5eMu8Cf-9cBSRwUBE5RCSa3uTdhmyGCpoCudp9qz7GNmuS2kMArgm5KyqHkdb.8kukumc7i2N0hNSk"
+	>}}
+Video: Datasets for Projects: Data world and Kaggle
+{{< /view_module >}}
 
 
 
