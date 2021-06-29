@@ -13,6 +13,7 @@
 &lt;li>&lt;a href="#motivation-for-the-reu">Motivation for the REU&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#data-science-tools">Data Science Tools&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#ai-first-engineering">AI First Engineering&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#datasets-for-projects">Datasets for Projects&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/nav>
 &lt;/div>
@@ -705,6 +706,25 @@ Video: Adding content to your su21-reu repositories
 &lt;td>
 &lt;a href="https://docs.google.com/presentation/d/1uEBGALii_RfPQgsuqrl_hjhj4MUlL8CO2Hny6jqt8Qk/edit#slide=id.g94cec20bdc_1_0">
 Slides: AI First Engineering
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h2 id="datasets-for-projects">Datasets for Projects&lt;/h2>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/gDJ5eMu8Cf-9cBSRwUBE5RCSa3uTdhmyGCpoCudp9qz7GNmuS2kMArgm5KyqHkdb.8kukumc7i2N0hNSk">
+&lt;img alt="Datasets for Projects: Data world and Kaggle" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/gDJ5eMu8Cf-9cBSRwUBE5RCSa3uTdhmyGCpoCudp9qz7GNmuS2kMArgm5KyqHkdb.8kukumc7i2N0hNSk">
+Video: Datasets for Projects: Data world and Kaggle
 &lt;/a>
 &lt;/td>
 &lt;/tr>
