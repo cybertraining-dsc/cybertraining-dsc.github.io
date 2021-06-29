@@ -264,7 +264,13 @@ Slides:  Probability
 
 {{< /view_module >}}
 
-
+{{< view_module
+	alt="Video: Motivation for the REU: Data is Driven Everything"
+	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
+	url="https://famu.zoom.us/rec/share/RWOguZRMv2kfZ0E4Av2hcX1SlEXtNy133dJ86rCG0RqeHhiW1PZ7HL-TeCmnHbRW.SU6BK7wgBbEl4dFe"
+	>}}
+Video: Working on GitHUb Template and Mendeley references management
+{{< /view_module >}}
 
 ## Data Science Tools
 
