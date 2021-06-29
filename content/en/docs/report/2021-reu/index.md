@@ -36,7 +36,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="TBD"
+  title="AI in Healthcare"
   author="Kehinde Ezekiel"
   hid= "su21-reu-362"
   %}}
