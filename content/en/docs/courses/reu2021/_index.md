@@ -3,7 +3,7 @@ title: "REU 2021"
 linkTitle: "REU 2021"
 menu:
   main: 
-  weight: 1
+    weight: 1
 weight: 8
 date: 2021-06-17
 description: >
