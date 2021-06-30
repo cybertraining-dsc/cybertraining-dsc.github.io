@@ -3,6 +3,7 @@
 title: "Courses"
 linkTitle: "Courses"
 weight: 10
+menu: "REU"
 ---
 
 {{% pageinfo %}}
