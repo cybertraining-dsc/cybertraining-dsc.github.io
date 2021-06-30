@@ -38,6 +38,7 @@
     &lt;li&gt;&lt;a href=&#34;#motivation-for-the-reu&#34;&gt;Motivation for the REU&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#data-science-tools&#34;&gt;Data Science Tools&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#ai-first-engineering&#34;&gt;AI First Engineering&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#datasets-for-projects&#34;&gt;Datasets for Projects&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
 &lt;/div&gt;
@@ -144,7 +145,7 @@ source ~/ENV/bin/activate
 &lt;li&gt;On Mac: &lt;code&gt;cd TO YOUR DIR; python3.9 -m venv .&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;On Windows &lt;code&gt;cd TO YOUR DIR; python -m venv .&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Then start VSCode in the directory and it will ask you to use this venv. However, the global ENV3 venv
+&lt;p&gt;Then start VSCode in the directory and it will ask you to use this venv. However, the global ENV3 venv 
 may be better and you cen set your interpreter to it.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -167,7 +168,7 @@ may be better and you cen set your interpreter to it.&lt;/p&gt;
       &lt;a href=&#34;https://famu.zoom.us/rec/share/7LK71gUPMdvpH-7J0zITciuLpp7P38Ic8gQ3r42VeNFzBy52fQHdLyK0NUuYrynY.tgx5aNXykyAipzFt&#34;&gt;
          
 
-In this lecture we provide a video that introduces you to Jupyter Notebooks.
+Jupyter Notebooks: This lecture provides an introduction to Jupyter Notebooks using Visual Studio as IDE.
 
 
       &lt;/a&gt;
@@ -176,19 +177,19 @@ In this lecture we provide a video that introduces you to Jupyter Notebooks.
 &lt;/table&gt;
 
 &lt;h2 id=&#34;github&#34;&gt;Github&lt;/h2&gt;
-&lt;table&gt;
+&lt;p&gt;&lt;table&gt;
   &lt;colgroup&gt;
     &lt;col style=&#34;width:15%;background-color:white&#34;&gt;
     &lt;col style=&#34;width:100%;background-color:light-grey&#34;&gt;
   &lt;/colgroup&gt;
   &lt;tr&gt;
     &lt;td&gt;
-      &lt;a href=&#34;https://famu.zoom.us/rec/share/C_5m4bQwPny-TW50aft0zQ2HR_ZCn_D22nbywWnyZqoZg89-oKpQHRo9jywvUIIN.1kc8yUrK9PPQQ8T_&#34;&gt;
+      &lt;a href=&#34;https://famu.zoom.us/rec/share/C_5m4bQwPny-TW50aft0zQ2HR_ZCn_D22nbywWnyZqoZg89-oKpQHRo9jywvUIIN.1kc8yUrK9PPQQ8T&#34;&gt;
         &lt;img alt=&#34;Github&#34; src=&#34;https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg&#34;/&gt;
       &lt;/a&gt;
     &lt;/td&gt;
     &lt;td&gt;
-      &lt;a href=&#34;https://famu.zoom.us/rec/share/C_5m4bQwPny-TW50aft0zQ2HR_ZCn_D22nbywWnyZqoZg89-oKpQHRo9jywvUIIN.1kc8yUrK9PPQQ8T_&#34;&gt;
+      &lt;a href=&#34;https://famu.zoom.us/rec/share/C_5m4bQwPny-TW50aft0zQ2HR_ZCn_D22nbywWnyZqoZg89-oKpQHRo9jywvUIIN.1kc8yUrK9PPQQ8T&#34;&gt;
          
 
 Video: Github
@@ -213,13 +214,14 @@ Video: Github
     &lt;td&gt;
       &lt;a href=&#34;https://famu.zoom.us/rec/share/dYjAatyl--Dlc2v9RGbni5m5jM2iCY8fQYtre4A2FoYZnos9mtrjGRBkxPq3-aQv.jwJ5Gs0B58vg_da-&#34;&gt;
          
-Video: Github 2
+Video-Github 2: In this lecture the student can learn how to create a project on RStudio and link it with a repository on GitHub to commit, 
+                pull and push the code from RStudio.
 
       &lt;/a&gt;
    &lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-
+&lt;/p&gt;
 &lt;h2 id=&#34;introduction-to-python&#34;&gt;Introduction to Python&lt;/h2&gt;
 &lt;table&gt;
   &lt;colgroup&gt;
@@ -236,9 +238,7 @@ Video: Github 2
       &lt;a href=&#34;https://drive.google.com/file/d/1hauM2BunbmwWAViUt0bS2Yl7ZbQ5_T0h/view?usp=sharing&#34;&gt;
          
 
-Slides: Introduction to Python
-
-* Strings, Numbers, Boolene, If
+Slides: This introduction to Python cover the different data type, how to convert type of variable, understand and create flow control usign conditional statements.
 
       &lt;/a&gt;
    &lt;/td&gt;
@@ -259,7 +259,7 @@ Slides: Introduction to Python
     &lt;td&gt;
       &lt;a href=&#34;https://famu.zoom.us/rec/share/5Esz5JkozJajn5b__YmCPNGdaWUsSHBAO8YVkzfyvTTq9kzL1Xv0j_yXWz1jM15J.k19yEPveidXLT41Y&#34;&gt;
          
-Video: Introduction to Python (1)
+Video-Introduction to Python (1): This introduction to Python cover the different data type, how to convert type of variable, understand and create flow control usign conditional statements.
 
       &lt;/a&gt;
    &lt;/td&gt;
@@ -281,7 +281,7 @@ Video: Introduction to Python (1)
       &lt;a href=&#34;https://famu.zoom.us/rec/share/jIR9L_qkMPXATo56Aua009SQo62CsEi_m2sIU3YPr39bbGvyw5mPBdZ9VVomLSqG.4aEp-Ye_l_TL8lub&#34;&gt;
          
 
-Video: Introduction to Python (2)
+Video-Introduction to Python (2): This introduction to Python cover the different data type, how to convert type of variable, understand and create flow control usign conditional statements.
 
 
       &lt;/a&gt;
@@ -304,7 +304,7 @@ Video: Introduction to Python (2)
       &lt;a href=&#34;https://famu.zoom.us/rec/share/QVziK8PteBlanKaQNG9J6uBmpyRLFnSVVcyRFKVGakBmRtzerwkutiCoGiydSxkY.W5rt607-OB0o1spc&#34;&gt;
          
 
-Video: Introduction to Python (3)
+Video-Introduction to Python (3): This lecture introduces the use of Google Colab to code your python program using the resources provided by Google. Also, DataFrame is introduced and use to manipulate and analyze data.
 
 
       &lt;/a&gt;
@@ -652,7 +652,8 @@ Video: Pandas
     &lt;td&gt;
       &lt;a href=&#34;https://famu.zoom.us/rec/share/TiJJnitA6ziWOZutSEjyFGGKS0nc3lj_-lOPuGuKjNVdUO8HEp3uU9jlihaBgznt.rKnSt4gTS7B2ZXia&#34;&gt;
          
-Video: Matrix computation
+Video-Matrix computation: Linear algebra is a main compornent in the field of Data Science. As a consequence, this lecture introduces the main matrix operations such as, 
+addition, substraction, multiplication, and picewise multiplication. 
 
       &lt;/a&gt;
    &lt;/td&gt;
@@ -694,7 +695,7 @@ Video: Pycharm Installation and Virtual Environment setup
     &lt;td&gt;
       &lt;a href=&#34;https://famu.zoom.us/rec/share/gQS-so-yA7yzXfIF5LT33I5JCDPH39jpNneKTaOe7h_CEe7O4LkkdZdGzBtcT_6A.9844LB6DAuSp6TdE&#34;&gt;
          
-Video: Application of Matrix Operation using Images on Python
+Video: This lecture the student can learn the different applications of Matrix Operation using images on Python.
 
       &lt;/a&gt;
    &lt;/td&gt;
@@ -843,6 +844,28 @@ Video: Adding content to your su21-reu repositories
       &lt;a href=&#34;https://docs.google.com/presentation/d/1uEBGALii_RfPQgsuqrl_hjhj4MUlL8CO2Hny6jqt8Qk/edit#slide=id.g94cec20bdc_1_0&#34;&gt;
          
 Slides: AI First Engineering
+
+      &lt;/a&gt;
+   &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;datasets-for-projects&#34;&gt;Datasets for Projects&lt;/h2&gt;
+&lt;table&gt;
+  &lt;colgroup&gt;
+    &lt;col style=&#34;width:15%;background-color:white&#34;&gt;
+    &lt;col style=&#34;width:100%;background-color:light-grey&#34;&gt;
+  &lt;/colgroup&gt;
+  &lt;tr&gt;
+    &lt;td&gt;
+      &lt;a href=&#34;https://famu.zoom.us/rec/share/gDJ5eMu8Cf-9cBSRwUBE5RCSa3uTdhmyGCpoCudp9qz7GNmuS2kMArgm5KyqHkdb.8kukumc7i2N0hNSk&#34;&gt;
+        &lt;img alt=&#34;Datasets for Projects: Data world and Kaggle&#34; src=&#34;https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg&#34;/&gt;
+      &lt;/a&gt;
+    &lt;/td&gt;
+    &lt;td&gt;
+      &lt;a href=&#34;https://famu.zoom.us/rec/share/gDJ5eMu8Cf-9cBSRwUBE5RCSa3uTdhmyGCpoCudp9qz7GNmuS2kMArgm5KyqHkdb.8kukumc7i2N0hNSk&#34;&gt;
+         
+Video: Datasets for Projects: Data world and Kaggle
 
       &lt;/a&gt;
    &lt;/td&gt;
