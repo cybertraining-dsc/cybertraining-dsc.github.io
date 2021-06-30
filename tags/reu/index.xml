@@ -1,4 +1,85 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – reu</title><link>/tags/reu/</link><description>Recent content in reu on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 24 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/reu/index.xml" rel="self" type="application/rss+xml"/><item><title>Report: Tutorial on Installing Python</title><link>/report/su21-reu-361/tutorials/python/</link><pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/tutorials/python/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – reu</title><link>/tags/reu/</link><description>Recent content in reu on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/reu/index.xml" rel="self" type="application/rss+xml"/><item><title>Report: Tutorial on Getting PyCharm Professional for Free</title><link>/report/su21-reu-361/tutorials/pycharm/</link><pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/tutorials/pycharm/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>This tutorial teaches how to get PyCharm Professional for free on Windows 10 using a university email address.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#steps">Steps&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> pycharm&lt;/p>
+&lt;h2 id="steps">Steps&lt;/h2>
+&lt;p>Click the following image to be redirected to a YouTube video tutorial for installing PyCharm Professional.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/QPESX-VBnEU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>Please ensure that you have a university or college email before proceeding.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Open up a web browser and search &lt;code>pycharm&lt;/code>. Look under the link from &lt;code>jetbrains.com&lt;/code> and click &lt;code>Download Pycharm&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click the blue button that reads &lt;code>Download&lt;/code> under Professional. Wait for the download to complete.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Open the completely downloaded file and click &lt;code>Yes&lt;/code> on the UAC prompt.&lt;/p>
+&lt;ol>
+&lt;li>If you have a school computer, please refer to the note under step 5 in the Python tutorial found here:
+&lt;a href="https://cybertraining-dsc.github.io/report/su21-reu-361/tutorials/python/">https://cybertraining-dsc.github.io/report/su21-reu-361/tutorials/python/&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Next&lt;/code>, click &lt;code>Next&lt;/code> again, and check the box that reads &lt;code>Add launchers dir to the PATH&lt;/code>. You can also
+create a Desktop Shortcut and create the &lt;code>.py&lt;/code> association, if you would like. The association changes which program,
+by default, opens &lt;code>.py&lt;/code> files on your computer.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Next&lt;/code> and then click &lt;code>Install&lt;/code>. Wait for the green progress bar to complete. Then, you must restart your
+computer after making sure all of your programs are saved and closed.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Open PyCharm either by clicking on the Desktop shortcut you might have made, or hit the Windows key and type
+&lt;code>PyCharm&lt;/code> and choose the program from the search results.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Check the box that says &lt;code>I confirm that I have read and accept the terms...&lt;/code> after reading through each and every
+word and fully committing every character on your screen to memory. Only if you want to!&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Continue&lt;/code>. You can choose to send anonymous statistics, if you want to; click the option you want.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click the hyperlink that says &lt;code>Buy license&lt;/code> in the top right of the window. Do not worry— you will not be spending
+a cent.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click the person icon in the top right of the page (if you cannot find this person icon, then click this link
+and hopefully it still works: &lt;a href="https://account.jetbrains.com/login)">https://account.jetbrains.com/login)&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Create a JetBrains account by entering your university email address. Click &lt;code>Sign Up&lt;/code> after entering your email;
+then, you have to go on your email and confirm your account in the automated email sent to you. Click &lt;code>Confirm your account&lt;/code> in the email.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Complete the registration form and click &lt;code>Submit&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Apply for a free student or teacher license&lt;/code>. Scroll down and click the blue button that reads &lt;code>Apply now&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Fill out the form, using your university email address and real name. Check the boxes if they apply to you. Then
+click &lt;code>APPLY FOR FREE PRODUCTS&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>JetBrains should send you an automated email, ideally informing you that your information has been confirmed and
+you have been granted a free license. If it does not immediately arrive, wait a few minutes. Go back to PyCharm and
+sign in with your JetBrains account after receiving this email. Click &lt;code>Activate&lt;/code>. Congratulations!&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Report: Tutorial on Installing Python</title><link>/report/su21-reu-361/tutorials/python/</link><pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/tutorials/python/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;p>This tutorial teaches how to install Python on Windows 10.&lt;/p>
@@ -90,97 +171,61 @@
 &lt;/ol>
 &lt;h1 id="troubleshooting">Troubleshooting&lt;/h1>
 &lt;h2 id="incorrect-python-version-on-command-prompt">Incorrect Python Version on Command Prompt&lt;/h2>
-&lt;p>If the computer has installed an older version of Python, running &lt;code>python --version&lt;/code> on Command Prompt may output an older version. Typing &lt;code>python3 --version&lt;/code> may output the correct, latest version.&lt;/p></description></item><item><title>Report: Project: Analysis of Autism in three different cities using AI</title><link>/report/su21-reu-378/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-378/project/</guid><description>
+&lt;p>If the computer has installed an older version of Python, running &lt;code>python --version&lt;/code> on Command Prompt may output an older version. Typing &lt;code>python3 --version&lt;/code> may output the correct, latest version.&lt;/p></description></item><item><title>Report: Project: Detection of Autism in Children from a Facial Image using AI</title><link>/report/su21-reu-378/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-378/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
 &lt;p>Myra Saunders, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378">su21-reu-378&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Analyzing respiratory factors at birth that can lead to autism in African Americans&lt;/p>
+&lt;p>Analyzing facial images to detect Autism in children.&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Add brief summary that explains what my project is about.&lt;/li>
+&lt;/ul>
 &lt;p>Contents&lt;/p>
 &lt;div class="toc">
 &lt;nav id="TableOfContents">
 &lt;ul>
 &lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-using-images">2. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-itemized-lists-only-where-needed">3. Using itemized lists only where needed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-datasets">4. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-benchmark">5. Benchmark&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-acknowledgments">7. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-references">8. References&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/nav>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;p>&lt;strong>Keywords:&lt;/strong> Autism, Facial Analysis.&lt;/p>
 &lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Do not include this tip in your document:&lt;/p>
-&lt;blockquote>
-&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Add General Introduction about Autism.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Briefly explain the topic of my report (Detection of autism in children using a facial image).&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> State how AI will be applied/used.&lt;/li>
 &lt;/ul>
-&lt;/blockquote>
-&lt;p>Here comes a convincing introduction to the problem&lt;/p>
-&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
-&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
-set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
-bound into cybertraining.&lt;/p>
-&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
-&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
-Thus the following is wrong:&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-This author does ignore proper markdown while not using empty lines between context changes
-1. This is because this author ignors all best practices
-&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-We do not ignore proper markdown while using empty lines between context changes
-1. This is because we encourage best practices to cause issues.
-&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
-&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
-We will not review any document that does not pass this check.&lt;/p>
-&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
-&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
-comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
-&lt;ol>
-&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
-&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
-&lt;/ol>
-&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
-&lt;p>You have two choices for the final project.&lt;/p>
-&lt;ol>
-&lt;li>Project, That is a final report that includes code.&lt;/li>
-&lt;li>Report, that is a final project without code.&lt;/li>
-&lt;/ol>
-&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
-at the beginning of your project.&lt;/p>
-&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;h2 id="2-using-images">2. Using Images&lt;/h2>
 &lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
 &lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
+&lt;h2 id="3-using-itemized-lists-only-where-needed">3. Using itemized lists only where needed&lt;/h2>
 &lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
 &lt;ol>
 &lt;li>Use itemized or enumeration lists sparingly&lt;/li>
 &lt;li>When using bulleted lists use * and not -&lt;/li>
 &lt;/ol>
-&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
+&lt;h2 id="4-datasets">4. Datasets&lt;/h2>
 &lt;ul>
 &lt;li>&lt;input disabled="" type="checkbox"> Querying the dataset autism prevalence studies summary with an area of three cities @data.world&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> Find a similar dataset in kaggle.com&lt;/li>
 &lt;/ul>
-&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;h2 id="5-benchmark">5. Benchmark&lt;/h2>
 &lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
 &lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
 &lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
-&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;h2 id="7-acknowledgments">7. Acknowledgments&lt;/h2>
 &lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
-&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;h2 id="8-references">8. References&lt;/h2>
 &lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
 one point automatically change the references from superscript to square brackets it is best to introduce a space before
 the first square bracket.&lt;/p>

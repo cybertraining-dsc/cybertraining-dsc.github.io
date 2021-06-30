@@ -1,4 +1,85 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – tutorial</title><link>/tags/tutorial/</link><description>Recent content in tutorial on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 24 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/tutorial/index.xml" rel="self" type="application/rss+xml"/><item><title>Report: Tutorial on Installing Python</title><link>/report/su21-reu-361/tutorials/python/</link><pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/tutorials/python/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – tutorial</title><link>/tags/tutorial/</link><description>Recent content in tutorial on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/tutorial/index.xml" rel="self" type="application/rss+xml"/><item><title>Report: Tutorial on Getting PyCharm Professional for Free</title><link>/report/su21-reu-361/tutorials/pycharm/</link><pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/tutorials/pycharm/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>This tutorial teaches how to get PyCharm Professional for free on Windows 10 using a university email address.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#steps">Steps&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> pycharm&lt;/p>
+&lt;h2 id="steps">Steps&lt;/h2>
+&lt;p>Click the following image to be redirected to a YouTube video tutorial for installing PyCharm Professional.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/QPESX-VBnEU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>Please ensure that you have a university or college email before proceeding.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Open up a web browser and search &lt;code>pycharm&lt;/code>. Look under the link from &lt;code>jetbrains.com&lt;/code> and click &lt;code>Download Pycharm&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click the blue button that reads &lt;code>Download&lt;/code> under Professional. Wait for the download to complete.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Open the completely downloaded file and click &lt;code>Yes&lt;/code> on the UAC prompt.&lt;/p>
+&lt;ol>
+&lt;li>If you have a school computer, please refer to the note under step 5 in the Python tutorial found here:
+&lt;a href="https://cybertraining-dsc.github.io/report/su21-reu-361/tutorials/python/">https://cybertraining-dsc.github.io/report/su21-reu-361/tutorials/python/&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Next&lt;/code>, click &lt;code>Next&lt;/code> again, and check the box that reads &lt;code>Add launchers dir to the PATH&lt;/code>. You can also
+create a Desktop Shortcut and create the &lt;code>.py&lt;/code> association, if you would like. The association changes which program,
+by default, opens &lt;code>.py&lt;/code> files on your computer.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Next&lt;/code> and then click &lt;code>Install&lt;/code>. Wait for the green progress bar to complete. Then, you must restart your
+computer after making sure all of your programs are saved and closed.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Open PyCharm either by clicking on the Desktop shortcut you might have made, or hit the Windows key and type
+&lt;code>PyCharm&lt;/code> and choose the program from the search results.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Check the box that says &lt;code>I confirm that I have read and accept the terms...&lt;/code> after reading through each and every
+word and fully committing every character on your screen to memory. Only if you want to!&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Continue&lt;/code>. You can choose to send anonymous statistics, if you want to; click the option you want.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click the hyperlink that says &lt;code>Buy license&lt;/code> in the top right of the window. Do not worry— you will not be spending
+a cent.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click the person icon in the top right of the page (if you cannot find this person icon, then click this link
+and hopefully it still works: &lt;a href="https://account.jetbrains.com/login)">https://account.jetbrains.com/login)&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Create a JetBrains account by entering your university email address. Click &lt;code>Sign Up&lt;/code> after entering your email;
+then, you have to go on your email and confirm your account in the automated email sent to you. Click &lt;code>Confirm your account&lt;/code> in the email.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Complete the registration form and click &lt;code>Submit&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Apply for a free student or teacher license&lt;/code>. Scroll down and click the blue button that reads &lt;code>Apply now&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Fill out the form, using your university email address and real name. Check the boxes if they apply to you. Then
+click &lt;code>APPLY FOR FREE PRODUCTS&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>JetBrains should send you an automated email, ideally informing you that your information has been confirmed and
+you have been granted a free license. If it does not immediately arrive, wait a few minutes. Go back to PyCharm and
+sign in with your JetBrains account after receiving this email. Click &lt;code>Activate&lt;/code>. Congratulations!&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Report: Tutorial on Installing Python</title><link>/report/su21-reu-361/tutorials/python/</link><pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/tutorials/python/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;p>This tutorial teaches how to install Python on Windows 10.&lt;/p>
