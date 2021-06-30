@@ -1,6 +1,6 @@
 ---
 title: "REU 2021"
-linkTitle: "REU 2021"
+linkTitle: "2021 REU Course"
 menu:
   main: 
     weight: 1
