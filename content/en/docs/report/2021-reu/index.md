@@ -84,14 +84,6 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="TBD"
-  hid="su21-reu-368" 
-  author="Yohn Jairo"
-  %}}
-
----
-
-* {{% addprojectreport
   title="Increasing Cervical Cancer Risk Analysis"
   hid="su21-reu-369" 
   author="Theresa Jeanbaptiste"
