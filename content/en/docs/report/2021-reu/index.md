@@ -1,6 +1,6 @@
 ---
 title: "REU 2021"
-linkTitle: "2021 REU"
+linkTitle: "2021 REU Reports"
 weight: 21
 menu:
   main: 
