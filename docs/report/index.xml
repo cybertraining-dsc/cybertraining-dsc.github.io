@@ -4,7 +4,7 @@
     <link>/report/</link>
     <description>Recent content in Reports on Cybertraining</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 24 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="/report/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,6 +13,104 @@
         
       
     
+    
+    <item>
+      <title>Report: Tutorial on Getting PyCharm Professional for Free</title>
+      <link>/report/su21-reu-361/tutorials/pycharm/</link>
+      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/report/su21-reu-361/tutorials/pycharm/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;This tutorial teaches how to get PyCharm Professional for free on Windows 10 using a university email address.&lt;/p&gt;
+&lt;p&gt;Contents&lt;/p&gt;
+&lt;div class=&#34;toc&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#steps&#34;&gt;Steps&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; pycharm&lt;/p&gt;
+&lt;h2 id=&#34;steps&#34;&gt;Steps&lt;/h2&gt;
+&lt;p&gt;Click the following image to be redirected to a YouTube video tutorial for installing PyCharm Professional.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/QPESX-VBnEU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;Please ensure that you have a university or college email before proceeding.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open up a web browser and search &lt;code&gt;pycharm&lt;/code&gt;. Look under the link from &lt;code&gt;jetbrains.com&lt;/code&gt; and click &lt;code&gt;Download Pycharm&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click the blue button that reads &lt;code&gt;Download&lt;/code&gt; under Professional. Wait for the download to complete.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open the completely downloaded file and click &lt;code&gt;Yes&lt;/code&gt; on the UAC prompt.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;If you have a school computer, please refer to the note under step 5 in the Python tutorial found here:
+&lt;a href=&#34;https://cybertraining-dsc.github.io/report/su21-reu-361/tutorials/python/&#34;&gt;https://cybertraining-dsc.github.io/report/su21-reu-361/tutorials/python/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;code&gt;Next&lt;/code&gt;, click &lt;code&gt;Next&lt;/code&gt; again, and check the box that reads &lt;code&gt;Add launchers dir to the PATH&lt;/code&gt;. You can also
+create a Desktop Shortcut and create the &lt;code&gt;.py&lt;/code&gt; association, if you would like. The association changes which program,
+by default, opens &lt;code&gt;.py&lt;/code&gt; files on your computer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;code&gt;Next&lt;/code&gt; and then click &lt;code&gt;Install&lt;/code&gt;. Wait for the green progress bar to complete. Then, you must restart your
+computer after making sure all of your programs are saved and closed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open PyCharm either by clicking on the Desktop shortcut you might have made, or hit the Windows key and type
+&lt;code&gt;PyCharm&lt;/code&gt; and choose the program from the search results.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Check the box that says &lt;code&gt;I confirm that I have read and accept the terms...&lt;/code&gt; after reading through each and every
+word and fully committing every character on your screen to memory. Only if you want to!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;code&gt;Continue&lt;/code&gt;. You can choose to send anonymous statistics, if you want to; click the option you want.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click the hyperlink that says &lt;code&gt;Buy license&lt;/code&gt; in the top right of the window. Do not worry— you will not be spending
+a cent.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click the person icon in the top right of the page (if you cannot find this person icon, then click this link
+and hopefully it still works: &lt;a href=&#34;https://account.jetbrains.com/login)&#34;&gt;https://account.jetbrains.com/login)&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create a JetBrains account by entering your university email address. Click &lt;code&gt;Sign Up&lt;/code&gt; after entering your email;
+then, you have to go on your email and confirm your account in the automated email sent to you. Click &lt;code&gt;Confirm your account&lt;/code&gt; in the email.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Complete the registration form and click &lt;code&gt;Submit&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;code&gt;Apply for a free student or teacher license&lt;/code&gt;. Scroll down and click the blue button that reads &lt;code&gt;Apply now&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fill out the form, using your university email address and real name. Check the boxes if they apply to you. Then
+click &lt;code&gt;APPLY FOR FREE PRODUCTS&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;JetBrains should send you an automated email, ideally informing you that your information has been confirmed and
+you have been granted a free license. If it does not immediately arrive, wait a few minutes. Go back to PyCharm and
+sign in with your JetBrains account after receiving this email. Click &lt;code&gt;Activate&lt;/code&gt;. Congratulations!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
     
     <item>
       <title>Report: Tutorial on Installing Python</title>
@@ -124,7 +222,7 @@
     </item>
     
     <item>
-      <title>Report: Project: Analysis of Autism in three different cities using AI</title>
+      <title>Report: Project: Detection of Autism in Children from a Facial Image using AI</title>
       <link>/report/su21-reu-378/project/</link>
       <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
       
@@ -140,94 +238,56 @@ Status: draft, Type: Project&lt;/p&gt;
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;Analyzing respiratory factors at birth that can lead to autism in African Americans&lt;/p&gt;
+&lt;p&gt;Analyzing facial images to detect Autism in children.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Add brief summary that explains what my project is about.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Contents&lt;/p&gt;
 &lt;div class=&#34;toc&#34;&gt;
   &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
     &lt;li&gt;&lt;a href=&#34;#1-introduction&#34;&gt;1. Introduction&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#2-report-format&#34;&gt;2. Report Format&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#21-github-actions&#34;&gt;2.1. GitHub Actions&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#22-past-copy-from-word-or-other-editors-is-a-disaster&#34;&gt;2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#23-report-or-project&#34;&gt;2.3. Report or Project&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#3-using-images&#34;&gt;3. Using Images&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#4-using-itemized-lists-only-where-needed&#34;&gt;4. Using itemized lists only where needed&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#5-datasets&#34;&gt;5. Datasets&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#6-benchmark&#34;&gt;6. Benchmark&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#2-using-images&#34;&gt;2. Using Images&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#3-using-itemized-lists-only-where-needed&#34;&gt;3. Using itemized lists only where needed&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#4-datasets&#34;&gt;4. Datasets&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#5-benchmark&#34;&gt;5. Benchmark&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#6-conclusion&#34;&gt;6. Conclusion&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#8-acknowledgments&#34;&gt;8. Acknowledgments&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#9-references&#34;&gt;9. References&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#7-acknowledgments&#34;&gt;7. Acknowledgments&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#8-references&#34;&gt;8. References&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
 &lt;/div&gt;
 
 &lt;/div&gt;
 
-&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; tensorflow, example.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; Autism, Facial Analysis.&lt;/p&gt;
 &lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;
-&lt;p&gt;Do not include this tip in your document:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Tip: Please note that an up to date version of these instructions is available at&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&#34;&gt;https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Add General Introduction about Autism.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Briefly explain the topic of my report (Detection of autism in children using a facial image).&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; State how AI will be applied/used.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Here comes a convincing introduction to the problem&lt;/p&gt;
-&lt;h2 id=&#34;2-report-format&#34;&gt;2. Report Format&lt;/h2&gt;
-&lt;p&gt;The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
-set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
-bound into cybertraining.&lt;/p&gt;
-&lt;p&gt;To set up the report, you must first &lt;code&gt;replace&lt;/code&gt; the word &lt;code&gt;hid-example in this example report with your hid. the hid will  look something like &lt;/code&gt;sp21-599-111`&lt;/p&gt;
-&lt;p&gt;It is to be noted that markdown works best if you include an empty line before and after each context change.
-Thus the following is wrong:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;# This is My Headline
-This author does ignore proper markdown while not using empty lines between context changes
-1. This is because this author ignors all best practices
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Instead, this should be&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;# This is My Headline
-
-We do not ignore proper markdown while using empty lines between context changes
-
-1. This is because we encourage best practices to cause issues.
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;21-github-actions&#34;&gt;2.1. GitHub Actions&lt;/h2&gt;
-&lt;p&gt;When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
-We will not review any document that does not pass this check.&lt;/p&gt;
-&lt;h2 id=&#34;22-past-copy-from-word-or-other-editors-is-a-disaster&#34;&gt;2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2&gt;
-&lt;p&gt;We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
-comments into your document that you will have to fix, If you juys past copy you will&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Not learn how to use GitHub properly and we deduct points&lt;/li&gt;
-&lt;li&gt;Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;23-report-or-project&#34;&gt;2.3. Report or Project&lt;/h2&gt;
-&lt;p&gt;You have two choices for the final project.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Project, That is a final report that includes code.&lt;/li&gt;
-&lt;li&gt;Report, that is a final project without code.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
-at the beginning of your project.&lt;/p&gt;
-&lt;h2 id=&#34;3-using-images&#34;&gt;3. Using Images&lt;/h2&gt;
+&lt;h2 id=&#34;2-using-images&#34;&gt;2. Using Images&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png&#34; alt=&#34;Figure 1&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Figure 1:&lt;/strong&gt; Images can be included in the report, but if they are copied you must cite them &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;4-using-itemized-lists-only-where-needed&#34;&gt;4. Using itemized lists only where needed&lt;/h2&gt;
+&lt;h2 id=&#34;3-using-itemized-lists-only-where-needed&#34;&gt;3. Using itemized lists only where needed&lt;/h2&gt;
 &lt;p&gt;Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Use itemized or enumeration lists sparingly&lt;/li&gt;
 &lt;li&gt;When using bulleted lists use * and not -&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;5-datasets&#34;&gt;5. Datasets&lt;/h2&gt;
+&lt;h2 id=&#34;4-datasets&#34;&gt;4. Datasets&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Querying the dataset autism prevalence studies summary with an area of three cities @data.world&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Find a similar dataset in kaggle.com&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;6-benchmark&#34;&gt;6. Benchmark&lt;/h2&gt;
+&lt;h2 id=&#34;5-benchmark&#34;&gt;5. Benchmark&lt;/h2&gt;
 &lt;p&gt;Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h2 id=&#34;6-conclusion&#34;&gt;6. Conclusion&lt;/h2&gt;
 &lt;p&gt;A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p&gt;
-&lt;h2 id=&#34;8-acknowledgments&#34;&gt;8. Acknowledgments&lt;/h2&gt;
+&lt;h2 id=&#34;7-acknowledgments&#34;&gt;7. Acknowledgments&lt;/h2&gt;
 &lt;p&gt;Please add acknowledgments to all that contributed or helped on this project.&lt;/p&gt;
-&lt;h2 id=&#34;9-references&#34;&gt;9. References&lt;/h2&gt;
+&lt;h2 id=&#34;8-references&#34;&gt;8. References&lt;/h2&gt;
 &lt;p&gt;Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
 one point automatically change the references from superscript to square brackets it is best to introduce a space before
 the first square bracket.&lt;/p&gt;
@@ -9299,177 +9359,6 @@ his knowledge in Deep Learning and Artificial Intelligence throughout this cours
 &lt;li id=&#34;fn:9&#34; role=&#34;doc-endnote&#34;&gt;
 &lt;p&gt;Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
 &lt;a href=&#34;https://github.com/cloudmesh/cloudmesh-common&#34;&gt;https://github.com/cloudmesh/cloudmesh-common&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:9&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Report: Project: Structural Protein Sequences Classification</title>
-      <link>/report/sp21-599-357/project/</link>
-      <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/report/sp21-599-357/project/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-357/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-357/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
-&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-357/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-357/workflows/Status/badge.svg&#34; alt=&#34;Status&#34;&gt;&lt;/a&gt;
-Status: final, Type: Project&lt;/p&gt;
-&lt;p&gt;Jiayu Li, &lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-357/&#34;&gt;sp21-599-357&lt;/a&gt;, &lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-357/blob/main/project/index.md&#34;&gt;Edit&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Code:
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-357/blob/main/project/code/benchmark.py&#34;&gt;benchmark.py&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-357/blob/main/project/code/lstm.ipynb&#34;&gt;lstm.ipynb&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;The goal of this project is to predict the family of a protein based on the amino acid sequence of the protein.
-The structure and function of a protein are determined by the amino acid sequence that composes it.
-In the protein structure data set, each protein is classified according to its function. Categories include: HYDROLASE, OXYGEN TRANSPORT, VIRUS, SIGNALING PROTEIN, etc. dozens of kinds. In this project, we will use nucleic acid sequences to predict the type of protein.&lt;/p&gt;
-&lt;p&gt;Although there are already protein search engines such as BLAST[^1] that can directly query the known protein families. But for unknown proteins, it is still important to use deep learning algorithms to predict their functions.&lt;/p&gt;
-&lt;p&gt;Protein classification is a simpler problem than protein structure prediction[^7]. The latter requires the complete spatial structure of the protein, and the required deep learning model is extremely complex.&lt;/p&gt;
-&lt;p&gt;Contents&lt;/p&gt;
-&lt;div class=&#34;toc&#34;&gt;
-  &lt;nav id=&#34;TableOfContents&#34;&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&#34;#1-introduction&#34;&gt;1. Introduction&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#2-dataset&#34;&gt;2. Dataset&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#3-deep-learning-algorithm&#34;&gt;3. Deep learning algorithm&lt;/a&gt;
-      &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;#31-word-embedding&#34;&gt;3.1 Word Embedding&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#32-lstm&#34;&gt;3.2 LSTM&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#4-benchmark&#34;&gt;4. Benchmark&lt;/a&gt;
-      &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;#41-compare-with-test-benchmark&#34;&gt;4.1 Compare with test benchmark&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#42-the-impact-of-the-number-of-labels-on-accuracy&#34;&gt;4.2 The impact of the number of labels on accuracy&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#5-conclusion&#34;&gt;5. Conclusion&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#6-acknowledgments&#34;&gt;6. Acknowledgments&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#7-references&#34;&gt;7. References&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/nav&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; Protein Sequences, Deep learning&lt;/p&gt;
-&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;
-&lt;p&gt;The structure and function of a protein are determined by the amino acid sequence that composes it. The amino acid sequence can be regarded as a language composed of 4 different characters. In recent years, due to the development of deep learning, the ability of deep neural networks to process natural language has reached or even surpassed humans in some areas. In this project, we tried to treat the amino acid sequence as a language and use the existing deep learning model to analyze it to achieve the purpose of inferring its function.&lt;/p&gt;
-&lt;p&gt;The data sets used in the project come from Research Collaboratory for Structural Bioinformatics (RCSB) and Protein Data Bank (PDB)&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;p&gt;The data set contains approximately 400,000 amino acid sequences and has been labeled. The label is the family to which the protein belongs. The protein family includes HYDROLASE, HYDROLASE/HYDROLASE INHIBITOR, IMMUNE SYSTEM, LYASE, OXIDOREDUCTASE, etc. Therefore this problem can be regarded as a classification problem. The input of the model is a sequence, the length of the sequence is uncertain, and the output of the model is one of several categories.
-By comparing DNN, CNN, LSTM and other common models, we have achieved effective prediction of protein energy supply.&lt;/p&gt;
-&lt;h2 id=&#34;2-dataset&#34;&gt;2. Dataset&lt;/h2&gt;
-&lt;p&gt;PDB is a data set dedicated to the three-dimensional structure of proteins and nucleic acids. It has a very long history, dating back to 1971. In 2003, PDB developed into an international organization wwPDB. Other members of wwPDB, including PDBe (Europe), RCSB (United States), and PDBj (Japan) also provide PDB with a center for data accumulation, processing and release. Although PDB data is submitted by scientists from all over the world, each piece of data submitted will be reviewed and annotated by wwPDB staff, and whether the data is reasonable or not. The PDB and the software it provides are now free and open to the public.
-In the past few decades, the number of PDB structures has grown at an exponential rate.&lt;/p&gt;
-&lt;p&gt;Structural biologists around the world use methods such as X-ray crystallography, NMR spectroscopy, and cryo-electron microscopy to determine the position of each atom relative to each other in the molecule. Then they will submit this structural information, wwPDB will annotate it and publish it to the database publicly.&lt;/p&gt;
-&lt;p&gt;PDB supports searching for ribosomes, oncogenes, drug targets, and even the structure of the entire virus. However, the number of structures archived in the PDB is huge, and finding the information may be a difficult task.&lt;/p&gt;
-&lt;p&gt;The information in the PDB data set mainly includes: protein/nucleic acid source, protein/nucleic acid molecule composition, atomic coordinates, experimental methods used to determine the structure.
-Structural Protein Sequences Dataset: &lt;a href=&#34;https://www.kaggle.com/shahir/protein-data-set/code&#34;&gt;https://www.kaggle.com/shahir/protein-data-set/code&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Protein dataset classification: &lt;a href=&#34;https://www.kaggle.com/rafay12/anti-freeze-protein-classification&#34;&gt;https://www.kaggle.com/rafay12/anti-freeze-protein-classification&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;RCSB PDB: &lt;a href=&#34;https://www.rcsb.org/&#34;&gt;https://www.rcsb.org/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-357/main/project/images/fig4.png&#34; alt=&#34;Figure 1&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Figure 1:&lt;/strong&gt; Data set sample.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-357/main/project/images/fig1.png&#34; alt=&#34;Figure 2&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Figure 2:&lt;/strong&gt; The frequency of appearance of different labels.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-357/main/project/images/fig2.png&#34; alt=&#34;Figure 3&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Figure 3:&lt;/strong&gt; The length distribution of amino acid sequences.&lt;/p&gt;
-&lt;h2 id=&#34;3-deep-learning-algorithm&#34;&gt;3. Deep learning algorithm&lt;/h2&gt;
-&lt;p&gt;Two deep learning models, CNN and LSTM&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, are mainly used in this project. In addition, the Word Embedding algorithm is also used to preprocess the data.&lt;/p&gt;
-&lt;p&gt;Among these models, the CNN model comes from the Kaggle website&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; and will be used as a test benchmark. We will try to build a simpler but more accurate model with an accuracy rate of at least not lower than the test benchmark.&lt;/p&gt;
-&lt;h3 id=&#34;31-word-embedding&#34;&gt;3.1 Word Embedding&lt;/h3&gt;
-&lt;p&gt;A word embedding is a class of approaches for representing words and documents using a dense vector representation.&lt;/p&gt;
-&lt;p&gt;Iin an embedding, words are represented by dense vectors where a vector represents the projection of the word into a continuous vector space.&lt;/p&gt;
-&lt;p&gt;The position of a word within the vector space is learned from text and is based on the words that surround the word when it is used.&lt;/p&gt;
-&lt;p&gt;The position of a word in the learned vector space is referred to as its embedding.&lt;/p&gt;
-&lt;p&gt;Two popular examples of methods of learning word embeddings from text include: Word2Vec&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; and GloVe&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-357/main/project/images/embed.png&#34; alt=&#34;Figure 4&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Figure 4:&lt;/strong&gt; Word2Vec and GloVe.&lt;/p&gt;
-&lt;h3 id=&#34;32-lstm&#34;&gt;3.2 LSTM&lt;/h3&gt;
-&lt;p&gt;Recurrent Neural Network (RNN) is a neural network used to process sequence data. Compared with the general neural network, it can process the data of sequence changes. For example, the meaning of a word will have different meanings because of the different content mentioned above, and RNN can solve this kind of problem well.&lt;/p&gt;
-&lt;p&gt;Long short-term memory (LSTM) is a special kind of RNN, mainly to solve the problem of gradient disappearance and gradient explosion during long sequence training. Compared to ordinary RNN, LSTM can perform better in longer sequences.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-357/main/project/images/fig3.png&#34; alt=&#34;Figure 5&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Figure 5:&lt;/strong&gt; LSTM.&lt;/p&gt;
-&lt;h2 id=&#34;4-benchmark&#34;&gt;4. Benchmark&lt;/h2&gt;
-&lt;h3 id=&#34;41-compare-with-test-benchmark&#34;&gt;4.1 Compare with test benchmark&lt;/h3&gt;
-&lt;p&gt;&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; is a highly accurate model on the Kaggle website. It is currently one of the models with the highest accuracy on this data set.
-In this project, CNN model in &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; will be used as a test benchmark. We use categorical cross entropy as loss function.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Model&lt;/th&gt;
-&lt;th&gt;CNN&lt;/th&gt;
-&lt;th&gt;LSTM&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;#parameters&lt;/td&gt;
-&lt;td&gt;273,082&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;203,226&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Accuracy&lt;/td&gt;
-&lt;td&gt;91.6%&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;91.9%&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Training time&lt;/td&gt;
-&lt;td&gt;7ms/step&lt;/td&gt;
-&lt;td&gt;58ms/step&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Batch size&lt;/td&gt;
-&lt;td&gt;128&lt;/td&gt;
-&lt;td&gt;256&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Loss&lt;/td&gt;
-&lt;td&gt;0.4051&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;0.3292&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;Both the CNN model and the LSTM model use the word embedding layer for data dimensionality reduction. After testing, the result is that LSTM uses fewer parameters to achieve the same or even slightly higher accuracy than the benchmark. However, due to the relatively complex structure of LSTM, its training speed and guessing speed are slower.&lt;/p&gt;
-&lt;p&gt;In order to make a fair comparison with the test benchmark, we only selected the 10 most frequent samples as the data set, which is also the original author&amp;rsquo;s choice. Therefore, the accuracy of more than 90% here is only of relative significance, and does not mean that the same accuracy can be achieved in practical applications (the data set usually has more categories).&lt;/p&gt;
-&lt;h3 id=&#34;42-the-impact-of-the-number-of-labels-on-accuracy&#34;&gt;4.2 The impact of the number of labels on accuracy&lt;/h3&gt;
-&lt;p&gt;In order to further test the performance of LSTM on different data sets, we further increased the number of labels, gradually increasing from 10 labels to 20 labels. Figure 6 shows the effect of the number of labels on accuracy.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-357/main/project/images/AccuracyandLoss.png&#34; alt=&#34;Figure 6&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Figure 6:&lt;/strong&gt; The impact of the number of labels on accuracy.&lt;/p&gt;
-&lt;p&gt;Note that due to the limitation of the data set, the number of samples belonging to different labels is different. If we want to balance different categories, we have to shrink the data set, which will affect the accuracy. This is one of the limitations of this test.&lt;/p&gt;
-&lt;h2 id=&#34;5-conclusion&#34;&gt;5. Conclusion&lt;/h2&gt;
-&lt;p&gt;The deep learning model gives a prediction accuracy of more than 90% for the 10 most common protein types. If the number of label is increased to 20, the accuracy rate will drop to 80%.
-The traditional machine learning model is difficult to deal with string data of different lengths.&lt;/p&gt;
-&lt;h2 id=&#34;6-acknowledgments&#34;&gt;6. Acknowledgments&lt;/h2&gt;
-&lt;p&gt;The author would like to thank Dr. Gregor von Laszewski for his invaluable feedback on this paper, and Dr. Geoffrey Fox for sharing his expertise in Big Data applications throughout this course.&lt;/p&gt;
-&lt;h2 id=&#34;7-references&#34;&gt;7. References&lt;/h2&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;Sussman, Joel L., et al. &amp;ldquo;Protein Data Bank (PDB): database of three-dimensional structural information of biological macromolecules.&amp;rdquo; Acta Crystallographica Section D: Biological Crystallography 54.6 (1998): 1078-1084.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;Sundermeyer, Martin, Ralf Schlüter, and Hermann Ney. &amp;ldquo;LSTM neural networks for language modeling.&amp;rdquo; Thirteenth annual conference of the international speech communication association. 2012.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;Kaggle, Protein Sequence Classification. &lt;a href=&#34;https://www.kaggle.com/helmehelmuto/cnn-keras-and-innvestigate&#34;&gt;https://www.kaggle.com/helmehelmuto/cnn-keras-and-innvestigate&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:4&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;Church, Kenneth Ward. &amp;ldquo;Word2Vec.&amp;rdquo; Natural Language Engineering 23.1 (2017): 155-162.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:5&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;Pennington, Jeffrey, Richard Socher, and Christopher D. Manning. &amp;ldquo;Glove: Global vectors for word representation.&amp;rdquo; Proceedings of the 2014 conference on empirical methods in natural language processing (EMNLP). 2014.&amp;#160;&lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
