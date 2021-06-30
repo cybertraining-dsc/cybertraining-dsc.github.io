@@ -1,7 +1,9 @@
 ---
 title: "REU 2021"
 linkTitle: "REU 2021"
-menu: "REU Lectures"
+menu:
+  main: 
+  weight: 1
 weight: 8
 date: 2021-06-17
 description: >
