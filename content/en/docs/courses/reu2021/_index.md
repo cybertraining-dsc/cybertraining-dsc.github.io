@@ -1,5 +1,5 @@
 ---
-title: "REU 2021"
+title: "2021 REU Course"
 linkTitle: "2021 REU Course"
 menu:
   main: 
