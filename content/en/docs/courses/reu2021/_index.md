@@ -426,6 +426,23 @@ Video: Datasets for Projects: Data world and Kaggle
 Video: Datasets for Projects: Data world and Kaggle part 2
 {{< /view_module >}}
 
+## COVID-19
+
+
+{{< view_module
+	alt="Covid-19"
+	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
+	url=""
+	>}}
+
+* [Yedjou CG, Alo RA, Liu J, et al. Chemo-Preventive Effect of Vegetables and Fruits Consumption on the COVID-19 Pandemic. J Nutr Food Sci. 2021;4(2):029](https://www.henrypublishinggroups.com/wp-content/uploads/2021/03/chemo-preventive-effect-of-vegetables-and-fruits-consumption-on-the-covid-19-pandemic.pdf)
+* [Geoffrey C. Fox, Gregor von Laszewski, Fugang Wang, Saumyadipta Pyne,
+AICov: An Integrative Deep Learning Framework for COVID-19 Forecasting
+with Population Covariates, J. data sci. 19(2021), no. 2, 293-313,
+DOI 10.6339/21-JDS1007](https://jds-online.org/journal/JDS/article/124/info)
+
+{{< /view_module >}}
+
 
 
 
