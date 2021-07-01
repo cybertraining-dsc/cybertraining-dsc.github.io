@@ -1,11 +1,0 @@
---2021-06-17 15:22:29--  https://en.wikipedia.org/wiki/Florida_A%26M_University
-Resolving en.wikipedia.org (en.wikipedia.org)... 208.80.154.224
-Connecting to en.wikipedia.org (en.wikipedia.org)|208.80.154.224|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 254112 (248K) [text/html]
-Saving to: ‘Florida_A&M_University’
-
-Florida_A&M_Univers   0%[                    ]       0  --.-KB/s               Florida_A&M_Univers  76%[==============>     ] 190.30K   936KB/s               Florida_A&M_Univers 100%[===================>] 248.16K  1.04MB/s    in 0.2s    
-
-2021-06-17 15:22:29 (1.04 MB/s) - ‘Florida_A&M_University’ saved [254112/254112]
-
