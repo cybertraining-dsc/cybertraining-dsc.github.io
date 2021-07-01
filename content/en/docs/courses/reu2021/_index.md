@@ -51,12 +51,14 @@ Python is a great languge for doing data science and AI, a comprehensive list of
 ## Installation of Python 
 
 {{< view_module
-	alt="Instalation of Python"
+	alt="Installation of Python"
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/sYmQTUXnQBoBcyET1nXEJduHb-5ahJrwiZrY5BHYuBOKSqMNW9B1uvx-l--Q1-qI.VTBZh7RhO6D-nlMe"
 >}}
 
 Installation of Python
+
+June 7th, 2021 (AM)
 
 {{< /view_module >}}
 
