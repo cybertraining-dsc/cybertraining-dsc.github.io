@@ -14,6 +14,7 @@
 &lt;li>&lt;a href="#data-science-tools">Data Science Tools&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#ai-first-engineering">AI First Engineering&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#datasets-for-projects">Datasets for Projects&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#covid-19">COVID-19&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/nav>
 &lt;/div>
@@ -743,6 +744,29 @@ Video: Datasets for Projects: Data world and Kaggle
 &lt;td>
 &lt;a href="https://famu.zoom.us/rec/share/gDJ5eMu8Cf-9cBSRwUBE5RCSa3uTdhmyGCpoCudp9qz7GNmuS2kMArgm5KyqHkdb.8kukumc7i2N0hNSk">
 Video: Datasets for Projects: Data world and Kaggle part 2
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h2 id="covid-19">COVID-19&lt;/h2>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="">
+&lt;img alt="Covid-19" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="">
+* [Yedjou CG, Alo RA, Liu J, et al. Chemo-Preventive Effect of Vegetables and Fruits Consumption on the COVID-19 Pandemic. J Nutr Food Sci. 2021;4(2):029](https://www.henrypublishinggroups.com/wp-content/uploads/2021/03/chemo-preventive-effect-of-vegetables-and-fruits-consumption-on-the-covid-19-pandemic.pdf)
+* [Geoffrey C. Fox, Gregor von Laszewski, Fugang Wang, Saumyadipta Pyne,
+AICov: An Integrative Deep Learning Framework for COVID-19 Forecasting
+with Population Covariates, J. data sci. 19(2021), no. 2, 293-313,
+DOI 10.6339/21-JDS1007](https://jds-online.org/journal/JDS/article/124/info)
 &lt;/a>
 &lt;/td>
 &lt;/tr>
