@@ -426,6 +426,16 @@ Video: Datasets for Projects: Data world and Kaggle
 Video: Datasets for Projects: Data world and Kaggle part 2
 {{< /view_module >}}
 
+## Machine Learning Models
+
+{{< view_module
+	alt="K-Means: Unsupervised model"
+	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
+	url="https://famu.zoom.us/rec/share/NtVais7sUCs5pkVafM-kLvtAVaxZPdiWhDiVb-mM4Qj8GU5JOEiRnnGxFUCWp7TU.CIYmC4Ye50geYk9d"
+	>}}
+Video: K-Means: Unsupervised model
+{{< /view_module >}}
+
 ## COVID-19
 
 
@@ -444,8 +454,6 @@ Lecture to be published
 AICov: An Integrative Deep Learning Framework for COVID-19 Forecasting
 with Population Covariates, J. data sci. 19(2021), no. 2, 293-313,
 DOI 10.6339/21-JDS1007](https://jds-online.org/journal/JDS/article/124/info)
-
-
 
 
 
