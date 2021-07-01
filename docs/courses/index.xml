@@ -14,6 +14,7 @@
 &lt;li>&lt;a href="#data-science-tools">Data Science Tools&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#ai-first-engineering">AI First Engineering&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#datasets-for-projects">Datasets for Projects&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#machine-learning-models">Machine Learning Models&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#covid-19">COVID-19&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/nav>
@@ -744,6 +745,25 @@ Video: Datasets for Projects: Data world and Kaggle
 &lt;td>
 &lt;a href="https://famu.zoom.us/rec/share/gDJ5eMu8Cf-9cBSRwUBE5RCSa3uTdhmyGCpoCudp9qz7GNmuS2kMArgm5KyqHkdb.8kukumc7i2N0hNSk">
 Video: Datasets for Projects: Data world and Kaggle part 2
+&lt;/a>
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h2 id="machine-learning-models">Machine Learning Models&lt;/h2>
+&lt;table>
+&lt;colgroup>
+&lt;col style="width:15%;background-color:white">
+&lt;col style="width:100%;background-color:light-grey">
+&lt;/colgroup>
+&lt;tr>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/NtVais7sUCs5pkVafM-kLvtAVaxZPdiWhDiVb-mM4Qj8GU5JOEiRnnGxFUCWp7TU.CIYmC4Ye50geYk9d">
+&lt;img alt="K-Means: Unsupervised model" src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"/>
+&lt;/a>
+&lt;/td>
+&lt;td>
+&lt;a href="https://famu.zoom.us/rec/share/NtVais7sUCs5pkVafM-kLvtAVaxZPdiWhDiVb-mM4Qj8GU5JOEiRnnGxFUCWp7TU.CIYmC4Ye50geYk9d">
+Video: K-Means: Unsupervised model
 &lt;/a>
 &lt;/td>
 &lt;/tr>
