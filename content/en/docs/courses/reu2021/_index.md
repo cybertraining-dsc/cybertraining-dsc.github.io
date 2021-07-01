@@ -444,10 +444,9 @@ Video: K-Means: Unsupervised model
 {{< view_module
 	alt="Covid-19"
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
-	url=""
+	url="https://famu.zoom.us/rec/share/56qZts4aTPfkY8bY-W4CIayagQt_j_MaJgohgNDyhH4MLGbE42ZXQpdCibQUSRbH.N364O4kURoydDkm6"
 	>}}
-
-Lecture to be published
+Video: Chemo-Preventive Effect of Vegetables and Fruits Consumption on the COVID-19 Pandemic
 
 {{< /view_module >}}
 
