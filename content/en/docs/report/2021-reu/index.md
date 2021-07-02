@@ -168,7 +168,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="TBD"
+  title="Detection of Autism in Children from a Facial Image using AI"
   hid="su21-reu-379"
   author="Carrington Kee"
   %}}
