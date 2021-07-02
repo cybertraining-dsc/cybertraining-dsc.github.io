@@ -2255,14 +2255,14 @@ the download function.&lt;/li>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report: Project: Object Recognition</title><link>/report/su21-reu-364/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-364/project/</guid><description>
+&lt;/section></description></item><item><title>Report: Project: Hand Tracking with AI</title><link>/report/su21-reu-364/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-364/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-364/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-364/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-364/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-364/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: final, Type: Project&lt;/p>
 &lt;p>David Umanzor, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-364">su21-reu-364&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-364/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>In this project we are studying the ability of AI to recognize and tag objects or subjects from a photo with accuracy&lt;/p>
+&lt;p>In this project we study the ability of an AI to recognize and track hand positions with a raspberry PI 4 with 8 GB of ram and 64 GB of storage.&lt;/p>
 &lt;p>Contents&lt;/p>
 &lt;div class="toc">
 &lt;nav id="TableOfContents">
@@ -2279,15 +2279,15 @@ Status: final, Type: Project&lt;/p>
 &lt;/nav>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> ai, object recognition, image processing, computer vision.&lt;/p>
+&lt;p>&lt;strong>Keywords:&lt;/strong> ai, object recognition, image processing, computer vision, hand tracking.&lt;/p>
 &lt;h2 id="1-introduction">1. Introduction&lt;/h2>
 &lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Find liturature about image processing aand object recognition.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Analyze liturature &amp;amp; explain how this relates.&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Find liturature about image processing aand object recognition.&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Analyze liturature &amp;amp; explain how this relates.&lt;/li>
 &lt;/ul>
 &lt;h2 id="2-data-sets">2. Data Sets&lt;/h2>
 &lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Collect image sets for the AI to recognize.&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Collect image sets for the AI to recognize.&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> What do these data sets specify.&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> What are the challenges with Object Recognition? Accuracy.&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> Datasets can be huge and GitHub has lmited space. Only very small datasets should be stored in GitHub.
@@ -2332,7 +2332,7 @@ the first square bracket.&lt;/li>
 &lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:2" role="doc-endnote">
-&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh CommonH Library, [GitHub]
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
@@ -2422,11 +2422,14 @@ the first square bracket.&lt;/li>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-312/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-312/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> syntax for refences wron, see original example&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> never ever use the word I or my in your report&lt;/li>
+&lt;/ul>
 &lt;p>Zyion Morris, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374">su21-reu-374&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/edit/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
-&lt;p>Contents&lt;/p>
 &lt;div class="toc">
 &lt;nav id="TableOfContents">
 &lt;ul>
@@ -2443,23 +2446,27 @@ Status: draft, Type: Project&lt;/p>
 &lt;/div>
 &lt;p>&lt;strong>Keywords:&lt;/strong> AI, ML, DL, Cybersecurity, Cyber Attacks, IoT.&lt;/p>
 &lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> ass tasks&lt;/li>
-&lt;/ul>
+&lt;p>-[ ] do not indnt&lt;/p>
+&lt;p>&lt;del>My&lt;/del> first research on AI Time analysis includes query on stock market data stucture.
+The mean (level), maximum, minimum values; Time Series Data Components - trend, seasonality, noise or randomness, a curve, and the level.
+Blockchain levies to be the coin flip of how Artificial Intellignece predicts future prices through machine learning.
+numpy, matplotlib, pandas, cloudmesh-common, cloudmesh-cmd5s, are codes existing that demonstrate the use of blockchain with AI using Python.
+What is the code in this project that will be developed?
+What is the performance of this code?
+What is my conclusion?
+Never, ever use the words ‘I’ or ‘my’ in a report&lt;/p>
 &lt;h2 id="2-datasets">2. Datasets&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> add tasks&lt;/li>
-&lt;/ul>
+&lt;p>This report pertains a .CSV file of a dataset predicting the consumption of electricity in the coming future. &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/files/6743411/archive.zip">archive.zip&lt;/a>&lt;/p>
 &lt;h2 id="3-using-images">3. Using Images&lt;/h2>
 &lt;ul>
 &lt;li>&lt;input disabled="" type="checkbox"> Place a cool image into projects images in my directory&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> Correct the following link, replace the fa number with my su number and thne chart of png.&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> If the image has been copied, you must use a reference such as shown in the Figure 1 caption.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-374/raw/main/project/images/image.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them [^1].&lt;/p>
 &lt;h2 id="4-benchmark">4. Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]&lt;/p>
 &lt;h2 id="5-conclusion">5. Conclusion&lt;/h2>
 &lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
 &lt;h2 id="6-acknowledgments">6. Acknowledgments&lt;/h2>
@@ -2470,19 +2477,10 @@ Status: draft, Type: Project&lt;/p>
 &lt;li>Carlos Theran&lt;/li>
 &lt;/ul>
 &lt;h2 id="7-references">7. References&lt;/h2>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Use of energy explained - Energy use in homes, [Online resource]
-&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
-&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: Aquatic Toxicity Analysis with the aid of Autonomous Surface Vehicle (ASV)</title><link>/report/fa20-523-312/project/project/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/fa20-523-312/project/project/</guid><description>
+&lt;p>-[ ] refernce syntax wrong see original example&lt;/p>
+&lt;p>&amp;lt;Marco Iansiti and Karim R. Lakhani, The Truth About Blockchain, [Online resource] &lt;a href="https://hbr.org/2017/01/the-truth-about-blockchain%3E">https://hbr.org/2017/01/the-truth-about-blockchain&amp;gt;&lt;/a>&lt;/p>
+&lt;p>&amp;lt;Jeremy Swinfen Green, Understanding cryptocurrency market fluctuations, [Online resource] &lt;a href="https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/%3E">https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/&amp;gt;&lt;/a>&lt;/p>
+&lt;p>&amp;lt;Mehmet Tarik Akcay, Historical Data for Top 20 Coins by Market Cap, [Online resource] &lt;a href="https://www.kaggle.com/mtakcy/historical-data-for-top-20-coins-by-market-cap?select=eos.csv%3E">https://www.kaggle.com/mtakcy/historical-data-for-top-20-coins-by-market-cap?select=eos.csv&amp;gt;&lt;/a>&lt;/p></description></item><item><title>Report: Aquatic Toxicity Analysis with the aid of Autonomous Surface Vehicle (ASV)</title><link>/report/fa20-523-312/project/project/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/fa20-523-312/project/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/fa20-523-312/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-312/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/fa20-523-312/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-312/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: final, Type: Project&lt;/p>

@@ -87,17 +87,21 @@ sign in with your JetBrains account after receiving this email. Click &lt;code>A
 &lt;div class="toc">
 &lt;nav id="TableOfContents">
 &lt;ul>
+&lt;li>&lt;a href="#windows">Windows&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#mac">Mac&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#linux">Linux&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#troubleshooting">Troubleshooting&lt;/a>
+&lt;ul>
 &lt;li>&lt;a href="#incorrect-python-version-on-command-prompt">Incorrect Python Version on Command Prompt&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul>
 &lt;/nav>
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Keywords:&lt;/strong> python&lt;/p>
-&lt;h1 id="steps">Steps&lt;/h1>
-&lt;p>Click the following image to be redirected to a 2 minute YouTube walkthrough.&lt;/p>
-&lt;div align="left">
-&lt;a href="https://www.youtube.com/watch?v=T6UYyu5XVMc">&lt;img src="https://img.youtube.com/vi/T6UYyu5XVMc/0.jpg" alt="IMAGE ALT TEXT">&lt;/a>
-&lt;/div>
+&lt;h2 id="windows">Windows&lt;/h2>
+&lt;p>Click the following image to be redirected to a 2-minute YouTube walkthrough.&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://www.youtube.com/embed/T6UYyu5XVMc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
@@ -166,638 +170,158 @@ sign in with your JetBrains account after receiving this email. Click &lt;code>A
 &lt;/ol>
 &lt;/li>
 &lt;li>
-&lt;p>Type &lt;code>python --version&lt;/code> and the output should read &amp;ldquo;Python x.x.x&amp;rdquo;; as long as it is the latest version from the website, congratulations. Python is installed on the computer.&lt;/p>
+&lt;p>Type &lt;code>python --version&lt;/code> and the output should read &amp;ldquo;Python x.x.x&amp;rdquo;; as long as it is the latest version from the website, congratulations. Python is installed on the computer.
+&lt;br>
+ &lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;h1 id="troubleshooting">Troubleshooting&lt;/h1>
-&lt;h2 id="incorrect-python-version-on-command-prompt">Incorrect Python Version on Command Prompt&lt;/h2>
-&lt;p>If the computer has installed an older version of Python, running &lt;code>python --version&lt;/code> on Command Prompt may output an older version. Typing &lt;code>python3 --version&lt;/code> may output the correct, latest version.&lt;/p></description></item><item><title>Report: Project: Detection of Autism in Children from a Facial Image using AI</title><link>/report/su21-reu-378/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-378/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: draft, Type: Project&lt;/p>
-&lt;p>Myra Saunders, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378">su21-reu-378&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Analyzing facial images to detect Autism in children.&lt;/p>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Add brief summary that explains what my project is about.&lt;/li>
-&lt;/ul>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-using-images">2. Using Images&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-using-itemized-lists-only-where-needed">3. Using itemized lists only where needed&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-datasets">4. Datasets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-benchmark">5. Benchmark&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#7-acknowledgments">7. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-references">8. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
+&lt;h2 id="mac">Mac&lt;/h2>
+&lt;p>Click the following image to be redirected to a 5-minute YouTube walkthrough. (Yes, Mac&amp;rsquo;s video is a little longer, but do not fret!
+You can skip to the 1:00 minute mark if you are in a hurry.)&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/TttmzM-EDmk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> Autism, Facial Analysis.&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Add General Introduction about Autism.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Briefly explain the topic of my report (Detection of autism in children using a facial image).&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> State how AI will be applied/used.&lt;/li>
-&lt;/ul>
-&lt;h2 id="2-using-images">2. Using Images&lt;/h2>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="3-using-itemized-lists-only-where-needed">3. Using itemized lists only where needed&lt;/h2>
-&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
 &lt;ol>
-&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
-&lt;li>When using bulleted lists use * and not -&lt;/li>
-&lt;/ol>
-&lt;h2 id="4-datasets">4. Datasets&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Querying the dataset autism prevalence studies summary with an area of three cities @data.world&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Find a similar dataset in kaggle.com&lt;/li>
-&lt;/ul>
-&lt;h2 id="5-benchmark">5. Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
-&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
-&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
-&lt;h2 id="7-acknowledgments">7. Acknowledgments&lt;/h2>
-&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
-&lt;h2 id="8-references">8. References&lt;/h2>
-&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
-one point automatically change the references from superscript to square brackets it is best to introduce a space before
-the first square bracket.&lt;/p>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Use of energy explained - Energy use in homes, [Online resource]
-&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
-&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: Cyber Attacks Detection Using AI Algorithms</title><link>/report/su21-reu-365/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-365/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-365/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-365/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-365/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-365/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: draft, Type: Project&lt;/p>
-&lt;p>Victor Adankai, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-365">su21-reu-365&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>
-&lt;ul>
 &lt;li>
-&lt;ul>
-&lt;li>&lt;a href="#types-of-cyber-attacks">Types of Cyber Attacks&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#examples-of-ai-algorithms-for-cyber-attacks-detection">Examples of AI Algorithms for Cyber Attacks Detection&lt;/a>&lt;/li>
-&lt;/ul>
+&lt;p>Open a web browser that is able to search and download a file. This tutorial uses Google Chrome for Mac.
+&lt;br>
+ &lt;/p>
 &lt;/li>
-&lt;/ul>
+&lt;li>
+&lt;p>Type in &lt;code>python&lt;/code> in the address bar and press enter. It should perform a search on your default search engine.
+&lt;br>
+ &lt;/p>
 &lt;/li>
-&lt;li>&lt;a href="#2-datasets">2. Datasets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-benchmark">4. Benchmark&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-conclusion">5. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-acknowledgments">6. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#7-references">7. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> AI, ML, DL, Cybersecurity, Cyber Attacks.&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;ul>
-&lt;li>Find literature about AI and Cyber Attacks on IoT Devices Dectection.&lt;/li>
-&lt;li>Analyze the literature and explain how AI for Cyber Attacks on IOT Devices Detection are beneficial.&lt;/li>
-&lt;/ul>
-&lt;h4 id="types-of-cyber-attacks">Types of Cyber Attacks&lt;/h4>
-&lt;ul>
-&lt;li>Denial of service (DoS) Attack:&lt;/li>
-&lt;li>Remote to Local Attack:&lt;/li>
-&lt;li>Probing:&lt;/li>
-&lt;li>User to Root Attack:&lt;/li>
-&lt;li>Adversarial Attacks:&lt;/li>
-&lt;li>Poisoning Attack:&lt;/li>
-&lt;li>Evasion Attack:&lt;/li>
-&lt;li>Integrity Attack:&lt;/li>
-&lt;li>Malware Attack:&lt;/li>
-&lt;li>Phising Attack:&lt;/li>
-&lt;li>Zero Day Attack:&lt;/li>
-&lt;li>Sinkhole Attack:&lt;/li>
-&lt;li>Causative Attack:&lt;/li>
-&lt;/ul>
-&lt;h4 id="examples-of-ai-algorithms-for-cyber-attacks-detection">Examples of AI Algorithms for Cyber Attacks Detection&lt;/h4>
-&lt;ul>
-&lt;li>Convolutional Neural Network (CNN)&lt;/li>
-&lt;li>Autoencoder (AE)&lt;/li>
-&lt;li>Deep Belief Network (DBN)&lt;/li>
-&lt;li>Recurrent Neural Network (RNN)&lt;/li>
-&lt;li>Generative Adversal Network (GAN)&lt;/li>
-&lt;li>Deep Reinforcement Learning (DIL)&lt;/li>
-&lt;/ul>
-&lt;h2 id="2-datasets">2. Datasets&lt;/h2>
-&lt;ul>
-&lt;li>Finding data sets in IoT Devices Cyber Attacks.&lt;/li>
-&lt;li>Can any of the data sets be used in AI?&lt;/li>
-&lt;li>What are the challenges with IoT Devices Cyber Attacks data set? Privacy, HIPPA, Size, Avalibility&lt;/li>
-&lt;li>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
-However, if the data is publicly available you program must contain a download function instead that you customize.
-Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
-the download function.&lt;/li>
-&lt;/ul>
-&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
-&lt;ul>
-&lt;li>Place a cool image into projects images in my directory&lt;/li>
-&lt;li>Correct the following link, replace the fa number with my su number and thne chart of png.&lt;/li>
-&lt;li>If the image has been copied, you must use a reference such as shown in the Figure 1 caption.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="4-benchmark">4. Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]&lt;/p>
-&lt;h2 id="5-conclusion">5. Conclusion&lt;/h2>
-&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
-&lt;h2 id="6-acknowledgments">6. Acknowledgments&lt;/h2>
-&lt;ul>
-&lt;li>Gregor von Laszewski&lt;/li>
-&lt;li>Yohn Jairo Bautista&lt;/li>
-&lt;li>Carlos Theran&lt;/li>
-&lt;/ul>
-&lt;h2 id="7-references">7. References&lt;/h2>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
+&lt;li>
+&lt;p>Look for the result that is from &lt;code>python.org&lt;/code>. Click on the subresult that says &lt;code>Downloads&lt;/code>.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Underneath &lt;code>Download the latest version for Mac OS X&lt;/code>, there should be a yellow button that reads &lt;code>Download Python x.x.x&lt;/code>. Click on it, and the download should commence.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Once the download finishes, open it by clicking on it. The installer will open. Click &lt;code>Continue&lt;/code>, click &lt;code>Continue&lt;/code> again, click &lt;code>Continue&lt;/code> again, oh my goodness!
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Agree&lt;/code>.&lt;/p>
 &lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
-&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;li>If you want to check how much free storage you have on your computer, click the Apple icon in the top left of your computer. Click
+&lt;code>About This Mac&lt;/code> and then click on &lt;code>Storage&lt;/code>. As of July 2021, Python takes ~120 MB of space. Remember that 1 GB = 1000 MB.
+&lt;br>
+ &lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Install&lt;/code>. Enter your password and press Enter. Watch the blue progress bar crawl like a turtle&amp;hellip; or blast off at the speed of sound! This depends on your computer speed.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>A Finder window will open. You can close it as it is unnecessary. Click &lt;code>Close&lt;/code> in the bottom-right of the installer. Click &lt;code>Move to Trash&lt;/code> because you do not need the installer anymore.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Time to confirm that Python installed correctly. Click the magnifying glass in the top-right of your screen and then type &lt;code>terminal&lt;/code> into Spotlight Search. Double-click &lt;code>Terminal&lt;/code>.&lt;/p>
+&lt;ol>
+&lt;li>The terminal will be used frequently in this experiment. Consider keeping it in the dock for convenience. Click and hold the Terminal in the dock, go to &lt;code>Options&lt;/code>, and click &lt;code>Keep in Dock&lt;/code>.
+&lt;br>
+ &lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Type &lt;code>python3 --version&lt;/code> into the terminal and press Enter. It should output the latest version of Python. Congratulations!
+&lt;br>
+ &lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report: Dentronics: Artifical intelligence in dentistry</title><link>/report/su21-reu-376/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-376/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-376/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-376/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: draft, Type: Project&lt;/p>
-&lt;p>Jamyla Young, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-376">su21-reu-376&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-data-sets">2. Data sets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-example-of-an-ai-algorithm-in-dentronics">5. Example of an AI algorithm in Dentronics&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#7-conclusion">7. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
+&lt;h2 id="linux">Linux&lt;/h2>
+&lt;p>Click the following image to be redirected to a 9-minute YouTube walkthrough. (Linux&amp;rsquo;s tutorial is the longest, but it is worth it.)
+This tutorial uses Ubuntu, but it should work on other Linux distros, as well.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/TttmzM-EDmk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> Dentronics, neural pathways, prosthodotics.&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Find literature about Dentronics and its effects&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Analyze the literature&lt;/li>
-&lt;/ul>
-&lt;h2 id="2-data-sets">2. Data sets&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Find data sets about effects about dentronics&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Identify the purpose of data sets&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> What are the challenges with Dentronics data sets? HIPPA, size, availibility&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub. However, if the data is publicly available you program must contain a download function instead that you customize.
-Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
-the download function.&lt;/li>
-&lt;/ul>
-&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Place a cool image into projects images in my directory&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Correct the following, replace the fa number with my su number and the chart of png&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> if image is copied , you must use a reference such as shown in the Figure 1 caption&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> list&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="5-example-of-an-ai-algorithm-in-dentronics">5. Example of an AI algorithm in Dentronics&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete data set that will be used&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete algorithm that is used to anaylze the data set&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Write the program&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Verify that it works&lt;/li>
-&lt;/ul>
-&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
-&lt;h2 id="7-conclusion">7. Conclusion&lt;/h2>
-&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
-&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Gregor helped me&lt;/li>
-&lt;/ul>
-&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
-&lt;h2 id="9-references">9. References&lt;/h2>
-&lt;p>-[ ] Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at one point automatically change the references from superscript to square brackets it is best to introduce a space before the first square bracket.&lt;/p>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
 &lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Use of energy explained - Energy use in homes, [Online resource]
-&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;li>
+&lt;p>Open a web browser. It can be any browser as long as it can perform a search and navigate to a webpage.
+&lt;br>
+ &lt;/p>
 &lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
-&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;li>
+&lt;p>Search for &lt;code>python&lt;/code> by typing it into the address bar and pressing enter. Click on &lt;code>Downloads&lt;/code> underneath the result from &lt;code>https://www.python.org&lt;/code>.
+&lt;br>
+ &lt;/p>
 &lt;/li>
+&lt;li>
+&lt;p>Look at the latest version. It is on the yellow button: &lt;code>Download Python x.x.x&lt;/code>. You do not need to click this button. Remember this version number.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Open a terminal by pressing the Windows key, or by clicking the grid on the bottom left of your screen. Type &lt;code>terminal&lt;/code>. Click on the &lt;code>Terminal&lt;/code> result that appears.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Type &lt;code>sudo apt-get update&lt;/code> and press Enter. Wait for it to finish. It may already be up-to-date.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Type &lt;code>sudo apt-get install libssl-dev openssl make gcc&lt;/code> and press Enter. This will install the libraries required to connect to an FTP to download Python. Type your password for your Linux user account, if prompted, and press Enter.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You are then asked if you are okay with a certain amount of disk space being taken up. Type &lt;code>y&lt;/code>, which stands for Yes, and then press Enter.&lt;/p>
+&lt;ol>
+&lt;li>If you want to check how much disk space you have, press the Files icon on the left (on the taskbar) and click &lt;code>Other Locations&lt;/code>. You may have to scroll down on the sidebar in order to see it. It should say how much GB is available. Remember, 1 GB = 1000 MB and 1 MB = 1000 KB.
+&lt;br>
+ &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report: Analyzing Price Changes on the Electro-Optical System Blockchain</title><link>/report/su21-reu-361/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-361/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-361/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: draft, Type: Project&lt;/p>
-&lt;p>Jacques Fleischer, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-361">su21-reu-361&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Blockchain-based cryptocurrency is a popular investment of today&amp;rsquo;s age. However, the U.S. Securities and Exchange Commission warns that high-risk accompanies these investments[^1]. This project applies machine learning and Artificial Intelligence (AI) to historical records of these coins to predict future prices; this aims to minimize investment risk.&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#to-do">To-do&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#tutorials">Tutorials&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-datasets">2. Datasets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-benchmark">4. Benchmark&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-conclusion">5. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-acknowledgments">6. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#7-references">7. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> cryptocurrency, investing, business, blockchain.&lt;/p>
-&lt;h2 id="to-do">To-do&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> My first research on blockchain&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> Add blockchain explanation to introduction&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> What does blockchain have to do with AI?&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> What codes exist that demonstrate the use of blockchain with AI using Python?&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> What is the code in this project that will be developed?&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> What is the performance of this code?&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> What is my conclusion?&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Never, ever use the words &amp;lsquo;I&amp;rsquo; or &amp;lsquo;my&amp;rsquo; in a report&lt;/li>
-&lt;/ul>
-&lt;h2 id="tutorials">Tutorials&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> Install software Visual Studio Code (create video tutorial or written instructions)&lt;/li>
-&lt;/ul>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Blockchain is &amp;ldquo;an open, distributed ledger&amp;rdquo; which records transactions of cryptocurrency. It is decentralized, which means that these transactions are shared and distributed among all participants on the blockchain for maximum accountability. Furthermore, this new &amp;ldquo;blockchain&amp;rdquo; technology is becoming an increasingly popular alternative to mainstream transactions through traditional banks&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>An attractive new invention such as blockchain is a particularly desirable investment opportunity. However, its severe volatility can scare away possible investors; in 2017, one Bitcoin was worth $1,000 USD; a year later, its value multiplied by 20; and just a few months later, it decreased back down to $5,000&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>Artificial intelligence will be applied in this experiment to predict the future price of blockchain cryptocurrencies on the Electro-Optical System.&lt;/p>
-&lt;h2 id="2-datasets">2. Datasets&lt;/h2>
-&lt;p>This project utilizes a .csv file containing the historical prices of the EOS coin from the first day of its inception on 1 July 2017, to the last scraped day 12 December 2020&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>. From this data, the project will attempt to predict the prices from the end date until the present day.&lt;/p>
-&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/eos_price.png" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Line graph of EOS price from 1 July 2017 til 12 December 2020. Generated using timeseries_generator.ipynb located in project/code.&lt;/p>
-&lt;h2 id="4-benchmark">4. Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common&lt;/p>
-&lt;h2 id="5-conclusion">5. Conclusion&lt;/h2>
-&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
-&lt;h2 id="6-acknowledgments">6. Acknowledgments&lt;/h2>
-&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
-&lt;h2 id="7-references">7. References&lt;/h2>
-&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
-one point automatically change the references from superscript to square brackets it is best to introduce a space before
-the first square bracket.&lt;/p>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Marco Iansiti and Karim R. Lakhani, The Truth About Blockchain, [Online resource]
-&lt;a href="https://hbr.org/2017/01/the-truth-about-blockchain">https://hbr.org/2017/01/the-truth-about-blockchain&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>Jeremy Swinfen Green, Understanding cryptocurrency market fluctuations, [Online resource]
-&lt;a href="https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/">https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;li>
+&lt;p>After this finishes, type &lt;code>cd /opt&lt;/code> and press Enter. Then, remember which version you read on the Python webpage (the latest version). Type &lt;code>sudo wget https://www.python.org/ftp/python/x.x.x/Python-x.x.x.tgz&lt;/code> after replacing the &lt;code>x.x.x&lt;/code> with the latest Python version number. As of July 2021, it is &lt;code>3.9.6&lt;/code>. Press Enter.
+&lt;br>
+ &lt;/p>
 &lt;/li>
-&lt;li id="fn:3" role="doc-endnote">
-&lt;p>Mehmet Tarik Akcay, Historical Data for Top 20 Coins by Market Cap, [Online resource]
-&lt;a href="https://www.kaggle.com/mtakcy/historical-data-for-top-20-coins-by-market-cap?select=eos.csv">https://www.kaggle.com/mtakcy/historical-data-for-top-20-coins-by-market-cap?select=eos.csv&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;li>
+&lt;p>Wait for the download to complete. Then, type &lt;code>sudo tar xzvf Python-x.x.x.tgz&lt;/code> after you replace &lt;code>x.x.x&lt;/code> with the latest Python version number. Press Enter.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Type &lt;code>cd Python-x.x.x&lt;/code> after replacing &lt;code>x.x.x&lt;/code> with the latest version number. Type &lt;code>./configure&lt;/code> and press Enter.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Once it finishes, type &lt;code>make&lt;/code> and press Enter. Once &lt;em>that&lt;/em> finishes, type &lt;code>sudo make install&lt;/code> and press Enter.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Once the installation finishes, type &lt;code>sudo ln -fs /opt/Python-x.x.x/Python /usr/bin/pythonx.x&lt;/code>. Notice that &lt;code>x.x.x&lt;/code> should be replaced with the full version number and &lt;code>x.x&lt;/code> should have the first two numbers in the version number. Press Enter.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Confirm Python&amp;rsquo;s successful installation by typing &lt;code>pythonx.x --version&lt;/code>; be sure to replace x.x with the first two numbers of the version number. It should output the latest version number. Congratulations!
+&lt;br>
+ &lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report:</title><link>/report/hid-example/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/hid-example/project/</guid><description>
-&lt;p>Fix the links: and than remove this line&lt;/p>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/hid-example/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/hid-example/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: draft, Type: Project&lt;/p>
-&lt;p>Fix the links: and than remove this line&lt;/p>
-&lt;p>Gregor von Laszewski, &lt;a href="https://github.com/cybertraining-dsc/hid-example/">hid-example&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Do not include this tip in your document:&lt;/p>
-&lt;blockquote>
-&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/blockquote>
-&lt;p>Here comes a convincing introduction to the problem&lt;/p>
-&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
-&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
-set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
-bound into cybertraining.&lt;/p>
-&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
-&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
-Thus the following is wrong:&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-This author does ignore proper markdown while not using empty lines between context changes
-1. This is because this author ignors all best practices
-&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-We do not ignore proper markdown while using empty lines between context changes
-1. This is because we encourage best practices to cause issues.
-&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
-&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
-We will not review any document that does not pass this check.&lt;/p>
-&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
-&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
-comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
-&lt;ol>
-&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
-&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
-&lt;/ol>
-&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
-&lt;p>You have two choices for the final project.&lt;/p>
-&lt;ol>
-&lt;li>Project, That is a final report that includes code.&lt;/li>
-&lt;li>Report, that is a final project without code.&lt;/li>
-&lt;/ol>
-&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
-at the beginning of your project.&lt;/p>
-&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
-&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
-&lt;ol>
-&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
-&lt;li>When using bulleted lists use * and not -&lt;/li>
-&lt;/ol>
-&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
-&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
-However, if the data is publicly available you program must contain a download function instead that you customize.
-Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
-the download function.&lt;/p>
-&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
-&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
-&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
-&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
-&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
-&lt;h2 id="9-references">9. References&lt;/h2>
-&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
-one point automatically change the references from superscript to square brackets it is best to introduce a space before
-the first square bracket.&lt;/p>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Use of energy explained - Energy use in homes, [Online resource]
-&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
-&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: Project: Classification of Hyperspectral Images</title><link>/report/su21-reu-360/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-360/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-360/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-360/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-360/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-360/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: draft, Type: Project&lt;/p>
-&lt;p>Carlos Theran, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-360">su21-reu-360&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-360/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Do not include this tip in your document:&lt;/p>
-&lt;blockquote>
-&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/blockquote>
-&lt;p>Here comes a convincing introduction to the problem&lt;/p>
-&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
-&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
-set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
-bound into cybertraining.&lt;/p>
-&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
-&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
-Thus the following is wrong:&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-This author does ignore proper markdown while not using empty lines between context changes
-1. This is because this author ignors all best practices
-&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-We do not ignore proper markdown while using empty lines between context changes
-1. This is because we encourage best practices to cause issues.
-&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
-&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
-We will not review any document that does not pass this check.&lt;/p>
-&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
-&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
-comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
-&lt;ol>
-&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
-&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
-&lt;/ol>
-&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
-&lt;p>You have two choices for the final project.&lt;/p>
-&lt;ol>
-&lt;li>Project, That is a final report that includes code.&lt;/li>
-&lt;li>Report, that is a final project without code.&lt;/li>
-&lt;/ol>
-&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
-at the beginning of your project.&lt;/p>
-&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
-&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
-&lt;ol>
-&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
-&lt;li>When using bulleted lists use * and not -&lt;/li>
-&lt;/ol>
-&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
-&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
-However, if the data is publicly available you program must contain a download function instead that you customize.
-Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
-the download function.&lt;/p>
-&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
-&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
-&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
-&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
-&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
-&lt;h2 id="9-references">9. References&lt;/h2>
-&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
-one point automatically change the references from superscript to square brackets it is best to introduce a space before
-the first square bracket.&lt;/p>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Use of energy explained - Energy use in homes, [Online resource]
-&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
-&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: Breast Cancer and Genetics</title><link>/report/su21-reu-362/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-362/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-362/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-362/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-362/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-362/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: draft, Type: Project&lt;/p>
-&lt;p>Kehinde Ezekiel, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-362">su21-reu-362&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-datasets">2. Datasets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-example-of-an-ai-algorithm-in-healthcare">5. Example of an AI algorithm in Healthcare&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-datasets">6. Datasets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#7-benchmark">7. Benchmark&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-conclusion">8. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-acknowledgments">9. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#10-references">10. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> ai, data science, disease, COVID-19.&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Do not include this tip in your document:&lt;/p>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Find literature about AI and healthcare disparities&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Find literature about AI and COVID-19&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Analyze the literature and explain how data science, ai is better to healthcare.&lt;/li>
-&lt;/ul>
-&lt;h2 id="2-datasets">2. Datasets&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Finding datasets in orthodontics&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Can any of the datasets be used in AI?&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> What are the challenges with Healthcare dataset? Privacy, Inconsistent Dataset&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
-However, if the data is publicly available you program must contain a download function instead that you customize.
-Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
-the download function.&lt;/li>
-&lt;/ul>
-&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Place a cool image into projects images in my directory&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Correct the following link, replace the fa number with my su number and the chart of png&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> If the image has been copied, I must use a reference as shown in the Figure 1 caption&lt;/li>
-&lt;li>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.\&lt;/p>
-&lt;h2 id="5-example-of-an-ai-algorithm-in-healthcare">5. Example of an AI algorithm in Healthcare&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete datasets that will be used.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete algorithm that is used to analyze the datasets&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Write the program&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Verify that it works&lt;/li>
-&lt;/ul>
-&lt;h2 id="6-datasets">6. Datasets&lt;/h2>
-&lt;p>The dataset contains target sequencing data for about 1680 patients with breast cancer.&lt;/p>
-&lt;h2 id="7-benchmark">7. Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
-&lt;h2 id="8-conclusion">8. Conclusion&lt;/h2>
-&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
-&lt;h2 id="9-acknowledgments">9. Acknowledgments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Gregor guided me through this process
-Please add acknowledgments to all that contributed or helped on this project.&lt;/li>
-&lt;/ul>
-&lt;h2 id="10-references">10. References&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
-one point automatically change the references from superscript to square brackets it is best to introduce a space before
-the first square bracket.&lt;/li>
-&lt;/ul>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Use of energy explained - Energy use in homes, [Online resource]
-&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
-&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-366/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-366/project/</guid><description>
+&lt;p>Credit to bobbyiliev for making the required commands publicly available. The commands are available here, as well: &lt;a href="https://www.digitalocean.com/community/questions/how-to-install-a-specific-python-version-on-ubuntu">https://www.digitalocean.com/community/questions/how-to-install-a-specific-python-version-on-ubuntu&lt;/a>
+&lt;br>
+ &lt;/p>
+&lt;h2 id="troubleshooting">Troubleshooting&lt;/h2>
+&lt;h3 id="incorrect-python-version-on-command-prompt">Incorrect Python Version on Command Prompt&lt;/h3>
+&lt;p>If the Windows computer has installed an older version of Python, running &lt;code>python --version&lt;/code> on Command Prompt may output an older version. Typing &lt;code>python3 --version&lt;/code> may output the correct, latest version.&lt;/p></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-366/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-366/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-366/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-366/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-366/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-366/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
@@ -1014,164 +538,6 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-368/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-368/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
 &lt;p>Yohn Jairo Parra Bautista, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-368">su21-reu-368&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-368/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Do not include this tip in your document:&lt;/p>
-&lt;blockquote>
-&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/blockquote>
-&lt;p>Here comes a convincing introduction to the problem&lt;/p>
-&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
-&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
-set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
-bound into cybertraining.&lt;/p>
-&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
-&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
-Thus the following is wrong:&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-This author does ignore proper markdown while not using empty lines between context changes
-1. This is because this author ignors all best practices
-&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-We do not ignore proper markdown while using empty lines between context changes
-1. This is because we encourage best practices to cause issues.
-&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
-&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
-We will not review any document that does not pass this check.&lt;/p>
-&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
-&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
-comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
-&lt;ol>
-&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
-&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
-&lt;/ol>
-&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
-&lt;p>You have two choices for the final project.&lt;/p>
-&lt;ol>
-&lt;li>Project, That is a final report that includes code.&lt;/li>
-&lt;li>Report, that is a final project without code.&lt;/li>
-&lt;/ol>
-&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
-at the beginning of your project.&lt;/p>
-&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
-&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
-&lt;ol>
-&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
-&lt;li>When using bulleted lists use * and not -&lt;/li>
-&lt;/ol>
-&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
-&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
-However, if the data is publicly available you program must contain a download function instead that you customize.
-Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
-the download function.&lt;/p>
-&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
-&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
-&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
-&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
-&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
-&lt;h2 id="9-references">9. References&lt;/h2>
-&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
-one point automatically change the references from superscript to square brackets it is best to introduce a space before
-the first square bracket.&lt;/p>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Use of energy explained - Energy use in homes, [Online resource]
-&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
-&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: Increasing Cervical Cancer Risk Analysis</title><link>/report/su21-reu-369/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-369/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-369/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-369/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: draft, Type: Project&lt;/p>
-&lt;p>Theresa Jean-Baptistee, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-369">su21-reu-369&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-369/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Cervical Cancer is an increasing matter that is affecting various women across the nation, in this project we will be analyzing risk factors that are producing higher chances of this cancer.&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-datasets">2. DataSets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-other-people-works">3. Other People Works&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-images">4. Images&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-benchmark">5 Benchmark&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#7-acknowledgments">7. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-references">8. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> Cervical, Cancer, Diseases, Data, conditions&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;ul>
-&lt;li>Find literature on Cervical Cancer, Images of Cervics&lt;/li>
-&lt;li>Analyzing reading and explain the importance of cancer in the cervix and along with how it affects the future of
-the cervixs&lt;/li>
-&lt;/ul>
-&lt;h2 id="2-datasets">2. DataSets&lt;/h2>
-&lt;ul>
-&lt;li>The age of a person&lt;/li>
-&lt;li>Medical status&lt;/li>
-&lt;li>Tabacoo intake&lt;/li>
-&lt;li>resources: &lt;a href="https://ieeexplore.ieee.org/document/8691126">https://ieeexplore.ieee.org/document/8691126&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="3-other-people-works">3. Other People Works&lt;/h2>
-&lt;p>research of work others have done with the data set and what I have learned from that work.
-put a refrence in section #9 for each work i have found&lt;/p>
-&lt;h2 id="4-images">4. Images&lt;/h2>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/blob/main/project/images/download-2021-06-29T15-34-01-628Z.png" alt="Figure 1">&lt;/p>
-&lt;h2 id="5-benchmark">5 Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]&lt;/p>
-&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
-&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
-&lt;h2 id="7-acknowledgments">7. Acknowledgments&lt;/h2>
-&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
-&lt;h2 id="8-references">8. References&lt;/h2>
-&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
-one point automatically change the references from superscript to square brackets it is best to introduce a space before
-the first square bracket.&lt;/p></description></item><item><title>Report: Project: Marine aninmal population analysis using AI</title><link>/report/su21-reu-370/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-370/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-370/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-370/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-370/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-370/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: draft, Type: Project&lt;/p>
-&lt;p>Timia Williams, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-370">su21-reu-370&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-370/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
@@ -1701,7 +1067,7 @@ the first square bracket.&lt;/p>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-379/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-379/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-379/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-379/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
-&lt;p>RonDaisja Dunn, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378">su21-reu-378&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;p>Carrington Kerr, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-379">su21-reu-379&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-379/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
@@ -1803,11 +1169,11 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report: Project: Analysing Hashimoto disease causes using AI</title><link>/report/su21-reu-372/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-372/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-372/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-372/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-372/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-372/workflows/Status/badge.svg" alt="Status">&lt;/a>
+&lt;/section></description></item><item><title>Report: Project: Marine aninmal population analysis using AI</title><link>/report/su21-reu-370/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-370/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-370/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-370/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-370/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-370/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
-&lt;p>Sheimy Paz, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-372">su21-reu-372&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-372/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;p>Timia Williams, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-370">su21-reu-370&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-370/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
@@ -1883,9 +1249,872 @@ at the beginning of your project.&lt;/p>
 &lt;li>When using bulleted lists use * and not -&lt;/li>
 &lt;/ol>
 &lt;h2 id="5-datasets">5. Datasets&lt;/h2>
+&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: Detection of Autism in Children from a Facial Image using AI</title><link>/report/su21-reu-378/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-378/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Myra Saunders, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378">su21-reu-378&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Analyzing facial images to detect Autism in children.&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Add brief summary that explains what my project is about.&lt;/li>
+&lt;/ul>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-using-images">2. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-itemized-lists-only-where-needed">3. Using itemized lists only where needed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-datasets">4. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-benchmark">5. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-acknowledgments">7. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-references">8. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> Autism, Facial Analysis.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Autism Spectrum Disorder (ASD) is a broad range of lifelong developmental and neurological disorders that usually appear during early childhood. Autism Spectrum Disorder can cause challenges with speech and nonverbal communication, repetitive behaviors, and social skills.&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Briefly explain the topic of my report (Detection of autism in children using a facial image).&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> State how AI will be applied/used. (Talk about AI and Autism)&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-using-images">2. Using Images&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Iniclude images in report. If copied, cite them.&lt;/li>
+&lt;/ul>
+&lt;h2 id="3-using-itemized-lists-only-where-needed">3. Using itemized lists only where needed&lt;/h2>
+&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
+&lt;ol>
+&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
+&lt;li>When using bulleted lists use * and not -&lt;/li>
+&lt;/ol>
+&lt;h2 id="4-datasets">4. Datasets&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Querying the dataset autism prevalence studies summary with an area of three cities @data.world&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Find a similar dataset in kaggle.com&lt;/li>
+&lt;/ul>
+&lt;h2 id="5-benchmark">5. Benchmark&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Include a benchmark. (The easiest is to use cloudmesh-common [^2])&lt;/li>
+&lt;/ul>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Conclude my project.&lt;/li>
+&lt;/ul>
+&lt;h2 id="7-acknowledgments">7. Acknowledgments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Add acknowledgments.&lt;/li>
+&lt;/ul>
+&lt;h2 id="8-references">8. References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Add References.&lt;/li>
+&lt;/ul></description></item><item><title>Report: Breast Cancer and Genetics</title><link>/report/su21-reu-362/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-362/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-362/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-362/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-362/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-362/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Kehinde Ezekiel, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-362">su21-reu-362&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-datasets">2. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-example-of-an-ai-algorithm-in-healthcare">5. Example of an AI algorithm in Healthcare&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-datasets">6. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-benchmark">7. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-conclusion">8. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-acknowledgments">9. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#10-references">10. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> ai, data science, disease, COVID-19.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Do not include this tip in your document:&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Find literature about AI and healthcare disparities&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Find literature about AI and COVID-19&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Analyze the literature and explain how data science, ai is better to healthcare.&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-datasets">2. Datasets&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Finding datasets in orthodontics&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Can any of the datasets be used in AI?&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What are the challenges with Healthcare dataset? Privacy, Inconsistent Dataset&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/li>
+&lt;/ul>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Place a cool image into projects images in my directory&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Correct the following link, replace the fa number with my su number and the chart of png&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> If the image has been copied, I must use a reference as shown in the Figure 1 caption&lt;/li>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.\&lt;/p>
+&lt;h2 id="5-example-of-an-ai-algorithm-in-healthcare">5. Example of an AI algorithm in Healthcare&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete datasets that will be used.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete algorithm that is used to analyze the datasets&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Write the program&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Verify that it works&lt;/li>
+&lt;/ul>
+&lt;h2 id="6-datasets">6. Datasets&lt;/h2>
+&lt;p>The dataset contains target sequencing data for about 1680 patients with breast cancer.&lt;/p>
+&lt;h2 id="7-benchmark">7. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="8-conclusion">8. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="9-acknowledgments">9. Acknowledgments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Gregor guided me through this process
+Please add acknowledgments to all that contributed or helped on this project.&lt;/li>
+&lt;/ul>
+&lt;h2 id="10-references">10. References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/li>
+&lt;/ul>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Increasing Cervical Cancer Risk Analysis</title><link>/report/su21-reu-369/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-369/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-369/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-369/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Theresa Jean-Baptistee, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-369">su21-reu-369&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-369/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Cervical Cancer is an increasing matter that is affecting various women across the nation, in this project we will be analyzing risk factors that are producing higher chances of this cancer.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-datasets">2. DataSets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-other-people-works">3. Other People Works&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-images">4. Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-benchmark">5 Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-acknowledgments">7. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-references">8. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> Cervical, Cancer, Diseases, Data, conditions&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;ul>
+&lt;li>Find literature on Cervical Cancer, Images of Cervics&lt;/li>
+&lt;li>Analyzing reading and explain the importance of cancer in the cervix and along with how it affects the future of
+the cervixs&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-datasets">2. DataSets&lt;/h2>
+&lt;ul>
+&lt;li>The age of a person&lt;/li>
+&lt;li>Medical status&lt;/li>
+&lt;li>Tabacoo intake&lt;/li>
+&lt;li>resources: &lt;a href="https://ieeexplore.ieee.org/document/8691126">https://ieeexplore.ieee.org/document/8691126&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="3-other-people-works">3. Other People Works&lt;/h2>
+&lt;p>research of work others have done with the data set and what I have learned from that work.
+put a refrence in section #9 for each work i have found&lt;/p>
+&lt;h2 id="4-images">4. Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/blob/main/project/images/download-2021-06-29T15-34-01-628Z.png" alt="Figure 1">&lt;/p>
+&lt;h2 id="5-benchmark">5 Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="7-acknowledgments">7. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="8-references">8. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p></description></item><item><title>Report: Cyber Attacks Detection Using AI Algorithms</title><link>/report/su21-reu-365/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-365/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-365/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-365/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-365/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-365/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Victor Adankai, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-365">su21-reu-365&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>
+&lt;ul>
+&lt;li>
+&lt;ul>
+&lt;li>&lt;a href="#types-of-cyber-attacks">Types of Cyber Attacks&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#examples-of-ai-algorithms-for-cyber-attacks-detection">Examples of AI Algorithms for Cyber Attacks Detection&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#2-datasets">2. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-benchmark">4. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-conclusion">5. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-acknowledgments">6. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-references">7. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> AI, ML, DL, Cybersecurity, Cyber Attacks.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;ul>
+&lt;li>Find literature about AI and Cyber Attacks on IoT Devices Dectection.&lt;/li>
+&lt;li>Analyze the literature and explain how AI for Cyber Attacks on IOT Devices Detection are beneficial.&lt;/li>
+&lt;/ul>
+&lt;h4 id="types-of-cyber-attacks">Types of Cyber Attacks&lt;/h4>
+&lt;ul>
+&lt;li>Denial of service (DoS) Attack:&lt;/li>
+&lt;li>Remote to Local Attack:&lt;/li>
+&lt;li>Probing:&lt;/li>
+&lt;li>User to Root Attack:&lt;/li>
+&lt;li>Adversarial Attacks:&lt;/li>
+&lt;li>Poisoning Attack:&lt;/li>
+&lt;li>Evasion Attack:&lt;/li>
+&lt;li>Integrity Attack:&lt;/li>
+&lt;li>Malware Attack:&lt;/li>
+&lt;li>Phising Attack:&lt;/li>
+&lt;li>Zero Day Attack:&lt;/li>
+&lt;li>Sinkhole Attack:&lt;/li>
+&lt;li>Causative Attack:&lt;/li>
+&lt;/ul>
+&lt;h4 id="examples-of-ai-algorithms-for-cyber-attacks-detection">Examples of AI Algorithms for Cyber Attacks Detection&lt;/h4>
+&lt;ul>
+&lt;li>Convolutional Neural Network (CNN)&lt;/li>
+&lt;li>Autoencoder (AE)&lt;/li>
+&lt;li>Deep Belief Network (DBN)&lt;/li>
+&lt;li>Recurrent Neural Network (RNN)&lt;/li>
+&lt;li>Generative Adversal Network (GAN)&lt;/li>
+&lt;li>Deep Reinforcement Learning (DIL)&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-datasets">2. Datasets&lt;/h2>
+&lt;ul>
+&lt;li>Finding data sets in IoT Devices Cyber Attacks.&lt;/li>
+&lt;li>Can any of the data sets be used in AI?&lt;/li>
+&lt;li>What are the challenges with IoT Devices Cyber Attacks data set? Privacy, HIPPA, Size, Avalibility&lt;/li>
+&lt;li>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/li>
+&lt;/ul>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;ul>
+&lt;li>Place a cool image into projects images in my directory&lt;/li>
+&lt;li>Correct the following link, replace the fa number with my su number and thne chart of png.&lt;/li>
+&lt;li>If the image has been copied, you must use a reference such as shown in the Figure 1 caption.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-benchmark">4. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]&lt;/p>
+&lt;h2 id="5-conclusion">5. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="6-acknowledgments">6. Acknowledgments&lt;/h2>
+&lt;ul>
+&lt;li>Gregor von Laszewski&lt;/li>
+&lt;li>Yohn Jairo Bautista&lt;/li>
+&lt;li>Carlos Theran&lt;/li>
+&lt;/ul>
+&lt;h2 id="7-references">7. References&lt;/h2>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Dentronics: Artifical intelligence in dentistry</title><link>/report/su21-reu-376/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-376/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-376/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-376/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Jamyla Young, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-376">su21-reu-376&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-data-sets">2. Data sets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-example-of-an-ai-algorithm-in-dentronics">5. Example of an AI algorithm in Dentronics&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-conclusion">7. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> Dentronics, neural pathways, prosthodotics.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Find literature about Dentronics and its effects&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Analyze the literature&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-data-sets">2. Data sets&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Find data sets about effects about dentronics&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Identify the purpose of data sets&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What are the challenges with Dentronics data sets? HIPPA, size, availibility&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub. However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/li>
+&lt;/ul>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Place a cool image into projects images in my directory&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Correct the following, replace the fa number with my su number and the chart of png&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> if image is copied , you must use a reference such as shown in the Figure 1 caption&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> list&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="5-example-of-an-ai-algorithm-in-dentronics">5. Example of an AI algorithm in Dentronics&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete data set that will be used&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete algorithm that is used to anaylze the data set&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Write the program&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Verify that it works&lt;/li>
+&lt;/ul>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="7-conclusion">7. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Gregor helped me&lt;/li>
+&lt;/ul>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;p>-[ ] Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at one point automatically change the references from superscript to square brackets it is best to introduce a space before the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Analyzing Price Changes on the Electro-Optical System Blockchain</title><link>/report/su21-reu-361/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-361/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-361/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Jacques Fleischer, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-361">su21-reu-361&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Blockchain-based cryptocurrency is a popular investment of today&amp;rsquo;s age. However, the U.S. Securities and Exchange Commission warns that high-risk accompanies these investments[^1]. This project applies machine learning and Artificial Intelligence (AI) to historical records of these coins to predict future prices; this aims to minimize investment risk.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#to-do">To-do&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#tutorials">Tutorials&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-datasets">2. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-benchmark">4. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-conclusion">5. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-acknowledgments">6. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-references">7. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> cryptocurrency, investing, business, blockchain.&lt;/p>
+&lt;h2 id="to-do">To-do&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> My first research on blockchain&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Add blockchain explanation to introduction&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What does blockchain have to do with AI?&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What codes exist that demonstrate the use of blockchain with AI using Python?&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What is the code in this project that will be developed?&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What is the performance of this code?&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What is my conclusion?&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Never, ever use the words &amp;lsquo;I&amp;rsquo; or &amp;lsquo;my&amp;rsquo; in a report&lt;/li>
+&lt;/ul>
+&lt;h2 id="tutorials">Tutorials&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Install software Visual Studio Code (create video tutorial or written instructions)&lt;/li>
+&lt;/ul>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Blockchain is &amp;ldquo;an open, distributed ledger&amp;rdquo; which records transactions of cryptocurrency. It is decentralized, which means that these transactions are shared and distributed among all participants on the blockchain for maximum accountability. Furthermore, this new &amp;ldquo;blockchain&amp;rdquo; technology is becoming an increasingly popular alternative to mainstream transactions through traditional banks&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>An attractive new invention such as blockchain is a particularly desirable investment opportunity. However, its severe volatility can scare away possible investors; in 2017, one Bitcoin was worth $1,000 USD; a year later, its value multiplied by 20; and just a few months later, it decreased back down to $5,000&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>Artificial intelligence will be applied in this experiment to predict the future price of blockchain cryptocurrencies on the Electro-Optical System.&lt;/p>
+&lt;h2 id="2-datasets">2. Datasets&lt;/h2>
+&lt;p>This project utilizes a .csv file containing the historical prices of the EOS coin from the first day of its inception on 1 July 2017, to the last scraped day 12 December 2020&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>. From this data, the project will attempt to predict the prices from the end date until the present day.&lt;/p>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/eos_price.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Line graph of EOS price from 1 July 2017 til 12 December 2020. Generated using timeseries_generator.ipynb located in project/code.&lt;/p>
+&lt;h2 id="4-benchmark">4. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common&lt;/p>
+&lt;h2 id="5-conclusion">5. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="6-acknowledgments">6. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="7-references">7. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Marco Iansiti and Karim R. Lakhani, The Truth About Blockchain, [Online resource]
+&lt;a href="https://hbr.org/2017/01/the-truth-about-blockchain">https://hbr.org/2017/01/the-truth-about-blockchain&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Jeremy Swinfen Green, Understanding cryptocurrency market fluctuations, [Online resource]
+&lt;a href="https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/">https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3" role="doc-endnote">
+&lt;p>Mehmet Tarik Akcay, Historical Data for Top 20 Coins by Market Cap, [Online resource]
+&lt;a href="https://www.kaggle.com/mtakcy/historical-data-for-top-20-coins-by-market-cap?select=eos.csv">https://www.kaggle.com/mtakcy/historical-data-for-top-20-coins-by-market-cap?select=eos.csv&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report:</title><link>/report/hid-example/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/hid-example/project/</guid><description>
+&lt;p>Fix the links: and than remove this line&lt;/p>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/hid-example/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/hid-example/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Fix the links: and than remove this line&lt;/p>
+&lt;p>Gregor von Laszewski, &lt;a href="https://github.com/cybertraining-dsc/hid-example/">hid-example&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Do not include this tip in your document:&lt;/p>
+&lt;blockquote>
+&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Here comes a convincing introduction to the problem&lt;/p>
+&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
+&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
+set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
+bound into cybertraining.&lt;/p>
+&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
+&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
+Thus the following is wrong:&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+This author does ignore proper markdown while not using empty lines between context changes
+1. This is because this author ignors all best practices
+&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+We do not ignore proper markdown while using empty lines between context changes
+1. This is because we encourage best practices to cause issues.
+&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
+&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
+We will not review any document that does not pass this check.&lt;/p>
+&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
+&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
+comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
+&lt;ol>
+&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
+&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
+&lt;/ol>
+&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
+&lt;p>You have two choices for the final project.&lt;/p>
+&lt;ol>
+&lt;li>Project, That is a final report that includes code.&lt;/li>
+&lt;li>Report, that is a final project without code.&lt;/li>
+&lt;/ol>
+&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
+at the beginning of your project.&lt;/p>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
+&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
+&lt;ol>
+&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
+&lt;li>When using bulleted lists use * and not -&lt;/li>
+&lt;/ol>
+&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
+&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: Hand Tracking with AI</title><link>/report/su21-reu-364/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-364/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-364/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-364/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-364/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-364/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: final, Type: Project&lt;/p>
+&lt;p>David Umanzor, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-364">su21-reu-364&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-364/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>In this project we study the ability of an AI to recognize and track hand positions with a raspberry PI 4 with 8 GB of ram and 64 GB of storage.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-data-sets">2. Data Sets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-example-of-an-ai-algorithm-with-object-recognition">5. Example of an AI algorithm with Object Recognition&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> ai, object recognition, image processing, computer vision, hand tracking.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Find liturature about image processing aand object recognition.&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Analyze liturature &amp;amp; explain how this relates.&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-data-sets">2. Data Sets&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Collect image sets for the AI to recognize.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What do these data sets specify.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What are the challenges with Object Recognition? Accuracy.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Datasets can be huge and GitHub has lmited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available your program must contain a download function instead that you customize.
+Write it using pythons &amp;lsquo;request&amp;rsquo;&lt;/li>
+&lt;/ul>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Place cool image into projects images in my directory (data set of its ability to be accurate).&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Correct the following link, replace the fa with su, and the numbers to my reu numbers, change chart.png to file name.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> If the image has been copied, you must use a reference such as shown in the Figure 1 caption.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="5-example-of-an-ai-algorithm-with-object-recognition">5. Example of an AI algorithm with Object Recognition&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete data set that will be used.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Identify the conrete algorithm that completes the image processing for Object Recognition.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Write the program.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Verify that it works.&lt;/li>
+&lt;/ul>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Gregor Von Laszewski&lt;/li>
+&lt;/ul>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/li>
+&lt;/ul>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh CommonH Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: Analysing Hashimoto disease causes using AI</title><link>/report/su21-reu-372/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-372/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-372/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-372/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-372/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-372/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Sheimy Paz, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-372">su21-reu-372&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-372/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Hashimoto thyroiditis is an organ-specific autoimmune disorder named after Japanese physician Hajaru Hashimoto, Hashimoto symptoms were first described 1912 but the disease was not recognize until 1957 before that year it was concider to be the early symptoms of Reidel&amp;rsquo;s Thyroiditis. In 1957 Hashimoto was recognize as an autoimmune disorder that destroys thyroid cells and antibody-mediated. Pathologically speaking, Hashimoto stimulates the formation of antithyrod antibodies that attack the thyroid tissue, causing progressive fibrosis. The disorder is difficult to diagnose since in the early course of the disease the patients may or may not exibit symtoms and/or laboratory findings of hyperthyrodism or normal values because the destruction of the gland cells may be intermittent. Clinical and epidemiological studies suggest worldwide that the most common cause of hypothyroidism is an inadecuated dietary intake of iodine and is the most common cause of hypothyroidism in developed countries.&lt;/p>
+&lt;p>In a female-to-men radio at least 10:1 women are more often affected than men, and the diagnostics are called between the ages of 30 to 50 years. Studies suggest that an association between high levels of thyroid autoantibodies affect the increased frequencies of mood disorders and there was found a relation between thyroid autoimmunity disease, celiac disease and panic disorder and major depressive disorder.&lt;/p>
+&lt;p>Here comes a convincing introduction to the problem:
+Note Carlos Theran: It perfect how you explain the concept of Hashimoto thyroiditis and its affection in human&amp;rsquo;s helth. Now that you introduced what is Hashimoto thyroiditis. I have some question that could help you to address the research question (the problem) that you want to solve.&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Given the introduction, I see that it is really difficult to detect Hashimoto thyroiditis in a person. So, Do you want to use ML that help you to identify early causes of Hashimoto thyroiditis on a person or you are looking for something else?&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What kind of data you spect to find in order to addres a solution of your problem?&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What kind of technique would you like to use to addres your problem?&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Is there any paper, article, blogs, or any source that have address this problem before, If so, how they did?&lt;/li>
+&lt;/ul>
+&lt;p>I hope this question help =)&lt;/p>
+&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
+&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
+set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
+bound into cybertraining.&lt;/p>
+&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
+&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
+Thus the following is wrong:&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+This author does ignore proper markdown while not using empty lines between context changes
+1. This is because this author ignors all best practices
+&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+We do not ignore proper markdown while using empty lines between context changes
+1. This is because we encourage best practices to cause issues.
+&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
+&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
+We will not review any document that does not pass this check.&lt;/p>
+&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
+&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
+comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
+&lt;ol>
+&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
+&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
+&lt;/ol>
+&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
+&lt;p>You have two choices for the final project.&lt;/p>
+&lt;ol>
+&lt;li>Project, That is a final report that includes code.&lt;/li>
+&lt;li>Report, that is a final project without code.&lt;/li>
+&lt;/ol>
+&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
+at the beginning of your project.&lt;/p>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
+&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
+&lt;ol>
+&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
+&lt;li>When using bulleted lists use * and not -&lt;/li>
+&lt;/ol>
+&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
 &lt;ul>
 &lt;li>&lt;input disabled="" type="checkbox"> Querying the datasets of womans with hashimoto diaseas in an are of 3 cities @data.world&lt;/li>
 &lt;/ul>
+&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Use of energy explained - Energy use in homes, [Online resource]
+&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: Classification of Hyperspectral Images</title><link>/report/su21-reu-360/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-360/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-360/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-360/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-360/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-360/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Carlos Theran, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-360">su21-reu-360&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-360/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>??
+Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Do not include this tip in your document:&lt;/p>
+&lt;blockquote>
+&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Here comes a convincing introduction to the problem&lt;/p>
+&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
+&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
+set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
+bound into cybertraining.&lt;/p>
+&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
+&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
+Thus the following is wrong:&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+This author does ignore proper markdown while not using empty lines between context changes
+1. This is because this author ignors all best practices
+&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
+&lt;pre>&lt;code># This is My Headline
+We do not ignore proper markdown while using empty lines between context changes
+1. This is because we encourage best practices to cause issues.
+&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
+&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
+We will not review any document that does not pass this check.&lt;/p>
+&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
+&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
+comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
+&lt;ol>
+&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
+&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
+&lt;/ol>
+&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
+&lt;p>You have two choices for the final project.&lt;/p>
+&lt;ol>
+&lt;li>Project, That is a final report that includes code.&lt;/li>
+&lt;li>Report, that is a final project without code.&lt;/li>
+&lt;/ol>
+&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
+at the beginning of your project.&lt;/p>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
+&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
+&lt;ol>
+&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
+&lt;li>When using bulleted lists use * and not -&lt;/li>
+&lt;/ol>
+&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
 &lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
 However, if the data is publicly available you program must contain a download function instead that you customize.
 Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
@@ -1959,88 +2188,7 @@ the first square bracket.&lt;/p>
 &lt;li>
 &lt;p>Click Install and watch the green progress bar go at the speed of light. Once completed, click Finish. VSCode will open as long as everything went smoothly.&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Report: Project: Object Recognition</title><link>/report/su21-reu-364/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-364/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-364/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-364/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-364/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-364/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: final, Type: Project&lt;/p>
-&lt;p>David Umanzor, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-364">su21-reu-364&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-364/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>In this project we are studying the ability of AI to recognize and tag objects or subjects from a photo with accuracy&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-data-sets">2. Data Sets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-example-of-an-ai-algorithm-with-object-recognition">5. Example of an AI algorithm with Object Recognition&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> ai, object recognition, image processing, computer vision.&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Find liturature about image processing aand object recognition.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Analyze liturature &amp;amp; explain how this relates.&lt;/li>
-&lt;/ul>
-&lt;h2 id="2-data-sets">2. Data Sets&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Collect image sets for the AI to recognize.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> What do these data sets specify.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> What are the challenges with Object Recognition? Accuracy.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Datasets can be huge and GitHub has lmited space. Only very small datasets should be stored in GitHub.
-However, if the data is publicly available your program must contain a download function instead that you customize.
-Write it using pythons &amp;lsquo;request&amp;rsquo;&lt;/li>
-&lt;/ul>
-&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Place cool image into projects images in my directory (data set of its ability to be accurate).&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Correct the following link, replace the fa with su, and the numbers to my reu numbers, change chart.png to file name.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> If the image has been copied, you must use a reference such as shown in the Figure 1 caption.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> &lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="5-example-of-an-ai-algorithm-with-object-recognition">5. Example of an AI algorithm with Object Recognition&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete data set that will be used.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Identify the conrete algorithm that completes the image processing for Object Recognition.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Write the program.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Verify that it works.&lt;/li>
-&lt;/ul>
-&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
-&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
-&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
-&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
-&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Gregor Von Laszewski&lt;/li>
-&lt;/ul>
-&lt;h2 id="9-references">9. References&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
-one point automatically change the references from superscript to square brackets it is best to introduce a space before
-the first square bracket.&lt;/li>
-&lt;/ul>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Use of energy explained - Energy use in homes, [Online resource]
-&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
-&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: Project: AI in Orthodontics</title><link>/report/su21-reu-363/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-363/project/</guid><description>
+&lt;/ol></description></item><item><title>Report: Project: AI in Orthodontics</title><link>/report/su21-reu-363/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-363/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-363/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-363/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-363/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-363/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
@@ -2126,11 +2274,14 @@ the first square bracket.&lt;/li>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-312/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-312/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> syntax for refences wron, see original example&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> never ever use the word I or my in your report&lt;/li>
+&lt;/ul>
 &lt;p>Zyion Morris, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374">su21-reu-374&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/edit/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
-&lt;p>Contents&lt;/p>
 &lt;div class="toc">
 &lt;nav id="TableOfContents">
 &lt;ul>
@@ -2147,23 +2298,27 @@ Status: draft, Type: Project&lt;/p>
 &lt;/div>
 &lt;p>&lt;strong>Keywords:&lt;/strong> AI, ML, DL, Cybersecurity, Cyber Attacks, IoT.&lt;/p>
 &lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> ass tasks&lt;/li>
-&lt;/ul>
+&lt;p>-[ ] do not indnt&lt;/p>
+&lt;p>&lt;del>My&lt;/del> first research on AI Time analysis includes query on stock market data stucture.
+The mean (level), maximum, minimum values; Time Series Data Components - trend, seasonality, noise or randomness, a curve, and the level.
+Blockchain levies to be the coin flip of how Artificial Intellignece predicts future prices through machine learning.
+numpy, matplotlib, pandas, cloudmesh-common, cloudmesh-cmd5s, are codes existing that demonstrate the use of blockchain with AI using Python.
+What is the code in this project that will be developed?
+What is the performance of this code?
+What is my conclusion?
+Never, ever use the words ‘I’ or ‘my’ in a report&lt;/p>
 &lt;h2 id="2-datasets">2. Datasets&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> add tasks&lt;/li>
-&lt;/ul>
+&lt;p>This report pertains a .CSV file of a dataset predicting the consumption of electricity in the coming future. &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/files/6743411/archive.zip">archive.zip&lt;/a>&lt;/p>
 &lt;h2 id="3-using-images">3. Using Images&lt;/h2>
 &lt;ul>
 &lt;li>&lt;input disabled="" type="checkbox"> Place a cool image into projects images in my directory&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> Correct the following link, replace the fa number with my su number and thne chart of png.&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> If the image has been copied, you must use a reference such as shown in the Figure 1 caption.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-374/raw/main/project/images/image.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them [^1].&lt;/p>
 &lt;h2 id="4-benchmark">4. Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]&lt;/p>
 &lt;h2 id="5-conclusion">5. Conclusion&lt;/h2>
 &lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
 &lt;h2 id="6-acknowledgments">6. Acknowledgments&lt;/h2>
@@ -2174,16 +2329,7 @@ Status: draft, Type: Project&lt;/p>
 &lt;li>Carlos Theran&lt;/li>
 &lt;/ul>
 &lt;h2 id="7-references">7. References&lt;/h2>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Use of energy explained - Energy use in homes, [Online resource]
-&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
-&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item></channel></rss>
+&lt;p>-[ ] refernce syntax wrong see original example&lt;/p>
+&lt;p>&amp;lt;Marco Iansiti and Karim R. Lakhani, The Truth About Blockchain, [Online resource] &lt;a href="https://hbr.org/2017/01/the-truth-about-blockchain%3E">https://hbr.org/2017/01/the-truth-about-blockchain&amp;gt;&lt;/a>&lt;/p>
+&lt;p>&amp;lt;Jeremy Swinfen Green, Understanding cryptocurrency market fluctuations, [Online resource] &lt;a href="https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/%3E">https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/&amp;gt;&lt;/a>&lt;/p>
+&lt;p>&amp;lt;Mehmet Tarik Akcay, Historical Data for Top 20 Coins by Market Cap, [Online resource] &lt;a href="https://www.kaggle.com/mtakcy/historical-data-for-top-20-coins-by-market-cap?select=eos.csv%3E">https://www.kaggle.com/mtakcy/historical-data-for-top-20-coins-by-market-cap?select=eos.csv&amp;gt;&lt;/a>&lt;/p></description></item></channel></rss>

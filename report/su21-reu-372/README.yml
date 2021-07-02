@@ -4,9 +4,9 @@ owner:
   lastname: "Sheimy"
   hid: "su21-reu-372"
   community: "reu"
-  semester: "sp21"
+  semester: "su21"
 project:
-  title: TBD
-  url: TBD
+  title: "Analysing Hashimoto disease causes using AI"
+  url: https://github.com/cybertraining-dsc/su21-reu-372/edit/main/project/index.md
   author:
     - su21-reu-372

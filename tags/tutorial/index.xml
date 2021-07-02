@@ -87,17 +87,21 @@ sign in with your JetBrains account after receiving this email. Click &lt;code>A
 &lt;div class="toc">
 &lt;nav id="TableOfContents">
 &lt;ul>
+&lt;li>&lt;a href="#windows">Windows&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#mac">Mac&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#linux">Linux&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#troubleshooting">Troubleshooting&lt;/a>
+&lt;ul>
 &lt;li>&lt;a href="#incorrect-python-version-on-command-prompt">Incorrect Python Version on Command Prompt&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul>
 &lt;/nav>
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Keywords:&lt;/strong> python&lt;/p>
-&lt;h1 id="steps">Steps&lt;/h1>
-&lt;p>Click the following image to be redirected to a 2 minute YouTube walkthrough.&lt;/p>
-&lt;div align="left">
-&lt;a href="https://www.youtube.com/watch?v=T6UYyu5XVMc">&lt;img src="https://img.youtube.com/vi/T6UYyu5XVMc/0.jpg" alt="IMAGE ALT TEXT">&lt;/a>
-&lt;/div>
+&lt;h2 id="windows">Windows&lt;/h2>
+&lt;p>Click the following image to be redirected to a 2-minute YouTube walkthrough.&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://www.youtube.com/embed/T6UYyu5XVMc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
@@ -166,12 +170,158 @@ sign in with your JetBrains account after receiving this email. Click &lt;code>A
 &lt;/ol>
 &lt;/li>
 &lt;li>
-&lt;p>Type &lt;code>python --version&lt;/code> and the output should read &amp;ldquo;Python x.x.x&amp;rdquo;; as long as it is the latest version from the website, congratulations. Python is installed on the computer.&lt;/p>
+&lt;p>Type &lt;code>python --version&lt;/code> and the output should read &amp;ldquo;Python x.x.x&amp;rdquo;; as long as it is the latest version from the website, congratulations. Python is installed on the computer.
+&lt;br>
+ &lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;h1 id="troubleshooting">Troubleshooting&lt;/h1>
-&lt;h2 id="incorrect-python-version-on-command-prompt">Incorrect Python Version on Command Prompt&lt;/h2>
-&lt;p>If the computer has installed an older version of Python, running &lt;code>python --version&lt;/code> on Command Prompt may output an older version. Typing &lt;code>python3 --version&lt;/code> may output the correct, latest version.&lt;/p></description></item><item><title>Report: Tutorial on Installing Visual Studio Code</title><link>/report/su21-reu-361/tutorials/visual-studio-code/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/tutorials/visual-studio-code/</guid><description>
+&lt;h2 id="mac">Mac&lt;/h2>
+&lt;p>Click the following image to be redirected to a 5-minute YouTube walkthrough. (Yes, Mac&amp;rsquo;s video is a little longer, but do not fret!
+You can skip to the 1:00 minute mark if you are in a hurry.)&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/TttmzM-EDmk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;ol>
+&lt;li>
+&lt;p>Open a web browser that is able to search and download a file. This tutorial uses Google Chrome for Mac.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Type in &lt;code>python&lt;/code> in the address bar and press enter. It should perform a search on your default search engine.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Look for the result that is from &lt;code>python.org&lt;/code>. Click on the subresult that says &lt;code>Downloads&lt;/code>.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Underneath &lt;code>Download the latest version for Mac OS X&lt;/code>, there should be a yellow button that reads &lt;code>Download Python x.x.x&lt;/code>. Click on it, and the download should commence.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Once the download finishes, open it by clicking on it. The installer will open. Click &lt;code>Continue&lt;/code>, click &lt;code>Continue&lt;/code> again, click &lt;code>Continue&lt;/code> again, oh my goodness!
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Agree&lt;/code>.&lt;/p>
+&lt;ol>
+&lt;li>If you want to check how much free storage you have on your computer, click the Apple icon in the top left of your computer. Click
+&lt;code>About This Mac&lt;/code> and then click on &lt;code>Storage&lt;/code>. As of July 2021, Python takes ~120 MB of space. Remember that 1 GB = 1000 MB.
+&lt;br>
+ &lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Install&lt;/code>. Enter your password and press Enter. Watch the blue progress bar crawl like a turtle&amp;hellip; or blast off at the speed of sound! This depends on your computer speed.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>A Finder window will open. You can close it as it is unnecessary. Click &lt;code>Close&lt;/code> in the bottom-right of the installer. Click &lt;code>Move to Trash&lt;/code> because you do not need the installer anymore.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Time to confirm that Python installed correctly. Click the magnifying glass in the top-right of your screen and then type &lt;code>terminal&lt;/code> into Spotlight Search. Double-click &lt;code>Terminal&lt;/code>.&lt;/p>
+&lt;ol>
+&lt;li>The terminal will be used frequently in this experiment. Consider keeping it in the dock for convenience. Click and hold the Terminal in the dock, go to &lt;code>Options&lt;/code>, and click &lt;code>Keep in Dock&lt;/code>.
+&lt;br>
+ &lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Type &lt;code>python3 --version&lt;/code> into the terminal and press Enter. It should output the latest version of Python. Congratulations!
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="linux">Linux&lt;/h2>
+&lt;p>Click the following image to be redirected to a 9-minute YouTube walkthrough. (Linux&amp;rsquo;s tutorial is the longest, but it is worth it.)
+This tutorial uses Ubuntu, but it should work on other Linux distros, as well.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/TttmzM-EDmk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;ol>
+&lt;li>
+&lt;p>Open a web browser. It can be any browser as long as it can perform a search and navigate to a webpage.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Search for &lt;code>python&lt;/code> by typing it into the address bar and pressing enter. Click on &lt;code>Downloads&lt;/code> underneath the result from &lt;code>https://www.python.org&lt;/code>.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Look at the latest version. It is on the yellow button: &lt;code>Download Python x.x.x&lt;/code>. You do not need to click this button. Remember this version number.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Open a terminal by pressing the Windows key, or by clicking the grid on the bottom left of your screen. Type &lt;code>terminal&lt;/code>. Click on the &lt;code>Terminal&lt;/code> result that appears.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Type &lt;code>sudo apt-get update&lt;/code> and press Enter. Wait for it to finish. It may already be up-to-date.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Type &lt;code>sudo apt-get install libssl-dev openssl make gcc&lt;/code> and press Enter. This will install the libraries required to connect to an FTP to download Python. Type your password for your Linux user account, if prompted, and press Enter.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You are then asked if you are okay with a certain amount of disk space being taken up. Type &lt;code>y&lt;/code>, which stands for Yes, and then press Enter.&lt;/p>
+&lt;ol>
+&lt;li>If you want to check how much disk space you have, press the Files icon on the left (on the taskbar) and click &lt;code>Other Locations&lt;/code>. You may have to scroll down on the sidebar in order to see it. It should say how much GB is available. Remember, 1 GB = 1000 MB and 1 MB = 1000 KB.
+&lt;br>
+ &lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>After this finishes, type &lt;code>cd /opt&lt;/code> and press Enter. Then, remember which version you read on the Python webpage (the latest version). Type &lt;code>sudo wget https://www.python.org/ftp/python/x.x.x/Python-x.x.x.tgz&lt;/code> after replacing the &lt;code>x.x.x&lt;/code> with the latest Python version number. As of July 2021, it is &lt;code>3.9.6&lt;/code>. Press Enter.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Wait for the download to complete. Then, type &lt;code>sudo tar xzvf Python-x.x.x.tgz&lt;/code> after you replace &lt;code>x.x.x&lt;/code> with the latest Python version number. Press Enter.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Type &lt;code>cd Python-x.x.x&lt;/code> after replacing &lt;code>x.x.x&lt;/code> with the latest version number. Type &lt;code>./configure&lt;/code> and press Enter.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Once it finishes, type &lt;code>make&lt;/code> and press Enter. Once &lt;em>that&lt;/em> finishes, type &lt;code>sudo make install&lt;/code> and press Enter.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Once the installation finishes, type &lt;code>sudo ln -fs /opt/Python-x.x.x/Python /usr/bin/pythonx.x&lt;/code>. Notice that &lt;code>x.x.x&lt;/code> should be replaced with the full version number and &lt;code>x.x&lt;/code> should have the first two numbers in the version number. Press Enter.
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Confirm Python&amp;rsquo;s successful installation by typing &lt;code>pythonx.x --version&lt;/code>; be sure to replace x.x with the first two numbers of the version number. It should output the latest version number. Congratulations!
+&lt;br>
+ &lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>Credit to bobbyiliev for making the required commands publicly available. The commands are available here, as well: &lt;a href="https://www.digitalocean.com/community/questions/how-to-install-a-specific-python-version-on-ubuntu">https://www.digitalocean.com/community/questions/how-to-install-a-specific-python-version-on-ubuntu&lt;/a>
+&lt;br>
+ &lt;/p>
+&lt;h2 id="troubleshooting">Troubleshooting&lt;/h2>
+&lt;h3 id="incorrect-python-version-on-command-prompt">Incorrect Python Version on Command Prompt&lt;/h3>
+&lt;p>If the Windows computer has installed an older version of Python, running &lt;code>python --version&lt;/code> on Command Prompt may output an older version. Typing &lt;code>python3 --version&lt;/code> may output the correct, latest version.&lt;/p></description></item><item><title>Report: Tutorial on Installing Visual Studio Code</title><link>/report/su21-reu-361/tutorials/visual-studio-code/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/tutorials/visual-studio-code/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;p>This tutorial teaches how to install Visual Studio Code on Windows 10.&lt;/p>
