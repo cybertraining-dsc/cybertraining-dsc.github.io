@@ -382,6 +382,14 @@ Video: FURY Visualization and Microsoft Lecture
 Video: Instroduction to Probability
 {{< /view_module >}}
 
+{{< view_module
+	alt="Digital Twins and Virtual Tissue ussing CompuCell3D Simulating Cancer Somatic Evolution in nanoHUB"
+	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
+	url="https://famu.zoom.us/rec/share/8A-J44Q0dcg23B6ljDK7yUqn7tSkQ9Hzza69SvddWWVlmx0j5JElahAec2g3Dvg.dxWkej7OF3zYsrF4"
+	>}}
+Video: Digital Twins and Virtual Tissue ussing CompuCell3D Simulating Cancer Somatic Evolution in nanoHUB
+{{< /view_module >}}
+
 ## AI First Engineering
 
 {{< view_module
