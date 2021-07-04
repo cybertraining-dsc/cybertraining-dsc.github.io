@@ -438,6 +438,22 @@ Video: Datasets for Projects: Data world and Kaggle part 2
 Video: K-Means: Unsupervised model
 {{< /view_module >}}
 
+{{< view_module
+	alt="Support Vector Machine: Supervised model"
+	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
+	url="https://famu.zoom.us/rec/share/usJMCG7Nhn2COtrT9rwnAw5JTluazG9ZCVpN_T9zCSB8eQgIUdRoptFXjgbXarSz._ZbfSmCbHEbqXiH2"
+	>}}
+Video: Support Vector Machine: Supervised model
+{{< /view_module >}}
+
+{{< view_module
+	alt="Support Vector Machine: Supervised model"
+	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
+	url="https://drive.google.com/file/d/1d4CeZ5htowsc6l2gRLwTmpOZg5ZPTwIT/view?usp=sharing"
+	>}}
+Slides: Support Vector Machine Supervised model.
+{{< /view_module >}}
+
 ## COVID-19
 
 
