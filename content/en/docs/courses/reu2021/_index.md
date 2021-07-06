@@ -462,6 +462,16 @@ Video: Support Vector Machine: Supervised model
 Slides: Support Vector Machine Supervised model.
 {{< /view_module >}}
 
+Video: K-Means: Unsupervised model
+{{< /view_module >}}
+
+Video: Neural Networks: Deep Learning Supervised model
+{{< view_module
+	alt="Neural Networks: Deep Learning Supervised model"
+	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
+	url="https://famu.zoom.us/rec/share/1TycbfoMJis_VemQ3bL6_HD6lPqLNys-qJNFqJB0-T_vztBR16IAKBYI6kPMW2jD.tW9jSyg1QRhLaaXX"
+	>}}
+	
 ## COVID-19
 
 
