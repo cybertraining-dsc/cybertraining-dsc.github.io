@@ -71,7 +71,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="TBD"
+  title="Handwriting Recognition Using AI"
   hid="su21-reu-366" 
   author="Mikahla Reeves"
   %}}
