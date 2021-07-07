@@ -56,9 +56,7 @@ Python is a great languge for doing data science and AI, a comprehensive list of
 	url="https://famu.zoom.us/rec/share/sYmQTUXnQBoBcyET1nXEJduHb-5ahJrwiZrY5BHYuBOKSqMNW9B1uvx-l--Q1-qI.VTBZh7RhO6D-nlMe"
 >}}
 
-Installation of Python
-
-June 7th, 2021 (AM)
+Installation of Python — June 7th, 2021 (AM)
 
 {{< /view_module >}}
 
@@ -106,7 +104,7 @@ Best practices in Python recommend to use a Python venv. This is pretty easy to 
 	url="https://famu.zoom.us/rec/share/7LK71gUPMdvpH-7J0zITciuLpp7P38Ic8gQ3r42VeNFzBy52fQHdLyK0NUuYrynY.tgx5aNXykyAipzFt"
 >}}
 
-Jupyter Notebooks: This lecture provides an introduction to Jupyter Notebooks using Visual Studio as IDE.
+Jupyter Notebooks — June 7th, 2021 (PM): This lecture provides an introduction to Jupyter Notebooks using Visual Studio as IDE.
 
 {{< /view_module >}}
 
@@ -126,7 +124,7 @@ Video: Github
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/dYjAatyl--Dlc2v9RGbni5m5jM2iCY8fQYtre4A2FoYZnos9mtrjGRBkxPq3-aQv.jwJ5Gs0B58vg_da-"
 	>}}
-Video-Github 2: In this lecture the student can learn how to create a project on RStudio and link it with a repository on GitHub to commit, 
+Video-Github 2 — June 8th, 2021 (PM): In this lecture the student can learn how to create a project on RStudio and link it with a repository on GitHub to commit, 
                 pull and push the code from RStudio.
 {{< /view_module >}}
 
@@ -146,7 +144,7 @@ Slides: This introduction to Python cover the different data type, how to conver
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/5Esz5JkozJajn5b__YmCPNGdaWUsSHBAO8YVkzfyvTTq9kzL1Xv0j_yXWz1jM15J.k19yEPveidXLT41Y"
 	>}}
-Video-Introduction to Python (1): This introduction to Python cover the different data type, how to convert type of variable, understand and create flow control usign conditional statements.
+Video-Introduction to Python (1) — June 9th, 2021 (AM): This introduction to Python cover the different data type, how to convert type of variable, understand and create flow control usign conditional statements.
 {{< /view_module >}}
 
 {{< view_module
@@ -155,7 +153,7 @@ Video-Introduction to Python (1): This introduction to Python cover the differen
 	url="https://famu.zoom.us/rec/share/jIR9L_qkMPXATo56Aua009SQo62CsEi_m2sIU3YPr39bbGvyw5mPBdZ9VVomLSqG.4aEp-Ye_l_TL8lub"
 	>}}
 
-Video-Introduction to Python (2): This introduction to Python cover the different data type, how to convert type of variable, understand and create flow control usign conditional statements.
+Video-Introduction to Python (2) — June 9th, 2021 (PM): This introduction to Python cover the different data type, how to convert type of variable, understand and create flow control usign conditional statements.
 
 {{< /view_module >}}
 
@@ -166,7 +164,7 @@ Video-Introduction to Python (2): This introduction to Python cover the differen
 	url="https://famu.zoom.us/rec/share/QVziK8PteBlanKaQNG9J6uBmpyRLFnSVVcyRFKVGakBmRtzerwkutiCoGiydSxkY.W5rt607-OB0o1spc"
 	>}}
 
-Video-Introduction to Python (3): This lecture introduces the use of Google Colab to code your python program using the resources provided by Google. Also, DataFrame is introduced and use to manipulate and analyze data.
+Video-Introduction to Python (3) — June 10th, 2021 (AM): This lecture introduces the use of Google Colab to code your python program using the resources provided by Google. Also, DataFrame is introduced and use to manipulate and analyze data.
 
 {{< /view_module >}}
 
@@ -178,7 +176,7 @@ Video-Introduction to Python (3): This lecture introduces the use of Google Cola
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/rFC5DH7b_Ww4giIJ4DCmmoTRQrmVX74FQ_RRIjNazoNV2_N90-T7GQjCKm2rB39k.CKy9Cve13W2ijDcN"
 	>}}
-Slides: String, Numbers, Booleans
+Slides — June 10th, 2021 (PM): String, Numbers, Booleans
 Flow of control Using If statements
 {{< /view_module >}}
 
@@ -233,7 +231,7 @@ The first exercise will require a simple for loop, while the second is more comp
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/1P2w22PDcIUFn9ni1rhIUfP8qrqoTcSZEVSJIlhJj0ATBO_F1EiIxde4J-W1OH2L.6VI12LUQIY2_5f6h"
 	>}}
-Video: Motivation for the REU: Data is Driven Everything
+Video — June 11th, 2021 (AM): Motivation for the REU: Data is Driven Everything
 {{< /view_module >}}
 
 {{< view_module
@@ -268,7 +266,7 @@ Slides:  Probability
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/RWOguZRMv2kfZ0E4Av2hcX1SlEXtNy133dJ86rCG0RqeHhiW1PZ7HL-TeCmnHbRW.SU6BK7wgBbEl4dFe"
 	>}}
-Video: Working on GitHUb Template and Mendeley references management
+Video — June 28th, 2021 (AM): Working on GitHUb Template and Mendeley references management
 {{< /view_module >}}
 
 ## Data Science Tools
@@ -286,7 +284,7 @@ Slides: Data Science Tools
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/qZxBeplv7TiUB_gaTGUYyZw3di4Is1bCVDYSmmAFjFuMkp1xosgVI2sO-lJjSojh.p_sDdDdhn1KP6e3p"
 	>}}
-Video: Numpy
+Video — June 14th, 2021 (AM): Numpy
 {{< /view_module >}}
 
 {{< view_module
@@ -294,7 +292,7 @@ Video: Numpy
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/wy6Vr2zcZ7bg3Nqrm7CY2eHk1oA_I_HFM8az5_unde6L0cxMEi_xfsUXWGqW70Va.5I_cBifw_-EDIFI0"
 	>}}
-Video: Pandas data frame
+Video — June 14th, 2021 (PM): Pandas data frame
 {{< /view_module >}}
 
 {{< view_module
@@ -302,7 +300,7 @@ Video: Pandas data frame
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/EMMqFXSOz6NNMRk5tyi0gDo9q3ZfKOvtOXkv1oQMa1-KS_Aj6cY447aKFJCB5R2F.KvGwgslwueWKHfhQ"
 	>}}
-Video: Web data mining
+Video — June 15th, 2021 (AM): Web data mining
 {{< /view_module >}}
 
 {{< view_module
@@ -310,7 +308,7 @@ Video: Web data mining
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/t82HdIjgcLxw4sEV_NyPAZzIE9-3RbWy-l2qGc47HvYgOgxSCHbFi1AWx-PaiXjw.NsuRLGfgbB595cEa"
 	>}}
-Video: Pandas IO
+Video — June 15th, 2021 (PM): Pandas IO
 {{< /view_module >}}
 
 {{< view_module
@@ -318,7 +316,7 @@ Video: Pandas IO
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/KqawXQZyJw7Gpa64E7UC9wyz5NenluJMr5i1cTFjM34qrdGwWudK2ZP7atBVihax.b4Sv0iTEtctlmw7H"
 	>}}
-Video: Pandas
+Video — June 16th, 2021 (AM): Pandas
 {{< /view_module >}}
 
 
@@ -328,7 +326,7 @@ Video: Pandas
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/TiJJnitA6ziWOZutSEjyFGGKS0nc3lj_-lOPuGuKjNVdUO8HEp3uU9jlihaBgznt.rKnSt4gTS7B2ZXia"
 	>}}
-Video-Matrix computation: Linear algebra is a main compornent in the field of Data Science. As a consequence, this lecture introduces the main matrix operations such as, 
+Video-Matrix computation — June 16th, 2021 (PM): Linear algebra is a main compornent in the field of Data Science. As a consequence, this lecture introduces the main matrix operations such as, 
 addition, substraction, multiplication, and picewise multiplication. 
 {{< /view_module >}}
 
@@ -337,7 +335,7 @@ addition, substraction, multiplication, and picewise multiplication.
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/A7okJD5VpykMNa2S7hScShT-xfAttJ0DI7B5NPNsLkpLETPsF--5sRHmC5WkjJoU.ndWSLqDFfCgUkvMi"
 	>}}
-Video: Pycharm Installation and Virtual Environment setup
+Video: Pycharm Installation and Virtual Environment setup — June 18th, 2021 (AM)
 {{< /view_module >}}
 
 {{< view_module
@@ -345,7 +343,7 @@ Video: Pycharm Installation and Virtual Environment setup
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/gQS-so-yA7yzXfIF5LT33I5JCDPH39jpNneKTaOe7h_CEe7O4LkkdZdGzBtcT_6A.9844LB6DAuSp6TdE"
 	>}}
-Video: This lecture the student can learn the different applications of Matrix Operation using images on Python.
+Video: This lecture the student can learn the different applications of Matrix Operation using images on Python. — June 21st, 2021 (AM)
 {{< /view_module >}}
 
 {{< view_module
@@ -353,7 +351,7 @@ Video: This lecture the student can learn the different applications of Matrix O
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/gQS-so-yA7yzXfIF5LT33I5JCDPH39jpNneKTaOe7h_CEe7O4LkkdZdGzBtcT_6A.9844LB6DAuSp6TdE"
 	>}}
-Video: Data wrangling and Descriptive Statistic Using Python
+Video: Data wrangling and Descriptive Statistic Using Python — June 21st, 2021 (AM)
 {{< /view_module >}}
 
 {{< view_module
@@ -362,7 +360,7 @@ Video: Data wrangling and Descriptive Statistic Using Python
 	url="https://famu.zoom.us/rec/share/ifHM2yopAUtJYqBFd-_LBvs6iufXSCQdm7oAUYnjeQcs-mDzJQPKIwP1yJtG5MS4.TJiwMMRttLy6zeAT"
 	url="https://famu.zoom.us/rec/share/68WLXABVM1CkxskItUsfy5GqWd8hzGzoe-1OjyJGyo8uQ6tUj0RwesrJpBV-k5eJ.K294I0l3cMV_-QQl"
 	>}}
-Video: Data wrangling and Descriptive Statistic Using Python
+Video: Data wrangling and Descriptive Statistic Using Python — June 22nd, 2021 (PM)
 {{< /view_module >}}
 
 {{< view_module
@@ -371,7 +369,7 @@ Video: Data wrangling and Descriptive Statistic Using Python
 	url="https://famu.zoom.us/rec/share/ifHM2yopAUtJYqBFd-_LBvs6iufXSCQdm7oAUYnjeQcs-mDzJQPKIwP1yJtG5MS4.TJiwMMRttLy6zeAT"
 	url="https://famu.zoom.us/rec/share/N4P3I_1QDDhauQUVFaoR7oLvp89xnWa129DKFw7h2iJ0maWz46S-6dCFgp4xVhm2.Luh9f6CCxomGNT39"
 	>}}
-Video: FURY Visualization and Microsoft Lecture
+Video: FURY Visualization and Microsoft Lecture — June 25th, 2021 (PM)
 {{< /view_module >}}
 
 {{< view_module
@@ -379,7 +377,7 @@ Video: FURY Visualization and Microsoft Lecture
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/N4P3I_1QDDhauQUVFaoR7oLvp89xnWa129DKFw7h2iJ0maWz46S-6dCFgp4xVhm2.Luh9f6CCxomGNT39"
 	>}}
-Video: Instroduction to Probability
+Video: Instroduction to Probability — June 25th, 2021 (PM)
 {{< /view_module >}}
 
 {{< view_module
@@ -387,7 +385,7 @@ Video: Instroduction to Probability
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/8A-J44Q0dcg23B6ljDK7yUqn7tSkQ9Hzza69SvddWWVlmx0j5JElahAec2g3Dvg.dxWkej7OF3zYsrF4"
 	>}}
-Video: Digital Twins and Virtual Tissue ussing CompuCell3D Simulating Cancer Somatic Evolution in nanoHUB
+Video: Digital Twins and Virtual Tissue ussing CompuCell3D Simulating Cancer Somatic Evolution in nanoHUB — July 2nd, 2021 (AM)
 {{< /view_module >}}
 
 ## AI First Engineering
@@ -398,7 +396,7 @@ Video: Digital Twins and Virtual Tissue ussing CompuCell3D Simulating Cancer Som
 	url="https://famu.zoom.us/rec/share/QeQXovAhCusbLHb4R0GToPj4Gts89fOYspSAeAAEqld7lE5M06SQCor0BNz62gXY.w4x5X7Y3Kt_c39eq"
 	url="https://famu.zoom.us/rec/share/QeQXovAhCusbLHb4R0GToPj4Gts89fOYspSAeAAEqld7lE5M06SQCor0BNz62gXY.w4x5X7Y3Kt_c39eq"
 	>}}
-Video: AI First Engineering: Learning material
+Video: AI First Engineering: Learning material — June 25th, 2021 (AM)
 {{< /view_module >}}
 
 {{< view_module
@@ -406,7 +404,7 @@ Video: AI First Engineering: Learning material
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/qHl3y01ZyY0wHg4bEV43PHz_eyfD_4fmvG7Fw95ymWRDYFJ3Sx2q9lpsp4vdGxl6.Y5kKUFQlJpeZn_ty"
 	>}}
-Video: Adding content to your su21-reu repositories
+Video: Adding content to your su21-reu repositories — June 17th, 2021 (PM)
 {{< /view_module >}}
 
 {{< view_module
@@ -424,7 +422,7 @@ Slides: AI First Engineering
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/ZCGd71WnfCxm_3J4f2HM6y6NHvGN8Ew1Q7nQK9b8or0OTX7F6Zkjar_qOibvaawW.CLZoIchNsXyy5Rf_"
 	>}}
-Video: Datasets for Projects: Data world and Kaggle
+Video: Datasets for Projects: Data world and Kaggle — June 29th, 2021 (AM)
 {{< /view_module >}}
 
 
@@ -433,7 +431,7 @@ Video: Datasets for Projects: Data world and Kaggle
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/gDJ5eMu8Cf-9cBSRwUBE5RCSa3uTdhmyGCpoCudp9qz7GNmuS2kMArgm5KyqHkdb.8kukumc7i2N0hNSk"
 	>}}
-Video: Datasets for Projects: Data world and Kaggle part 2
+Video: Datasets for Projects: Data world and Kaggle part 2 — June 29th, 2021 (PM)
 {{< /view_module >}}
 
 ## Machine Learning Models
@@ -443,7 +441,7 @@ Video: Datasets for Projects: Data world and Kaggle part 2
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/NtVais7sUCs5pkVafM-kLvtAVaxZPdiWhDiVb-mM4Qj8GU5JOEiRnnGxFUCWp7TU.CIYmC4Ye50geYk9d"
 	>}}
-Video: K-Means: Unsupervised model
+Video: K-Means: Unsupervised model — June 30th, 2021 (AM)
 {{< /view_module >}}
 
 {{< view_module
@@ -451,7 +449,7 @@ Video: K-Means: Unsupervised model
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/usJMCG7Nhn2COtrT9rwnAw5JTluazG9ZCVpN_T9zCSB8eQgIUdRoptFXjgbXarSz._ZbfSmCbHEbqXiH2"
 	>}}
-Video: Support Vector Machine: Supervised model
+Video: Support Vector Machine: Supervised model — July 2nd, 2021 (PM)
 {{< /view_module >}}
 
 {{< view_module
@@ -468,7 +466,7 @@ Slides: Support Vector Machine Supervised model.
 	url="https://famu.zoom.us/rec/share/1TycbfoMJis_VemQ3bL6_HD6lPqLNys-qJNFqJB0-T_vztBR16IAKBYI6kPMW2jD.tW9jSyg1QRhLaaXX"
 	>}}
 
-Video: Neural Networks: Deep Learning Supervised model
+Video: Neural Networks: Deep Learning Supervised model — July 6th, 2021 (AM)
 
 {{< /view_module >}}
 
@@ -481,7 +479,7 @@ Video: Neural Networks: Deep Learning Supervised model
 	url="https://famu.zoom.us/rec/share/KCZGAZ00yI3m7K0ZtDuIh5XycQHH3wISv18FwECxpiKSXhYL0nuAHggbQitbPvUI.SSsE52YF9mqxhwtT"
 	>}}
 
-Video: Neural Networks: Deep learning Model
+Video: Neural Networks: Deep learning Model — July 6th, 2021 (AM)
 
 {{< /view_module >}}
 
@@ -493,7 +491,7 @@ Video: Neural Networks: Deep learning Model
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
 	url="https://famu.zoom.us/rec/share/56qZts4aTPfkY8bY-W4CIayagQt_j_MaJgohgNDyhH4MLGbE42ZXQpdCibQUSRbH.N364O4kURoydDkm6"
 	>}}
-Video: Chemo-Preventive Effect of Vegetables and Fruits Consumption on the COVID-19 Pandemic
+Video: Chemo-Preventive Effect of Vegetables and Fruits Consumption on the COVID-19 Pandemic — July 1st, 2021 (AM)
 
 {{< /view_module >}}
 
