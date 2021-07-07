@@ -471,8 +471,6 @@ Video: Neural Networks: Deep Learning Supervised model — July 6th, 2021 (AM)
 {{< /view_module >}}
 
 
-
-
 {{< view_module
 	alt="SVideo: Neural Networks: Deep learning Model"
 	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
@@ -482,6 +480,15 @@ Video: Neural Networks: Deep Learning Supervised model — July 6th, 2021 (AM)
 Video: Neural Networks: Deep learning Model — July 6th, 2021 (AM)
 
 {{< /view_module >}}
+
+{{< view_module
+	alt="Data Visualization: Visualizaton for Data Science"
+	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
+	url="https://famu.zoom.us/rec/share/EAoXC7EmycCFlAiQs5T-Fkt06BM4GaeE3jQQFokUJdltVUgFAZ_5gjFDJrl52VKm.YREXG8AKkioHuTo7"
+	>}}
+Video: Data Visualization: Visualizaton for Data Science — July 7th, 2021 (AM)
+{{< /view_module >}}
+
 
 ## COVID-19
 
