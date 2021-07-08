@@ -489,6 +489,13 @@ Video: Neural Networks: Deep learning Model — July 6th, 2021 (AM)
 Video: Data Visualization: Visualizaton for Data Science — July 7th, 2021 (AM)
 {{< /view_module >}}
 
+{{< view_module
+	alt="Convulotional Neural Networks: Deep learning Model"
+	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
+	url="https://famu.zoom.us/rec/share/C5mlHsuavi6LVh1YftB1lOfRsBRiBTEilX5P8UuGwUL8nkzdN180Iz476eYZGE00.-EOsSw2sQ9v98Joz"
+	>}}
+Video: Convulotional Neural Networks: Deep learning Model — July 8th, 2021 (AM)
+{{< /view_module >}}
 
 ## COVID-19
 
