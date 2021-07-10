@@ -490,6 +490,18 @@ Video: Data Visualization: Visualizaton for Data Science — July 7th, 2021 (AM)
 {{< /view_module >}}
 
 
+## Students Report Help
+
+{{< view_module
+	alt="Student Report Help"
+	src="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/static/images/famu.jpeg"
+	url="https://famu.zoom.us/rec/share/v5aMhaXaEM6RPlfmLueixZR4SXEcxYywLseYvXAFxKcTI51PGBv0tMTbfTsqd-03.9tPPhDsKrfA_Dhc_"
+	>}}
+Video: Student Report Help with Introduction and Datasets — July 7th, 2021 (AM)
+
+{{< /view_module >}}
+
+
 ## COVID-19
 
 
