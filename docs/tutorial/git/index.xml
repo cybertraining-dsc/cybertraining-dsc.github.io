@@ -353,4 +353,5 @@ change as not to overwrite other changes.&lt;/p>
 &lt;h2 id="7-conclusion">7. Conclusion&lt;/h2>
 &lt;p>The use of git from the command line is straightforward for existing
 repositories. It is easy to do. Make sure to create an &lt;code>ssh-key&lt;/code> and start in
-synchronization with frequent pulls.&lt;/p></description></item></channel></rss>
+synchronization with frequent pulls.&lt;/p></description></item><item><title>Docs:</title><link>/docs/tutorial/git/git-ssh/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/tutorial/git/git-ssh/readme/</guid><description>
+&lt;p>dir for jp github ssh tutorial&lt;/p></description></item></channel></rss>
