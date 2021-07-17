@@ -5,7 +5,7 @@ linkTitle: PyCharm venv
 tags: ["project", "reu", "tutorial", "venv", "pycharm"]
 description: "Setting ENV3 in PyCharm so you will do no harm"
 author: Jacques Fleischer
-github_url: https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/edit/main/content/en/docs/tutorial/pycharm/index.md
+github_url: https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/blob/main/content/en/docs/tutorial/pycharm/index.md
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
@@ -37,7 +37,7 @@ Click the following image to be redirected to a YouTube video tutorial for setti
 
 {{% youtube HCotEx_xCfA %}}
 
-1. If you have not already cloned your reu repository, you need to follow a separate tutorial which involves setting up your SSH key on GitHub, which can be found [here](https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/tree/main/content/en/docs/tutorial/git/git-ssh/index.md).
+1. If you have not already cloned your reu repository, you need to follow a separate tutorial which involves setting up your SSH key on GitHub, which can be found [here](https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/blob/main/content/en/docs/tutorial/git/git-ssh/index.md).
 
 2. Open PyCharm. If this is your first time opening PyCharm, then it will say `Welcome to PyCharm`. You should have cloned your repo to a particular location on your computer; click `Open` and then locate your reu folder. Once you have found it, click on it so it is highlighted in blue and then click `OK`. Alternatively, if you have used PyCharm before, your previous project should open, in which case you should click `File` and `Open...` to open your repo (if it is not already open).
     
