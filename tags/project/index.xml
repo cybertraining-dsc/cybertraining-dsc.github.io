@@ -1,4 +1,100 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – project</title><link>/tags/project/</link><description>Recent content in project on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/project/index.xml" rel="self" type="application/rss+xml"/><item><title>Report: Tutorial on Getting PyCharm Professional for Free</title><link>/report/su21-reu-361/tutorials/pycharm/</link><pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/tutorials/pycharm/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – project</title><link>/tags/project/</link><description>Recent content in project on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 17 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/project/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Tutorial on Adding SSH Key for GitHub Repo</title><link>/docs/tutorial/git/git-ssh/</link><pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/git/git-ssh/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>This tutorial teaches how to configure an SSH Key on GitHub so that you can clone, commit, pull, and push to repositories (repos).&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#windows">Windows&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> ssh&lt;/p>
+&lt;h2 id="windows">Windows&lt;/h2>
+&lt;p>Please ensure that you have Git (Git Bash) and a repository on GitHub. This tutorial was created with the REU program in mind, where the students are provided with a GitHub repository. If you are not in REU, then you can create a new repository on GitHub and clone that instead.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Open Git Bash by pressing the Windows key, typing &lt;code>git bash&lt;/code>, and pressing Enter.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Then, go on GitHub, click on your profile icon in the top right, click &lt;code>Settings&lt;/code>, and click &lt;code>SSH and GPG keys&lt;/code> on the left hand side. Confirm that there are no SSH keys associated with your account. If there are keys, then perhaps you have made some already. This tutorial focuses on creating a new one.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Go back to Git Bash and type &lt;code>ssh-keygen&lt;/code>. Press &lt;code>Enter&lt;/code>. Press &lt;code>Enter&lt;/code> again when it asks you the file in which to save the key (it should say &lt;code>Enter file in which to save the key (/c/Users/USERNAME/.ssh/id_rsa):&lt;/code>.&lt;/p>
+&lt;ol>
+&lt;li>If you have already created a key here, it will ask you if you would like to overwrite the file. Type &lt;code>y&lt;/code> and press &lt;code>Enter&lt;/code>.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Enter a password that you will remember for your SSH key. It will not appear as you type it, so make sure you get it right the first time. Press &lt;code>Enter&lt;/code> after typing the password that you come up with.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>After seeing the randomart image associated with your SSH, you should be able to type a new command. Type &lt;code>cat ~/.ssh/id_rsa.pub&lt;/code> and press &lt;code>Enter&lt;/code>. Your key will appear— remember that this should not be shared with others. The key begins with &lt;code>ssh-rsa&lt;/code> and it may end with your username. Copy this entire key by clicking and dragging over it, right-clicking, and clicking &lt;code>Copy&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Return to your web browser which is on the GitHub SSH key settings page. Click the green button that reads &lt;code>New SSH Key&lt;/code> and type a Title for this key. You should name it something memorable and distinct; for example, if you just generated the key on your desktop computer, a suitable name is &lt;code>Desktop&lt;/code>. If generated on your laptop, name it &lt;code>Laptop&lt;/code>, or if you have numerous laptops, differentiate them with distinct names, and so on.&lt;/p>
+&lt;ol>
+&lt;li>If you only have one computer and you have preexisting keys on this page, maybe some which you do not remember the password to or have fallen out of use, consider deleting them (as long as you are sure this will not break anything).&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Paste the key into the key box. You should have copied it from Git Bash in Step #5. Then, click the green button that reads &lt;code>Add SSH key&lt;/code>. Congratulations— you have successfully configured your SSH key. Now we will try cloning your REU repository.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Navigate to your repository. It should be in the cybertraining-dsc directory with a name format of &lt;code>xxxx-reu-xxx&lt;/code>. Once you are on that page, click the green button that reads &lt;code>Code&lt;/code> with a download symbol. Click the &lt;code>SSH&lt;/code> option and click on the clipboard next to the link so that you copy it. It should say &lt;code>Copied!&lt;/code> after you click on it.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Decide where you want your repository folder to be stored. This tutorial will clone the repo into the Documents folder. Go back to Git Bash and type &lt;code>cd ~/Documents&lt;/code> and press &lt;code>Enter&lt;/code>. It is a good idea to create a folder titled &lt;code>reu&lt;/code> for organization. Type &lt;code>mkdir reu&lt;/code> and press &lt;code>Enter&lt;/code>. Type &lt;code>cd reu&lt;/code> and press &lt;code>Enter&lt;/code>. Finally, type &lt;code>git clone&lt;/code>, and after you put a space after clone, paste the copied link from GitHub. For example, your command should look similar to this: &lt;code>git clone git@github.com:cybertraining-dsc/su21-reu-361.git&lt;/code> Then, press &lt;code>Enter&lt;/code>.&lt;/p>
+&lt;ol>
+&lt;li>The shortcut &lt;code>Ctrl + V&lt;/code> does not work in Git Bash for pasting. Instead, you can press &lt;code>Shift + Insert&lt;/code> to paste.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Type in your password for your SSH key and press &lt;code>Enter&lt;/code>. The repo should clone with no issue. You can now type &lt;code>code .&lt;/code> and press &lt;code>Enter&lt;/code> to open VSCode in this directory. Click &lt;code>Yes, I trust the authors&lt;/code> if prompted in VSCode. If you use PyCharm instead of VSCode, you can open it from Windows search; inside of PyCharm, click &lt;code>File&lt;/code>, &lt;code>Open...&lt;/code> and then navigate to &lt;code>C:&lt;/code>, &lt;code>Users&lt;/code>, your username, &lt;code>Documents&lt;/code>, and then click on &lt;code>reu&lt;/code> so it is highlighted in blue and then click &lt;code>OK&lt;/code>. If PyCharm asks, you can choose to open it in &lt;code>This Window&lt;/code> or a &lt;code>New Window&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Tutorial on Using venv in PyCharm</title><link>/docs/tutorial/pycharm/</link><pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/pycharm/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>This tutorial teaches how to set PyCharm to use a venv.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#windows">Windows&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> venv&lt;/p>
+&lt;h2 id="windows">Windows&lt;/h2>
+&lt;p>Please ensure that you have Git (Git Bash), Python, and PyCharm. If you do not have those, look for the tutorials to install them.&lt;/p>
+&lt;p>This tutorial was created with the REU program in mind, where the students are provided with a GitHub repository. If you are not in REU, then you can create a new repository on GitHub and clone that instead.&lt;/p>
+&lt;p>Click the following image to be redirected to a YouTube video tutorial for setting venv in PyCharm. Please keep in mind that this video follows directions that are somewhat different from the written instructions below. REU students should follow the written instructions over the video. Otherwise, in the video, you should skip to timestamp 8:19 unless you do not have Git or a venv, in which case you should watch the entire video.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/HCotEx_xCfA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;ol>
+&lt;li>
+&lt;p>If you have not already cloned your reu repository, you need to follow a separate tutorial which involves setting up your SSH key on GitHub, which can be found &lt;a href="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/blob/main/content/en/docs/tutorial/git/git-ssh/index.md">here&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Open PyCharm. If this is your first time opening PyCharm, then it will say &lt;code>Welcome to PyCharm&lt;/code>. You should have cloned your repo to a particular location on your computer; click &lt;code>Open&lt;/code> and then locate your reu folder. Once you have found it, click on it so it is highlighted in blue and then click &lt;code>OK&lt;/code>. Alternatively, if you have used PyCharm before, your previous project should open, in which case you should click &lt;code>File&lt;/code> and &lt;code>Open...&lt;/code> to open your repo (if it is not already open).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Please ensure that you have already configured a venv through Git Bash. If you have not, then read and follow &lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/blob/main/tutorials/python/venv.md">this tutorial&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>In the top-right of PyCharm, click on the button that reads &lt;code>Add Configuration...&lt;/code>. Click &lt;code>Add new...&lt;/code> on the left underneath &lt;code>No run configurations added.&lt;/code> and then scroll and click &lt;code>Python&lt;/code>. Give this a name; you can just type &lt;code>Python venv&lt;/code>. Next to &lt;code>Python interpreter&lt;/code>, choose &lt;code>Python x.x (ENV3)&lt;/code>. The &lt;code>x.x&lt;/code> will depend on which version of Python you have. Then click &lt;code>OK&lt;/code>.&lt;/p>
+&lt;ol>
+&lt;li>The button might not read &lt;code>Add Configuration...&lt;/code>. If you have configured a run configuration previously, then you can create a new one. Click the button right next to the green play button in the top-right of PyCharm. Then, it should say &lt;code>Edit Configurations...&lt;/code> which you must click on. Change the Python interpreter to be the &lt;code>ENV3&lt;/code> one, as outlined in Step #4.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>You also have to click &lt;code>Python x.x&lt;/code> in the bottom-right of PyCharm, next to &lt;code>main&lt;/code>. From there, choose &lt;code>Python x.x (ENV3)&lt;/code>. To verify that your virtual environment is working, click on &lt;code>Terminal&lt;/code> in the bottom-left of PyCharm. Click the &lt;code>+&lt;/code> (plus) icon next to Local to start a new terminal. It should say &lt;code>(ENV3)&lt;/code> next to your current working directory. Congratulations!&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Report: Tutorial on Getting PyCharm Professional for Free</title><link>/report/su21-reu-361/tutorials/pycharm/</link><pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/tutorials/pycharm/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;p>This tutorial teaches how to get PyCharm Professional for free on Windows 10 using a university email address.&lt;/p>
@@ -8935,477 +9031,6 @@ Further improvement may also be done on our model. We only used price data and M
 &lt;/li>
 &lt;li id="fn:11" role="doc-endnote">
 &lt;p>TA-Lib. [Online]. Available: &lt;a href="https://mrjbq7.github.io/ta-lib/func_groups/momentum_indicators.html">https://mrjbq7.github.io/ta-lib/func_groups/momentum_indicators.html&lt;/a>. [Accessed: 08-Dec-2020].&amp;#160;&lt;a href="#fnref:11" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: Stock Price Reactions to Earnings Announcements</title><link>/report/fa20-523-336/project/project/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/fa20-523-336/project/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/fa20-523-336/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-336/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/fa20-523-336/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-336/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: final, Type: Project&lt;/p>
-&lt;p>Matthew Frechette, &lt;a href="https://github.com/cybertraining-dsc/fa20-523-336/">fa20-523-336&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/fa20-523-336/blob/main/project/project.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>On average the US stock market sees a total of $192 billion a day trading hands. Massive companies, hedge funds, and other high level institutions use the markets to capitalize on companies potential and growth over time. The authors used Financial Modeling Prep to gather over 20 years of historical stock data and earnings calls to understand better what happens during company&amp;rsquo;s earnings annoucements. The results showed that over a large sample size of companies, identifying a strong coorelation was rather difficult, yet companies with strong price trend tendencies were more predictable to beat earnings expectations.&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-background-and-previous-work">2. Background And Previous Work&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-the-data">3. The Data&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-the-idea">4. The Idea&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-the-process">5. The Process&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#51-data-collection">5.1. Data Collection&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#52-finding-earnings-data">5.2. Finding Earnings Data&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#53-calculations-and-results">5.3. Calculations And Results&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#6-the-results">6. The Results&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#61-test-results---calculation-1">6.1 Test Results - Calculation 1&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#62-test-results---calculation-2">6.2 Test Results - Calculation 2&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#63-full-results---calculation-3">6.3 Full Results - Calculation 3&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#7-conclusion">7. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-acknowledgements">8. Acknowledgements&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> stocks, stock, finance, earnings, company, market, stock market, revenue, eps&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>For the final project a topic was picked that is wildly popular in today’s world. The stock markets. Mathematicians and data scientists, for decades upon decades, have dedicated billions of dollars to study market patterns, movements, and company predictions. With the stock market providing so much potential for riches, it is no doubt that it has gained the attention and spending dollars of some of the most influential and richest companies in the world. Although this project comes nowhere near to what some hedge funds and data scientists are currently doing, my idea for the project was thought of in hopes to get a slightly better understanding on the ways the prices move after a company releases their earnings reports. Earnings reports are issued by companies after each fiscal quarter (4 months) and provide some interesting insight into how the company is doing, if they have improved, and whether or not they have reached their goals. Earnings also provide great opportunities for investors as they can find companies with good or bad earnings to profit off of (either short or long).
-For this final project, a report along with a software component was picked to better understand the topic as a whole. Sitting down to write software for a project would allow for a better grasp of the topic and to understand the data at hand better.&lt;/p>
-&lt;h2 id="2-background-and-previous-work">2. Background And Previous Work&lt;/h2>
-&lt;p>After reviewing other data studies and public ideas on the topic, it was concluded that there weren&amp;rsquo;t any major studies done specifically on the price reaction during earnings. The studies that are currently out there didn&amp;rsquo;t cover quiet the amount of data that was wanted to be seen, nor did they covered all of the calculation points that should have been in a full study. Additionally, most of the studies that were done focused more on the technical side of price movements and price patterns, but not a lot on the fundamental earnings of a company. Back testing, is the act of testing a strategy in the past to see how it would perform. (Finding the success rate, return on investment, investment hold time, etc.) Since this study was not particularly looking to find the best investment strategy, but simply to find how price and earnings announcements interact with one another, it was chosen not to incorporate a back testing strategy into the software, but use percentage test analysis and evaluate multiple areas of price changes during the earnings day. These tests were dependent on the trend of the stock price and the earnings results from the announcement. In addition to determining the price reaction from these announcements, it would also provide and insight into how buyer sentiment changes during these times as a price drop usually indicates negative buyer/investor interest in the security.&lt;/p>
-&lt;h2 id="3-the-data">3. The Data&lt;/h2>
-&lt;p>For this project data from Financial Modeling Prep is used, or FMP as it refer to in the code and report. Financial Modeling Prep is a three-year-old internet company headquartered in France that provides financial data to other organizations around the world. Their data is reliable and has a fast pull speed which allowed the software to capture company data quickly and efficiently. FMP supported all of the data requirements that were needed for this project: Company Historical Prices, Earnings Dates, Earnings per share, and company expected earnings.&lt;/p>
-&lt;h2 id="4-the-idea">4. The Idea&lt;/h2>
-&lt;p>Going into this project, it was wanted to find a way to best measure and capture buyer / investor sentiment about a company but wasn’t sure exactly where to start. There were a wide range of ideas that included evaluating price changes due to executive staff changes, price changes during days of the week/month/year, and even price changes based on the weather that day. Although some ideas may have been more intricate and harder to calculate than others, it was thought that the best idea to capture the sentiment of investors was to further investigate price changes in stocks around their earning dates. Many investors are hesitant to invest in companies in the short term during these periods as it is sometimes cause for uncertainty and harsh volatility in the stock’s price.
-For this project, the studies planned to look at markets as a whole and had the ability to access over 7000 US based stock’s data to get more broad and hopefully accurate results. However, to only get better and more know/verifiable stock data, only stocks from the S&amp;amp;P500 list were picked. The idea for the software included finding the historical stock price on the days that earnings were being released and capturing how the actual earnings per share (EPS) compared to the predicted earnings per share. If the actual EPS is equal to or greater than the predicted EPS that advisors publish, which is all public data, the stock price is thought to increase during the trading day. The program developed tested this theory. Additionally, it was wanted to see how these stock prices were affected by stocks in certain trends. A stock is typically said to be in an uptrend if it is making higher highs, and high lows, and also above the 20 period and 50 period moving averages. A stock making lower lows and lower highs it said to be in a downtrend. The software was able to capture this by comparing the stock’s historical price data and moving averages at the time of the earnings release. My original prediction was that stocks in an uptrend that underperformed on earnings would recover faster / have a lower loss% than that of stocks in a downtrend that underperformed on earnings. All of the resulting data is shown in the results section of this report.&lt;/p>
-&lt;h2 id="5-the-process">5. The Process&lt;/h2>
-&lt;h3 id="51-data-collection">5.1. Data Collection&lt;/h3>
-&lt;p>The first and simplest part of the project was to gather the data from FMP. As this is a generally routine task and would need to be completed for every stock that was needed to be accessed, a function was created to more effectively gather this data. FMPgetStockHistoricalData(ticker, apiKey). The function took in a stock ticker and API key. The stock ticker must be reflective of a currently listed company on one of the US stock-exchanges. For example, entering a company that has been delisted (STGC: Startech Global) would result in an invalid result. The function also requires an FMP API key which can be purchased with unlimited pull requests for less than $20/month. This function returns a list of OHLC objects which store the stock’s open, high, low and close prices for the day, in addition to the month day and year of the price data. This is incredibly valuable data as it allows the software quick access to specific days in the company’s history.&lt;/p>
-&lt;h3 id="52-finding-earnings-data">5.2. Finding Earnings Data&lt;/h3>
-&lt;p>Secondly, the earnings data from the company must be gathered, FMP has the ability to pull earnings results going back roughly 20 years depending on the company, this is more than adequate for this software as the calculations will not solely be using the earnings reports from one company or industry. After the earnings dates, eps, and expected eps is pulled from the API call, it is stored in an earningsData object which possessed the date, eps, expected eps, revenue, and expected revenue for that specific earning call. A function in the software called FMPfindStockEarningData() returns a list of all earningsData object for further analysis.&lt;/p>
-&lt;h3 id="53-calculations-and-results">5.3. Calculations And Results&lt;/h3>
-&lt;p>The final and most complex area of the software’s processes include the calculations and results formulations functions. This is where all of the company’s stock data is computed to better understand the price action after the company exhibits an earnings call. This function formulates 10 main calculations listed in Table 1.&lt;/p>
-&lt;p>The first set of calculation would be used to identify stocks that are projected to beat earnings based off the historical trend. Using a strategy like this is not recommended and most likely will not be very accurate as a trend does not always correlate to the company actually being profitable.&lt;/p>
-&lt;p>&lt;strong>Table 1&lt;/strong>: Table shows the calculations that are to be performed on the SP500 dataset.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Calculation&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>A.&lt;/td>
-&lt;td>% of (+) beat earnings when the stock is in an uptrend&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>B.&lt;/td>
-&lt;td>% of (-) missed earnings when the stock is in a downtrend&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>These calculations find the likelihood of a stock’s price movement based on the company&amp;rsquo;s earnings results.
-Stocks that perform well (or beat earnings) are typically looked at by investors as buying opportunities, and thus the security’s price increases. This is not always the case however, and the results of this will be shown later in the report. Sometimes, investors project the stock to beat earnings by more than others and in turn find even some positive earnings results bearish. This can cause major stockholder to sell their shares and bring the price down.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Calculation&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>C.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increases from open&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>D.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increase from the previous day’s close&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>E.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from open&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>F.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from the previous day’s close&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>The final set of calculations the software is performing, looks at all parts of the stock and its trend. It identifies the likelihood of a stock price increasing due to (+) beat or (-) missed earnings, while it is in a specific type of trend reflective of the earnings direction. This can be used by investors to find stocks in an uptrend or downtrend, who also want to play the earnings direction and try to profit from it.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Calculation&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>G.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increases from open and is in a current uptrend&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>H.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increases from the previous day’s close and is in an uptrend&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>I.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from open and is in a current downtrend&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>J.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from the previous day’s close and is in a downtrend&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="6-the-results">6. The Results&lt;/h2>
-&lt;p>The results here are caclulated based on the data gathered and calculated during SP500 companyies' earnings.&lt;/p>
-&lt;h3 id="61-test-results---calculation-1">6.1 Test Results - Calculation 1&lt;/h3>
-&lt;p>&lt;strong>Table 2&lt;/strong>: Table shows the results of the calculation on AAPL stock price going back 20 years.&lt;/p>
-&lt;p>Stock Scanned: AAPL&lt;/p>
-&lt;p>Caclulated using the code on: &lt;a href="https://github.com/cybertraining-dsc/fa20-523-336/blob/main/project/project.py">https://github.com/cybertraining-dsc/fa20-523-336/blob/main/project/project.py&lt;/a> API key required.&lt;/p>
-&lt;ul>
-&lt;li>Total Data Points Evaluated: 10,000&lt;/li>
-&lt;li>Total Beat Earnings: 64 (84.2%)&lt;/li>
-&lt;li>Total Missed Earnings: 12 (15.8%)&lt;/li>
-&lt;li>Calculation Total in Seconds: 1&lt;/li>
-&lt;/ul>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Calculation&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;th>Result&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>A.&lt;/td>
-&lt;td>% of (+) beat earnings when the stock is in an uptrend&lt;/td>
-&lt;td>84%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>B.&lt;/td>
-&lt;td>% of (-) missed earnings when the stock is in a downtrend&lt;/td>
-&lt;td>0%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>C.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increases from open&lt;/td>
-&lt;td>40.63%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>D.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increase from the previous day’s close&lt;/td>
-&lt;td>67.19%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>E.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from open&lt;/td>
-&lt;td>50%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>F.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from the previous day’s close&lt;/td>
-&lt;td>75%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>G.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increases from open and is in a current uptrend&lt;/td>
-&lt;td>39.68%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>H.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increases from the previous day’s close and is in an uptrend&lt;/td>
-&lt;td>66.67%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>I.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from open and is in a current downtrend&lt;/td>
-&lt;td>0%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>J.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from the previous day’s close and is in a downtrend&lt;/td>
-&lt;td>0%&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3 id="62-test-results---calculation-2">6.2 Test Results - Calculation 2&lt;/h3>
-&lt;p>&lt;strong>Table 3&lt;/strong>: Table shows the results of the calculation on AAPL, MSFT, TWLO, GE, and NVDA&amp;rsquo;s stock price going back to their IPO. This caclulation gathers more data.&lt;/p>
-&lt;p>Stocks Scanned: AAPL, MSFT, TWLO, GE, NVDA&lt;/p>
-&lt;p>For the second results scan, 5 popular companies within the S&amp;amp;P500 were picked, in the technology and energy sector. This first test was meant to get a baseline of calculations of strong stocks in this index and get an estimated calculation time for the operation. After running the first calculation, the results were as followed. The total calculation time clocked in at just over 8 seconds for the 5 stock calculations (1.6 seconds/stock). At this rate, calculating all 500 stocks from the S&amp;amp;P500 should take around 13:20 minutes.&lt;/p>
-&lt;p>From the 5 stocks scanned, there were over 36,170 data points evaluated, 222 earnings beats, and 98 earnings misses. When stocks are in a current uptrend, the company is expected to beat earnings expectations 78.6% of the time, and when the stock is in a current downtrend the company is expected to miss earnings 59.7% of the time. This means that if the stock is in an uptrend, investors predicting a company will beat earnings would be correct more than 3/4 of the time. Of the stocks evaluated, if the company beat earnings, the price would increase from the open 42.3% of the time, and increase from the past close 61.3% of the time. Additionally, if a company missed earnings expectations, the stock price closed below the open 59% of the time, and below the previous close 60% of the time. This leads to the prediction that investors are more concerned about the company missing earnings, rather than the company beating earnings. The company missing earning expectations is more detrimental to the stock price than the company beating earnings predictions. Lastly, of these 5 stocks, the price increases from open, when earnings have been beat and the stock is in an uptrend, 43.5% of the time. Notice since we added the uptrend filter on this scan, it results a higher calculation than calculation C but only slightly. Stocks that are in an uptrend and beat earnings, increase from the previous close 63.9% of the time. Again, these results are only slightly higher than calculation D. If the stock is in a downtrend and the company misses earnings, the stock price will decrease from the open 60.1% of the time and will decrease from the previous close 54.3% of the time. This means that stocks that are in a downtrend and miss earnings, tend to actually have a spike up in premarket hours (before open 9:30amET) and then crash further throughout the day, since the decrease from open % is greater than the decrease from past close %.&lt;/p>
-&lt;p>Caclulated using the code on: &lt;a href="https://github.com/cybertraining-dsc/fa20-523-336/blob/main/project/project.py">https://github.com/cybertraining-dsc/fa20-523-336/blob/main/project/project.py&lt;/a> API key required.&lt;/p>
-&lt;ul>
-&lt;li>Total Data Points Evaluated: 36,170&lt;/li>
-&lt;li>Total Beat Earnings: 222 (69.38%)&lt;/li>
-&lt;li>Total Missed Earnings: 98 (30.62%)&lt;/li>
-&lt;li>Calculation Total in Seconds: 8&lt;/li>
-&lt;/ul>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Calculation&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;th>Result&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>A.&lt;/td>
-&lt;td>% of (+) beat earnings when the stock is in an uptrend&lt;/td>
-&lt;td>78.60%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>B.&lt;/td>
-&lt;td>% of (-) missed earnings when the stock is in a downtrend&lt;/td>
-&lt;td>59.74%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>C.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increases from open&lt;/td>
-&lt;td>42.34%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>D.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increase from the previous day’s close&lt;/td>
-&lt;td>61.26%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>E.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from open&lt;/td>
-&lt;td>59.18%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>F.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from the previous day’s close&lt;/td>
-&lt;td>60.2%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>G.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increases from open and is in a current uptrend&lt;/td>
-&lt;td>43.46%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>H.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increases from the previous day’s close and is in an uptrend&lt;/td>
-&lt;td>63.87%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>I.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from open and is in a current downtrend&lt;/td>
-&lt;td>60.87%&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>J.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from the previous day’s close and is in a downtrend&lt;/td>
-&lt;td>54.35%&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3 id="63-full-results---calculation-3">6.3 Full Results - Calculation 3&lt;/h3>
-&lt;p>This calculation find the test results based all stocks in the SP500.&lt;/p>
-&lt;p>The final results scanned all stocks in the S&amp;amp;P500 and took roughly 17 minutes (1023 seconds in total) to complete. This was one of the things that originally was surprising as the first scan pointed toward the full calculations taking less time than it did. The total data points scanned totaled 3.7 million. From the results gathered on the full results pull, the changes between the first test scan and the full scan were identified. The calculation result percentages seemed to average out and begin to navigate towards the 50% (random) mark, although there were a few scan results that yielded some potential advantage across the board.&lt;/p>
-&lt;p>Caclulated using the code on: &lt;a href="https://github.com/cybertraining-dsc/fa20-523-336/blob/main/project/project.py">https://github.com/cybertraining-dsc/fa20-523-336/blob/main/project/project.py&lt;/a> API key required.&lt;/p>
-&lt;ul>
-&lt;li>Total Data Points Evaluated: 3,704,001&lt;/li>
-&lt;li>Total Beat Earnings: 20,789 (62.3%)&lt;/li>
-&lt;li>Total Missed Earnings: 12,577 (37.7%)&lt;/li>
-&lt;li>Calculation Total in Seconds: 1023 (17 minutes)&lt;/li>
-&lt;/ul>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Calculation&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;th>Result&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>A.&lt;/td>
-&lt;td>% of (+) beat earnings when the stock is in an uptrend&lt;/td>
-&lt;td>61.6% (-17% difference)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>B.&lt;/td>
-&lt;td>% of (-) missed earnings when the stock is in a downtrend&lt;/td>
-&lt;td>34.54% (-25.2% difference)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>C.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increases from open&lt;/td>
-&lt;td>51.8% (+9.46% difference)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>D.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increase from the previous day’s close&lt;/td>
-&lt;td>56.74% (-4.52% difference)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>E.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from open&lt;/td>
-&lt;td>50.92% (-8.26% difference)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>F.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from the previous day’s close&lt;/td>
-&lt;td>56.92% (-3.28% difference)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>G.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increases from open and is in a current uptrend&lt;/td>
-&lt;td>52.84% (+9.38% difference)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>H.&lt;/td>
-&lt;td>% of (+) beat earnings, where price increases from the previous day’s close and is in an uptrend&lt;/td>
-&lt;td>57.68% (-6.19% difference)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>I.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from open and is in a current downtrend&lt;/td>
-&lt;td>53.76% (-7.11% difference)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>J.&lt;/td>
-&lt;td>% of (-) missed earnings, where price decreases from the previous day’s close and is in a downtrend&lt;/td>
-&lt;td>58.48% (-4.13% difference)&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>Although these results tend to show more randomness than the 5 scanned in the results of Calculation 1 in Section 6.1, there are a few scans that could yield a profitable and predictive strategy for investors, and/or provide some insight into what the price of a security may do. One area where the software is still able to predict events is in scan A, where we are evaluating the probability that the company will beat earning solely based on what the stock price trend is doing. If we only looked while investing in S&amp;amp;P500 stocks, an investor would be able to assume the company will beat earnings 61.6% of the time if the stock is above the 20 and 50 period moving averages. Of these times, the stock price will increase from the past close 57.68% of the time.&lt;/p>
-&lt;h2 id="7-conclusion">7. Conclusion&lt;/h2>
-&lt;p>To conclude, as more and more companies are evaluated in the software&amp;rsquo;s calculations, the chance of unusual and unique events increase. Theoretically, if a company outperforms their expected earnings and shows number better than what financial advisors predict the company to earn, investors should be encouraged to buy more shares in the company and in turn drive the price of the security higher. Sometimes however, stock prices act in the opposite effect during earnings times as large hedge funds and corporations sell off large volume shares of stock to fear other investors into selling. This can snowball the stock price down to where large institutions can repurchase massive amount of those shares again. This is usually refered to as market manipulation. (In a sort of dollar cost averaging method) Because of this, and many other market manipulation activities that occur on stock markets across the globe, positive earnings announcements do not always yield positive buyer sentiment and a price increase. Concluded from this research, it can be said that the strongest correlation to a stock beating earnings estimates, is the price trend of the security. If the stock is in a current uptrend, the chance of that security beating earnings is over 60% (based on SP500 Stock Calculations) With this, earnings announcements are something that many investors should and could look at while investing both short term and long term in companies, however, to develop a truly profitable trading strategy, more work and analysis would need to be conducted. The market moves in ways that few can acurately explain, and as more stocks are scanned and analyzed, the randomness and factor of luck began to show.&lt;/p>
-&lt;h2 id="8-acknowledgements">8. Acknowledgements&lt;/h2>
-&lt;p>Thank you to Dr. Gregor Von Laszewski, Dr. Geoffrey Fox and all other AI staff that helped with the planning and teaching of the I423 class during the COVID-19 pandemic through the fall 2020 semester. This class helped to better understand areas of big data and the science behind it. Additionally, the class gave participants the ability to learn more about their own chosen topic. Thank you.&lt;/p>
-&lt;h2 id="9-references">9. References&lt;/h2></description></item><item><title>Report: Project: Stock level prediction</title><link>/report/sp21-599-353/project/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/sp21-599-353/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/sp21-599-353/actions">&lt;img src="https://github.com/cybertraining-dsc/sp21-599-353/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/sp21-599-353/actions">&lt;img src="https://github.com/cybertraining-dsc/sp21-599-353/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: final, Type: Project&lt;/p>
-&lt;p>Rishabh Agrawal, &lt;a href="https://github.com/cybertraining-dsc/sp21-599-353/">sp21-599-353&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/sp21-599-353/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/cybertraining-dsc/sp21-599-353/blob/main/project/code/Stock%20Prediction.ipynb">Stock Prediction.pynb&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/cybertraining-dsc/sp21-599-353/blob/main/project/code/Stock%20Prediction.pdf">Stock Prediction.pdf&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>This project includes a deep learning model for stock prediction. It uses LSTM, RNN which is the standart for time series prediction.
-It seems to be the right approach. The author really loved this project since he loves stocks.
-He invests often, and is also in love with tech, so he finds ways to combine both of them. Most existing models for stock prediction
-dont include the volume, and Rishabh intendede to use that as an input, but it didn&amp;rsquo;t go exactly as planned.&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-existing-lstm-models">2. Existing LSTM Models&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#21-what-is-lstm">2.1. What is LSTM?&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#22-existing-lstm-models-and-why-they-dont-do-great">2.2. Existing LSTM models and why they don&amp;rsquo;t do great&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-datasets">3. Datasets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-results">4. Results&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#7-conclusion">7. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, LSTM, Time Series prediction, transformers.&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Using deep learning for stock level prediction is not a new concept, but this project is trying to address a different issue her. Volume. Almost no model actually uses volume, daily volume or weekly volume.
-People that are experts in this field and do a technical analysis(TA) of stocks use volume for their prediction extensively, so why not use it in the model? It could be ground breaking.&lt;/p>
-&lt;p>LSTM is the obvious match for this kind of problem, but this project will also try to incorporate transformers in the model. The data set used will be from Yahoo Finance&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="2-existing-lstm-models">2. Existing LSTM Models&lt;/h2>
-&lt;p>There are quite a few models out there for stock prediction. But what exactly is LSTM? How does it work, and how is it the obvious option here? There are other models too.
-Why the current LSTM models aren&amp;rsquo;t that great? How good/bad do they perform?&lt;/p>
-&lt;h2 id="21-what-is-lstm">2.1. What is LSTM?&lt;/h2>
-&lt;p>LSTM is short for Long Short Term Memory networks. It comes under the branch of Recurrant Nueral Networks. LSTMs are explicitly designed to avoid the long-term dependency problem.
-Remembering information for long periods of time is practically their default behavior, not something they struggle to learn!
-All recurrent neural networks have the form of a chain of repeating modules of neural network. In standard RNNs, this repeating module will have a very simple structure, such as a single tanh layer&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>.
-LSTM is also used for other time series forecasting such as weather and climate. It is an area of deep learning that works on considering the last few instances of the time series instead of the entire time series as a whole.
-A recurrent neural network can be thought of as multiple copies of the same network, each passing a message to a successor&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/sp21-599-353/raw/main/project/images/lstm.png" alt="LSTM">
-&lt;br />Fig 1 LSTM&lt;/p>
-&lt;p>This chain-like nature reveals that recurrent neural networks are intimately related to sequences and lists. They’re the natural architecture of neural network to use for such data. LSTMs are explicitly designed to avoid the long-term dependency problem. Remembering information for long periods of time is practically their default behavior, not something they struggle to learn.&lt;/p>
-&lt;h2 id="22-existing-lstm-models-and-why-they-dont-do-great">2.2. Existing LSTM models and why they don&amp;rsquo;t do great&lt;/h2>
-&lt;p>This data corroborates what we can see from Figure 4. The low values in RMSE and decent values in R2 show that the LSTM may be good at predicting the next values for the time series in consideration.&lt;/p>
-&lt;p>Figure 5 shows a sample of 100 actual prices compared to predicted ones, from August 13, 2018 to January 4, 2019.
-&lt;a href="https://www.blueskycapitalmanagement.com/machine-learning-in-finance-why-you-should-not-use-lstms-to-predict-the-stock-market/">&lt;img src="https://github.com/cybertraining-dsc/sp21-599-353/raw/main/project/images/lstm_pred.png" alt="LSTM prediction">&lt;/a>
-&lt;br />Fig 5 LSTM Prediction 1 &lt;a href="https://www.blueskycapitalmanagement.com/machine-learning-in-finance-why-you-should-not-use-lstms-to-predict-the-stock-market/">Image Source&lt;/a>&lt;/p>
-&lt;p>This figure makes us draw a different conclusion. While in aggregate it seemed that the LSTM is effective at predicting the next day values,
-in reality the prediction made for the next day is very close to the actual value of the previous day.
-This can be further seen by Figure 6, which shows the actual prices lagged by 1 day compared to the predicted price&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>&lt;a href="https://www.blueskycapitalmanagement.com/machine-learning-in-finance-why-you-should-not-use-lstms-to-predict-the-stock-market/">&lt;img src="https://github.com/cybertraining-dsc/sp21-599-353/raw/main/project/images/lstm_pred2.png" alt="LSTM prediction2">&lt;/a>
-&lt;br />Fig 6 LSTM Prediction 2 &lt;a href="https://www.blueskycapitalmanagement.com/machine-learning-in-finance-why-you-should-not-use-lstms-to-predict-the-stock-market/">Image Source&lt;/a>&lt;/p>
-&lt;p>In one other model on Google Colab we see an output like this&lt;/p>
-&lt;p>&lt;a href="https://colab.research.google.com/github/Mishaall/Geodemographic-Segmentation-ANN/blob/master/Google_Stock_Price_Prediction_RNN.ipynb#scrollTo=skhdvmCywHrr">&lt;img src="https://github.com/cybertraining-dsc/sp21-599-353/raw/main/project/images/lstm_pred3.png" alt="LSTM prediction3">&lt;/a>
-&lt;br />Fig 7 LSTM Prediction 3 &lt;a href="https://colab.research.google.com/github/Mishaall/Geodemographic-Segmentation-ANN/blob/master/Google_Stock_Price_Prediction_RNN.ipynb#scrollTo=skhdvmCywHrr">Image Source&lt;/a>&lt;/p>
-&lt;p>Here we can see that clearly the model did not do well. In this model, the LSTM didn&amp;rsquo;t even get the trends correctly. There is definitely need for some changes in the layers, and droupout coeffecient.
-My guess is that this model was really overfitted since the first half of the prediction did reletively well&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="3-datasets">3. Datasets&lt;/h2>
-&lt;p>As mentioned above, the Yahoo finance Data set will be used. It is really easy to get. Data can be download from any time stamp to as new as today. There is a download csv button to do so.
-Here is an example of &lt;a href="https://finance.yahoo.com/quote/aapl/history?ltr=1">AAPL stock&lt;/a> on Yahoo Finance&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>For this project the Amazon stock was chosen. The all time max historic data was downloaded from Yahoo Finance in csv format. Here is the &lt;a href="https://github.com/cybertraining-dsc/sp21-599-353/blob/main/project/code/AMZN_Stock_Price.csv">link&lt;/a>&lt;/p>
-&lt;h2 id="4-results">4. Results&lt;/h2>
-&lt;p>Fig 8 shows the result of my model. The results weren&amp;rsquo;t as expected. This project was meant to be for adding volume to the input layer. We tried to do that in the model, but it failed. It gave a straight
-line for the prediction. This project did find a unique way to use the LSTM. It played around with the layers, number of layers, the droupout coeffecient to find the most accurate balance. The output shows a more
-reliable and believable output, and that is some progress. There might be ways to incorporate volume. Later, maybe it needs better scaling. But the prediction did get the trends pretty accurately, even
-though it might not have gotten the exact price correctly. Amazon stock alse soared unbelievabley this year due to COVID-19 and many other external factors that were not incorporated in the model at
-all, so it is really common to see an undervalued prediction.&lt;br />
-&lt;img src="https://github.com/cybertraining-dsc/sp21-599-353/raw/main/project/images/AMZN_stock_prediction_graph.png" alt="LSTM results">
-&lt;br />Fig 8&lt;/p>
-&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
-&lt;p>Cloudmesh was used for the benchmark for this project. According to the documentaion&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>, I used the StopWatch.start() and StopWatch.stop() functions. Fig 9 shows the output. Loading the dataset or prediction of the data doesn&amp;rsquo;t take long at all. The majority of the time is taken for the training
-wihch is expected. Google Colab was the tool used and utilized the GPU which is why each epoch just took about 2 seconds. When a personal CPU or the default CPU provided by Google Colab was used,
-it took about 30-40 seconds for each epoch. You can see the system configuration in Fig 9 too.
-&lt;img src="https://github.com/cybertraining-dsc/sp21-599-353/raw/main/project/images/benchmark.png" alt="Cloudmesh Benchmark">
-&lt;br />Fig 9 Cloudmesh Benchmark Results&lt;/p>
-&lt;h2 id="7-conclusion">7. Conclusion&lt;/h2>
-&lt;p>Even though the model did not do as expected, we were not able to add volume as an input, we were still able to find some success with changing the number layers and the coeffecient values. We can see
-that the model can successfully predict the trend of the stock prices, even with the external factors affecting the prices a little. The next step for this project would be to try to scale the volume
-and add it as an input to the model. One other, but rather difficult add-on could be to try to add some external factors as inputs. For an aggregate input of external factors, we could use
-sentiment analysis through Twitter tweets as an input to the model too.&lt;/p>
-&lt;h2 id="9-references">9. References&lt;/h2>
-&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
-one point automatically change the references from superscript to square brackets it is best to introduce a space before
-the first square bracket.&lt;/p>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Using dataset for stocks, [Online resource]
-&lt;a href="https://finance.yahoo.com/">https://finance.yahoo.com/&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>Understanding LSTM Networks, [Online Resource]
-&lt;a href="https://colah.github.io/posts/2015-08-Understanding-LSTMs/">https://colah.github.io/posts/2015-08-Understanding-LSTMs/&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:3" role="doc-endnote">
-&lt;p>AI stock market forecast, [Online resource]
-&lt;a href="http://ai-marketers.com/ai-stock-market-forecast/">http://ai-marketers.com/ai-stock-market-forecast/&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:4" role="doc-endnote">
-&lt;p>Why You Should Not Use LSTM’s to Predict the Stock Market, [Online resource]
-&lt;a href="https://www.blueskycapitalmanagement.com/machine-learning-in-finance-why-you-should-not-use-lstms-to-predict-the-stock-market/">https://www.blueskycapitalmanagement.com/machine-learning-in-finance-why-you-should-not-use-lstms-to-predict-the-stock-market/&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:5" role="doc-endnote">
-&lt;p>Google Stock Price Prediction RNN, [Google Colab]
-&lt;a href="https://colab.research.google.com/github/Mishaall/Geodemographic-Segmentation-ANN/blob/master/Google_Stock_Price_Prediction_RNN.ipynb#scrollTo=skhdvmCywHrr">https://colab.research.google.com/github/Mishaall/Geodemographic-Segmentation-ANN/blob/master/Google_Stock_Price_Prediction_RNN.ipynb#scrollTo=skhdvmCywHrr&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:6" role="doc-endnote">
-&lt;p>Cloudmesh, [Documentation]
-&lt;a href="https://cloudmesh.github.io/cloudmesh-manual/autoapi/cloudmeshcommon/cloudmesh/common/StopWatch/index.html#module-cloudmesh-common.cloudmesh.common.StopWatch">https://cloudmesh.github.io/cloudmesh-manual/autoapi/cloudmeshcommon/cloudmesh/common/StopWatch/index.html#module-cloudmesh-common.cloudmesh.common.StopWatch&lt;/a>&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item></channel></rss>

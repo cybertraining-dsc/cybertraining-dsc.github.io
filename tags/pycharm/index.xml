@@ -1,0 +1,41 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – pycharm</title><link>/tags/pycharm/</link><description>Recent content in pycharm on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 16 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/pycharm/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Tutorial on Using venv in PyCharm</title><link>/docs/tutorial/pycharm/</link><pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/pycharm/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>This tutorial teaches how to set PyCharm to use a venv.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#windows">Windows&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> venv&lt;/p>
+&lt;h2 id="windows">Windows&lt;/h2>
+&lt;p>Please ensure that you have Git (Git Bash), Python, and PyCharm. If you do not have those, look for the tutorials to install them.&lt;/p>
+&lt;p>This tutorial was created with the REU program in mind, where the students are provided with a GitHub repository. If you are not in REU, then you can create a new repository on GitHub and clone that instead.&lt;/p>
+&lt;p>Click the following image to be redirected to a YouTube video tutorial for setting venv in PyCharm. Please keep in mind that this video follows directions that are somewhat different from the written instructions below. REU students should follow the written instructions over the video. Otherwise, in the video, you should skip to timestamp 8:19 unless you do not have Git or a venv, in which case you should watch the entire video.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/HCotEx_xCfA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;ol>
+&lt;li>
+&lt;p>If you have not already cloned your reu repository, you need to follow a separate tutorial which involves setting up your SSH key on GitHub, which can be found &lt;a href="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/blob/main/content/en/docs/tutorial/git/git-ssh/index.md">here&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Open PyCharm. If this is your first time opening PyCharm, then it will say &lt;code>Welcome to PyCharm&lt;/code>. You should have cloned your repo to a particular location on your computer; click &lt;code>Open&lt;/code> and then locate your reu folder. Once you have found it, click on it so it is highlighted in blue and then click &lt;code>OK&lt;/code>. Alternatively, if you have used PyCharm before, your previous project should open, in which case you should click &lt;code>File&lt;/code> and &lt;code>Open...&lt;/code> to open your repo (if it is not already open).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Please ensure that you have already configured a venv through Git Bash. If you have not, then read and follow &lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/blob/main/tutorials/python/venv.md">this tutorial&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>In the top-right of PyCharm, click on the button that reads &lt;code>Add Configuration...&lt;/code>. Click &lt;code>Add new...&lt;/code> on the left underneath &lt;code>No run configurations added.&lt;/code> and then scroll and click &lt;code>Python&lt;/code>. Give this a name; you can just type &lt;code>Python venv&lt;/code>. Next to &lt;code>Python interpreter&lt;/code>, choose &lt;code>Python x.x (ENV3)&lt;/code>. The &lt;code>x.x&lt;/code> will depend on which version of Python you have. Then click &lt;code>OK&lt;/code>.&lt;/p>
+&lt;ol>
+&lt;li>The button might not read &lt;code>Add Configuration...&lt;/code>. If you have configured a run configuration previously, then you can create a new one. Click the button right next to the green play button in the top-right of PyCharm. Then, it should say &lt;code>Edit Configurations...&lt;/code> which you must click on. Change the Python interpreter to be the &lt;code>ENV3&lt;/code> one, as outlined in Step #4.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>You also have to click &lt;code>Python x.x&lt;/code> in the bottom-right of PyCharm, next to &lt;code>main&lt;/code>. From there, choose &lt;code>Python x.x (ENV3)&lt;/code>. To verify that your virtual environment is working, click on &lt;code>Terminal&lt;/code> in the bottom-left of PyCharm. Click the &lt;code>+&lt;/code> (plus) icon next to Local to start a new terminal. It should say &lt;code>(ENV3)&lt;/code> next to your current working directory. Congratulations!&lt;/p>
+&lt;/li>
+&lt;/ol></description></item></channel></rss>
