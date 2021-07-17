@@ -1,4 +1,5 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – pycharm</title><link>/tags/pycharm/</link><description>Recent content in pycharm on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 16 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/pycharm/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Tutorial on Using venv in PyCharm</title><link>/docs/tutorial/pycharm/</link><pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/pycharm/</guid><description>
+&lt;p>Jacques Fleischer&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;p>This tutorial teaches how to set PyCharm to use a venv.&lt;/p>
