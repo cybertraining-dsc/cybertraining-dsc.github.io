@@ -5,7 +5,7 @@ linkTitle: SSH Key for Repo
 tags: ["project", "reu", "tutorial", "ssh", "github"]
 description: "Scary SSH Keys are Now a Breeze"
 author: Jacques, Fleischer
-github_url: https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/edit/main/content/en/docs/tutorial/git/git-ssh/index.md
+github_url: https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/blob/main/content/en/docs/tutorial/git/git-ssh/index.md
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
