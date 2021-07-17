@@ -11,6 +11,8 @@ resources:
   title: "Image #:counter"
 ---
 
+Jacques Fleischer
+
 
 {{% pageinfo %}}
 
