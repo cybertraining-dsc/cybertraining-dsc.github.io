@@ -15,7 +15,7 @@
     
     
     <item>
-      <title>Docs: Tutorial on Adding SSH Key for GitHub Repo</title>
+      <title>Docs: Adding a SSH Key for GitHub Repository</title>
       <link>/docs/tutorial/git/git-ssh/</link>
       <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
       
@@ -23,17 +23,20 @@
       <description>
         
         
-        &lt;p&gt;Jacques Fleischer&lt;/p&gt;
+        &lt;p&gt;Jacques Fleischer, Gregor von Laszewski&lt;/p&gt;
 
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;This tutorial teaches how to configure an SSH Key on GitHub so that you can clone, commit, pull, and push to repositories (repos).&lt;/p&gt;
+&lt;p&gt;We present how to configure an SSH Key on GitHub so that you can clone, commit, pull, and push to repositories. SSH keys provide an easy way to authenticate to github. Together with ssh-agent and ssh-add it allows you to do multiple commtits without having to retype the password.&lt;/p&gt;
 &lt;p&gt;Contents&lt;/p&gt;
 &lt;div class=&#34;toc&#34;&gt;
   &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&#34;#windows&#34;&gt;Windows&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#documentation-for-linux-and-macos&#34;&gt;Documentation for Linux and macOS&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#uploading-the-ssh-key&#34;&gt;Uploading the SSH key&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#using-the-ssh-key&#34;&gt;Using the ssh key&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#using-ssh-agent-and-ssh-add&#34;&gt;Using ssh-agent and ssh-add&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
 &lt;/div&gt;
@@ -41,8 +44,10 @@
 &lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; ssh&lt;/p&gt;
-&lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
-&lt;p&gt;Please ensure that you have Git (Git Bash) and a repository on GitHub. This tutorial was created with the REU program in mind, where the students are provided with a GitHub repository. If you are not in REU, then you can create a new repository on GitHub and clone that instead.&lt;/p&gt;
+&lt;h2 id=&#34;documentation-for-linux-and-macos&#34;&gt;Documentation for Linux and macOS&lt;/h2&gt;
+&lt;p&gt;Please follow the Windows documentation, but instaed of using gitbash, pleas use the regular terminal. on macOS, make sure you have xcode installed.&lt;/p&gt;
+&lt;h2 id=&#34;uploading-the-ssh-key&#34;&gt;Uploading the SSH key&lt;/h2&gt;
+&lt;p&gt;Please ensure that you have Git (Git Bash) and a repository on GitHub. This tutorial assumes you already have a GitHub repository as well as a GitHub account.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Open Git Bash by pressing the Windows key, typing &lt;code&gt;git bash&lt;/code&gt;, and pressing Enter.&lt;/p&gt;
@@ -69,13 +74,25 @@
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Paste the key into the key box. You should have copied it from Git Bash in Step #5. Then, click the green button that reads &lt;code&gt;Add SSH key&lt;/code&gt;. Congratulations— you have successfully configured your SSH key. Now we will try cloning your REU repository.&lt;/p&gt;
+&lt;p&gt;Paste the key into the key box. You should have copied it from Git Bash in Step #5. Then, click the green button that reads &lt;code&gt;Add SSH key&lt;/code&gt;. Congratulations— you have successfully configured your SSH key.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;using-the-ssh-key&#34;&gt;Using the ssh key&lt;/h2&gt;
+&lt;p&gt;Now we will try cloning a repository. We use as an example a repository that we created for a student from a REU. Your example may be different. please adjust the repository name. Your repository will have a format of &lt;code&gt;xxxx-reu-xxx&lt;/code&gt;&lt;/p&gt;
+&lt;ol start=&#34;8&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Navigate to your repository and &lt;code&gt;cd&lt;/code&gt; into it. (In case of the REU we recommend to place it into a directory called &lt;code&gt;cybertraining-dsc&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ mkdir ~/Descktop/cybertraining-dsc 
+$ cd cybertraining-dsc
+$ git clone git@github.com:cybertraining-dsc/YOURREPONAME.git
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;and replace YOURREPONAME with the name of your repository&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Navigate to your repository. It should be in the cybertraining-dsc directory with a name format of &lt;code&gt;xxxx-reu-xxx&lt;/code&gt;. Once you are on that page, click the green button that reads &lt;code&gt;Code&lt;/code&gt; with a download symbol. Click the &lt;code&gt;SSH&lt;/code&gt; option and click on the clipboard next to the link so that you copy it. It should say &lt;code&gt;Copied!&lt;/code&gt; after you click on it.&lt;/p&gt;
+&lt;p&gt;Alternatively you can download it via the GitHub Web GUI. Once you are on your repository page, click the green button that reads &lt;code&gt;Code&lt;/code&gt; with a download symbol. Click the &lt;code&gt;SSH&lt;/code&gt; option and click on the clipboard next to the link so that you copy it. It should say &lt;code&gt;Copied!&lt;/code&gt; after you click on it.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Decide where you want your repository folder to be stored. This tutorial will clone the repo into the Documents folder. Go back to Git Bash and type &lt;code&gt;cd ~/Documents&lt;/code&gt; and press &lt;code&gt;Enter&lt;/code&gt;. It is a good idea to create a folder titled &lt;code&gt;reu&lt;/code&gt; for organization. Type &lt;code&gt;mkdir reu&lt;/code&gt; and press &lt;code&gt;Enter&lt;/code&gt;. Type &lt;code&gt;cd reu&lt;/code&gt; and press &lt;code&gt;Enter&lt;/code&gt;. Finally, type &lt;code&gt;git clone&lt;/code&gt;, and after you put a space after clone, paste the copied link from GitHub. For example, your command should look similar to this: &lt;code&gt;git clone git@github.com:cybertraining-dsc/su21-reu-361.git&lt;/code&gt; Then, press &lt;code&gt;Enter&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Decide where you want your repository folder to be stored. This tutorial will clone the repo into the Documents folder. Go back to Git Bash and type
+&lt;code&gt;cd ~/Desktop/cybertraining-dsc&lt;/code&gt; and press &lt;code&gt;Enter&lt;/code&gt;. It is a good idea to create a folder titled &lt;code&gt;reu&lt;/code&gt; for organization. Type &lt;code&gt;mkdir reu&lt;/code&gt; and press &lt;code&gt;Enter&lt;/code&gt;. Type &lt;code&gt;cd reu&lt;/code&gt; and press &lt;code&gt;Enter&lt;/code&gt;. Finally, type &lt;code&gt;git clone&lt;/code&gt;, and after you put a space after clone, paste the copied link from GitHub. For example, your command should look similar to this: &lt;code&gt;git clone git@github.com:cybertraining-dsc/su21-reu-361.git&lt;/code&gt; Then, press &lt;code&gt;Enter&lt;/code&gt;.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;The shortcut &lt;code&gt;Ctrl + V&lt;/code&gt; does not work in Git Bash for pasting. Instead, you can press &lt;code&gt;Shift + Insert&lt;/code&gt; to paste.&lt;/li&gt;
 &lt;/ol&gt;
@@ -84,7 +101,11 @@
 &lt;p&gt;Type in your password for your SSH key and press &lt;code&gt;Enter&lt;/code&gt;. The repo should clone with no issue. You can now type &lt;code&gt;code .&lt;/code&gt; and press &lt;code&gt;Enter&lt;/code&gt; to open VSCode in this directory. Click &lt;code&gt;Yes, I trust the authors&lt;/code&gt; if prompted in VSCode. If you use PyCharm instead of VSCode, you can open it from Windows search; inside of PyCharm, click &lt;code&gt;File&lt;/code&gt;, &lt;code&gt;Open...&lt;/code&gt; and then navigate to &lt;code&gt;C:&lt;/code&gt;, &lt;code&gt;Users&lt;/code&gt;, your username, &lt;code&gt;Documents&lt;/code&gt;, and then click on &lt;code&gt;reu&lt;/code&gt; so it is highlighted in blue and then click &lt;code&gt;OK&lt;/code&gt;. If PyCharm asks, you can choose to open it in &lt;code&gt;This Window&lt;/code&gt; or a &lt;code&gt;New Window&lt;/code&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;h2 id=&#34;using-ssh-agent-and-ssh-add&#34;&gt;Using ssh-agent and ssh-add&lt;/h2&gt;
+&lt;p&gt;If you do not want to always type in your password you can prior to the first commit in the termnal in which you issue the commits say&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ eval `ssh-agent`
+$ ssh-add
+&lt;/code&gt;&lt;/pre&gt;
       </description>
     </item>
     
