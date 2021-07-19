@@ -8,7 +8,7 @@
 &lt;nav id="TableOfContents">
 &lt;ul>
 &lt;li>&lt;a href="#documentation-for-linux-and-macos">Documentation for Linux and macOS&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#uploading-the-ssh-key">Uploading the SSH key&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#uloading-the-ssh-key">Uloading the SSH key&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#using-the-ssh-key">Using the ssh key&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#using-ssh-agent-and-ssh-add">Using ssh-agent and ssh-add&lt;/a>&lt;/li>
 &lt;/ul>
@@ -18,7 +18,7 @@
 &lt;p>&lt;strong>Keywords:&lt;/strong> ssh&lt;/p>
 &lt;h2 id="documentation-for-linux-and-macos">Documentation for Linux and macOS&lt;/h2>
 &lt;p>Please follow the Windows documentation, but instaed of using gitbash, pleas use the regular terminal. on macOS, make sure you have xcode installed.&lt;/p>
-&lt;h2 id="uploading-the-ssh-key">Uploading the SSH key&lt;/h2>
+&lt;h2 id="uloading-the-ssh-key">Uloading the SSH key&lt;/h2>
 &lt;p>Please ensure that you have Git (Git Bash) and a repository on GitHub. This tutorial assumes you already have a GitHub repository as well as a GitHub account.&lt;/p>
 &lt;ol>
 &lt;li>
