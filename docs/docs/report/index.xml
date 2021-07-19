@@ -1,0 +1,1440 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cybertraining – Reports</title>
+    <link>/docs/report/</link>
+    <description>Recent content in Reports on Cybertraining</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="/docs/report/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Reports</title>
+      <link>/docs/report/other/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/report/other/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;This page contains the list of the reports and projects.&lt;/p&gt;
+&lt;p&gt;Any report with a tag&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;../report/failed-check.png&#34; alt=&#34;&#34;&gt; will not
+be reviewed or commented on.&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;../report/failed-status.png&#34; alt=&#34;&#34;&gt; will not
+be reviewed for grading.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Click on your icon to find out what the errors are. Fixing them is easy.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;list&#34;&gt;List&lt;/h2&gt;
+&lt;h3 id=&#34;sample&#34;&gt;Sample&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-301/main/project/project.md&#34;&gt;Sample Report Markdown&lt;/a&gt;. Please
+do not use any HTML tags, use markdown. Make sure to add abstract,
+keywords, and refernces. Use footnotes for refernces. Do not use br.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;See the &lt;a href=&#34;project-faq&#34;&gt;Project FAQ&lt;/a&gt; for a summary of information we
+posted and obtained from reviewing your projects.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For example renderd reports see&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-312/blob/main/project/project.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-312: &lt;a href=&#34;/report/fa20-523-312/project/project/&#34;&gt;Project: Aquatic Toxicity Analysis with the aid of Autonomous Surface Vehicle (ASV), Saptarshi Sinha&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-312?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-312/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-312/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-312/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-312/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-312/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-312&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-312&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-312&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-309/blob/main/project/project.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-309: &lt;a href=&#34;/report/fa20-523-309/project/project/&#34;&gt;Project: Detecting Heart Disease using Machine Learning Classification Techniques, Ethan Nguyen&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-309?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-309/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-309/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-309/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-309/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-309/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-309&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-309&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-309&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;reports-and-projects&#34;&gt;Reports and Projects&lt;/h3&gt;
+&lt;h4 id=&#34;technology&#34;&gt;Technology&lt;/h4&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cloudmesh/cloudmesh-openapi&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/laszewski/laszewski.github.io/raw/master/papers/vonLaszewski-openapi.pdf&#34;&gt;Benchmarking Multi-Cloud Auto Generated AI Services, Gregor von Laszewski, Anthony Orlowski, et.al.&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cloudmesh/cloudmesh-openapi?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://pypi.org/project/cloudmesh-openapi/&#34;&gt;&lt;img src=&#34;https://img.shields.io/pypi/v/cloudmesh-openapi.svg&#34; alt=&#34;image&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://pypi.python.org/pypi/cloudmesh-openapi&#34;&gt;&lt;img src=&#34;https://img.shields.io/pypi/pyversions/cloudmesh-openapi.svg&#34; alt=&#34;Python&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cloudmesh/cloudmesh-openapi/blob/main/LICENSE&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/License-Apache%202.0-blue.svg&#34; alt=&#34;License&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://pypi.python.org/pypi/cloudmesh-openapi&#34;&gt;&lt;img src=&#34;https://img.shields.io/pypi/format/cloudmesh-openapi.svg&#34; alt=&#34;Format&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://pypi.python.org/pypi/cloudmesh-openapi&#34;&gt;&lt;img src=&#34;https://img.shields.io/pypi/status/cloudmesh-openapi.svg&#34; alt=&#34;Status&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://travis-ci.com/cloudmesh/cloudmesh-openapi&#34;&gt;&lt;img src=&#34;https://travis-ci.com/cloudmesh/cloudmesh-openapi.svg?branch=main&#34; alt=&#34;Travis&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cloudmesh/cloudmesh-openapi&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cloudmesh/cloudmesh-openapi&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;sports&#34;&gt;Sports&lt;/h4&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-301/blob/main/project/project.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-301: &lt;a href=&#34;/report/fa20-523-301/project/project/&#34;&gt;Project: NBA Performance and Injury, Gavin Hemmerlein, Chelsea Gorius&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-301?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-301/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-301/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-301/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-301/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-301/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-301&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-301&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-301&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-349/blob/main/project/project.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-349: &lt;a href=&#34;/report/fa20-523-349/project/project/&#34;&gt;Project: Rank Forecasting in Car Racing, Jiayu Li&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-349?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-349/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-349/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-349/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-349/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-349/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-349&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-349&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-349&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-308/blob/main/project/project.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-308: &lt;a href=&#34;/report/fa20-523-308/project/project/&#34;&gt;Project: NFL Regular Season Skilled Position Player Performance as a Predictor of Playoff Appearance, Travis Whitaker&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-308?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-308/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-308/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-308/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-308/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-308/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-308&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-308&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-308&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-343/blob/main/report/report.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-343: &lt;a href=&#34;/report/fa20-523-343/report/report/&#34;&gt;Report: Predictive Model For Pitches Thrown By Major League Baseball Pitchers, Bryce Wieczorek&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-343?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-343/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-343/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-343/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-343/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-343/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-343&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-343&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-343&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-317/blob/main/report/report.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-317: &lt;a href=&#34;/report/fa20-523-317/report/report/&#34;&gt;Report: Big Data Analytics in the National Basketball Association, Igue Khaleel&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-317?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-317/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-317/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-317/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-317/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-317/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-317&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-317&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-317&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-331/blob/main/report/report.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-331: &lt;a href=&#34;/report/fa20-523-331/report/report/&#34;&gt;Report: Big Data In Sports Game Predictions and How it is Used in Sports Gambling, Mansukh Kandhari&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-331?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-331/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-331/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-331/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-331/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-331/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-331&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-331&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-331&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-328/blob/main/report/report.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-328: &lt;a href=&#34;/report/fa20-523-328/report/report/&#34;&gt;Report: How Big Data has Affected Statisicts in Baseball, Hunter Holden&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-328?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-328/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-328/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-328/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-328/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-328/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-328&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-328&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-328&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;biology&#34;&gt;Biology&lt;/h4&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-357/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; sp21-599-357: &lt;a href=&#34;/report/sp21-599-357/project/&#34;&gt;Project: Structural Protein Sequences Classification, Jiayu Li&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/sp21-599-357?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-357/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-357/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-357/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-357/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/sp21-599-357/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/sp21-599-357&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/sp21-599-357&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/sp21-599-357&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;environment&#34;&gt;Environment&lt;/h4&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-305/blob/main/project/project.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-305: &lt;a href=&#34;/report/fa20-523-305/project/project/&#34;&gt;Project: How Big Data Technologies Can Improve Indoor Agriculture, Cody Harris&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-305?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-305/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-305/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-305/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-305/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-305/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-305&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-305&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-305&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-354/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; sp21-599-354: &lt;a href=&#34;/report/sp21-599-354/project/&#34;&gt;Project: Identifying Agricultural Weeds with CNN, Paula Madetzke&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/sp21-599-354?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-354/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-354/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-354/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-354/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/sp21-599-354/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/sp21-599-354&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/sp21-599-354&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/sp21-599-354&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-312/blob/main/project/project.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-312: &lt;a href=&#34;/report/fa20-523-312/project/project/&#34;&gt;Project: Aquatic Toxicity Analysis with the aid of Autonomous Surface Vehicle (ASV), Saptarshi Sinha&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-312?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-312/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-312/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-312/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-312/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-312/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-312&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-312&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-312&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-326/blob/main/project/project.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-326: &lt;a href=&#34;/report/fa20-523-326/project/project/&#34;&gt;Project: Analysis of Future of Buffalo Breeds and Milk Production Growth in India, Gangaprasad Shahapurkar&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-326?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-326/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-326/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-326/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-326/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-326/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-326&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-326&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-326&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;health&#34;&gt;Health&lt;/h4&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-359/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; sp21-599-359: &lt;a href=&#34;/report/sp21-599-359/project/&#34;&gt;Project: Deep Learning in Drug Discovery, Anesu Chaora&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/sp21-599-359?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-359/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-359/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-359/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-359/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/sp21-599-359/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/sp21-599-359&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/sp21-599-359&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/sp21-599-359&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-309/blob/main/project/project.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-309: &lt;a href=&#34;/report/fa20-523-309/project/project/&#34;&gt;Project: Detecting Heart Disease using Machine Learning Classification Techniques, Ethan Nguyen&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-309?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-309/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-309/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-309/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-309/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-309/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-309&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-309&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-309&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-319/blob/main/project/project.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-319: &lt;a href=&#34;/report/fa20-523-319/project/project/&#34;&gt;Project: Detect and classify pathologies in chest X-rays using PyTorch library, Rama Asuri&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-319?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-319/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-319/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-319/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-319/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-319/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-319&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-319&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-319&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-302/blob/main/project/project.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-302: &lt;a href=&#34;/report/fa20-523-302/project/project/&#34;&gt;Project: How Wearable Devices Can Impact Health and Productivity, Adam Martin&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-302?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-302/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-302/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-302/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-302/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-302/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-302&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-302&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-302&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-315/blob/main/report/report.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-315: &lt;a href=&#34;/report/fa20-523-315/report/report/&#34;&gt;Report: Sunny Xu, Peiran Zhao, Kris Zhang, Project on Gesture recognition and machine learning&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-315?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-315/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-315/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-315/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-315/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-315/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-315&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-315&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-315&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;lifestyle&#34;&gt;Lifestyle&lt;/h4&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-341/blob/main/project/project.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-341: &lt;a href=&#34;/report/fa20-523-341/project/project/&#34;&gt;Project: Music Mood Classification, Kunaal Shah&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-341?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-341/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-341/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-341/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-341/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-341/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-341&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-341&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-341&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-327/blob/main/project/project.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-327: &lt;a href=&#34;/report/fa20-523-327/project/project/&#34;&gt;Project: Trending Youtube Videos Analysis, Adam Chai&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-327?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-327/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-327/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-327/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-327/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-327/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-327&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-327&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-327&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-333/blob/main/project/project.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-333: &lt;a href=&#34;/report/fa20-523-333/project/project/&#34;&gt;Project: Using Spotify Data To Determine If Popular Modern-day Songs Lack Uniqueness Compared To Popular Songs Before The 21st Century, Raymond Adams&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-333?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-333/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-333/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-333/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-333/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-333/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-333&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-333&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-333&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-350/blob/main/report/report.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-350: &lt;a href=&#34;/report/fa20-523-350/report/report/&#34;&gt;Report: Review of Text-to-Voice Synthesis Technologies, Eugene Wang&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-350?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-350/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-350/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-350/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-350/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-350/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-350&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-350&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-350&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-304/blob/main/report/report.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-304: &lt;a href=&#34;/report/fa20-523-304/report/report/&#34;&gt;Report: Using Big Data to Eliminate Racial Bias in Healthcare, Robert Neubauer&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-304?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-304/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-304/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-304/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-304/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-304/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-304&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-304&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-304&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;energy&#34;&gt;Energy&lt;/h4&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-358/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; sp21-599-358: &lt;a href=&#34;/report/sp21-599-358/project/&#34;&gt;Project: Autonomous Vehicle Simulations Using the CARLA Simulator, Jesus Badillo&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/sp21-599-358?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-358/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-358/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-358/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-358/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/sp21-599-358/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/sp21-599-358&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/sp21-599-358&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/sp21-599-358&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-314/blob/main/project/project.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-314: &lt;a href=&#34;/report/fa20-523-314/project/project/&#34;&gt;Project: Residential Power Usage Prediction, Siny P Raphel&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-314?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-314/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-314/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-314/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-314/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-314/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-314&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-314&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-314&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;commerce&#34;&gt;Commerce&lt;/h4&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-353/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; sp21-599-353: &lt;a href=&#34;/report/sp21-599-353/project/&#34;&gt;Project: Stock Level Prediction, Rishabh Agrawal&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/sp21-599-353?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-353/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-353/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-353/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-353/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/sp21-599-353/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/sp21-599-353&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/sp21-599-353&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/sp21-599-353&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-355/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; sp21-599-355: &lt;a href=&#34;/report/sp21-599-355/project/&#34;&gt;Project: Chat Bots in Customer Service, Anna Everett&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/sp21-599-355?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-355/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-355/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-355/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-355/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/sp21-599-355/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/sp21-599-355&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/sp21-599-355&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/sp21-599-355&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-330/blob/main/project/project.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-330: &lt;a href=&#34;/report/fa20-523-330/project/project/&#34;&gt;Project: Big Data Analytics in Brazilian E-Commerce, Oluwatobi Bolarin&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-330?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-330/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-330/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-330/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-330/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-330/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-330&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-330&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-330&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-307/blob/main/project/project.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-307: &lt;a href=&#34;/report/fa20-523-307/project/project/&#34;&gt;Project: Analysis of Financial Markets based on President Trump&#39;s Tweets, Alex Baker&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-307?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-307/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-307/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-307/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-307/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-307/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-307&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-307&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-307&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-313/blob/main/project/project.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-313: &lt;a href=&#34;/report/fa20-523-313/project/project/&#34;&gt;Project: Analyzing LSTM Performance on Predicting Stock Market for Multiple Time Steps, Fauzan Isnaini&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-313?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-313/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-313/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-313/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-313/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-313/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-313&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-313&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-313&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-332/blob/main/project/project.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-332: &lt;a href=&#34;/report/fa20-523-332/project/project/&#34;&gt;Project: Analyzing the Relationship of Cryptocurrencies with Foriegn Exchange Rates and Global Stock Market Indices, Krish Hemant Mhatre&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-332?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-332/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-332/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-332/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-332/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-332/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-332&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-332&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-332&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-339/blob/main/project/project.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-339: &lt;a href=&#34;/report/fa20-523-339/project/project/&#34;&gt;Project: Big Data Application in E-commerce, Liu Tao&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-339?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-339/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-339/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-339/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-339/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-339/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-339&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-339&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-339&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-323/blob/main/project/project.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-323: &lt;a href=&#34;/report/fa20-523-323/project/project/&#34;&gt;Project: Predicting Hotel Prices Using Linear Regression, Anthony Tugman&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-323?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-323/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-323/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-323/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-323/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-323/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-323&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-323&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-323&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-336/blob/main/project/project.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-336: &lt;a href=&#34;/report/fa20-523-336/project/project/&#34;&gt;Project: Stock Market Earnings to Price Change Project, Matthew Frechette&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-336?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-336/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-336/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-336/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-336/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-336/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-336&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-336&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-336&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-337/blob/main/project/project.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-337: &lt;a href=&#34;/report/fa20-523-337/project/project/&#34;&gt;Project: Online Store Customer Revenue Prediction, Balaji Dhamodharan and Anantha Janakiraman&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-337?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-337/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-337/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-337/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-337/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-337/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-337&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-337&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-337&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-329/blob/main/report/report.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-329: &lt;a href=&#34;/report/fa20-523-329/report/report/&#34;&gt;Report: Big Data Application in E-commerce, Wanru Li&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-329?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-329/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-329/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-329/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-329/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-329/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-329&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-329&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-329&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-334/blob/main/report/report.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-334: &lt;a href=&#34;/report/fa20-523-334/report/report/&#34;&gt;Report: Change of internet capabilities throughout the world, Matthew Cummings&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-334?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-334/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-334/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-334/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-334/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-334/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-334&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-334&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-334&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-340/blob/main/report/report.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-340: &lt;a href=&#34;/report/fa20-523-340/report/report/&#34;&gt;Report: Correlation between game genere and national sales, as well as general analysis of the video games industry , Linde Aleksandr&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-340?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-340/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-340/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-340/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-340/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-340/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-340&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-340&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-340&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;politics&#34;&gt;Politics&lt;/h4&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-316/blob/main/project/project.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-316: &lt;a href=&#34;/report/fa20-523-316/project/project/&#34;&gt;Project: Sentiment Analysis and Visualization using an US-election dataset for the 2020 Election, Sudheer Alluri, Vishwanadham Mandala&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-316?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-316/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-316/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-316/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-316/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-316/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-316&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-316&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-316&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;transportation&#34;&gt;Transportation&lt;/h4&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-358/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; sp21-599-358: &lt;a href=&#34;/report/sp21-599-358/project/&#34;&gt;Project: Autonomous Vehicle Simulations Using the CARLA Simulator, Jesus Badillo&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/sp21-599-358?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-358/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-358/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-358/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-358/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/sp21-599-358/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/sp21-599-358&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/sp21-599-358&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/sp21-599-358&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;report-or-project-in-progress&#34;&gt;Report or Project In Progress&lt;/h2&gt;
+&lt;p&gt;The following reports need to be updated to be reviewed.
+Make sure you make significant progress and that all checks pass
+green.&lt;/p&gt;
+&lt;p&gt;Health and society:&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-342/blob/main/project/project.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-342: &lt;a href=&#34;/report/fa20-523-342/project/project/&#34;&gt;Project: Covid-19 Analysis, Hany Boles&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-342?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-342/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-342/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-342/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-342/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-342/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-342&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-342&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-342&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-352/blob/main/report/report.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-352: &lt;a href=&#34;/report/fa20-523-352/report/report/&#34;&gt;Report: Big Data Application in the Healthcare Industry, Cristian Villanueva, Christina Colon&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-352?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-352/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-352/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-352/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-352/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-352/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-352&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-352&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-352&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Sport:&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-345/blob/main/project/project.md&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; fa20-523-345: &lt;a href=&#34;/report/fa20-523-345/project/project/&#34;&gt;Project: Analysis of 2020 MLB Season Statistics, Edward Hribal&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/fa20-523-345?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-345/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-345/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-345/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-345/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/fa20-523-345/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/fa20-523-345&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/fa20-523-345&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/fa20-523-345&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Reports 2021</title>
+      <link>/docs/report/2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/report/2021/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;This page contains the list of the reports and projects done in Spring
+2021.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;list-for-2021&#34;&gt;List for 2021&lt;/h2&gt;
+&lt;h3 id=&#34;reports-and-projects&#34;&gt;Reports and Projects&lt;/h3&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-359/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; sp21-599-359: &lt;a href=&#34;/report/sp21-599-359/project/&#34;&gt;Project: Deep Learning in Drug Discovery, Anesu Chaora&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/sp21-599-359?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-359/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-359/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-359/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-359/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/sp21-599-359/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/sp21-599-359&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/sp21-599-359&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/sp21-599-359&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-357/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; sp21-599-357: &lt;a href=&#34;/report/sp21-599-357/project/&#34;&gt;Project: Structural Protein Sequences Classification, Jiayu Li&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/sp21-599-357?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-357/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-357/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-357/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-357/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/sp21-599-357/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/sp21-599-357&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/sp21-599-357&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/sp21-599-357&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-355/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; sp21-599-355: &lt;a href=&#34;/report/sp21-599-355/project/&#34;&gt;Project: Chat Bots in Customer Service, Anna Everett&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/sp21-599-355?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-355/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-355/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-355/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-355/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/sp21-599-355/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/sp21-599-355&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/sp21-599-355&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/sp21-599-355&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-354/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; sp21-599-354: &lt;a href=&#34;/report/sp21-599-354/project/&#34;&gt;Project: Identifying Agricultural Weeds with CNN, Paula Madetzke&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/sp21-599-354?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-354/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-354/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-354/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-354/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/sp21-599-354/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/sp21-599-354&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/sp21-599-354&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/sp21-599-354&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-358/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; sp21-599-358: &lt;a href=&#34;/report/sp21-599-358/project/&#34;&gt;Project: Autonomous Vehicle Simulations Using the CARLA Simulator, Jesus Badillo&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/sp21-599-358?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-358/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-358/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-358/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-358/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/sp21-599-358/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/sp21-599-358&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/sp21-599-358&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/sp21-599-358&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-356/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; sp21-599-356: &lt;a href=&#34;/report/sp21-599-356/project/&#34;&gt;Project: Forecasting Natural Gas Demand/Supply, Baekeun Park&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/sp21-599-356?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-356/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-356/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-356/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-356/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/sp21-599-356/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/sp21-599-356&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/sp21-599-356&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/sp21-599-356&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-353/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; sp21-599-353: &lt;a href=&#34;/report/sp21-599-353/project/&#34;&gt;Project: Stock Level Prediction, Rishabh Agrawal&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/sp21-599-353?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-353/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-353/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-353/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-353/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/sp21-599-353/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/sp21-599-353&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/sp21-599-353&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/sp21-599-353&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: 2021 REU Reports</title>
+      <link>/docs/report/2021-reu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/report/2021-reu/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;This page contains the list of the reports and projects done in the
+REU 2021.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;list-for-2021&#34;&gt;List for 2021&lt;/h2&gt;
+&lt;h3 id=&#34;reports-and-projects&#34;&gt;Reports and Projects&lt;/h3&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-360/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; su21-reu-360: &lt;a href=&#34;/report/su21-reu-360/project/&#34;&gt;Project: Classification of Hyperspectral Images, Carlos Theran&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/su21-reu-360?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-360/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-360/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-360/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-360/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/su21-reu-360/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/su21-reu-360&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/su21-reu-360&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/su21-reu-360&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; su21-reu-361: &lt;a href=&#34;/report/su21-reu-361/project/&#34;&gt;Project: Analyzing Price Changes on the Electro-Optical System Blockchain, Jacques Fleischer&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/su21-reu-361?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-361/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-361/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-361/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-361/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/su21-reu-361/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/su21-reu-361&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/su21-reu-361&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/su21-reu-361&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; su21-reu-362: &lt;a href=&#34;/report/su21-reu-362/project/&#34;&gt;Project: Breast Cancer and Genetics, Kehinde Ezekiel&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/su21-reu-362?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-362/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-362/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-362/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-362/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/su21-reu-362/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/su21-reu-362&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/su21-reu-362&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/su21-reu-362&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-363/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; su21-reu-363: &lt;a href=&#34;/report/su21-reu-363/project/&#34;&gt;Project: AI in Orthodontics, Whitney McNair&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/su21-reu-363?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-363/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-363/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-363/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-363/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/su21-reu-363/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/su21-reu-363&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/su21-reu-363&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/su21-reu-363&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-364/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; su21-reu-364: &lt;a href=&#34;/report/su21-reu-364/project/&#34;&gt;Project: Object Recognition, David Umanzor&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/su21-reu-364?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-364/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-364/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-364/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-364/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/su21-reu-364/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/su21-reu-364&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/su21-reu-364&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/su21-reu-364&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-365/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; su21-reu-365: &lt;a href=&#34;/report/su21-reu-365/project/&#34;&gt;Project: Cyber Attacks Detection Using AI Algorithms, Victor Adankai&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/su21-reu-365?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-365/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-365/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-365/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-365/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/su21-reu-365/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/su21-reu-365&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/su21-reu-365&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/su21-reu-365&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-366/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; su21-reu-366: &lt;a href=&#34;/report/su21-reu-366/project/&#34;&gt;Project: Handwriting Recognition Using AI, Mikahla Reeves&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/su21-reu-366?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-366/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-366/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-366/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-366/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/su21-reu-366/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/su21-reu-366&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/su21-reu-366&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/su21-reu-366&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-363/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; su21-reu-363: &lt;a href=&#34;/report/su21-reu-363/project/&#34;&gt;Project: AI in Orthodontics, Whitney McNair&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/su21-reu-363?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-363/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-363/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-363/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-363/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/su21-reu-363/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/su21-reu-363&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/su21-reu-363&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/su21-reu-363&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-369/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; su21-reu-369: &lt;a href=&#34;/report/su21-reu-369/project/&#34;&gt;Project: Increasing Cervical Cancer Risk Analysis, Theresa Jeanbaptiste&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/su21-reu-369?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-369/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-369/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-369/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-369/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/su21-reu-369/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/su21-reu-369&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/su21-reu-369&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/su21-reu-369&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-370/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; su21-reu-370: &lt;a href=&#34;/report/su21-reu-370/project/&#34;&gt;Project: Marine aninmal population analysis using AI, Tiamia WIlliams&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/su21-reu-370?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-370/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-370/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-370/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-370/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/su21-reu-370/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/su21-reu-370&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/su21-reu-370&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/su21-reu-370&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-371/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; su21-reu-371: &lt;a href=&#34;/report/su21-reu-371/project/&#34;&gt;Project: TBD, Raeven Hatcher&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/su21-reu-371?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-371/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-371/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-371/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-371/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/su21-reu-371/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/su21-reu-371&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/su21-reu-371&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/su21-reu-371&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-372/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; su21-reu-372: &lt;a href=&#34;/report/su21-reu-372/project/&#34;&gt;Project: Analysing Hashimoto disease causes using AI, Sheimy Paz&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/su21-reu-372?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-372/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-372/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-372/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-372/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/su21-reu-372/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/su21-reu-372&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/su21-reu-372&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/su21-reu-372&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-373/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; su21-reu-373: &lt;a href=&#34;/report/su21-reu-373/project/&#34;&gt;Project: TBD, Neel Patel&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/su21-reu-373?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-373/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-373/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-373/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-373/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/su21-reu-373/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/su21-reu-373&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/su21-reu-373&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/su21-reu-373&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-374/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; su21-reu-374: &lt;a href=&#34;/report/su21-reu-374/project/&#34;&gt;Project: AI Time Series Analysis, Victor Adankai&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/su21-reu-374?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-374/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-374/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-374/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-374/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/su21-reu-374/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/su21-reu-374&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/su21-reu-374&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/su21-reu-374&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-375/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; su21-reu-375: &lt;a href=&#34;/report/su21-reu-375/project/&#34;&gt;Project: TBD, Ololade Latinwo&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/su21-reu-375?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-375/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-375/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-375/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-375/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/su21-reu-375/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/su21-reu-375&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/su21-reu-375&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/su21-reu-375&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-376/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; su21-reu-376: &lt;a href=&#34;/report/su21-reu-376/project/&#34;&gt;Project: AI and Dentronics, Jamyla Young&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/su21-reu-376?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-376/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-376/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-376/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-376/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/su21-reu-376/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/su21-reu-376&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/su21-reu-376&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/su21-reu-376&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-377/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; su21-reu-377: &lt;a href=&#34;/report/su21-reu-377/project/&#34;&gt;Project: TBD, RonDaisja Dunn&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/su21-reu-377?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-377/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-377/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-377/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-377/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/su21-reu-377/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/su21-reu-377&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/su21-reu-377&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/su21-reu-377&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-378/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; su21-reu-378: &lt;a href=&#34;/report/su21-reu-378/project/&#34;&gt;Project: Analysis of Autism in three different cities using AI, Myra Saunders&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/su21-reu-378?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-378/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-378/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-378/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-378/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/su21-reu-378/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/su21-reu-378&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/su21-reu-378&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/su21-reu-378&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-379/blob/main/project&#34;&gt;&lt;i class=&#34;fas fa-edit&#34;&gt;&lt;/i&gt;&lt;/a&gt; su21-reu-379: &lt;a href=&#34;/report/su21-reu-379/project/&#34;&gt;Project: TBD, Carrington Kee&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;https://img.shields.io/github/stars/cybertraining-dsc/su21-reu-379?style=social&#34; alt=&#34;GitHub Repo stars&#34;&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-379/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-379/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-379/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-379/workflows/Status/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://GitHub.com/cybertraining-dsc/su21-reu-379/issues/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues-raw/cybertraining-dsc/su21-reu-379&#34; alt=&#34;Issues&#34;&gt;&lt;/a&gt;
+&lt;img src=&#34;https://img.shields.io/github/languages/code-size/cybertraining-dsc/su21-reu-379&#34; alt=&#34;GitHub code size in bytes&#34;&gt;
+&lt;img src=&#34;https://img.shields.io/github/repo-size/cybertraining-dsc/su21-reu-379&#34; alt=&#34;GitHub repo size&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Project FAQ</title>
+      <link>/docs/report/project-faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/report/project-faq/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;div class=&#34;toc&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#do-i-have-to-read-every-piazza-post&#34;&gt;Do I have to read every Piazza post?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#i-see-something-mssing-or-wrong-in-this-faq-how-can-i-correct-or-add-it&#34;&gt;I see something mssing or wrong in this FAQ. How can I correct or add it?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#where-to-get-help&#34;&gt;Where to get help?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#do-i-have-to-work-weekly-on-the-project&#34;&gt;Do I have to work weekly on the project?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#when-are-updates-due&#34;&gt;When are updates due?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#how-do-i-define-a-project&#34;&gt;How do I define a project?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#project-directory&#34;&gt;Project Directory&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#filenames&#34;&gt;Filenames&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#project-proposal&#34;&gt;Project Proposal&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#reports-without-programming&#34;&gt;Reports without programming&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#formal-writing&#34;&gt;Formal writing&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#colons&#34;&gt;colons&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#quotes&#34;&gt;Quotes&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#update-and-check-the-submission&#34;&gt;Update and check the submission&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#using-markdown&#34;&gt;Using Markdown&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#references-and-citations&#34;&gt;References and citations&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#format-of-references&#34;&gt;Format of References&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#urls-in-the-text&#34;&gt;URLs in the text&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#references-that-are-not-cited-in-the-text&#34;&gt;References that are not cited in the text&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#images-that-you-copied&#34;&gt;Images that you copied&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#how-to-include-images&#34;&gt;How to include images&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#programs&#34;&gt;Programs&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#python&#34;&gt;Python&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#otherprogramming-langauges&#34;&gt;Otherprogramming langauges&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#data&#34;&gt;Data&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#images-from-programs&#34;&gt;Images from Programs&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#bechmark&#34;&gt;Bechmark&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#template-links&#34;&gt;Template Links&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;do-i-have-to-read-every-piazza-post&#34;&gt;Do I have to read every Piazza post?&lt;/h2&gt;
+&lt;p&gt;Yes.&lt;/p&gt;
+&lt;p&gt;There are very view posts in Piazza, typically much less than 10 per
+week. If you were taking a live class I am sure you get also 10+ tips
+and comments from the instructors. Piazza is a mechanism for us to
+communicate to the entire online class.&lt;/p&gt;
+&lt;p&gt;Use piazza to discuss things. You can also use it to discuss issues in
+your projects with other class mates openly.&lt;/p&gt;
+&lt;h2 id=&#34;i-see-something-mssing-or-wrong-in-this-faq-how-can-i-correct-or-add-it&#34;&gt;I see something mssing or wrong in this FAQ. How can I correct or add it?&lt;/h2&gt;
+&lt;p&gt;If you see something missing that we shoudl add, please edit this web
+page and create a pull request with your changes:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/edit/main/content/en/report/checklist.md&#34;&gt;Edit here&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;where-to-get-help&#34;&gt;Where to get help?&lt;/h2&gt;
+&lt;p&gt;We often use the term TA instead of AI as AI in this class has a
+specific meaning related to class content.&lt;/p&gt;
+&lt;p&gt;TA hours are posted at&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://piazza.com/class/kedccsbsthm5sc?cid=179&#34;&gt;https://piazza.com/class/kedccsbsthm5sc?cid=179&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If a TA is not available during that time, you have the right to ask
+for an alternative time.&lt;/p&gt;
+&lt;h2 id=&#34;do-i-have-to-work-weekly-on-the-project&#34;&gt;Do I have to work weekly on the project?&lt;/h2&gt;
+&lt;p&gt;Yes.&lt;/p&gt;
+&lt;p&gt;Please plan to set aside a &lt;strong&gt;significant&lt;/strong&gt; time every week for your
+project. We include your weekly progress in the grade. This is because
+you will fail if you do not set sufficient time aside and start your
+project in the week before the deadline.&lt;/p&gt;
+&lt;h2 id=&#34;when-are-updates-due&#34;&gt;When are updates due?&lt;/h2&gt;
+&lt;p&gt;Updates are due every week from the time that the project has been
+announced. The updates will be committed by you to github.com. TAs
+will be reviewing your updates The weekly progress will be check by
+the TA&amp;rsquo;s while looking at the GitHub insights page.&lt;/p&gt;
+&lt;p&gt;TAs or instructors may make comments to your repository. It is your
+responsibility to make sure to stay in sync with the content in the
+repo. Best is to use a tool such as a command line tool or a GUI tool
+to stay in sync with the repo.&lt;/p&gt;
+&lt;h2 id=&#34;how-do-i-define-a-project&#34;&gt;How do I define a project?&lt;/h2&gt;
+&lt;p&gt;Please take a look at the class content and select a topic that
+interests you. Your project needs to be related to &lt;em&gt;big data&lt;/em&gt; and
+provide an analysis of the data. You may choose a topic that is only
+explained later on in class. In this case, you can explore the topic
+ahead of time before it is explained in class. Previous class material
+is posted for all topics. If you have a question, work with the TA&amp;rsquo;s
+and instructors.&lt;/p&gt;
+&lt;p&gt;Please remember this is not just an AI class to demonstrate a specific
+AI method. Your project must have a section or an explanation of how your
+project relates or could relate to big data.&lt;/p&gt;
+&lt;p&gt;However, it is &lt;strong&gt;not&lt;/strong&gt; required to use a huge dataset for this class.&lt;/p&gt;
+&lt;p&gt;The class has also the ability to do projects related to cloud
+infrastructure. In that case, please contact Gregor directly to assess
+if you have enough qualifications and can succeed in the project.&lt;/p&gt;
+&lt;h2 id=&#34;project-directory&#34;&gt;Project Directory&lt;/h2&gt;
+&lt;p&gt;The following is the best structure for your project&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;project/project.md&lt;/code&gt; # your project report. This is a must.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;project/project.bib&lt;/code&gt; # your project bib file if you use jabref&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;project/plan.md&lt;/code&gt; # for final submission move your Plan section here&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;project/images&lt;/code&gt; # place all images in this directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;project/code/&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Move your python code or notebooks here.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;project/data&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Your project must not have (large) data in GitHub, instead you must
+have a program that downloads the data.  best is to add project/data
+to your .gitignore file See more information on the data section.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Make sure you create in your paper citations and references to your own
+code and GitHub directory.&lt;/p&gt;
+&lt;h2 id=&#34;filenames&#34;&gt;Filenames&lt;/h2&gt;
+&lt;p&gt;Filenames must be precise, and we recommend using lower case file names
+in most cases (some Python class files may also contain capital
+letters). Filenames must not have spaces included in them. We will not
+review any information included in a file that contains spaces or
+characters that are not in [a-Z0-9] and the _ and - characters. We will
+return your project without review and assign an &amp;ldquo;F&amp;rdquo; as those files
+cause issues.&lt;/p&gt;
+&lt;p&gt;All image file names must be lower case.&lt;/p&gt;
+&lt;p&gt;Her an example of an image file name that is wrong in many ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;project/images/THIS IS Gregor&#39;s Image.PNG&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Wrong because&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;contains spaces contains&lt;/li&gt;
+&lt;li&gt;capital letters&lt;/li&gt;
+&lt;li&gt;contains &#39; which is not allowed ever&lt;/li&gt;
+&lt;li&gt;has an ending with capital letters&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;project-proposal&#34;&gt;Project Proposal&lt;/h2&gt;
+&lt;p&gt;This is a snapshot of your final project. You do not have to use the
+words &lt;em&gt;I&lt;/em&gt; or &lt;em&gt;plan&lt;/em&gt; simply write it as if you already decided to do
+the project and make it look like a final paper&amp;rsquo;s snapshot. Your
+paper must follow a typical research paper outline. The project
+ideally provides a novel feature that has not been presented by
+others. Just replication what others in the community did may not be
+lead to the best result. If you have not researched if others have
+done your project, It also will not lead to your best result.&lt;/p&gt;
+&lt;p&gt;A sample of a report is provided at&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Raw:
+&lt;a href=&#34;https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-312/main/project/project.md&#34;&gt;https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-312/main/project/project.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cybertraining-dsc.github.io/report/fa20-523-312/project/project/&#34;&gt;https://cybertraining-dsc.github.io/report/fa20-523-312/project/project/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sections that must be included&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Abstract&lt;/li&gt;
+&lt;li&gt;Introduction&lt;/li&gt;
+&lt;li&gt;Related Research
+Identify similar projects and describe what you do differently&lt;/li&gt;
+&lt;li&gt;Data
+Write about which data you choose&lt;/li&gt;
+&lt;li&gt;Analysis
+Write about your intended analysis&lt;/li&gt;
+&lt;li&gt;Plan
+Provide a plan that lists what you do every week.(This plan is to be
+removed before the final submission at the end of the semester.
+You can move it into a file called project/plan.md
+in case you like to preserve it&lt;/li&gt;
+&lt;li&gt;Refernces&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please make sure that the refernce section is the last section in the document.&lt;/p&gt;
+&lt;h2 id=&#34;reports-without-programming&#34;&gt;Reports without programming&lt;/h2&gt;
+&lt;p&gt;It is possible for undergraduates, but not for graduate students to do
+a report that does not include programming. You will automatically get
+a half grade point deduction, and the best grade achievable will be an
+A-. The report will typically be 25% to 50% longer than a project
+with programming. It must be comprehensive and have a more in-depth background
+section. Proper citations are a must. Citations are
+typically much more in reports due to the nature of it.&lt;/p&gt;
+&lt;p&gt;In case you chose a report, your directory structure will look like this&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;report/report.md # your project report. This is a must.&lt;/li&gt;
+&lt;li&gt;report/report.bib # your project bib file&lt;/li&gt;
+&lt;li&gt;report/plan.md # for final submission move your Plan section here&lt;/li&gt;
+&lt;li&gt;report/images # place all images in thsi directory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It is our &lt;strong&gt;strong&lt;/strong&gt; recommendation that you use jabref for assisting you
+with the management of your references! You will save a lot of time
+while using it and assure that the format will be correct, which is
+important for reports!&lt;/p&gt;
+&lt;h2 id=&#34;formal-writing&#34;&gt;Formal writing&lt;/h2&gt;
+&lt;p&gt;They shall not use the word &amp;ldquo;I&amp;rdquo; in the report.&lt;/p&gt;
+&lt;p&gt;see also: &lt;a href=&#34;https://piazza.com/class/kedccsbsthm5sc?cid=181&#34;&gt;https://piazza.com/class/kedccsbsthm5sc?cid=181&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We do allow, however, the words &lt;em&gt;we&lt;/em&gt;, &lt;em&gt;you&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In general:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Do not use first-person pronouns (&amp;ldquo;I&amp;rdquo;, &amp;ldquo;me&amp;rdquo;, &amp;ldquo;my&amp;rdquo;, &amp;ldquo;us&amp;rdquo;, etc.). &amp;hellip;&lt;/li&gt;
+&lt;li&gt;You must not use contractions such as don&amp;rsquo;t or &amp;rsquo;ve &amp;hellip;&lt;/li&gt;
+&lt;li&gt;Avoid colloquialism and slang expressions. &amp;hellip;&lt;/li&gt;
+&lt;li&gt;Avoid nonstandard diction. &amp;hellip;&lt;/li&gt;
+&lt;li&gt;When using an abbreviation, it must be defined before its first use
+in brackets): Artificial Intelligence (AI) &amp;hellip; Avoid the creation of unnecessary abbreviations. It is better to say big data instead of BD&lt;/li&gt;
+&lt;li&gt;Avoid the overuse of short and simple sentences.&lt;/li&gt;
+&lt;li&gt;Avoid the overuse of very long and complex sentences.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;colons&#34;&gt;colons&lt;/h3&gt;
+&lt;p&gt;A colon is :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;They shall not use a space before a colon ever.&lt;/li&gt;
+&lt;li&gt;They shall not use colons in section headers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;quotes&#34;&gt;Quotes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;They shall not use &amp;ldquo;quoted quotes&amp;rdquo; to highlight.&lt;/li&gt;
+&lt;li&gt;They shall use &lt;em&gt;italic&lt;/em&gt; to highlight&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Quotes are reserved for citations and must be followed by a citation
+that is included in your reference section.&lt;/p&gt;
+&lt;h2 id=&#34;update-and-check-the-submission&#34;&gt;Update and check the submission&lt;/h2&gt;
+&lt;p&gt;Once you submit your paper, you need to dow the following.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;modify the README.yaml file and update the information of your project in it. Keep it up to date in case authors or title changes. We use this information to mine all Gitrepos, and thus it must be up to date all the time.
+In case you are in a group, make sure you preserve the authors&#39; order in the list among all group members. The person that has the repo for the project must be the first author.&lt;/p&gt;
+&lt;p&gt;Example for single author: &lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-312/README.yaml&#34;&gt;https://github.com/cybertraining-dsc/fa20-523-312/README.yaml&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Check every week if your report renders correctly and if your
+report is listed at &lt;a href=&#34;https://cybertraining-dsc.github.io/report/&#34;&gt;https://cybertraining-dsc.github.io/report/&lt;/a&gt;
+Click on your paper link, your student link, and your edit link to ensure they all work correctly. If not, please correct them via a
+pull request (you can edit that page and see how we do it for other students).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;using-markdown&#34;&gt;Using Markdown&lt;/h2&gt;
+&lt;p&gt;We no longer accept any document format that is not markdown. We use
+proper markdown that must not include any HTML tags. submissions with
+HTML tags will be rejected without reviews. You must look at our
+template in raw format to see what features of markdown we use. Your
+file may not be properly rendered in GitHub (e.g., abstract and table
+of content, as well as references look differently), but it will be on our Web
+site.&lt;/p&gt;
+&lt;h2 id=&#34;references-and-citations&#34;&gt;References and citations&lt;/h2&gt;
+&lt;p&gt;You must have a reference section from the get-go. We use
+footnotes to showcase the references as GitHub does not support proper
+references in markdown. However, we use footnotes in a straightforward and
+specific way that requires you to be careful with the dot at the end of
+the sentence. The footnotes must not be after the dot, but they must
+be within the dot. The reason is that at one point, we will
+automatically replace your footnotes with a [number] theme. You do not
+have to do this; we will do this. This is simpler than it sounds for
+you, so we give an example:&lt;/p&gt;
+&lt;p&gt;When you use the citations, you MUST for us do them before the dot that
+closes the sentence that you cite in or refers to. They do require you
+do the &lt;code&gt;[^1]&lt;/code&gt; before the dot&lt;/p&gt;
+&lt;p&gt;wrong: &lt;code&gt;This is a sentence with reference.[^1]&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;correct: &lt;code&gt;This is a sentence with reference [^1]&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;wrong: &lt;code&gt;Simon says &amp;quot;Hallo&amp;quot;.[^1]&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The reference section must be the last section in your report&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;## 8. Refernces
+
+[^1]:  This is where you put the citation information. 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;See, there is no space before the :&lt;/p&gt;
+&lt;p&gt;see also &lt;a href=&#34;https://piazza.com/class/kedccsbsthm5sc?cid=45&#34;&gt;https://piazza.com/class/kedccsbsthm5sc?cid=45&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please make sure that different refernces are separated by an empty
+line.&lt;/p&gt;
+&lt;h3 id=&#34;format-of-references&#34;&gt;Format of References&lt;/h3&gt;
+&lt;p&gt;Although we use footnotes in markdown, we will use the propper IEEE
+format style for citations. Please google it. The easiest way for you
+to get IEEE references is to use jabref and manage your references there
+and just copy the rendered content from jabrefs display window into
+your markdown reference section. Make sure to remove all HTML tags.
+If you use jabref, please submit your references as project.bib file&lt;/p&gt;
+&lt;h3 id=&#34;urls-in-the-text&#34;&gt;URLs in the text&lt;/h3&gt;
+&lt;p&gt;In case you use URLs in the text, they must be followed by a citation
+with it being referenced in the reference section by a label.&lt;/p&gt;
+&lt;h3 id=&#34;references-that-are-not-cited-in-the-text&#34;&gt;References that are not cited in the text&lt;/h3&gt;
+&lt;p&gt;You must not have any references that you have not cited in the text&lt;/p&gt;
+&lt;h3 id=&#34;images-that-you-copied&#34;&gt;Images that you copied&lt;/h3&gt;
+&lt;p&gt;In case you copied an image from the internet, it must have a citation
+in the caption and be referenced in the reference section.&lt;/p&gt;
+&lt;p&gt;If you use figures, check carefully with our template, do not invent
+your own method. We will reject your paper without review if you do it
+wrong.&lt;/p&gt;
+&lt;h3 id=&#34;how-to-include-images&#34;&gt;How to include images&lt;/h3&gt;
+&lt;p&gt;We have provided a clear example. Do not invent your own method or use
+relative links. Images must be cited with a link to the raw image in
+GitHub. See our example!&lt;/p&gt;
+&lt;h2 id=&#34;programs&#34;&gt;Programs&lt;/h2&gt;
+&lt;h3 id=&#34;python&#34;&gt;Python&lt;/h3&gt;
+&lt;p&gt;You are allowed to use python notebooks or python programs. All of
+which must be checked into GitHub in your assigned repo. Sometimes notebooks have a cache
+that is too big for GitHub, this you need to make sure to always clear
+the cache before you check it into GitHub.&lt;/p&gt;
+&lt;h3 id=&#34;otherprogramming-langauges&#34;&gt;Otherprogramming langauges&lt;/h3&gt;
+&lt;p&gt;Use python.&lt;/p&gt;
+&lt;h3 id=&#34;data&#34;&gt;Data&lt;/h3&gt;
+&lt;p&gt;Please add a &amp;ldquo;download&amp;rdquo; data function that downloads the data from the
+source. Do not store the actual data in Github.
+The download function must have a logic that does not download the
+data when it is already downloaded. Python makes this easy with
+&lt;code&gt;os.path&lt;/code&gt; and &lt;code&gt;python requests&lt;/code&gt;. We recommend you use python requests
+and not &lt;code&gt;urllib&lt;/code&gt;. You can share the download function openly with each
+other.&lt;/p&gt;
+&lt;p&gt;In case of questions discuss on piazza.&lt;/p&gt;
+&lt;p&gt;See also:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://piazza.com/class/kedccsbsthm5sc?cid=227&#34;&gt;https://piazza.com/class/kedccsbsthm5sc?cid=227&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://piazza.com/class/kedccsbsthm5sc?cid=142&#34;&gt;https://piazza.com/class/kedccsbsthm5sc?cid=142&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;images-from-programs&#34;&gt;Images from Programs&lt;/h3&gt;
+&lt;p&gt;You can create png files of graphics so you can include them in your
+project.md. Make sure you add a save image function and do not just
+create screenshots. Matplotlib and other graphics frameworks have an
+API call for this.&lt;/p&gt;
+&lt;p&gt;There are many good and even specialized graphics libraries that you
+can use, examples are&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;matplotlib&lt;/li&gt;
+&lt;li&gt;bokeh&lt;/li&gt;
+&lt;li&gt;seaborn&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;See also: &lt;a href=&#34;https://piazza.com/class/kedccsbsthm5sc?cid=226&#34;&gt;https://piazza.com/class/kedccsbsthm5sc?cid=226&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;bechmark&#34;&gt;Bechmark&lt;/h3&gt;
+&lt;p&gt;Your program must use cloudmesh benchmark. It includes a convenient
+StopWatch and benchmark print function.&lt;/p&gt;
+&lt;p&gt;see: &lt;a href=&#34;https://piazza.com/class/kedccsbsthm5sc?cid=103&#34;&gt;https://piazza.com/class/kedccsbsthm5sc?cid=103&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;template-links&#34;&gt;Template Links&lt;/h2&gt;
+&lt;p&gt;Here are the relevant URLs to them, which you naturally can find from
+our report web page. But as some of you have not visited the web page
+at&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://cybertraining-dsc.github.io/report/&#34;&gt;https://cybertraining-dsc.github.io/report/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://cybertraining-dsc.github.io/report/fa20-523-312/project/project/&#34;&gt;https://cybertraining-dsc.github.io/report/fa20-523-312/project/project/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-312/main/project/project.md&#34;&gt;https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-312/main/project/project.md&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;See that githib does not quite render it properly, but it will by ok
+for a superficial view and editing.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-312/blob/main/project/project.md&#34;&gt;https://github.com/cybertraining-dsc/fa20-523-312/blob/main/project/project.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Make sure to check your report at&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cybertraining-dsc.github.io/report/&#34;&gt;https://cybertraining-dsc.github.io/report/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;which will be updated weekly&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

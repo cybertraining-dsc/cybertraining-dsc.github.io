@@ -1,0 +1,659 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cybertraining – lifestyle</title>
+    <link>/tags/lifestyle/</link>
+    <description>Recent content in lifestyle on Cybertraining</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 15 Mar 2021 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/tags/lifestyle/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Report: Does Modern Day Music Lack Uniqueness Compared to Music before the 21st Century</title>
+      <link>/report/fa20-523-333/project/project/</link>
+      <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/report/fa20-523-333/project/project/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-333/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-333/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-333/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-333/workflows/Status/badge.svg&#34; alt=&#34;Status&#34;&gt;&lt;/a&gt;
+Status: final, Type: Project&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Raymond Adams, fa20-523-333&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-333/blob/main/project/project.md&#34;&gt;Edit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;One of the most influential aspects of human culture is music. It has a way of changing as humans evolve themselves. Music has changed drastically over the last 100 years. Before the 21&lt;sup&gt;st&lt;/sup&gt; century most people seemed to welcome the change. However, in the 2000&amp;rsquo;s people began stating that music seemed to be changing for the worse. Music, usually adults perspectives, has began lacking uniqueness. These statements come from interviews, speaking with family and friends, tv shows, and movies. This project looked at 99 years of spotify music data and determined that all features of most tracks have changed in different ways. Because uniqueness can be related to variation the variation of different features were used to determine if tracks did lack uniqueness. Through data analysis it was concluded that they did.&lt;/p&gt;
+&lt;p&gt;Contents&lt;/p&gt;
+&lt;div class=&#34;toc&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#1-introduction&#34;&gt;1. Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#2-data&#34;&gt;2. Data&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#3-methods&#34;&gt;3. Methods&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#4-results&#34;&gt;4. Results&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#5-conclusion&#34;&gt;5. Conclusion&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#51-limitations&#34;&gt;5.1 Limitations&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#7-references&#34;&gt;7. References&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; music, spotify data, uniqueness, music evolution, 21&lt;sup&gt;st&lt;/sup&gt; century music.&lt;/p&gt;
+&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;
+&lt;p&gt;Music is one of the most influential elements in the arts. It has a great impact on the way humans act and feel. Research, done by Nina Avramova, has shown that different genres of music bring about different emotions and feelings through the listener. Nonetheless, humans also have a major impact on the music itself. Music and humans are mutually dependent, therefore when one evolves, so does the other.&lt;/p&gt;
+&lt;p&gt;This scientific journal intends to progress the current understanding of how music has changed since the 21&lt;sup&gt;st&lt;/sup&gt; century. It also aims to determine if this change in music has led to a lack of uniqueness amongst the common features of a song compared to music before the 21&lt;sup&gt;st&lt;/sup&gt; century.&lt;/p&gt;
+&lt;h2 id=&#34;2-data&#34;&gt;2. Data&lt;/h2&gt;
+&lt;p&gt;The data is located on Kaggle and was collected by a data scientist named Yamac Eren Ay. He collected more than 160,000 songs from Spotify that ranged from 1921 to 2020. Some of the features that this data set includes and will be used to conduct an analysis are: danceability, energy, acousticness, instrumentalness, valence, tempo, key, and loudness. This data frame can be seen in Figure 1.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-333/raw/main/project/images/DataFrame.png&#34; alt=&#34;dataframe&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 1:&lt;/strong&gt; Dataframe of spotify data collected from Kaggle&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Danceability&lt;/strong&gt; describes how appropriate a track is for dancing by looking at multiple elements including tempo, rhythm stability, beat strength, and general regularity. The closer the value is to 0.0 the less danceable the song is and the closer it is to 1.0 the more danceable it is. &lt;strong&gt;Energy&lt;/strong&gt; is a sensual measure of intensity and activity. Usually, energetic songs feel fast, loud, and noisy. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. The closer this value is to 0.0 the less energetic the track is and the closer it is to 1.0 the more energetic the track is. &lt;strong&gt;Acoustic&lt;/strong&gt; music refers to songs that are created using instruments and recorded in a natural environment as opposed to being recorded by electronic means. The closer the value is to 0.0 the less acoustic it is and the closer it is to 1.0 the more acoustic it is. &lt;strong&gt;Instrumentalness&lt;/strong&gt; predicts how vocal a track is. Thus, songs that contain words other than &amp;ldquo;Oh&amp;rdquo; and &amp;ldquo;Ah&amp;rdquo; are considered vocal. The closer the value is to 0.0 the less likely the track contains vocals and the closer the value is to 1.0 the more likely it contains vocals. &lt;strong&gt;Valence&lt;/strong&gt; describes the musical positiveness expressed through a song. Tracks with high valence (closer to 0.0) sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence (closer to 1.0) sound more negative (e.g. sad, depressed, angry) &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. The &lt;strong&gt;tempo&lt;/strong&gt; is the overall pace of a track measured in BPM (beats per minute). The &lt;strong&gt;key&lt;/strong&gt; is the overall approximated pitch that a song is played in. The possible keys and their integer values are: C = 0; C# = 1; D = 2; D#, Eb = 3; E = 4; F = 5; F#, Gb = 6; G = 7; G#, Ab = 8; A = 9; A#, Bb = 10; B, Cb = 11. The overall &lt;strong&gt;loudness&lt;/strong&gt; of a track is measured in decibels (dB). Loudness values are averaged across the entire track and are useful for comparing the relative loudness of tracks. Loudness is the quality of a sound that is the primary psychological correlate of physical strength (amplitude). Values typically range between -60 and 0 dB, 0 being the most loud &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;3-methods&#34;&gt;3. Methods&lt;/h2&gt;
+&lt;p&gt;Data analysis was used to answer this paper&amp;rsquo;s research question. The data set was imported into Jupyter notebook using pandas, a software library built for data manipulation and analysis. The first step was cleaning the data. The data set contained 169,909 rows and 19 columns. After dropping rows where at least one column had NaN values, values that are undefined or unrepresentable, the data set still contained all 169,909 rows. Thus, the data set was cleaned by Yamac Ay prior to it being downloaded. The second step in the data analysis was editing the data. The objective of this research was to compare music tracks before the 21&lt;sup&gt;st&lt;/sup&gt; century to tracks after the 21&lt;sup&gt;st&lt;/sup&gt; century and see if, how, and why they differ. As well as do tracks after the 21&lt;sup&gt;st&lt;/sup&gt; century lack uniqueness compared to tracks that were created before the 21&lt;sup&gt;st&lt;/sup&gt; century.&lt;/p&gt;
+&lt;p&gt;When Yamac Ay collected the data he separated it into five comma-separated values (csv) files. The first file, titled data.csv, contained all the information that was needed to conduct data analysis. Although this file contained the feature &amp;ldquo;year&amp;rdquo; that was required to analyze the data based on the period of time, it still needed to be manipulated to distinguish what years were attributed to before and after the 21&lt;sup&gt;st&lt;/sup&gt; century. A python script was built to create a new column titled &amp;ldquo;years_split&amp;rdquo; that sorted all rows into qualitative binary values. These values were defined as &amp;ldquo;before_21st_century&amp;rdquo; and &amp;ldquo;after_21st_century&amp;rdquo;. Rows, where the tracks feature &amp;ldquo;year&amp;rdquo; were between 0 and 2000 were assigned to &amp;ldquo;before_21st_century&amp;rdquo; and tracks where the feature &amp;ldquo;year&amp;rdquo; was between 2001 and 2020 were assigned to &amp;ldquo;after_21st_century&amp;rdquo;. It is important to note that over 76% of the rows were attributed to &amp;ldquo;before_21st_century&amp;rdquo;. Therefore, the majority of tracks collected in this dataset were released before 2001.&lt;/p&gt;
+&lt;h2 id=&#34;4-results&#34;&gt;4. Results&lt;/h2&gt;
+&lt;p&gt;The features that were analyzed were quantitative values. Thus, it was decided that histograms were the best plots for examining and comparing the data. The first feature that was analyzed is &amp;ldquo;danceability&amp;rdquo;. The visualization for danceability is seen in Figure 2.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-333/raw/main/project/images/danceability_histogram_before_and_after_21stcentury.png&#34; alt=&#34;danceability&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 2:&lt;/strong&gt; Danceability shows how danceable a song is&lt;/p&gt;
+&lt;p&gt;The histogram assigned to &amp;ldquo;before_21st_century&amp;rdquo; resembles a normal distribution. The &lt;strong&gt;mean&lt;/strong&gt; of the histogram is 0.52 while the &lt;strong&gt;mode&lt;/strong&gt; is 0.57. The &lt;strong&gt;variance&lt;/strong&gt; of the data is 0.02986. The histogram assigned to &amp;ldquo;after_21st_century&amp;rdquo; closely resembles a normal distribution. The &lt;strong&gt;mean&lt;/strong&gt; is 0.59 and the &lt;strong&gt;mode&lt;/strong&gt; is 0.61. The &lt;strong&gt;variance&lt;/strong&gt; of the data is 0.02997. The bulk of the data before the 21&lt;sup&gt;st&lt;/sup&gt; century lies between 0.2 and 0.8. However, when looking at the data after the 21&lt;sup&gt;st&lt;/sup&gt; century the majority of it lies between 0.4 and 0.9. This implies that songs have become more danceable but the variation of less danceable to danceable is practically the same.&lt;/p&gt;
+&lt;p&gt;The second feature that was analyzed is &amp;ldquo;energy&amp;rdquo;. The visualization for energy is seen in Figure 3.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-333/raw/main/project/images/energy_histogram_before_and_after_21stcentury.png&#34; alt=&#34;energy&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 3:&lt;/strong&gt; Energy shows how energetic a song is&lt;/p&gt;
+&lt;p&gt;The histogram assigned to &amp;ldquo;before_21st_century&amp;rdquo; does not resemble a normal distribution. The &lt;strong&gt;mean&lt;/strong&gt; of the histogram is 0.44 while the &lt;strong&gt;mode&lt;/strong&gt; is 0.25. The &lt;strong&gt;variance&lt;/strong&gt; of the data is 0.06819. The histogram assigned to &amp;ldquo;after_21st_century&amp;rdquo; also does not resemble a normal distribution. The &lt;strong&gt;mean&lt;/strong&gt; is 0.65 and the &lt;strong&gt;mode&lt;/strong&gt; is 0.73. The &lt;strong&gt;variance&lt;/strong&gt; of the data is 0.05030. The data before the 21&lt;sup&gt;st&lt;/sup&gt; century is skewed right while the data after the 21&lt;sup&gt;st&lt;/sup&gt; century is skewed left. This indicates that tracks have become much more energetic since the 21&lt;sup&gt;st&lt;/sup&gt; century. Songs before 2001 on average have an energy level of 0.44 but there are still many songs with high energy levels. Where as, songs after 2001 on average have an energy level of 0.65 but there are very few songs with low energy levels.&lt;/p&gt;
+&lt;p&gt;The third feature that was analyzed was &amp;ldquo;acousticness&amp;rdquo;. The visualization for acousticness is seen in Figure 4.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-333/raw/main/project/images/acousticness_histogram_before_and_after_21stcentury.png&#34; alt=&#34;acousticness&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 4:&lt;/strong&gt; Acousticness shows how acoustic (type of instrument as a collective) a song is&lt;/p&gt;
+&lt;p&gt;The  &lt;strong&gt;mean&lt;/strong&gt; of the histogram assigned to &amp;ldquo;before_21st_century&amp;rdquo; is 0.57 while the &lt;strong&gt;mode&lt;/strong&gt; is 0.995. The &lt;strong&gt;variance&lt;/strong&gt; of the data is 0.13687. The histogram assigned to &amp;ldquo;after_21st_century&amp;rdquo; has a &lt;strong&gt;mean&lt;/strong&gt; of 0.26 and &lt;strong&gt;mode&lt;/strong&gt; of 0.114. The &lt;strong&gt;variance&lt;/strong&gt; of the data is 0.08445 . The graph shows that music made before the 21&lt;sup&gt;st&lt;/sup&gt; century varied from non-acoustic to acoustic. However, when analyzing music after the 21&lt;sup&gt;st&lt;/sup&gt; century the graph shows that most music is created using non-acoustic instruments. It is assumed that this change in outlet of sounds is due to music production transitioning from acoustic to analog to now digital. However, more in depth research would need to be completed to confirm this assumption.&lt;/p&gt;
+&lt;p&gt;The fourth histogram to be anaylzed was &amp;ldquo;instrumentalness&amp;rdquo;. The visualization for instrumentalness is seen in Figure 5.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-333/raw/main/project/images/instrumentalness_histogram_before_and_after_21stcentury.png&#34; alt=&#34;instrumentalness&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 5:&lt;/strong&gt; Instrumentalness shows how instrumental a song is&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;mean&lt;/strong&gt; of the histogram assigned to &amp;ldquo;before_21st_century&amp;rdquo; is 0.19 while the &lt;strong&gt;mode&lt;/strong&gt; is 0.0. The &lt;strong&gt;variance&lt;/strong&gt; of the data is 0.10699. The histogram assigned to &amp;ldquo;after_21st_century&amp;rdquo; has a &lt;strong&gt;mean&lt;/strong&gt; of 0.07 and &lt;strong&gt;mode&lt;/strong&gt; of 0.0. The &lt;strong&gt;variance&lt;/strong&gt; of the data is 0.04786 . By analyzing the graph it appears that the instrumentalness for before and after the 21&lt;sup&gt;st&lt;/sup&gt; century are relatively similar. Both histograms are skewed right but the histogram attributed to after the 21&lt;sup&gt;st&lt;/sup&gt; century has much less songs that are instrumental compared to songs before the 21&lt;sup&gt;st&lt;/sup&gt; century. The variation of non-instrumental to instrumental tracks after the 21&lt;sup&gt;st&lt;/sup&gt; century is all far less compared to tracks before the  21&lt;sup&gt;st&lt;/sup&gt; century.&lt;/p&gt;
+&lt;p&gt;The fifth histogram that was analyzed is &amp;ldquo;valence&amp;rdquo;. The visualization for valence is seen in Figure 6.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-333/raw/main/project/images/valence_histogram_before_and_after_21stcentury.png&#34; alt=&#34;valence&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 6:&lt;/strong&gt; Valence shows how positive a song is&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;mean&lt;/strong&gt; of the histogram assigned to &amp;ldquo;before_21st_century&amp;rdquo; is 0.54 while the &lt;strong&gt;mode&lt;/strong&gt; is 0.961. The &lt;strong&gt;variance&lt;/strong&gt; of the data is 0.07035. The histogram assigned to &amp;ldquo;after_21st_century&amp;rdquo; has a &lt;strong&gt;mean&lt;/strong&gt; of 0.49 and &lt;strong&gt;mode&lt;/strong&gt; of 0.961. The &lt;strong&gt;variance&lt;/strong&gt; of the data is 0.06207. By analyzing the graph we can see that the valence before and after the 21&lt;sup&gt;st&lt;/sup&gt; century has remained fairly the same in terms of shape. However, the average value of valence after the 21&lt;sup&gt;st&lt;/sup&gt; century decreased by 0.05. Thus, songs have become less positive but there are still a good amount of positive songs being created.&lt;/p&gt;
+&lt;p&gt;The sixth histogram that was analyzed is &amp;ldquo;tempo&amp;rdquo;. The visualization for tempo is seen in Figure 7.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-333/raw/main/project/images/tempo_histogram_before_and_after_21stcentury.png&#34; alt=&#34;tempo&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 7:&lt;/strong&gt; Tempo shows the speed a song is played in&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;mean&lt;/strong&gt; of the histogram attributed to &amp;ldquo;before_21st_century&amp;quot;is 115.66. The &lt;strong&gt;variance&lt;/strong&gt; of the data is 933.57150. The histogram assigned to &amp;ldquo;after_21st_century&amp;rdquo; has a &lt;strong&gt;mean&lt;/strong&gt; of 121.19. The &lt;strong&gt;variance&lt;/strong&gt; of the data is 955.44287. This indicates that tracks after the 21&lt;sup&gt;st&lt;/sup&gt; century have increased tempo by a little over 6 BPM. Tracks after the 21&lt;sup&gt;st&lt;/sup&gt; century also have more variation than tracks before the 21&lt;sup&gt;st&lt;/sup&gt; century.&lt;/p&gt;
+&lt;p&gt;The seventh histogram that was analyzed is &amp;ldquo;key&amp;rdquo;. The visualization for key is seen in Figure 8.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-333/raw/main/project/images/key_histogram_before_and_after_21stcentury.png&#34; alt=&#34;key&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 8:&lt;/strong&gt; Key labels the overall pitch a song is in&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;mean&lt;/strong&gt; of the histogram assigned to &amp;ldquo;before_21st_century&amp;rdquo; is 5.19 The &lt;strong&gt;variance&lt;/strong&gt; of the data is 12.22468. The histogram assigned to &amp;ldquo;after_21st_century&amp;rdquo; has a &lt;strong&gt;mean&lt;/strong&gt; of 5.24. The &lt;strong&gt;variance&lt;/strong&gt; of the data is 12.79017. This information implies that the key of songs have mostly stayed the same hoever, there are less songs after the 21&lt;sup&gt;st&lt;/sup&gt; century being created in C, C#, and D compared to songs before the 21&lt;sup&gt;st&lt;/sup&gt; century. The key of songs after 2001 are also more spread out compared to songs before 2001.&lt;/p&gt;
+&lt;p&gt;The eighth histogram that was analyzed is &amp;ldquo;loudness&amp;rdquo;. The visualization for loudness is seen in Figure 9.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-333/raw/main/project/images/loudness_histogram_before_and_after_21stcentury.png&#34; alt=&#34;loudness&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 9:&lt;/strong&gt; Loudness shows the average decibels a track is played in&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;mean&lt;/strong&gt; of the histogram assigned to &amp;ldquo;before_21st_century&amp;rdquo; is -12.60 while the &lt;strong&gt;mode&lt;/strong&gt; is -11.82. The &lt;strong&gt;variance&lt;/strong&gt; of the data is 29.17625. The histogram assigned to &amp;ldquo;after_21st_century&amp;rdquo; has a &lt;strong&gt;mean&lt;/strong&gt; of -7.32 and &lt;strong&gt;mode&lt;/strong&gt; of -4.80. The &lt;strong&gt;variance&lt;/strong&gt; of the data is 20.35049. The shapes of both histograms are the same, however the histogram attributed to after the 21&lt;sup&gt;st&lt;/sup&gt; century shifted to the right by 5.28. This displays the increase in loudness of songs created after 2001. The variance of the data shows that songs after 2001 are mostly very loud. Wheres as, songs before 2001 had greater variation of less loud to more loud.&lt;/p&gt;
+&lt;h2 id=&#34;5-conclusion&#34;&gt;5. Conclusion&lt;/h2&gt;
+&lt;p&gt;Music over the centuries has continuously changed. This change has typically been embraced by the masses. However, in the early 2000s adults who grew up on different styles of music began stating through word of mouth, interviews,  tv shows, and movies that &amp;ldquo;music isn&amp;rsquo;t the same anymore&amp;rdquo;. They even claimed that most current songs sound the same and lack uniqueness. This scientific research set out to determine how music has changed and if in fact, modern music lacks uniqueness.&lt;/p&gt;
+&lt;p&gt;After analyzing the songs before and after the 21&lt;sup&gt;st&lt;/sup&gt; century it was determined that all the features of a track have changed in some way. The danceability, energy, tempo, and loudness of a song have increased. While the acousticness, valence, and instrumentalness have decreased. The number of songs after the  21&lt;sup&gt;st&lt;/sup&gt; century that was created in the key of C, C#, and D has decreased. The variation of energetic, acoustic, instrumental, valent, and loud songs have decreased since 2001. While the variation of tempo and key has increased since 2001.&lt;/p&gt;
+&lt;p&gt;The factor for determining whether music lacks uniqueness in this paper will be variance. If a feature has more than alpha = 0.01 difference of variability from before to after the 21&lt;sup&gt;st&lt;/sup&gt; century then it will be determined that the feature is less unique after the 21&lt;sup&gt;st&lt;/sup&gt; century. The difference in variances among the feature &amp;ldquo;energetic&amp;rdquo; is 0.01789, &amp;ldquo;acousticness&amp;rdquo; is 0.05242, &amp;ldquo;instrumentalness&amp;rdquo; is 0.05913,  &amp;ldquo;valence&amp;rdquo; is 0.00828, and &amp;ldquo;loudness&amp;rdquo; is 8.82576. Thus, the only feature that does not lack uniqueness when compared to songs before the 21&lt;sup&gt;st&lt;/sup&gt; century is &amp;ldquo;valence&amp;rdquo;. Based on this information music overall after the 21&lt;sup&gt;st&lt;/sup&gt; century lacks uniqueness compared to music before the 21&lt;sup&gt;st&lt;/sup&gt; century.&lt;/p&gt;
+&lt;p&gt;This lack of uniqueness did not start after the 21&lt;sup&gt;st&lt;/sup&gt; century. It started during the Enlightenment period. During this period of time, classical music was the most popular genre of music. Before this era, Baroque music was extremely popular. Artists such as Johann Sebastian Bach created complex compositions that were played for the elite. This style of music &amp;ldquo;was filled with complex melodies and exaggerated ornamentation, music of the Enlightenment period was technically simpler.&amp;rdquo; &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; Instead of focusing on these complexities the new music focused on enjoyment, pleasure, and being memorable. People now wanted to be able to hum and play songs themselves. This desired feature has caused music to constantly become simpler. Thus, reducing songs variances amongst features.&lt;/p&gt;
+&lt;p&gt;A further step that could be taken in this research is predicting what these features will look like in the future. Machine learning could be used to make this prediction. This would give music enthusiasts and professionals a greater understanding of where music is headed and how to adapt.&lt;/p&gt;
+&lt;h2 id=&#34;51-limitations&#34;&gt;5.1 Limitations&lt;/h2&gt;
+&lt;p&gt;Initially this project was supposed to be conducted on Hip-Hop music. However, the way the data was collected and stored did not allow for this analysis to be done. In the future a more in depth analysis could be conducted on a specific genre.&lt;/p&gt;
+&lt;h2 id=&#34;7-references&#34;&gt;7. References&lt;/h2&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Developer.spotify.com. 2020. &lt;em&gt;Get Audio Features For A Track | Spotify For Developers&lt;/em&gt;. [online] Available at: &lt;a href=&#34;https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/&#34;&gt;https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/&lt;/a&gt; [Accessed 6 November 2020]. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Muscato, C. and Clayton, J., 2020. &lt;em&gt;Music During The Enlightenment Period&lt;/em&gt;. [online] Study.com. Available at: &lt;a href=&#34;https://study.com/academy/lesson/music-during-the-enlightenment-period.html&#34;&gt;https://study.com/academy/lesson/music-during-the-enlightenment-period.html&lt;/a&gt; [Accessed 5 November 2020]. &lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Report: Sentiment Analysis and Visualization using a US-election dataset for the 2020 Election</title>
+      <link>/report/fa20-523-316/project/project/</link>
+      <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/report/fa20-523-316/project/project/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-316/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-316/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-316/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-316/workflows/Status/badge.svg&#34; alt=&#34;Status&#34;&gt;&lt;/a&gt;
+Status: final, Type: Project&lt;/p&gt;
+&lt;p&gt;Sudheer Alluri, Indiana University, fa20-523-316, &lt;a href=&#34;mailto:ngsudheer@gmail.com&#34;&gt;ngsudheer@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vishwanadham Mandala, Indiana University, fa20-523-325, &lt;a href=&#34;mailto:vishwandh.mandala@gmail.com&#34;&gt;vishwandh.mandala@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-316/blob/master/project/project.md&#34;&gt;Edit&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Sentiment analysis is an evaluation of the opinion of the speaker, writer, or other subjects about some topic. We are going to use the US-elections dataset and combining the tweets of people&amp;rsquo;s opinions for leading presidential candidates. We have various datasets from Kaggle and combining tweets and NY times datasets, by combining all data prediction will be derived.&lt;/p&gt;
+&lt;p&gt;Contents&lt;/p&gt;
+&lt;div class=&#34;toc&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#1-introduction&#34;&gt;1. Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#2-background-research-and-previous-work&#34;&gt;2. Background Research and Previous Work&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#3-datasets&#34;&gt;3. DataSets&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#4-methodologyprocess&#34;&gt;4. Methodology/Process&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#5-development-of-models&#34;&gt;5. Development of Models&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#51-removing-noise-from-data&#34;&gt;5.1 Removing Noise from Data&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#6-technologies-used&#34;&gt;6. Technologies used&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#7-analysis-of-user-behavior&#34;&gt;7. Analysis Of User Behavior&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#hypothesis-1-twitter-users-are-commenting-on-the-elections-and-retweeting-the-presidential-tweets&#34;&gt;Hypothesis 1: Twitter users are commenting on the elections and retweeting the Presidential tweets.&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#hypothesis-2-users-in-the-context-of-elections-do-not-use-twitter-only-to-voice-their-opinions-but-also-use-the-platform-to-interact-with-other-users-on-political-issues&#34;&gt;Hypothesis 2: Users in the context of elections do not use Twitter only to voice their opinions but also use the platform to interact with other users on political issues.&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#hypothesis-3-popular-terms-in-twitter-discussion-are-significant-real-world-events-and-plays-major-role-in-elections&#34;&gt;Hypothesis 3: Popular terms in Twitter discussion are significant real-world events and plays major role in elections.&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#8-results&#34;&gt;8. Results&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#9-conclusion&#34;&gt;9. Conclusion&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#10-acknowledgments&#34;&gt;10. Acknowledgments&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#11-references&#34;&gt;11. References&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; sentiment,  US-election&lt;/p&gt;
+&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;
+&lt;p&gt;For our final project, we are focusing on the upcoming U.S. presidential elections. More specifically, we are attempting to predict the winner of the 2020’s U.S. elections. As many people across the world know, the United States Presidential election is a very grand and important political event for the people and government of the United States of America. Not only that, the results of this election will impact the world as a whole. This year, there were many candidates. However, the election boiled down to the Democrat candidate, Joe Biden, fighting against the current Republican President of the United States of America, Donald J. Trump. There are many problems that we can run into while predicting the winner. We run into problems like finding an unbiased source or handling the size of the data. However, we believe that we found a pathway that solves all problems and effectively predicts the results of this year’s presidential election. We plan to use a US-elections dataset to predict the votes each contestant will attain, by area. With growing data, the prediction will be changing constantly. We are making the difference by selecting the latest dataset available and previous election data to predict the number of votes each contestant will get to the closest figure. A feature we are introducing to enhance the quality is predicting various area types like counties, towns, and/or big cities.
+One might argue that these kinds of predictions will only be helping organizations and not individuals. We assure you that this project will be helping the general public in many ways. The most evident being, an individual knowing which contestant his/her community or the general public around him/her prefer. This project is strictly statistical and does not have a goal to sway the elections in any way or to pressure an individual into picking a candidate. Overall, this is just a small step towards a future that might hold an environment where the next president of the United States of America could be accurately guessed based on previous data and innovative Big Data Technologies.&lt;/p&gt;
+&lt;h2 id=&#34;2-background-research-and-previous-work&#34;&gt;2. Background Research and Previous Work&lt;/h2&gt;
+&lt;p&gt;After reading wiki/Sentiment_analysis came with a concrete idea of sentimental analysis and choose the election topic since it is the latest ongoing trend
+in the USA and the dataset can be easily refreshed. Social media use is at an all-time historic high for the United States, so we considered one popular social media
+platform, Twitter, and tried to see if we could predict how a group of people felt about an issue by only using posts from social media. For our research, we looked at tweets that focused on the 2020United States presidential election. Using these tweets, we tried to find a correlation between tweet sentiment and the election results. We wrote a program to collect tweets that mentioned one of the two candidates along with selected vice presidents, then sorted the tweets by state and developed a sentiment algorithm to see which candidate the tweet favored, or if it was neutral.&lt;/p&gt;
+&lt;h2 id=&#34;3-datasets&#34;&gt;3. DataSets&lt;/h2&gt;
+&lt;p&gt;By using the dataset &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; and filets are based on location. If needed, we may download Twitter data from posts on and by Donald Trump, Joe Biden, and their associates. Which leads us to our objective for the project, based on the data we collected, we should be able to predict the winner of the 2020 United States of America’s presidential elections.&lt;/p&gt;
+&lt;p&gt;All of the data will be location-based and if required we will download real-time campaigning and debate analysis data, giving us a live and updated prediction every time increment. To strengthen the prediction, even more, we may reuse some code from the 2016 election’s analysis, however, our main focus will be using the latest data we readily acquire during the time leading up to the 2020 election.
+In conclusion, to make our predictions as realistic and as strong as we can get, selected multiple data sets to integrate between the previous election and Twitter data to predict the number of votes each candidate will acquire. Therefore, we are predicting the winner of the 2020 presidential elections.
+One thing we are going to avoiding is the use of polls as source material. Many problems will arise with the use of polls. The benefits are questionable and outweighed. For one thing, the result of a poll is not concrete. One can just select a random candidate or purposely vote a candidate for an unjustified reason. One of the bigger problems is impartiality. The problem arises with the concept of an internet website, where most if not all polls are being conducted. The internet is designed so people with common interests end up at the same website. Therefore, if a poll conducting website has an audience of voters that favor one of the candidates, the results will be biased, impartial, and won’t represent the true feelings of the public. There are also thousands of these polls. Even if there are non-biased polls, one may not be able to identify them and interpret them before the end of the elections. Even if we assume that there are more unbiased polls, the sheer number will be impossible to use, and losing any might decrease the number of unbiased and raise the number of biased polls. The results of some polls are even meaningless. This can occur due to small voting numbers. If only 15 people vote, the results will not represent the mass public. The fact is that it is very hard for polls to attract voters. Without a poll achieving all these requirements and more, it will not be considered legitimate or be taken seriously. Even the actual elections require mass advertisement for people to show up. During October of an election year, there are thousands of advertisements and endorsements with the sole purpose of acquiring voters. Now the elections have government funding for these ads. Polls do not have the time or funding to attract these masses to vote. They have to suffice with the number and demographics of their voters.  Which is the biggest reason why most polls are useless. Even mega corporations that conduct polls fall to more than one of these mistakes. Rendering them nugatory.&lt;/p&gt;
+&lt;h2 id=&#34;4-methodologyprocess&#34;&gt;4. Methodology/Process&lt;/h2&gt;
+&lt;p&gt;There are more than approximately 80 million active users of Twitter in the United States of America and Twitter makes an ideal case study of social media usage in political discourse.
+Our project has two main sections of data sets in it. The primary section contains candidate information and previous presidential election data, and the second containing twitter data. We believed the second needed more time because the first dataset contained straightforward facts while the twitter dataset is more susceptible to different perspectives and viewpoints.
+In this project, we are analyzing Twitter data of key presidential candidates and other key supporters. We gathered the data from Kaggle datasets. Data is mainly divided into 3 subcategories. Tweets made by key personnel.Twitter profiles of the two candidates(all info including followers, following, number of tweets, etc.).The final category involves graphs for visualization purposes. A problem with Twitter data is the fact that it is huge. We are using google drive and with it comes the problem of storage. To combat this we are only using 4 twitter data sets. The datasets of Donald J. Trump, Joe Biden, Kamala Harris, and Mike Pence. We also downloaded these data sets to use them locally. There are mainly 3 types of formats used in everyday twitter use: images, text, and video. Only text will be used in this project because others are not useful for the experiment. Our project mostly uses Twitter data as support to the primary dataset. It is there to strengthen the already predicted result. The reason why we cannot make the twitter data set our primary data set is that the data(tweets) are mostly opinion based with only some exceptions. So we cannot predict with the Twitter data, however, it
+can be used to show public support which will be vital in supporting the prediction derived from the primary data set. So, we found many twitter data sets on Kaggle and used certain parts from each to make our final four. The difference between the background sets and our final four datasets is the fact that they used Twitter data as their primary dataset while we are using Twitter data as our secondary dataset. We realized that twitter data is best used as secondary data that supports the primary dataset, which is more fact-based. We can use three of the four OSoMe tools available: trends, networking, and maps. Trends and networking can be combined to find a group that involves every user that is taking part in the elections in some way. Mapping can show these users and their location. Giving us the area based result that we seek. However, this method is already a part of our project. Because all this data is in Kaggle in a wider array. Which gave us the option to condense into four large data sets.&lt;/p&gt;
+&lt;p&gt;Our methodology comprised of following steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Use of search terms &amp;ldquo;Trump&amp;rdquo;, &amp;ldquo;Pence&amp;rdquo;, &amp;ldquo;Biden&amp;rdquo;, &amp;ldquo;Kamala&amp;rdquo;, &amp;ldquo;Gender&amp;rdquo;, &amp;ldquo;Words&amp;rdquo; and &amp;ldquo;Election2020&amp;rdquo; to gather Twitter data for our period of interest.&lt;/li&gt;
+&lt;li&gt;Data Cleaning and extraction.&lt;/li&gt;
+&lt;li&gt;Sentiment tagging and classification of gathered tweets.&lt;/li&gt;
+&lt;li&gt;Development of user behavioral model, formulate hypotheses, and find proof of hypotheses.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Used Python to load Twitter data which is gathered from Kaggle, used Pandas library for data cleaning and extraction of each tweet&amp;rsquo;s associated metadata.
+Seaborn library has been used for data visualization.&lt;/p&gt;
+&lt;h2 id=&#34;5-development-of-models&#34;&gt;5. Development of Models&lt;/h2&gt;
+&lt;p&gt;Our approach to finding the information of candidates and get the age, tweets information, and what are the keywords used and what words are liked more.
+Based on liked tweets and buzz words used, we are predicting the winner.&lt;/p&gt;
+&lt;p&gt;Candidates information collected are:
+Age of Democratic primaries candidates
+For some candidates it is very important to mention Women, but not for all. Added Country for reference.
+Where are the Democratic Candidates coming from
+Twitter Engagement, likes and retweets
+Buzzwords for each candidate
+By using Pandas:
+Used to extract the data and clean the tweets.
+Seaborn and Matlab, used to represent the status of elections in the graphs.&lt;/p&gt;
+&lt;h3 id=&#34;51-removing-noise-from-data&#34;&gt;5.1 Removing Noise from Data&lt;/h3&gt;
+&lt;p&gt;To increase accuracy of our analysis, the next step is to remove noise from our dataset. Presence of spam on Twitter is a well known phenomenon. Although Twitter tries hard to idntify and remove
+automated accounts, not everything are easily identifiable.  In order to identify and remove spam present in our dataset, we removed tweets belonigng to accounts having
+abnormally high tweet rates. We have also filted our dataset by replaced the existing words with keywords and assigned the tweet id.&lt;/p&gt;
+&lt;h2 id=&#34;6-technologies-used&#34;&gt;6. Technologies used&lt;/h2&gt;
+&lt;p&gt;In this project Python 3 and Google Colab Jupyter Notebook were used to build the notebook. Also several Python packages were employed in this exploration such as Pandas, Numpy, Matplotlib, sklearn, wget.&lt;/p&gt;
+&lt;h2 id=&#34;7-analysis-of-user-behavior&#34;&gt;7. Analysis Of User Behavior&lt;/h2&gt;
+&lt;p&gt;Data is sanitized as metnioned in [^5.1], we then proceed in data mining and analysis techniques to perform data analytics and find useful information.  We tried to find evidence
+supporting some of our beliefs that by reviewing Twitter data for insights into user behavior and tweeting patterns.&lt;/p&gt;
+&lt;h3 id=&#34;hypothesis-1-twitter-users-are-commenting-on-the-elections-and-retweeting-the-presidential-tweets&#34;&gt;Hypothesis 1: Twitter users are commenting on the elections and retweeting the Presidential tweets.&lt;/h3&gt;
+&lt;p&gt;Activity-based on following and usage: Research has been conducted on message framing behavior of users on Twitter as a function of various characteristics including the number of followers and level of activity. Adding hashtag(#) to the preceding keywords allowing users to search with the word. The use of hashtag become part of Twitter
+trends and also enables them to reach a large audience.&lt;/p&gt;
+&lt;p&gt;Similarly, we believe that a similar trend will be discovered in our election dataset. Users with a large following and heavy usage will be more concerned about making their tweets searchable and then those having fewer followers and less number of tweets. By framing the keyword with hashtag(#), large users are
+able to reach a broader audience.&lt;/p&gt;
+&lt;h3 id=&#34;hypothesis-2-users-in-the-context-of-elections-do-not-use-twitter-only-to-voice-their-opinions-but-also-use-the-platform-to-interact-with-other-users-on-political-issues&#34;&gt;Hypothesis 2: Users in the context of elections do not use Twitter only to voice their opinions but also use the platform to interact with other users on political issues.&lt;/h3&gt;
+&lt;p&gt;A single tweet will be retweeted by multiple users and it reaches to a larger audience. Twitter became a platform for addressing a person directly. Direct messaging also
+creates complexities for users in having to handle multiplicity and one-to-one conversations at the same time.&lt;/p&gt;
+&lt;p&gt;Based on the above discussion, we assume similar behavior amongst the users of our dataset and believe that there will be a  high number of one-to-one messaging indicating interactive political dialogue.&lt;/p&gt;
+&lt;h3 id=&#34;hypothesis-3-popular-terms-in-twitter-discussion-are-significant-real-world-events-and-plays-major-role-in-elections&#34;&gt;Hypothesis 3: Popular terms in Twitter discussion are significant real-world events and plays major role in elections.&lt;/h3&gt;
+&lt;p&gt;Several studies have been conducted to conclude Twitter is used as a real-time latest news identification tool and studies have claimed that based on trending topics active period of tweets showed that as many as 85% of topics are headlines or persistent in real-world news.&lt;/p&gt;
+&lt;p&gt;Analysis of daily tweets during the US- election 2020 provides us current news events taking place in the real world. We analyzed high-frequency terms to justify our hypothesis.&lt;/p&gt;
+&lt;h2 id=&#34;8-results&#34;&gt;8. Results&lt;/h2&gt;
+&lt;p&gt;In this section, we present the results of the data analysis performed throughout the study. With the help of some prefatory findings, we understood the sentiment of the data, found the numerical statistics of the positive and negative tweets, and set a trend that successfully predicted the results of the 2020 U.S. presidential elections. Through the help of profound data analysis, we validated our hypotheses presented in the previous section.&lt;/p&gt;
+&lt;p&gt;The initial step of the analysis involves analyzing the data in two methods: individual candidate analysis and combined candidate analysis. Both the methods involved assigning tweets with individual sentiment scores and averaging these scores accordingly. Performing these steps, we will achieve positive and negative sentimental scores towards the candidates and get to compare these scores with each other. This way, we see an overall opinion about the candidates. We also get to monitor the conversations taking place over the topic of the election. The attitude towards the candidates is strongly positive from their inner circles. When it came to the general public, however, both candidates received negative feedback.&lt;/p&gt;
+&lt;p&gt;The mentality of the whole public can never be properly depicted by a single dataset. Furthermore, you cannot assume that the data recorded and analyzed from Twitter will be genuine in all regions. However, it can be a good representation due to its ability to empower users by allowing them to freely share their views and opinions. The consensus of an average American citizen is currently divided due to two factors. The first factor is the existence of a previous or a new affiliation with a specific political party. This is not surprising since political affiliation is a phenomenon that has existed since the conception of a democratic government. However, it does make a huge difference. Since the start of the concept, the American population has always changed their opinion. More recently, however, the general American population has dedicated its supporting two main political parties: the Democratic party and the Republican party. The population is almost split evenly throughout the country. However, the location of these specific groups has changed in recent years. The change is very interesting as it shows major trends towards the individual parties and their followers. Democratic followers, shown by twitter information of Biden supporters, tend to live in cities and are generally younger or work white-collar jobs. Republican followers, shown by twitter information of Trump supporters, tend to live in suburbs, small towns, and in the countryside. They are also generally older and have blue-collar jobs. Due to this reason, there are fewer republicans active on Twitter, however, we know that there are many more republicans outside of Twitter from the results of the previous elections. This would make our use of Twitter data nugatory. If that is the truth, why have we decided to use the Twitter data? There are indeed more Democratic Twitter users than Republican ones, however, there are many more neutral citizens that are not affiliated with any party. The second factor affects this group of neutral citizens. The second factor is the individual opinion of the person in question. The general view held in the minds of these neutral citizens, showed by many tweets from these groups of people, is that they have to choose the best option from two subpar choices. The truth of the fact is that the candidates are strongly advertising to their party supporters first and then to the supporters of the other parties and non-affiliates to any party. This leads to the neutral group not preferring the two candidates as their first choices. However, they have to choose one of the two and the decision, like all other decisions, will be heavily based on their livelihoods. Therefore, the results, based solely on Twitter data and previous presidential elections data that we have looked at, will depend on the lively hood of these neutral citizens. This will not be the perfect representation of the entire country by any means, however, the sample size is wide and large enough to be a good representation of the American public.&lt;/p&gt;
+&lt;p&gt;After all the data was collected, we have formatted the candidate&amp;rsquo;s information and cleaned the Twitter data. After closely watching the Twitter data
+with the graphical representation, we predicted the results.
+The analysis’ prediction favored Joe Biden to win this year’s election. However, President Trump was close behind. The predicted race included a very tight race, ending with Joe Biden breaking through. The actual presidential race this November seemed to be following the predicted trend, with Joe Biden taking a lead at the start and President Trump catching up by the first day’s end. The race continued to be tight for a couple of days, matching the general trend of the prediction. However, on November 7th, Biden broke through the stalemate and secured the elections. The prediction was close for most of the race, but the trend broke when Joe Biden won by a convincing lead.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.github.com/cybertraining-dsc/fa20-523-316/main/project/images/Electionresults.png&#34; alt=&#34;Predicted results of US Elections 2020&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 1:&lt;/strong&gt; Predicted results of US Elections 2020&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.github.com/cybertraining-dsc/fa20-523-316/main/project/images/likedtweets.png&#34; alt=&#34;Liked Tweets of US Elections 2020&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 2:&lt;/strong&gt; Liked Tweets of US Elections 2020&lt;/p&gt;
+&lt;p&gt;Reference image: &lt;a href=&#34;https://www.kaggle.com/radustoicescu/2020-united-states-presidential-election/notebooks&#34;&gt;https://www.kaggle.com/radustoicescu/2020-united-states-presidential-election/notebooks&lt;/a&gt; and edited it from our program.&lt;/p&gt;
+&lt;p&gt;Below is the example of extracting tweets and forming them into a graph to represent the data.
+Among the most frequent words in tweets dedicated to Donald Trump (excluding candidates&#39; proper nouns) occur both popular election words: &amp;ldquo;vote&amp;rdquo;, &amp;ldquo;election&amp;rdquo;, &amp;ldquo;president&amp;rdquo;, &amp;ldquo;people&amp;rdquo;, &amp;ldquo;Election Day&amp;rdquo;, etc., and specific, like &amp;ldquo;MAGA&amp;rdquo; (Trump&amp;rsquo;s tagline &amp;ldquo;Make America Great Again&amp;rdquo;) or &amp;ldquo;die&amp;rdquo; (a word with negative sense). Specific words of tweets dedicated to Joe Biden: &amp;ldquo;Kamala Harris&amp;rdquo; (Vice President-elect of the United States), &amp;ldquo;BidenHarris&amp;rdquo;, &amp;ldquo;win&amp;rdquo; (a word that is more frequent regarding Joe Biden than Donald Trump). Let&amp;rsquo;s look at Bi and Tri n-grams of words.
+&lt;img src=&#34;https://raw.github.com/cybertraining-dsc/fa20-523-316/main/project/images/__results___53_0.png&#34; alt=&#34;Words used in  US Elections 2020&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 4:&lt;/strong&gt; Retweeted of US Elections 2020 With Trump&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.github.com/cybertraining-dsc/fa20-523-316/main/project/images/retweets_trump.jpg&#34; alt=&#34;Retweets from Twitter&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Reference image: &lt;a href=&#34;https://www.kaggle.com/radustoicescu/2020-united-states-presidential-election/notebooks&#34;&gt;https://www.kaggle.com/radustoicescu/2020-united-states-presidential-election/notebooks&lt;/a&gt; and edited it form our program.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 5:&lt;/strong&gt; Retweeted of US Elections 2020  Without Trump&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.github.com/cybertraining-dsc/fa20-523-316/main/project/images/retweets_no_trump.jpg&#34; alt=&#34;Retweets from Twitter&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Reference image: &lt;a href=&#34;https://www.kaggle.com/radustoicescu/2020-united-states-presidential-election/notebooks&#34;&gt;https://www.kaggle.com/radustoicescu/2020-united-states-presidential-election/notebooks&lt;/a&gt; and edited it from our program.&lt;/p&gt;
+&lt;h2 id=&#34;9-conclusion&#34;&gt;9. Conclusion&lt;/h2&gt;
+&lt;p&gt;So, we&amp;rsquo;ve taken a quick look at the sentiment of tweets. There are a lot of analysis variants. It looks great to study the tweets by each Twitter account and therefore don&amp;rsquo;t cover the actual situation since restriction to data.
+Based on the visualization analysis with predicted tweets from Twitter the predicted winner is projected. The sentiment analysis was performed only on data that had geo-data originating from the &amp;ldquo;United States of America&amp;rdquo; to try to ascertain the sentiment in each respective dataset and therefore each presidential candidate.&lt;/p&gt;
+&lt;h2 id=&#34;10-acknowledgments&#34;&gt;10. Acknowledgments&lt;/h2&gt;
+&lt;p&gt;Would like to thank Dr. Gregor von Laszewski, Dr. Geoffrey Fox, and the associate instructors for providing continuous guidance and feedback for this final project.&lt;/p&gt;
+&lt;h2 id=&#34;11-references&#34;&gt;11. References&lt;/h2&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Taken election dataset &lt;a href=&#34;https://www.kaggle.com/kerneler/starter-2020-united-states-e6a4facf-a&#34;&gt;https://www.kaggle.com/kerneler/starter-2020-united-states-e6a4facf-a&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Report: Trending Youtube Videos Analysis</title>
+      <link>/report/fa20-523-327/project/project/</link>
+      <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/report/fa20-523-327/project/project/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-327/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-327/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-327/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-327/workflows/Status/badge.svg&#34; alt=&#34;Status&#34;&gt;&lt;/a&gt;
+Status: final, Type: Project&lt;/p&gt;
+&lt;p&gt;Adam Chai, fa20-523-327
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-327/blob/main/project/project.md&#34;&gt;Edit&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;The internet has created a revolution for how people connect, understand topics, and consume information. Today, the consumption of the media is easier than ever. Going onto the internet and finding interesting content takes less than a minute to do. In the already growing industry of amateur or professional video production, Youtube is one of many go-to platforms for viewers and creators to collide. Social media creates an avenue for Youtubers to help promote their videos and reach a wider audience. For hours on end, viewers can watch nearly any type of content uploaded onto the site. However, it is harder for video creators to make an interesting video any person can enjoy than a viewer to find one of those videos. In the congested mass of videos, how can a Youtuber create a unique identity allowing their videos to go viral? This report will address this issue by creating a prediction of how Youtube popularizes a video and a solution to help a video go viral.&lt;/p&gt;
+&lt;p&gt;Contents&lt;/p&gt;
+&lt;div class=&#34;toc&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#1-introduction&#34;&gt;1. Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#2-background-research-and-previous-work&#34;&gt;2. Background Research and Previous Work&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#3-choice-of-data-set&#34;&gt;3. Choice of Data-set&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#4data-preprocessing&#34;&gt;4.Data Preprocessing&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#5-model-creation-and-methodology&#34;&gt;5. Model Creation and Methodology&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#6-insights&#34;&gt;6. Insights&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#7-benchmarks&#34;&gt;7. Benchmarks&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#8-conclusion&#34;&gt;8. Conclusion&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#81-limitations&#34;&gt;8.1 Limitations&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#9-acknowledgments&#34;&gt;9. Acknowledgments&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#10-references&#34;&gt;10. References&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; youtube, videos, trending, popular, big data, viral, content creation, entertainment, lifestyle&lt;/p&gt;
+&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;
+&lt;p&gt;Youtube has two billion monthly active users making it the second-largest social network behind Facebook &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. This statistic only accounts for users that login into their Google account while they watch a Youtube video. Hinting, there can be hundreds of millions of more people watching Youtube. Youtube&amp;rsquo;s primary feature during release was to allow anyone to upload videos so the world can watch it. This function has changed drastically throughout the years and turned Youtube into the epicenter for anything to upload a video. Businesses, schools, and even governments are fully invested in Youtube to help promote their content for their respective benefits. Today, being a Youtuber is a respected profession allowing anyone the opportunity to showcase their talent in content production. Youtube is changing the world by exposing their users to the content they would have never experience in person.&lt;/p&gt;
+&lt;p&gt;This report will investigate trending Youtube videos. Specifically, the report will be using a trending Youtube videos dataset (US only) and will be used to predict how a video will trend on Youtube. Trending videos on Youtube are aimed to surface videos to a wide range of audience who will find interesting. Some content inherently cannot be added to the trending section such as videos primarily containing guns, drugs, etc. There are a lot of hypothesis people created to understand the Youtube algorithm, and the Google Staff has hinted what will make a video trend,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Are appealing to a wide range of viewers&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Are not misleading, cickbaity, or sensational&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Capture the breadth of what&amp;rsquo;s happening on YouTube and in the world&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Showcase a diversity of creators&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ideally, are surprising or novel&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;but these criteria Youtube has set are not well defined&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. Meaning, the determinants, and weights for how a Youtube video will trend will not be explicitly stated and it is up for Youtubers to interpret what exactly will allow their video to trend. In fact, Youtubers have argued the loose standard Youtube created is not true at all. Youtubers are constantly attempting to crack this code, evolving and purposely tailoring their videos in hopes it will go viral. Creating Youtube videos appealing to a wide audience is difficult. It takes enormous creativity and dedication for a random person to enjoy a video found online. Most people on Youtube have specific interests and follow certain industries, however; anyone can appreciate an entertaining video.&lt;/p&gt;
+&lt;h2 id=&#34;2-background-research-and-previous-work&#34;&gt;2. Background Research and Previous Work&lt;/h2&gt;
+&lt;p&gt;After reviewing other background literature and works from other authors within this field, many people have ventured into how a video will be popular on Youtube. Most findings online consist of analysis or unique findings for popular videos. Several people have researched to predict if a video will be popular (views) on Youtube but do not cover the scope if it will reach the trending section on Youtube. Other analysis includes likes/dislikes predictor, comment creator, title scorer, and many more. Additionally, there has been analysis done on topics that are similar to Youtube which can be applied in this instance. A combination of these findings can be helpful and lead this research in the right direction.&lt;/p&gt;
+&lt;h2 id=&#34;3-choice-of-data-set&#34;&gt;3. Choice of Data-set&lt;/h2&gt;
+&lt;p&gt;To understand what determines if a video will trend on Youtube the dataset chosen for this project is a trending Youtube videos dataset (US)&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;. Meaning all videos within the dataset are uploaded from the US and reached the trending section on Youtube. The dataset was retrieved from the popular data science website, Kaggle. The dataset chosen is one of the most popular datasets available on Kaggle and many people have analyzed it. The dataset is known for being readable and having a high usability score.&lt;/p&gt;
+&lt;p&gt;The Trending Youtube dataset contains 40,949 entries and 16 labels covering the basic information of a trending Youtube video.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Label&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;video_id&lt;/td&gt;
+&lt;td&gt;unique video id&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;trending_date&lt;/td&gt;
+&lt;td&gt;the date when a video trended on Youtube&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;title&lt;/td&gt;
+&lt;td&gt;title of the video&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;channel_title&lt;/td&gt;
+&lt;td&gt;name of the channel that created the video&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;category_id&lt;/td&gt;
+&lt;td&gt;category of video&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;publish_time&lt;/td&gt;
+&lt;td&gt;time and date when the video was uploaded&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tags&lt;/td&gt;
+&lt;td&gt;keywords associated with the video&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;views&lt;/td&gt;
+&lt;td&gt;the number of views a video has&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;likes&lt;/td&gt;
+&lt;td&gt;the number of likes a video has&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;dislikes&lt;/td&gt;
+&lt;td&gt;the number of dislikes a video has&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;comment_count&lt;/td&gt;
+&lt;td&gt;the amount of comments commented&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;thumbnail_link&lt;/td&gt;
+&lt;td&gt;link to thumbnail picture&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;comments_disabled&lt;/td&gt;
+&lt;td&gt;boolean variable for allowing comments&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ratings_disabled&lt;/td&gt;
+&lt;td&gt;boolean variable for allowing ratings (likes, dislikes)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;video_error_or_removed&lt;/td&gt;
+&lt;td&gt;boolean variable if a video is still available&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;description&lt;/td&gt;
+&lt;td&gt;the description of the video&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;A combination of these labels will be used in creating a model to discover how a video will trend on Youtube. The drawbacks of using this dataset are various labels are not covered such as the number of subscribers a channel has or the likelihood of someone that sees the video will click on it and older data is being used (all videos were uploaded and trended between 2017 and 2018).&lt;/p&gt;
+&lt;h2 id=&#34;4data-preprocessing&#34;&gt;4.Data Preprocessing&lt;/h2&gt;
+&lt;p&gt;All work done on this project was completed through Google Colab. Once the dataset is imported from Kaggle onto Google Colab data preprocessing is necessary to translate the raw data into a readable format. Pandas and Datetime are used for data preprocessing.&lt;/p&gt;
+&lt;p&gt;To begin there are several labels which can be taken out of the model as they do not appear relevant or cannot be run through the model:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;video_id: this label is a unique identifier for each video not necessary to use&lt;/li&gt;
+&lt;li&gt;title: could not be translated into a numerical value&lt;/li&gt;
+&lt;li&gt;channel_title: could not be translated into a numerical value&lt;/li&gt;
+&lt;li&gt;tags: many tags appear to be irrelevant to the actual video therefore this will be taken out&lt;/li&gt;
+&lt;li&gt;thumbnail_link: cannot be run through the model&lt;/li&gt;
+&lt;li&gt;description: irrelevant for most videos, does not add value descriptions it appears to promote their channel and sponsors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To address duplicates within the dataset after checking all records there are no duplicates within the dataset, except for empty descriptions. After removing descriptions from the dataset duplicates will no longer be an issue.&lt;/p&gt;
+&lt;p&gt;Several labels need to be converted into an integer so they can be run through the model:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;trending_date&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;publish_time&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;comments_disabled&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ratings_disabled&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;video_error_or_removed&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pandas reads the trending_date and publish_time labels as objects which need to be changed to integer values. To convert date columns the data type first needs to be converted into datetime. After conversion, another datetime function will be used to separate the month, day, and year into their columns.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-327/raw/main/project/images/figure1.png&#34; alt=&#34;Figure 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 1:&lt;/strong&gt; Converting into Dates&lt;/p&gt;
+&lt;p&gt;Next, the comments disabled, ratings disbaled, and video error or removed can be easily converted with an easy function from their boolean values into 1 or 0 values.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-327/raw/main/project/images/figure2.png&#34; alt=&#34;Figure 2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 2:&lt;/strong&gt; Converting boolean variables into 1 or 0&lt;/p&gt;
+&lt;h2 id=&#34;5-model-creation-and-methodology&#34;&gt;5. Model Creation and Methodology&lt;/h2&gt;
+&lt;p&gt;There are various ways this model can be built but this project follows the documentation on Scikit-learn. After researching successful methods the model built for this project will be using Scikit-learn Decision Tree and Random Forest. Decision Tree can be used as a multiple regression with a tree-like structure since there is an unlimited number of layers, the decision tree can achieve high accuracy and cause an overfitting problem. Random Forest will randomly select samples and features to train different trees and averages the score of different trees therefore reducing overfitting &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;To begin model creation the 80/20, Train/Test Ratio will be used to create the model. In computing, the Pareto Principle is a safe and common approach for model creation&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;. To determine the accuracy of the model an explained variance score will be applied to determine accuracy. Explained variance is the measure of discrepancy between a model and actual data &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;. The best possible score is 1.0 meaning there is a stronger strength of association. When creating the model it is important to check if there are highly correlated predictors in the model or else the possibility of multicollinearity can occur. To find highly correlated variables Pearson&amp;rsquo;s correlation coefficient can be used. Correlation coefficients are used to measure how strong a relationship is between two variables &lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;. A value of one indicates a strong positive relationship whereas a negative one indicates a strong negative relationship.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-327/raw/main/project/images/figure3.png&#34; alt=&#34;Figure 3&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 3:&lt;/strong&gt; Pearson&amp;rsquo;s Correlation Graph&lt;/p&gt;
+&lt;p&gt;When looking at the model it is clear there is a high correlation between likes, dislikes, category_id, and comment_count. Other highly correlated variables to each other include comments_disabled and ratings_disabled, and dates. What this means are videos that disable comments are also likely to disable ratings. The correlation between dates can infer how quickly popular videos will likely trend on Youtube. Assuming the rest of the labels were not necessary or are not optimal the first decision tree and random forest model created consists of the labels likes, dislikes, and comment_count. After scoring the explained variance score the model fell scores around .9.&lt;/p&gt;
+&lt;p&gt;After going through combinations of labels, when the models had every label it produced the highest explained variance score of around .96. This score is a good result and could mean the models created are very accurate. The reason for a higher explained variance score can be the dates are important if a video will trend. For the visualization, Figure 4 illustrates the relationship between predicted and actual values for views. When examining the image the predicted values are nearly overlapping the actual values. It is very hard to tell any differences. Several discrepancies shown in the image are an over-prediction early within the model and near the end. Although there are over predictions it still closely follows actual values.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-327/raw/main/project/images/figure4.png&#34; alt=&#34;Figure 4&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 4:&lt;/strong&gt; Predicted vs. Actual Values Graph&lt;/p&gt;
+&lt;h2 id=&#34;6-insights&#34;&gt;6. Insights&lt;/h2&gt;
+&lt;p&gt;Looking back at Youtube&amp;rsquo;s trending section dividing the dataset into category ids is necessary to discover what content Youtube defines as widely appealing. The figures below show the count of videos in each category and the top 10 categories.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Figure 5:&lt;/strong&gt; Count of videos in each Category&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Figure 6:&lt;/strong&gt; Top 10 Categories&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-327/raw/main/project/images/figure5.png&#34; alt=&#34;Figure 5&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-327/raw/main/project/images/figure6.png&#34; alt=&#34;Figure 6&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Category ID List&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Category ID&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Film &amp;amp; Animation&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;Music&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;17&lt;/td&gt;
+&lt;td&gt;Pets &amp;amp; Animals&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;22&lt;/td&gt;
+&lt;td&gt;People &amp;amp; Blogs&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;23&lt;/td&gt;
+&lt;td&gt;Comedy&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;24&lt;/td&gt;
+&lt;td&gt;Entertainment&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;td&gt;News &amp;amp; Politics&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;26&lt;/td&gt;
+&lt;td&gt;Howto &amp;amp; Style&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;27&lt;/td&gt;
+&lt;td&gt;Education&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;28&lt;/td&gt;
+&lt;td&gt;Science &amp;amp; Technology&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The full list of category IDs can be found &lt;a href=&#34;https://gist.github.com/dgp/1b24bf2961521bd75d6c&#34;&gt;HERE&lt;/a&gt; &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;When diving deeper into the dataset there are clear preferences for videos under certain categories. Entertainment, Music, and Howto &amp;amp; Style categories dominate the trend for categories. This can be an indicator of Youtube&amp;rsquo;s preference for the type of content they want to mainstream on the website.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Figure 8:&lt;/strong&gt; Entertainment Videos&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-327/raw/main/project/images/figure8.png&#34; alt=&#34;Figure 8&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Figure 9:&lt;/strong&gt; Music Videos&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-327/raw/main/project/images/figure8.png&#34; alt=&#34;Figure 9&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;:&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;:&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;:&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Figure 10:&lt;/strong&gt; Howto &amp;amp; Style Videos!&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-327/raw/main/project/images/figure10.png&#34; alt=&#34;Figure 10&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The figures shown are the first three results of a video within their category. Taking a look at the title and comparing them to their category description several videos appear to not fit within their category. The guidelines for the entertainment and howto &amp;amp; style categories do not have set criteria. However, the music category explicitly shows videos based on music most videos under music are music videos from popular artists.&lt;/p&gt;
+&lt;p&gt;An important task to understand how Youtube picks videos to trend on Youtube is to discover how many channels have trended on Youtube.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Channel Title&lt;/th&gt;
+&lt;th&gt;Number of trended videos&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;ESPN&lt;/td&gt;
+&lt;td&gt;203&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;The Tonight Show Starring Jimmy Fallon&lt;/td&gt;
+&lt;td&gt;197&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Vox&lt;/td&gt;
+&lt;td&gt;193&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;TheEllenShow&lt;/td&gt;
+&lt;td&gt;193&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Netflix&lt;/td&gt;
+&lt;td&gt;193&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;The Late Show with Stephen Colbert&lt;/td&gt;
+&lt;td&gt;187&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jimmy Kimmel Live&lt;/td&gt;
+&lt;td&gt;186&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Late Night with Seth Meyers&lt;/td&gt;
+&lt;td&gt;183&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Screen Junkies&lt;/td&gt;
+&lt;td&gt;182&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;NBA&lt;/td&gt;
+&lt;td&gt;181&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Many channels can consistently reach the trending section on a weekly basis. There were 2207 unique channels within the dataset that trended on Youtube. The number of unique channels trending on shows Youtube tries to diversify and promote unique channels on the trending section.&lt;/p&gt;
+&lt;p&gt;Other insights discovered are the average ratio between likes to dislikes for a trending Youtube video is 20:1. This means for every dislike there are twenty likes. A ratio this skewed is important to consider for a popular video because it is hard to reach this ratio.  Additionally, the average views for a trending video are about 2.3 million views while the average number of comments for a video is 8.4 thousand. A combination of weights of these three statistics can contribute if a video will reach the trending section.&lt;/p&gt;
+&lt;p&gt;To discover if these insights hold truth comparison of a random video will be selected.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-327/raw/main/project/images/figure11.png&#34; alt=&#34;Figure 11&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 11:&lt;/strong&gt; Randomly Selected Video&lt;/p&gt;
+&lt;p&gt;The amount of views the video has does not surpass the two million mark but the ratio of likes and dislikes holds at 32:1. The category for the video is music and the amount of comments is far below the average threshold at 1690. Although this video is not reaching certain criteria the ratio of likes to dislikes seems to outweigh the other averages. This signifies a combination of all requirements is important but if any indicator far exceeds the average for the other categories Youtube will allow the video to reach the trending section.&lt;/p&gt;
+&lt;h2 id=&#34;7-benchmarks&#34;&gt;7. Benchmarks&lt;/h2&gt;
+&lt;p&gt;The performance measures for this program were done through Cloudmesh StopWatch and Benchmark&lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;. The instances where the benchmark was measured include loading the dataset, data preparation, timing each model, and the overral code execution. To clarify the performance measures for the program will time how fast sections of code are running through the system.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-327/raw/main/project/images/figure7.png&#34; alt=&#34;Figure 7&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 7:&lt;/strong&gt; Benchmarks&lt;/p&gt;
+&lt;p&gt;When inspecting the results for the tests, Model 1 took 15 seconds to complete while the final model took 24 seconds. Model 1 contained 4 labels while the final model had 13. By increasing the number of labels there are in the model there is a 62.5% increase in time for execution. The overral code execution took 50 seconds to run which shows the models are RAM intensive meaning it takes a lot of time for the calculations to execute.&lt;/p&gt;
+&lt;h2 id=&#34;8-conclusion&#34;&gt;8. Conclusion&lt;/h2&gt;
+&lt;p&gt;The results indicate engagement from viewers is vital for a video to trend on Youtube. For any video to trend viewers need to like, comment, and even dislike allowing more people to become aware of a video. Videos featuring obscure or illicit content, ie. drugs, guns, nudity, etc., cannot reach the trending section on Youtube because it cannot appeal to a wide range of audiences. Youtube promotes and encourages content any viewer can watch. Several categories such as entertainment, music, and howto &amp;amp; style are some of the most popular categories on Youtube allowing most videos to upload through these categories. Many Youtube channels once they reach the trending section can stay consistent allowing their other videos to have a higher chance of trending. Many Youtube channels adapted to this model producing video content in a similar manner to help reach the trending section. This brings up a flaw within the model of the Youtube trending section. Youtubers are continuously producing content that had success within the past contradicting an important aspect of the trending section stating videos are, &amp;ldquo;Ideally, are surprising or novel.&amp;rdquo; Various successful channels like ESPN, The Tonight Show, or Netflix are producing videos that are unique but individually are very similar to each other. If a Youtuber is seeking consistent views, producing unique videos until one is successful will help other videos if the content is similar to the successful one. Ultimately, engaging viewer interaction and producing generally accepting content for a Youtuber can increase the likelihood their videos will reach the trending section.&lt;/p&gt;
+&lt;h2 id=&#34;81-limitations&#34;&gt;8.1 Limitations&lt;/h2&gt;
+&lt;p&gt;Although this current work brings substantial analysis and understanding of this topic the model could be improved in several ways. First, the dataset being used is missing various fields that can impact the likelihood a video will trend such as the number of subscribers a channel has, the number of people that see the video but do not click on the video, and does that channel promote ads on Youtube for viewers to check out the channel. The number of subscribers is available to scrape but the other two fields are sensitive information not accessible to the public. It can be important to have this information because Youtube can prioritize channels uploading content under categories they want to surface or if they pay Youtube to surface their channel. Youtube might be giving private information to help Youtubers become successful. As stated earlier the dataset being used is a couple of years old and the way Youtube promotes videos could have changed within the time frame. Within several years generally accepting content can change. Another limiting factor is the dataset being used only contains videos uploaded within the US meaning it does not account for videos uploaded worldwide. Youtube can prioritize certain content through select regions or this could be meaningless if Youtube promotes the same content throughout the world. The final limitation of this report was not being able to score Youtube video titles and thumbnails. Within Youtube&amp;rsquo;s criteria for popular videos that appear as clickbait will not trend on Youtube. This entails titles and/or thumbnails must have ratings Youtube scores so it does not allow clickbait to surface. Other limitations can include incorrect scrapping and videos that were about to trend. These are various limitations this report faces, however; once this class is over these will be addressed.&lt;/p&gt;
+&lt;h2 id=&#34;9-acknowledgments&#34;&gt;9. Acknowledgments&lt;/h2&gt;
+&lt;p&gt;Adam Chai would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and the associate instructors in the &lt;em&gt;FA20-BL-ENGR-E534-11530: Big Data Applications&lt;/em&gt; course (offered in the Fall 2020 semester at Indiana University, Bloomington) for their continued assistance and suggestions with regard to exploring this idea and also for their aid with preparing the various drafts of this article.&lt;/p&gt;
+&lt;h2 id=&#34;10-references&#34;&gt;10. References&lt;/h2&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Moshin, Maryam. 10 Youtube Statistics, Oberlo &lt;a href=&#34;https://www.oberlo.com/blog/youtube-statistics#:~:text=YouTube%20has%202%20billion%20users,users%20than%20YouTube%20is%20Facebook.&#34;&gt;https://www.oberlo.com/blog/youtube-statistics#:~:text=YouTube%20has%202%20billion%20users,users%20than%20YouTube%20is%20Facebook.&lt;/a&gt;[Accessed Dec 7, 2020] &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Google Staff, Trending on Youtube, Google. &lt;a href=&#34;https://support.google.com/youtube/answer/7239739?hl=en#:~:text=Trending%20helps%20viewers%20see%20what&#39;s,surprising%2C%20like%20a%20viral%20video.&#34;&gt;https://support.google.com/youtube/answer/7239739?hl=en#:~:text=Trending%20helps%20viewers%20see%20what&#39;s,surprising%2C%20like%20a%20viral%20video.&lt;/a&gt; [Accessed Oct 15, 2020] &lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Jolly. Mitchell, Trending YouTube Video Statistics, Kaggle. &lt;a href=&#34;https://www.kaggle.com/datasnaek/youtube-new&#34;&gt;https://www.kaggle.com/datasnaek/youtube-new&lt;/a&gt; [Accessed Oct 15, 2020] &lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Li. Yuping, Eng. Kent, Zhang. Liqian, YouTube Videos Prediction: Will this video be popular?, Stanford &lt;a href=&#34;http://cs229.stanford.edu/proj2019aut/data/assignment_308832_raw/26647615.pdf&#34;&gt;http://cs229.stanford.edu/proj2019aut/data/assignment_308832_raw/26647615.pdf&lt;/a&gt; [Accessed Oct 20, 2020] &lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Pradeep, Gulipalli, The Pareto Principle for Data Scientist, KDnuggets. &lt;a href=&#34;https://www.kdnuggets.com/2019/03/pareto-principle-data-scientists.html&#34;&gt;https://www.kdnuggets.com/2019/03/pareto-principle-data-scientists.html&lt;/a&gt; [Accessed Dec 5, 2020] &lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:6&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Statistics How Staff, Explained Variance Variation, StatisticsHowTo. &lt;a href=&#34;https://www.statisticshowto.com/explained-variance-variation/&#34;&gt;https://www.statisticshowto.com/explained-variance-variation/&lt;/a&gt; [Accessed Dec 5, 2020] &lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:7&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Statistics How Staff, Correlation Coefficient Formula, StatsticsHowTo. &lt;a href=&#34;https://www.statisticshowto.com/probability-and-statistics/correlation-coefficient-formula/&#34;&gt;https://www.statisticshowto.com/probability-and-statistics/correlation-coefficient-formula/&lt;/a&gt; [Accessed Dec 6, 2020] &lt;a href=&#34;#fnref:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:8&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Prathap, Dinesh. Youtube api video category list, Github. &lt;a href=&#34;https://gist.github.com/dgp/1b24bf2961521bd75d6c&#34;&gt;https://gist.github.com/dgp/1b24bf2961521bd75d6c&lt;/a&gt; [Accessed Dec 7, 2020] &lt;a href=&#34;#fnref:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:9&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, &lt;a href=&#34;https://github.com/cloudmesh/cloudmesh-common&#34;&gt;https://github.com/cloudmesh/cloudmesh-common&lt;/a&gt; &lt;a href=&#34;#fnref:9&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

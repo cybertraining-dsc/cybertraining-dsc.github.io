@@ -1,0 +1,291 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cybertraining – physics</title>
+    <link>/tags/physics/</link>
+    <description>Recent content in physics on Cybertraining</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="/tags/physics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Physics</title>
+      <link>/docs/modules/bigdataapplications/2019/applications/physics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/modules/bigdataapplications/2019/applications/physics/</guid>
+      <description>
+        
+        
+        &lt;p&gt;This section starts by describing the LHC accelerator at CERN and
+evidence found by the experiments suggesting existence of a Higgs Boson.
+The huge number of authors on a paper, remarks on histograms and Feynman
+diagrams is followed by an accelerator picture gallery. The next unit is
+devoted to Python experiments looking at histograms of Higgs Boson
+production with various forms of shape of signal and various background
+and with various event totals. Then random variables and some simple
+principles of statistics are introduced with explanation as to why they
+are relevant to Physics counting experiments. The unit introduces
+Gaussian (normal) distributions and explains why they seen so often in
+natural phenomena. Several Python illustrations are given. Random
+Numbers with their Generators and Seeds lead to a discussion of Binomial
+and Poisson Distribution. Monte-Carlo and accept-reject methods. The
+Central Limit Theorem concludes discussion.&lt;/p&gt;
+&lt;h2 id=&#34;looking-for-higgs-particles&#34;&gt;Looking for Higgs Particles&lt;/h2&gt;
+&lt;h3 id=&#34;bumps-in-histograms-experiments-and-accelerators&#34;&gt;Bumps in Histograms, Experiments and Accelerators&lt;/h3&gt;
+&lt;p&gt;This unit is devoted to Python and Java experiments looking at
+histograms of Higgs Boson production with various forms of shape of
+signal and various background and with various event totals. The
+lectures use Python but use of Java is described.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/open?id=0B8936_ytjfjmYXNoM3ZadGR6QlE&#34;&gt;&lt;img src=&#34;images/presentation.png&#34; alt=&#34;Presentation&#34;&gt;
+Higgs (20)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;lt;{gitcode}/physics/mr-higgs/higgs-classI-sloping.py&amp;gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;particle-counting&#34;&gt;Particle Counting&lt;/h3&gt;
+&lt;p&gt;We return to particle case with slides used in introduction and stress
+that particles often manifested as bumps in histograms and those bumps
+need to be large enough to stand out from background in a statistically
+significant fashion.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=iaypHlgFyuU&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Discovery of Higgs Particle
+(13:49)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We give a few details on one LHC experiment ATLAS. Experimental physics
+papers have a staggering number of authors and quite big budgets.
+Feynman diagrams describe processes in a fundamental fashion.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/UAMzmOgjj7I&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Looking for Higgs Particle and Counting Introduction II
+(7:38)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;experimental-facilities&#34;&gt;Experimental Facilities&lt;/h3&gt;
+&lt;p&gt;We give a few details on one LHC experiment ATLAS. Experimental physics
+papers have a staggering number of authors and quite big budgets.
+Feynman diagrams describe processes in a fundamental fashion.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/BW12d780qT8&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Looking for Higgs Particle Experiments
+(9:29)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;accelerator-picture-gallery-of-big-science&#34;&gt;Accelerator Picture Gallery of Big Science&lt;/h3&gt;
+&lt;p&gt;This lesson gives a small picture gallery of accelerators. Accelerators,
+detection chambers and magnets in tunnels and a large underground
+laboratory used fpr experiments where you need to be shielded from
+background like cosmic rays.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/WLJIxWWMYi8&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Accelerator Picture Gallery of Big Science
+(11:21)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://grids.ucs.indiana.edu/ptliupages/publications/Where%20does%20all%20the%20data%20come%20from%20v7.pdf&#34;&gt;http://grids.ucs.indiana.edu/ptliupages/publications/Where%20does%20all%20the%20data%20come%20from%20v7.pdf&lt;/a&gt; [@fox2011does]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.sciencedirect.com/science/article/pii/S037026931200857X&#34;&gt;http://www.sciencedirect.com/science/article/pii/S037026931200857X&lt;/a&gt; [@aad2012observation]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.nature.com/news/specials/lhc/interactive.html&#34;&gt;http://www.nature.com/news/specials/lhc/interactive.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Looking for Higgs Particles: Python Event Counting for Signal and
+Background (Part 2)&lt;/p&gt;
+&lt;p&gt;This unit is devoted to Python experiments looking at histograms of
+Higgs Boson production with various forms of shape of signal and various
+background and with various event totals.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/open?id=0B8936_ytjfjmUHRpV2g2V28walE&#34;&gt;&lt;img src=&#34;images/presentation.png&#34; alt=&#34;Presentation&#34;&gt; Higgs II
+(29)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Files:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;{gitcode}/physics/mr-higgs/higgs-classI-sloping.py&amp;gt;&lt;/li&gt;
+&lt;li&gt;&amp;lt;{gitcode}/physics/number-theory/higgs-classIII.py&amp;gt;&lt;/li&gt;
+&lt;li&gt;&amp;lt;{gitcode}/physics/mr-higgs/higgs-classII-uniform.py&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;event-counting&#34;&gt;Event Counting&lt;/h3&gt;
+&lt;p&gt;We define &lt;em&gt;event counting&lt;/em&gt; data collection environments. We discuss the
+python and Java code to generate events according to a particular
+scenario (the important idea of Monte Carlo data). Here a sloping
+background plus either a Higgs particle generated similarly to LHC
+observation or one observed with better resolution (smaller measurement
+error).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/h8-szCeFugQ&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Event Counting (7:02)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;monte-carlo&#34;&gt;Monte Carlo&lt;/h3&gt;
+&lt;p&gt;This uses Monte Carlo data both to generate data like the experimental
+observations and explore effect of changing amount of data and changing
+measurement resolution for Higgs.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://youtu.be/bl2f0tAzLj4&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; With Python examples of Signal plus Background
+(7:33)&lt;/a&gt; This lesson continues the
+examination of Monte Carlo data looking at effect of change in
+number of Higgs particles produced and in change in shape of
+background.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://youtu.be/bw3fd5cfQhk&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Change shape of background &amp;amp; num of Higgs Particles
+(7:01)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;resources-1&#34;&gt;Resources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Python for Data Analysis: Agile Tools for Real World Data By Wes
+McKinney, Publisher: O&amp;rsquo;Reilly Media, Released: October 2012,
+Pages: 472. [@mckinney-python]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://jwork.org/scavis/api/&#34;&gt;http://jwork.org/scavis/api/&lt;/a&gt; [@jwork-api]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/DataMelt&#34;&gt;https://en.wikipedia.org/wiki/DataMelt&lt;/a&gt; [@wikipedia-datamelt]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;random-variables-physics-and-normal-distributions&#34;&gt;Random Variables, Physics and Normal Distributions&lt;/h3&gt;
+&lt;p&gt;We introduce random variables and some simple principles of statistics
+and explains why they are relevant to Physics counting experiments. The
+unit introduces Gaussian (normal) distributions and explains why they
+seen so often in natural phenomena. Several Python illustrations are
+given. Java is currently not available in this unit.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/open?id=0B8936_ytjfjmNWhrS0xadk16SWM&#34;&gt;&lt;img src=&#34;images/presentation.png&#34; alt=&#34;Presentation&#34;&gt;
+Higgs (39)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;lt;{gitcode}/physics/number-theory/higgs-classIII.py&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;statistics-overview-and-fundamental-idea-random-variables&#34;&gt;Statistics Overview and Fundamental Idea: Random Variables&lt;/h3&gt;
+&lt;p&gt;We go through the many different areas of statistics covered in the
+Physics unit. We define the statistics concept of a random variable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=_sLGyt4qWWk&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Random variables and normal distributions
+(8:19)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;physics-and-random-variables&#34;&gt;Physics and Random Variables&lt;/h3&gt;
+&lt;p&gt;We describe the DIKW pipeline for the analysis of this type of physics
+experiment and go through details of analysis pipeline for the LHC ATLAS
+experiment. We give examples of event displays showing the final state
+particles seen in a few events. We illustrate how physicists decide
+whats going on with a plot of expected Higgs production experimental
+cross sections (probabilities) for signal and background.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/Tn3GBxgplxg&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Physics and Random Variables I
+(8:34)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/qWEjp0OtvdA&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Physics and Random Variables II
+(5:50)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;statistics-of-events-with-normal-distributions&#34;&gt;Statistics of Events with Normal Distributions&lt;/h3&gt;
+&lt;p&gt;We introduce Poisson and Binomial distributions and define independent
+identically distributed (IID) random variables. We give the law of large
+numbers defining the errors in counting and leading to Gaussian
+distributions for many things. We demonstrate this in Python
+experiments.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/LMBtpWOOQLo&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Statistics of Events with Normal Distributions
+(11:25)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;gaussian-distributions&#34;&gt;Gaussian Distributions&lt;/h3&gt;
+&lt;p&gt;We introduce the Gaussian distribution and give Python examples of the
+fluctuations in counting Gaussian distributions.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/LWIbPa-P5W0&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Gaussian Distributions
+(9:08)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;using-statistics&#34;&gt;Using Statistics&lt;/h3&gt;
+&lt;p&gt;We discuss the significance of a standard deviation and role of biases
+and insufficient statistics with a Python example in getting incorrect
+answers.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/n4jlUrGwgic&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Using Statistics (14:02)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;resources-2&#34;&gt;Resources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://indico.cern.ch/event/20453/session/6/contribution/15?materialId=slides&#34;&gt;http://indico.cern.ch/event/20453/session/6/contribution/15?materialId=slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;&lt;a href=&#34;http://www.atlas.ch/photos/events.html&#34;&gt;http://www.atlas.ch/photos/events.html&lt;/a&gt;&lt;/del&gt; (this link is outdated)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cms.cern/&#34;&gt;https://cms.cern/&lt;/a&gt; [@cms]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;random-numbers-distributions-and-central-limit-theorem&#34;&gt;Random Numbers, Distributions and Central Limit Theorem&lt;/h3&gt;
+&lt;p&gt;We discuss Random Numbers with their Generators and Seeds. It introduces
+Binomial and Poisson Distribution. Monte-Carlo and accept-reject methods
+are discussed. The Central Limit Theorem and Bayes law concludes
+discussion. Python and Java (for student - not reviewed in class)
+examples and Physics applications are given.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/open?id=0B8936_ytjfjmTUxkZXVRRmlBSUk&#34;&gt;&lt;img src=&#34;images/presentation.png&#34; alt=&#34;Presentation&#34;&gt; Higgs
+III (44)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Files:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;{gitcode}/physics/calculated-dice-roll/higgs-classIV-seeds.py&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;generators-and-seeds&#34;&gt;Generators and Seeds&lt;/h4&gt;
+&lt;p&gt;We define random numbers and describe how to generate them on the
+computer giving Python examples. We define the seed used to define to
+specify how to start generation.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=de4AQ9AFt54&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Higgs Particle Counting Errors
+(6:28)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/9QY5qkQj2Ag&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Generators and Seeds II
+(7:10)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;binomial-distribution&#34;&gt;Binomial Distribution&lt;/h4&gt;
+&lt;p&gt;We define binomial distribution and give LHC data as an example of where
+this distribution valid.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/DPd-eVI_twQ&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Binomial Distribution:
+(12:38)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;accept-reject&#34;&gt;Accept-Reject&lt;/h4&gt;
+&lt;p&gt;We introduce an advanced method &lt;strong&gt;accept/reject&lt;/strong&gt; for generating random
+variables with arbitrary distributions.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/GfshkKMKCj8&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Accept-Reject (5:54)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;monte-carlo-method&#34;&gt;Monte Carlo Method&lt;/h4&gt;
+&lt;p&gt;We define Monte Carlo method which usually uses accept/reject method in
+typical case for distribution.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/kIQ-BTyDfOQ&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Monte Carlo Method (2:23)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;poisson-distribution&#34;&gt;Poisson Distribution&lt;/h4&gt;
+&lt;p&gt;We extend the Binomial to the Poisson distribution and give a set of
+amusing examples from Wikipedia.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/WFvgsVo-k4s&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Poisson Distribution (4:37)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;central-limit-theorem&#34;&gt;Central Limit Theorem&lt;/h4&gt;
+&lt;p&gt;We introduce Central Limit Theorem and give examples from Wikipedia.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/ZO53iKlPn7c&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Central Limit Theorem
+(4:47)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;interpretation-of-probability-bayes-v-frequency&#34;&gt;Interpretation of Probability: Bayes v. Frequency&lt;/h4&gt;
+&lt;p&gt;This lesson describes difference between Bayes and frequency views of
+probability. Bayes&amp;rsquo;s law of conditional probability is derived and
+applied to Higgs example to enable information about Higgs from multiple
+channels and multiple experiments to be accumulated.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/jzDkExAQI9M&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Interpretation of Probability
+(12:39)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;resources-3&#34;&gt;Resources&lt;/h4&gt;
+&lt;p&gt;\TODO{integrate physics-references.bib}&lt;/p&gt;
+&lt;h2 id=&#34;ska----square-kilometer-array&#34;&gt;SKA &amp;ndash; Square Kilometer Array&lt;/h2&gt;
+&lt;p&gt;Professor Diamond, accompanied by Dr. Rosie Bolton from the SKA Regional
+Centre Project gave a presentation at SC17 &amp;ldquo;into the deepest reaches of
+the observable universe as they describe the SKA&amp;rsquo;s international
+partnership that will map and study the entire sky in greater detail
+than ever before.&amp;rdquo;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://sc17.supercomputing.org/presentation/?id=inspkr101&amp;amp;sess=sess263&#34;&gt;http://sc17.supercomputing.org/presentation/?id=inspkr101&amp;amp;sess=sess263&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A summary article about this effort is available at:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.hpcwire.com/2017/11/17/sc17-keynote-hpc-powers-ska-efforts-peer-deep-cosmos/&#34;&gt;https://www.hpcwire.com/2017/11/17/sc17-keynote-hpc-powers-ska-efforts-peer-deep-cosmos/&lt;/a&gt;
+The video is hosted at&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://sc17.supercomputing.org/presentation/?id=inspkr101&amp;amp;sess=sess263&#34;&gt;http://sc17.supercomputing.org/presentation/?id=inspkr101&amp;amp;sess=sess263&lt;/a&gt;
+Start at about 1:03:00 (e.g. the one hour mark)&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,792 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cybertraining – energy</title>
+    <link>/tags/energy/</link>
+    <description>Recent content in energy on Cybertraining</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 15 Mar 2021 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/tags/energy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Space and Energy</title>
+      <link>/docs/modules/ai-first/2021/space_and_energy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/modules/ai-first/2021/space_and_energy/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Energy sources and AI for powering Grids.&lt;/li&gt;
+&lt;li&gt;Energy Solution from Bill Gates&lt;/li&gt;
+&lt;li&gt;Space and AI&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1411g_YlmX0ibGTovY8roBhqRYJgcoJ_SAb-0NQBKgMs/edit?usp=sharing&#34;&gt;Full Slide Deck&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-energy&#34;&gt;A: Energy&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Distributed Energy Resources as a grid of renewables with a hierarchical set of Local Distribution Areas&lt;/li&gt;
+&lt;li&gt;Electric Vehicles in Grid&lt;/li&gt;
+&lt;li&gt;Economics of microgrids&lt;/li&gt;
+&lt;li&gt;Investment into Clean Energy&lt;/li&gt;
+&lt;li&gt;Batteries&lt;/li&gt;
+&lt;li&gt;Fusion and Deep Learning for plasma stability&lt;/li&gt;
+&lt;li&gt;AI for Power Grid, Virtual Power Plant, Power Consumption Monitoring, Electricity Trading&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/rdGWniEHpT8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1JkBbAy58e7DAmVx2jj2-WVkUnWGA72UK/view?usp=sharing&#34;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;b-clean-energy-startups-from-bill-gates&#34;&gt;B: Clean Energy startups from Bill Gates&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;26 Startups in areas like long-duration storage, nuclear energy, carbon capture, batteries, fusion, and hydropower …&lt;/li&gt;
+&lt;li&gt;The slide deck gives links to 26 companies from their website and pitchbook which describes their startup status (#employees, funding)&lt;/li&gt;
+&lt;li&gt;It summarizes their products&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/rgq99JSKoe8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/18zfISCIknCKWEpVDf4qinVmrH1f6aQ6X/view?usp=sharing&#34;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;c-space&#34;&gt;C: Space&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Space supports AI  with communications, image data and global navigation&lt;/li&gt;
+&lt;li&gt;AI Supports space in AI-controlled remote manufacturing, imaging control, system control, dynamic spectrum use&lt;/li&gt;
+&lt;li&gt;Privatization of Space - SpaceX, Investment&lt;/li&gt;
+&lt;li&gt;57,000 satellites through 2029&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/bpXNLFa7piY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/173WROavlVriMm3HEAY-4Ttd4cg9lR1Gu/view?usp=sharing&#34;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Report: Residential Power Usage Prediction</title>
+      <link>/report/fa20-523-314/project/project/</link>
+      <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/report/fa20-523-314/project/project/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-314/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-314/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-314/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-314/workflows/Status/badge.svg&#34; alt=&#34;Status&#34;&gt;&lt;/a&gt;
+Status: final, Type: Project&lt;/p&gt;
+&lt;p&gt;Siny P. Raphel, &lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-314/&#34;&gt;fa20-523-314&lt;/a&gt;, &lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-314/blob/main/project/project.md&#34;&gt;Edit&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;We are living in a technology-driven world. Innovations make human life easier. As science advances, the usage of electrical and electronic gadgets are leaping. This leads to the shoot up of power consumption. Weather plays an important role in power usage. Even the outbreak of Covid-19 has impacted daily power utilization. Similarly, many factors influence the use of electricity-driven appliances at homes. Monitoring these factors and consolidating them will result in a humungous amount of data. But analyzing this data will help to keep track of power consumption. This system provides a prediction of usage of electric power at residences in the future and will enable people to plan ahead of time and not be surprised by the monthly electricity bill.&lt;/p&gt;
+&lt;p&gt;Contents&lt;/p&gt;
+&lt;div class=&#34;toc&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#1-introduction&#34;&gt;1. Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#2-reason-to-choose-this-dataset&#34;&gt;2. Reason to choose this dataset&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#3-datasets&#34;&gt;3. Datasets&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#4-data-preprocessing&#34;&gt;4. Data preprocessing&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#41-data-download-and-load&#34;&gt;4.1 Data download and load&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#42-data-descriptive-analysis&#34;&gt;4.2 Data descriptive analysis&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#43-preprocessing-data&#34;&gt;4.3 Preprocessing data&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#44-merge-datasets&#34;&gt;4.4 Merge datasets&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#5-exploratory-data-analysis&#34;&gt;5. Exploratory Data Analysis&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#6-modeling&#34;&gt;6. Modeling&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#61-split-data&#34;&gt;6.1 Split Data&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#62-pipelines&#34;&gt;6.2 Pipelines&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#63-metrics&#34;&gt;6.3 Metrics&lt;/a&gt;
+          &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&#34;#631-mean-squared-errormse&#34;&gt;6.3.1 Mean squared error(MSE)&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;#632-root-mean-squared-errorrmse&#34;&gt;6.3.2 Root mean squared error(RMSE)&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;#633-r-squaredr2-score&#34;&gt;6.3.3 R-Squared(R2) Score&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#64-baseline-linear-regression-model&#34;&gt;6.4 Baseline Linear Regression model&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#65-other-regression-models&#34;&gt;6.5 Other regression models&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#66-results&#34;&gt;6.6 Results&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#7-conclusion&#34;&gt;7. Conclusion&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#8-acknowledgments&#34;&gt;8. Acknowledgments&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#9-references&#34;&gt;9. References&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; power usage, big data, regression&lt;/p&gt;
+&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;
+&lt;p&gt;Electricity is an inevitable part of our day-to-day life. The residential power sector consumes about one-fifth of the total energy in the U.S. economy&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Most of the appliances in a household use electricity for its working. The usage of electricity in a residence depends on the standard of living of the country, weather conditions, family size, type of residence, etc&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. Most of the houses in the USA are equipped with lightings and refrigerators using electric power. The usage of air conditioners is also increasing. From Figure 1, we can see that the top three categories for energy consumption are air conditioning, space heating, water heating as of 2015.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png&#34; alt=&#34;Figure 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 1:&lt;/strong&gt; Residential electricity consumption by end use, 2015&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Climate change is one of the biggest challenges in our current time. As a result, temperatures are rising. Therefore, to analyze energy consumption, understanding weather variations are critical&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;. As the temperature rises, the use of air conditioners is also rising. As shown in Figure 1, air conditioning is the primary source of power consumption in households. The weather change has also resulted in a drop in temperatures and variation in humidity. These results in secondary power consumers.&lt;/p&gt;
+&lt;p&gt;Even though weather plays an important role in power usage, factors like household income, age of the residents, family type, etc also influence consumption. During the holidays&#39; many people tend to spend time outside which reduces power utilization at their homes. Similarly, during the weekend, since most people have work off, the appliances will be frequently consumed compared to weekdays when they go to work. Our world is currently facing an epidemic. Most of the countries had months of lockdown periods. Schools and many workplaces were closed. People were not allowed to go out and so they were stuck in their homes. As a result, power expending reduced drastically everywhere other than residences. But during the lockdown period, the energy consumption of residences spiked.&lt;/p&gt;
+&lt;p&gt;Most of the electric service providers like Duke, Dominion provide customers their consumption data so that customers are aware of their usages. Some providers give predictions on their future usages so that they are prepared.&lt;/p&gt;
+&lt;h2 id=&#34;2-reason-to-choose-this-dataset&#34;&gt;2. Reason to choose this dataset&lt;/h2&gt;
+&lt;p&gt;There were many datasets on residential power usage analysis in Kaggle itself. But most of them were three or four years old. This dataset has the recent data of power consumptions together with weather data of each day. Since the pandemic hit the world in 2019-2020, the availability of recent data is considered to be significant for the analysis.&lt;/p&gt;
+&lt;p&gt;This dataset is chosen because,&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;It has the latest power usage data - till August 2020.&lt;/li&gt;
+&lt;li&gt;It has marked covid lockdown, vacations, weekdays and weekends which is a challenge for the prediction.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;3-datasets&#34;&gt;3. Datasets&lt;/h2&gt;
+&lt;p&gt;This project is based on the dataset, &lt;em&gt;Residential Power Usage 3 years data&lt;/em&gt; in Kaggle datasets&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;. The dataset contains data of hourly power consumption of a 2 storied house in Houston, Texas from 01-06-2016 to August 2020 and also weather conditions of each day like temperatures, humidity wind etc of that area. Each day is marked whether it is a weekday, weekend, vacation or COVID-19 lockdown.&lt;/p&gt;
+&lt;p&gt;The project is intending to build a model to predict the future power consumption of a house with similar environments from the available data. Python&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; is used for the development and since the expected output is a continuous variable, linear regression is considered for the baseline model. Later the performance of the base model is compared to one or two other models like tuned linear regression, gradient boosting, Light Gbm, or random forest.&lt;/p&gt;
+&lt;p&gt;Data is spread across two csv files.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;power_usage_2016_to_2020.csv&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This file depicts the hourly electricity usage of the house for three years, from 2016 to 2020. It contains basic details like startdate with hour, the value of power consumption in kwh, day of the week and notes. It has 4 features and 35953 instances.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/fig-1.png&#34; alt=&#34;Figure 2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 2:&lt;/strong&gt; First five rows of power_usage_2016_to_2020 data&lt;/p&gt;
+&lt;p&gt;Figure 2 provides a snapshot of the first few rows of the data. Day of the week is an integer value with 0 being Monday. The column &lt;em&gt;notes&lt;/em&gt; layout details like whether that day was weekend, weekday, covid lockdown or vacation, as shown in Figure 3.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/fig-2.png&#34; alt=&#34;Figure 3&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 3:&lt;/strong&gt; Details in notes column&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;weather_2016_2020_daily.csv&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The second file or the weather file imparts the weather conditions of that particular area on each day. It has 19 features and 1553 instances. Figure 4 is the snapshot of the first few rows and columns of this file.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/fig-3.png&#34; alt=&#34;Figure 4&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 4:&lt;/strong&gt; First few rows of weather_2016_2020_daily data&lt;/p&gt;
+&lt;p&gt;Each feature in this data has different units and the units of the features are given in Table 1.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Table 1:&lt;/strong&gt; Feature units&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Feature names&lt;/th&gt;
+&lt;th&gt;Units&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Temperature&lt;/td&gt;
+&lt;td&gt;F deg&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Dew Point&lt;/td&gt;
+&lt;td&gt;F deg&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Humidity&lt;/td&gt;
+&lt;td&gt;%age&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Wind&lt;/td&gt;
+&lt;td&gt;mph&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pressure&lt;/td&gt;
+&lt;td&gt;Hg&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Precipitation&lt;/td&gt;
+&lt;td&gt;inch&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Weather file has additional features like &lt;em&gt;date&lt;/em&gt; and &lt;em&gt;day&lt;/em&gt; of the date.&lt;/p&gt;
+&lt;h2 id=&#34;4-data-preprocessing&#34;&gt;4. Data preprocessing&lt;/h2&gt;
+&lt;p&gt;The data has to be preprocessed before modelling for predictions.&lt;/p&gt;
+&lt;h3 id=&#34;41-data-download-and-load&#34;&gt;4.1 Data download and load&lt;/h3&gt;
+&lt;p&gt;The data in this project is directly downloaded from &lt;em&gt;Kaggle&lt;/em&gt;. The downloaded file is then unzipped and loaded to two dataframes using python codes. For more detailed explanation and codes for download and load of data, see &lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-314/blob/main/project/code/residential_power_usage_prediction.ipynb&#34;&gt;python code&lt;/a&gt; &lt;em&gt;Download datasets&lt;/em&gt; and &lt;em&gt;Load datasets&lt;/em&gt; sections.&lt;/p&gt;
+&lt;h3 id=&#34;42-data-descriptive-analysis&#34;&gt;4.2 Data descriptive analysis&lt;/h3&gt;
+&lt;p&gt;The data loaded has to be analyzed properly before it can be preprocessed. An analysis is made on the existence of missing values, the range of each feature, etc. On analysis, it is determined that there are no missing values and the date format in both tables is different. The &lt;em&gt;StartDate&lt;/em&gt; feature of the power_usage dataset and &lt;em&gt;Date&lt;/em&gt; feature of the weather dataset is to be used as a key to merge the two datasets. But the format of both features is different. StartDate feature is the combination of date and hour. Whereas, &lt;em&gt;Date&lt;/em&gt; feature of weather is just the date. Hence, these issues will have to be taken care of before merging data.&lt;/p&gt;
+&lt;h3 id=&#34;43-preprocessing-data&#34;&gt;4.3 Preprocessing data&lt;/h3&gt;
+&lt;p&gt;In this step, the column name &lt;em&gt;Values (kWh)&lt;/em&gt;  is renamed to &lt;em&gt;Value&lt;/em&gt; and also date format issue is addressed. Firstly, StartDate column is split into Date and Hour columns. Since the StartDate column is in Pandas Period type, the function strftime() is used for converting to the required format.&lt;/p&gt;
+&lt;h3 id=&#34;44-merge-datasets&#34;&gt;4.4 Merge datasets&lt;/h3&gt;
+&lt;p&gt;For proper analysis of data, it is critical that the analyst should be able to analyze the relationships of each feature concerning the target feature(Value in kWh in this project). Therefore, both power_usage and weather tables are merged with respect to the Date column. The resulting table has a total of 35952 instances and 22 features.&lt;/p&gt;
+&lt;h2 id=&#34;5-exploratory-data-analysis&#34;&gt;5. Exploratory Data Analysis&lt;/h2&gt;
+&lt;p&gt;Here we analyze different features, their relationship with each other, and with the target.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/dow.png&#34; alt=&#34;Figure 5&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 5:&lt;/strong&gt; Average power usage by day of the week&lt;/p&gt;
+&lt;p&gt;In Figure 5, the average power usage by the day of the week is plotted&lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;. It is analyzed that Saturday and Friday have the most usage compared to other days of the week. Since the day of the week represents values Sunday-Saturday, we can consider it as a categorical feature.
+Similarly, from Figure 6, there is a huge dip in power usage during vacation. Other three occasions like covid lockdown, weekend and weekdays have almost the same power usage, even though consumption during weekends outweigh.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/tod.png&#34; alt=&#34;Figure 6&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 6:&lt;/strong&gt; Average power usage by type of the day&lt;/p&gt;
+&lt;p&gt;In Figure 7, we compare the monthly power consumption for three years - 2018, 2019, 2020&lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;. The overall power usage in 2019 is less compared to 2018. But in 2020 may be due to Covid-lockdown the power consumption shoots. Also, power consumption peaks in the months of June, July, and August.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/monthly_power.png&#34; alt=&#34;Figure 7&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 7:&lt;/strong&gt; Average power usage per month for three years&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/corr_plot.png&#34; alt=&#34;Figure 8&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 8:&lt;/strong&gt; Correlation plot between features&lt;/p&gt;
+&lt;p&gt;The correlation plot in Figure 8, depicts the inter-correlation between features. We can see that features like temperature, dew and pressure has a high correlation to our target feature. Also, different temperatures and dew features are inter-correlated. Therefore, all the intercorrelated features except for temp_avg can be dropped during feature selection.&lt;/p&gt;
+&lt;h2 id=&#34;6-modeling&#34;&gt;6. Modeling&lt;/h2&gt;
+&lt;p&gt;Modeling of the data includes splitting data into train and test, include cross-validation, create pipelines, select metrics for measuring performance, run data in regression models, and discuss results.&lt;/p&gt;
+&lt;h3 id=&#34;61-split-data&#34;&gt;6.1 Split Data&lt;/h3&gt;
+&lt;p&gt;For measuring the accuracy of the model, the main data is split into train and test. 20% of data is selected as test data and the remaining 80% is the train data. The proportion of notes(vacation, weekday, weekend, and covid lockdown) are different. Therefore, we stratify the data according to the notes column. After the split, train data has 28761 rows and test data has 7191 rows.&lt;/p&gt;
+&lt;h3 id=&#34;62-pipelines&#34;&gt;6.2 Pipelines&lt;/h3&gt;
+&lt;p&gt;Categorical variables and numeric variables are separated and processed in pipelines separately.
+Categorical features are one hot encoded before feeding to the model. Similarly, numerical features are standardized before modeling. Later these two pipelines are joined and modeled used Linear regression and other models.&lt;/p&gt;
+&lt;h3 id=&#34;63-metrics&#34;&gt;6.3 Metrics&lt;/h3&gt;
+&lt;p&gt;Our target is a continuous variable and hence we implement regression models for prediction. To determine how accurate a regression model is, we use the following metrics.&lt;/p&gt;
+&lt;h4 id=&#34;631-mean-squared-errormse&#34;&gt;6.3.1 Mean squared error(MSE)&lt;/h4&gt;
+&lt;p&gt;MSE is the average of squares of error. The larger the MSE score, the larger the errors are. Models with lower values of MSE is considered to perform well. But, since MSE is the squared value, the scale of the target variable and MSE will be different. Therefore, we go for RMSE values.&lt;/p&gt;
+&lt;h4 id=&#34;632-root-mean-squared-errorrmse&#34;&gt;6.3.2 Root mean squared error(RMSE)&lt;/h4&gt;
+&lt;p&gt;RMSE is the square root of MSE scores. The square root is introduced to make the scale of the errors to be the same as the scale of targets. Similar to MSE, the lower scores for RMSE means better model performance. Therefore, in this project, the models with lower RMSE values will be monitored&lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;633-r-squaredr2-score&#34;&gt;6.3.3 R-Squared(R2) Score&lt;/h4&gt;
+&lt;p&gt;R2 score is the goodness-of-fit measure. It&amp;rsquo;s a statistical measure that ranges between 0 and 1. R2 score helps the analyst to understand how similar the fitted line is to the data it is fitted to. The closer it is to one, the more likely the model predicts its variance. Similarly, if the score is zero, the model doesn&amp;rsquo;t predict any variance.
+In this project, the R2 score of the test data is calculated. The model with the highest R2 scores will be considered&lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;64-baseline-linear-regression-model&#34;&gt;6.4 Baseline Linear Regression model&lt;/h3&gt;
+&lt;p&gt;We use linear regression as our baseline model. For the baseline model, we are not hyperparameter tuning. For the baseline model, the train RMSE score was 0.6783, and R2 for the test set was 0.4460. These values are then compared to other regression models with hyperparameter tuning.&lt;/p&gt;
+&lt;h3 id=&#34;65-other-regression-models&#34;&gt;6.5 Other regression models&lt;/h3&gt;
+&lt;p&gt;After developing a baseline model, we are developing four other regression models and comparing the results. We implement feature selection and hyperparameter tuning. As we analyzed in exploratory data analysis, some features have strong inter-correlation and these features are dropped. The parameters for the regression models are hyper tuned and modeled in GridsearchCV of sklearn package.&lt;/p&gt;
+&lt;p&gt;The models used for prediction are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Linear regression with hyperparameter tuning&lt;/li&gt;
+&lt;li&gt;Gradient boosting&lt;/li&gt;
+&lt;li&gt;XGBoost&lt;/li&gt;
+&lt;li&gt;Light GBM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Similar to the baseline model, the metrics like train RMSE, test RMSE, and test R2 scores are calculated.&lt;/p&gt;
+&lt;h3 id=&#34;66-results&#34;&gt;6.6 Results&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/result.png&#34; alt=&#34;Figure 9&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 9:&lt;/strong&gt; Performance of all the regression models&lt;/p&gt;
+&lt;p&gt;Figure 9 documents the performance of all the regression models used.&lt;/p&gt;
+&lt;p&gt;cloudmesh.common benchmark and stopwatch framework are used to monitor and record the time taken for each step in this project&lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;. Time taken for critical steps like downloading data, loading data, preprocessing data, training and predictions of each model are recorded. The StopWatch recordings are shown in Table 2. StopWatch recordings played an important role in the selection of the best model. Benchmark also provides a detailed report on the system or device information as shown in Table 2.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Table 2:&lt;/strong&gt; Benchmark results&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Attribute&lt;/th&gt;
+&lt;th&gt;Value&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;BUG_REPORT_URL&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;&lt;a href=&#34;https://bugs.launchpad.net/ubuntu/%22&#34;&gt;https://bugs.launchpad.net/ubuntu/&amp;quot;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DISTRIB_CODENAME&lt;/td&gt;
+&lt;td&gt;bionic&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DISTRIB_DESCRIPTION&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Ubuntu 18.04.5 LTS&amp;rdquo;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DISTRIB_ID&lt;/td&gt;
+&lt;td&gt;Ubuntu&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DISTRIB_RELEASE&lt;/td&gt;
+&lt;td&gt;18.04&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;HOME_URL&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;&lt;a href=&#34;https://www.ubuntu.com/%22&#34;&gt;https://www.ubuntu.com/&amp;quot;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ID&lt;/td&gt;
+&lt;td&gt;ubuntu&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ID_LIKE&lt;/td&gt;
+&lt;td&gt;debian&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;NAME&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Ubuntu&amp;rdquo;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PRETTY_NAME&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Ubuntu 18.04.5 LTS&amp;rdquo;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PRIVACY_POLICY_URL&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;&lt;a href=&#34;https://www.ubuntu.com/legal/terms-and-policies/privacy-policy%22&#34;&gt;https://www.ubuntu.com/legal/terms-and-policies/privacy-policy&amp;quot;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SUPPORT_URL&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;&lt;a href=&#34;https://help.ubuntu.com/%22&#34;&gt;https://help.ubuntu.com/&amp;quot;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;UBUNTU_CODENAME&lt;/td&gt;
+&lt;td&gt;bionic&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;VERSION&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;18.04.5 LTS (Bionic Beaver)&amp;rdquo;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;VERSION_CODENAME&lt;/td&gt;
+&lt;td&gt;bionic&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;VERSION_ID&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;18.04&amp;rdquo;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;cpu_count&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;mem.active&lt;/td&gt;
+&lt;td&gt;1.0 GiB&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;mem.available&lt;/td&gt;
+&lt;td&gt;11.2 GiB&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;mem.free&lt;/td&gt;
+&lt;td&gt;8.5 GiB&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;mem.inactive&lt;/td&gt;
+&lt;td&gt;2.6 GiB&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;mem.percent&lt;/td&gt;
+&lt;td&gt;11.6 %&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;mem.total&lt;/td&gt;
+&lt;td&gt;12.7 GiB&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;mem.used&lt;/td&gt;
+&lt;td&gt;1.9 GiB&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;platform.version&lt;/td&gt;
+&lt;td&gt;#1 SMP Thu Jul 23 08:00:38 PDT 2020&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;python&lt;/td&gt;
+&lt;td&gt;3.6.9 (default, Oct  8 2020, 12:12:24)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;[GCC 8.4.0]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;python.pip&lt;/td&gt;
+&lt;td&gt;19.3.1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;python.version&lt;/td&gt;
+&lt;td&gt;3.6.9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;sys.platform&lt;/td&gt;
+&lt;td&gt;linux&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;uname.machine&lt;/td&gt;
+&lt;td&gt;x86_64&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;uname.node&lt;/td&gt;
+&lt;td&gt;a1f46a7ed3c2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;uname.processor&lt;/td&gt;
+&lt;td&gt;x86_64&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;uname.release&lt;/td&gt;
+&lt;td&gt;4.19.112+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;uname.system&lt;/td&gt;
+&lt;td&gt;Linux&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;uname.version&lt;/td&gt;
+&lt;td&gt;#1 SMP Thu Jul 23 08:00:38 PDT 2020&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;user&lt;/td&gt;
+&lt;td&gt;collab&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Status&lt;/th&gt;
+&lt;th&gt;Time&lt;/th&gt;
+&lt;th&gt;Sum&lt;/th&gt;
+&lt;th&gt;Start&lt;/th&gt;
+&lt;th&gt;tag&lt;/th&gt;
+&lt;th&gt;Node&lt;/th&gt;
+&lt;th&gt;User&lt;/th&gt;
+&lt;th&gt;OS&lt;/th&gt;
+&lt;th&gt;Version&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Data download&lt;/td&gt;
+&lt;td&gt;ok&lt;/td&gt;
+&lt;td&gt;2.652&lt;/td&gt;
+&lt;td&gt;2.652&lt;/td&gt;
+&lt;td&gt;2020-11-30 12:43:50&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;a1f46a7ed3c2&lt;/td&gt;
+&lt;td&gt;collab&lt;/td&gt;
+&lt;td&gt;Linux&lt;/td&gt;
+&lt;td&gt;#1 SMP Thu Jul 23 08:00:38 PDT 2020&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Data load&lt;/td&gt;
+&lt;td&gt;ok&lt;/td&gt;
+&lt;td&gt;0.074&lt;/td&gt;
+&lt;td&gt;0.074&lt;/td&gt;
+&lt;td&gt;2020-11-30 12:43:53&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;a1f46a7ed3c2&lt;/td&gt;
+&lt;td&gt;collab&lt;/td&gt;
+&lt;td&gt;Linux&lt;/td&gt;
+&lt;td&gt;#1 SMP Thu Jul 23 08:00:38 PDT 2020&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Data preprocessing&lt;/td&gt;
+&lt;td&gt;ok&lt;/td&gt;
+&lt;td&gt;67.618&lt;/td&gt;
+&lt;td&gt;67.618&lt;/td&gt;
+&lt;td&gt;2020-11-30 12:43:53&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;a1f46a7ed3c2&lt;/td&gt;
+&lt;td&gt;collab&lt;/td&gt;
+&lt;td&gt;Linux&lt;/td&gt;
+&lt;td&gt;#1 SMP Thu Jul 23 08:00:38 PDT 2020&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Baseline Linear Regression&lt;/td&gt;
+&lt;td&gt;ok&lt;/td&gt;
+&lt;td&gt;2.814&lt;/td&gt;
+&lt;td&gt;2.814&lt;/td&gt;
+&lt;td&gt;2020-11-30 12:45:03&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;a1f46a7ed3c2&lt;/td&gt;
+&lt;td&gt;collab&lt;/td&gt;
+&lt;td&gt;Linux&lt;/td&gt;
+&lt;td&gt;#1 SMP Thu Jul 23 08:00:38 PDT 2020&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Linear Regression&lt;/td&gt;
+&lt;td&gt;ok&lt;/td&gt;
+&lt;td&gt;5.581&lt;/td&gt;
+&lt;td&gt;5.581&lt;/td&gt;
+&lt;td&gt;2020-11-30 12:45:06&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;a1f46a7ed3c2&lt;/td&gt;
+&lt;td&gt;collab&lt;/td&gt;
+&lt;td&gt;Linux&lt;/td&gt;
+&lt;td&gt;#1 SMP Thu Jul 23 08:00:38 PDT 2020&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Gradient Boosting&lt;/td&gt;
+&lt;td&gt;ok&lt;/td&gt;
+&lt;td&gt;244.868&lt;/td&gt;
+&lt;td&gt;244.868&lt;/td&gt;
+&lt;td&gt;2020-11-30 12:45:12&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;a1f46a7ed3c2&lt;/td&gt;
+&lt;td&gt;collab&lt;/td&gt;
+&lt;td&gt;Linux&lt;/td&gt;
+&lt;td&gt;#1 SMP Thu Jul 23 08:00:38 PDT 2020&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;XGBoost&lt;/td&gt;
+&lt;td&gt;ok&lt;/td&gt;
+&lt;td&gt;2946.7&lt;/td&gt;
+&lt;td&gt;2946.7&lt;/td&gt;
+&lt;td&gt;2020-11-30 12:49:16&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;a1f46a7ed3c2&lt;/td&gt;
+&lt;td&gt;collab&lt;/td&gt;
+&lt;td&gt;Linux&lt;/td&gt;
+&lt;td&gt;#1 SMP Thu Jul 23 08:00:38 PDT 2020&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Light GBM&lt;/td&gt;
+&lt;td&gt;ok&lt;/td&gt;
+&lt;td&gt;770.967&lt;/td&gt;
+&lt;td&gt;770.967&lt;/td&gt;
+&lt;td&gt;2020-11-30 13:38:23&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;a1f46a7ed3c2&lt;/td&gt;
+&lt;td&gt;collab&lt;/td&gt;
+&lt;td&gt;Linux&lt;/td&gt;
+&lt;td&gt;#1 SMP Thu Jul 23 08:00:38 PDT 2020&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;For the baseline model, the RMSE values were high and R2 scores were small compared to all other regression models. The hyperparameter tuned linear regression model scores are better compared to the baseline model. But the other three models outweigh both linear models. XGBoost has the lowest RMSE and highest R2 score of all other models. But the time taken for execution is too long. Therefore, XGBoost is computationally expensive which leads us to ignore its scores. Gradient boosting and Light GBM have similar scores and hence the time taken for execution has to be considered as the deciding factor here. Gradient boosting completed 135 fits in 244.868 seconds whereas LightGBM took around 770.967 seconds for executing 3645 fits and then prediction. Since per fit execution time for Light GBM is too small, we consider Light GBM as the best model for predicting daily power usage of a residence with similar background conditions.&lt;/p&gt;
+&lt;p&gt;The RMSE scores for Light GBM are .2896 for train and .2910 for the test. The R2 score for the test set is .6526.&lt;/p&gt;
+&lt;h2 id=&#34;7-conclusion&#34;&gt;7. Conclusion&lt;/h2&gt;
+&lt;p&gt;As the importance of electricity is increasing, the need to know how or where the power usage increase will be a lifesaver for the electricity consumers. In this project, the daily power consumption of a house is analyzed and modeled for a prediction of electricity usage for residences with similar environments. The model considered a set of parameters like weather conditions, weekdays, type of days, etc. for prediction. Since the output is power consumption in kWh, we selected regression for modeling and prediction. Experiments are conducted on five regression models. After analyzing the experiment results, we concluded that the performance of the Light GBM model is better and faster compared to all other models.&lt;/p&gt;
+&lt;h2 id=&#34;8-acknowledgments&#34;&gt;8. Acknowledgments&lt;/h2&gt;
+&lt;p&gt;The author would like to express special thanks to Dr. Geoffrey Fox, Dr. Gregor von Laszewski, and all the associate instructors of the Big Data Applications course (FA20-BL-ENGR-E534-11530) offered by Indiana University, Bloomington for their continuous guidance and support throughout the project.&lt;/p&gt;
+&lt;h2 id=&#34;9-references&#34;&gt;9. References&lt;/h2&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Jia Li and Richard E. Just, Modeling household energy consumption and adoption of energy efficient technology, Energy Economics, vol. 72, pp. 404-415, 2018.
+Available: &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0140988318301440#bbb0180&#34;&gt;https://www.sciencedirect.com/science/article/pii/S0140988318301440#bbb0180&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Domestic Power Consumption, [Online resource] &lt;a href=&#34;https://en.wikipedia.org/wiki/Domestic_energy_consumption&#34;&gt;https://en.wikipedia.org/wiki/Domestic_energy_consumption&lt;/a&gt; &lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Use of energy explained - Energy use in homes, [Online resource] &lt;a href=&#34;https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&#34;&gt;https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a&gt; &lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Yating Li, William A. Pizer, and Libo Wu, Climate change and residential electricity consumption in the Yangtze River Delta, China, Research article, Available: &lt;a href=&#34;https://www.pnas.org/content/116/2/472#ref-1&#34;&gt;https://www.pnas.org/content/116/2/472#ref-1&lt;/a&gt; &lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Residential Power Usage dataset, &lt;a href=&#34;https://www.kaggle.com/srinuti/residential-power-usage-3years-data-timeseries&#34;&gt;https://www.kaggle.com/srinuti/residential-power-usage-3years-data-timeseries&lt;/a&gt; &lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:6&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Residential Power Usage Prediction script, &lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-314/blob/main/project/code/residential_power_usage_prediction.ipynb&#34;&gt;https://github.com/cybertraining-dsc/fa20-523-314/blob/main/project/code/residential_power_usage_prediction.ipynb&lt;/a&gt; &lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:7&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;seaborn: statistical data visualization, &lt;a href=&#34;https://seaborn.pydata.org/index.html&#34;&gt;https://seaborn.pydata.org/index.html&lt;/a&gt; &lt;a href=&#34;#fnref:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:8&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Group by: split-apply-combine, &lt;a href=&#34;https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html&#34;&gt;https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html&lt;/a&gt; &lt;a href=&#34;#fnref:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:9&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Mean Square Error &amp;amp; R2 Score Clearly Explained, [Online resource] &lt;a href=&#34;https://www.bmc.com/blogs/mean-squared-error-r2-and-variance-in-regression-analysis/&#34;&gt;https://www.bmc.com/blogs/mean-squared-error-r2-and-variance-in-regression-analysis/&lt;/a&gt; &lt;a href=&#34;#fnref:9&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:10&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, &lt;a href=&#34;https://github.com/cloudmesh/cloudmesh-common&#34;&gt;https://github.com/cloudmesh/cloudmesh-common&lt;/a&gt; &lt;a href=&#34;#fnref:10&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Report: Project: Forecasting Natural Gas Demand/Supply</title>
+      <link>/report/sp21-599-356/project/</link>
+      <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/report/sp21-599-356/project/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-356/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-356/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-356/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-356/workflows/Status/badge.svg&#34; alt=&#34;Status&#34;&gt;&lt;/a&gt;
+Status: final, Type: Project&lt;/p&gt;
+&lt;p&gt;Baekeun Park, &lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-356/&#34;&gt;sp21-599-356&lt;/a&gt;, &lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-356/blob/main/project/index.md&#34;&gt;Edit&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Code:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-356/blob/main/project/code/Forecasting_NG_Demand_Supply.ipynb&#34;&gt;Forecasting_NG_Demand_Supply.ipynb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Natural Gas(NG) is one of the valuable ones among the other energy resources. It is used as a heating source for homes and businesses through city gas companies and utilized as a raw material for power plants to generate electricity. Through this, it can be seen that various purposes of NG demand arise in the different fields. In addition, it is essential to identify accurate demand for NG as there is growing volatility in energy demand depending on the direction of the government&amp;rsquo;s environmental policy.&lt;/p&gt;
+&lt;p&gt;This project focuses on building the model of forecasting the NG demand and supply amount of South Korea, which relies on imports for much of its energy sources. Datasets for training include various fields such as weather and prices of other energy resources, which are open-source.
+Also, those are trained by using deep learning methods such as the multi-layer perceptron(MLP) with long short-term memory(LSTM), using Tensorflow. In addition, a combination of the dataset from various factors is created by using pandas for training scenario-wise, and the results are compared by changing the variables and analyzed by different viewpoints.&lt;/p&gt;
+&lt;p&gt;Contents&lt;/p&gt;
+&lt;div class=&#34;toc&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#1-introduction&#34;&gt;1. Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#2-related-work&#34;&gt;2. Related Work&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#3-datasets&#34;&gt;3. Datasets&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#4-methodology&#34;&gt;4. Methodology&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#41-min-max-scaling&#34;&gt;4.1. Min-Max scaling&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#42-training&#34;&gt;4.2. Training&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#43-evaluation&#34;&gt;4.3. Evaluation&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#44-prediction&#34;&gt;4.4. Prediction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#5-result&#34;&gt;5. Result&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#51-scenario-oneregional-dataset&#34;&gt;5.1 Scenario one(regional dataset)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#52-scenario-tworegional-climate-dataset&#34;&gt;5.2 Scenario two(regional climate dataset)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#53-scenario-threeregional-temperature-dataset&#34;&gt;5.3 Scenario three(regional temperature dataset)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#54-scenario-fourapplying-timesteps&#34;&gt;5.4 Scenario four(applying timesteps)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#55-scenario-fivenational-dataset&#34;&gt;5.5 Scenario five(national dataset)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#56-overall-results&#34;&gt;5.6 Overall results&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#6-benchmarks&#34;&gt;6. Benchmarks&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#7-conclusion&#34;&gt;7. Conclusion&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#8-acknowledgments&#34;&gt;8. Acknowledgments&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#9-source-code&#34;&gt;9. Source code&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#10-references&#34;&gt;10. References&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; Natural Gas, supply, forecasting, South Korea, MLP with LSTM, Tensorflow, various dataset.&lt;/p&gt;
+&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;
+&lt;p&gt;South Korea relies on imports for 92.8 percent of its energy resources as of the first half of 2020 &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Among the energy resources, the Korea Gas Corporation(KOGAS) imports Liquified Natural Gas(LNG) from around the world and supplies it to power generation plants, gas-utility companies, and city gas companies throughout the country &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. It produces and supplies NG in order to ensure a stable gas supply for the nation. Moreover, it operates LNG storage tanks at LNG acquisition bases, storing LNG during the season when city gas demand is low and replenish LNG during winter when demand is higher than supply &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;The wholesale charges consist of raw material costs (LNG introduction and incidental costs) and gas supply costs &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;. Therefore, the forecasting NG demand/supply will help establish an optimized mid-to-long-term plan for the introduction of LNG and stable NG supply and economic effects.&lt;/p&gt;
+&lt;p&gt;The factors which influence NG demand include weather, economic conditions, and petroleum prices. The winter weather strongly influences NG demand, and the hot summer weather can increase electric power demand for NG. In addition, some large-volume fuel consumers such as power plants and iron, steel, and paper mills can switch between NG, coal, and petroleum, depending on the cost of each fuel &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Therefore, some indicators related to weather, economic conditions, and the price of other energy resources can be used for this project.&lt;/p&gt;
+&lt;h2 id=&#34;2-related-work&#34;&gt;2. Related Work&lt;/h2&gt;
+&lt;p&gt;Khotanzad and Elragal (1999) proposed a two-stage system with the first stage containing a combination of artificial neural network(ANN) for prediction of daily NG consumption &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;, and Khotanzad et al. (2000) combined eight different algorithms to improve the performance of forecasters &lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;. Mustafa Akpinar et al. (2016) used daily NG consumption data to forecast the NG demand by ABC-based ANN &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;. Also, Athanasios Anagnostis et al. (2019) conducted daily NG demand prediction by a comparative analysis between ANN and LSTM &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;. Unlike those methods, MLP with LSTM is applied for this project, and external factors affecting NG demand are changed and compared.&lt;/p&gt;
+&lt;h2 id=&#34;3-datasets&#34;&gt;3. Datasets&lt;/h2&gt;
+&lt;p&gt;As described, weather datasets like temperature and precipitation, price datasets of other energy resources like crude oil and coal, and economic indicators like exchange rate are used in this project for forecasting NG demand and supply.&lt;/p&gt;
+&lt;p&gt;There is an NG supply dataset &lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt; from a public data portal in South Korea. It includes four years from 2016 to 2019 of regional monthly NG supply in the nine different cities of South Korea. In addition, climate data such as temperature and precipitation &lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; for the same period can be obtained from the Korea Meteorological Administration. Similarly, data on the price of four types of crude oil &lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt; and various types of coal price datasets per month &lt;sup id=&#34;fnref:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt; are also available through corresponding agencies. Finally, the Won-Dollar exchange rate dataset &lt;sup id=&#34;fnref:14&#34;&gt;&lt;a href=&#34;#fn:14&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;14&lt;/a&gt;&lt;/sup&gt; with the same period is used.&lt;/p&gt;
+&lt;p&gt;As mentioned above, each dataset has monthly information and also has average values instead of the NG supply dataset. It is regionally separated or combined according to the test scenario. For example, the NG supply dataset has nine different cities. One column of cities is split from the original dataset and merged with another regional dataset like temperature or precipitation. On the other hand, each regional value&amp;rsquo;s summation is utilized in a scenario where a national dataset is needed.&lt;/p&gt;
+&lt;p&gt;The dataset is applied differently for each scenario. In scenario one, all datasets such as crude oil price, coal price, exchange rate, and regional temperature and precipitation are merged with regional dataset, especially Seoul. For scenario two, all climate datasets are used with the regional dataset. Only temperature dataset is utilized with regional dataset in scenario three. In addition, in scenario four, all cases are the same as in scenario one, but the timesteps are changed to two months. Finally, the national dataset is used for scenario five.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/each_factors.png&#34; alt=&#34;Figure 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 1:&lt;/strong&gt; External factors affecting natural gas&lt;/p&gt;
+&lt;h2 id=&#34;4-methodology&#34;&gt;4. Methodology&lt;/h2&gt;
+&lt;h2 id=&#34;41-min-max-scaling&#34;&gt;4.1. Min-Max scaling&lt;/h2&gt;
+&lt;p&gt;In this project, all datasets are rescaled between 0 and 1 by Min-Max scaling, one of the most common normalization methods. If there is a feature with anonymous data, The maximum value(max(x)) of data is converted to 1, and the minimum value(min(x)) of data is converted to 0. The other values between the maximum value and the minimum value get converted to x&#39;, between 0 and 1.&lt;/p&gt;
+&lt;img src=&#34;https://render.githubusercontent.com/render/math?math=%5CLarge%20x&#39;%20%3D%20%5Cfrac%7Bx-min(x)%7D%7Bmax(x)-min(x)%7D&#34;&gt;
+&lt;h2 id=&#34;42-training&#34;&gt;4.2. Training&lt;/h2&gt;
+&lt;p&gt;For forecasting the NG supply amount from the time series dataset, MLP with LSTM network model is designed by using Tensorflow. The first and second LSTM layers have 100 units, and a total of 3 layers of MLP follow it. Each MLP layer has 100 neurons instead of the final layer, where its neuron is 1. In addition, dropout was designated to prevent overfitting of data, the Adam is used as an optimizer, and the Rectified Linear Unit(ReLU) as an activation function.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/structure_of_network.png&#34; alt=&#34;Figure 2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 2:&lt;/strong&gt; Structure of network model&lt;/p&gt;
+&lt;h2 id=&#34;43-evaluation&#34;&gt;4.3. Evaluation&lt;/h2&gt;
+&lt;p&gt;Mean Absolute Error(MAE) and Root Mean Squared Error(RMSE) are applied for this time series dataset to evaluate this network model. The MAE measures the average magnitude of the errors and is presented by the formula as following, where n is the number of errors, &lt;img src=&#34;https://render.githubusercontent.com/render/math?math=y_i&#34;&gt; is the &lt;img src=&#34;https://render.githubusercontent.com/render/math?math=i%5E%7Bth%7D&#34;&gt; true value, and &lt;img src=&#34;https://render.githubusercontent.com/render/math?math=%5Chat%7By_i%7D&#34;&gt; is the &lt;img src=&#34;https://render.githubusercontent.com/render/math?math=i%5E%7Bth%7D&#34;&gt; predicted value.&lt;/p&gt;
+&lt;img src=&#34;https://render.githubusercontent.com/render/math?math=%5CLarge%20MAE%20%3D%20%5Cfrac%7B%5CSigma_%7Bi%3D1%7D%5En%7Cy_i-%5Chat%7By_i%7D%7C%7D%7Bn%7D&#34;&gt;
+&lt;p&gt;Also, The RMSE is used for observing the differences between the actual dataset and prediction values. The following is the formula of RMSE, and each value of this is the same for MAE.&lt;/p&gt;
+&lt;img src=&#34;https://render.githubusercontent.com/render/math?math=%5CLarge%20RMSE%20%3D%20%5Csqrt%7B%5Cfrac%7B%5CSigma_%7Bi%3D1%7D%5En(y_i-%5Chat%7By_i%7D)%5E2%7D%7Bn%7D%7D&#34;&gt;
+&lt;h2 id=&#34;44-prediction&#34;&gt;4.4. Prediction&lt;/h2&gt;
+&lt;p&gt;Since the datasets used for the training process are normalized between 0 and 1, they get converted to a range of the ground truth values again. From these rescaled datasets, it is possible to obtain the RMSE and compare the differences between the actual value and the predicted value.&lt;/p&gt;
+&lt;h2 id=&#34;5-result&#34;&gt;5. Result&lt;/h2&gt;
+&lt;p&gt;In all scenarios, main variables such as dropout, learning rate, and epochs are fixed under the same conditions and are 0.1, 0.0005, and 100 in order. In scenarios one, two, three, and five, the training set is applied as twelve months, and in scenario four, next month&amp;rsquo;s prediction comes from the previous two months dataset. For comparative analysis, the results are obtained by changing the size of the training set from twelve months to twenty-four months, and the effect is described. Each scenario shows individual results and is comprehensively compared at the end of this part.&lt;/p&gt;
+&lt;h2 id=&#34;51-scenario-oneregional-dataset&#34;&gt;5.1 Scenario one(regional dataset)&lt;/h2&gt;
+&lt;p&gt;The final MAE of the train set is around 0.05, and the one of the test set is around 0.19. Also, the RMSE between actual data and predicted data is around 227018. The predictive graph tends to deviate a lot at the beginning of the part, but it shows a relatively similar shape at the end of the graph.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Error_For_SenarioOne.png&#34; alt=&#34;Figure 3&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 3:&lt;/strong&gt; Loss for scenario one&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Prediction_for_SenarioOne.png&#34; alt=&#34;Figure 4&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 4:&lt;/strong&gt; Prediction results for scenario one&lt;/p&gt;
+&lt;h2 id=&#34;52-scenario-tworegional-climate-dataset&#34;&gt;5.2 Scenario two(regional climate dataset)&lt;/h2&gt;
+&lt;p&gt;The final MAE of the train set is around 0.10, and the one of the test set is around 0.14. Also, the RMSE is around 185205. Although the predictive graph still differs compared to the actual graph, it shows similar trends in shape.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Error_For_SenarioTwo.png&#34; alt=&#34;Figure 5&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 5:&lt;/strong&gt; Loss for scenario two&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Prediction_for_SenarioTwo.png&#34; alt=&#34;Figure 6&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 6:&lt;/strong&gt; Prediction results for scenario two&lt;/p&gt;
+&lt;h2 id=&#34;53-scenario-threeregional-temperature-dataset&#34;&gt;5.3 Scenario three(regional temperature dataset)&lt;/h2&gt;
+&lt;p&gt;The final MAE of the train set is around 0.13, and the one of the test set is around 0.14. Also, the RMSE is around 207585. While the tendency to follow high and low seems similar, but changes in the middle seem to be misleading.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Error_For_SenarioThree.png&#34; alt=&#34;Figure 7&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 7:&lt;/strong&gt; Loss for scenario three&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Prediction_for_SenarioThree.png&#34; alt=&#34;Figure 8&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 8:&lt;/strong&gt; Prediction results for scenario three&lt;/p&gt;
+&lt;h2 id=&#34;54-scenario-fourapplying-timesteps&#34;&gt;5.4 Scenario four(applying timesteps)&lt;/h2&gt;
+&lt;p&gt;The final MAE of the train set is around 0.06, and the one of the test set is around 0.30. Also, the RMSE is around 340843. Out of all scenarios, the predictive graph shows to have the most differences. However, in the last part, there is a somewhat akin tendency.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Error_For_SenarioFour.png&#34; alt=&#34;Figure 9&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 9:&lt;/strong&gt; Loss for scenario four&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Prediction_for_SenarioFour.png&#34; alt=&#34;Figure 10&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 10:&lt;/strong&gt; Prediction results for scenario four&lt;/p&gt;
+&lt;h2 id=&#34;55-scenario-fivenational-dataset&#34;&gt;5.5 Scenario five(national dataset)&lt;/h2&gt;
+&lt;p&gt;The final MAE of the train set is around 0.03 and the one of test set is around 0.14. Also, the RMSE between real data and predicted data is around 587340. Tremendous RMSE value results, but direct comparisons are not possible because the baseline volume is different from other scenarios. Although the predictive graph shows discrepancy, it tends to be similar to the results in scenario two.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Error_For_SenarioFive.png&#34; alt=&#34;Figure 11&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 11:&lt;/strong&gt; Loss for scenario five&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/Prediction_for_SenarioFive.png&#34; alt=&#34;Figure 12&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 12:&lt;/strong&gt; Prediction results for scenario five&lt;/p&gt;
+&lt;h2 id=&#34;56-overall-results&#34;&gt;5.6 Overall results&lt;/h2&gt;
+&lt;p&gt;Out of the five scenarios in total, the second and third have smaller RMSE than others, and the graphs also show relatively similar results. The first and fourth show differences in the beginning and similar trends in the last part. However, it is noteworthy that the gap at the beginning of them is very large, but it tends to shrink together at the point of decline and stretch together at the point of increase.&lt;/p&gt;
+&lt;p&gt;In the first and fifth scenarios, all data are identical except that they differ in regional scale in temperature and precipitation. It is also the same that twelve months of data are used as the training set. From the subtle differences in the shape of the resulting graph, it can be seen that the national average data cannot represent the situation in a particular region, and the amount of NG supply differs depending on the circumstances in the region.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/compared_prediction.png&#34; alt=&#34;Figure 13&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 13:&lt;/strong&gt; Total prediction results: 12 months training set&lt;/p&gt;
+&lt;p&gt;After changing the training set from twelve months to twenty-four months, the results are more clearly visible. The second and third prediction graphs have a more similar shape and the RMSE value decreases than the previous setting. The results of other scenarios show that the overall shape has improved; contrarily, the shape of the rapidly changing middle part is better in the previous condition.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/compared_prediction_2.png&#34; alt=&#34;Figure 14&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 14:&lt;/strong&gt; Total prediction results: 24 months training set&lt;/p&gt;
+&lt;h2 id=&#34;6-benchmarks&#34;&gt;6. Benchmarks&lt;/h2&gt;
+&lt;p&gt;For a benchmark, the Cloudmesh StopWatch and Benchmark &lt;sup id=&#34;fnref:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt; is used to measure the program&amp;rsquo;s performance. The time spent on data load, data preprocessing, network model compile, training, and the prediction was separately measured, and the overall time for execution of all scenarios is around 77 seconds. It can be seen that The training time for the fourth scenario is the longest, and the one for the fifth scenario is the shortest.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/sp21-599-356/main/project/images/benchmarks.png&#34; alt=&#34;Figure 15&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 15:&lt;/strong&gt; Benchmarks&lt;/p&gt;
+&lt;h2 id=&#34;7-conclusion&#34;&gt;7. Conclusion&lt;/h2&gt;
+&lt;p&gt;From the results of this project, it can be seen that simplifying factors that have a significant impact shows better efficiency than combining various factors. For example, NG consumption tends to increase for heating in cold weather. In addition, there is much precipitation in warm or hot weather; on the contrary, there is relatively little precipitation in the cold weather. It can be seen that these seasonal elements show relatively high consistency for affecting prediction when those are used as training datasets. Also, the predictions are derived more effectively when the seasonal datasets are combined.&lt;/p&gt;
+&lt;p&gt;However, in training set with a duration of twelve months, the last part of the scenario tends to match the actual data despite using the dataset combined with various factors that appears to be seasonally unrelated. Furthermore, when the training set is doubled on the same dataset, it can be seen that the differences between the actual and prediction graph are decreased than the result of a smaller training set. Based on this, it can be expected that the results could vary if a large amount of dataset with a more extended period is used and the ratio of the training set is appropriately adjusted.&lt;/p&gt;
+&lt;p&gt;South Korea imports a large amount of its energy resources. Also, the plan for energy demand and supply is being made and operated through nation-led policies. Ironically, the government&amp;rsquo;s plan also shows a sharp change in direction with recent environmental issues, and the volatility of demand in the energy market is increasing than before. Therefore, methodologies for accurate forecasting of energy demand will need to be complemented and developed constantly to prepare for and overcome this variability.&lt;/p&gt;
+&lt;p&gt;In this project, Forecasting NG demand and supply was carried out using various data factors such as weather and price that is relatively easily obtained than the datasets which are complex economic indicators or classified as confidential. Nevertheless, state-of-the-art deep learning methods show that it has the flexibility and potential to forecast NG demand through the tendency of the results that indicate a relatively consistent with the actual data. From this point of view, it is thought that the research on NG in South Korea should be conducted in an advanced form by utilizing various data and more specialized analysis.&lt;/p&gt;
+&lt;h2 id=&#34;8-acknowledgments&#34;&gt;8. Acknowledgments&lt;/h2&gt;
+&lt;p&gt;The author would like to thank Dr. Gregor von Laszewski for his invaluable feedback, continued assistance, and suggestions on this paper, and Dr. Geoffrey Fox for sharing his expertise in Deep Learning and Artificial Intelligence applications throughout this Deep Learning Application: AI-First Engineering course offered in the Spring 2021 semester at Indiana University, Bloomington.&lt;/p&gt;
+&lt;h2 id=&#34;9-source-code&#34;&gt;9. Source code&lt;/h2&gt;
+&lt;p&gt;The source code for all experiments and results can be found here as &lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-356/blob/main/project/code/Forecasting_NG_Demand_Supply.ipynb&#34;&gt;ipynb link&lt;/a&gt; and as &lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-356/blob/main/project/code/Forecasting_NG_Demand_Supply.pdf&#34;&gt;pdf link&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;10-references&#34;&gt;10. References&lt;/h2&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;2020 Monthly Energy Statistics, [Online resource]
+&lt;a href=&#34;http://www.keei.re.kr/keei/download/MES2009.pdf&#34;&gt;http://www.keei.re.kr/keei/download/MES2009.pdf&lt;/a&gt;, Sep. 2020 &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;KOGAS profile, [Online resource]
+&lt;a href=&#34;https://www.kogas.or.kr:9450/eng/contents.do?key=1498&#34;&gt;https://www.kogas.or.kr:9450/eng/contents.do?key=1498&lt;/a&gt; &lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;LNG production phase, [Online resource]
+&lt;a href=&#34;https://www.kogas.or.kr:9450/portal/contents.do?key=2014&#34;&gt;https://www.kogas.or.kr:9450/portal/contents.do?key=2014&lt;/a&gt; &lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;NG wholesale charges, [Online resource]
+&lt;a href=&#34;https://www.kogas.or.kr:9450/portal/contents.do?key=2026&#34;&gt;https://www.kogas.or.kr:9450/portal/contents.do?key=2026&lt;/a&gt; &lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Natural gas explained, [Online resource],
+&lt;a href=&#34;https://www.eia.gov/energyexplained/natural-gas/factors-affecting-natural-gas-prices.php&#34;&gt;https://www.eia.gov/energyexplained/natural-gas/factors-affecting-natural-gas-prices.php&lt;/a&gt;, Aug, 2020 &lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:6&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;A. Khotanzad and H. Elragal, &amp;ldquo;Natural gas load forecasting with combination of adaptive neural networks,&amp;rdquo; IJCNN&#39;99. International Joint Conference on Neural Networks. Proceedings (Cat. No.99CH36339), 1999, pp. 4069-4072 vol.6, doi: 10.1109/IJCNN.1999.830812. &lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:7&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;A. Khotanzad, H. Elragal and T. . -L. Lu, &amp;ldquo;Combination of artificial neural-network forecasters for prediction of natural gas consumption,&amp;rdquo; in IEEE Transactions on Neural Networks, vol. 11, no. 2, pp. 464-473, March 2000, doi: 10.1109/72.839015. &lt;a href=&#34;#fnref:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:8&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;M. Akpinar, M. F. Adak and N. Yumusak, &amp;ldquo;Forecasting natural gas consumption with hybrid neural networks — Artificial bee colony,&amp;rdquo; 2016 2nd International Conference on Intelligent Energy and Power Systems (IEPS), 2016, pp. 1-6, doi: 10.1109/IEPS.2016.7521852. &lt;a href=&#34;#fnref:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:9&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;A. Anagnostis, E. Papageorgiou, V. Dafopoulos and D. Bochtis, &amp;ldquo;Applying Long Short-Term Memory Networks for natural gas demand prediction,&amp;rdquo; 2019 10th International Conference on Information, Intelligence, Systems and Applications (IISA), 2019, pp. 1-7, doi: 10.1109/IISA.2019.8900746. &lt;a href=&#34;#fnref:9&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:10&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;NG supply dataset, [Online resource],
+&lt;a href=&#34;https://www.data.go.kr/data/15049904/fileData.do&#34;&gt;https://www.data.go.kr/data/15049904/fileData.do&lt;/a&gt;, Apr, 2020 &lt;a href=&#34;#fnref:10&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:11&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Regional climate dataset, [Online resource]
+&lt;a href=&#34;https://data.kma.go.kr/climate/RankState/selectRankStatisticsDivisionList.do?pgmNo=179&#34;&gt;https://data.kma.go.kr/climate/RankState/selectRankStatisticsDivisionList.do?pgmNo=179&lt;/a&gt; &lt;a href=&#34;#fnref:11&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:12&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Crude oil orice dataset, [Online resource]
+&lt;a href=&#34;https://www.petronet.co.kr/main2.jsp&#34;&gt;https://www.petronet.co.kr/main2.jsp&lt;/a&gt; &lt;a href=&#34;#fnref:12&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:13&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Bituminous coal price dataset, [Online resource]
+&lt;a href=&#34;https://www.kores.net/komis/price/mineralprice/ironoreenergy/pricetrend/baseMetals.do?mc_seq=3030003&amp;amp;mnrl_pc_mc_seq=506&#34;&gt;https://www.kores.net/komis/price/mineralprice/ironoreenergy/pricetrend/baseMetals.do?mc_seq=3030003&amp;amp;mnrl_pc_mc_seq=506&lt;/a&gt; &lt;a href=&#34;#fnref:13&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:14&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Won-Dollar exchange rate dateset, [Online resource]
+&lt;a href=&#34;http://ecos.bok.or.kr/flex/EasySearch.jsp?langGubun=K&amp;amp;topCode=022Y013&#34;&gt;http://ecos.bok.or.kr/flex/EasySearch.jsp?langGubun=K&amp;amp;topCode=022Y013&lt;/a&gt; &lt;a href=&#34;#fnref:14&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:15&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href=&#34;https://github.com/cloudmesh/cloudmesh-common&#34;&gt;https://github.com/cloudmesh/cloudmesh-common&lt;/a&gt; &lt;a href=&#34;#fnref:15&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

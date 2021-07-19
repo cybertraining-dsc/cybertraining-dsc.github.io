@@ -1,0 +1,292 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cybertraining – data science</title>
+    <link>/tags/data-science/</link>
+    <description>Recent content in data science on Cybertraining</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Overview of Data Science</title>
+      <link>/docs/modules/bigdataapplications/2019/applications/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/modules/bigdataapplications/2019/applications/overview/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;em&gt;What is Big Data, Data Analytics and X-Informatics?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We start with X-Informatics and its rallying cry. The growing number of
+jobs in data science is highlighted. The first unit offers a look at the
+phenomenon described as the Data Deluge starting with its broad
+features. Data science and the famous DIKW (Data to Information to
+Knowledge to Wisdom) pipeline are covered. Then more detail is given on
+the flood of data from Internet and Industry applications with eBay and
+General Electric discussed in most detail.&lt;/p&gt;
+&lt;p&gt;In the next unit, we continue the discussion of the data deluge with a
+focus on scientific research. He takes a first peek at data from the
+Large Hadron Collider considered later as physics Informatics and gives
+some biology examples. He discusses the implication of data for the
+scientific method which is changing with the data-intensive methodology
+joining observation, theory and simulation as basic methods. Two broad
+classes of data are the long tail of sciences: many users with
+individually modest data adding up to a lot; and a myriad of Internet
+connected devices &amp;ndash; the Internet of Things.&lt;/p&gt;
+&lt;p&gt;We give an initial technical overview of cloud computing as pioneered by
+companies like Amazon, Google and Microsoft with new centers holding up
+to a million servers. The benefits of Clouds in terms of power
+consumption and the environment are also touched upon, followed by a
+list of the most critical features of Cloud computing with a comparison
+to supercomputing. Features of the data deluge are discussed with a
+salutary example where more data did better than more thought. Then
+comes Data science and one part of it ~~ data analytics ~~ the large
+algorithms that crunch the big data to give big wisdom. There are many
+ways to describe data science and several are discussed to give a good
+composite picture of this emerging field.&lt;/p&gt;
+&lt;h2 id=&#34;data-science-generics-and-commercial-data-deluge&#34;&gt;Data Science generics and Commercial Data Deluge&lt;/h2&gt;
+&lt;p&gt;We start with X-Informatics and its rallying cry. The growing number of
+jobs in data science is highlighted. This unit offers a look at the
+phenomenon described as the Data Deluge starting with its broad
+features. Then he discusses data science and the famous DIKW (Data to
+Information to Knowledge to Wisdom) pipeline. Then more detail is given
+on the flood of data from Internet and Industry applications with eBay
+and General Electric discussed in most detail.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/open?id=0B88HKpainTSfenJ4dEZQOUxZSmM&#34;&gt;&lt;img src=&#34;images/presentation.png&#34; alt=&#34;Presentation&#34;&gt; Commercial Data Deluge
+(45)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;what-is-x-informatics-and-its-motto&#34;&gt;What is X-Informatics and its Motto&lt;/h3&gt;
+&lt;p&gt;This discusses trends that are driven by and accompany Big data. We give
+some key terms including data, information, knowledge, wisdom, data
+analytics and data science. We discuss how clouds running Data Analytics
+Collaboratively processing Big Data can solve problems in X-Informatics.
+We list many values of X you can defined in various activities across
+the world.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=8T0OtdR9Bp4&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; X Informatics
+(9:49)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;jobs&#34;&gt;Jobs&lt;/h3&gt;
+&lt;p&gt;Big data is especially important as there are some many related jobs. We
+illustrate this for both cloud computing and data science from reports
+by Microsoft and the McKinsey institute respectively. We show a plot
+from LinkedIn showing rapid increase in the number of data science and
+analytics jobs as a function of time.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/pRlfEigUJAc&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Jobs (2:58)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;data-deluge-general-structure&#34;&gt;Data Deluge: General Structure&lt;/h3&gt;
+&lt;p&gt;We look at some broad features of the data deluge starting with the size
+of data in various areas especially in science research. We give
+examples from real world of the importance of big data and illustrate
+how it is integrated into an enterprise IT architecture. We give some
+views as to what characterizes Big data and why data science is a
+science that is needed to interpret all the data.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/mPJ9twAFRQU&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Data Deluge (13:04)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;data-science-process&#34;&gt;Data Science: Process&lt;/h3&gt;
+&lt;p&gt;We stress the DIKW pipeline: Data becomes information that becomes
+knowledge and then wisdom, policy and decisions. This pipeline is
+illustrated with Google maps and we show how complex the ecosystem of
+data, transformations (filters) and its derived forms is.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/ydH34L-z0Rk&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Data Science Process (4:27)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;data-deluge-internet&#34;&gt;Data Deluge: Internet&lt;/h3&gt;
+&lt;p&gt;We give examples of Big data from the Internet with Tweets, uploaded
+photos and an illustration of the vitality and size of many commodity
+applications.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/rtuq5y2Bx2g&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Internet (3:42)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;data-deluge-business&#34;&gt;Data Deluge: Business&lt;/h3&gt;
+&lt;p&gt;We give examples including the Big data that enables wind farms, city
+transportation, telephone operations, machines with health monitors, the
+banking, manufacturing and retail industries both online and offline in
+shopping malls. We give examples from ebay showing how analytics
+allowing them to refine and improve the customer experiences.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/PJz38t6yn_s&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Business I (6:00)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/fESm-2Vox9M&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Business II (7:34)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/fcvn-IxPO00&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Business III (9:37)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.microsoft.com/en-us/news/features/2012/mar12/03-05CloudComputingJobs.aspx&#34;&gt;http://www.microsoft.com/en-us/news/features/2012/mar12/03-05CloudComputingJobs.aspx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.mckinsey.com/mgi/publications/big_data/index.asp&#34;&gt;http://www.mckinsey.com/mgi/publications/big_data/index.asp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://fisheritcenter.haas.berkeley.edu/Big_Data/index.html&#34;&gt;Tom
+Davenport&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://fisheritcenter.haas.berkeley.edu/Big_Data/index.html&#34;&gt;Anjul
+Bhambhri&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://berkeleydatascience.files.wordpress.com/2012/01/20120117berkeley1.pdf&#34;&gt;Jeff
+Hammerbacher&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.economist.com/node/15579717&#34;&gt;http://www.economist.com/node/15579717&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cs.metrostate.edu/~sbd/slides/Sun.pdf&#34;&gt;http://cs.metrostate.edu/~sbd/slides/Sun.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://jess3.com/geosocial-universe-2/&#34;&gt;http://jess3.com/geosocial-universe-2/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://fisheritcenter.haas.berkeley.edu/Big_Data/index.html&#34;&gt;Bill
+Ruh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.hsph.harvard.edu/ncb2011/files/ncb2011-z03-rodriguez.pptx&#34;&gt;http://www.hsph.harvard.edu/ncb2011/files/ncb2011-z03-rodriguez.pptx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://fisheritcenter.haas.berkeley.edu/Big_Data/index.html&#34;&gt;Hugh
+Williams&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-deluge-and-scientific-applications-and-methodology&#34;&gt;Data Deluge and Scientific Applications and Methodology&lt;/h2&gt;
+&lt;h3 id=&#34;overview-of-data-science&#34;&gt;Overview of Data Science&lt;/h3&gt;
+&lt;p&gt;We continue the discussion of the data deluge with a focus on scientific
+research. He takes a first peek at data from the Large Hadron Collider
+considered later as physics Informatics and gives some biology examples.
+He discusses the implication of data for the scientific method which is
+changing with the data-intensive methodology joining observation, theory
+and simulation as basic methods. We discuss the long tail of sciences;
+many users with individually modest data adding up to a lot. The last
+lesson emphasizes how everyday devices ~~ the Internet of Things ~~
+are being used to create a wealth of data.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/open?id=0B88HKpainTSfZzhqZHVKbllZcTA&#34;&gt;&lt;img src=&#34;images/presentation.png&#34; alt=&#34;Presentation&#34;&gt; Methodology
+(22)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;science-and-research&#34;&gt;Science and Research&lt;/h3&gt;
+&lt;p&gt;We look into more big data examples with a focus on science and
+research. We give astronomy, genomics, radiology, particle physics and
+discovery of Higgs particle (Covered in more detail in later lessons),
+European Bioinformatics Institute and contrast to Facebook and Walmart.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/u1h6bAkuWQ8&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Science and Research
+(11:27)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/_JfcUg2cheg&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Science and Research
+(11:49)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;implications-for-scientific-method&#34;&gt;Implications for Scientific Method&lt;/h3&gt;
+&lt;p&gt;We discuss the emergencies of a new fourth methodology for scientific
+research based on data driven inquiry. We contrast this with third ~~
+computation or simulation based discovery - methodology which emerged
+itself some 25 years ago.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/srEbOAmU_g8&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Scientific Methods (5:07)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;long-tail-of-science&#34;&gt;Long Tail of Science&lt;/h3&gt;
+&lt;p&gt;There is big science such as particle physics where a single experiment
+has 3000 people collaborate!.Then there are individual investigators who
+do not generate a lot of data each but together they add up to Big data.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/dwzEKEGYhqE&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Long Tail of Science (2:10)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;internet-of-things&#34;&gt;Internet of Things&lt;/h3&gt;
+&lt;p&gt;A final category of Big data comes from the Internet of Things where
+lots of small devices ~~ smart phones, web cams, video games collect
+and disseminate data and are controlled and coordinated in the cloud.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/K2anbyxX48w&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Internet of Things (5:45)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;resources-1&#34;&gt;Resources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.economist.com/node/15579717&#34;&gt;http://www.economist.com/node/15579717&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Geoffrey Fox and Dennis Gannon Using Clouds for Technical Computing
+To be published in Proceedings of HPC 2012 Conference at Cetraro,
+Italy June 28 2012&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://grids.ucs.indiana.edu/ptliupages/publications/Clouds_Technical_Computing_FoxGannonv2.pdf&#34;&gt;http://grids.ucs.indiana.edu/ptliupages/publications/Clouds_Technical_Computing_FoxGannonv2.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://grids.ucs.indiana.edu/ptliupages/publications/Where%20does%20all%20the%20data%20come%20from%20v7.pdf&#34;&gt;http://grids.ucs.indiana.edu/ptliupages/publications/Where%20does%20all%20the%20data%20come%20from%20v7.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.genome.gov/sequencingcosts/&#34;&gt;http://www.genome.gov/sequencingcosts/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.quantumdiaries.org/2012/09/07/why-particle-detectors-need-a-trigger/atlasmgg&#34;&gt;http://www.quantumdiaries.org/2012/09/07/why-particle-detectors-need-a-trigger/atlasmgg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://salsahpc.indiana.edu/dlib/articles/00001935/&#34;&gt;http://salsahpc.indiana.edu/dlib/articles/00001935/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Simple_linear_regression&#34;&gt;http://en.wikipedia.org/wiki/Simple_linear_regression&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ebi.ac.uk/Information/Brochures/&#34;&gt;http://www.ebi.ac.uk/Information/Brochures/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wired.com/wired/issue/16-07&#34;&gt;http://www.wired.com/wired/issue/16-07&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://research.microsoft.com/en-us/collaboration/fourthparadigm/&#34;&gt;http://research.microsoft.com/en-us/collaboration/fourthparadigm/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/opensourceiotcloud/&#34;&gt;CSTI General Assembly 2012, Washington, D.C., USA Technical
+Activities Coordinating Committee (TACC) Meeting, Data Management,
+Cloud Computing and the Long Tail of Science October 2012 Dennis
+Gannon&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;clouds-and-big-data-processing-data-science-process-and-analytics&#34;&gt;Clouds and Big Data Processing; Data Science Process and Analytics&lt;/h2&gt;
+&lt;h3 id=&#34;overview-of-data-science-1&#34;&gt;Overview of Data Science&lt;/h3&gt;
+&lt;p&gt;We give an initial technical overview of cloud computing as pioneered by
+companies like Amazon, Google and Microsoft with new centers holding up
+to a million servers. The benefits of Clouds in terms of power
+consumption and the environment are also touched upon, followed by a
+list of the most critical features of Cloud computing with a comparison
+to supercomputing.&lt;/p&gt;
+&lt;p&gt;He discusses features of the data deluge with a salutary example where
+more data did better than more thought. He introduces data science and
+one part of it ~~ data analytics ~~ the large algorithms that crunch
+the big data to give big wisdom. There are many ways to describe data
+science and several are discussed to give a good composite picture of
+this emerging field.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/open?id=0B88HKpainTSfV1FwdktnbTl3T1k&#34;&gt;&lt;img src=&#34;images/presentation.png&#34; alt=&#34;Presentation&#34;&gt; Clouds
+(35)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;clouds&#34;&gt;Clouds&lt;/h3&gt;
+&lt;p&gt;We describe cloud data centers with their staggering size with up to a
+million servers in a single data center and centers built modularly from
+shipping containers full of racks. The benefits of Clouds in terms of
+power consumption and the environment are also touched upon, followed by
+a list of the most critical features of Cloud computing and a comparison
+to supercomputing.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=trIFW-rucgM&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Clouds
+(16:04)&lt;/a&gt;{MP4}&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;aspect-of-data-deluge&#34;&gt;Aspect of Data Deluge&lt;/h3&gt;
+&lt;p&gt;Data, Information, intelligence algorithms, infrastructure, data
+structure, semantics and knowledge are related. The semantic web and Big
+data are compared. We give an example where &amp;ldquo;More data usually beats
+better algorithms&amp;rdquo;. We discuss examples of intelligent big data and list
+8 different types of data deluge&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/FMktnTQGyrw&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Data Deluge (8:02)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/QNVZobXHiZw&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Data Deluge (6:24)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;data-science-process-1&#34;&gt;Data Science Process&lt;/h3&gt;
+&lt;p&gt;We describe and critique one view of the work of a data scientists. Then
+we discuss and contrast 7 views of the process needed to speed data
+through the DIKW pipeline.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/lpQ-Q9ZidR4&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Scientific Process (11:28)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;data-analytics&#34;&gt;Data Analytics&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;http://archive2.cra.org/ccc/files/docs/nitrdsymposium/keyes.pdf&#34;&gt;&lt;img src=&#34;images/presentation.png&#34; alt=&#34;Presentation&#34;&gt; Data Analytics
+(30)&lt;/a&gt;
+We stress the importance of data analytics givi ng examples from several
+fields. We note that better analytics is as important as better
+computing and storage capability. In the second video we look at High
+Performance Computing in Science and Engineering: the Tree and the
+Fruit.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/RPVojR8jrb8&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Data Analytics (7:28)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://youtu.be/wOSgywqdJDY&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Data Analytics (6:51)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;resources-2&#34;&gt;Resources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;CSTI General Assembly 2012, Washington, D.C., USA Technical
+Activities Coordinating Committee (TACC) Meeting, Data Management,
+Cloud Computing and the Long Tail of Science October 2012 Dennis
+Gannon&lt;/li&gt;
+&lt;li&gt;Dan Reed Roger Barga Dennis Gannon Rich
+Wolski
+&lt;a href=&#34;http://research.microsoft.com/en-us/people/barga/sc09%5C_cloudcomp_tutorial.pdf&#34;&gt;http://research.microsoft.com/en-us/people/barga/sc09\_cloudcomp_tutorial.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.datacenterknowledge.com/archives/2011/05/10/uptime-institute-the-average-pue-is-1-8/&#34;&gt;http://www.datacenterknowledge.com/archives/2011/05/10/uptime-institute-the-average-pue-is-1-8/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://loosebolts.wordpress.com/2008/12/02/our-vision-for-generation-4-modular-data-centers-one-way-of-getting-it-just-right/&#34;&gt;http://loosebolts.wordpress.com/2008/12/02/our-vision-for-generation-4-modular-data-centers-one-way-of-getting-it-just-right/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.mediafire.com/file/zzqna34282frr2f/koomeydatacenterelectuse2011finalversion.pdf&#34;&gt;http://www.mediafire.com/file/zzqna34282frr2f/koomeydatacenterelectuse2011finalversion.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cse.buffalo.edu/~bina/cse487/fall2011/&#34;&gt;Bina Ramamurthy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://berkeleydatascience.files.wordpress.com/2012/01/20120117berkeley1.pdf&#34;&gt;Jeff
+Hammerbacher&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://berkeleydatascience.files.wordpress.com/2012/01/20120119berkeley.pdf&#34;&gt;Jeff
+Hammerbacher&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://fisheritcenter.haas.berkeley.edu/Big_Data/index.html&#34;&gt;Anjul
+Bhambhri&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cs.metrostate.edu/~sbd/slides/Sun.pdf&#34;&gt;http://cs.metrostate.edu/~sbd/slides/Sun.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://fisheritcenter.haas.berkeley.edu/Big_Data/index.html&#34;&gt;Hugh
+Williams&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://fisheritcenter.haas.berkeley.edu/Big_Data/index.html&#34;&gt;Tom
+Davenport&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.mckinsey.com/mgi/publications/big_data/index.asp&#34;&gt;http://www.mckinsey.com/mgi/publications/big_data/index.asp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cra.org/ccc/docs/nitrdsymposium/pdfs/keyes.pdf&#34;&gt;http://cra.org/ccc/docs/nitrdsymposium/pdfs/keyes.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

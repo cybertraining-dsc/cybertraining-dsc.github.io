@@ -1,0 +1,656 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cybertraining – Cloudmesh</title>
+    <link>/docs/book/python/cloudmesh/</link>
+    <description>Recent content in Cloudmesh on Cybertraining</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="/docs/book/python/cloudmesh/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Introduction</title>
+      <link>/docs/book/python/cloudmesh/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/book/python/cloudmesh/introduction/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Gregor von Laszewski (&lt;a href=&#34;mailto:laszewski@gmail.com&#34;&gt;laszewski@gmail.com&lt;/a&gt;)&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cloudmesh-community/book/raw/main/chapters/prg/python/cloudmesh/images/learning.png&#34; alt=&#34;&#34;&gt; &lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction to the cloudmesh API&lt;/li&gt;
+&lt;li&gt;Using cmd5 via cms&lt;/li&gt;
+&lt;li&gt;Introduction to cloudmesh convenience API for output, dotdict, shell, stopwatch,
+benchmark management&lt;/li&gt;
+&lt;li&gt;Creating your own cms commands&lt;/li&gt;
+&lt;li&gt;Cloudmesh configuration file&lt;/li&gt;
+&lt;li&gt;Cloudmesh inventory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;In this chapter, we like to introduce you to cloudmesh which provides you
+with a number of convenient methods to interface with the local system,
+but also with cloud services. We will start while focussing on some
+simple APIs and then gradually introduce the cloudmesh shell which not
+only provides a shell but also a command line interface so you can use
+cloudmesh from a terminal. This dual ability is quite useful as we can
+write cloudmesh scripts, but can also invoke the functionality from the
+terminal. This is quite an important distinction from other tools
+that only allow command line interfaces.&lt;/p&gt;
+&lt;p&gt;Moreover, we also show you that it is easy to create new commands and add
+them dynamically to the cloudmesh shell via simple pip installs.&lt;/p&gt;
+&lt;p&gt;Cloudmesh is an evolving project and you have the opportunity to improve
+if you see some features missing.&lt;/p&gt;
+&lt;p&gt;The manual of cloudmesh can be found at&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudmesh.github.io/cloudmesh-manual&#34;&gt;https://cloudmesh.github.io/cloudmesh-manual&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The API documentation is located at&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudmesh.github.io/cloudmesh-manual/api/index.html#cloudmesh-api&#34;&gt;https://cloudmesh.github.io/cloudmesh-manual/api/index.html#cloudmesh-api&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We will initially focus on a subset of this functionality.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Installation</title>
+      <link>/docs/book/python/cloudmesh/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/book/python/cloudmesh/installation/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Gregor von Laszewski (&lt;a href=&#34;mailto:laszewski@gmail.com&#34;&gt;laszewski@gmail.com&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;The installation of cloudmesh is simple and can technically be done via pip
+by a user. However you are not a user, you are a developer. Cloudmesh is
+distributed in different topical repositories and in order for
+developers to easily interact with them we have written a convenient
+&lt;code&gt;cloudmesh-installer&lt;/code&gt; program.&lt;/p&gt;
+&lt;p&gt;As a developer, you must also use a python virtual environment to avoid
+affecting your system-wide Python installation. This can be achieved while
+using Python3 from python.org or via conda. However, we do recommend that you use
+python.org as this is the vanilla python that most developers in the
+world use. Conda is often used by users of Python if they do not need to
+use bleeding-edge but older prepackaged Python tools and libraries.&lt;/p&gt;
+&lt;h2 id=&#34;prerequisite&#34;&gt;Prerequisite&lt;/h2&gt;
+&lt;p&gt;We require you to create a python virtual environment and activate it.
+How to do this was discussed in sec. &lt;strong&gt;¿sec:python-install?&lt;/strong&gt;. Please create the
+ENV3 environment. Please activate it.&lt;/p&gt;
+&lt;h2 id=&#34;basic-install&#34;&gt;Basic Install&lt;/h2&gt;
+&lt;p&gt;Cloudmesh can install for developers a number of &lt;code&gt;bundles&lt;/code&gt;. A bundle is
+a set of git repositories that are needed for a particular install. For
+us, we are mostly interested in the bundles &lt;code&gt;cms&lt;/code&gt;, &lt;code&gt;cloud&lt;/code&gt;, &lt;code&gt;storage&lt;/code&gt;. We
+will introduce you to other bundles throughout this documentation.&lt;/p&gt;
+&lt;p&gt;If you like to find out more about the details of this you can look at
+&lt;a href=&#34;https://pypi.org/project/cloudmesh-installer/&#34;&gt;cloudmesh-installer&lt;/a&gt;
+which will be regularly updated.&lt;/p&gt;
+&lt;p&gt;To make use of the bundle and the easy installation for developers please
+install the cloudmesh-installer via pip, but make sure you do this in a
+python virtual env as discussed previously. If not you may impact your
+system negatively. Please note that we are not responsible for fixing
+your computer. Naturally, you can also use a virtual machine, if you prefer.
+It is also important that we create a uniform development environment. In
+our case, we create an empty directory called &lt;code&gt;cm&lt;/code&gt; in which we place the
+bundle.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ mkdir cm
+$ &lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; cm
+$ pip install cloudmesh-installer
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To see the bundle you can use&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ cloudmesh-installer bundles
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;We will start with the basic cloudmesh functionality at this time and
+only install the shell and some common APIs.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ cloudmesh-installer git clone cms
+$ cloudmesh-installer install cms
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;These commands download and install cloudmesh shell into your
+environment. It is important that you use the &lt;code&gt;-e&lt;/code&gt; flag&lt;/p&gt;
+&lt;p&gt;To see if it works you can use the command&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ cms &lt;span style=&#34;color:#204a87&#34;&gt;help&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You will see an output. If this does not work for you, and you can not
+figure out the issue, please contact us so we can identify what went
+wrong.&lt;/p&gt;
+&lt;p&gt;For more information, please visit our
+&lt;a href=&#34;https://cloudmesh.github.io/cloudmesh-manual/installation/install.html#source-installation-for-developers&#34;&gt;Installation Instructions for Developers&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Output</title>
+      <link>/docs/book/python/cloudmesh/console/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/book/python/cloudmesh/console/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Gregor von Laszewski (&lt;a href=&#34;mailto:laszewski@gmail.com&#34;&gt;laszewski@gmail.com&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Cloudmesh provides a number of convenient API&amp;rsquo;s to make the output easier
+or more fanciful.&lt;/p&gt;
+&lt;p&gt;These API&amp;rsquo;s include&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html#module-cloudmesh.common.console&#34;&gt;Console&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html?highlight=banner#cloudmesh.common.util.banner&#34;&gt;Banner&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html?highlight=heading#cloudmesh.common.util.HEADING&#34;&gt;Heading&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html?highlight=verbose#cloudmesh.common.debug.VERBOSE&#34;&gt;VERBOSE&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;console&#34;&gt;Console&lt;/h2&gt;
+&lt;p&gt;Print is the usual function to output to the terminal. However, often we
+like to have colored output that helps us in the notification to the
+user. For this reason, we have a simple &lt;code&gt;Console&lt;/code&gt; class that has several
+built-in features. You can even switch and define your own color
+schemes.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cloudmesh.common.console&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Console&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;msg&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;my message&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Console&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ok&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;msg&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# prins a green message&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Console&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;error&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;msg&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# prins a red message proceeded with ERROR&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;Console&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;msg&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;msg&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# prins a regular black message&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In case of the error message we also have convenient flags that allow us
+to include the traceback in the output.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;Console&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;error&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;msg&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;prefix&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#3465a4&#34;&gt;True&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;traceflag&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#3465a4&#34;&gt;True&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The prefix can be switched on and off with the &lt;code&gt;prefix&lt;/code&gt; flag, while the
+&lt;code&gt;traceflag&lt;/code&gt; switches on and of if the trace should be set.&lt;/p&gt;
+&lt;p&gt;The verbosity of the output is controlled via variables that are stored
+in the &lt;code&gt;~/.cloudmesh&lt;/code&gt; directory.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cloudmesh.common.variables&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Variables&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;variables&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Variables&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;variables&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;debug&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#3465a4&#34;&gt;True&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;variables&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;trace&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#3465a4&#34;&gt;True&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;variables&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;verbose&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;10&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For more features, see API: &lt;a href=&#34;https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html#module-cloudmesh.common.console&#34;&gt;Console&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;banner&#34;&gt;Banner&lt;/h2&gt;
+&lt;p&gt;In case you need a banner you can do this with&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cloudmesh.common.util&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;banner&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;banner&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;my text&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For more features, see API: &lt;a href=&#34;https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html?highlight=banner#cloudmesh.common.util.banner&#34;&gt;Banner&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;heading&#34;&gt;Heading&lt;/h2&gt;
+&lt;p&gt;A particularly useful function is &lt;code&gt;HEADING()&lt;/code&gt; which prints the method name.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cloudmesh.common.util&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HEADING&lt;/span&gt;
+
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Example&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87&#34;&gt;object&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;):&lt;/span&gt;
+
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;doit&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#3465a4&#34;&gt;self&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;):&lt;/span&gt;
+        &lt;span style=&#34;color:#000&#34;&gt;HEADING&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
+        &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;print&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Hello&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The invocation of the &lt;code&gt;HEADING()&lt;/code&gt; function doit prints a banner with the name
+information. The reason we did not do it as a decorator is that you can
+place the &lt;code&gt;HEADING()&lt;/code&gt; function in an arbitrary location of the method body.&lt;/p&gt;
+&lt;p&gt;For more features, see API: &lt;a href=&#34;https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html?highlight=heading#cloudmesh.common.util.HEADING&#34;&gt;Heading&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;verbose&#34;&gt;VERBOSE&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Note: VERBOSE is not supported in jupyter notebooks&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;VERBOSE is a very useful method allowing you to print a
+dictionary. Not only will it print the dict, but it will also provide
+you with the information in which file it is used and which line
+number. It will even print the name of the &lt;code&gt;dict&lt;/code&gt; that you use in your
+code.&lt;/p&gt;
+&lt;p&gt;To use this you will have to enable the debugging methods for
+cloudmesh as discussed in sec. 1.1&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cloudmesh.common.debug&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;VERBOSE&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;m&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;key&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;value&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;VERBOSE&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;m&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For more features, please see &lt;a href=&#34;https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html?highlight=verbose#cloudmesh.common.debug.VERBOSE&#34;&gt;VERBOSE&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;using-print-and-pprint&#34;&gt;Using print and pprint&lt;/h2&gt;
+&lt;p&gt;In many cases, it may be sufficient to use &lt;code&gt;print&lt;/code&gt; and &lt;code&gt;pprint&lt;/code&gt; for
+debugging. However, as the code is big and you may forget where you placed
+print statements or the print statements may have been added by others, we
+recommend that you use the VERBOSE function. If you use &lt;code&gt;print&lt;/code&gt; or &lt;code&gt;pprint&lt;/code&gt;
+we recommend using a unique prefix, such as:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pprint&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pprint&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;d&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;sample&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;value&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;MYDEBUG:&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;pprint&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;d&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# or with print&lt;/span&gt;
+
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;MYDEBUG:&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;d&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Dictionaries</title>
+      <link>/docs/book/python/cloudmesh/dict/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/book/python/cloudmesh/dict/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Gregor von Laszewski (&lt;a href=&#34;mailto:laszewski@gmail.com&#34;&gt;laszewski@gmail.com&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;dotdict&#34;&gt;Dotdict&lt;/h2&gt;
+&lt;p&gt;For simple dictionaries we sometimes like to simplify the notation with a &lt;code&gt;.&lt;/code&gt; instead of using the &lt;code&gt;[]&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;You can achieve this with &lt;code&gt;dotdict&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cloudmesh.common.dotdict&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;dotdict&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;data&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+    &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;name&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Gregor&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;data&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;dotdict&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;data&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now you can either call&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;data&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;name&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;or&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;data&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This is especially useful in if conditions as it may be easier to read and write&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;data&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;is&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Gregor&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;
+
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;this is quite readable&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;and is the same as&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;data&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;name&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;is&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Gregor&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;
+
+    &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;this is quite readable&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For more features, see API: &lt;a href=&#34;https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html?highlight=dotdict#module-cloudmesh.common.dotdict&#34;&gt;dotdict&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;flatdict&#34;&gt;FlatDict&lt;/h2&gt;
+&lt;p&gt;In some cases, it is useful to be able to flatten out dictionaries that
+contain dicts within dicts. For this, we can use &lt;code&gt;FlatDict&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;from cloudmesh.common.Flatdict import FlatDict
+
+data = {
+    &amp;quot;name&amp;quot;: &amp;quot;Gregor&amp;quot;,
+    &amp;quot;address&amp;quot;: {
+        &amp;quot;city&amp;quot;: &amp;quot;Bloomington&amp;quot;,
+        &amp;quot;state&amp;quot;: &amp;quot;IN&amp;quot;
+
+    }
+}
+
+flat = FlatDict(data, sep=&amp;quot;.&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This will be converted to a dict with the following structure.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;flat&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+    &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;name&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Gregor&amp;#34;&lt;/span&gt;
+    &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;address.city&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Bloomington&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+    &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;address.state&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;IN&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;With &lt;code&gt;sep&lt;/code&gt; you can change the sepaerator between the nested dict
+attributes. For more features, see API:
+&lt;a href=&#34;https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html?highlight=flatdict#module-cloudmesh.common.FlatDict&#34;&gt;dotdict&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;printing-dicts&#34;&gt;Printing Dicts&lt;/h2&gt;
+&lt;p&gt;In case we want to print dicts and lists of dicts in various formats, we
+have included a simple &lt;code&gt;Printer&lt;/code&gt; that can print a dict in yaml, json,
+table, and csv format.&lt;/p&gt;
+&lt;p&gt;The function can even guess from the passed parameters what the input format is
+and uses the appropriate internal function.&lt;/p&gt;
+&lt;p&gt;A common example is&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pprint&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pprint&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cloudmesh.common.Printer&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Printer&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;data&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+        &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;name&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Gregor&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+        &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;address&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+            &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;street&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Funny Lane 11&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+            &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;city&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Cloudville&amp;#34;&lt;/span&gt;
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;},&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+        &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;name&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Albert&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+        &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;address&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+            &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;street&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Memory Lane 1901&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+            &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;city&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Cloudnine&amp;#34;&lt;/span&gt;
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt;
+
+
+&lt;span style=&#34;color:#000&#34;&gt;pprint&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;data&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;table&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Printer&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;flatwrite&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;data&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+                          &lt;span style=&#34;color:#000&#34;&gt;sort_keys&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;name&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;],&lt;/span&gt;
+                          &lt;span style=&#34;color:#000&#34;&gt;order&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;name&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;address.street&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;address.city&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;],&lt;/span&gt;
+                          &lt;span style=&#34;color:#000&#34;&gt;header&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Name&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Street&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;City&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;],&lt;/span&gt;
+                          &lt;span style=&#34;color:#000&#34;&gt;output&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;table&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;table&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For more features, see API: &lt;a href=&#34;https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html?highlight=flatdict#module-cloudmesh.common.Printer&#34;&gt;Printer&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;More examples are available in the source code as &lt;a href=&#34;https://github.com/cloudmesh/cloudmesh-common/tree/master/tests&#34;&gt;tests&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Shell</title>
+      <link>/docs/book/python/cloudmesh/shell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/book/python/cloudmesh/shell/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Gregor von Laszewski (&lt;a href=&#34;mailto:laszewski@gmail.com&#34;&gt;laszewski@gmail.com&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Python provides a sophisticated method for starting background processes.
+However, in many cases, it is quite complex to interact with it. It also
+does not provide convenient wrappers that we can use to start them in a
+pythonic fashion. For this reason, we have written a primitive &lt;code&gt;Shell&lt;/code&gt;
+class that provides just enough functionality to be useful in many
+cases.&lt;/p&gt;
+&lt;p&gt;Let us review some examples where &lt;code&gt;result&lt;/code&gt; is set to the
+output of the command being executed.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cloudmesh.common.Shell&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Shell&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Shell&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;execute&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;pwd&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Shell&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;execute&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;ls&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;-l&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;-a&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;])&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Shell&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;execute&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;ls&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;-l -a&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For many common commands, we provide built-in functions. For example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Shell&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ls&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;-aux&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Shell&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;ls&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;-a&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;-u&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;-x&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;Shell&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;pwd&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;result&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The list includes (naturally the commands that must be available on your OS.
+If the shell command is not available on your OS, please help us
+improving the code to either provide functions that work on your OS or
+develop with us platform-independent functionality of a subset of the
+functionality for the shell command that we may benefit from.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;VBoxManage(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bash(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;blockdiag(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;brew(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cat(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;check_output(cls, *args, **kwargs)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;check_python(cls)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cm(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cms(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;command_exists(cls, name)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dialog(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;edit(filename)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;execute(cls,*args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;fgrep(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;find_cygwin_executables(cls)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;find_lines_with(cls, lines, what)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;get_python(cls)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;grep(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;head(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;install(cls, name)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;install(cls, name)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;keystone(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;kill(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;live(cls, command, cwd=None)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ls(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mkdir(cls, directory)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mongod(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;nosetests(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;nova(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;operating_system(cls)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pandoc(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ping(cls, host=None, count=1)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pip(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ps(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pwd(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rackdiag(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;remove_line_with(cls, lines, what)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rm(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rsync(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;scp(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sh(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sort(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;tail(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;terminal(cls, command=&#39;pwd&#39;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;terminal_type(cls)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;unzip(cls, source_filename, dest_dir)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;vagrant(cls, *args)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;version(cls, name)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;which(cls, command)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For more features, please see &lt;a href=&#34;https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html?highlight=shell#module-cloudmesh.common.Shell&#34;&gt;Shell&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: StopWatch</title>
+      <link>/docs/book/python/cloudmesh/stopwatch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/book/python/cloudmesh/stopwatch/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Gregor von Laszewski (&lt;a href=&#34;mailto:laszewski@gmail.com&#34;&gt;laszewski@gmail.com&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Often you find yourself in a situation where you like to measure the
+time between two events. We provide a simple &lt;code&gt;StopWatch&lt;/code&gt; that allows
+you not only to measure a number of times but also to print them out in
+a convenient format.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;cloudmesh.common.StopWatch&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;StopWatch&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;time&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sleep&lt;/span&gt;
+
+
+&lt;span style=&#34;color:#000&#34;&gt;StopWatch&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;start&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;test&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;sleep&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;StopWatch&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;stop&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;test&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;print&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;StopWatch&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;get&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;test&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To print, you can simply also use:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;StopWatch&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;benchmark&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For more features, please see &lt;a href=&#34;https://cloudmesh.github.io/cloudmesh-manual/api/cloudmesh.common.html?highlight=stopwatch#module-cloudmesh.common.StopWatch&#34;&gt;StopWatch&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Cloudmesh Command Shell</title>
+      <link>/docs/book/python/cloudmesh/python-cmd5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/book/python/cloudmesh/python-cmd5/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Gregor von Laszewski (&lt;a href=&#34;mailto:laszewski@gmail.com&#34;&gt;laszewski@gmail.com&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;cmd5&#34;&gt;CMD5&lt;/h2&gt;
+&lt;p&gt;Python&amp;rsquo;s CMD (&lt;a href=&#34;https://docs.python.org/2/library/cmd.html&#34;&gt;https://docs.python.org/2/library/cmd.html&lt;/a&gt;) is a very
+useful package to create command line shells. However, it does not allow
+the dynamic integration of newly defined commands. Furthermore,
+additions to CMD need to be done within the same source tree. To
+simplify developing commands by a number of people and to have a dynamic
+plugin mechanism, we developed cmd5. It is a rewrite of our earlier
+efforts in cloudmesh client and cmd3.&lt;/p&gt;
+&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;
+&lt;p&gt;The source code for cmd5 is located in GitHub:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cloudmesh/cmd5&#34;&gt;https://github.com/cloudmesh/cmd5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We have discussed in sec. &lt;strong&gt;¿sec:cloudmesh-cms-install?&lt;/strong&gt; how to install cloudmesh
+as a developer and have access to the source code in a directory called
+&lt;code&gt;cm&lt;/code&gt;. As you read this document we assume you are a developer and can
+skip the next section.&lt;/p&gt;
+&lt;h3 id=&#34;installation-from-source&#34;&gt;Installation from source&lt;/h3&gt;
+&lt;p&gt;WARNING: DO NOT EXECUTE THIS IF YOU ARE A DEVELOPER OR YOUR ENVIRONMENT
+WILL NOT PROPERLY WORK. YOU LIKELY HAVE ALREADY INSTALLED CMD5 IF YOU
+USED THE CLOUDMESH INSTALLER.&lt;/p&gt;
+&lt;p&gt;However, if you are a user of cloudmesh you can install it with&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ pip install cloudmesh-cmd5
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;execution&#34;&gt;Execution&lt;/h3&gt;
+&lt;p&gt;To run the shell you can activate it with the cms command. cms stands
+for cloudmesh shell:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;ENV2&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt; $ cms
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It will print the banner and enter the shell:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;+-------------------------------------------------------+
+|   ____ _                 _                     _      |
+|  / ___| | ___  _   _  __| |_ __ ___   ___  ___| |__   |
+| | |   | |/ _ \| | | |/ _` | &#39;_ ` _ \ / _ \/ __| &#39;_ \  |
+| | |___| | (_) | |_| | (_| | | | | | |  __/\__ \ | | | |
+|  \____|_|\___/ \__,_|\__,_|_| |_| |_|\___||___/_| |_| |
++-------------------------------------------------------+
+|                  Cloudmesh CMD5 Shell                 |
++-------------------------------------------------------+
+
+cms&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To see the list of commands you can say:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cms&amp;gt; help
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To see the manual page for a specific command, please use:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;help COMMANDNAME
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;create-your-own-extension&#34;&gt;Create your own Extension&lt;/h3&gt;
+&lt;p&gt;One of the most important features of CMD5 is its ability to extend it
+with new commands. This is done via packaged namespaces. We recommend
+you name it cloudmesh-mycommand, where mycommand is the name of the
+command that you like to create. This can easily be done while using the
+sys* cloudmesh command (we suggest you use a different name than
+&lt;code&gt;gregor&lt;/code&gt; maybe your firstname):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ cms sys &lt;span style=&#34;color:#204a87&#34;&gt;command&lt;/span&gt; generate gregor
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It will download a template from cloudmesh called &lt;code&gt;cloudmesh-bar&lt;/code&gt; and
+generate a new directory &lt;code&gt;cloudmesh-gregor&lt;/code&gt; with all the needed files
+to create your own command and register it dynamically with cloudmesh.
+All you have to do is to &lt;code&gt;cd&lt;/code&gt; into the directory and install the code:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ &lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; cloudmesh-gregor
+$ python setup.py install
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# pip install .&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Adding your command is easy. It is important that all objects are
+defined in the command itself and that no global variables be used to allow each shell command to stand alone. Naturally, you should
+develop API libraries outside of the cloudmesh shell command and reuse
+them to keep the command code as small as possible. We place
+the command in:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cloudmsesh/mycommand/command/gregor.py
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now you can go ahead and modify your command in that directory. It will
+look similar to (if you used the command name &lt;code&gt;gregor&lt;/code&gt;):&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;from cloudmesh.shell.command import command
+from cloudmesh.shell.command import PluginCommand
+
+class GregorCommand(PluginCommand):
+
+    @command
+    def do_gregor(self, args, arguments):
+        &amp;quot;&amp;quot;&amp;quot;
+        ::
+          Usage:
+                gregor -f FILE
+                gregor list
+          This command does some useful things.
+          Arguments:
+              FILE   a file name
+          Options:
+              -f      specify the file
+        &amp;quot;&amp;quot;&amp;quot;
+        print(arguments)
+        if arguments.FILE:
+           print(&amp;quot;You have used file: &amp;quot;, arguments.FILE)
+        return &amp;quot;&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;An important difference to other CMD solutions is that our commands can
+leverage (besides the standard definition), &lt;code&gt;docopts&lt;/code&gt; as a way to define
+the manual page. This allows us to use arguments as dict and use simple
+if conditions to interpret the command. Using &lt;code&gt;docopts&lt;/code&gt; has the advantage
+that contributors are forced to think about the command and its options
+and document them from the start. Previously we did not use but argparse
+and click. However, we noticed that for our contributors both systems
+lead to commands that were either not properly documented or the
+developers delivered ambiguous commands that resulted in confusion and
+wrong usage by subsequent users. Hence, we do recommend that you use
+docopts for documenting cmd5 commands. The transformation is enabled by
+the @command decorator that generates a manual page and creates a
+proper help message for the shell automatically. Thus there is no need
+to introduce a separate help method as would normally be needed in CMD
+while reducing the effort it takes to contribute new commands in a
+dynamic fashion.&lt;/p&gt;
+&lt;h3 id=&#34;bug-quotes&#34;&gt;Bug: Quotes&lt;/h3&gt;
+&lt;p&gt;We have one bug in cmd5 that relates to the use of quotes on the commandline&lt;/p&gt;
+&lt;p&gt;For example, you need to say&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ cms gregor -f &lt;span style=&#34;color:#4e9a06&#34;&gt;\&amp;#34;&lt;/span&gt;file name with spaces&lt;span style=&#34;color:#4e9a06&#34;&gt;\&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If you like to help us fix this that would be great. it requires the use
+of &lt;a href=&#34;https://docs.python.org/3/library/shlex.html&#34;&gt;shlex&lt;/a&gt;. Unfortunately,
+we did not yet time to fix this &amp;ldquo;feature.&amp;rdquo;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Exercises</title>
+      <link>/docs/book/python/cloudmesh/exercises/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/book/python/cloudmesh/exercises/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Gregor von Laszewski (&lt;a href=&#34;mailto:laszewski@gmail.com&#34;&gt;laszewski@gmail.com&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;When doing your assignment, make sure you label the programs
+appropriately with comments that clearly identify the assignment.
+Place all assignments in a folder on GitHub named &amp;ldquo;cloudmesh-exercises&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;For example, name the program solving E.Cloudmesh.Common.1
+&lt;code&gt;e-cloudmesh-1.py&lt;/code&gt; and so on. For more complex assignments you can name
+them as you like, as long as in the file you have a comment such as&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;# fa19-516-000 E.Cloudmesh.Common.1&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;at the beginning of the file. Please &lt;strong&gt;do not store&lt;/strong&gt; any screenshots in your GitHub repository of your working program.&lt;/p&gt;
+&lt;h2 id=&#34;cloudmesh-common&#34;&gt;Cloudmesh Common&lt;/h2&gt;
+&lt;p&gt;E.Cloudmesh.Common.1&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Develop a program that demonstrates the use of &lt;code&gt;banner&lt;/code&gt;,
+&lt;code&gt;HEADING&lt;/code&gt;, and &lt;code&gt;VERBOSE&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;E.Cloudmesh.Common.2&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Develop a program that demonstrates the use of &lt;code&gt;dotdict&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;E.Cloudmesh.Common.3&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Develop a program that demonstrates the use of &lt;code&gt;FlatDict&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;E.Cloudmesh.Common.4&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Develop a program that demonstrates the use of &lt;code&gt;cloudmesh.common.Shell&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;E.Cloudmesh.Common.5&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Develop a program that demonstrates the use of &lt;code&gt;cloudmesh.common.StopWatch&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;cloudmesh-shell&#34;&gt;Cloudmesh Shell&lt;/h2&gt;
+&lt;p&gt;E.Cloudmesh.Shell.1&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Install cmd5 and the command &lt;code&gt;cms&lt;/code&gt; on your computer.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;E. Cloudmesh.Shell.2&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Write a new command with your &lt;code&gt;firstname&lt;/code&gt; as the command name.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;E.Cloudmesh.Shell.3&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Write a new command and experiment with docopt syntax and argument
+interpretation of the dict with if conditions.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;E.Cloudmesh.Shell.4&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you have useful extensions that you like us to add by default,
+please work with us.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;E.Cloudmesh.Shell.5&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;At this time one needs to quote in some commands the &lt;code&gt;&amp;quot;&lt;/code&gt; in the
+shell command line. Develop and test code that fixes this.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

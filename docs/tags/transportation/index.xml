@@ -1,0 +1,313 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cybertraining – transportation</title>
+    <link>/tags/transportation/</link>
+    <description>Recent content in transportation on Cybertraining</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 15 Mar 2021 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/tags/transportation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Report: Project: Training A Vehicle Using Camera Feed from Vehicle Simulation</title>
+      <link>/report/sp21-599-358/project/</link>
+      <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/report/sp21-599-358/project/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-358/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-358/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-358/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-358/workflows/Status/badge.svg&#34; alt=&#34;Status&#34;&gt;&lt;/a&gt;
+Status: final, Type: Project&lt;/p&gt;
+&lt;p&gt;Jesus Badillo, &lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-358/&#34;&gt;sp21-599-358&lt;/a&gt;, &lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-358/blob/main/project/index.md&#34;&gt;Edit&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Code:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/sp21-599-358/blob/main/project/code/tutorialEgo.py&#34;&gt;tutorialEgo.py&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Deep Learning has become the main form of machine learning that has been used to train, test, and gather data for self-driving cars. The CARLA simulator
+has been developed from the ground up so that reasearchers who normally do not have the capital to generate their own data for self-driving vehicles
+can do so to fit their spcific model. CARLA provides many tools that can simulate many scenarios that an autonomous vehicle would run into. The benefit
+of CARLA is that it can simulate scenarios that may be too dangerous for a real vehicle to perform, such as a full self-driving car in a heavly populated
+area. CARLA has the backing of many companies who lead industry like Toyota who invested $100,000 dollars in 2018 [^6]. This project uses the CARLA
+simulator to visualize how a real camera system based self-driving car sees obstacles and objects.&lt;/p&gt;
+&lt;p&gt;Contents&lt;/p&gt;
+&lt;div class=&#34;toc&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#1-introduction&#34;&gt;1. Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#2-using-the-carla-simulator&#34;&gt;2. Using the CARLA Simulator&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#21-existing-work-on-carla&#34;&gt;2.1 Existing Work on Carla&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#3-using-the-tensorflow-object-detection-api&#34;&gt;3. Using the TensorFlow Object Detection API&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#4-implementation&#34;&gt;4. Implementation&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#41-system-requirements&#34;&gt;4.1 System Requirements&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#42-download-and-install-carla&#34;&gt;4.2 Download and Install CARLA&lt;/a&gt;
+          &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&#34;#download-for-carla-version-099&#34;&gt;Download for CARLA version 0.9.9&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#43-download-and-install-tensorflow-object-detection-api&#34;&gt;4.3 Download and Install TensorFlow Object Detection API&lt;/a&gt;
+          &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&#34;#from-the-downloads-folder-clone-the-tensorflow-models-git&#34;&gt;From the Downloads folder clone the TensorFlow models git&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#44-download-protobuf&#34;&gt;4.4 Download Protobuf&lt;/a&gt;
+          &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&#34;#the-link-to-the-protobuf-repository-download-is-shown-below&#34;&gt;The link to the ProtoBuf repository download is shown below&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;#run-the-pwd-command-from-powershell-and-get-the-path-from-root-to-downloads-folder&#34;&gt;Run the pwd command from powershell and get the path from root to Downloads folder&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;#when-running-the-command-make-sure-that-you-are-in-downloadsmodels-masterresearch&#34;&gt;When running the command make sure that you are in &amp;lsquo;~/Downloads/models-master/research&amp;rsquo;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;#make-sure-that-you-are-in-downloadsmodels-masterresearch-when-running-this-command&#34;&gt;Make sure that you are in Downloads/models-master/research when running this command&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;#test-installation&#34;&gt;Test Installation&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;#test-success&#34;&gt;Test Success&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#45-running-carla-with-object-detection&#34;&gt;4.5 Running Carla With Object Detection&lt;/a&gt;
+          &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&#34;#run-carla-client&#34;&gt;Run CARLA Client&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;#run-carla-object-detection-program&#34;&gt;Run Carla Object Detection Program&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#5-training-model&#34;&gt;5. Training Model&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#6-results&#34;&gt;6. Results&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#7-benchmark&#34;&gt;7. Benchmark&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#8-conclusion&#34;&gt;8. Conclusion&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#9-acknowledgments&#34;&gt;9. Acknowledgments&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#9-references&#34;&gt;9. References&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; tensorflow, example.&lt;/p&gt;
+&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;
+&lt;p&gt;Making cars self driving has been a problem that many car companies have been trying to tackle in the 21st century.
+There are many different approaches that have been used which all involve deep learning. The approaches all train data
+that are gathered from a variety of sensors working together. Lidar and computer vision are the main sensors that are
+used by commercial companies. Tesla uses video gathered from multiple cameras to train their neural network &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; which
+is known as HydraNet. In this project, a simulation of a real driving vehicle with a camera feed will be used to see the
+objects that a car would need to see to train the vehicle to be self-driving&lt;/p&gt;
+&lt;h2 id=&#34;2-using-the-carla-simulator&#34;&gt;2. Using the CARLA Simulator&lt;/h2&gt;
+&lt;p&gt;The CARLA simulator which uses the driver inputs and puts into a driving log which contains data of
+the trajectory and the surroundings of the simulated vehicle. The CARLA simulator uses the the steering angle and throttle
+to act much like the controllable inputs of a real vehicle. CARLA is an open-source and has been developed from the ground
+up to support development, training, and validation of autonomous driving systems. In addition to open-source code and protocols,
+CARLA provides open digital urban layouts, buildings, and vehicles that were created for this purpose and can be used freely.
+The simulation platform supports flexible specification of sensor suites, environmental conditions, full control of all static
+and dynamic actors, maps generation &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. The simulation will be created by driving the vehicle in the simulator and using the
+camera feed so that the neural network can be trained. Driving in the simulator looks much like Figure 1.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-358/raw/main/project/images/CARLA_Image.png&#34; alt=&#34;Figure1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 1&lt;/strong&gt; Driving in Carla Simulator &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h3 id=&#34;21-existing-work-on-carla&#34;&gt;2.1 Existing Work on Carla&lt;/h3&gt;
+&lt;p&gt;The tutorials over Carla from the youtuber SentDex provide a good introduction into projects that could use deep learning to train self-driving cars.
+His tutorials provide a good insight into the Carla Environment so that one could perform their own study &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;3-using-the-tensorflow-object-detection-api&#34;&gt;3. Using the TensorFlow Object Detection API&lt;/h2&gt;
+&lt;p&gt;The Tenserflow object detection API is used to classify objects with a specific level of confidence. Image recognition is useful
+for self-driving cars because it can provide known obstacles where the vehicle is prohibited from traveling. The API has been trained
+on the COCO dataset which is a dataset consisting of about 300,000 of 90 of the most commonly found objects. Google provided this API to
+improve the state of the Computer vision field. Figure2 shows how the bounding boxes classify images using the object detection API.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-358/raw/main/project/images/ObjectCars.png&#34; alt=&#34;Figure2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 2&lt;/strong&gt; Obect Detection for Cars &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id=&#34;4-implementation&#34;&gt;4. Implementation&lt;/h2&gt;
+&lt;h3 id=&#34;41-system-requirements&#34;&gt;4.1 System Requirements&lt;/h3&gt;
+&lt;p&gt;This project uses windows 10 along with visual studio code and python 3.7. Note that this project may work with other systems, but CARLA
+is a resource intensive program.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;OS Version&lt;/th&gt;
+&lt;th&gt;GPU&lt;/th&gt;
+&lt;th&gt;RAM&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Windows 10.0.18363 Build 18363&lt;/td&gt;
+&lt;td&gt;NVIDIA GTX 1660 Super&lt;/td&gt;
+&lt;td&gt;32 GB&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;In this study the CARLA version 0.9.9 is being used along with python 3.7 to control the simulated vehicle in the CARLA simulator.&lt;/p&gt;
+&lt;h3 id=&#34;42-download-and-install-carla&#34;&gt;4.2 Download and Install CARLA&lt;/h3&gt;
+&lt;h4 id=&#34;download-for-carla-version-099&#34;&gt;Download for CARLA version 0.9.9&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/carla-simulator/carla/releases/tag/0.9.9&#34;&gt;https://github.com/carla-simulator/carla/releases/tag/0.9.9&lt;/a&gt; &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h5 id=&#34;the-file-to-download-is-shown-below&#34;&gt;The file to download is shown below:&lt;/h5&gt;
+&lt;blockquote&gt;
+&lt;p&gt;CARLA_0.9.9.zip&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Make sure to download the compiled version for Windows. The Carla Simulator is around 25GB, so to replicate the study one must have 30-50GB
+of free disk space. Once the file is finished downloading, extract the content of the CARLA zip file into the Downloads folder.&lt;/p&gt;
+&lt;h3 id=&#34;43-download-and-install-tensorflow-object-detection-api&#34;&gt;4.3 Download and Install TensorFlow Object Detection API&lt;/h3&gt;
+&lt;h4 id=&#34;from-the-downloads-folder-clone-the-tensorflow-models-git&#34;&gt;From the Downloads folder clone the TensorFlow models git&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/tensorflow/models.git
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Make sure to clone this git repository into the Downloads folder of your windows machine&lt;/p&gt;
+&lt;h3 id=&#34;44-download-protobuf&#34;&gt;4.4 Download Protobuf&lt;/h3&gt;
+&lt;h4 id=&#34;the-link-to-the-protobuf-repository-download-is-shown-below&#34;&gt;The link to the ProtoBuf repository download is shown below&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/protocolbuffers/protobuf/releases/download/v3.16.0/protoc-3.16.0-win64.zip&#34;&gt;https://github.com/protocolbuffers/protobuf/releases/download/v3.16.0/protoc-3.16.0-win64.zip&lt;/a&gt; &lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The Tensorflow Object Detection API uses Protobufs to configure model and training parameters. Before the framework can be used,
+the Protobuf libraries must be downloaded and compiled &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;. Make sure that you extract the file to the Downloads folder. To configure
+the model within the directory structure run the commands below.&lt;/p&gt;
+&lt;h4 id=&#34;run-the-pwd-command-from-powershell-and-get-the-path-from-root-to-downloads-folder&#34;&gt;Run the pwd command from powershell and get the path from root to Downloads folder&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;pwd
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;when-running-the-command-make-sure-that-you-are-in-downloadsmodels-masterresearch&#34;&gt;When running the command make sure that you are in &amp;lsquo;~/Downloads/models-master/research&amp;rsquo;&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;&#39;PathFromDownloads/Downloads&#39;/protoc object_detection/protos/*.proto --python_out=.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The command shown above configures protobuf so that the object detection API could be used. Make sure you are in the Downloads/models-master/research path.
+Run the commands below to install all of the necessary packages to run the object detection API.&lt;/p&gt;
+&lt;h4 id=&#34;make-sure-that-you-are-in-downloadsmodels-masterresearch-when-running-this-command&#34;&gt;Make sure that you are in Downloads/models-master/research when running this command&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;cp object_detection/packages/tf2/setup.py .
+python -m pip install .
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;After installing the packages test your installation from the Downloads/models-master/research path and run the command below.&lt;/p&gt;
+&lt;h4 id=&#34;test-installation&#34;&gt;Test Installation&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;python object_detection/builders/model_builder_tf2_test.py
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;test-success&#34;&gt;Test Success&lt;/h4&gt;
+&lt;p&gt;If the test was successful than you will a result similar to the one showed in Figure 3.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-358/raw/main/project/images/ModelSuccess.png&#34; alt=&#34;Figure3&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 3&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;45-running-carla-with-object-detection&#34;&gt;4.5 Running Carla With Object Detection&lt;/h3&gt;
+&lt;p&gt;The directory structure for the CARLA for the project shoud have protobuf, the tensorflow models-master directory, and the CARLA_0.9.9 directory
+all in the Downloads folder. To correctly run this project one would need to open two powershell windows and run the CARLA client and the file which
+is providid in this git repository called tutorialEgo.py. The two code snippets below show how to both programs&lt;/p&gt;
+&lt;h4 id=&#34;run-carla-client&#34;&gt;Run CARLA Client&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;&amp;quot;your path&amp;quot;\Downloads\CARLA_0.9.9\WindowsNoEditor&amp;gt; .\CarlaUE4.exe
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;run-carla-object-detection-program&#34;&gt;Run Carla Object Detection Program&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;#Make sure to place the tutorialEgo.py in the examples folder from the downloaded carla folder
+
+&amp;quot;your path&amp;quot;\Downloads\CARLA_0.9.9\WindowsNoEditorPythonAPI\examples&amp;gt; py -3.7 .\tutorialEgo.py
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;5-training-model&#34;&gt;5. Training Model&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Model Name&lt;/th&gt;
+&lt;th&gt;Speed&lt;/th&gt;
+&lt;th&gt;COCO mAP&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;ssd_mobilenet_v1_coco&lt;/td&gt;
+&lt;td&gt;fast&lt;/td&gt;
+&lt;td&gt;21&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ssd_inception_v2_coco&lt;/td&gt;
+&lt;td&gt;fast&lt;/td&gt;
+&lt;td&gt;24&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;rfcn_resnet101_coco&lt;/td&gt;
+&lt;td&gt;medium&lt;/td&gt;
+&lt;td&gt;30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;faster_rcnn_resnet101_coco&lt;/td&gt;
+&lt;td&gt;medium&lt;/td&gt;
+&lt;td&gt;32&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;faster_rcnn_inception_resnet_v2_astrous_coco&lt;/td&gt;
+&lt;td&gt;slow&lt;/td&gt;
+&lt;td&gt;37&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;To perform the object detection in the Cara simulator this project uses the TensorFlow object detection API. The model uses the COCO dataset
+which contains five different models each with a different mean average precision. The mean average precison, or mAP, is the product of precision
+and recall on detecting bounding boxes. The higher the mAP score, the more accurate the network is but that slows down the speed of the model &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;.
+In this project the ssd_mobilenet_v1_coco model was used because it is the fastest of the 5 models providie for the COCO dataset.&lt;/p&gt;
+&lt;h2 id=&#34;6-results&#34;&gt;6. Results&lt;/h2&gt;
+&lt;p&gt;The accuracy of the model was not very good at detecting other scenery, but it was able to detect the most important obstacles for self-driving cars
+such as other vehicles, pedestrians, and traffic signals. The video below shows a simulation in the Carla simulated vehicle with object detection.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-358/raw/main/project/images/ProgramRunning.png&#34; alt=&#34;Figure4&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 4&lt;/strong&gt; Object Detection in CARLA&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/13RXIy74APbwSqV_zBs_v59v4ZOnWdtrT/view?usp=sharing&#34;&gt;https://drive.google.com/file/d/13RXIy74APbwSqV_zBs_v59v4ZOnWdtrT/view?usp=sharing&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;7-benchmark&#34;&gt;7. Benchmark&lt;/h2&gt;
+&lt;p&gt;The benchmark used for this project was the StopWatch function from the cloudmesh package &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;. The function can see how long a particular section
+of code took compared to a different section in the program. In this project the section that took the longest was to setup pedestrian and traffic accross
+the simulated city. This makes sense because there are many vehicles and pedestrians that need to be spawned while also pre computing there trajectories.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/sp21-599-358/raw/main/project/images/Benchmark.png&#34; alt=&#34;Figure5&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 5&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;8-conclusion&#34;&gt;8. Conclusion&lt;/h2&gt;
+&lt;p&gt;The ssd_mobilenet_v1_coco model did not perform as well as it could have because it sometimes classified some objects wrong. For example, some
+pedestrians walking produced shadows which the object detection models perceived as ski&amp;rsquo;s. The mean average precision of the model was the lowest
+of the models trained by the COCO dataset which played a factor in the accuracy of the model. This caused issues in the vehicle&amp;rsquo;s detection of its
+surroundings. Overall, the model was good at classifying the main objects it needs to know to drive safely such as pedestrians and other vehicles.
+This project fulfilled its purpose by showcasing that it can use the object detection from the camera feed along with built in collison detector
+to be able to train a self-driving vehicle in CARLA.&lt;/p&gt;
+&lt;h2 id=&#34;9-acknowledgments&#34;&gt;9. Acknowledgments&lt;/h2&gt;
+&lt;p&gt;The author if this project would like to thank Harrison Kinsley from the youtube channel SentDex for providing good resources for how to use deep learning
+using carla and tensorflow. The author would also like to thank Dr. Gregor von Laszewski for feedback on this report, and Dr. Geoffrey Fox for sharing
+his knowledge in Deep Learning and Artificial Intelligence throughout this course taught at Indiana University.&lt;/p&gt;
+&lt;h2 id=&#34;9-references&#34;&gt;9. References&lt;/h2&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Explains architecture of Tesla&amp;rsquo;s Neural Network,[Online Resource]
+&lt;a href=&#34;https://openaccess.thecvf.com/content_cvpr_2018/papers_backup/Mullapudi_HydraNets_Specialized_Dynamic_CVPR_2018_paper.pdf&#34;&gt;https://openaccess.thecvf.com/content_cvpr_2018/papers_backup/Mullapudi_HydraNets_Specialized_Dynamic_CVPR_2018_paper.pdf&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Link to Carla website, [Online Resource]
+&lt;a href=&#34;http://carla.org/&#34;&gt;http://carla.org/&lt;/a&gt; &lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Documentation Explaing Key Features of Carla, [Online Resource]
+&lt;a href=&#34;https://carla.readthedocs.io/en/0.9.9/getting_started/&#34;&gt;https://carla.readthedocs.io/en/0.9.9/getting_started/&lt;/a&gt; &lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Introduction to Carla with Python, [Online Resource]
+&lt;a href=&#34;https://pythonprogramming.net/introduction-self-driving-autonomous-cars-carla-python/&#34;&gt;https://pythonprogramming.net/introduction-self-driving-autonomous-cars-carla-python/&lt;/a&gt; &lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Object Detection Image, [Online Resource]
+&lt;a href=&#34;https://www.researchgate.net/figure/Object-detection-in-a-dense-scene_fig4_329217107&#34;&gt;https://www.researchgate.net/figure/Object-detection-in-a-dense-scene_fig4_329217107&lt;/a&gt; &lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:6&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Link to the Carla_0.9.9 github, [GitHub]
+&lt;a href=&#34;https://github.com/carla-simulator/carla/releases/tag/0.9.9&#34;&gt;https://github.com/carla-simulator/carla/releases/tag/0.9.9&lt;/a&gt; &lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:7&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Protobuf github download, [GitHub]
+&lt;a href=&#34;https://github.com/protocolbuffers/protobuf/releases/download/v3.16.0/protoc-3.16.0-win64.zip&#34;&gt;https://github.com/protocolbuffers/protobuf/releases/download/v3.16.0/protoc-3.16.0-win64.zip&lt;/a&gt; &lt;a href=&#34;#fnref:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:8&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Explains differences between models being used for Object Detection and performance, [Online Resource]
+&lt;a href=&#34;https://towardsdatascience.com/is-google-tensorflow-object-detection-api-the-easiest-way-to-implement-image-recognition-a8bd1f500ea0&#34;&gt;https://towardsdatascience.com/is-google-tensorflow-object-detection-api-the-easiest-way-to-implement-image-recognition-a8bd1f500ea0&lt;/a&gt; &lt;a href=&#34;#fnref:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:9&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href=&#34;https://github.com/cloudmesh/cloudmesh-common&#34;&gt;https://github.com/cloudmesh/cloudmesh-common&lt;/a&gt; &lt;a href=&#34;#fnref:9&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

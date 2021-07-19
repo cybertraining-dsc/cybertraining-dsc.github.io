@@ -1,0 +1,950 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cybertraining – cloud</title>
+    <link>/tags/cloud/</link>
+    <description>Recent content in cloud on Cybertraining</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 15 Mar 2021 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Cloud Computing</title>
+      <link>/docs/modules/bigdataapplications/2019/applications/cloud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/modules/bigdataapplications/2019/applications/cloud/</guid>
+      <description>
+        
+        
+        &lt;p&gt;We describe the central role of Parallel computing in Clouds and Big
+Data which is decomposed into lots of &lt;em&gt;Little data&lt;/em&gt; running in
+individual cores. Many examples are given and it is stressed that issues
+in parallel computing are seen in day to day life for communication,
+synchronization, load balancing and decomposition. Cyberinfrastructure
+for e-moreorlessanything or moreorlessanything-Informatics and the
+basics of cloud computing are introduced. This includes virtualization
+and the important &lt;em&gt;as a Service&lt;/em&gt; components and we go through several
+different definitions of cloud computing.&lt;/p&gt;
+&lt;p&gt;Gartner&amp;rsquo;s Technology Landscape includes hype cycle and priority matrix
+and covers clouds and Big Data. Two simple examples of the value of
+clouds for enterprise applications are given with a review of different
+views as to nature of Cloud Computing. This IaaS (Infrastructure as a
+Service) discussion is followed by PaaS and SaaS (Platform and Software
+as a Service). Features in Grid and cloud computing and data are
+treated. We summarize the 21 layers and almost 300 software packages in
+the HPC-ABDS Software Stack explaining how they are used.&lt;/p&gt;
+&lt;p&gt;Cloud (Data Center) Architectures with physical setup, Green Computing
+issues and software models are discussed followed by the Cloud Industry
+stakeholders with a 2014 Gartner analysis of Cloud computing providers.
+This is followed by applications on the cloud including data intensive
+problems, comparison with high performance computing, science clouds and
+the Internet of Things. Remarks on Security, Fault Tolerance and
+Synchronicity issues in cloud follow. We describe the way users and data
+interact with a cloud system. The Big Data Processing from an
+application perspective with commercial examples including eBay
+concludes section after a discussion of data system architectures.&lt;/p&gt;
+&lt;h2 id=&#34;parallel-computing-outdated&#34;&gt;Parallel Computing (Outdated)&lt;/h2&gt;
+&lt;p&gt;We describe the central role of Parallel computing in Clouds and Big
+Data which is decomposed into lots of &amp;lsquo;&amp;lsquo;Little data&amp;rsquo;&amp;rsquo; running in
+individual cores. Many examples are given and it is stressed that issues
+in parallel computing are seen in day to day life for communication,
+synchronization, load balancing and decomposition.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B8936_ytjfjmZDRqMldzSVhVem8/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/presentation.png&#34; alt=&#34;Presentation&#34;&gt; Parallel Computing
+(33)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;decomposition&#34;&gt;Decomposition&lt;/h3&gt;
+&lt;p&gt;We describe why parallel computing is essential with Big Data and
+distinguishes parallelism over users to that over the data in problem.
+The general ideas behind data decomposition are given followed by a few
+often whimsical examples dreamed up 30 years ago in the early heady days
+of parallel computing. These include scientific simulations, defense
+outside missile attack and computer chess. The basic problem of parallel
+computing &amp;ndash; efficient coordination of separate tasks processing
+different data parts &amp;ndash; is described with MPI and MapReduce as two
+approaches. The challenges of data decomposition in irregular problems
+is noted.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsWXgtNndQN0Jydkk/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Decomposition
+(8:51)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsQ1pMLWhXQV92OXM/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Examples of Application
+(13:22)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsaVZLOEUzc0VuWjQ/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Decomposition Strategies
+(9:22)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;parallel-computing-in-society&#34;&gt;Parallel Computing in Society&lt;/h3&gt;
+&lt;p&gt;This lesson from the past notes that one can view society as an approach
+to parallel linkage of people. The largest example given is that of the
+construction of a long wall such as that (Hadrian&amp;rsquo;s wall) between
+England and Scotland. Different approaches to parallelism are given with
+formulae for the speed up and efficiency. The concepts of grain size
+(size of problem tackled by an individual processor) and coordination
+overhead are exemplified. This example also illustrates Amdahl&amp;rsquo;s law and
+the relation between data and processor topology. The lesson concludes
+with other examples from nature including collections of neurons (the
+brain) and ants.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsY3hEeTJvTFYtN2s/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Parallel Computing in Society I
+(8:24)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsU1ROMmpNNTlUTUU/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Parallel Computing in Society II
+(8:01)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;parallel-processing-for-hadrians-wall&#34;&gt;Parallel Processing for Hadrian&amp;rsquo;s Wall&lt;/h3&gt;
+&lt;p&gt;This lesson returns to Hadrian&amp;rsquo;s wall and uses it to illustrate advanced
+issues in parallel computing. First We describe the basic SPMD &amp;ndash; Single
+Program Multiple Data &amp;ndash; model. Then irregular but homogeneous and
+heterogeneous problems are discussed. Static and dynamic load balancing
+is needed. Inner parallelism (as in vector instruction or the multiple
+fingers of masons) and outer parallelism (typical data parallelism) are
+demonstrated. Parallel I/O for Hadrian&amp;rsquo;s wall is followed by a slide
+summarizing this quaint comparison between Big data parallelism and the
+construction of a large wall.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsNEtLOTNNN3dlNjQ/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Processing for Hadrian&amp;rsquo;s Wall
+(9:24)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Solving Problems in Concurrent Processors-Volume 1, with M.
+Johnson, G. Lyzenga, S. Otto, J. Salmon, D. Walker, Prentice Hall,
+March 1988.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.netlib.org/utk/lsi/pcwLSI/text/&#34;&gt;Parallel Computing Works!, with P. Messina, R. Williams, Morgan
+Kaufman (1994).&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The Sourcebook of Parallel Computing book edited by Jack Dongarra,
+Ian Foster, Geoffrey Fox, William Gropp, Ken Kennedy, Linda Torczon,
+and Andy White, Morgan Kaufmann, November 2002.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://grids.ucs.indiana.edu/ptliupages/publications/SpringerEncyclopedia_Fox.pdf&#34;&gt;Geoffrey Fox Computational Sciences and Parallelism to appear in
+Encyclopedia on Parallel Computing edited by David Padua and
+published by
+Springer.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;We discuss Cyberinfrastructure for e-moreorlessanything or
+moreorlessanything-Informatics and the basics of cloud computing. This
+includes virtualization and the important &amp;lsquo;as a Service&amp;rsquo; components and
+we go through several different definitions of cloud computing.Gartner&amp;rsquo;s
+Technology Landscape includes hype cycle and priority matrix and covers
+clouds and Big Data. The unit concludes with two simple examples of the
+value of clouds for enterprise applications. Gartner also has specific
+predictions for cloud computing growth areas.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B8936_ytjfjmdmF2Uy1vWS0xTFU/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/presentation.png&#34; alt=&#34;Presentation&#34;&gt; Introduction
+(45)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;cyberinfrastructure-for-e-applications&#34;&gt;Cyberinfrastructure for E-Applications&lt;/h3&gt;
+&lt;p&gt;This introduction describes Cyberinfrastructure or e-infrastructure and
+its role in solving the electronic implementation of any problem where
+e-moreorlessanything is another term for moreorlessanything-Informatics
+and generalizes early discussion of e-Science and e-Business.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsbXpEdF8zWFh4aXc/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Cloud Computing Introduction Part1
+(13:34)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;what-is-cloud-computing-introduction&#34;&gt;What is Cloud Computing: Introduction&lt;/h3&gt;
+&lt;p&gt;Cloud Computing is introduced with an operational definition involving
+virtualization and efficient large data centers that can rent computers
+in an elastic fashion. The role of services is essential &amp;ndash; it underlies
+capabilities being offered in the cloud. The four basic aaS&amp;rsquo;s &amp;ndash;
+Software (SaaS), Platform (Paas), Infrastructure (IaaS) and Network
+(NaaS) &amp;ndash; are introduced with Research aaS and other capabilities (for
+example Sensors aaS are discussed later) being built on top of these.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsdDdsYkw0dXdHS1U/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; What is Cloud Computing Intro
+(12:01)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;what-and-why-is-cloud-computing-other-views-i&#34;&gt;What and Why is Cloud Computing: Other Views I&lt;/h3&gt;
+&lt;p&gt;This lesson contains 5 slides with diverse comments on &amp;lsquo;&amp;lsquo;what is cloud
+computing&amp;rsquo;&amp;rsquo; from the web.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsNm1jVVJMUVpCUlU/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Other Views I
+(5:25)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsV1RJcldzRlctRlk/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Other Views II
+(6:41)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsOUlxVHZ4MlN0RXc/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Other Views III
+(7:27)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;gartners-emerging-technology-landscape-for-clouds-and-big-data&#34;&gt;Gartner&amp;rsquo;s Emerging Technology Landscape for Clouds and Big Data&lt;/h3&gt;
+&lt;p&gt;This lesson gives Gartner&amp;rsquo;s projections around futures of cloud and Big
+data. We start with a review of hype charts and then go into detailed
+Gartner analyses of the Cloud and Big data areas. Big data itself is at
+the top of the hype and by definition predictions of doom are emerging.
+Before too much excitement sets in, note that spinach is above clouds
+and Big data in Google trends.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsaTg5aEZ0cHJuM0k/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Gartners Emerging Technology Landscape
+(11:26)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;simple-examples-of-use-of-cloud-computing&#34;&gt;Simple Examples of use of Cloud Computing&lt;/h3&gt;
+&lt;p&gt;This short lesson gives two examples of rather straightforward
+commercial applications of cloud computing. One is server consolidation
+for multiple Microsoft database applications and the second is the
+benefits of scale comparing gmail to multiple smaller installations. It
+ends with some fiscal comments.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsLTBoM0NpYzVxOHc/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Examples
+(3:26)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;value-of-cloud-computing&#34;&gt;Value of Cloud Computing&lt;/h3&gt;
+&lt;p&gt;Some comments on fiscal value of cloud computing.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsSFdfZ0hodDlnUGM/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Value of Cloud Computing
+(4:20)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;resources-1&#34;&gt;Resources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.slideshare.net/woorung/trend-and-future-of-cloud-computing&#34;&gt;http://www.slideshare.net/woorung/trend-and-future-of-cloud-computing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.slideshare.net/JensNimis/cloud-computing-tutorial-jens-nimis&#34;&gt;http://www.slideshare.net/JensNimis/cloud-computing-tutorial-jens-nimis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://setandbma.wordpress.com/2012/08/10/hype-cycle-2012-emerging-technologies/&#34;&gt;https://setandbma.wordpress.com/2012/08/10/hype-cycle-2012-emerging-technologies/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://insights.dice.com/2013/01/23/big-data-hype-is-imploding-gartner-analyst-2/&#34;&gt;http://insights.dice.com/2013/01/23/big-data-hype-is-imploding-gartner-analyst-2/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://research.microsoft.com/pubs/78813/AJ18_EN.pdf&#34;&gt;http://research.microsoft.com/pubs/78813/AJ18_EN.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://static.googleusercontent.com/media/www.google.com/en//green/pdfs/google-green-computing.pdf&#34;&gt;http://static.googleusercontent.com/media/www.google.com/en//green/pdfs/google-green-computing.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;software-and-systems&#34;&gt;Software and Systems&lt;/h2&gt;
+&lt;p&gt;We cover different views as to nature of architecture and application
+for Cloud Computing. Then we discuss cloud software for the cloud
+starting at virtual machine management (IaaS) and the broad Platform
+(middleware) capabilities with examples from Amazon and academic
+studies. We summarize the 21 layers and almost 300 software packages in
+the HPC-ABDS Software Stack explaining how they are used.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B8936_ytjfjmUHlEVG1wSUhDNnM/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/presentation.png&#34; alt=&#34;Presentation&#34;&gt; Software and Systems
+(32)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;what-is-cloud-computing&#34;&gt;What is Cloud Computing&lt;/h3&gt;
+&lt;p&gt;This lesson gives some general remark of cloud systems from an
+architecture and application perspective.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsYlRhOHU5ci1seXc/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; What is Cloud Computing
+(6:20)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;introduction-to-cloud-software-architecture-iaas-and-paas-i&#34;&gt;Introduction to Cloud Software Architecture: IaaS and PaaS I&lt;/h3&gt;
+&lt;p&gt;We discuss cloud software for the cloud starting at virtual machine
+management (IaaS) and the broad Platform (middleware) capabilities with
+examples from Amazon and academic studies. We cover different views as
+to nature of architecture and application for Cloud Computing. Then we
+discuss cloud software for the cloud starting at virtual machine
+management (IaaS) and the broad Platform (middleware) capabilities with
+examples from Amazon and academic studies. We summarize the 21 layers
+and almost 300 software packages in the HPC-ABDS Software Stack
+explaining how they are used.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsUm1XanBaaWtpQWM/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Intro to IaaS and PaaS I
+(7:42)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsMXpfTTlvNDBkbTQ/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Intro to IaaS and PaaS II
+(6:42)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We discuss cloud software for the cloud starting at virtual machine
+management (IaaS) and the broad Platform (middleware) capabilities with
+examples from Amazon and academic studies. We cover different views as
+to nature of architecture and application for Cloud Computing. Then we
+discuss cloud software for the cloud starting at virtual machine
+management (IaaS) and the broad Platform (middleware) capabilities with
+examples from Amazon and academic studies. We summarize the 21 layers
+and almost 300 software packages in the HPC-ABDS Software Stack
+explaining how they are used.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/1AnyJYyh490&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Software Architecture:
+(7:42)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/hVpFAUHcAd4&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; IaaS and PaaS II: (6:43)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;using-the-hpc-abds-software-stack&#34;&gt;Using the HPC-ABDS Software Stack&lt;/h3&gt;
+&lt;p&gt;Using the HPC-ABDS Software Stack.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsUTdlNmlYWDUyTlE/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; ABDS
+(27:50)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;resources-2&#34;&gt;Resources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.slideshare.net/JensNimis/cloud-computing-tutorial-jens-nimis&#34;&gt;http://www.slideshare.net/JensNimis/cloud-computing-tutorial-jens-nimis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://research.microsoft.com/en-us/people/barga/sc09_cloudcomp_tutorial.pdf&#34;&gt;http://research.microsoft.com/en-us/people/barga/sc09_cloudcomp_tutorial.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://research.microsoft.com/en-us/um/redmond/events/cloudfutures2012/tuesday/Keynote_OpportunitiesAndChallenges_Yousef_Khalidi.pdf&#34;&gt;http://research.microsoft.com/en-us/um/redmond/events/cloudfutures2012/tuesday/Keynote_OpportunitiesAndChallenges_Yousef_Khalidi.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cloudonomic.blogspot.com/2009/02/cloud-taxonomy-and-ontology.html&#34;&gt;http://cloudonomic.blogspot.com/2009/02/cloud-taxonomy-and-ontology.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;architectures-applications-and-systems&#34;&gt;Architectures, Applications and Systems&lt;/h2&gt;
+&lt;p&gt;We start with a discussion of Cloud (Data Center) Architectures with
+physical setup, Green Computing issues and software models. We summarize
+a 2014 Gartner analysis of Cloud computing providers. This is followed
+by applications on the cloud including data intensive problems,
+comparison with high performance computing, science clouds and the
+Internet of Things. Remarks on Security, Fault Tolerance and
+Synchronicity issues in cloud follow.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B8936_ytjfjmTHlzcGN3SzFNTTA/view?usp=sharing&#34;&gt;scroll: Architectures
+(64)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;cloud-data-center-architectures&#34;&gt;Cloud (Data Center) Architectures&lt;/h3&gt;
+&lt;p&gt;Some remarks on what it takes to build (in software) a cloud ecosystem,
+and why clouds are the data center of the future are followed by
+pictures and discussions of several data centers from Microsoft (mainly)
+and Google. The role of containers is stressed as part of modular data
+centers that trade scalability for fault tolerance. Sizes of cloud
+centers and supercomputers are discussed as is &amp;ldquo;green&amp;rdquo; computing.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsYkxKelV2bTlMZ1k/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Coud Architecture
+(8:38)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsRHJhN3VMaDJLTG8/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Cloud Data Center Architecture
+(9:59)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;analysis-of-major-cloud-providers&#34;&gt;Analysis of Major Cloud Providers&lt;/h3&gt;
+&lt;p&gt;Gartner 2014 Analysis of leading cloud providers.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsUXBjRUJpX1BaSjA/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Analysis of Major Cloud Providers
+(21:40)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;commercial-cloud-storage-trends&#34;&gt;Commercial Cloud Storage Trends&lt;/h3&gt;
+&lt;p&gt;Use of Dropbox, iCloud, Box etc.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsZjR5VHQ2MXFmbjg/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Commercial Storage Trends
+(3:07)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;cloud-applications-i&#34;&gt;Cloud Applications I&lt;/h3&gt;
+&lt;p&gt;This short lesson discusses the need for security and issues in its
+implementation. Clouds trade scalability for greater possibility of
+faults but here clouds offer good support for recovery from faults. We
+discuss both storage and program fault tolerance noting that parallel
+computing is especially sensitive to faults as a fault in one task will
+impact all other tasks in the parallel job.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsYXlKVXk0aG8tZFk/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Cloud Applications I
+(7:57)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WseGVUNHhGTHpZbVU/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Cloud Applications II
+(7:44)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;science-clouds&#34;&gt;Science Clouds&lt;/h3&gt;
+&lt;p&gt;Science Applications and Internet of Things.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7Wsd0lZejhPTkItZEE/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Science Clouds
+(19:26)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;security&#34;&gt;Security&lt;/h3&gt;
+&lt;p&gt;This short lesson discusses the need for security and issues in its
+implementation.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsajE4QkljRUExLWM/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Security
+(2:34)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;comments-on-fault-tolerance-and-synchronicity-constraints&#34;&gt;Comments on Fault Tolerance and Synchronicity Constraints&lt;/h3&gt;
+&lt;p&gt;Clouds trade scalability for greater possibility of faults but here
+clouds offer good support for recovery from faults. We discuss both
+storage and program fault tolerance noting that parallel computing is
+especially sensitive to faults as a fault in one task will impact all
+other tasks in the parallel job.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsdHRZV1VrTklWYVE/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Comments on Fault Tolerance and Synchronicity Constraints
+(8:55)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;resources-3&#34;&gt;Resources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.slideshare.net/woorung/trend-and-future-of-cloud-computing&#34;&gt;http://www.slideshare.net/woorung/trend-and-future-of-cloud-computing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.eweek.com/c/a/Cloud-Computing/AWS-Innovation-Means-Cloud-Domination-307831&#34;&gt;http://www.eweek.com/c/a/Cloud-Computing/AWS-Innovation-Means-Cloud-Domination-307831&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CSTI General Assembly 2012, Washington, D.C., USA Technical
+Activities Coordinating Committee (TACC) Meeting, Data Management,
+Cloud Computing and the Long Tail of Science October 2012 Dennis
+Gannon.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://research.microsoft.com/en-us/um/redmond/events/cloudfutures2012/tuesday/Keynote_OpportunitiesAndChallenges_Yousef_Khalidi.pdf&#34;&gt;http://research.microsoft.com/en-us/um/redmond/events/cloudfutures2012/tuesday/Keynote_OpportunitiesAndChallenges_Yousef_Khalidi.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.datacenterknowledge.com/archives/2011/05/10/uptime-institute-the-average-pue-is-1-8/&#34;&gt;http://www.datacenterknowledge.com/archives/2011/05/10/uptime-institute-the-average-pue-is-1-8/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://loosebolts.wordpress.com/2008/12/02/our-vision-for-generation-4-modular-data-centers-one-way-of-getting-it-just-right/&#34;&gt;https://loosebolts.wordpress.com/2008/12/02/our-vision-for-generation-4-modular-data-centers-one-way-of-getting-it-just-right/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.mediafire.com/file/zzqna34282frr2f/koomeydatacenterelectuse2011finalversion.pdf&#34;&gt;http://www.mediafire.com/file/zzqna34282frr2f/koomeydatacenterelectuse2011finalversion.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.slideshare.net/JensNimis/cloud-computing-tutorial-jens-nimis&#34;&gt;http://www.slideshare.net/JensNimis/cloud-computing-tutorial-jens-nimis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.slideshare.net/botchagalupe/introduction-to-clouds-cloud-camp-columbus&#34;&gt;http://www.slideshare.net/botchagalupe/introduction-to-clouds-cloud-camp-columbus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.venus-c.eu/Pages/Home.aspx&#34;&gt;http://www.venus-c.eu/Pages/Home.aspx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://grids.ucs.indiana.edu/ptliupages/publications/Clouds_Technical_Computing_FoxGannonv2.pdf&#34;&gt;Geoffrey Fox and Dennis Gannon Using Clouds for Technical Computing
+To be published in Proceedings of HPC 2012 Conference at Cetraro,
+Italy June 28
+2012&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://berkeleydatascience.files.wordpress.com/2012/01/20120119berkeley.pdf&#34;&gt;https://berkeleydatascience.files.wordpress.com/2012/01/20120119berkeley.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Taming The Big Data Tidal Wave: Finding Opportunities in Huge Data
+Streams with Advanced Analytics, Bill Franks Wiley ISBN:
+978-1-118-20878-6&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://fisheritcenter.haas.berkeley.edu/Big_Data/index.html&#34;&gt;Anjul Bhambhri, VP of Big Data,
+IBM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Conquering Big Data with the Oracle Information Model, Helen Sun,
+Oracle&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://businessinnovation.berkeley.edu/fisher-cio-leadership-program/&#34;&gt;Hugh Williams VP Experience, Search &amp;amp; Platforms,
+eBay&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;%3Chttp://www.nitrd.gov/nitrdgroups/images/7/73/D_Gannon_2025_scientific_computing_environments.pdf&#34;&gt;Dennis Gannon, Scientific Computing
+Environments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://research.microsoft.com/en-us/um/redmond/events/cloudfutures2012/tuesday/Keynote_OpportunitiesAndChallenges_Yousef_Khalidi.pdf&#34;&gt;http://research.microsoft.com/en-us/um/redmond/events/cloudfutures2012/tuesday/Keynote_OpportunitiesAndChallenges_Yousef_Khalidi.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.datacenterknowledge.com/archives/2011/05/10/uptime-institute-the-average-pue-is-1-8/&#34;&gt;http://www.datacenterknowledge.com/archives/2011/05/10/uptime-institute-the-average-pue-is-1-8/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://loosebolts.wordpress.com/2008/12/02/our-vision-for-generation-4-modular-data-centers-one-way-of-getting-it-just-right/&#34;&gt;https://loosebolts.wordpress.com/2008/12/02/our-vision-for-generation-4-modular-data-centers-one-way-of-getting-it-just-right/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.mediafire.com/file/zzqna34282frr2f/koomeydatacenterelectuse2011finalversion.pdf&#34;&gt;http://www.mediafire.com/file/zzqna34282frr2f/koomeydatacenterelectuse2011finalversion.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://searchcloudcomputing.techtarget.com/feature/Cloud-computing-experts-forecast-the-market-climate-in-2014&#34;&gt;http://searchcloudcomputing.techtarget.com/feature/Cloud-computing-experts-forecast-the-market-climate-in-2014&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.slideshare.net/botchagalupe/introduction-to-clouds-cloud-camp-columbus&#34;&gt;http://www.slideshare.net/botchagalupe/introduction-to-clouds-cloud-camp-columbus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.slideshare.net/woorung/trend-and-future-of-cloud-computing&#34;&gt;http://www.slideshare.net/woorung/trend-and-future-of-cloud-computing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.venus-c.eu/Pages/Home.aspx&#34;&gt;http://www.venus-c.eu/Pages/Home.aspx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.kpcb.com/internet-trends&#34;&gt;http://www.kpcb.com/internet-trends&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-systems&#34;&gt;Data Systems&lt;/h2&gt;
+&lt;p&gt;We describe the way users and data interact with a cloud system. The
+unit concludes with the treatment of data in the cloud from an
+architecture perspective and Big Data Processing from an application
+perspective with commercial examples including eBay.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsN1RPVFRLUGJLZGs/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/presentation.png&#34; alt=&#34;Presentation&#34;&gt; Data Systems
+(49)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;the-10-interaction-scenarios-access-patterns-i&#34;&gt;The 10 Interaction scenarios (access patterns) I&lt;/h3&gt;
+&lt;p&gt;The next 3 lessons describe the way users and data interact with the
+system.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsWldDNm1oNXdPQmc/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; The 10 Interaction scenarios I
+(10:26)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;the-10-interaction-scenarios-science-examples&#34;&gt;The 10 Interaction scenarios. Science Examples&lt;/h3&gt;
+&lt;p&gt;This lesson describes the way users and data interact with the system
+for some science examples.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsQTlvLWs4cm5NRE0/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; The 10 Interaction scenarios. Science Examples
+(16:34)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;remaining-general-access-patterns&#34;&gt;Remaining general access patterns&lt;/h3&gt;
+&lt;p&gt;This lesson describe the way users and data interact with the system for
+the final set of examples.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsYVVRWmdpanV4Vlk/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Access Patterns
+(11:36)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;data-in-the-cloud&#34;&gt;Data in the Cloud&lt;/h3&gt;
+&lt;p&gt;Databases, File systems, Object Stores and NOSQL are discussed and
+compared. The way to build a modern data repository in the cloud is
+introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsRzR6eHZwelVuOG8/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Data in the Cloud
+(10:24)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;applications-processing-big-data&#34;&gt;Applications Processing Big Data&lt;/h3&gt;
+&lt;p&gt;This lesson collects remarks on Big data processing from several
+sources: Berkeley, Teradata, IBM, Oracle and eBay with architectures and
+application opportunities.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B1Of61fJF7WsUG9UVGFOQXNXbnc/view?usp=sharing&#34;&gt;&lt;img src=&#34;images/video.png&#34; alt=&#34;Video&#34;&gt; Processing Big Data
+(8:45)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;resources-4&#34;&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bigdatawg.nist.gov/_uploadfiles/M0311_v2_2965963213.pdf&#34;&gt;http://bigdatawg.nist.gov/_uploadfiles/M0311_v2_2965963213.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dzone.com/articles/hadoop-t-etl&#34;&gt;https://dzone.com/articles/hadoop-t-etl&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://venublog.com/2013/07/16/hadoop-summit-2013-hive-authorization/&#34;&gt;http://venublog.com/2013/07/16/hadoop-summit-2013-hive-authorization/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://indico.cern.ch/event/214784/session/5/contribution/410&#34;&gt;https://indico.cern.ch/event/214784/session/5/contribution/410&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://asd.gsfc.nasa.gov/archive/hubble/a_pdf/news/facts/FS14.pdf&#34;&gt;http://asd.gsfc.nasa.gov/archive/hubble/a_pdf/news/facts/FS14.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blogs.teradata.com/data-points/announcing-teradata-aster-big-analytics-appliance/&#34;&gt;http://blogs.teradata.com/data-points/announcing-teradata-aster-big-analytics-appliance/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://wikibon.org/w/images/2/20/Cloud-BigData.png&#34;&gt;http://wikibon.org/w/images/2/20/Cloud-BigData.png&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://hortonworks.com/hadoop/yarn/&#34;&gt;http://hortonworks.com/hadoop/yarn/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://berkeleydatascience.files.wordpress.com/2012/01/20120119berkeley.pdf&#34;&gt;https://berkeleydatascience.files.wordpress.com/2012/01/20120119berkeley.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://fisheritcenter.haas.berkeley.edu/Big_Data/index.html&#34;&gt;http://fisheritcenter.haas.berkeley.edu/Big_Data/index.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Cloud Computing</title>
+      <link>/docs/modules/ai-first/2021/cloud_computing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/modules/ai-first/2021/cloud_computing/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;e534-cloud-computing-unit&#34;&gt;E534 Cloud Computing Unit&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1CfdQW02IE7skOdQoJy899pozKYSx7Rcplwi9y75RwqM/edit?usp=sharing&#34;&gt;Full Slide Deck&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;overall-summary&#34;&gt;Overall Summary&lt;/h2&gt;
+&lt;p&gt;Video: 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/FV0r-Yf6zNk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;defining-clouds-i-basic-definition-of-cloud-and-two-very-simple-examples-of-why-virtualization-is-important&#34;&gt;Defining Clouds I: Basic definition of cloud and two very simple examples of why virtualization is important&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;How clouds are situated wrt HPC and supercomputers&lt;/li&gt;
+&lt;li&gt;Why multicore chips are important&lt;/li&gt;
+&lt;li&gt;Typical data center&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Video: 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/8OE3oOVDmlQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;defining-clouds-ii-service-oriented-architectures-software-services-as-message-linked-computing-capabilities&#34;&gt;Defining Clouds II: Service-oriented architectures: Software services as Message-linked computing capabilities&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;The different aaS’s: Network, Infrastructure, Platform, Software&lt;/li&gt;
+&lt;li&gt;The amazing services that Amazon AWS and Microsoft Azure have&lt;/li&gt;
+&lt;li&gt;Initial Gartner comments on clouds (they are now the norm) and evolution of servers; serverless and microservices&lt;/li&gt;
+&lt;li&gt;Gartner hypecycle and priority matrix on Infrastructure Strategies&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Video: 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/mzkFZApl_-4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;defining-clouds-iii-cloud-market-share&#34;&gt;Defining Clouds III: Cloud Market Share&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;How important are they?&lt;/li&gt;
+&lt;li&gt;How much money do they make?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Video: 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/jYfoNxlROqU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;virtualization-virtualization-technologies-hypervisors-and-the-different-approaches&#34;&gt;Virtualization: Virtualization Technologies, Hypervisors and the different approaches&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;KVM Xen, Docker and Openstack&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Video: 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Tqsx-sEPY6M&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;cloud-infrastructure-i-comments-on-trends-in-the-data-center-and-its-technologies&#34;&gt;Cloud Infrastructure I: Comments on trends in the data center and its technologies&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Clouds physically across the world&lt;/li&gt;
+&lt;li&gt;Green computing&lt;/li&gt;
+&lt;li&gt;Fraction of world’s computing ecosystem in clouds and associated sizes&lt;/li&gt;
+&lt;li&gt;An analysis from Cisco of size of cloud computing&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Video: 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/6ncp-UTYk-4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;cloud-infrastructure-ii-gartner-hypecycle-and-priority-matrix-on-compute-infrastructure&#34;&gt;Cloud Infrastructure II: Gartner hypecycle and priority matrix on Compute Infrastructure&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Containers compared to virtual machines&lt;/li&gt;
+&lt;li&gt;The emergence of artificial intelligence as a dominant force&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Video: 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/R0Sk1rAS20M&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;cloud-software-hpc-abds-with-over-350-software-packages-and-how-to-use-each-of-21-layers&#34;&gt;Cloud Software: HPC-ABDS with over 350 software packages and how to use each of 21 layers&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Google’s software innovations&lt;/li&gt;
+&lt;li&gt;MapReduce in pictures&lt;/li&gt;
+&lt;li&gt;Cloud and HPC software stacks compared&lt;/li&gt;
+&lt;li&gt;Components need to support cloud/distributed system programming&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Video: 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/gMAA9y8khMM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;cloud-applications-i-clouds-in-science-where-area-called-cyberinfrastructure-the-science-usage-pattern-from-nist&#34;&gt;Cloud Applications I: Clouds in science where area called cyberinfrastructure; the science usage pattern from NIST&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Artificial Intelligence from Gartner&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Video: 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/sAbYkZHD81U&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;cloud-applications-ii-characterize-applications-using-nist-approach&#34;&gt;Cloud Applications II: Characterize Applications using NIST approach&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Internet of Things&lt;/li&gt;
+&lt;li&gt;Different types of MapReduce&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Video: 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/YaPg-OOlkdw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;parallel-computing-analogies-parallel-computing-in-pictures&#34;&gt;Parallel Computing Analogies: Parallel Computing in pictures&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Some useful analogies and principles&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Video: 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/iqVHvQg851s&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;real-parallel-computing-single-programinstruction-multiple-data-simd-spmd&#34;&gt;Real Parallel Computing: Single Program/Instruction Multiple Data SIMD SPMD&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Big Data and Simulations Compared&lt;/li&gt;
+&lt;li&gt;What is hard to do?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Video: 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/7gD2yyTKatM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;storage-cloud-data-approaches&#34;&gt;Storage: Cloud data approaches&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Repositories, File Systems, Data lakes&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Video: 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/NcIbKQ-AChA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;hpc-and-clouds-the-branscomb-pyramid&#34;&gt;HPC and Clouds: The Branscomb Pyramid&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Supercomputers versus clouds&lt;/li&gt;
+&lt;li&gt;Science Computing Environments&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Video: 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/QTxYKhpVtDw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;comparison-of-data-analytics-with-simulation-structure-of-different-applications-for-simulations-and-big-data&#34;&gt;Comparison of Data Analytics with Simulation: Structure of different applications for simulations and Big Data&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Software implications&lt;/li&gt;
+&lt;li&gt;Languages&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Video: 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/6WmWE_7iB3w&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;the-future-i-the-future-i-gartner-cloud-computing-hypecycle-and-priority-matrix-2017-and-2019&#34;&gt;The Future I: The Future I: Gartner cloud computing hypecycle and priority matrix 2017 and 2019&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Hyperscale computing&lt;/li&gt;
+&lt;li&gt;Serverless and FaaS&lt;/li&gt;
+&lt;li&gt;Cloud Native&lt;/li&gt;
+&lt;li&gt;Microservices&lt;/li&gt;
+&lt;li&gt;Update to 2019 Hypecycle&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Video: 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/1xH5ow5kOhc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;future-and-other-issues-ii-security&#34;&gt;Future and Other Issues II: Security&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Blockchain&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Video: 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/9AmVHEXv7gY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;future-and-other-issues-iii-fault-tolerance&#34;&gt;Future and Other Issues III: Fault Tolerance&lt;/h2&gt;
+&lt;p&gt;Video: 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/VnkkCix3yEE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Cloud Computing</title>
+      <link>/docs/modules/bigdataapplications/2019/e534-cloud-computing-unit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/modules/bigdataapplications/2019/e534-cloud-computing-unit/</guid>
+      <description>
+        
+        
+        &lt;h1 id=&#34;e534-cloud-computing-unit&#34;&gt;E534 Cloud Computing Unit&lt;/h1&gt;
+&lt;p&gt;:orange_book: Full Slide Deck &lt;a href=&#34;https://drive.google.com/open?id=1e61jrgTSeG8wQvQ2v6Zsp5AA31KCZPEQ&#34;&gt;https://drive.google.com/open?id=1e61jrgTSeG8wQvQ2v6Zsp5AA31KCZPEQ&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This page &lt;a href=&#34;https://docs.google.com/document/d/1D8bEzKe9eyQfbKbpqdzgkKnFMCBT1lWildAVdoH5hYY/edit?usp=sharing&#34;&gt;https://docs.google.com/document/d/1D8bEzKe9eyQfbKbpqdzgkKnFMCBT1lWildAVdoH5hYY/edit?usp=sharing&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;overall-summary&#34;&gt;Overall Summary&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/images/video.png&#34; alt=&#34;Video&#34;&gt; Video: &lt;a href=&#34;https://drive.google.com/open?id=1Iq-sKUP28AiTeDU3cW_7L1fEQ2hqakae&#34;&gt;https://drive.google.com/open?id=1Iq-sKUP28AiTeDU3cW_7L1fEQ2hqakae&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;:orange_book: Slides &lt;a href=&#34;https://drive.google.com/open?id=1MLYwAM6MrrZSKQjKm570mNtyNHiWSCjC&#34;&gt;https://drive.google.com/open?id=1MLYwAM6MrrZSKQjKm570mNtyNHiWSCjC&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;defining-clouds-i&#34;&gt;Defining Clouds I:&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/images/video.png&#34; alt=&#34;Video&#34;&gt; Video &lt;a href=&#34;https://drive.google.com/open?id=15TbpDGR2VOy5AAYb_o4740enMZKiVTSz&#34;&gt;https://drive.google.com/open?id=15TbpDGR2VOy5AAYb_o4740enMZKiVTSz&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;:orange_book: Slides &lt;a href=&#34;https://drive.google.com/open?id=1CMqgcpNwNiMqP8TZooqBMhwFhu2EAa3C&#34;&gt;https://drive.google.com/open?id=1CMqgcpNwNiMqP8TZooqBMhwFhu2EAa3C&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Basic definition of cloud and two very simple examples of why virtualization is important.&lt;/li&gt;
+&lt;li&gt;How clouds are situated wrt HPC and supercomputers&lt;/li&gt;
+&lt;li&gt;Why multicore chips are important&lt;/li&gt;
+&lt;li&gt;Typical data center&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;defining-clouds-ii&#34;&gt;Defining Clouds II:&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/images/video.png&#34; alt=&#34;Video&#34;&gt; Video &lt;a href=&#34;https://drive.google.com/open?id=1BvJCqBQHLMhrPrUsYvGWoq1nk7iGD9cd&#34;&gt;https://drive.google.com/open?id=1BvJCqBQHLMhrPrUsYvGWoq1nk7iGD9cd&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;:orange_book: Slides &lt;a href=&#34;https://drive.google.com/open?id=1_rczdp74g8hFnAvXQPVfZClpvoB_B3RN&#34;&gt;https://drive.google.com/open?id=1_rczdp74g8hFnAvXQPVfZClpvoB_B3RN&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Service-oriented architectures: Software services as Message-linked computing capabilities&lt;/li&gt;
+&lt;li&gt;The different aaS’s: Network, Infrastructure, Platform, Software&lt;/li&gt;
+&lt;li&gt;The amazing services that Amazon AWS and Microsoft Azure have&lt;/li&gt;
+&lt;li&gt;Initial Gartner comments on clouds (they are now the norm) and evolution of servers; serverless and microservices&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;defining-clouds-iii&#34;&gt;Defining Clouds III:&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/images/video.png&#34; alt=&#34;Video&#34;&gt; Video &lt;a href=&#34;https://drive.google.com/open?id=1MjIU3N2PX_3SsYSN7eJtAlHGfdePbKEL&#34;&gt;https://drive.google.com/open?id=1MjIU3N2PX_3SsYSN7eJtAlHGfdePbKEL&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;:orange_book: Slides &lt;a href=&#34;https://drive.google.com/open?id=1cDJhE86YRAOCPCAz4dVv2ieq-4SwTYQW&#34;&gt;https://drive.google.com/open?id=1cDJhE86YRAOCPCAz4dVv2ieq-4SwTYQW&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Cloud Market Share&lt;/li&gt;
+&lt;li&gt;How important are they?&lt;/li&gt;
+&lt;li&gt;How much money do they make?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;virtualization&#34;&gt;Virtualization:&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/images/video.png&#34; alt=&#34;Video&#34;&gt; Video &lt;a href=&#34;https://drive.google.com/open?id=1-zd6wf3zFCaTQFInosPHuHvcVrLOywsw&#34;&gt;https://drive.google.com/open?id=1-zd6wf3zFCaTQFInosPHuHvcVrLOywsw&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;:orange_book: Slides &lt;a href=&#34;https://drive.google.com/open?id=1_-BIAVHSgOnWQmMfIIC61wH-UBYywluO&#34;&gt;https://drive.google.com/open?id=1_-BIAVHSgOnWQmMfIIC61wH-UBYywluO&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Virtualization Technologies, Hypervisors and the different approaches&lt;/li&gt;
+&lt;li&gt;KVM Xen, Docker and Openstack&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;cloud-infrastructure-i&#34;&gt;Cloud Infrastructure I:&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/images/video.png&#34; alt=&#34;Video&#34;&gt; Video &lt;a href=&#34;https://drive.google.com/open?id=1CIVNiqu88yeRkeU5YOW3qNJbfQHwfBzE&#34;&gt;https://drive.google.com/open?id=1CIVNiqu88yeRkeU5YOW3qNJbfQHwfBzE&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;:orange_book: Slides &lt;a href=&#34;https://drive.google.com/open?id=11JRZe2RblX2MnJEAyNwc3zup6WS8lU-V&#34;&gt;https://drive.google.com/open?id=11JRZe2RblX2MnJEAyNwc3zup6WS8lU-V&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Comments on trends in the data center and its technologies&lt;/li&gt;
+&lt;li&gt;Clouds physically across the world&lt;/li&gt;
+&lt;li&gt;Green computing&lt;/li&gt;
+&lt;li&gt;Amount of world’s computing ecosystem in clouds&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;cloud-infrastructure-ii&#34;&gt;Cloud Infrastructure II:&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/images/video.png&#34; alt=&#34;Video&#34;&gt; Videos &lt;a href=&#34;https://drive.google.com/open?id=1yGR0YaqSoZ83m1_Kz7q7esFrrxcFzVgl&#34;&gt;https://drive.google.com/open?id=1yGR0YaqSoZ83m1_Kz7q7esFrrxcFzVgl&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;:orange_book: Slides &lt;a href=&#34;https://drive.google.com/open?id=1L6fnuALdW3ZTGFvu4nXsirPAn37ZMBEb&#34;&gt;https://drive.google.com/open?id=1L6fnuALdW3ZTGFvu4nXsirPAn37ZMBEb&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Gartner hypecycle and priority matrix on Infrastructure Strategies and
+Compute Infrastructure&lt;/li&gt;
+&lt;li&gt;Containers compared to virtual machines&lt;/li&gt;
+&lt;li&gt;The emergence of artificial intelligence as a dominant force&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;cloud-software&#34;&gt;Cloud Software:&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/images/video.png&#34; alt=&#34;Video&#34;&gt; Video &lt;a href=&#34;https://drive.google.com/open?id=14HISqj17Ihom8G6v9KYR2GgAyjeK1mOp&#34;&gt;https://drive.google.com/open?id=14HISqj17Ihom8G6v9KYR2GgAyjeK1mOp&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;:orange_book: Slides &lt;a href=&#34;https://drive.google.com/open?id=10TaEQE9uEPBFtAHpCAT_1akCYbvlMCPg&#34;&gt;https://drive.google.com/open?id=10TaEQE9uEPBFtAHpCAT_1akCYbvlMCPg&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;HPC-ABDS with over 350 software packages and how to use each of 21 layers&lt;/li&gt;
+&lt;li&gt;Google’s software innovations&lt;/li&gt;
+&lt;li&gt;MapReduce in pictures&lt;/li&gt;
+&lt;li&gt;Cloud and HPC software stacks compared&lt;/li&gt;
+&lt;li&gt;Components need to support cloud/distributed system programming&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;cloud-applications-i-research-applications&#34;&gt;Cloud Applications I: Research applications&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/images/video.png&#34; alt=&#34;Video&#34;&gt; Video &lt;a href=&#34;https://drive.google.com/open?id=11zuqeUbaxyfpONOmHRaJQinc4YSZszri&#34;&gt;https://drive.google.com/open?id=11zuqeUbaxyfpONOmHRaJQinc4YSZszri&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;:orange_book: Slides &lt;a href=&#34;https://drive.google.com/open?id=1hUgC82FLutp32rICEbPJMgHaadTlOOJv&#34;&gt;https://drive.google.com/open?id=1hUgC82FLutp32rICEbPJMgHaadTlOOJv&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Clouds in science where the area called cyberinfrastructure&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;cloud-applications-ii-few-key-types&#34;&gt;Cloud Applications II: Few key types&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/images/video.png&#34; alt=&#34;Video&#34;&gt; Video &lt;a href=&#34;https://drive.google.com/open?id=1S2-MgshCSqi9a6_tqEVktktN4Nf6Hj4d&#34;&gt;https://drive.google.com/open?id=1S2-MgshCSqi9a6_tqEVktktN4Nf6Hj4d&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;:orange_book: Slides &lt;a href=&#34;https://drive.google.com/open?id=1KlYnTZgRzqjnG1g-Mf8NTvw1k8DYUCbw&#34;&gt;https://drive.google.com/open?id=1KlYnTZgRzqjnG1g-Mf8NTvw1k8DYUCbw&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Internet of Things&lt;/li&gt;
+&lt;li&gt;Different types of MapReduce&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;parallel-computing-in-pictures&#34;&gt;Parallel Computing in Pictures&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/images/video.png&#34; alt=&#34;Video&#34;&gt; Video &lt;a href=&#34;https://drive.google.com/open?id=1LSnVj0Vw2LXOAF4_CMvehkn0qMIr4y4J&#34;&gt;https://drive.google.com/open?id=1LSnVj0Vw2LXOAF4_CMvehkn0qMIr4y4J&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;:orange_book: Slides &lt;a href=&#34;https://drive.google.com/open?id=1IDozpqtGbTEzANDRt4JNb1Fhp7JCooZH&#34;&gt;https://drive.google.com/open?id=1IDozpqtGbTEzANDRt4JNb1Fhp7JCooZH&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Some useful analogies and principles&lt;/li&gt;
+&lt;li&gt;Society and Building Hadrian’s wall&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;parallel-computing-in-real-world&#34;&gt;Parallel Computing in real world&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/images/video.png&#34; alt=&#34;Video&#34;&gt; Video &lt;a href=&#34;https://drive.google.com/open?id=1d0pwvvQmm5VMyClm_kGlmB79H69ihHwk&#34;&gt;https://drive.google.com/open?id=1d0pwvvQmm5VMyClm_kGlmB79H69ihHwk&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;:orange_book: Slides &lt;a href=&#34;https://drive.google.com/open?id=1aPEIx98aDYaeJS-yY1JhqqnPPJbizDAJ&#34;&gt;https://drive.google.com/open?id=1aPEIx98aDYaeJS-yY1JhqqnPPJbizDAJ&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Single Program/Instruction Multiple Data SIMD SPMD&lt;/li&gt;
+&lt;li&gt;Parallel Computing in general&lt;/li&gt;
+&lt;li&gt;Big Data and Simulations Compared&lt;/li&gt;
+&lt;li&gt;What is hard to do?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;cloud-storage&#34;&gt;Cloud Storage:&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/images/video.png&#34; alt=&#34;Video&#34;&gt; Video &lt;a href=&#34;https://drive.google.com/open?id=1ukgyO048qX0uZ9sti3HxIDGscyKqeCaB&#34;&gt;https://drive.google.com/open?id=1ukgyO048qX0uZ9sti3HxIDGscyKqeCaB&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;:orange_book: Slides &lt;a href=&#34;https://drive.google.com/open?id=1rVRMcfrpFPpKVhw9VZ8I72TTW21QxzuI&#34;&gt;https://drive.google.com/open?id=1rVRMcfrpFPpKVhw9VZ8I72TTW21QxzuI&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Cloud data approaches&lt;/li&gt;
+&lt;li&gt;Repositories, File Systems, Data lakes&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;hpc-and-clouds-the-branscomb-pyramid&#34;&gt;HPC and Clouds: The Branscomb Pyramid&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/images/video.png&#34; alt=&#34;Video&#34;&gt; Video &lt;a href=&#34;https://drive.google.com/open?id=15rrCZ_yaMSpQNZg1lBs_YaOSPw1Rddog&#34;&gt;https://drive.google.com/open?id=15rrCZ_yaMSpQNZg1lBs_YaOSPw1Rddog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;:orange_book: Slides &lt;a href=&#34;https://drive.google.com/open?id=1JRdtXWWW0qJrbWAXaHJHxDUZEhPCOK_C&#34;&gt;https://drive.google.com/open?id=1JRdtXWWW0qJrbWAXaHJHxDUZEhPCOK_C&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Supercomputers versus clouds&lt;/li&gt;
+&lt;li&gt;Science Computing Environments&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;comparison-of-data-analytics-with-simulation&#34;&gt;Comparison of Data Analytics with Simulation:&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/images/video.png&#34; alt=&#34;Video&#34;&gt; Video &lt;a href=&#34;https://drive.google.com/open?id=1wmt7MQLz3Bf2mvLN8iHgXFHiuvGfyRKr&#34;&gt;https://drive.google.com/open?id=1wmt7MQLz3Bf2mvLN8iHgXFHiuvGfyRKr&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;:orange_book: Slides &lt;a href=&#34;https://drive.google.com/open?id=1vRv76LerhgJKUsGosXLVKq4s_wDqFlK4&#34;&gt;https://drive.google.com/open?id=1vRv76LerhgJKUsGosXLVKq4s_wDqFlK4&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Structure of different applications for simulations and Big Data&lt;/li&gt;
+&lt;li&gt;Software implications&lt;/li&gt;
+&lt;li&gt;Languages&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;the-future&#34;&gt;The Future:&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/images/video.png&#34; alt=&#34;Video&#34;&gt; Video &lt;a href=&#34;https://drive.google.com/open?id=1A20g-rTYe0EKxMSX0HI4D8UyUDcq9IJc&#34;&gt;https://drive.google.com/open?id=1A20g-rTYe0EKxMSX0HI4D8UyUDcq9IJc&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;:orange_book: Slides &lt;a href=&#34;https://drive.google.com/open?id=1_vFA_SLsf4PQ7ATIxXpGPIPHawqYlV9K&#34;&gt;https://drive.google.com/open?id=1_vFA_SLsf4PQ7ATIxXpGPIPHawqYlV9K&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Gartner cloud computing hypecycle and priority matrix&lt;/li&gt;
+&lt;li&gt;Hyperscale computing&lt;/li&gt;
+&lt;li&gt;Serverless and FaaS&lt;/li&gt;
+&lt;li&gt;Cloud Native&lt;/li&gt;
+&lt;li&gt;Microservices&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;fault-tolerance&#34;&gt;Fault Tolerance&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/images/video.png&#34; alt=&#34;Video&#34;&gt; Video &lt;a href=&#34;https://drive.google.com/open?id=11hJA3BuT6pS9Ovv5oOWB3QOVgKG8vD24&#34;&gt;https://drive.google.com/open?id=11hJA3BuT6pS9Ovv5oOWB3QOVgKG8vD24&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;:orange_book: Slides &lt;a href=&#34;https://drive.google.com/open?id=1oNztdHQPDmj24NSGx1RzHa7XfZ5vqUZg&#34;&gt;https://drive.google.com/open?id=1oNztdHQPDmj24NSGx1RzHa7XfZ5vqUZg&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Report: Change of Internet Capabilities Throughout the World</title>
+      <link>/report/fa20-523-334/report/report/</link>
+      <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/report/fa20-523-334/report/report/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-334/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-334/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-334/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-334/workflows/Status/badge.svg&#34; alt=&#34;Status&#34;&gt;&lt;/a&gt;
+Status: final, Type: Report&lt;/p&gt;
+&lt;p&gt;Matthew Cummings, &lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-334/&#34;&gt;fa20-523-334&lt;/a&gt;, &lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-334/blob/main/report/report.md&#34;&gt;Edit&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;In 2050 the United Nations is projecting that 90% of the world will have access to the internet. With the recent pandemic and the shift to most things being online we see how desperate people need internet to be able to do everyday tasks. The internet is a valuable utility and more people are getting access to it every day. We also are seeing more data is being sent over the internet with more than 24,000 Gigabytes being uploaded and processed per second across the entire internet. In this report we look at the progression of the internet and how it has changed over the years.&lt;/p&gt;
+&lt;p&gt;Contents&lt;/p&gt;
+&lt;div class=&#34;toc&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#1-introduction&#34;&gt;1. Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#2-background-and-current-works&#34;&gt;2. Background and Current Works&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#3-dataset&#34;&gt;3. Dataset&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#4-data-within-internet&#34;&gt;4. Data Within Internet&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#41-data-analysis-of-internet-change&#34;&gt;4.1 Data Analysis of Internet Change&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#5-americas-internet-history&#34;&gt;5. America’s Internet History&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#51--americas-population-data&#34;&gt;5.1  America’s Population Data&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#52-how-america-started-the-network-and-government-help&#34;&gt;5.2 How America Started the Network and Government Help&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#53--national-science-foundation-involvement&#34;&gt;5.3  National Science Foundation Involvement&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#54-present-geographical-challenges-for-spread-of-internet-within-america&#34;&gt;5.4 Present Geographical Challenges for Spread of Internet Within America&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#55-summary-of-americas-internet&#34;&gt;5.5 Summary of America’s Internet&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#6-africas-struggles-to-get-continent-wide-internet&#34;&gt;6. Africa’s Struggles to get Continent Wide Internet&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#61-how-did-africa-get-their-internet&#34;&gt;6.1 How did Africa get their Internet?&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#62-africas-geographical-problems&#34;&gt;6.2 Africa’s Geographical Problems&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#63-current-trends-and-future-for-africa&#34;&gt;6.3 Current Trends and Future for Africa&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#64-summary-of-africas-internet&#34;&gt;6.4 Summary of Africa’s Internet&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#7-conclusion&#34;&gt;7. Conclusion&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#71-limitations&#34;&gt;7.1 Limitations&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#72-future-work&#34;&gt;7.2 Future Work&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#8-acknowledgements&#34;&gt;8. Acknowledgements&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#9-references&#34;&gt;9. References&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; internet, internet development, progression of internet, population, data analysis, big data, government&lt;/p&gt;
+&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;
+&lt;p&gt;Everyday people throughout the world connect to the internet with speeds never before seen. The internet has not always been this way and for some countries they are still not at the same speeds. The internet started out to be a slow connection of one computer to the other with large machines helping pass the data. This quickly changed to become a vast network of computers all connected to one another and using packet processing systems to transport data. With the internet seen as a new and important technology governments and companies soon started their own development of networks and expansions. These expansions and networks would be the ground work for what we call the internet today.&lt;/p&gt;
+&lt;p&gt;With the United Nations projecting that 90% of the entire population will have internet in 2050 and currently only 50% of the entire population &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; this work will look at how we started this movement and in what areas we need to improve on. Currently about 87% of American’s have access to the internet and use it daily while other countries like Chad only have 6.7% of their population using the internet. This can is from the vast resources America used to expand their networks and create the ideal internet connection that other countries strive to have. While other underdeveloped countries are trying to catchup and build their own infrastructure in the modern age, first world countries, like America, are expanding their networks to be better and more reliable. &lt;strong&gt;Figure 1&lt;/strong&gt; shows the current status of the percentage of the population in each country that has internet. Dark blue color is the best with greater than 70% of their population having internet access while the lighter blue is countries whose population is less than 18%.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-334/raw/main/report/images/WorldPresent.png&#34; alt=&#34;Present World Population&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 1:&lt;/strong&gt; Shows the current percentage of the world’s population that has/uses internet within each country &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;2-background-and-current-works&#34;&gt;2. Background and Current Works&lt;/h2&gt;
+&lt;p&gt;In 1965 Thomas Merrill and Lawrence G. Roberts started the first ever wide-area computer network ever built. The internet first started out as huge machines that were sizes of small houses that were only capable of transferring small amounts of data or packets as they soon invented. The internet at the time was not even called internet but the Advanced Research Projects Agency Network (ARPANET). This Network backed by the U.S. Department Of Defense used node-to-node communication to send a messages. The first test was a simple test of sending the message of &lt;em&gt;LOGIN&lt;/em&gt; from one computer to the other. It crashed after &lt;em&gt;LO&lt;/em&gt; was sent. Following this devastating start improvements were made with the capabilities of that these computers could perform. With data now being sent throughout the network researchers needed to develop a standard on how packets should be sent. This is when the transmission control protocol and internet protocol (TCP/IP) was invented. It was soon adopted into the APARTNET in 1983 and became the standard on how computers should send and process data &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. TCP/IP is how packets are sent all over the internet. This system uses the packet-switched network where information is broken into packets and sent to different routers, the IP section of the system, and following the packets it was then put back together on the receiving end and resembled into what it was originally, TCP &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;When the internet was developed there was many different communities and the growth of these communities brought problems. There was no one group or organization that organized these groups and all these communities were on different platforms and areas. This is when the Internet Activities Board (IAB) and Tim Berners-Lee from MIT came together to develop the World Wide Web (WWW) and its primary community of World Wide Web Consortium (W3C). W3C is now the primary group who make protocols and standards for the WWW. This group is still actively watching and helping the WWW to make sure it is growing steadily and supported throughout the internet &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;3-dataset&#34;&gt;3. Dataset&lt;/h2&gt;
+&lt;p&gt;To compare countries internet usage and how many people in each country use the internet two datasets will be used. These datasets will look at the percentage of the population that has internet access &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; and the percentage of the population that use smartphones &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; as that is another way people can access the internet. Once the data has been analyzed we looked at why the data is like this and how the data has changed to the way it is now.&lt;/p&gt;
+&lt;h2 id=&#34;4-data-within-internet&#34;&gt;4. Data Within Internet&lt;/h2&gt;
+&lt;p&gt;The internet has progressed largely from not being able to send a simple message like &lt;em&gt;LOGIN&lt;/em&gt; from one computer to another to being able to process terabytes of data. We are now seeing 24,000 gigabytes per second being passed and uploaded throughout the internet &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;. To give perspective on this 1 gigabyte can hold up to 341 average sized digital pictures, or one megabyte is equal to 873 plain text pages and there are 1000 megabytes in 1 gigabyte. That is 873,000 pages of plain text per gigabyte and the internet is sending and uploading about 24,000 gigabytes per second, that is 24,952,000,000 pages of plain text pages being sent over the internet. This large quantity of data and information is passed throughout the internet every second and usually without any hiccups or data issues. This data and information has not always been here &lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;. Most of it is relatively new with 90% of most data on the internet being created post 2016. This data is still growing and will continue to grow. With more than 4.4 billion people on the internet all these users are pumping more data and this data is being passed around other users. With 7.5 billion people on earth almost 60% of people on earth are using the internet and are contributing to the amount of data on it. This change has not been a slow change but an explosion of change and new users. In 2014 there was only 2.4 billion users on the internet. Within 5 years we see a growth of 2 billion users and with that we see an ever increasing amount of data being sent and uploaded &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;. Some of this data is being stored and used throughout the world every day and we have companies like Google, Facebook, Amazon, and Microsoft who store this data. Between them it is estimated that they store 1.2 million terabytes of internet data. Just looking at these 4 companies we see the magnitude of the data that is being stored and kept throughout the internet and each day these numbers grow &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;. To give some perspective on how large that data storage is 1 Terabyte is 1000 gigabytes of data. Cisco even estimates that there has been over 1 zettabyte of data created and uploaded on the internet in 2016, zettabyte is 1000 exabytes an exabyte is 1000 petabytes and a petabyte is 1000 terabytes &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;. That is a lot of data and information being sent and passed throughout the internet. It is also estimated that in 2018 we have reached 18 zettabytes. We see the growth of this data being passed throughout the internet in 2 years from being 1 zettabyte to being 18. This growth will not stop or slow down but continue to expand and grow as it is being predicted to be about 175 zettabytes within the year 2025. &lt;em&gt;That is enough information to store on DVDs that can circle the earth 222 times&lt;/em&gt; &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;. Now this data is not all being stored but just uploaded or sent to other users. With an overwhelmingly number of this data coming from the social media companies and posts people are sending to each other. We are also seeing the growth within searches with Google getting over 3.5 Billion searches every day. We will see how this data came to be and how the internet slowly took over the world.&lt;/p&gt;
+&lt;h3 id=&#34;41-data-analysis-of-internet-change&#34;&gt;4.1 Data Analysis of Internet Change&lt;/h3&gt;
+&lt;p&gt;Using the datasets &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; we can analyze how this transition took place throughout the world and how the internet progressed. Looking at 2017 data we see that all first world countries have more than 70% of their population using the internet but other countries are still struggling. Looking at the progression of the internet we see that America started off the strongest and most explosive growth out of all countries and has maintain that growth while other countries and continents have fallen behind. We will look at how the internet started so strong in America and how it has teetered in other parts of the world.&lt;/p&gt;
+&lt;h2 id=&#34;5-americas-internet-history&#34;&gt;5. America’s Internet History&lt;/h2&gt;
+&lt;p&gt;Looking at the 1990’s data we see that America is at .79% of the population having internet while the entire world as a whole is less than .0495%. The only countries who are close to America is Norway, Canada, Sweden, Finland, and Australia. These countries populations are all less than American’s percentage with Norway the closest at .7%. &lt;strong&gt;Figure 2&lt;/strong&gt; shows these percentages and how drastic these differences are with some countries having 0% of their entire population having access to the internet &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;. How is America and these five countries populations have so many more users using the internet compared to the rest of the world?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-334/raw/main/report/images/World1990.png&#34; alt=&#34;World Population in 1990&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 2:&lt;/strong&gt; This figure shows the 1990’s current population % of people accessing the internet &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;51--americas-population-data&#34;&gt;5.1  America’s Population Data&lt;/h3&gt;
+&lt;p&gt;With the WWW being developed and deployed within America it makes sense that America would be the first country to expand their internet and have a larger portion of their population using the internet over the rest of the world. The dramatic difference of America having .79% of their population over the worlds .0495%, America was able to drastically take advantage of their early start and develop it to their needs. When looking at the world’s population with internet compared to America’s, American population with internet accounts for more than half of the world’s population with internet, with America’s population being 250 million in 1990’s and .79% of their population having internet that means 1.975 million people had internet in America while only 2.614 million globally had internet &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;. America at the time was a leader in the world on internet and it is interesting how it got there.&lt;/p&gt;
+&lt;h3 id=&#34;52-how-america-started-the-network-and-government-help&#34;&gt;5.2 How America Started the Network and Government Help&lt;/h3&gt;
+&lt;p&gt;With the development of APARTNET within the United States the Government saw the opportunity to help expand it within its own country. The U.S. Government helped the expansion of the internet by financing contracts and building satellite sites across the world to gain access to the internet. These sites where built mostly in military bases across the world and helped countries tap into the internet without the huge cost of infrastructure . The Department of Defense (DOD) also saw an opportunity in the new Internet with their creation of MILNET. MILNET connected numerous military compounds and their computers to the United States main hub. These connections used the APARTNET but were able to disconnect and use its own network if it became compromised. These connections made it able for the internet to spread to different countries since the United States military is set up in so many countries and have bases all over the world. Most of these connections were prioritized in the United States allied  countries like Norway, Australia, Canada, and EU hence why these countries have a large population using their internet in 1990, &lt;strong&gt;Figure 2&lt;/strong&gt;. All the infrastructure was already set up because of the military bases and the satellites the United States built for it. These countries took advantage of it and connected their people to the internet for the fraction of the cost &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;53--national-science-foundation-involvement&#34;&gt;5.3  National Science Foundation Involvement&lt;/h3&gt;
+&lt;p&gt;The internet also progressed quickly to these countries and throughout the United States population because of the use of super computers which helped the connections and speed of the internet. The Reagan administration saw an important need to develop these super computers that could broaden the connection and networks of the computers. National Science Foundation (NSF) had a super computer already on their network but with the help of the administration they were able to expand that network to all internet users. The new network that NSF developed was the NSFNET. This network connected academic users to the super computer and those computers to other computers. Creating this intertwined network that was all able to use the speed and power of a super computer. It expanded the speed to be 1.5 megabits per second and would replace the APARTNET network which only could handle 50 kilobytes per second. Because of NSFNET we saw an explosion of growth within the internet with it growing over 10% each month in 1990. This is why United States had so many more users than any other country because they were able to use this faster and better network. NSF saw the need to expand elsewhere and used the NSFNET to start connecting the world globally. Using the pre-installed infrastructure of the old Satellite internet they were able to connect countries that already had internet with ease. This is why the American allies were able to have so many of their own population on the internet when comparing it to the world &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;54-present-geographical-challenges-for-spread-of-internet-within-america&#34;&gt;5.4 Present Geographical Challenges for Spread of Internet Within America&lt;/h3&gt;
+&lt;p&gt;One of the largest challenges with the spread of the internet in the United States is how vast the country is. With a size of 4 million miles^2 it was a challenge to reach everyone within the United States with internet. With an also ever increasing size of rural living more people are living outside of cities were it can be harder to get internet. About 3% of American’s living in urban areas lack access to broadband but comparing that to the rural we see that 35% the population lack it. That is 20 million American’s that do not have access to high speed broadband or internet because of where they live. The reason for why rural users lack the broadband capabilities is that the cost to run high speed internet to those areas is too much and the high speeds cannot reach that far from the hubs &lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;. When comparing these rural areas to urban areas we also see that urban areas almost always have more than three options for broadband while rural areas can be limited. Based on &lt;strong&gt;Figure 3&lt;/strong&gt; we see that all of the urban centers have access to these high speed broadbands and have options for what type of company they want. While rural areas struggle to have more than 2. .12% of rural areas have 0 access to any company that give broadband while only .01% of urban areas have 0 &lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt;. To help the spread of internet to these rural areas the Government has decided to help again. Recently the Government has signed in the Broadband Data Act which will help identify the rural areas that need help and how they can fix the issues at hand. Congress has also packaged in 100 million to help this digital divide and try and better the situation. This process was expedited because of the recent pandemic and how desperate people are to get on the internet &lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-334/raw/main/report/images/AmericaBroadband.jpg&#34; alt=&#34;America’s BroadBand&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-334/raw/main/report/images/LegendAmerica.jpg&#34; alt=&#34;America’s Legend&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 3:&lt;/strong&gt; This image shows the broadband capabilities throughout the nation. The legend below the picture depicts what each color means. We see from this chart that all urban areas have more than 12 high speed broadband providers will rural areas mostly have 1-2 options. This is the challenge for rural America when they are stuck with one option and that option can sometimes not even provide the fastest internet and will also be expensive &lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;55-summary-of-americas-internet&#34;&gt;5.5 Summary of America’s Internet&lt;/h3&gt;
+&lt;p&gt;Without the direct involvement of the United States Government the internet would have had a slower progression than the one we are seeing today. Without the military and the NSF the internet would not have been the same and could have looked a lot different. We would not have had the same widespread start without all the military bases having all the required infrastructure for the internet and we would not have had the required needs for the internet because of the vast contracts that the military supplied. This is how America was able to be so far ahead of the rest of the World and why the American allies were able to also build up their own infrastructure and take advantage of the infrastructure supplied by America. We also would have had a lot slower internet if it was not for America and the connection of the super computers on the networks.&lt;/p&gt;
+&lt;h2 id=&#34;6-africas-struggles-to-get-continent-wide-internet&#34;&gt;6. Africa’s Struggles to get Continent Wide Internet&lt;/h2&gt;
+&lt;p&gt;Looking at the data within Data World Bank we can see the vast change within countries. Some countries populations double how many people are using the internet each year. One region to look at specifically is Africa. Africa did not have each country within it have internet until 2000. That is 20 years after the start and development of the internet. When looking at the entire population of Africa only 16.18% of the them had internet access or used internet access. Comparing this America’s 43.1% and Canada’s 51.3% we see a huge disparity here. We also see that the Average population that uses internet in Africa being .385%. This is dramatically low but given that Africa is an underdeveloped country and has had lots of struggles makes sense.&lt;/p&gt;
+&lt;h3 id=&#34;61-how-did-africa-get-their-internet&#34;&gt;6.1 How did Africa get their Internet?&lt;/h3&gt;
+&lt;p&gt;It started very early with Africa getting the first computer in 1980’s. This computer started how their network would work and how they would setup their own infrastructure. Most of the universities in Africa were the ones who lead the new technology age for Africa. These universities became the hotspots for computing and the internet. Africa also got some major help from the Internet Society &lt;sup id=&#34;fnref:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt;. The Internet Society is a nonprofit organization that helps people connect to the internet and can help countries setup their own networks &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. In 1993 the Internet Society held a large workshop that helped a lot of underdeveloped countries connect to the internet and teach them all how to supply their population with this critical utility. Each following year the workshop hosted a new event which grew in size and over 447 citizens attended it who were from African Countries. This helped bring the discussion how Africa can setup their network and get their people the vital resources they need &lt;sup id=&#34;fnref:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt;. Africa has also gotten help from other countries to help develop their infrastructure and get their internet systems going. On major help was America’s USAID LELAND initiative which supplied Africa 15$ million to help develop their infrastructure. This agreement made it possible for African countries to develop primary connections to their own networks from USA’s high speed network. With this deal that started in 1996 and ended in 2001 we see a large spike in the populations and countries who finally have access to internet &lt;sup id=&#34;fnref:14&#34;&gt;&lt;a href=&#34;#fn:14&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;14&lt;/a&gt;&lt;/sup&gt;. With the help of this resource Africa was able to start developing their own network organization for all of Africa called AfriNIC. AfriNic is similar to America’s IAB were they help to make sure the networks are open to everyone within Africa and that if there are issues they are solved. Africa began to develop into the modern age of the internet with this and started to catch up to others &lt;sup id=&#34;fnref:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;62-africas-geographical-problems&#34;&gt;6.2 Africa’s Geographical Problems&lt;/h3&gt;
+&lt;p&gt;Africa’s geography is causing similar problems to their internet distribution just like America’s. Africa is a ginormous continent with an area of 11.73 million miles^2. With that much land it can be hard to cover this entire continent with internet and provide people in rural areas with internet. About one third of the population is out of reach of all mobile broadband reach and can not get access to any internet. To cover this land Africa needs to invest an more infrastructure to cover this land with 250,000 base stations and 250,000 kilometers of fiber. Africa’s population is spread out throughout the whole country, based on &lt;strong&gt;Figure 4&lt;/strong&gt; we see all the connections and networks throughout Africa there are. It is estimated that 45% of African’s are to far away from any fiber network to connect to the internet. These areas with no networks or infrastructure are areas with low populations and not hotspots or major cities. This problem might not be solved for a while as companies will focus on hotspots rather than helping people in need to access the internet. One of the more recent developments that might help Africa is the SpaceX Satellite internet &lt;sup id=&#34;fnref:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt;. This can help them as they wont need the vast infrastructure to create the network and the connection will be able to reach all over the continent. Africa’s geography  limits people connection based on where they live and if they are near the water to connect the submerged connections. With more investment and new inventions we could see this geographical challenge tackled within 20 years.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-334/raw/main/report/images/AfricaGeo.png&#34; alt=&#34;Africa Geography&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 4:&lt;/strong&gt; Seeing the hotspots throughout the continent and where the internet access is shows the disparity of rural vs urban living. Hotspots of populations are targeted more for internet connection as it makes sense for companies financially to target those areas. This creates a large divide for areas inside the continent who do not have networks or any chance of connecting to the networks. This figure shows how this disparity is present within Africa.&lt;/p&gt;
+&lt;h3 id=&#34;63-current-trends-and-future-for-africa&#34;&gt;6.3 Current Trends and Future for Africa&lt;/h3&gt;
+&lt;p&gt;Looking at the recent data for World Data Bank we see that African countries have been having a comeback with the amount of people using the internet. Currently Africa has seen a large spike in people using the internet. This can be because of all these programs that have helped start its program but it is can also be from two-thirds of the population having phones that can connect to the internet. Africa still has a problem with less than 50% of its entire population having access to internet and a computer. There are still a lot of struggling countries like Niger that only have 5.3% of it is population that use and connect to the internet. Within this day and age having access to the internet is almost critical to survive and be a part of the world. With only 5.3% of their population having internet they are still struggling to have access for everyone. Comparing this to current America with 83% of the population having internet Africa is still far behind the curve of first world countries. This lack of internet has created an opportunity of some people to help or take advantage of Africa’s lack of infrastructure. China’s Company Huawei has agreed to build the first ever 5G network within Africa. This network will help the current population of phone users to connect to higher speeds and see a great increase in use of the internet. American countries Vanu and Parallel have also been tackling this issue with new network plans and innovative ideas to help Africa’s internet networks expand to the vast region. With a projected $160 Billion annual cost to develop and maintain a country wide infrastructure a lot of people believe they need more than just companies to help them &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;. With no more help from outside countries it looks grim for Africa’s continued growth within the internet unless more companies come try to develop their own system and networks. Looking at &lt;strong&gt;Figures 5&lt;/strong&gt; we see how African countries have had a much slower progression towards internet when compared to other countries, &lt;strong&gt;Figure 6&lt;/strong&gt; shows America’s progression. &lt;strong&gt;Figure 7&lt;/strong&gt; also depicts the current status of Africa and how most countries within Africa are still below 18% of their population using internet within the current day and age.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-334/raw/main/report/images/AfricaChange.png&#34; alt=&#34;Africa % Change&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 5:&lt;/strong&gt; Seeing these countries all mostly below 50% while major countries are over 70%-80% depicts how far behind Africa is within the internet. We can also see the change and growth of the internet within these countries and compare it to other countries. Comparing it to America’s growth they are nowhere near as explosive or close to being the current rate of America’s internet growth &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-334/raw/main/report/images/AmericaChange.png&#34; alt=&#34;America % Change&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 6:&lt;/strong&gt; America’s growth within the internet &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-334/raw/main/report/images/AfricaPresent.png&#34; alt=&#34;Africa Current&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 7:&lt;/strong&gt; This is the current status of Africa’s internet population percentage. Notice that most countries within Africa are less than 18% while the world population % is greater than 50%. This depicts how far behind Africa is with building their infrastructure &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;64-summary-of-africas-internet&#34;&gt;6.4 Summary of Africa’s Internet&lt;/h3&gt;
+&lt;p&gt;With less help from outside countries Africa is almost on their own with decided how they should improve their Internet Capabilities. Companies are see this as an opportunity to develop and use their own technologies to help Africa with their issues. These companies will develop a new network to try and get the entire country connected and online. This could be a problem were Africa is not entirely in control of their internet and data but with no outside help from any other countries they might have to take the best options available and go with these companies. With the help of Internet Society and AfriNET Africa has already started developing programs and networks to connect the country but with the infrastructure cost being too high they still need help. These organizations could help maintain oversite within this work and make sure Africa does not get taken advantage of. As the world progresses to complete internet involvement Africa is still far behind the rest.&lt;/p&gt;
+&lt;h2 id=&#34;7-conclusion&#34;&gt;7. Conclusion&lt;/h2&gt;
+&lt;p&gt;After viewing the data and analyzing trends the team saw the large differences between countries with who had an early start within the area of internet development and those countries who are far behind. Analyzing the reason behind this we see that countries who had access to the internet early and were able to take advantage of their early start were able to have a much larger population percentage than the countries who did now. We also see that some countries would get help from outside countries but when those contracts expired they were left out to dry. Seeing America and the vast amount of allies it had in 1990’s-2000’s with their population with access to internet quadrupling those in less developed countries is staggering but when looking behind the data and the reason why we see that some countries are just not as equally equipped and don’t have the infrastructure to compete with other countries networks. With 90% of the population being projected to have access to the internet it will be interesting to see the change in these areas. As we get closed to that 90% it will be these less developed countries who will make staggering changes within their percentage of population compared to the other developed countries.&lt;/p&gt;
+&lt;h3 id=&#34;71-limitations&#34;&gt;7.1 Limitations&lt;/h3&gt;
+&lt;p&gt;With only one large dataset that had all the population sizes and percentages it can be difficult to check the accuracy of the data within the set. The datasets also contained a numerous amount of null data and/or incomplete data for a vast majority of countries. This hindered the ability to further look at the correct trends and analysis of the dataset. With also having not a vast knowledge of data analysis within data the team was not able to analyze the datasets for the planned project.&lt;/p&gt;
+&lt;h3 id=&#34;72-future-work&#34;&gt;7.2 Future Work&lt;/h3&gt;
+&lt;p&gt;The team will continue to analyze these datasets and build their own programs to look see the different trends within these areas and countries. The team wants to keep working on the reason why they trends are happening and how these trends started. It is important to understand the reason behind the data and factors that lead to these data points. As the team progresses through the dataset, the team will continue to understand the factors and reasons within the data.&lt;/p&gt;
+&lt;h2 id=&#34;8-acknowledgements&#34;&gt;8. Acknowledgements&lt;/h2&gt;
+&lt;p&gt;The author would like to thank Dr. Gregor von Laszewski, Dr. Geoffrey Fox, and the associate instructors in the &lt;em&gt;FA20-BL-ENGR-E534-11530: Big Data Applications&lt;/em&gt; course (offered in the Fall 2020 semester at Indiana University, Bloomington) for their continued assistance and suggestions with regard to exploring this idea and also for their aid with preparing the various drafts of this article.&lt;/p&gt;
+&lt;h2 id=&#34;9-references&#34;&gt;9. References&lt;/h2&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Figures used from The Data World Bank. W. Bank, &amp;ldquo;Individuals using the Internet (% of population),&amp;rdquo; Data, 2017. [Online]. Available: &lt;a href=&#34;https://data.worldbank.org/indicator/IT.NET.USER.ZS?most_recent_value_desc=true.&#34;&gt;https://data.worldbank.org/indicator/IT.NET.USER.ZS?most_recent_value_desc=true.&lt;/a&gt; [Accessed: 07-Oct-2020]. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;B. Leiner, V. Cerf, D. Clark, R. Kahn, L. Kleinrock, D. Lynch, J. Postel, L. Roberts, and S. Wolff, &amp;ldquo;Brief History of the Internet,&amp;rdquo; Internet Society, 14-Aug-1997. [Online]. Available: &lt;a href=&#34;https://www.internetsociety.org/internet/history-internet/brief-history-internet/.&#34;&gt;https://www.internetsociety.org/internet/history-internet/brief-history-internet/.&lt;/a&gt; [Accessed: 07-Nov-2020]. &lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;B. Company, &amp;ldquo;TCP/IP,&amp;rdquo; Encyclopædia Britannica, 2018. [Online]. Available: &lt;a href=&#34;https://www.britannica.com/technology/TCP-IP.&#34;&gt;https://www.britannica.com/technology/TCP-IP.&lt;/a&gt; [Accessed: 15-Nov-2020]. &lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;W. Bank, &amp;ldquo;Individuals using the Internet (% of population),&amp;rdquo; Data, 2017. [Online]. Available: &lt;a href=&#34;https://data.worldbank.org/indicator/IT.NET.USER.ZS?most_recent_value_desc=true.&#34;&gt;https://data.worldbank.org/indicator/IT.NET.USER.ZS?most_recent_value_desc=true.&lt;/a&gt; [Accessed: 07-Oct-2020]. &lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;W. Bank, &amp;ldquo;Mobile cellular subscriptions (per 100 people),&amp;rdquo; Data, 2017. [Online]. Available: &lt;a href=&#34;https://data.worldbank.org/indicator/IT.CEL.SETS.P2?most_recent_value_desc=true.&#34;&gt;https://data.worldbank.org/indicator/IT.CEL.SETS.P2?most_recent_value_desc=true.&lt;/a&gt; [Accessed: 07-Oct-2020]. &lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:6&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;J. Schultz, &amp;ldquo;How Much Data is Created on the Internet Each Day?,&amp;rdquo; Micro Focus Blog, 08-Jun-2019. [Online]. Available: &lt;a href=&#34;https://blog.microfocus.com/how-much-data-is-created-on-the-internet-each-day/.&#34;&gt;https://blog.microfocus.com/how-much-data-is-created-on-the-internet-each-day/.&lt;/a&gt; [Accessed: 07-Nov-2020]. &lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:7&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;R. Company, &amp;ldquo;Byte Size Infographic: Visualising data,&amp;rdquo; redcentric, 03-Feb-2020. [Online]. Available: &lt;a href=&#34;https://www.redcentricplc.com/resources/byte-size-infographic/.&#34;&gt;https://www.redcentricplc.com/resources/byte-size-infographic/.&lt;/a&gt; [Accessed: 13-Nov-2020]. &lt;a href=&#34;#fnref:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:8&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;B. Marr, &amp;ldquo;How Much Data Is There In the World?,&amp;rdquo; Bernard Marr, 2020. [Online]. Available: &lt;a href=&#34;https://www.bernardmarr.com/default.asp?contentID=1846.&#34;&gt;https://www.bernardmarr.com/default.asp?contentID=1846.&lt;/a&gt; [Accessed: 07-Nov-2020]. &lt;a href=&#34;#fnref:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:9&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;R. E. Kahn, Revolution in the U.S. information infrastructure. Washington, D.C., DC: National Academy Press, 1995. Chapter The Role Of Government in the Evolution of the Internet [Accessed: 12-Nov-2020]. &lt;a href=&#34;#fnref:9&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:10&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;C. B. S. News, &amp;ldquo;The digital divide between rural and urban America&amp;rsquo;s access to internet,&amp;rdquo; CBS News, 04-Aug-2017. [Online]. Available: &lt;a href=&#34;https://www.cbsnews.com/news/rural-areas-internet-access-dawsonville-georgia/.&#34;&gt;https://www.cbsnews.com/news/rural-areas-internet-access-dawsonville-georgia/.&lt;/a&gt; [Accessed: 07-Dec-2020]. &lt;a href=&#34;#fnref:10&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:11&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;FCC, &amp;ldquo;Fixed Broadband Deployment&amp;rdquo;, FCC, 2020 [online]. Available: &lt;a href=&#34;https://broadbandmap.fcc.gov/#/area-summary?version=dec2019&amp;amp;type=nation&amp;amp;geoid=0&amp;amp;tech=acfosw&amp;amp;speed=25_3&amp;amp;vlat=39.40549184229633&amp;amp;vlon=-99.73724455499007&amp;amp;vzoom=2.987482657657667&#34;&gt;https://broadbandmap.fcc.gov/#/area-summary?version=dec2019&amp;amp;type=nation&amp;amp;geoid=0&amp;amp;tech=acfosw&amp;amp;speed=25_3&amp;amp;vlat=39.40549184229633&amp;amp;vlon=-99.73724455499007&amp;amp;vzoom=2.987482657657667&lt;/a&gt; [Accessed: 07-Dec-2020]. Map layer based on FCC Form 477 &lt;a href=&#34;#fnref:11&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:12&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;B. A. R. Association, &amp;ldquo;Expanding Broadband Access to Rural Communities,&amp;rdquo; American Bar Association, 2020. [Online]. Available: &lt;a href=&#34;https://www.americanbar.org/advocacy/governmental_legislative_work/publications/washingtonletter/march-washington-letter-2020/broadband-032020/.&#34;&gt;https://www.americanbar.org/advocacy/governmental_legislative_work/publications/washingtonletter/march-washington-letter-2020/broadband-032020/.&lt;/a&gt; [Accessed: 07-Dec-2020]. &lt;a href=&#34;#fnref:12&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:13&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Afrinic Organization, &amp;ldquo;A Short History of the Internet in Africa (1980-2000),&amp;rdquo; AFRINIC BLOG, 26-Sep-2016. [Online]. Available: &lt;a href=&#34;https://afrinic.net/blog/153-a-short-history-of-the-internet-in-africa-1980-2000.&#34;&gt;https://afrinic.net/blog/153-a-short-history-of-the-internet-in-africa-1980-2000.&lt;/a&gt; [Accessed: 05-Dec-2020]. &lt;a href=&#34;#fnref:13&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:14&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;I. Society , &amp;ldquo;History of the Internet in Africa,&amp;rdquo; Internet Society, 04-Aug-2020. [Online]. Available: &lt;a href=&#34;https://www.internetsociety.org/internet/history-of-the-internet-in-africa/.&#34;&gt;https://www.internetsociety.org/internet/history-of-the-internet-in-africa/.&lt;/a&gt; [Accessed: 05-Dec-2020]. &lt;a href=&#34;#fnref:14&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:15&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;R. Fukui, C. J. Arderne, and T. Kelly, &amp;ldquo;Africa&amp;rsquo;s connectivity gap: Can a map tell the story?,&amp;rdquo; World Bank Blogs, 07-Nov-2019. [Online]. Available: &lt;a href=&#34;https://blogs.worldbank.org/digital-development/africas-connectivity-gap-can-map-tell-story.&#34;&gt;https://blogs.worldbank.org/digital-development/africas-connectivity-gap-can-map-tell-story.&lt;/a&gt; [Accessed: 08-Dec-2020]. &lt;a href=&#34;#fnref:15&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

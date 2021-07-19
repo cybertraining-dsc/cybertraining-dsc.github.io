@@ -1,0 +1,519 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cybertraining – git</title>
+    <link>/tags/git/</link>
+    <description>Recent content in git on Cybertraining</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 15 Mar 2021 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Github</title>
+      <link>/docs/modules/bigdataapplications/2019/tech/github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/modules/bigdataapplications/2019/tech/github/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;track-progress-with-github&#34;&gt;Track Progress with Github&lt;/h2&gt;
+&lt;p&gt;We will be adding git issues for all the assignments provided in the class.
+This way you can also keep a track on the items need to be completed.
+It is like a todo list. You can check things once you complete it. This way
+you can easily track what you need to do and you can comment on the issue
+to report the questions you have. This is an experimental idea we are trying
+in the class. Hope this helps to manage your work load efficiently.&lt;/p&gt;
+&lt;h2 id=&#34;how-to-check-this&#34;&gt;How to check this?&lt;/h2&gt;
+&lt;p&gt;All you have to do is go to your git repository.&lt;/p&gt;
+&lt;p&gt;Here are the steps to use this tool effectively.&lt;/p&gt;
+&lt;h3 id=&#34;step-1&#34;&gt;Step 1&lt;/h3&gt;
+&lt;p&gt;Go to the repo. Here we use a sample repo.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/cloudmesh-community/fa19-516-000&#34;&gt;Sample Repo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Link to your repo will be &lt;a href=&#34;https://github.com/cloudmesh-community/fa19-%7Bclass-id%7D-%7Bhid%7D&#34;&gt;https://github.com/cloudmesh-community/fa19-{class-id}-{hid}&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;class-id is your class number for instance 534.
+hid is your homework id assigned.&lt;/p&gt;
+&lt;h3 id=&#34;step-2&#34;&gt;Step 2&lt;/h3&gt;
+&lt;p&gt;In @fig:github-repo the red colored box shows where you need to navigate
+next. Click on issues.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/assignments/git/gitissue1.png&#34; alt=&#34;Git Repo View&#34;&gt;{#fig:github-repo}&lt;/p&gt;
+&lt;h3 id=&#34;step-3&#34;&gt;Step 3&lt;/h3&gt;
+&lt;p&gt;In @fig:github-issue-list, Git issue list looks like this. The inputs in this are dummy values we
+used to test the module. In your repo, things will be readable and
+identified based on week. This way you know what you need to do this
+week.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/assignments/git/gitissue-list.png&#34; alt=&#34;Git Issue List&#34;&gt;{#fig:github-issue-list}&lt;/p&gt;
+&lt;h3 id=&#34;step-4&#34;&gt;Step 4&lt;/h3&gt;
+&lt;p&gt;In @fig:github-issue-view this is how a git issue looks like.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/assignments/git/gitissue-view.png&#34; alt=&#34;Git Issue View&#34;&gt;{#fig:github-issue-view}&lt;/p&gt;
+&lt;p&gt;In here you will see the things that you need to do with main task and subtasks.
+This looks like a tood list. No pressure you can customize the way you want it.
+We&amp;rsquo;ll put in the basic skeleton for this one.&lt;/p&gt;
+&lt;h3 id=&#34;step-5-optional&#34;&gt;Step 5 (Optional)&lt;/h3&gt;
+&lt;p&gt;In @fig:github-issue-assign, assign a TA, once you have completed the issues, you can assign a TA to resolve if you have
+issues. In all issues you can make a comment and you can use @ sign to add the specific TA.
+For E534 Fall 2019 you can add @vibhatha as an assignee for your issue and we will communicate
+to solve the issues. This is an optional thing, you can use canvas or meeting hours to mention
+your concerns.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/assignments/git/assign-issue.png&#34; alt=&#34;Git Issue View&#34;&gt;{#fig:github-issue-assign}&lt;/p&gt;
+&lt;h3 id=&#34;step-6-optional&#34;&gt;Step 6 (Optional)&lt;/h3&gt;
+&lt;p&gt;In @fig:github-issue-label, you can add a label to your issue by clicking labels option in the right hand size within a
+given issue.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/assignments/git/assignment-label.png&#34; alt=&#34;Git Issue Label&#34;&gt;{#fig:github-issue-label}&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Git pull requst</title>
+      <link>/docs/tutorial/git/git-pull-request/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/tutorial/git/git-pull-request/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="/docs/tutorial/git/git-pull-request/featured-image_hu1e98c14e7ef5c047e5e9948283a69421_148226_640x0_resize_catmullrom_2.png" width="640" height="412"/>]]>
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;It is very easy to help us modifying the Web Site through GitHub pull requests. We demonstrate this via the commandline and via the GitHub GUI.&lt;/p&gt;
+&lt;p&gt;The commandline can be run form any computer with Linux, Windows, and macOS. ON Windows you need to install gitbash and use that. THis way you have a commandline terminal that just works like on LInux and OSX.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;github-pull-request-via-the-commandline&#34;&gt;Github Pull Request via the commandline&lt;/h2&gt;
+&lt;p&gt;9:15 min&lt;/p&gt;
+&lt;div width=100px&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/F369RBlL33A&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;h2 id=&#34;github-pull-request-via-the-github-gui&#34;&gt;Github Pull Request via the GitHub GUI&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/eU3jOuM7OQc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: GitHub gh Command Line Interface</title>
+      <link>/docs/tutorial/git/git-gh/</link>
+      <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/tutorial/git/git-gh/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="/docs/tutorial/git/git-gh/featured-image_hu01992e3b0b9fde28c6f5f617d4c1ca8c_222072_640x0_resize_catmullrom_2.png" width="640" height="231"/>]]>
+        
+        
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 610px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;/docs/tutorial/git/git-gh/featured-image_hu01992e3b0b9fde28c6f5f617d4c1ca8c_222072_600x300_fill_catmullrom_smart1_2.png&#34; width=&#34;600&#34; height=&#34;300&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;Figure 1: GitHub Command gh.&lt;/p&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;GitHub provides an extended gh commandline tool that allow easy interaction of
+forking repositories directly from github. IT also provides additional fimctionality
+to interact with other advanced features that are typically not provided in the git command tool.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn how to install the gh command&lt;/li&gt;
+&lt;li&gt;Learn how to use the gh command&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Topics covered&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;toc&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#1-introduction&#34;&gt;1. Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#2-installing-github-gh-command&#34;&gt;2. Installing GitHub gh command&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#3-logging-in-with-github-gh-command&#34;&gt;3. Logging in with GitHub gh Command&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#31-adding-additional-keys&#34;&gt;3.1 Adding Additional Keys&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#4-forking&#34;&gt;4. Forking&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#5-pull-requests&#34;&gt;5. Pull Requests&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#6-managing-issues-with-github-gh-command&#34;&gt;6. Managing Issues with GitHub gh Command&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#7-manual-pages&#34;&gt;7. Manual Pages&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#71-gh&#34;&gt;7.1 gh&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#72-list-of-man-pages&#34;&gt;7.2 List of Man Pages&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#7-conclusion&#34;&gt;7. Conclusion&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;
+&lt;p&gt;The new GitHub &lt;code&gt;gh&lt;/code&gt; command allows GitHub users to work from the terminal of
+their machine without having to visit the web browser GUI to manage things like
+issues, PRs, and forking. We will show you what features it provides and how to
+use it. The &lt;code&gt;gh&lt;/code&gt; command provides useful features that is not provided by the `git
+commandline tool.&lt;/p&gt;
+&lt;h2 id=&#34;2-installing-github-gh-command&#34;&gt;2. Installing GitHub gh command&lt;/h2&gt;
+&lt;p&gt;Visit the GitHub CLI homepage at &lt;a href=&#34;https://cli.github.com/&#34;&gt;https://cli.github.com/&lt;/a&gt; for installation
+instructions.  We recommend that you check out the source distribution because
+We found that whne we did this tutorial not all features were included in the
+brew instalation. We assume ths will cahnge over time and you may soon be able
+to just use the bre install on LInux and MacOs.&lt;/p&gt;
+&lt;p&gt;On mac, you can use the following command with
+&lt;a href=&#34;https://brew.sh/&#34;&gt;Brew&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;brew install gh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For Windows useser, please follow the install instructions fro Winodws.&lt;/p&gt;
+&lt;h2 id=&#34;3-logging-in-with-github-gh-command&#34;&gt;3. Logging in with GitHub gh Command&lt;/h2&gt;
+&lt;p&gt;It is best practice to be using SSH-keys with GitHub. Create one if you have
+not already with the following command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;ssh-keygen
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;We recommend t use the the default location.&lt;/p&gt;
+&lt;p&gt;To authenticate with the GitHub &lt;code&gt;gh&lt;/code&gt; comamand, run the following command. We have included
+the answers to the interactive prompts used for this guide.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gh auth login
+
+What account &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;do&lt;/span&gt; you want to log into? GitHub.com
+? What account &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;do&lt;/span&gt; you want to log into? GitHub.com
+? What is your preferred protocol &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;for&lt;/span&gt; Git operations? SSH
+? Upload your SSH public key to your GitHub account? ~/.ssh/id_rsa.pub
+? How would you like to authenticate GitHub CLI? Login with a web browser
+
+! First copy your one-time code: 1234-1A11
+- Press Enter to open github.com in your browser...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;31-adding-additional-keys&#34;&gt;3.1 Adding Additional Keys&lt;/h3&gt;
+&lt;p&gt;IN acse you work with multiple computers it is advisable to add your keys from these
+machines also. We demonstarte the interaction to upload the key from a new machine.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;newmachine$ gh ssh-key add ~/.ssh/id_rsa.pub 
+Error: insufficient OAuth scopes to list SSH keys
+Run the following to grant scopes: gh auth refresh -s write:public_key
+newmachine$ gh auth refresh -s write:public_key
+
+! First copy your one-time code: 4C2D-E896
+- Press Enter to open github.com in your browser... 
+✓ Authentication complete. Press Enter to continue...
+
+newmachine$ gh ssh-key add ~/.ssh/id_rsa.pub   
+✓ Public key added to your account
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;4-forking&#34;&gt;4. Forking&lt;/h2&gt;
+&lt;p&gt;We can easily create a fork of a repo with the following:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gh repo fork
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This is useful for when you do not have write access to the original repository.&lt;/p&gt;
+&lt;h2 id=&#34;5-pull-requests&#34;&gt;5. Pull Requests&lt;/h2&gt;
+&lt;p&gt;We can create a pull request easily as follows from a git repo:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gh pr create
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The command above will ask the user where to push the branch (if it does not
+already exist on the remote). It will also offer the option to fork the initial
+repository. You will want to do this if you do not have write access to the
+original repo.&lt;/p&gt;
+&lt;p&gt;Once created, you may view the status of the PR with the following:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gh pr status
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Reviewers can checkout your pull request to verify changes as follows:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gh pr checkout &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;{&lt;/span&gt;PR NUMBER&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The reviewer can then approve the PR as follows:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gh pr review --approve
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Subsequently, the PR can be merged as follows:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gh pr merge &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;{&lt;/span&gt;PR NUMBER&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You may also list all pull requests with the following:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gh pr list
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Finally, PRs can be closed with&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gh pr close &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;{&lt;/span&gt;PR NUMBER&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;6-managing-issues-with-github-gh-command&#34;&gt;6. Managing Issues with GitHub gh Command&lt;/h2&gt;
+&lt;p&gt;To create an issue, call the following:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gh issue create --title&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Bug 1&amp;#34;&lt;/span&gt; --body&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;description&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;We can also check the status of issues relevant to use with:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gh issue status
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Alternatively, we may list all open issues.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gh issue list
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Finally, we may close issues with:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gh issue close &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;{&lt;/span&gt;ISSUE NUMBER&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;7-manual-pages&#34;&gt;7. Manual Pages&lt;/h2&gt;
+&lt;h3 id=&#34;71-gh&#34;&gt;7.1 gh&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;gh(1)                                                                    gh(1)
+
+NAME
+       gh - GitHub CLI
+
+SYNOPSIS
+       gh   [flags]
+
+DESCRIPTION
+       Work seamlessly with GitHub from the command line.
+
+OPTIONS
+       --help[=false]      Show help for command
+
+       --version[=false]      Show gh version
+
+EXAMPLE
+              $ gh issue create
+              $ gh repo clone cli/cli
+              $ gh pr checkout 321
+
+SEE ALSO
+       gh-alias(1),  gh-api(1),  gh-auth(1),  gh-completion(1),  gh-config(1),
+       gh-gist(1),   gh-issue(1),   gh-pr(1),    gh-release(1),    gh-repo(1),
+       gh-secret(1), gh-ssh-key(1)
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;72-list-of-man-pages&#34;&gt;7.2 List of Man Pages&lt;/h3&gt;
+&lt;p&gt;Tha manual pages are published at the &lt;a href=&#34;https://cli.github.com/manual/&#34;&gt;gh manual&lt;/a&gt;.
+For mor information you can also use the man command. A full list of manual pages includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;gh&lt;/li&gt;
+&lt;li&gt;gh-alias-delete&lt;/li&gt;
+&lt;li&gt;gh-alias-list&lt;/li&gt;
+&lt;li&gt;gh-alias-set&lt;/li&gt;
+&lt;li&gt;gh-alias&lt;/li&gt;
+&lt;li&gt;gh-api&lt;/li&gt;
+&lt;li&gt;gh-auth-login&lt;/li&gt;
+&lt;li&gt;gh-auth-logout&lt;/li&gt;
+&lt;li&gt;gh-auth-refresh&lt;/li&gt;
+&lt;li&gt;gh-auth-status&lt;/li&gt;
+&lt;li&gt;gh-auth&lt;/li&gt;
+&lt;li&gt;gh-completion&lt;/li&gt;
+&lt;li&gt;gh-config-get&lt;/li&gt;
+&lt;li&gt;gh-config-set&lt;/li&gt;
+&lt;li&gt;gh-config&lt;/li&gt;
+&lt;li&gt;gh-gist-clone&lt;/li&gt;
+&lt;li&gt;gh-gist-create&lt;/li&gt;
+&lt;li&gt;gh-gist-delete&lt;/li&gt;
+&lt;li&gt;gh-gist-edit&lt;/li&gt;
+&lt;li&gt;gh-gist-list&lt;/li&gt;
+&lt;li&gt;gh-gist-view&lt;/li&gt;
+&lt;li&gt;gh-gist&lt;/li&gt;
+&lt;li&gt;gh-issue-close&lt;/li&gt;
+&lt;li&gt;gh-issue-comment&lt;/li&gt;
+&lt;li&gt;gh-issue-create&lt;/li&gt;
+&lt;li&gt;gh-issue-delete&lt;/li&gt;
+&lt;li&gt;gh-issue-edit&lt;/li&gt;
+&lt;li&gt;gh-issue-list&lt;/li&gt;
+&lt;li&gt;gh-issue-reopen&lt;/li&gt;
+&lt;li&gt;gh-issue-status&lt;/li&gt;
+&lt;li&gt;gh-issue-view&lt;/li&gt;
+&lt;li&gt;gh-issue&lt;/li&gt;
+&lt;li&gt;gh-pr-checkout&lt;/li&gt;
+&lt;li&gt;gh-pr-checks&lt;/li&gt;
+&lt;li&gt;gh-pr-close&lt;/li&gt;
+&lt;li&gt;gh-pr-comment&lt;/li&gt;
+&lt;li&gt;gh-pr-create&lt;/li&gt;
+&lt;li&gt;gh-pr-diff&lt;/li&gt;
+&lt;li&gt;gh-pr-edit&lt;/li&gt;
+&lt;li&gt;gh-pr-list&lt;/li&gt;
+&lt;li&gt;gh-pr-merge&lt;/li&gt;
+&lt;li&gt;gh-pr-ready&lt;/li&gt;
+&lt;li&gt;gh-pr-reopen&lt;/li&gt;
+&lt;li&gt;gh-pr-review&lt;/li&gt;
+&lt;li&gt;gh-pr-status&lt;/li&gt;
+&lt;li&gt;gh-pr-view&lt;/li&gt;
+&lt;li&gt;gh-pr&lt;/li&gt;
+&lt;li&gt;gh-release-create&lt;/li&gt;
+&lt;li&gt;gh-release-delete&lt;/li&gt;
+&lt;li&gt;gh-release-download&lt;/li&gt;
+&lt;li&gt;gh-release-list&lt;/li&gt;
+&lt;li&gt;gh-release-upload&lt;/li&gt;
+&lt;li&gt;gh-release-view&lt;/li&gt;
+&lt;li&gt;gh-release&lt;/li&gt;
+&lt;li&gt;gh-repo-clone&lt;/li&gt;
+&lt;li&gt;gh-repo-create&lt;/li&gt;
+&lt;li&gt;gh-repo-fork&lt;/li&gt;
+&lt;li&gt;gh-repo-view&lt;/li&gt;
+&lt;li&gt;gh-repo&lt;/li&gt;
+&lt;li&gt;gh-secret-list&lt;/li&gt;
+&lt;li&gt;gh-secret-remove&lt;/li&gt;
+&lt;li&gt;gh-secret-set&lt;/li&gt;
+&lt;li&gt;gh-secret&lt;/li&gt;
+&lt;li&gt;gh-ssh-key-add&lt;/li&gt;
+&lt;li&gt;gh-ssh-key-list&lt;/li&gt;
+&lt;li&gt;gh-ssh-key&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;7-conclusion&#34;&gt;7. Conclusion&lt;/h2&gt;
+&lt;p&gt;There are many other commands for the GitHub CLI that can be found in the
+&lt;a href=&#34;https://cli.github.com/manual/&#34;&gt;gh manual&lt;/a&gt;, however we only include a select
+number of relevant commands for this guide. The commands mentioned above serve
+to familiarize the user with the GitHub CLI while also providing practical
+usage.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: GitHub hid Repository</title>
+      <link>/docs/tutorial/git/git-hid-repo/</link>
+      <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/tutorial/git/git-hid-repo/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="/docs/tutorial/git/git-hid-repo/featured-image_hu699bad2f39bda78a6f8b2a2be30d8f74_224192_640x0_resize_catmullrom_2.png" width="640" height="505"/>]]>
+        
+        
+
+
+
+
+
+
+&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 610px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;/docs/tutorial/git/git-hid-repo/featured-image_hu699bad2f39bda78a6f8b2a2be30d8f74_224192_600x300_fill_catmullrom_smart1_2.png&#34; width=&#34;600&#34; height=&#34;300&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+&lt;p&gt;Figure 1: GitHub hid directory.&lt;/p&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;To contribute to our open source projects we provide you with a Git
+repository in which you conduct your activities.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc&#34;&gt;https://github.com/cybertraining-dsc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn how to cone the repo&lt;/li&gt;
+&lt;li&gt;Learn how to use the rego&lt;/li&gt;
+&lt;li&gt;Learn how to commit and push changes to GitHub&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Topics covered&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;toc&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#1-introduction&#34;&gt;1. Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#2-prerequisites&#34;&gt;2. Prerequisites&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#3-setting-up-the-ssh-key&#34;&gt;3. Setting up the ssh-key&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#4-simplify-the-tutorial-while-using-shell-variables&#34;&gt;4. Simplify the Tutorial while using Shell Variables&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#5-cloning-the-repository&#34;&gt;5. Cloning the Repository&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#6-commit-changes-locally&#34;&gt;6. Commit Changes Locally&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#7-adding-files&#34;&gt;7. Adding Files&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#8-push-the-commits-to-github&#34;&gt;8. Push the commits to GitHub&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#8-pulling-changes&#34;&gt;8. Pulling Changes&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#7-conclusion&#34;&gt;7. Conclusion&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;
+&lt;p&gt;As part of our open source activities, you will be given a GitHub
+repository.
+To contribute to our open source projects we provide you with a Git
+repository in which you conduct your activities.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc&#34;&gt;https://github.com/cybertraining-dsc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We will explain how you use them from the command line.&lt;/p&gt;
+&lt;h2 id=&#34;2-prerequisites&#34;&gt;2. Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;On macOS we assume you have x-code installed which comes with the git command&lt;/li&gt;
+&lt;li&gt;line tools On Windows we assume you have gitbash installed and use git&lt;/li&gt;
+&lt;li&gt;through gitbash. Alternatively, you can use multipass, or WSL2 On Linux, make&lt;/li&gt;
+&lt;li&gt;sure you have the git command line tools installed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-setting-up-the-ssh-key&#34;&gt;3. Setting up the ssh-key&lt;/h2&gt;
+&lt;p&gt;In case you have not yet set up an ssh key, you can do this with the command.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ ssh-keygen
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;YOu will be asked for the default location, accept it. After that, you will be
+asked for a passphrase. Please choose one and make sure you do not make it
+empty. Often you find wrong tutorials or guidance by others that say you can
+leave it empty. DO NOT FOLLOW THEIR WRONG ADVICE.&lt;/p&gt;
+&lt;p&gt;Upload the content of the file&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ cat ~/.ssh/id_rsa.pub
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Into the GitHub portal at &lt;a href=&#34;https://github.com/settings/keys&#34;&gt;https://github.com/settings/keys&lt;/a&gt;.
+You will then use the SSH key to authenticate to GitHub.
+To not always have to type in the password you can use &lt;code&gt;ssh-keychain&lt;/code&gt;.
+On Mac OS you can simply use the command&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ ssh-add
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;and enter your password&lt;/p&gt;
+&lt;h2 id=&#34;4-simplify-the-tutorial-while-using-shell-variables&#34;&gt;4. Simplify the Tutorial while using Shell Variables&lt;/h2&gt;
+&lt;p&gt;To simplify the tutorial we use from here on two shell variables. The first is
+&lt;code&gt;HID&lt;/code&gt; which specifies the name of your GitHub repository as found in&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc&#34;&gt;https://github.com/cybertraining-dsc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In our case, we use &lt;code&gt;hid-example&lt;/code&gt;. The second variable is the name/path of the
+editor in which we edit commit messages for git.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ &lt;span style=&#34;color:#204a87&#34;&gt;export&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;HID&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;hid-example
+$ &lt;span style=&#34;color:#204a87&#34;&gt;export&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;EDITOR&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;emacs
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;5-cloning-the-repository&#34;&gt;5. Cloning the Repository&lt;/h2&gt;
+&lt;p&gt;Let us now clone the repository, change int the checked out repository
+and edit the project file.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ git clone git@github.com:cybertraining-dsc/&lt;span style=&#34;color:#000&#34;&gt;$HID&lt;/span&gt;.git
+$ &lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;$HID&lt;/span&gt;/project
+$ &lt;span style=&#34;color:#000&#34;&gt;$EDITOR&lt;/span&gt; index.md
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now let us make a modification and save the file locally.&lt;/p&gt;
+&lt;h2 id=&#34;6-commit-changes-locally&#34;&gt;6. Commit Changes Locally&lt;/h2&gt;
+&lt;p&gt;To commit the changes locally, you use the following command. Make sure to
+put a commit message and specify the filename.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ git commit -m &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Improved document with this and that&amp;#34;&lt;/span&gt; index.md
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;7-adding-files&#34;&gt;7. Adding Files&lt;/h2&gt;
+&lt;p&gt;To add new files you can simply use the add command and use the commit command
+after it.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ git add image/newimage.png
+$ git commit -m &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Improved document with this and that&amp;#34;&lt;/span&gt; image/newimage.png
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;8-push-the-commits-to-github&#34;&gt;8. Push the commits to GitHub&lt;/h2&gt;
+&lt;p&gt;GitHub as you know is a service that stores your files once you push them from
+your local commits to GitHub. To push the commits use the command&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ git push
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;8-pulling-changes&#34;&gt;8. Pulling Changes&lt;/h2&gt;
+&lt;p&gt;GitHub shines when you work with multiple people together on your projects. This
+may be project partners or feedbacks that are placed in your documents by us.
+Thus, it is important that you state in synchronization with the files in
+GitHub. Do this use the command&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ git pull
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;in any directory of the repository that you have checked out. It will update
+any file that has changed. In case of a conflict, your file will include  a
+text such as&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD
+This is the new text from you
+=======
+This is the text in the repo
+&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;You will have to remove the text between the &amp;laquo;&amp;lt; and &amp;raquo;&amp;gt; and replace it with
+the text that is correct. In the simplest case, one of the choices will be
+correct. However, you may have in some cases to merge the two versions.&lt;/p&gt;
+&lt;p&gt;It is important to pull frequently. It is also important to not just paste and
+copy the entire file, but use the command line tools and editor to conduct the
+change as not to overwrite other changes.&lt;/p&gt;
+&lt;h2 id=&#34;7-conclusion&#34;&gt;7. Conclusion&lt;/h2&gt;
+&lt;p&gt;The use of git from the command line is straightforward for existing
+repositories. It is easy to do. Make sure to create an &lt;code&gt;ssh-key&lt;/code&gt; and start in
+synchronization with frequent pulls.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
