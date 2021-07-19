@@ -32,7 +32,7 @@ Contents
 
 Please follow the Windows documentation, but instaed of using gitbash, pleas use the regular terminal. on macOS, make sure you have xcode installed.
 
-## Uloading the SSH key
+## Uploading the SSH key
 
 Please ensure that you have Git (Git Bash) and a repository on GitHub. This tutorial assumes you already have a GitHub repository as well as a GitHub account.
 
