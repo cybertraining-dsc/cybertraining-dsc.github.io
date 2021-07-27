@@ -4,9 +4,9 @@ owner:
   lastname: "Ololade"
   hid: "su21-reu-375"
   community: "reu"
-  semester: "sp21"
+  semester: "su21"
 project:
-  title: TBD
-  url: TBD
-  author:
-    - su21-reu-375
+  title: "Analysis of Covid-19 Vaccination Rates in African Americans"
+  url: "https://github.com/cybertraining-dsc/su21-reu-375/blob/main/project/index.md"
+  author: 
+    - Ololade Latinwo, su21-reu-375

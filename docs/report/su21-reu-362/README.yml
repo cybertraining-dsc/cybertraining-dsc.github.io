@@ -5,8 +5,8 @@ owner:
   hid: "su21-reu-362"
   community: "reu"
   semester: "sp21"
-project: "AI in Healthcare"
-  title: "Breast Cancer Genetics"
-  url: "https://github.com/cybertraining-dsc/su21-reu-362/edit/main/project/index.md"
+project: "Artificial Intelligence in Healthcare"
+  title: "Predicting and Classifying Breast Cancer Subtypes using AI Algorithms"
+  url: https://cybertraining-dsc.github.io/report/su21-reu-362/project/
   author:
     - su21-reu-362

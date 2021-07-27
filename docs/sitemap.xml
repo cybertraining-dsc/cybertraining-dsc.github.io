@@ -818,17 +818,37 @@
   </url>
   
   <url>
-    <loc>https://www.docsy.dev/tags/github/</loc>
-    <lastmod>2021-07-19T15:44:21-04:00</lastmod>
+    <loc>https://www.docsy.dev/tags/project/</loc>
+    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.docsy.dev/tags/project/</loc>
-    <lastmod>2021-07-19T15:44:21-04:00</lastmod>
+    <loc>https://www.docsy.dev/report/</loc>
+    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.docsy.dev/tags/reu/</loc>
+    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/tags/</loc>
+    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/tags/tutorial/</loc>
+    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/report/su21-reu-361/tutorials/colab/</loc>
+    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/tags/github/</loc>
     <lastmod>2021-07-19T15:44:21-04:00</lastmod>
   </url>
   
@@ -839,16 +859,6 @@
   
   <url>
     <loc>https://www.docsy.dev/docs/tutorial/git/git-ssh/</loc>
-    <lastmod>2021-07-19T15:44:21-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.docsy.dev/tags/</loc>
-    <lastmod>2021-07-19T15:44:21-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.docsy.dev/tags/tutorial/</loc>
     <lastmod>2021-07-19T15:44:21-04:00</lastmod>
   </url>
   
@@ -873,18 +883,13 @@
   </url>
   
   <url>
-    <loc>https://www.docsy.dev/report/</loc>
+    <loc>https://www.docsy.dev/report/su21-reu-361/tutorials/github/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.docsy.dev/report/su21-reu-361/tutorials/python/</loc>
     <lastmod>2021-06-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.docsy.dev/report/su21-reu-366/project/</loc>
-    <lastmod>2021-06-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -898,17 +903,7 @@
   </url>
   
   <url>
-    <loc>https://www.docsy.dev/report/su21-reu-371/project/</loc>
-    <lastmod>2021-06-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.docsy.dev/report/su21-reu-373/project/</loc>
-    <lastmod>2021-06-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.docsy.dev/report/su21-reu-375/project/</loc>
     <lastmod>2021-06-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -923,12 +918,17 @@
   </url>
   
   <url>
+    <loc>https://www.docsy.dev/tags/advantages/</loc>
+    <lastmod>2021-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.docsy.dev/tags/ai/</loc>
     <lastmod>2021-06-17T19:44:34-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.docsy.dev/report/su21-reu-370/project/</loc>
+    <loc>https://www.docsy.dev/report/su21-reu-362/project/</loc>
     <lastmod>2021-06-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -938,12 +938,17 @@
   </url>
   
   <url>
+    <loc>https://www.docsy.dev/tags/autism-spectrum-disorder/</loc>
+    <lastmod>2021-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.docsy.dev/tags/blockchain/</loc>
     <lastmod>2021-06-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.docsy.dev/report/su21-reu-362/project/</loc>
+    <loc>https://www.docsy.dev/tags/breast-cancer/</loc>
     <lastmod>2021-06-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -954,6 +959,11 @@
   
   <url>
     <loc>https://www.docsy.dev/tags/computer-vision/</loc>
+    <lastmod>2021-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/tags/covid-19/</loc>
     <lastmod>2021-06-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -988,12 +998,27 @@
   </url>
   
   <url>
+    <loc>https://www.docsy.dev/tags/diagnosis-detection/</loc>
+    <lastmod>2021-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/tags/disadvantages/</loc>
+    <lastmod>2021-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/tags/disease/</loc>
+    <lastmod>2021-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.docsy.dev/tags/dl/</loc>
     <lastmod>2021-06-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.docsy.dev/report/su21-reu-361/project/</loc>
+    <loc>https://www.docsy.dev/tags/early-detection/</loc>
     <lastmod>2021-06-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -1003,7 +1028,22 @@
   </url>
   
   <url>
+    <loc>https://www.docsy.dev/report/su21-reu-370/project/</loc>
+    <lastmod>2021-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.docsy.dev/report/su21-reu-364/project/</loc>
+    <lastmod>2021-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/report/su21-reu-366/project/</loc>
+    <lastmod>2021-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/tags/handwriting/</loc>
     <lastmod>2021-06-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -1038,7 +1078,22 @@
   </url>
   
   <url>
+    <loc>https://www.docsy.dev/tags/machine-learning/</loc>
+    <lastmod>2021-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.docsy.dev/tags/ml/</loc>
+    <lastmod>2021-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/tags/multiple-sclerosis/</loc>
+    <lastmod>2021-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/report/su21-reu-371/project/</loc>
     <lastmod>2021-06-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -1058,7 +1113,32 @@
   </url>
   
   <url>
+    <loc>https://www.docsy.dev/tags/recognition/</loc>
+    <lastmod>2021-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/tags/report/</loc>
+    <lastmod>2021-06-17T19:37:44-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.docsy.dev/report/su21-reu-374/project/</loc>
+    <lastmod>2021-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/report/su21-reu-361/project/</loc>
+    <lastmod>2021-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/report/su21-reu-375/project/</loc>
+    <lastmod>2021-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/tags/women/</loc>
     <lastmod>2021-06-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -1280,11 +1360,6 @@
   <url>
     <loc>https://www.docsy.dev/report/fa20-523-304/report/report/</loc>
     <lastmod>2021-03-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.docsy.dev/tags/report/</loc>
-    <lastmod>2021-06-17T19:37:44-04:00</lastmod>
   </url>
   
   <url>
@@ -1776,6 +1851,10 @@
   
   <url>
     <loc>https://www.docsy.dev/report/sp21-599-359/assignments/assignment_5/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/report/su21-reu-361/tutorials/readme/</loc>
   </url>
   
   <url>
