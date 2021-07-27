@@ -5,8 +5,8 @@ owner:
   hid: "su21-reu-366"
   community: "reu"
   semester: "sp21"
-project:
-  title: TBD
-  url: TBD
+project: "report"
+  title: "Handwriting Recognition Using AI"
+  url: "https://cybertraining-dsc.github.io/report/su21-reu-366/project/"
   author:
     - su21-reu-366

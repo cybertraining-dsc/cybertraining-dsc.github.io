@@ -4,9 +4,11 @@ owner:
   lastname: "Raeven"
   hid: "su21-reu-371"
   community: "reu"
-  semester: "sp21"
+  semester: "su21"
 project:
-  title: TBD
-  url: TBD
+  title: "Detecting Multiple Sclerosis Symptoms using Al"
+  url: "https://github.com/cybertraining-dsc/su21-reu-371/blob/main/project/index.md"
   author:
-    - su21-reu-371
+    - Raeven Hatcher, su21-reu-371
+
+![projectpic2](https://user-images.githubusercontent.com/85815818/126948339-7723b810-83e4-463b-a2b0-bf417fac4458.jpg)

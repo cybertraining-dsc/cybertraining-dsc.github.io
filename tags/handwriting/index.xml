@@ -1,0 +1,105 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – handwriting</title><link>/tags/handwriting/</link><description>Recent content in handwriting on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 16 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/handwriting/index.xml" rel="self" type="application/rss+xml"/><item><title>Report: Handwriting Recognition Using AI</title><link>/report/su21-reu-366/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-366/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-366/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-366/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-366/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-366/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Report&lt;/p>
+&lt;p>Mikahla Reeves, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-366">su21-reu-366&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-366/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="to-do">To-Do&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;input checked="" disabled="" type="checkbox"> Add in introduction&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;input disabled="" type="checkbox"> Add in references&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;input disabled="" type="checkbox"> Add in more images&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;input disabled="" type="checkbox"> Explain what persons have done so far, approach to the prob&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>The first thing that comes to numerous minds when they hear &lt;em>Handwriting Recognition&lt;/em> is simply computers identifying handwriting,
+and that is correct. Handwriting Recognition is the ability of a computer to interpret handwritten input received from different sources.
+In the artificial intelligence world, handwriting recognition has become a very established area. Over the years, there have been many
+developments and applications made in this field. This study investigates some of the approaches taken by researchers/developers in the
+last few years to convert handwritten information from images to digital forms. Also, it discusses the importance of handwriting recognition in modern society.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-importance-of-handwriting-recognition">2. Importance of Handwriting Recognition&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-images">3. Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-what-has-been-done-so-far-in-the-field">4. What has been done so far in the field?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-machine-learning-tools">5. Machine Learning Tools&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-results">6. Results&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-conclusion">7. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> handwriting recognition, optical character recognition, deep learning.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Perhaps one of the most monumental things in this modern-day is how our devices can behave like brains. Our various devices can call mom, play our favorite song,
+and answer our questions by just a simple utterance of Siri or Alexa. These things are all possible because of what we call artificial intelligence. Artificial
+intelligence is a part of computer science that involves learning, problem-solving, and replication of human intelligence. When we hear of artificial intelligence,
+we often hear of machine learning as well. The reason for this is because machine learning also involves the use of human intelligence. Machine learning is the
+process of a program or system getting more capable over time &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. One example of machine learning at work is Netflix. Netflix is a streaming service that allows
+users to watch a variety of tv shows and movies, and it also falls under the category of a recommendation engine. Recommendation engines/applications like Netflix
+do not need to be explicitly programmed. However, their algorithms mine the data, identify patterns, and then the applications can make recommendations.&lt;/p>
+&lt;p>Now, what is handwriting recognition? Handwriting Recognition is a branch of (OCR) Optical Character Recognition. It is a technology that receives handwritten
+information from paper, images, and other items and interprets them into digital text in real-time &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. Handwriting recognition is a well-established area in the
+field of image processing. Over the last few years, developers have created handwriting recognition technology to convert written postal codes, addresses, math questions,
+essays, and many more types of written information into digital forms, thus making life easier for businesses and individuals. However, the development of handwriting
+recognition technology has been quite challenging.&lt;/p>
+&lt;p>One of the main challenges of handwriting recognition is accuracy. There is a wide variety of handwriting styles, both good and bad, thus making it harder for developers to
+provide enough samples of what a specific character/integer looks like &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>. In handwriting recognition, the computer has to translate the handwriting into a format that it
+understands, and this is where Optical Character Recognition becomes useful. In OCR, the computer focuses on a character, compares it to characters in its database, then
+identifies what the letters are and fundamentally what the words are.&lt;/p>
+&lt;h2 id="2-importance-of-handwriting-recognition">2. Importance of Handwriting Recognition&lt;/h2>
+&lt;p>Handwriting recognition plays a vital role in the field of image processing. Any machine or technology with the capability to identify and convert handwritten
+information into digital text is very valuable in almost every field work.&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Expound&lt;/li>
+&lt;/ul>
+&lt;h2 id="3-images">3. Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-366/raw/main/project/images/ocr_work.jpg" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Overview of Optical Character Recognition at work.&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> MORE IMAGES&lt;/li>
+&lt;/ul>
+&lt;h2 id="4-what-has-been-done-so-far-in-the-field">4. What has been done so far in the field?&lt;/h2>
+&lt;h2 id="5-machine-learning-tools">5. Machine Learning Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Add images of the models , and the input &amp;amp; output etc&lt;/li>
+&lt;/ul>
+&lt;h2 id="6-results">6. Results&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Results from the papers.&lt;/li>
+&lt;/ul>
+&lt;h2 id="7-conclusion">7. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>This paper would not have been possible without the exceptional support of Gregor von Laszewski, Carlos Theran, Yohn Jairo.
+Their constant guidance, enthusiasm, knowledge and encouragement have been a huge motivation to keep going and to complete this work.
+Thank you to Jacques Fleicher, for always making himself available to answer questions. Finally, thank you to Byron Greene
+and the Florida A&amp;amp;M University for providing this great opportunity for undergraduate students to do research.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Brown, S., 2021. Machine learning, explained | MIT Sloan. [online] MIT Sloan. Available at: &lt;a href="https://mitsloan.mit.edu/ideas-made-to-matter/machine-learning-explained">https://mitsloan.mit.edu/ideas-made-to-matter/machine-learning-explained&lt;/a>.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Handwriting Recognition in 2021: In-depth Guide. (n.d.). &lt;a href="https://research.aimultiple.com/handwriting-recognition">https://research.aimultiple.com/handwriting-recognition&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3" role="doc-endnote">
+&lt;p>ThinkAutomation. 2021. Why is handwriting recognition so difficult for AI? - ThinkAutomation. [online] Available at: &lt;a href="https://www.thinkautomation.com/bots-and-ai/why-is-handwriting-recognition-so-difficult-for-ai/">https://www.thinkautomation.com/bots-and-ai/why-is-handwriting-recognition-so-difficult-for-ai/&lt;/a>.&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item></channel></rss>

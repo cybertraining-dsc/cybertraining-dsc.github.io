@@ -1,0 +1,121 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – Autism Spectrum Disorder"</title><link>/tags/autism-spectrum-disorder/</link><description>Recent content in Autism Spectrum Disorder" on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 16 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/autism-spectrum-disorder/index.xml" rel="self" type="application/rss+xml"/><item><title>Report: Project: Detection of Autism Spectrum Disorder with a Facial Image using Artificial Intelligence</title><link>/report/su21-reu-378/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-378/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Myra Saunders, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378">su21-reu-378&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Autism affects 1 in every 160 children worlwide. Early detection and diagnosis of Autism, along with treatment, is needed to minimize some of the difficulties that people with Autism encounter. Autism is usually diagnosed by a specialist through various Autism screening methnods. This can be an expensive and complex process. Many children that display signs of Autism go undiagnosed because there families lack the expenses needed to pay for Autism screening and diagnosing. Therefore, the development of a potential inexpensive, but accurate way to detect Autism in children is necessary for low-income families. With all the technological advances in Artificial Intelligence today, deep learning can be used to develop an effective method to detect Autism in children. This project utilizes a Convolutional Neural Network classifier to explore the possibility of using a facial image analysis to detect Autism in children. The facial images of Autistic and non-autistic male and female children will be used in this project.&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Add a bit more&lt;/li>
+&lt;/ul>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-related-work">2. Related Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-dataset">3. Dataset&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-proposed-methodology">4. Proposed Methodology&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#41-convolutional-neural-network">4.1. Convolutional Neural Network&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#42-architecture">4.2. Architecture&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#5-implementation">5. Implementation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-conclusion">7. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-future-work">8. Future Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-acknowledgments">9. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#11-references">11. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> Autism Spectrum Disorder, Detection, Artificial Intelligence, Deep Learning, Convolutional Neural Network, Computer Vision.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Autism Spectrum Disorder (ASD) is a broad range of lifelong developmental and neurological disorders that usually appear during early childhood. Autism affects the brain and can cause challenges with speech and nonverbal communication, repetitive behaviors, and social skills. Autism Spectrum Disorder can occur in all socioeconomic, ethnic, and racial groups, and can usually be detected and diagnosed from the age of three years old and up. As of June 2021, the World Health Organization has estimated that one in 160 children have an Autism Spectrum Disorder worldwide&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. Early detection of Autism, along with treatment, is crucial to minimize some of the difficulties and symptoms that people with Autism face&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. Symptoms of Autism Spectrum Disorder are normally identified based on psychological criteria&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>. Specialists use techniques such as behaivoral observation reports, questionaires, and a review of the child&amp;rsquo;s cognitive ability to detect and diagose Autism in children.&lt;/p>
+&lt;p>Many researchers believe that there is a correlation between facial morphology and Autism Spectrum Disorder, and that people with Autism have distinct facial features that can be used to detect their Autism Spectrum Disorder&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. Human faces encode important markers that can be used to detect Autism Spectrum Disorder by analyzing facial features, eye contact,facial movements, and more&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>. Scientists found that children diagnosed with Autism share common facial feature distinctions from children who are not diagnosed with Autism&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>. Some of these facial features are wide-set eyes, short middle region of the face, and a broad upper face. Image one provides an example of the facial feature differences between a child with Autism and a child without.&lt;/p>
+&lt;p>Due to the distinct features of Autistic individuals, we believe that it is necessary to explore the possiblities of using a facial analysis to detect Autism in children, using Artificial Intelligence (AI). Many researchers have attempted to explore the possibility of using various novel algorithms to detect and diagnose children, adolescents, and adults with Autism&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. Previous research has been done to determine if Autism Spectrum Disorder can be detected in children by analyzing a facial image&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>. The author of this research collected approximately 1500 facial images of children with Autism from websites and Facebook pages associated with Autism. The facial images of non-autistic children were randomly downloaded from online and cropped.The author aimed to provide a first level screening for autism diagnosis, whereby parents could submit an image of their child and in return recieve a probability of the potential of Autism, without cost.&lt;/p>
+&lt;p>To contribute to this previous research&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>, this project will propose a model that can be used to detect the presence of Autism in children based on a facial image analysis.
+A deep learning algorithm will be used to develop an inexpensive, accurate, and effective method to detect Autism in children. This project implements and utilizes a Convolutional Neural Network (CNN) classifier to explore the possibility of using a facial image analysis to detect Autism in children. Most of the coding used for this CNN model was obtained from the Kaggle dataset and was done by Fran Valuch&lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>. We made changes to some parts of this code, which will be discussed further in this project. The goal of this project is not to diagnose Autism, but to explore the possibility of detecting Autism at its early stage, using a facial image analysis.&lt;/p>
+&lt;h2 id="2-related-work">2. Related Work&lt;/h2>
+&lt;p>Study 1:&lt;/p>
+&lt;p>Study 2:&lt;/p>
+&lt;p>Study 3:&lt;/p>
+&lt;p>Study 4:&lt;/p>
+&lt;p>Study 5:&lt;/p>
+&lt;h2 id="3-dataset">3. Dataset&lt;/h2>
+&lt;p>The dataset used for this project was obtained from Kaggle&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>. This dataset contained approximately 1500 facial images of children with Autism that were obtained from websites and Facebook pages associated with Autism. The facial images of non-autistic children were randomly downloaded from online. The pictures obtained were not of the best quality or consistency with respect to the facial alignment. Therefore, the author developed a python program to automatically crop the images to include only the extent possible for a facial image. These images consist of male and female children that are of different races and range from around ages two to fourteen.&lt;/p>
+&lt;p>This project uses version 12 of this dataset, which is the latest version. The dataset consists of three directories labled test, train, and valid, along with a CSV file. The training set is labeled as train, and consists of &amp;lsquo;Autistic&amp;rsquo; and &amp;lsquo;Non-Autistic&amp;rsquo; subdirectories. These subdirectories contain 1269 images of autistic and 1269 images of non-autistic children respectively. The validation set located in the valid directory are separated into &amp;lsquo;Autistic&amp;rsquo; and &amp;lsquo;Non-autistic&amp;rsquo; subdirectories. These subdirectories also contain 100 images of autistic and 100 images of non-autistic children respectively. The testing set located in the test directory is divided into 100 images of autistic children and 100 images of non-autistic children. All of the images provided in this dataset are in 224 X 224 X 3, jpg format.&lt;/p>
+&lt;p>&lt;strong>Image 1:&lt;/strong> Image of Child with Autism (left) and Child with no Autism (right)&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Autistic%20compared%20with%20Non-Autistic%20(4).png" alt="Autistic and Non-Autistic Child">&lt;/p>
+&lt;h2 id="4-proposed-methodology">4. Proposed Methodology&lt;/h2>
+&lt;h3 id="41-convolutional-neural-network">4.1. Convolutional Neural Network&lt;/h3>
+&lt;p>-[ ] Add info about CNN and how it will be used.&lt;/p>
+&lt;h3 id="42-architecture">4.2. Architecture&lt;/h3>
+&lt;p>&lt;strong>Image 2:&lt;/strong> Architecture of utilized Convolutional Neural Network Model.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/CNN%20Architecture.png" alt="CNN Architecture">&lt;/p>
+&lt;h2 id="5-implementation">5. Implementation&lt;/h2>
+&lt;p>-[ ] Add info about each figure.&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Plot Histogram (1).&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Plot%20Histogram%20(1).png" alt="Plot Histogram (1)">&lt;/p>
+&lt;p>&lt;strong>Figure 2:&lt;/strong> Plot Histogram (2).&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Plot%20Histogram%20(2).png" alt="Plot Histogram (2)">&lt;/p>
+&lt;p>&lt;strong>Figure 3:&lt;/strong> Training and Validation (1).&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Training%20and%20Validation%20(1).png" alt="Training and Validation (1)">&lt;/p>
+&lt;p>&lt;strong>Figure 4:&lt;/strong> Training and Validation (2).&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Training%20and%20Validation%20(2).png" alt="Training and Validation (2)">&lt;/p>
+&lt;p>&lt;strong>Figure 5:&lt;/strong> Correct Labels.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Correct%20Labels.png" alt="Correct Labels">&lt;/p>
+&lt;p>&lt;strong>Figure 6:&lt;/strong> Incorrect Labels.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Incorrect%20Labels.png" alt="Incorrect Labels">&lt;/p>
+&lt;p>&lt;strong>Figure 7:&lt;/strong> Confusion Matrix CNN.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Confusion%20Matrix%20CNN.png" alt="Confusion Matrix CNN">&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="7-conclusion">7. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> State if goal was met, then explain.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Talk about problems experienced/limitations.&lt;/li>
+&lt;/ul>
+&lt;h2 id="8-future-work">8. Future Work&lt;/h2>
+&lt;p>Talk about what work will be done in the future.&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Work on a model that can be used for children outside of the dataset age range, i.e teenagers.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Work on model that trains data for children of all colors, i.e people of color.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Continue working on model to achieve accuracy above 95%.&lt;/li>
+&lt;/ul>
+&lt;h2 id="9-acknowledgments">9. Acknowledgments&lt;/h2>
+&lt;p>The author of this project would like to express a vote of thanks to Yohn Jairo, Carlos Theran, and Dr. Gregor von Laszewski for their encouragement and guidance throughout this project. A special vote of thanks also goes to Florida A&amp;amp;M University for funding this wonderful research program. The completion of this project could not have been possible without their support.&lt;/p>
+&lt;h2 id="11-references">11. References&lt;/h2>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>World Health Organization. 2021. Autism spectrum disorders, [Online resource] &lt;a href="https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders">https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Raj, S., and Masood, S., 2020. Analysis and Detection of Autism Spectrum Disorder Using Machine Learning Techniques, [Online resource &lt;a href="https://reader.elsevier.com/reader/sd/pii/S1877050920308656?token=D9747D2397E831563D1F58D80697D9016C30AAC6074638AA926D06E86426CE4CBF7932313AD5C3504440AFE0112F3868&amp;amp;originRegion=us-east-1&amp;amp;originCreation=20210704171932">https://reader.elsevier.com/reader/sd/pii/S1877050920308656?token=D9747D2397E831563D1F58D80697D9016C30AAC6074638AA926D06E86426CE4CBF7932313AD5C3504440AFE0112F3868&amp;amp;originRegion=us-east-1&amp;amp;originCreation=20210704171932&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3" role="doc-endnote">
+&lt;p>Khodatars, M., Shoeibi, A., Ghassemi, N., Jafari, M., Khadem, A., Sadeghi, D., Moridian, P., Hussain, S., Alizadehsani, R., Zare, A., Khosravi, A., Nahavandi, S., Acharya, U. R., and Berk, M., 2020. Deep Learning for Neuroimaging-based Diagnosis and Rehabilitation of Autism Spectrum Disorder: A Review. [Online resource] &lt;a href="https://arxiv.org/pdf/2007.01285.pdf">https://arxiv.org/pdf/2007.01285.pdf&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4" role="doc-endnote">
+&lt;p>Musser, M., 2020. Detecting Autism Spectrum Disorder in Children using Computer Vision, Adapting facial recognition models to detect Autism Spectrum Disorder. [Online resource] &lt;a href="https://towardsdatascience.com/detecting-autism-spectrum-disorder-in-children-with-computer-vision-8abd7fc9b40a">https://towardsdatascience.com/detecting-autism-spectrum-disorder-in-children-with-computer-vision-8abd7fc9b40a&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5" role="doc-endnote">
+&lt;p>Akter, T., Ali, M. H., Khan, I., Satu, S., Uddin, Jamal., Alyami, S. A., Ali, S., Azad, A., and Moni, M. A., 2021. Improved Transfer-Learning-Based Facial Recognition Framework to Detect Autistic Children at an Early Stage. [Online resource] &lt;a href="https://www.mdpi.com/2076-3425/11/6/734">https://www.mdpi.com/2076-3425/11/6/734&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:6" role="doc-endnote">
+&lt;p>Beary, M., Hadsell, A., Messersmith, R., Hosseini, M., 2020. Diagnosis of Autism in Children using Facial Analysis and Deep Learning. [Online resource] &lt;a href="https://arxiv.org/ftp/arxiv/papers/2008/2008.02890.pdf">https://arxiv.org/ftp/arxiv/papers/2008/2008.02890.pdf&lt;/a>&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:7" role="doc-endnote">
+&lt;p>Piosenka, G., 2020. Detect Autism from a facial image. [Online resource] &lt;a href="https://www.kaggle.com/gpiosenka/autistic-children-data-set-traintestvalidate?select=autism.csv">https://www.kaggle.com/gpiosenka/autistic-children-data-set-traintestvalidate?select=autism.csv&lt;/a>&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:8" role="doc-endnote">
+&lt;p>Valuch, F., 2021. Easy Autism Detection with TF.[Online resource] &lt;a href="https://www.kaggle.com/franvaluch/easy-autism-detection-with-tf/comments">https://www.kaggle.com/franvaluch/easy-autism-detection-with-tf/comments&lt;/a>&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item></channel></rss>

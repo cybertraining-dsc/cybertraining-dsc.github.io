@@ -1,0 +1,71 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – COVID-19</title><link>/tags/covid-19/</link><description>Recent content in COVID-19 on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 16 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/covid-19/index.xml" rel="self" type="application/rss+xml"/><item><title>Report: Analysis of Covid-19 Vaccination Rates in Different Races</title><link>/report/su21-reu-375/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-375/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-375/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-375/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-375/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-375/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Ololade Latinwo, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-375">su21-reu-375&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-375/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>With the ready availability of COVID-19 vaccinations, it is concerning that a suprising large portion of the U.S. population still refuses to recieve one. The goal of this report is to analyze the demographics of those who choose not to recieve the vaccine and possibly find the reasoning behind their decision in order dissuade any concerns of those who may be on the fence over recieveing the vaccine.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>It has been shown by several economic and health institutions that rates COVID-19 in the United States have been among the highest in the world. Estimates show that about 10 million people have been infected and over a quarter of a million have died in the U.S. by the end of November 2020 &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. Fortunately, several pharmaceutical companies such as() have managed to create a vaccine by the end of 2020, with several million Americans being given the vaccine by early March. Interestingly, it appears that despite the ready availability of vaccines, a sizeable portion of the population have no intention of receiving either their second does or either dose at all. Voluntarily receiving the COVID-19 vaccine is integral to putting the pandemic to an end, so it is important to explore which demographics are hesitant to receive their vaccine and explore their reasons for doing so.&lt;/p>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-375/blob/e13597076f290e67ddc888ec8ac2a7f6fbf8a3ad/Pictures/USA%20Vaccine%20.jpg" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> An image of the United States illustrating the percentage of adults who have recieved at least one dose of the COVID-19 vaccine&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-375/blob/b624e0213bad00132fe7ec9762730466aa4210b3/Pictures/Vaccine%20Rate%20by%20COVID%20Status.jpg" alt="Figure 2">&lt;/p>
+&lt;p>&lt;strong>Figure 2:&lt;/strong> A bar graph of the vaccine rates in people who have or have not been previously been diagnosed with COVID-19&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-375/blob/b624e0213bad00132fe7ec9762730466aa4210b3/Pictures/USA%20Vaccine%20Hesitancy.jpg" alt="Figure 3">&lt;/p>
+&lt;p>&lt;strong>Figure 3:&lt;/strong> An image of the United States illustrating the percentage of adults who are hesitant to recieve a vaccine for COVID-19&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-375/blob/90b659ac3f76fb77dda3bb2d5f3dd33fadbda166/Pictures/Political%20Affiliation%20by%20Region.jpg" alt="Figure 4">&lt;/p>
+&lt;p>&lt;strong>Figure 4:&lt;/strong> A graph of the political alignments seen in various regions of the United States&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
+However, if the data is publicly available you program must contain a download function instead that you customize.
+Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
+the download function.&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Special thanks to Yohn J Parra, Carlos Theran, and Gregor Lasweski for supporting this project.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Khubchandani, J., Sharma, S., Price, J.H. et al.
+COVID-19 Vaccination Hesitancy in the United States: A Rapid National Assessment.
+J Community Health 46, 270–277 (2021).
+&lt;a href="https://doi.org/10.1007/s10900-020-00958-x">https://doi.org/10.1007/s10900-020-00958-x&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Household Pulse Survey COVID-19 Vaccination Tracker
+United States Census Bureau
+&lt;a href="https://www.census.gov/library/visualizations/interactive/household-pulse-survey-covid-19-vaccination-tracker.html">https://www.census.gov/library/visualizations/interactive/household-pulse-survey-covid-19-vaccination-tracker.html&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3" role="doc-endnote">
+&lt;p>Vaccine Hesitancy for COVID-19
+Centers for Disease Control and Prevention
+&lt;a href="https://data.cdc.gov/stories/s/Vaccine-Hesitancy-for-COVID-19/cnd2-a6zw">https://data.cdc.gov/stories/s/Vaccine-Hesitancy-for-COVID-19/cnd2-a6zw&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4" role="doc-endnote">
+&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;/section></description></item></channel></rss>

@@ -2077,7 +2077,180 @@ set of &lt;a href="https://docs.google.com/document/d/1E8orgHbNV6P8STl2lQxov2VHK
 &lt;h2 id="9-references">9. References&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://research.google.com/colaboratory/faq.html">https://research.google.com/colaboratory/faq.html&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Report: Cyber Attacks Detection Using AI Algorithms</title><link>/report/su21-reu-365/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-365/project/</guid><description>
+&lt;/ul></description></item><item><title>Report: Project: Pros and Cons of Artificial Intelligence for Breast Cancer Detection in Women</title><link>/report/su21-reu-377/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-377/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-377/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-377/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-377/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-377/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>RonDaisja Dunn, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-377">su21-reu-377&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-377/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Breast Cancer is one of the most dangerous type of disease that affects many women. For detecting Breast Cancer, machine learning techniques are applied to improve the accuracy of diagnosis. We collected data from African American women that have been diagnosed with Breast Cancer. Through the use of Artificial Intellingence, we will be able to detect the specific forms of Breast Cancer.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-methods-from-literature-review">2. Methods From Literature Review&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-results-from-literature-review">3. Results From Literature Review&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-datasets">4. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-conclusion">5. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-acknowledgments">6. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-references">7. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> project, reu, breast cancer, Artificial Intelligence, diagnosis detection, women, early detection, advantages, disadvantages&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>The leading cause of cancer death in women worldwide is breast cancer. This deadly form of cancer has impacted many women across the globe. Specifically, African American women have been the most negatively impacted. Their death rates due to breast cancer have surpassed all other ethnicities. Serial screening is an essential part in detecting Breast cancer. Detecting the early stages of this disease and decreasing mortality rates is most effective by utilizing serial screening. Some women detect that they could have breast cancer by discovering a painless lump in their breast. Other women began to detect that there may be a problem due to annual and bi-annual breast screenings. Screening in younger women is not likely, because breast cancer is most likely to be detected in older women. Women from the age 55 to 69 are likely to be diagnosed with breast cancer. Women who frequently participate in receiving mammograms reduce the chance of breast cancer mortality.&lt;/p>
+&lt;p>Artificial Intelligence is the branch of computer science dedicated to the development of computer algorithms to accomplish tasks traditionally associated with human intelligence, such as the ability to learn and solve problems. This branch of computer science coincides with diagnosing breast cancer in individuals because of the use of radiology. Radiological images can be quantitated and can inform and train some algorithms. There are many terms that relate to Artificial Intelligence such as artificial neural networks (ANNs), machine and deep learning (ML, DL). These techniques complete duties in healthcare, including radiology. Machine learning interprets pixel data and patterns from mammograms. Benign or malignant features for inputs are defined by microcalcifications. Deep learning is effective in breast imaging, where it can identify several features such as edges, textures, and lines. More intricate features such as organs, shapes, and lesions can also be detected. Neural networks algorithms are used for image feature extractions that cannot be detected beyond human recognition.&lt;/p>
+&lt;p>A computer system that can perform complicated data analysis and picture recognition tasks is known as artificial intelligence (AI). Both massive processing power and the application of deep learning techniques made this possible, and are increasingly being used in the medical field. Mammograms are the x-rays used to detect breast cancer in women. Early detection is important to reduce deaths, because that is when the cancer is most treatable. Screenings have presented a 15%-35% false report in screened women. Errors and the ability to view the cancer from the human eye are the reasons for the false reports. Artificial Intelligence offers many advantages when detecting breast cancer. These advantages include less false reports, fewer cases missed because the AI program does not get tired and it reduces the effort of reading thousands of mammograms.&lt;/p>
+&lt;h2 id="2-methods-from-literature-review">2. Methods From Literature Review&lt;/h2>
+&lt;p>The goal was to emphasize the present data in terms of test accuracy and clinical utility results, as well as any gaps in the evidence. Women are screened by getting photos taken of each breast from different views. Two readers are assigned to interpret the photographs in a sequential order. Each reader decides whether the photograph is normal or whether a woman should be recalled for further examination. Arbitration is used when there is a disagreement. If a woman is recalled, she will be offered extra testing to see if she has cancer.&lt;/p>
+&lt;p>Another goal is to detect cancer at an earlier stage during screening so that therapy can be more successful. Some malignancies found during screening, on the other hand, might never have given the woman symptoms. Overdiagnosis is a term used to describe a situation in which a person has caused harm to another person during their lifetime. As a result, overtreatment (unnecessary treatment) occurs. Since some malignancies are overlooked during screening, the women are misled.&lt;/p>
+&lt;p>The methods in diagnostic procedures vary between radiologists and Artificial Intelligence networks. In a breast ultrasound exam, radiologists look for abnormal abnormalities in each image, while AI networks analyze each image in an exam that is processed separately using a ResNet-18 model, and a saliency map is generated, identifying the most essential sections. With radiologists, the focus is on photos with abnormal lesions and with AI networks the image is given an attention score based on its relative value. To make a final diagnosis, radiologists consider signals in all photos, and AI computes final predictions for benign and malignant results by combining information from all photos using an attention technique.&lt;/p>
+&lt;h2 id="3-results-from-literature-review">3. Results From Literature Review&lt;/h2>
+&lt;p>Using pathology data, each breast in an exam was given a label indicating the presence of cancer. Image-guided biopsy or surgical excision were used to collect tissues for pathological tests. The AI system was shown to perform comparably to board-certified breast radiologists in the reader study subgroup. In this reader research, the AI system detected tumors with the same sensitivity as radiologists, but with greater specificity, a higher PPV, and a lower biopsy rate. Furthermore, the AI system outperformed all ten radiologists in terms of AUROC and AUPRC. This pattern was replicated in the subgroup study, which revealed that the algorithm could correctly interpret Ultrasound Screening examinations that radiologists considered challenging.&lt;/p>
+&lt;p>Figure -
+Analysis of saliency maps on a qualitative level- This figure displays the sagittal and transverse views of the lesion (left) and the AI&amp;rsquo;s saliency maps indicating the anticipated sites of benign (center) and malignant (right) findings in each of the six instances (a-f) from the reader study.&lt;/p>
+&lt;h2 id="4-datasets">4. Datasets&lt;/h2>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-377/main/project/images/Dataset%20Image.png" alt="Figure 2">&lt;/p>
+&lt;p>&lt;strong>Figure 2:&lt;/strong> The probabilistic forecasts of each hybrid model were randomly divided to fit the reader&amp;rsquo;s sensitivity. The dichotomization of the AI&amp;rsquo;s predictions matches the sensitivity of the average radiologists. Readers' AUROC, AUPRC, specificity, and PPV improve as a result of the collaboration between AI and readers, whereas biopsy rates decrease.&lt;/p>
+&lt;h2 id="5-conclusion">5. Conclusion&lt;/h2>
+&lt;p>There are some benefits of AI help with mammogram screenings. The reduction in treatment expenses is one of the advantages of screening. Treatment for people who are diagnosed sooner is less invasive and expensive, which may lessen patient anxiety and improve their prognosis. One or all human readers could be replaced by AI. AI may be used to pre-screen photos, with only the most aggressive ones being reviewed by humans. AI could be employed as a reader aid, with the human reader relying on the AI system for guidance during the reading process.&lt;/p>
+&lt;p>However, there is also fear that AI could discover changes that would never hurt women. Because the adoption of AI systems will alter the current screening program, it&amp;rsquo;s crucial to determine how accurate AI is in breast screening clinical practice before making any changes. It&amp;rsquo;s uncertain how effective AI is at detecting breast cancer in different sorts of women or in different groups of women (for example different ethnic groups). AI could significantly minimize staff workload, as well as the proportion of cancers overlooked during screening, and the amount of women who are asked to return for more tests despite the fact that they do not have cancer. According to the findings of the reader survey, such teamwork between AI systems and radiologists increases diagnosis accuracy and decreases false positive biopsies for all 10 radiologists. This research indicated that integrating the Artificial intelligence system&amp;rsquo;s predictions enhanced the performance of all readers.&lt;/p>
+&lt;h2 id="6-acknowledgments">6. Acknowledgments&lt;/h2>
+&lt;p>Thank you to the extremely intellectual, informative, patient and courteous instructors of the Research Experience for Undergraduates Program.&lt;/p>
+&lt;ol>
+&lt;li>Carlos Theran, REU Intructor&lt;/li>
+&lt;li>Yohn Jairo Parra, REU Intructor&lt;/li>
+&lt;li>Gregor von Laszewski, REU Instructor&lt;/li>
+&lt;li>Victor Adankai, Graduate Student&lt;/li>
+&lt;/ol>
+&lt;h2 id="7-references">7. References&lt;/h2>
+&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
+one point automatically change the references from superscript to square brackets it is best to introduce a space before
+the first square bracket.&lt;/p></description></item><item><title>Report: Project: Detection of Autism Spectrum Disorder with a Facial Image using Artificial Intelligence</title><link>/report/su21-reu-378/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-378/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Myra Saunders, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378">su21-reu-378&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Autism affects 1 in every 160 children worlwide. Early detection and diagnosis of Autism, along with treatment, is needed to minimize some of the difficulties that people with Autism encounter. Autism is usually diagnosed by a specialist through various Autism screening methnods. This can be an expensive and complex process. Many children that display signs of Autism go undiagnosed because there families lack the expenses needed to pay for Autism screening and diagnosing. Therefore, the development of a potential inexpensive, but accurate way to detect Autism in children is necessary for low-income families. With all the technological advances in Artificial Intelligence today, deep learning can be used to develop an effective method to detect Autism in children. This project utilizes a Convolutional Neural Network classifier to explore the possibility of using a facial image analysis to detect Autism in children. The facial images of Autistic and non-autistic male and female children will be used in this project.&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Add a bit more&lt;/li>
+&lt;/ul>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-related-work">2. Related Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-dataset">3. Dataset&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-proposed-methodology">4. Proposed Methodology&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#41-convolutional-neural-network">4.1. Convolutional Neural Network&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#42-architecture">4.2. Architecture&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#5-implementation">5. Implementation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-conclusion">7. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-future-work">8. Future Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-acknowledgments">9. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#11-references">11. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> Autism Spectrum Disorder, Detection, Artificial Intelligence, Deep Learning, Convolutional Neural Network, Computer Vision.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Autism Spectrum Disorder (ASD) is a broad range of lifelong developmental and neurological disorders that usually appear during early childhood. Autism affects the brain and can cause challenges with speech and nonverbal communication, repetitive behaviors, and social skills. Autism Spectrum Disorder can occur in all socioeconomic, ethnic, and racial groups, and can usually be detected and diagnosed from the age of three years old and up. As of June 2021, the World Health Organization has estimated that one in 160 children have an Autism Spectrum Disorder worldwide&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. Early detection of Autism, along with treatment, is crucial to minimize some of the difficulties and symptoms that people with Autism face&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. Symptoms of Autism Spectrum Disorder are normally identified based on psychological criteria&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>. Specialists use techniques such as behaivoral observation reports, questionaires, and a review of the child&amp;rsquo;s cognitive ability to detect and diagose Autism in children.&lt;/p>
+&lt;p>Many researchers believe that there is a correlation between facial morphology and Autism Spectrum Disorder, and that people with Autism have distinct facial features that can be used to detect their Autism Spectrum Disorder&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. Human faces encode important markers that can be used to detect Autism Spectrum Disorder by analyzing facial features, eye contact,facial movements, and more&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>. Scientists found that children diagnosed with Autism share common facial feature distinctions from children who are not diagnosed with Autism&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>. Some of these facial features are wide-set eyes, short middle region of the face, and a broad upper face. Image one provides an example of the facial feature differences between a child with Autism and a child without.&lt;/p>
+&lt;p>Due to the distinct features of Autistic individuals, we believe that it is necessary to explore the possiblities of using a facial analysis to detect Autism in children, using Artificial Intelligence (AI). Many researchers have attempted to explore the possibility of using various novel algorithms to detect and diagnose children, adolescents, and adults with Autism&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. Previous research has been done to determine if Autism Spectrum Disorder can be detected in children by analyzing a facial image&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>. The author of this research collected approximately 1500 facial images of children with Autism from websites and Facebook pages associated with Autism. The facial images of non-autistic children were randomly downloaded from online and cropped.The author aimed to provide a first level screening for autism diagnosis, whereby parents could submit an image of their child and in return recieve a probability of the potential of Autism, without cost.&lt;/p>
+&lt;p>To contribute to this previous research&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>, this project will propose a model that can be used to detect the presence of Autism in children based on a facial image analysis.
+A deep learning algorithm will be used to develop an inexpensive, accurate, and effective method to detect Autism in children. This project implements and utilizes a Convolutional Neural Network (CNN) classifier to explore the possibility of using a facial image analysis to detect Autism in children. Most of the coding used for this CNN model was obtained from the Kaggle dataset and was done by Fran Valuch&lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>. We made changes to some parts of this code, which will be discussed further in this project. The goal of this project is not to diagnose Autism, but to explore the possibility of detecting Autism at its early stage, using a facial image analysis.&lt;/p>
+&lt;h2 id="2-related-work">2. Related Work&lt;/h2>
+&lt;p>Study 1:&lt;/p>
+&lt;p>Study 2:&lt;/p>
+&lt;p>Study 3:&lt;/p>
+&lt;p>Study 4:&lt;/p>
+&lt;p>Study 5:&lt;/p>
+&lt;h2 id="3-dataset">3. Dataset&lt;/h2>
+&lt;p>The dataset used for this project was obtained from Kaggle&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>. This dataset contained approximately 1500 facial images of children with Autism that were obtained from websites and Facebook pages associated with Autism. The facial images of non-autistic children were randomly downloaded from online. The pictures obtained were not of the best quality or consistency with respect to the facial alignment. Therefore, the author developed a python program to automatically crop the images to include only the extent possible for a facial image. These images consist of male and female children that are of different races and range from around ages two to fourteen.&lt;/p>
+&lt;p>This project uses version 12 of this dataset, which is the latest version. The dataset consists of three directories labled test, train, and valid, along with a CSV file. The training set is labeled as train, and consists of &amp;lsquo;Autistic&amp;rsquo; and &amp;lsquo;Non-Autistic&amp;rsquo; subdirectories. These subdirectories contain 1269 images of autistic and 1269 images of non-autistic children respectively. The validation set located in the valid directory are separated into &amp;lsquo;Autistic&amp;rsquo; and &amp;lsquo;Non-autistic&amp;rsquo; subdirectories. These subdirectories also contain 100 images of autistic and 100 images of non-autistic children respectively. The testing set located in the test directory is divided into 100 images of autistic children and 100 images of non-autistic children. All of the images provided in this dataset are in 224 X 224 X 3, jpg format.&lt;/p>
+&lt;p>&lt;strong>Image 1:&lt;/strong> Image of Child with Autism (left) and Child with no Autism (right)&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Autistic%20compared%20with%20Non-Autistic%20(4).png" alt="Autistic and Non-Autistic Child">&lt;/p>
+&lt;h2 id="4-proposed-methodology">4. Proposed Methodology&lt;/h2>
+&lt;h3 id="41-convolutional-neural-network">4.1. Convolutional Neural Network&lt;/h3>
+&lt;p>-[ ] Add info about CNN and how it will be used.&lt;/p>
+&lt;h3 id="42-architecture">4.2. Architecture&lt;/h3>
+&lt;p>&lt;strong>Image 2:&lt;/strong> Architecture of utilized Convolutional Neural Network Model.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/CNN%20Architecture.png" alt="CNN Architecture">&lt;/p>
+&lt;h2 id="5-implementation">5. Implementation&lt;/h2>
+&lt;p>-[ ] Add info about each figure.&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Plot Histogram (1).&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Plot%20Histogram%20(1).png" alt="Plot Histogram (1)">&lt;/p>
+&lt;p>&lt;strong>Figure 2:&lt;/strong> Plot Histogram (2).&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Plot%20Histogram%20(2).png" alt="Plot Histogram (2)">&lt;/p>
+&lt;p>&lt;strong>Figure 3:&lt;/strong> Training and Validation (1).&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Training%20and%20Validation%20(1).png" alt="Training and Validation (1)">&lt;/p>
+&lt;p>&lt;strong>Figure 4:&lt;/strong> Training and Validation (2).&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Training%20and%20Validation%20(2).png" alt="Training and Validation (2)">&lt;/p>
+&lt;p>&lt;strong>Figure 5:&lt;/strong> Correct Labels.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Correct%20Labels.png" alt="Correct Labels">&lt;/p>
+&lt;p>&lt;strong>Figure 6:&lt;/strong> Incorrect Labels.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Incorrect%20Labels.png" alt="Incorrect Labels">&lt;/p>
+&lt;p>&lt;strong>Figure 7:&lt;/strong> Confusion Matrix CNN.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Confusion%20Matrix%20CNN.png" alt="Confusion Matrix CNN">&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="7-conclusion">7. Conclusion&lt;/h2>
+&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> State if goal was met, then explain.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Talk about problems experienced/limitations.&lt;/li>
+&lt;/ul>
+&lt;h2 id="8-future-work">8. Future Work&lt;/h2>
+&lt;p>Talk about what work will be done in the future.&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Work on a model that can be used for children outside of the dataset age range, i.e teenagers.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Work on model that trains data for children of all colors, i.e people of color.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Continue working on model to achieve accuracy above 95%.&lt;/li>
+&lt;/ul>
+&lt;h2 id="9-acknowledgments">9. Acknowledgments&lt;/h2>
+&lt;p>The author of this project would like to express a vote of thanks to Yohn Jairo, Carlos Theran, and Dr. Gregor von Laszewski for their encouragement and guidance throughout this project. A special vote of thanks also goes to Florida A&amp;amp;M University for funding this wonderful research program. The completion of this project could not have been possible without their support.&lt;/p>
+&lt;h2 id="11-references">11. References&lt;/h2>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>World Health Organization. 2021. Autism spectrum disorders, [Online resource] &lt;a href="https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders">https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Raj, S., and Masood, S., 2020. Analysis and Detection of Autism Spectrum Disorder Using Machine Learning Techniques, [Online resource &lt;a href="https://reader.elsevier.com/reader/sd/pii/S1877050920308656?token=D9747D2397E831563D1F58D80697D9016C30AAC6074638AA926D06E86426CE4CBF7932313AD5C3504440AFE0112F3868&amp;amp;originRegion=us-east-1&amp;amp;originCreation=20210704171932">https://reader.elsevier.com/reader/sd/pii/S1877050920308656?token=D9747D2397E831563D1F58D80697D9016C30AAC6074638AA926D06E86426CE4CBF7932313AD5C3504440AFE0112F3868&amp;amp;originRegion=us-east-1&amp;amp;originCreation=20210704171932&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3" role="doc-endnote">
+&lt;p>Khodatars, M., Shoeibi, A., Ghassemi, N., Jafari, M., Khadem, A., Sadeghi, D., Moridian, P., Hussain, S., Alizadehsani, R., Zare, A., Khosravi, A., Nahavandi, S., Acharya, U. R., and Berk, M., 2020. Deep Learning for Neuroimaging-based Diagnosis and Rehabilitation of Autism Spectrum Disorder: A Review. [Online resource] &lt;a href="https://arxiv.org/pdf/2007.01285.pdf">https://arxiv.org/pdf/2007.01285.pdf&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4" role="doc-endnote">
+&lt;p>Musser, M., 2020. Detecting Autism Spectrum Disorder in Children using Computer Vision, Adapting facial recognition models to detect Autism Spectrum Disorder. [Online resource] &lt;a href="https://towardsdatascience.com/detecting-autism-spectrum-disorder-in-children-with-computer-vision-8abd7fc9b40a">https://towardsdatascience.com/detecting-autism-spectrum-disorder-in-children-with-computer-vision-8abd7fc9b40a&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5" role="doc-endnote">
+&lt;p>Akter, T., Ali, M. H., Khan, I., Satu, S., Uddin, Jamal., Alyami, S. A., Ali, S., Azad, A., and Moni, M. A., 2021. Improved Transfer-Learning-Based Facial Recognition Framework to Detect Autistic Children at an Early Stage. [Online resource] &lt;a href="https://www.mdpi.com/2076-3425/11/6/734">https://www.mdpi.com/2076-3425/11/6/734&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:6" role="doc-endnote">
+&lt;p>Beary, M., Hadsell, A., Messersmith, R., Hosseini, M., 2020. Diagnosis of Autism in Children using Facial Analysis and Deep Learning. [Online resource] &lt;a href="https://arxiv.org/ftp/arxiv/papers/2008/2008.02890.pdf">https://arxiv.org/ftp/arxiv/papers/2008/2008.02890.pdf&lt;/a>&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:7" role="doc-endnote">
+&lt;p>Piosenka, G., 2020. Detect Autism from a facial image. [Online resource] &lt;a href="https://www.kaggle.com/gpiosenka/autistic-children-data-set-traintestvalidate?select=autism.csv">https://www.kaggle.com/gpiosenka/autistic-children-data-set-traintestvalidate?select=autism.csv&lt;/a>&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:8" role="doc-endnote">
+&lt;p>Valuch, F., 2021. Easy Autism Detection with TF.[Online resource] &lt;a href="https://www.kaggle.com/franvaluch/easy-autism-detection-with-tf/comments">https://www.kaggle.com/franvaluch/easy-autism-detection-with-tf/comments&lt;/a>&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Cyber Attacks Detection Using AI Algorithms</title><link>/report/su21-reu-365/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-365/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-365/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-365/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-365/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-365/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
@@ -2177,14 +2350,14 @@ the download function.&lt;/li>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report: Dentronics: Artifical intelligence in dentistry</title><link>/report/su21-reu-376/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-376/project/</guid><description>
+&lt;/section></description></item><item><title>Report: Dentronics: Artifical intelligence in Prosthodontics</title><link>/report/su21-reu-376/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-376/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-376/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-376/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
 &lt;p>Jamyla Young, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-376">su21-reu-376&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
+&lt;p>Artificial intelligence is a branch of computer science that focuses on building and programming machines to think like humans and mimic their actions. The proper concept definition of this term cannot be achieved simply by applying a mathematical, engineering, or logical approach but requires an approach that is linked to a deep cognitive scientific inquiry. THe use of machine-based learning is constantly evolving the dental and medical field to assist with medical decision making process.In addition to diagnosis of visually confirmed dental caries and impacted teeth, studies applying machine learning based on artificial neural networks to dental treatment through analysis of dental magnetic resonance imaging, computed tomography, and cephalometric radiography are actively underway, and some visible results are emerging at a rapid pace for commercialization.&lt;/p>
 &lt;p>Contents&lt;/p>
 &lt;div class="toc">
 &lt;nav id="TableOfContents">
@@ -2201,12 +2374,20 @@ Status: draft, Type: Project&lt;/p>
 &lt;/nav>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> Dentronics, neural pathways, prosthodotics.&lt;/p>
+&lt;p>&lt;strong>Keywords:&lt;/strong> Dental implants, implant stability, prosthodotics.&lt;/p>
 &lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Find literature about Dentronics and its effects&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Analyze the literature&lt;/li>
-&lt;/ul>
+&lt;p>{https://www.drkarras.com/a-look-at-the-structure-of-dental-implants/}
+&lt;a href="https://www.infodentis.com/dental-implants/abutment.php">https://www.infodentis.com/dental-implants/abutment.php&lt;/a>
+Dental implants are ribbed oral protheses typically made up of biocompatible titanium to replace the missing root(s) of an absent tooth.
+{1} These dental protheses are used to support the jaw bone to prevent deterioration due to an absent root. This is referred to as bone resorption which can result to facial malformation as well as reduced oral function such as biting and chewing. These devices are composed of three elements that imitate a natural tooth function and structure.
+The implant which are typically ribbed and threaded to promote stability while integrating within the bone tissue. The osseointegration process usually takes 6-8 months to rebuild the bone to support the implant. An implant abutment is fixed on top of the implant to act as a base for prosthetic devices. (2) Prefabricated abutments are manufactured in many shapes, sizes and angles depending on the location of the implant and the types of prothesis that will be attached. Dental abutments support a range of prothetic devices such as dental crowns, bridges, and dentures.&lt;/p>
+&lt;p>&lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5268121/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5268121/&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7494467/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7494467/&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5480808/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5480808/&lt;/a>&lt;/p>
+&lt;p>Osseointegrated dental implants depend on various factors that affect the anchorage of the implant to the bone tissue. Successful surgical anchoring techniques can contribute to long term success of implant stability. Primary stability plays a role 2 week postoperatively by achieving mechanical retention of the implant. It helps establish a mechanical microenvironment for gradual bone healing, or osseointegration-This is secondary implant stability. {2} Bone type, implant length, implant and diameter influences primary and secondary implant stability. Implant length can range from 6mm to 20mm; however, the most common lengths are between 8mm to 15mm. Many studies suggest that implant length contribute to decreasing bone stress and increasing implant stability. Bone stress can occur at both the cortical and cancellous part of the bone. Increasing implant length will decrease stress in the cancellous part of the bone while increasing the implant diameter can decrease stress in the cortical part of the bone. Bone type can promote positive bone stimulation around an implant improving the overall function. There are four different types: Type I, Type II, Type III, and Type IV. Type I is the most dense of them which provides more cortical anchorage but has limited vascularity. Type II is the best for osseointegration because it provides good cortical anchorage and has better vascularity than type I. Type III and IV have a thin layer of cortical bone which decrease the success rate of primary stability{3).&lt;/p>
+&lt;p>&lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7494467/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7494467/&lt;/a>
+&lt;a href="https://www.sciencedirect.com/science/article/pii/S0901502720302496">https://www.sciencedirect.com/science/article/pii/S0901502720302496&lt;/a>&lt;/p>
+&lt;p>Implant stability can be measured using the Implant Stability Quotient (ISQ) as an indirect indicator to determine the time frame for implant loading and prognostic indicator for implant failure(1). This can be measured by resonance frequency analysis (RFA) immediately after the implant has been placed. Resonance frequency analysis is the measurement in which a device vibrates in response to frequencies in the range of 5-15 kHz. The peak amplitude of the response is then encoded into the implant stability quotient (ISQ) .The clinical range of ISQ is from 55-80. High stability is &amp;gt;70 ISQ while medium stability is between 60-69 ISQ. Low stability is &amp;lt;60 ISQ.(2)&lt;/p>
 &lt;h2 id="2-data-sets">2. Data sets&lt;/h2>
 &lt;ul>
 &lt;li>&lt;input disabled="" type="checkbox"> Find data sets about effects about dentronics&lt;/li>
@@ -2258,82 +2439,149 @@ the download function.&lt;/li>
 &lt;/section></description></item><item><title>Report: Project: Hand Tracking with AI</title><link>/report/su21-reu-364/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-364/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-364/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-364/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-364/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-364/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: final, Type: Project&lt;/p>
+Status: draft, Type: Project&lt;/p>
 &lt;p>David Umanzor, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-364">su21-reu-364&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-364/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>In this project we study the ability of an AI to recognize and track hand positions with a raspberry PI 4 with 8 GB of ram and 64 GB of storage.&lt;/p>
+&lt;p>In this project, we study the ability of an AI to recognize letters from the American Sign Language (ASL) alphabet. We use a Convolutional Neural Network and apply it to a dataset of hands in different positionings showing the letters &amp;lsquo;a&amp;rsquo;, &amp;lsquo;b&amp;rsquo;, and &amp;lsquo;c&amp;rsquo; in ASL. The proposed CNN model receives an ASL image and recognizes the feature of the image, generating the predicted letter.&lt;/p>
 &lt;p>Contents&lt;/p>
 &lt;div class="toc">
 &lt;nav id="TableOfContents">
 &lt;ul>
 &lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#2-data-sets">2. Data Sets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-example-of-an-ai-algorithm-with-object-recognition">5. Example of an AI algorithm with Object Recognition&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-documentation">3. Documentation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-methodology">4. Methodology&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-benchmark">5. Benchmark&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-acknowledgments">7. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-references">8. References&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/nav>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> ai, object recognition, image processing, computer vision, hand tracking.&lt;/p>
+&lt;p>&lt;strong>Keywords:&lt;/strong> ai, object recognition, image processing, computer vision, american sign language.&lt;/p>
 &lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> Find liturature about image processing aand object recognition.&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> Analyze liturature &amp;amp; explain how this relates.&lt;/li>
-&lt;/ul>
+&lt;p>Object detection and feature selection are essential tasks in computer vision and have been approached from various perspectives over the past few decades [1]. The brain uses object recognition to solve an inverse problem: one where (surface properties, shapes, and arrangements of objects) need to be inferred from the perceived outcome of the image formation process [3]. Visual object recognition as a neural substrate in humans was revealed by neuropsychological studies. There are specific brain regions that cause object recognition, yet we still do not understand how the brain achieves this remarkable behavior [2]. Human beings rely and rapidly recognize objects despite considerable retinal image transformations arising from changes in lighting, image size, position, and viewing angle [2].&lt;/p>
+&lt;p>A gesture is a form of nonverbal communication done with positions and movements of the hand, arms, body parts, hand shapes, movements of the lips or face [4]. One of the key differences of hand gestures is that they allow communication over a long distance [5]. American Sign Language (ASL) is a formal language that has the same lingual properties as oral languages commonly used by deaf people to communicate [6]. ASL typically is formed by the finger, hand, and arm positioning and can contain static and dynamic movement or a combination of both to communicate words and meanings to another [7]. Communication with other people can be challenging because people are not typically willing to learn sign language [7].&lt;/p>
+&lt;p>In this paper, we consider the problem of detecting and understanding American Sign Language. We test CNN&amp;rsquo;s ability to recognize the ASL alphabet. As advancements in technology increase, there are more improvements to 2D methods of hand detection. Commonly these methods are visual-based, using color, shape, and edge to detect and recognize the hand [8]. There are issues to these technologies like inconsistent lighting conditions, non-hand color similarity, and varying viewpoints that can decrease the model&amp;rsquo;s ability to recognize the hand and its positioning. We use a Convolutional Neural Network to create the model and detect different letters of American Sign Language.&lt;/p>
 &lt;h2 id="2-data-sets">2. Data Sets&lt;/h2>
+&lt;p>In this research we use two sources of datasets, the first is from kaggle which it was already prepared but we needed more. The second is self made dataset by take images in good lighting against a white wall, it was then cropped to 400x400 pixels focused on the hand. The program then sets the images to grayscale as the color is not needed for this research. Finally, the images are reduced to 50x50 resolution for the AI to use for training.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/Hand%20B%20Dataset%20Demo.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Dataset of hands doing different alphabet letters in ASL &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="3-documentation">3. Documentation&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/CNNDiagram.png" alt="Figure 2">&lt;/p>
+&lt;p>&lt;strong>Figure 2:&lt;/strong> The Convolutional Neural Network (CNN) model.&lt;/p>
+&lt;p>This model shows the CNN model that we used to train the AI. The CNN takes pictures and breaks them down into smaller segments called features. It is trained to find patterns and features over the images allowing the CNN to predict an &amp;lsquo;a&amp;rsquo;, &amp;lsquo;b&amp;rsquo;, or &amp;lsquo;c&amp;rsquo; upon the given ASL image with high accuracy. A CNN uses a convolution operation that filters every possible position the feature it collected can be matched to and attempts to find where it fits in [10]. This process is repeated and becomes the convolution layer or in the image depicted as Conv2d + Relu. The ReLU stands for the rectified linear unit and is used as an activation function for the CNN [11].&lt;/p>
 &lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> Collect image sets for the AI to recognize.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> What do these data sets specify.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> What are the challenges with Object Recognition? Accuracy.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Datasets can be huge and GitHub has lmited space. Only very small datasets should be stored in GitHub.
-However, if the data is publicly available your program must contain a download function instead that you customize.
-Write it using pythons &amp;lsquo;request&amp;rsquo;&lt;/li>
+&lt;li>
+&lt;p>[] What is a Relu operation?
+ReLU operation is a rectified linear unit and is used as an activation function for the CNN, we use a Leaky ReLU in our model because it is easy to use to train the model quickly and it has a small tolerance for negatives values unlike the normal ReLU fuction.
+paperswithcode.com/method/leaky-relu
+add figure of a leaky ReLU&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[] What is a Conv2d?
+Conv2d is a 2D Convolution layer meant for a images as it uses height and width. They build a filter across the image by recognizing the similarities of the image&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[] What is a BashNormalization operation?
+Batch Normalization is a process that standardizes the updates as the Convolutional process sets weights and as the neural network goes through each layer the procedure keeps adjusting to a target that never stays the same, requiring more epochs and and reduces the time it takes to train a deep learning neural network. :Reference 12:&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[] what is Maxpooling operation?
+Maximum pooling is an operation the gathers the biggest number in each collection of each feature map. This provides a way to avoid over-fitting&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[] what is Fully Connected?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[] what is Softmax operation?&lt;/p>
+&lt;/li>
 &lt;/ul>
-&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Place cool image into projects images in my directory (data set of its ability to be accurate).&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Correct the following link, replace the fa with su, and the numbers to my reu numbers, change chart.png to file name.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> If the image has been copied, you must use a reference such as shown in the Figure 1 caption.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> &lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="5-example-of-an-ai-algorithm-with-object-recognition">5. Example of an AI algorithm with Object Recognition&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete data set that will be used.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Identify the conrete algorithm that completes the image processing for Object Recognition.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Write the program.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Verify that it works.&lt;/li>
-&lt;/ul>
-&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="4-methodology">4. Methodology&lt;/h2>
+&lt;p>In this research, we built the model using a convolution neural network (CNN) to create an AI that can recognize ASL letters (&amp;lsquo;a&amp;rsquo;, &amp;lsquo;b&amp;rsquo;, and &amp;lsquo;c&amp;rsquo;), using a collection of 282 images. The Dataset contains 94 images for each letter to train the AI&amp;rsquo;s CNN. This can be expanded to allow an AI to recognize letters, words, and any expression that can be made using a still image of the hands. A CNN fits this perfectly as we can use its ability to assign importance to segments of an image and tell the difference from one another using weights and biases. With the proper training, it is able to learn and identify these characteristics [9].&lt;/p>
+&lt;h2 id="5-benchmark">5. Benchmark&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/ConfusionMatrixCNN.png" alt="Figure 3">&lt;/p>
+&lt;p>&lt;strong>Figure 3:&lt;/strong> The Confusion Matrix of the finished CNN model.&lt;/p>
+&lt;p>The Confusion Matrix shows the results of the model after being tested on its ability to recognize each letter, in the image it shows that the AI had a difficult time recognizing the difference between an &amp;lsquo;a&amp;rsquo; and &amp;lsquo;c&amp;rsquo; only getting 6% of the images labelled as &amp;lsquo;c&amp;rsquo; correct.&lt;/p>
 &lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
-&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
-&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
-&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
+&lt;p>We build a model to recognize an ASL given an image and predict the corresponding letter using a convolutional neural network. The model provides a means of 66% accuracy in classifying the ASL among the three classes &amp;lsquo;a&amp;rsquo;, &amp;lsquo;b&amp;rsquo;, and &amp;lsquo;c&amp;rsquo;. From the given results, the letters &amp;lsquo;a&amp;rsquo; and &amp;lsquo;c&amp;rsquo; became the most difficult for the CNN to differentiate from each other, as shown in the confusion matrix in figure 3. We suggest that the low accuracy rate is based on similar appearing grayscale of the letters &amp;lsquo;a&amp;rsquo; and &amp;lsquo;c&amp;rsquo; and the lack of a larger dataset for the AI to learn from. We determine that using a larger dataset of the entire alphabet and increasing the number of examples of each letter to train the AI could improve the results.&lt;/p>
+&lt;p>We found that the low accuracy can be increased by improving the resolution of the image giving the program more features to go off of in its computing to recognize the image, going from model 1 at 50 x 50 pixels to model 2 at 80 x 80 pixels there was an increase from 66% to 76% in accuracy, this in theory should improve as the resolution of the image increases from 100x 100 to 200x 200 and at the best the image&amp;rsquo;s resolution would be left at the original size off 400 x 400. This is accuracy increase would be because as the resolution drops the program has less information and some of the important landmarks of the hand are lost due to the resolution of the image.&lt;/p>
 &lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Gregor Von Laszewski&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Correct formatting and grammar&lt;/li>
 &lt;/ul>
-&lt;h2 id="9-references">9. References&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
-one point automatically change the references from superscript to square brackets it is best to introduce a space before
-the first square bracket.&lt;/li>
-&lt;/ul>
+&lt;p>Future studies using a larger dataset can be applied to more complex methods than just singular letters but words from the ASL language to recreate a text to speech software based around ASL hand positioning.&lt;/p>
+&lt;h2 id="7-acknowledgments">7. Acknowledgments&lt;/h2>
+&lt;p>We thank Carlos Theran (Florida A &amp;amp; M University) for advising, guidance, and resources used in the research; We thank Yohn Jairo (Florida A &amp;amp; M University) for guidance and aid on the research report; We thank Gregor von Laszewki (Florida A &amp;amp; M University) for advice and commenting on the code and report; We thank the Polk State LSAMP Program for aid in obtaining this opportunity. We thank Florida A &amp;amp; M University for funding this research.&lt;/p>
+&lt;h2 id="8-references">8. References&lt;/h2>
 &lt;section class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
 &lt;li id="fn:1" role="doc-endnote">
-&lt;p>Use of energy explained - Energy use in homes, [Online resource]
-&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>tecperson, Sign Language MNIST Drop-In Replacement for MNIST for Hand Gesture Recognition Tasks, [Kaggle]
+&lt;a href="https://www.kaggle.com/datamunge/sign-language-mnist">https://www.kaggle.com/datamunge/sign-language-mnist&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh CommonH Library, [GitHub]
-&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: Detecting Multiple Sclerosis Symptoms using AI</title><link>/report/su21-reu-371/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-371/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-371/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-371/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-371/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-371/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Raeven Hatcher, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-371">su21-reu-371&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-371/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Multiple sclerosis (M.S.) is a chronic central nervous system disease that potentially affects the brain, spinal cord, and optic nerves in the eyes. People that suffer from M.S had their immune system attacks the myelin (protective sheath) that covers nerve fibers, resulting in communication problems between the brain and the body. The cause of M.S. is unknown; however, researchers believe that genetic and environmental factors play a role in those affected. Symptoms differ significantly from person to person due to varying nerves involved. The most common symptoms include tremors, numbness or weakness in limbs, vision loss, blurry vision, double vision, slurred speech, fatigue, dizziness, involuntary movement, and muscle paralysis. There is currently no cure for Multiple sclerosis and treatment focuses on slowing the progression of the disease and managing symptoms.&lt;/p>
+&lt;p>There is no proven way to predict how an individual with M.S will progress certainly. However, researchers established four phenotypes that will assist in identifying those who are more inclined to have disease progression and help aid in more effective treatment targeting. In this experiment, Artificial Intelligence (AI) will be applied by ascertaining what causes these different phenotypes and which phenotype is at most risk for disease progression using a Magnetic Resonance Scan.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-datasets">4. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-benchmark">5. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-acknowledgments">7. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-references">8. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>MS or Multiple sclerosis is a potentially disabling autoimmune disease that can damage the brain, spinal cord, and optic nerves located in the eyes. It is the most common progressive neurological disability that affects adolescents. The immune system attacks the central nervous system in this disease, specifically myelin (sheth that covers and protects nerve fibers), oligodendrocytes (myelin-producing cells), and the nerve fibers located under myelin. Myelin enables nerves to send and receive electrical signals swiftly and effectively. The myelin sheath becomes scarred from being attacked. These attacks make the myelin sheath inflamed in little patches, observable on an MRI scan. These little inflamed patches potentially disrupt messages moving along the nerves, which ultimately lead to the symptoms of Multiple sclerosis. If these attacks happen frequently, permanent damage can occur to the involved nerve.&lt;br>
+Because Multiple sclerosis affects the central nervous system, which control all of the actions carried out in the body, symptoms can affect any part of the body and vary. The most common symptoms of this progressive disease include muscle weakness, pins and needle sensation, electrical shock sensation, loss of bladder control, muscle spasms, tremors, double or blurred vision, partial or total vision loss, to name a few. Researchers are not sure what causes Multiple sclerosis but believe those between the ages of 20 and 40, women, smoke, are exposed to certain infections, have a vitamin D and B12 deficiency, and related to someone affected by this disease are more susceptible.&lt;/p>
+&lt;p>It can be difficult to diagnose MS due to the symptoms usually being vague or very similar to other conditions. There is no single test to diagnose it positively. However, doctors can choose a neurological examination, MRI scan, evoked potential test, lumbar puncture, or a blood test to diagnose a patient properly. Currently, clinical practices divide MS into four phenotypes: clinically isolated syndrome (CIS), relapsing-remitting MS (RRMS), primary-progressive MS (PPMS), and secondary progressive MS (SPMS). Two factors define these phenotypes; disease activity (evidenced by relapses or new activity on MRI scan) and progression of disability. Phenotypes are routinely used in clinical trials to choose patients and conduct treatment plans.&lt;/p>
+&lt;p>New technologies, such as artificial intelligence and machine learning, help assess multidimensional data to recognize groups with similar features. When implemented in apparent abnormalities on MRI scans, these new technologies have assured promising results in classifying patients who share similar pathobiological mechanisms rather than the typical clinical features.&lt;/p>
+&lt;p>Researchers at UCL work with the Artificial intelligence (AI) tool SuStain (Subtype and Stage Inference) to ask whether AI can find Multiple sclerosis subtypes that follow a particular pattern on brain images? The results uncovered three data-driven MS subtypes defined by pathological abnormalities seen on brain images (Skylar). The three data-driven MS subtypes are cortex-led, normal-appearing WM-led, Lesion-led. Cortex-led MS is characterized by early tissue shrinkage (atrophy) in the outer layer of the brain. Normal-appearing WM-led is identified by irregular diffused tissue located in the middle of the brain. Lastly, a lesion-led subtype is characterized by early extension accumulation of brain damage areas that lead to severe atrophy in numerous brain regions. All three of these subtypes correlate to the earliest abnormalities observed on an MRI scan within each pattern.&lt;/p>
+&lt;p>In this experiment, researchers utilized the SuStain tool to capture MRI scans of 6,332 patients. The unsupervised SuStain taught itself and identified those three patterns that were previously undiscovered.&lt;/p>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://user-images.githubusercontent.com/85815818/126948339-7723b810-83e4-463b-a2b0-bf417fac4458.jpg" alt="projectpic2">
+The above image shows the MRI-based subtypes. The color shades range from blue to pink, representing the probability of abnormality mild to severe, respectively. (Eshaghi)
+&lt;img src="https://user-images.githubusercontent.com/85815818/127168907-4d7e444f-14bd-4ee3-8027-a7b0e5b7d213.jpg" alt="INSERTPIC">&lt;/p>
+&lt;h2 id="4-datasets">4. Datasets&lt;/h2>
+&lt;p>MRI brain scans of 6,322 MS patients. look if you can find figures descrbing the data.&lt;/p>
+&lt;h2 id="5-benchmark">5. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> define method that will be used to study the performance of the proposed method&lt;/li>
+&lt;/ul>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A vital barrier in distinguishing subtypes in Multiple sclerosis is to stitch observations together from cross-sectional or longitudinal studies. Grouping individuals based wholly on their MRI scan is ineffective because patients belonging to the same subgroup could show ranging abnormalities as the disease progresses and would appear different. SuStaIn, Subtype and Staging Inference, a newly developed unsupervised machine learning algorithm aids in uncovering data-driven disease subtypes that have distinct temporal progression patterns. &amp;ldquo;The ability to disentangle temporal and phenotypic heterogeneity makes SuStain different from other unsupervised learning or clustering algorithms&amp;rdquo; (Eshaghi). SuStaIn identifies subtypes given the data, defined by a particular pattern of variation in a set of features, such as MRI abnormalities. Once the SuStain subtypes and their MRI trajectories are adequately identified, the disease model can conclude how approximately a patient, whose MRI is unseen, belongs to each of the three subtypes and stages.&lt;/p>
+&lt;p>A total of 9,390 patients participated in this research study. Six thousand three hundred twenty-two patients were utilized in training, and 3,068 patients were used for the validation dataset. Patient characteristics such as sex, age, disease duration, and expanded disability status scale (EDSS) were similar between the training and validation dataset. There were 18 MRI features measured, 13 of those differed dramatically from those between the MS training dataset and control group and were maintained in the SustaIn model. Three subtypes, with very distinct patterns, were identified in the training dataset and validated in the validation dataset. The early abnormalities noticed by SuStain helped define the three subtypes: cortex-led, normal-appearing white matter-led, and lesion-led.&lt;/p>
+&lt;p>There was a statistically significant difference in the rate of the disease progression between the subtypes in the training dataset and validation datasets. The lesion-led subtype held a 30% higher risk of developing 24-week confirmed disability progression (CDP) than the cortex-led subtype in the training dataset. The lesion-led validation dataset had a 32% higher risk of confirmed disability progression than the cortex-led subtype. No other differences in the advancement of disability between subtypes were noted. When SuStaIn was applied to the training and validation dataset, it was pointed out that there were differences in the risk of disability progression between SuStaIn stages.&lt;/p>
+&lt;p>Each MRI-based subtype had a different response to treatment, comparing those on treatment and those on placebo. The lesion-led subtype showed a remarkable response to the treatment. Patients on the lesion-led active treatment subtype showed a significantly slower worsening of EDSS than those on the placebo. No differences in the rate of EDSS were observed in those on the placebo compared to active treatment in the NAWM-led and cortex-led subtypes.&lt;/p>
+&lt;p>When SuStain was applied to a large set of Multiple sclerosis scans, it identified three subtypes. Researchers found out the patient&amp;rsquo;s baseline subtype and stage were associated with an increased risk of disease progression. Combining clinical information with the MRI-based three subtypes increased the predictive accuracy of just using the MRI scan information alone. The patterns of MRI abnormality in these subtypes provide perspicacity into disease mechanisms, and, alongside clinical phenotypes, they may aid the stratification of patients for future studies.&lt;/p>
+&lt;h2 id="7-acknowledgments">7. Acknowledgments&lt;/h2>
+&lt;p>-Gregor von Laszewski
+-Yohn Jairo
+-Carlos Theran&lt;/p>
+&lt;h2 id="8-references">8. References&lt;/h2>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Mayo Foundation for Medical Education and Research. (2020, June 12). Multiple sclerosis. Mayo Clinic. &lt;a href="https://www.mayoclinic.org/diseases-conditions/multiple-sclerosis/symptoms-causes/syc-20350269">https://www.mayoclinic.org/diseases-conditions/multiple-sclerosis/symptoms-causes/syc-20350269&lt;/a>.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item><item><title>Report: Project: AI in Orthodontics</title><link>/report/su21-reu-363/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-363/project/</guid><description>
@@ -2362,15 +2610,16 @@ Status: draft, Type: Project&lt;/p>
 &lt;/div>
 &lt;p>&lt;strong>Keywords:&lt;/strong> ai, orthodontics, x-rays.&lt;/p>
 &lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Find literature about AI and Orthodontics x-rays.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Analyze the literature and explain how ai or x-rays are beneficial.&lt;/li>
-&lt;/ul>
+&lt;p>Dental field technology capability has increased over the past 25 years, and has helped reduce time, cost, medical errors, and dependence on human expertise[1]. Intelligence in orthodontics can learn, build, remember, understand and recognize designs from techniques used in correcting the teeth like retainers. Dental field can create alternatives, adapt to change and explore experiences with sub-groups of patients[reference]. AI has taken part of the dental field by accurately and efficiently processes the best data from treatments. For smart use of Health Data, machine learning and artificial intelligence (AI) are expected to promote further development of the digital revolution in (dental) medicine using algorithms to simulate human cognition in the analysis of complex data. The performance is better, the higher the degree of repetitive pattern and the larger the amount of accessible data[5].&lt;/p>
 &lt;h2 id="2-data-sets">2. Data Sets&lt;/h2>
+&lt;p>We found a dataset in kaggle website that is about dental images. The data was collected by Mr. Parth Chokhra. The name of the dataset is Dental Images of kjbjl. The dataset did not have metadata and an explanation of how they collected the data. The data set supports how x-rays of teeth in dentistry becomes artificial intelligence. The Dental Images of kjbjl dataset was used in AI already using autoencoders. Autoencoders are an freely artificial neural network (located in the nervous system) that learns how to accurately encode data and reconstruct the data back from the reduced encoded representation to a representation that is as close to the original input as possible.&lt;/p>
+&lt;p>Describe the data that was in the paper.&lt;/p>
 &lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Finding data sets in Orthodontics.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Can any of the data sets be used in AI?&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> What are the challenges with Orthodontics data set? Privacy, HIPPA, Size, Avalibility&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> What are the challenges with Orthodontics data set? Privacy, HIPAA, Size, Avalibility
+Some challenges with Orthodontics data sets with privacy&lt;/li>
+&lt;/ul>
+&lt;p>explain how its hard to find&lt;/p>
+&lt;ul>
 &lt;li>&lt;input disabled="" type="checkbox"> Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
 However, if the data is publicly available you program must contain a download function instead that you customize.
 Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
@@ -2384,20 +2633,23 @@ the download function.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
 &lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>Place image of x ray and url of the kaggle images. Talk about what and how etc. the images are about and look like and what you can do with them.&lt;/p>
 &lt;h2 id="5-example-of-a-ai-algorighm-in-orthodontics">5. Example of a AI algorighm in Orthodontics&lt;/h2>
 &lt;ul>
 &lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete data sets that will be used.&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete algorighm to analyze the data sets.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Write the program.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Verify that it works.&lt;/li>
 &lt;/ul>
+&lt;p>Read over google scholar review page on orthondontics about their research and algorighm (if used).&lt;/p>
 &lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
 &lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>Talk about the matrics in the google scholar review says. The matrics that the researchers are using to study the performance of their algorighns or code.&lt;/p>
 &lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
 &lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;p>What the researchers have done in conclusion. &amp;ldquo;&amp;hellip; used these algorigns to&amp;hellip;.&amp;rdquo;&lt;/p>
 &lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
 &lt;ul>
 &lt;li>&lt;input disabled="" type="checkbox"> Gregor guided me throughout this process.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Carlos guided me throughout this process.&lt;/li>
 &lt;/ul>
 &lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
 &lt;h2 id="9-references">9. References&lt;/h2>
@@ -2406,6 +2658,7 @@ the download function.&lt;/li>
 one point automatically change the references from superscript to square brackets it is best to introduce a space before
 the first square bracket.&lt;/li>
 &lt;/ul>
+&lt;p>Change 6 reference and replace with google scholar research paper.&lt;/p>
 &lt;section class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
@@ -2414,8 +2667,7 @@ the first square bracket.&lt;/li>
 &lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:2" role="doc-endnote">
-&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
-&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>&amp;lt;Bichu, Y.M., Hansa, I., Bichu, A.Y. et al. Applications of artificial intelligence and machine learning in orthodontics: a scoping review. Prog Orthod. 22, 18 (2021).&amp;gt;&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item><item><title>Report: AI Time Series Analysis</title><link>/report/su21-reu-374/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-374/project/</guid><description>
@@ -2423,8 +2675,8 @@ the first square bracket.&lt;/li>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-312/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
 &lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> syntax for refences wron, see original example&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> never ever use the word I or my in your report&lt;/li>
+&lt;li>[*] syntax for refences wron, see original example&lt;/li>
+&lt;li>[*] never ever use the word I or my in your report&lt;/li>
 &lt;/ul>
 &lt;p>Zyion Morris, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374">su21-reu-374&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/edit/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
@@ -2446,15 +2698,14 @@ Status: draft, Type: Project&lt;/p>
 &lt;/div>
 &lt;p>&lt;strong>Keywords:&lt;/strong> AI, ML, DL, Cybersecurity, Cyber Attacks, IoT.&lt;/p>
 &lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>-[ ] do not indnt&lt;/p>
-&lt;p>&lt;del>My&lt;/del> first research on AI Time analysis includes query on stock market data stucture.
+&lt;p>Concurrently, research on AI Time analysis includes query on stock market data stucture.
 The mean (level), maximum, minimum values; Time Series Data Components - trend, seasonality, noise or randomness, a curve, and the level.
 Blockchain levies to be the coin flip of how Artificial Intellignece predicts future prices through machine learning.
 numpy, matplotlib, pandas, cloudmesh-common, cloudmesh-cmd5s, are codes existing that demonstrate the use of blockchain with AI using Python.
 What is the code in this project that will be developed?
 What is the performance of this code?
-What is my conclusion?
-Never, ever use the words ‘I’ or ‘my’ in a report&lt;/p>
+What is one conclusion utilizing the source code?
+*Never, ever use the words ‘I’ or ‘my’ in a report&lt;/p>
 &lt;h2 id="2-datasets">2. Datasets&lt;/h2>
 &lt;p>This report pertains a .CSV file of a dataset predicting the consumption of electricity in the coming future. &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/files/6743411/archive.zip">archive.zip&lt;/a>&lt;/p>
 &lt;h2 id="3-using-images">3. Using Images&lt;/h2>
@@ -2466,21 +2717,30 @@ Never, ever use the words ‘I’ or ‘my’ in a report&lt;/p>
 &lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-374/raw/main/project/images/image.png" alt="Figure 1">&lt;/p>
 &lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them [^1].&lt;/p>
 &lt;h2 id="4-benchmark">4. Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]&lt;/p>
+&lt;p>*Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]&lt;/p>
 &lt;h2 id="5-conclusion">5. Conclusion&lt;/h2>
-&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
+&lt;p>*A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
 &lt;h2 id="6-acknowledgments">6. Acknowledgments&lt;/h2>
-&lt;p>Needs full sentence&lt;/p>
+&lt;p>*Needs full sentence&lt;/p>
 &lt;ul>
 &lt;li>Gregor von Laszewski&lt;/li>
 &lt;li>Yohn Jairo Bautista&lt;/li>
 &lt;li>Carlos Theran&lt;/li>
 &lt;/ul>
 &lt;h2 id="7-references">7. References&lt;/h2>
-&lt;p>-[ ] refernce syntax wrong see original example&lt;/p>
-&lt;p>&amp;lt;Marco Iansiti and Karim R. Lakhani, The Truth About Blockchain, [Online resource] &lt;a href="https://hbr.org/2017/01/the-truth-about-blockchain%3E">https://hbr.org/2017/01/the-truth-about-blockchain&amp;gt;&lt;/a>&lt;/p>
-&lt;p>&amp;lt;Jeremy Swinfen Green, Understanding cryptocurrency market fluctuations, [Online resource] &lt;a href="https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/%3E">https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/&amp;gt;&lt;/a>&lt;/p>
-&lt;p>&amp;lt;Mehmet Tarik Akcay, Historical Data for Top 20 Coins by Market Cap, [Online resource] &lt;a href="https://www.kaggle.com/mtakcy/historical-data-for-top-20-coins-by-market-cap?select=eos.csv%3E">https://www.kaggle.com/mtakcy/historical-data-for-top-20-coins-by-market-cap?select=eos.csv&amp;gt;&lt;/a>&lt;/p></description></item><item><title>Report: Aquatic Toxicity Analysis with the aid of Autonomous Surface Vehicle (ASV)</title><link>/report/fa20-523-312/project/project/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/fa20-523-312/project/project/</guid><description>
+&lt;ol>
+&lt;li>
+&lt;p>Marco Iansiti and Karim R. Lakhani, The Truth About Blockchain, [Online resource] &lt;a href="https://hbr.org/2017/01/the-truth-about-blockchain">https://hbr.org/2017/01/the-truth-about-blockchain&lt;/a> ↩︎&lt;/p>
+&lt;ol start="2">
+&lt;li>
+&lt;p>Jeremy Swinfen Green, Understanding cryptocurrency market fluctuations, [Online resource] &lt;a href="https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/">https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/&lt;/a> ↩︎&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Mehmet Tarik Akcay, Historical Data for Top 20 Coins by Market Cap, [Online resource] &lt;a href="https://www.kaggle.com/mtakcy/historical-data-for-top-20-coins-by-market-cap?select=eos.csv">https://www.kaggle.com/mtakcy/historical-data-for-top-20-coins-by-market-cap?select=eos.csv&lt;/a> ↩︎&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol></description></item><item><title>Report: Aquatic Toxicity Analysis with the aid of Autonomous Surface Vehicle (ASV)</title><link>/report/fa20-523-312/project/project/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/fa20-523-312/project/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/fa20-523-312/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-312/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/fa20-523-312/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-312/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: final, Type: Project&lt;/p>
@@ -9021,788 +9281,6 @@ researchers have found to be higher in historically segregated communities. In 1
 &lt;/li>
 &lt;li id="fn:14" role="doc-endnote">
 &lt;p>&lt;a href="http://paperpile.com/b/9IXs7U/FjdO">&amp;ldquo;Telehealth Network Grant Program,&amp;rdquo; Feb. 12, 2020. &lt;a href="https://www.hrsa.gov/grants/find-funding/hrsa-20-036">https://www.hrsa.gov/grants/find-funding/hrsa-20-036&lt;/a> (accessed Dec. 07, 2020).&lt;/a>&amp;#160;&lt;a href="#fnref:14" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: Online Store Customer Revenue Prediction</title><link>/report/fa20-523-337/project/project/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/fa20-523-337/project/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/fa20-523-337/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/fa20-523-337/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: final, Type: Project&lt;/p>
-&lt;p>Balaji Dhamodharan, &lt;a href="mailto:bdhamodh@iu.edu">bdhamodh@iu.edu&lt;/a>, fa20-523-337
-Anantha Janakiraman, &lt;a href="mailto:ajanakir@iu.edu">ajanakir@iu.edu&lt;/a>, fa20-523-351&lt;/p>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/fa20-523-337/edit/main/project/project.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>&lt;strong>Situation&lt;/strong> The 80/20 rule has proven true for many businesses–only a small percentage of customers produce most of the revenue. As such, marketing teams are challenged to make appropriate investments in promotional strategies. The objective of this project is to explore different machine learning techniques and identify an optimized model that can help the marketing team understand customer behavior and make informed decisions.&lt;/p>
-&lt;p>&lt;strong>Task&lt;/strong> The challenge is to analyze a Google Merchandise Store (also known as GStore, where Google swag is sold) customer dataset to predict revenue per customer. Hopefully this exploration will lead to actionable insights and help allocating marketing budgets for those companies who choose to use data analysis on top of GA data [^1].&lt;/p>
-&lt;p>&lt;strong>Action&lt;/strong> This exploration is based on a Kaggle competition and there are two datasets available in Kaggle. One is the test dataset (test.csv) and the other one is the training dataset (train.csv) and together the datasets contain customer transaction information ranging from August 2016 to April 2018. The action plan for this project is to first conduct data exploration that includes but not limited to investigating the statistics of data, examining the target variable distribution and other data distributions visually, determining imputation strategy based on the nature of missing data, exploring different techniques to scale the data, identifying features that may not be needed - for example, columns with constant variance, exploring different encoding techniques to convert categorical data to numerical data and identifying features with high collinearity. The preprocessed data will then be trained using a linear regression model with basic parameter setting and K-Fold cross validation. Based on the outcome of this initial model further experimentation will be conducted to tune the hyper parameters including regularization and also add new derived features to improve the accuracy of the model. Apart from linear regression other machine learning techniques like ensemble methods will be explored and compared.&lt;/p>
-&lt;p>&lt;strong>Result&lt;/strong> The best performing model determined based on the RMSE value will be used in the inference process to predict the revenue per customer. The Kaggle competition requires to predict the natural log of sum of all transactions per customer&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-datasets">2. Datasets&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#21-metrics">2.1 Metrics&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#22-source-code">2.2 Source Code&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#3-methodology">3. Methodology&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#31-load-data">3.1 Load Data&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#32-data-exploration">3.2 Data Exploration&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#321-exploratory-data-analysis">3.2.1 Exploratory Data Analysis&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#33-data-pre-processing">3.3 Data Pre-Processing&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#34-feature-engineering">3.4 Feature Engineering&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#34-feature-selection">3.4 Feature Selection&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#341-data-preparation">3.4.1 Data Preparation&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#35-model-algorithms-and-optimization-methods">3.5 Model Algorithms and Optimization Methods&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#351-linear-regression-model">3.5.1 Linear Regression Model&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#352-xgboost-regressor">3.5.2 XGBoost Regressor&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#353-lightgbm-regressor">3.5.3 LightGBM Regressor&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#354-lasso-regression">3.5.4 Lasso Regression&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#355-ridge-regressor">3.5.5 Ridge Regressor&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#4-benchmark-results">4. Benchmark Results&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-software-technologies">5. Software Technologies&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#61-model-pipeline">6.1 Model Pipeline&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#62-feature-exploration-and-pre-processing">6.2 Feature Exploration and Pre-Processing&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#63-outcome-of-experiments">6.3 Outcome of Experiments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#64-limitations">6.4 Limitations&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#7-previous-explorations">7. Previous Explorations&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-acknowlegements">8. Acknowlegements&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> ecommerce, regression analysis, big data&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>The objective of this exploration is to predict the natural log of total revenue per customer which is a real valued continuous output and an algorithm like linear regression will be ideal to predict the response variable that is continuous using a set of predictor variables given the basic assumption that there is a linear relationship between the predictor and response variables.&lt;/p>
-&lt;h2 id="2-datasets">2. Datasets&lt;/h2>
-&lt;p>As mentioned in the earlier sections, the dataset used in this model exploration was downloaded from Kaggle &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> and available in CSV file format. The training contains more than 872K observations and based on the size of the dataset it would be ideal to use mini-batch or gradient descent optimization techniques to identify the coefficients that best describe the model. The target variable as observed in the dataset is a continuous variable which implies that the use case is a regression problem. As mentioned earlier, there are several machine learning techniques that can be explored for this type of problem including regression and ensemble methods with different parameter settings. The sparsity of potential features in the datasets indicates that multiple experimentations will be required to determine the best performing model. Also based on initial review of the datasets, it also observed that some of the categorical features exhibit low to medium cardinality and if these features are going to be retained in the final dataset used for training then it is important to choose the right encoding technique.&lt;/p>
-&lt;ul>
-&lt;li>Train.csv User transactions from August 1st, 2016 to August 1st, 2017 &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/li>
-&lt;li>Test.csv User transactions from August 2nd, 2017 to April 30th, 2018 &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/li>
-&lt;/ul>
-&lt;h3 id="21-metrics">2.1 Metrics&lt;/h3>
-&lt;p>The metrics used for evaluation in this analysis is the root mean squared error (RMSE). The root mean squared error function forms the objective/cost function which will be minimized to estimate optimal parameters for the linear function using Gradient Descent. The plan is to conduct multiple experiments with different iterations to obtain convergence and try different hyper-parameters (e.g. learning rate).&lt;/p>
-&lt;p>RMSE is defined as:&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/loss.png" alt="Figure 1.1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> RMSE&lt;/p>
-&lt;p>where y-hat is the natural log of the predicted revenue for a customer and y is the natural log of the actual summed revenue value plus one as seen in Figure-1.&lt;/p>
-&lt;h3 id="22-source-code">2.2 Source Code&lt;/h3>
-&lt;p>Follow this &lt;a href="https://github.com/cybertraining-dsc/fa20-523-337/blob/main/project/code/project.ipynb">link&lt;/a> to the source code for subsequent sections in this report.&lt;/p>
-&lt;h2 id="3-methodology">3. Methodology&lt;/h2>
-&lt;p>The CRISP-DM process methodology was followed in this project. The high-level implementation steps are shown in Figure-2.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/methodology.png" alt="Methodology">&lt;/p>
-&lt;p>&lt;strong>Figure 2:&lt;/strong> Project Methodology&lt;/p>
-&lt;h3 id="31-load-data">3.1 Load Data&lt;/h3>
-&lt;p>The data that was obtained from Kaggle was over 2.6 GB (for Train and Test). As the size of the dataset was significantly large, it was hosted onto a storage bucket in Google Cloud Platform and ingested into the modeling process through standard application API libraries. Also in this project from the available datasets, the Train dataset was used to build the models and test the results because the real end goal is to test the effectiveness of algorithm. Since the test set doesn&amp;rsquo;t contain the Target Variable (rightly so!), it will not be consumed during the testing and evaluation phase in this exploration.&lt;/p>
-&lt;h3 id="32-data-exploration">3.2 Data Exploration&lt;/h3>
-&lt;p>The dataset obtained for this project is large and it contains over 872k records. The dataset also contains 12 predictor variables and 1 target variable. The target Variable is totals.transactionRevenue and the objective of this exploration is to predict the total transaction revenue of an online store customer as accurately as possible.&lt;/p>
-&lt;p>&lt;strong>Target Variable:&lt;/strong> The Target Variable is totals.transactionRevenue has the transaction value of each visit. But, this column contains 98.72% of missing values for revenue (no purchase). The Target variable had a skewed distribution originally and after performing a lognormal distribution on the target variable it has a normal distribution.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/y_after_transformation.png" alt="Target Variable">&lt;/p>
-&lt;p>&lt;strong>Figure 3:&lt;/strong> Target Variable&lt;/p>
-&lt;h4 id="321-exploratory-data-analysis">3.2.1 Exploratory Data Analysis&lt;/h4>
-&lt;p>&lt;strong>Browser:&lt;/strong> The most popular browser is Google Chrome. Also, it was observed during the analysis that second and third best users were using safari and firefox respectively.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/device_browser.png" alt="Browser Variable">&lt;/p>
-&lt;p>&lt;strong>Figure 4:&lt;/strong> Browser Variable&lt;/p>
-&lt;p>&lt;strong>Device Category:&lt;/strong> Almost 70% of users were accessing online store via desktop&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/device_category.png" alt="Device Category Variable">&lt;/p>
-&lt;p>&lt;strong>Figure 5:&lt;/strong> Device Category Variable&lt;/p>
-&lt;p>&lt;strong>OperatingSystem:&lt;/strong> Windows is the popular operating system among the desktop users. However, among the mobile users, what&amp;rsquo;s interesting is, almost equal number of ios users (slightly lower) as android users accessed google play store. The reason why this is interesting is because, google play store is primarily used by android users and ios users almost always use Apple Store for downloading apps to their mobile devices. So it is interesting to know, almost equal number of ios users visit google store as well.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/device_operating_system.png" alt="OperatingSystem">&lt;/p>
-&lt;p>&lt;strong>Figure 6:&lt;/strong> Operating System&lt;/p>
-&lt;p>&lt;strong>GeoNetwork-City:&lt;/strong> Mountain View, California tops the cities list for the users who accessed online store. However in the top 10 cities, 4 cities are from California.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/geo_network_city.png" alt="GeoNetwork-City">&lt;/p>
-&lt;p>&lt;strong>Figure 7:&lt;/strong> GeoNetwork City&lt;/p>
-&lt;p>&lt;strong>GeoNetwork-Country:&lt;/strong> Customers from US are way ahead of other customers from different countries. May be this could be due to the fact that online store data that was provided was pulled from US Google Play Store (Possible BIAS!).&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/geo_network_country.png" alt="GeoNetwork-Country">&lt;/p>
-&lt;p>&lt;strong>Figure 8:&lt;/strong> GeoNetwork Country&lt;/p>
-&lt;p>&lt;strong>GeoNetwork-Region:&lt;/strong> It is already known that majority of the customers are from US, so America region tops the list.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/geo_network_continent.png" alt="GeoNetwork-Region">&lt;/p>
-&lt;p>&lt;strong>Figure 9:&lt;/strong> GeoNetwork Region&lt;/p>
-&lt;p>&lt;strong>GeoNetwork-Metro:&lt;/strong> SFO tops the list for all metro cities, followed by New York and then London.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/geo_network_metro.png" alt="GeoNetwork-Metro">&lt;/p>
-&lt;p>&lt;strong>Figure 10:&lt;/strong> GeoNetwork Region&lt;/p>
-&lt;p>&lt;strong>Ad Sources:&lt;/strong> Google Merchandise and Google Online Store are the top sources where the traffic is coming from to the Online Store.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/traffic_source_adcontent.png" alt="GeoNetwork-Metro">&lt;/p>
-&lt;p>&lt;strong>Figure 11:&lt;/strong> Ad Sources&lt;/p>
-&lt;h3 id="33-data-pre-processing">3.3 Data Pre-Processing&lt;/h3>
-&lt;p>Data Pre-Processing is an important step to build a Machine Learning Model. The data pre-processing step typically consists of data cleaning, transformation, standardization and feature selection, so only the most cleaner and accurate data is fed to a model. The dataset that was downloaded for this project contains several issues with formatting, lot of missing values, less to no variance (zero variance) in some of features and it was also observed the target variable does not have random distribution. The variables such as totals_newVisits, totals_bounces, trafficSource_adwordsClickInfo_page, trafficSource_isTrueDirect, totals_bounces, totals_newVisits had missing values. The missing values were imputed with zeroes, so the machine learning algorithm is able to execute without errors and there are no issues during categorical to numerical encoding. This is a very important step in building the Machine Learning Pipeline.&lt;/p>
-&lt;h3 id="34-feature-engineering">3.4 Feature Engineering&lt;/h3>
-&lt;p>Feature Engineering is the process of extracting the hidden signals/features, so the model can use these features to increase the predictive power. This step is the fundamental difference between a good model and a bad model. Also, there is no one-size-fits all approach for Feature Engineering. It is extremely time consuming and requires a lot of domain knowledge as well.
-For this project, a set of sophisticated functions to extract date related values such as Month, Year, Data, Weekday, WeekofYear have been created. It was observed that browser and operating systems are redundant features and instead of removing them, they were merged to create a combined feature which will potentially increase the predictive power. Also as part of feature engineering several features were derived like mean, sum and count of pageviews and hits that should help increase the feature space and ultimately reduce the total error increasing the overall accuracy of the model.&lt;/p>
-&lt;h3 id="34-feature-selection">3.4 Feature Selection&lt;/h3>
-&lt;p>Feature Selection refers to selection of features in your data that would improve your machine learning model. There is subtle variation between Feature Selection and Feature Engineering. The Feature Engineering technique is designed to extract more feature from the dataset and the feature selection technique allows only relevant features into the dataset. Also, how does anyone know what are the relevant features? There are several methodologies and techniques that are developed over the years but there is no one-size-fits-all methodology.&lt;/p>
-&lt;p>Feature Selection like Feature Engineering is more of an art than science. There are several iterative procedure that uses Information Gain, Entropy and Correlation scores to decide which feature gets into the model. There are also advanced Deep learning models that can be built or tree based models that can help observe variables of high importance after the model is built. Similar to Feature Engineering, Feature Selection should also require domain specific knowledge to develop festure selection strategies.&lt;/p>
-&lt;p>In this project, the features that had constant variance in the data were dropped and also the features that had mostly null values with only one Non-null value were dropped too. These features do not possess any statistical significance and add very less value to the modeling process. Also, depending on the final result, different techniques and strategies can be explored to optimize and improve the performance of the model.&lt;/p>
-&lt;h4 id="341-data-preparation">3.4.1 Data Preparation&lt;/h4>
-&lt;p>Scikit learn has inbuilt libraries to handle Train/Test Split as part the model_selection package. The dataset was split randomly with 80% Training and 20% Testing datasets.&lt;/p>
-&lt;h3 id="35-model-algorithms-and-optimization-methods">3.5 Model Algorithms and Optimization Methods&lt;/h3>
-&lt;p>Different Machine Learning algorithms and techniques were explored in this project and the outcome of the exploration along with different parameter settings have been discussed in the following sections.&lt;/p>
-&lt;h4 id="351-linear-regression-model">3.5.1 Linear Regression Model&lt;/h4>
-&lt;p>Linear regression is a supervised learning model that follows a linear approach in that it assumes a linear relationship between one ore more predictor variables (x) and a single target or response variable (y). The target variable can be calculated as a linear combination of the predictors or in other words the target is the calculated by weighted sum of the inputs and bias where the weights are estimated through different optimization techniques. Linear regression is referred to as simple linear regression when there is only one predictor variable involved and referred to as multiple linear regression when there are more than one predictor variables involved. The error between the predicted output and the ground truth is generally calculated using RMSE (root mean squared error). This is one of the classic modeling techniques that was explored in this project because the target variable (revenue per customer) is a real valued continuous output and exhibits a significant linear relationship with the independent variables or the input variables &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>In the exploration, SKLearn Linear Regression performed well overall. A 5 fold cross validation was performed and the best RMSE Score for this model observed was: 1.89. As shown in the Figure-12, the training and test RMSE error values are very close indicating that there is no overfitting the data.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/linear_regression3.png" alt="Linear Regression">&lt;/p>
-&lt;p>&lt;strong>Figure 12:&lt;/strong> Linear Regression Model&lt;/p>
-&lt;h4 id="352-xgboost-regressor">3.5.2 XGBoost Regressor&lt;/h4>
-&lt;p>XGBoost regression is a gradient boosting regression technique and one of the popular gradient boosting frameworks that exists today. It follows the ensemble principle where a collection of weak learners improve the prediction accuracy. The prediction in the current step S is weighed based on the outcomes from the previous step S-1. Weak learning is slightly better than random learning and that is one of the key strengths of gradient boosting technique. The XGBoost algorithm was explored for this project for several reasons including it offers built-in regularization that helps avoid overfitting, it can handle missing values effectively and it also does cross validation automatically. The feature space for the dataset being used is sparse and believe the potential to overfit the data is high which is one of the primary reasons for exploring XGBoost &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>XGBoost Regressor performed very well. It was the best performing model with the lowest RMSE score of 1.619. Also the training and test scores are reasonably close and it doesn&amp;rsquo;t look like there was the problem of over fitting the training data. Multiple training iterations of this model were explored with different parameters and most of the iterations resulted in significant error reduction compared to the other models making it the best performing model overall.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/xgboost3new.png" alt="XGBoost">&lt;/p>
-&lt;p>&lt;strong>Figure 13:&lt;/strong> XGBoost Model&lt;/p>
-&lt;h4 id="353-lightgbm-regressor">3.5.3 LightGBM Regressor&lt;/h4>
-&lt;p>LightGBM is a popular gradient boosting framework similar to XGBoost and is gaining popularity in the recent days. The important difference between lightGBM and other gradient boosting frameworks is that LightGBM grows the tree vertically or in other words it grows the tree leaf-wise compared to other frameworks where the trees grow horizontally. In this project the lightGBM framework was experimented primarily because this framework works well on large dataset with more than 10K observations. The algorithm also has a high throughput while using reasonably less memory but there is one problem with overfitting the data which was controlled to a large extent in this exploration using appropriate hyper parameter setting and achieved optimal performance &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>&lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>LightGBM Regression was the second best performing model in terms of RMSE scores. Also the training and test scores observed were slightly different indicating a potential problem of overfitting as discussed earlier. As in other experiments, multiple training iterations of this model were explored with different parameter settings and although it achieved reasonable error reduction compared to most of the other models that were explored, it still did not outperform the XGBoost regressor making it the second best performing model.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/lighgbm3new.png" alt="lightgbm">&lt;/p>
-&lt;p>&lt;strong>Figure 14:&lt;/strong> LightGBM Model&lt;/p>
-&lt;h4 id="354-lasso-regression">3.5.4 Lasso Regression&lt;/h4>
-&lt;p>Lasso is a regression technique that uses L1 regularization. In statistics, lasso regression is a method to do automatic variable selection and regularization to improve prediction accuracy and performance of the statistical model. Lasso regression by nature makes the coefficient for some of the variables zero meaning these variables are automatically eliminated from the modeling process. The L1 regularization parameter helps control overfitting and will need to be explored for a range of values for a specific problem. When the regularization penalty tends to be zero there is no regularization, and the loss function is mostly influenced by the squared loss and in contrary if the regularization penalty tends to be closer to infinity then the objective function is mostly influenced by the regularization part. It is always ideal to explore a range of values for the regularization penalty to improve the accuracy and avoid overfitting &lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup>&lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>In this project, Lasso is one of the important techniques that was explored primarily because the problem being solved is a regression problem and there is possibility to overfit the data due to the number of observations and feature space. During the model training phase different ranges for regularization penalty were explored and the appropriate value that helped achieve maximum reduction in the total RMSE score was identified.&lt;/p>
-&lt;p>Lasso performed slightly better than baseline model. However, it did not outperform lightGBM or XGBoost or tree based models in general.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/lasso3new.png" alt="lasso">&lt;/p>
-&lt;p>&lt;strong>Figure 15:&lt;/strong> Lasso Model&lt;/p>
-&lt;h4 id="355-ridge-regressor">3.5.5 Ridge Regressor&lt;/h4>
-&lt;p>Ridge is a regression technique that uses L2 regularization. Ridge regression does not offer automatic variable selection in the sense that it is not make the weights zero on any of the variable used in the model and the regularization term in a ridge regression is slightly different than the lasso regression. The regularization term is the sum of the square of coefficients multiplied by the penalty whereas in lasso it is the sum of the absolute value of the coefficients. The regularization term is a gentle trade-off between fitting the model and overfitting the model and like in lasso it helps improve prediction accuracy as well as performance of the statistical model. The L2 regularization parameter helps control overfitting and will need to be explored for a range of values for a specific problem similar to Lasso. The regularization parameter also helps reduce multicollinearity in the model. Similar to Lasso, when the regularization penalty tends to be zero there is no regularization, and the loss function is mostly influenced by the squared loss and in contrary if the regularization penalty tends to be closer to infinity then the objective function is mostly influenced by the regularization part. As in the case of Lasso, it is always ideal to explore a range of values for the regularization penalty to improve the accuracy and avoid overfitting &lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup>&lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>In this project, Ridge regression is one of the important techniques that was explored again primarily because the problem being solved is a regression problem and there is possibility to overfit the data due to the number of observations and feature space. During the model training phase different ranges for regularization penalty were explored and the appropriate value that helped achieve maximum reduction in the total RMSE score was identified. Ridge performed slightly better than baseline model. However like Lasso, it did not outperform lightGBM or XGBoost or tree based models in general.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/ridge3new.png" alt="Ridge">&lt;/p>
-&lt;p>&lt;strong>Figure 16:&lt;/strong> Ridge Model&lt;/p>
-&lt;h2 id="4-benchmark-results">4. Benchmark Results&lt;/h2>
-&lt;p>There are some interesting observations from the benchmark results seen in Figure-17. As expected, the data exploration and pre-processing performed very well and the data load and flattening of JSON took only a few hundred milliseconds on a platform like Google Colab compared to more than a minute running the same code locally on a desktop. The grid search for linear regression as expected took more time than the grid search for regularization techniques which is an interesting finding. The model training phase using ridge regression took only half the time approximately 250 seconds compared to 811 seconds for lasso regression. The highest training time of approximately 1800 seconds was recorded with XGBoost regressor and although the original assumption was that this modeling technique would consume time and significant system resources to complete the training process, the total time of 1800 seconds was certainly in the higher end. But, considering the fact that random forest regressor took more than 90 minutes to complete the training process during the experimentation phase, XGBoost performed much better than random forest. The other interesting observation was between LightGBM and XGBoost where LightGBM took significantly less time than XGBoost regressor and if performance and high availability are key considerations during operationalization with slight compromise on model performance then LightGBM would be an ideal candidate for real time operationalization.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/benchmark1.png" alt="Benchmark">&lt;/p>
-&lt;p>&lt;strong>Figure 17:&lt;/strong> Benchmark Results&lt;/p>
-&lt;h2 id="5-software-technologies">5. Software Technologies&lt;/h2>
-&lt;p>In this project tools like Python and Google Colab Jupyter Notebook were used. Also several Python packages were employed in this exploration such as Pandas, Numpy, Matplotlib, sklearn&lt;/p>
-&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
-&lt;p>As a project team the intention was to create a template that can be utilized for any ML project. The dataset that was used for this project was challenging in a way that it required a lot of data cleaning, flattening and transformation to get the data into the required format.&lt;/p>
-&lt;h3 id="61-model-pipeline">6.1 Model Pipeline&lt;/h3>
-&lt;p>In this project, multiple regression and tree based models from scikit learn library were explored with various hyper parameter setting and other methods like the lightGBM. The goal of the model pipeline was to explore and examine data, identify data pre-processing methods, imputation strategies, derive features and try different feature extraction methods was to perform different experiments with different parameter setting and identify the optimized with low RMSE that can be operationalized in Production. The parameters were explored within the boundary of this problem setting using different techniques.&lt;/p>
-&lt;h3 id="62-feature-exploration-and-pre-processing">6.2 Feature Exploration and Pre-Processing&lt;/h3>
-&lt;p>As part of this project a few features were engineered and included in the training dataset. The feature importance visualizations that were generated after the model training process indicate that these engineered features were part of the top 30% of high impact features and they contributed reasonably to improving the overall accuracy of the model. During additional experimentation phase, the possibility of including few other potential features that could be derived from the dataset was explored and those additional features were included in the final dataset that was used during model training. Although these features did not contribute largely to reducing the error it gave an opportunity to share ideas and methods to develop these new features. Also during feature exploration phase other imputation strategies were evaluated, attempted to identify more outliers and tried different encoding techniques for categorical variables and ultimately determined that label encoder or ordinal encoder is the best way forward. Also some of the low importance features were excluded and the model was retrained to validate if the same or better RMSE value could be achieved.&lt;/p>
-&lt;h3 id="63-outcome-of-experiments">6.3 Outcome of Experiments&lt;/h3>
-&lt;p>Multiple modeling techniques were explored as part of this project like Linear regression, gradient boosting algorithms and linear regression regularization techniques. The techniques were explored with basic parameter setting and based on the outcome of those experiments, the hyper parameters were tuned using grid search to obtain the best estimator evaluated on RMSE. Also, during grid search K-Fold cross validation of training data was used and the cross validated results were examined through a results table. The fit_intercept flag played a significant role resulting in an optimal error. As part of the different experimentations that were performed, random forest algorithm was also explored but it suffered performance issues and it seemed like it would require more iterations to converge which is why it was dropped from our results and further exploration. Although random forest was not explored, gradient boosting techniques were part of the experimentations and the best RMSE from XGBoost. The LightGBM regressor was also explored with different parameter settings but it did not produce better RMSE score than XGBoost.&lt;/p>
-&lt;p>In the case of XGBoost, there was improvement to the RMSE score as different tree depths, feature fraction, learning rate, number of children, bagging fraction, sub-sample were explored. There was significant improvement to the error metric when these parameters were adjusted in an intuitive way. Also, linear regression with regularization techniques were explored and although there was some improvement to the error metric compared to the basic linear regression model they did not perform better than the gradient boosting method that was explored. So, based on different explorations and experimentations a reasonably conclusion can be made that gradient boosting technique performed better for the given problem setting and generated the best RMSE score. Based on the evaluation results of XGBoost on the dataset used, the recommendation would be to test the XGBoost model with real time data and the performance of the model can be evaluated in real-time scenario too and additionally, if needed, hyper parameter tuning can be performed on the XGBoost model specifically for the real-time scenario &lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>. The feature engineering process on the dataset helped derive features with additional predictive value and a pipeline was built to reuse the same process in different modeling techniques. Five different models were tested including Linear Regression, XGBoost, Light GBM, Lasso and Ridge. The summary of all the models can be seen in Figure-17.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/model_results_new2new.png" alt="Model_Results">&lt;/p>
-&lt;p>&lt;strong>Figure 18:&lt;/strong> Model Results Summary&lt;/p>
-&lt;h3 id="64-limitations">6.4 Limitations&lt;/h3>
-&lt;p>Due to the limited capacity of our Colab Notebook setup, there was difficulty in performing cross Validation for XGBoost and LightGBM. The KFold cross validation with different parameter settings would have helped identify the best estimator for these models, helped achieve even better rmse scores and potentially avoid overfitting, if any. The tree based models performed well in this dataset and it would be beneficial to explore other tree based models like Random Forest in the future and evaluate/compare the performance.&lt;/p>
-&lt;h2 id="7-previous-explorations">7. Previous Explorations&lt;/h2>
-&lt;p>The Online GStore customer revenue prediction problem is a Kaggle competition with more than 4100 entries. It is one of the popular challenges in Kaggle with a prize money of $45,000. Although the goal was not to make it to the top in the leader board, the challenge gave a huge opportunity to explore different methods, techniques, tools and resources. The one important difference between many of the previous of explorations versus what has been achieved in this exploration is the number of different machine learning algorithms that was explored and the performance for each of those different techniques were examined. Based on review of several submissions in Kaggle there were only a very few kernel entries that explored different parameter settings and making intuitive adjustments to them to make the model perform at an optimum level like what has been accomplished in this project. The other uniqueness that was brought to this submission was identifying techniques that offered good performance and consumed less system resources in terms of operationalization. There is lot of scope to continue exploration and attempt other techniques to identify the best performing model.&lt;/p>
-&lt;h2 id="8-acknowlegements">8. Acknowlegements&lt;/h2>
-&lt;p>The team would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and the other instructors in the Big Data Applications course for their guidance and support through the course of this project and advise on documenting the results of various explorations.&lt;/p>
-&lt;h2 id="9-references">9. References&lt;/h2>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Kaggle Competition,2019,Predict the Online Store Revenue,[online] Available at: &lt;a href="https://www.kaggle.com/c/ga-customer-revenue-prediction/rules">https://www.kaggle.com/c/ga-customer-revenue-prediction/rules&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>Kaggle Competition,2019,Predict the Online Store Revenue, Data, [online] Available at: &lt;a href="https://www.kaggle.com/c/ga-customer-revenue-prediction/data">https://www.kaggle.com/c/ga-customer-revenue-prediction/data&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:3" role="doc-endnote">
-&lt;p>Machine Learning Mastery,2016,Brownlee, Linear Regression Model, [online] Available at: &lt;a href="https://machinelearningmastery.com/linear-regression-for-machine-learning">https://machinelearningmastery.com/linear-regression-for-machine-learning&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:4" role="doc-endnote">
-&lt;p>XGBoost 2020,xgboost developers, XGBoost, [online] Available at: &lt;a href="https://xgboost.readthedocs.io">https://xgboost.readthedocs.io&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:5" role="doc-endnote">
-&lt;p>Datacamp,2019,Pathak, Using XGBoost in Python, [online] Available at: &lt;a href="https://www.datacamp.com/community/tutorials/xgboost-in-python">https://www.datacamp.com/community/tutorials/xgboost-in-python&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:6" role="doc-endnote">
-&lt;p>Towards Datascience,2017,Lutins, Ensemble Methods in Machine Learning, [online] Available at: &lt;a href="https://towardsdatascience.com/ensemble-methods-in-machine-learning-what-are-they-and-why-use-them-68ec3f9fef5f">https://towardsdatascience.com/ensemble-methods-in-machine-learning-what-are-they-and-why-use-them-68ec3f9fef5f&lt;/a>&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:7" role="doc-endnote">
-&lt;p>Medium 2017,Mandot, What is LightGBM,[online] Available at: &lt;a href="https://medium.com/@pushkarmandot/https-medium-com-pushkarmandot-what-is-lightgbm-how-to-implement-it-how-to-fine-tune-the-parameters-60347819b7fc">https://medium.com/@pushkarmandot/https-medium-com-pushkarmandot-what-is-lightgbm-how-to-implement-it-how-to-fine-tune-the-parameters-60347819b7fc&lt;/a>&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:8" role="doc-endnote">
-&lt;p>Kaggle 2018,Daniel, Google Analytics Customer Revenue Prediction, [online] Available at: &lt;a href="https://www.kaggle.com/fabiendaniel/lgbm-starter">https://www.kaggle.com/fabiendaniel/lgbm-starter&lt;/a>&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:9" role="doc-endnote">
-&lt;p>Towards Datascience,2018,Bhattacharya, Ridge and Lasso regression, [online] Available at: &lt;a href="https://towardsdatascience.com/ridge-and-lasso-regression-a-complete-guide-with-python-scikit-learn-e20e34bcbf0b">https://towardsdatascience.com/ridge-and-lasso-regression-a-complete-guide-with-python-scikit-learn-e20e34bcbf0b&lt;/a>&amp;#160;&lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:10" role="doc-endnote">
-&lt;p>Datacamp,2019,Oleszak, Regularization: Ridge, Lasso and Elastic Net, [online] Available at: &lt;a href="https://www.datacamp.com/community/tutorials/tutorial-ridge-lasso-elastic-net">https://www.datacamp.com/community/tutorials/tutorial-ridge-lasso-elastic-net&lt;/a>&amp;#160;&lt;a href="#fnref:10" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: Sentiment Analysis and Visualization using a US-election dataset for the 2020 Election</title><link>/report/fa20-523-316/project/project/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/fa20-523-316/project/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/fa20-523-316/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-316/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/fa20-523-316/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-316/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: final, Type: Project&lt;/p>
-&lt;p>Sudheer Alluri, Indiana University, fa20-523-316, &lt;a href="mailto:ngsudheer@gmail.com">ngsudheer@gmail.com&lt;/a>&lt;/p>
-&lt;p>Vishwanadham Mandala, Indiana University, fa20-523-325, &lt;a href="mailto:vishwandh.mandala@gmail.com">vishwandh.mandala@gmail.com&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/fa20-523-316/blob/master/project/project.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Sentiment analysis is an evaluation of the opinion of the speaker, writer, or other subjects about some topic. We are going to use the US-elections dataset and combining the tweets of people&amp;rsquo;s opinions for leading presidential candidates. We have various datasets from Kaggle and combining tweets and NY times datasets, by combining all data prediction will be derived.&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-background-research-and-previous-work">2. Background Research and Previous Work&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-datasets">3. DataSets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-methodologyprocess">4. Methodology/Process&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-development-of-models">5. Development of Models&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#51-removing-noise-from-data">5.1 Removing Noise from Data&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#6-technologies-used">6. Technologies used&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#7-analysis-of-user-behavior">7. Analysis Of User Behavior&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#hypothesis-1-twitter-users-are-commenting-on-the-elections-and-retweeting-the-presidential-tweets">Hypothesis 1: Twitter users are commenting on the elections and retweeting the Presidential tweets.&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#hypothesis-2-users-in-the-context-of-elections-do-not-use-twitter-only-to-voice-their-opinions-but-also-use-the-platform-to-interact-with-other-users-on-political-issues">Hypothesis 2: Users in the context of elections do not use Twitter only to voice their opinions but also use the platform to interact with other users on political issues.&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#hypothesis-3-popular-terms-in-twitter-discussion-are-significant-real-world-events-and-plays-major-role-in-elections">Hypothesis 3: Popular terms in Twitter discussion are significant real-world events and plays major role in elections.&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#8-results">8. Results&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-conclusion">9. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#10-acknowledgments">10. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#11-references">11. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> sentiment, US-election&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>For our final project, we are focusing on the upcoming U.S. presidential elections. More specifically, we are attempting to predict the winner of the 2020’s U.S. elections. As many people across the world know, the United States Presidential election is a very grand and important political event for the people and government of the United States of America. Not only that, the results of this election will impact the world as a whole. This year, there were many candidates. However, the election boiled down to the Democrat candidate, Joe Biden, fighting against the current Republican President of the United States of America, Donald J. Trump. There are many problems that we can run into while predicting the winner. We run into problems like finding an unbiased source or handling the size of the data. However, we believe that we found a pathway that solves all problems and effectively predicts the results of this year’s presidential election. We plan to use a US-elections dataset to predict the votes each contestant will attain, by area. With growing data, the prediction will be changing constantly. We are making the difference by selecting the latest dataset available and previous election data to predict the number of votes each contestant will get to the closest figure. A feature we are introducing to enhance the quality is predicting various area types like counties, towns, and/or big cities.
-One might argue that these kinds of predictions will only be helping organizations and not individuals. We assure you that this project will be helping the general public in many ways. The most evident being, an individual knowing which contestant his/her community or the general public around him/her prefer. This project is strictly statistical and does not have a goal to sway the elections in any way or to pressure an individual into picking a candidate. Overall, this is just a small step towards a future that might hold an environment where the next president of the United States of America could be accurately guessed based on previous data and innovative Big Data Technologies.&lt;/p>
-&lt;h2 id="2-background-research-and-previous-work">2. Background Research and Previous Work&lt;/h2>
-&lt;p>After reading wiki/Sentiment_analysis came with a concrete idea of sentimental analysis and choose the election topic since it is the latest ongoing trend
-in the USA and the dataset can be easily refreshed. Social media use is at an all-time historic high for the United States, so we considered one popular social media
-platform, Twitter, and tried to see if we could predict how a group of people felt about an issue by only using posts from social media. For our research, we looked at tweets that focused on the 2020United States presidential election. Using these tweets, we tried to find a correlation between tweet sentiment and the election results. We wrote a program to collect tweets that mentioned one of the two candidates along with selected vice presidents, then sorted the tweets by state and developed a sentiment algorithm to see which candidate the tweet favored, or if it was neutral.&lt;/p>
-&lt;h2 id="3-datasets">3. DataSets&lt;/h2>
-&lt;p>By using the dataset &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> and filets are based on location. If needed, we may download Twitter data from posts on and by Donald Trump, Joe Biden, and their associates. Which leads us to our objective for the project, based on the data we collected, we should be able to predict the winner of the 2020 United States of America’s presidential elections.&lt;/p>
-&lt;p>All of the data will be location-based and if required we will download real-time campaigning and debate analysis data, giving us a live and updated prediction every time increment. To strengthen the prediction, even more, we may reuse some code from the 2016 election’s analysis, however, our main focus will be using the latest data we readily acquire during the time leading up to the 2020 election.
-In conclusion, to make our predictions as realistic and as strong as we can get, selected multiple data sets to integrate between the previous election and Twitter data to predict the number of votes each candidate will acquire. Therefore, we are predicting the winner of the 2020 presidential elections.
-One thing we are going to avoiding is the use of polls as source material. Many problems will arise with the use of polls. The benefits are questionable and outweighed. For one thing, the result of a poll is not concrete. One can just select a random candidate or purposely vote a candidate for an unjustified reason. One of the bigger problems is impartiality. The problem arises with the concept of an internet website, where most if not all polls are being conducted. The internet is designed so people with common interests end up at the same website. Therefore, if a poll conducting website has an audience of voters that favor one of the candidates, the results will be biased, impartial, and won’t represent the true feelings of the public. There are also thousands of these polls. Even if there are non-biased polls, one may not be able to identify them and interpret them before the end of the elections. Even if we assume that there are more unbiased polls, the sheer number will be impossible to use, and losing any might decrease the number of unbiased and raise the number of biased polls. The results of some polls are even meaningless. This can occur due to small voting numbers. If only 15 people vote, the results will not represent the mass public. The fact is that it is very hard for polls to attract voters. Without a poll achieving all these requirements and more, it will not be considered legitimate or be taken seriously. Even the actual elections require mass advertisement for people to show up. During October of an election year, there are thousands of advertisements and endorsements with the sole purpose of acquiring voters. Now the elections have government funding for these ads. Polls do not have the time or funding to attract these masses to vote. They have to suffice with the number and demographics of their voters. Which is the biggest reason why most polls are useless. Even mega corporations that conduct polls fall to more than one of these mistakes. Rendering them nugatory.&lt;/p>
-&lt;h2 id="4-methodologyprocess">4. Methodology/Process&lt;/h2>
-&lt;p>There are more than approximately 80 million active users of Twitter in the United States of America and Twitter makes an ideal case study of social media usage in political discourse.
-Our project has two main sections of data sets in it. The primary section contains candidate information and previous presidential election data, and the second containing twitter data. We believed the second needed more time because the first dataset contained straightforward facts while the twitter dataset is more susceptible to different perspectives and viewpoints.
-In this project, we are analyzing Twitter data of key presidential candidates and other key supporters. We gathered the data from Kaggle datasets. Data is mainly divided into 3 subcategories. Tweets made by key personnel.Twitter profiles of the two candidates(all info including followers, following, number of tweets, etc.).The final category involves graphs for visualization purposes. A problem with Twitter data is the fact that it is huge. We are using google drive and with it comes the problem of storage. To combat this we are only using 4 twitter data sets. The datasets of Donald J. Trump, Joe Biden, Kamala Harris, and Mike Pence. We also downloaded these data sets to use them locally. There are mainly 3 types of formats used in everyday twitter use: images, text, and video. Only text will be used in this project because others are not useful for the experiment. Our project mostly uses Twitter data as support to the primary dataset. It is there to strengthen the already predicted result. The reason why we cannot make the twitter data set our primary data set is that the data(tweets) are mostly opinion based with only some exceptions. So we cannot predict with the Twitter data, however, it
-can be used to show public support which will be vital in supporting the prediction derived from the primary data set. So, we found many twitter data sets on Kaggle and used certain parts from each to make our final four. The difference between the background sets and our final four datasets is the fact that they used Twitter data as their primary dataset while we are using Twitter data as our secondary dataset. We realized that twitter data is best used as secondary data that supports the primary dataset, which is more fact-based. We can use three of the four OSoMe tools available: trends, networking, and maps. Trends and networking can be combined to find a group that involves every user that is taking part in the elections in some way. Mapping can show these users and their location. Giving us the area based result that we seek. However, this method is already a part of our project. Because all this data is in Kaggle in a wider array. Which gave us the option to condense into four large data sets.&lt;/p>
-&lt;p>Our methodology comprised of following steps:&lt;/p>
-&lt;ol>
-&lt;li>Use of search terms &amp;ldquo;Trump&amp;rdquo;, &amp;ldquo;Pence&amp;rdquo;, &amp;ldquo;Biden&amp;rdquo;, &amp;ldquo;Kamala&amp;rdquo;, &amp;ldquo;Gender&amp;rdquo;, &amp;ldquo;Words&amp;rdquo; and &amp;ldquo;Election2020&amp;rdquo; to gather Twitter data for our period of interest.&lt;/li>
-&lt;li>Data Cleaning and extraction.&lt;/li>
-&lt;li>Sentiment tagging and classification of gathered tweets.&lt;/li>
-&lt;li>Development of user behavioral model, formulate hypotheses, and find proof of hypotheses.&lt;/li>
-&lt;/ol>
-&lt;p>Used Python to load Twitter data which is gathered from Kaggle, used Pandas library for data cleaning and extraction of each tweet&amp;rsquo;s associated metadata.
-Seaborn library has been used for data visualization.&lt;/p>
-&lt;h2 id="5-development-of-models">5. Development of Models&lt;/h2>
-&lt;p>Our approach to finding the information of candidates and get the age, tweets information, and what are the keywords used and what words are liked more.
-Based on liked tweets and buzz words used, we are predicting the winner.&lt;/p>
-&lt;p>Candidates information collected are:
-Age of Democratic primaries candidates
-For some candidates it is very important to mention Women, but not for all. Added Country for reference.
-Where are the Democratic Candidates coming from
-Twitter Engagement, likes and retweets
-Buzzwords for each candidate
-By using Pandas:
-Used to extract the data and clean the tweets.
-Seaborn and Matlab, used to represent the status of elections in the graphs.&lt;/p>
-&lt;h3 id="51-removing-noise-from-data">5.1 Removing Noise from Data&lt;/h3>
-&lt;p>To increase accuracy of our analysis, the next step is to remove noise from our dataset. Presence of spam on Twitter is a well known phenomenon. Although Twitter tries hard to idntify and remove
-automated accounts, not everything are easily identifiable. In order to identify and remove spam present in our dataset, we removed tweets belonigng to accounts having
-abnormally high tweet rates. We have also filted our dataset by replaced the existing words with keywords and assigned the tweet id.&lt;/p>
-&lt;h2 id="6-technologies-used">6. Technologies used&lt;/h2>
-&lt;p>In this project Python 3 and Google Colab Jupyter Notebook were used to build the notebook. Also several Python packages were employed in this exploration such as Pandas, Numpy, Matplotlib, sklearn, wget.&lt;/p>
-&lt;h2 id="7-analysis-of-user-behavior">7. Analysis Of User Behavior&lt;/h2>
-&lt;p>Data is sanitized as metnioned in [^5.1], we then proceed in data mining and analysis techniques to perform data analytics and find useful information. We tried to find evidence
-supporting some of our beliefs that by reviewing Twitter data for insights into user behavior and tweeting patterns.&lt;/p>
-&lt;h3 id="hypothesis-1-twitter-users-are-commenting-on-the-elections-and-retweeting-the-presidential-tweets">Hypothesis 1: Twitter users are commenting on the elections and retweeting the Presidential tweets.&lt;/h3>
-&lt;p>Activity-based on following and usage: Research has been conducted on message framing behavior of users on Twitter as a function of various characteristics including the number of followers and level of activity. Adding hashtag(#) to the preceding keywords allowing users to search with the word. The use of hashtag become part of Twitter
-trends and also enables them to reach a large audience.&lt;/p>
-&lt;p>Similarly, we believe that a similar trend will be discovered in our election dataset. Users with a large following and heavy usage will be more concerned about making their tweets searchable and then those having fewer followers and less number of tweets. By framing the keyword with hashtag(#), large users are
-able to reach a broader audience.&lt;/p>
-&lt;h3 id="hypothesis-2-users-in-the-context-of-elections-do-not-use-twitter-only-to-voice-their-opinions-but-also-use-the-platform-to-interact-with-other-users-on-political-issues">Hypothesis 2: Users in the context of elections do not use Twitter only to voice their opinions but also use the platform to interact with other users on political issues.&lt;/h3>
-&lt;p>A single tweet will be retweeted by multiple users and it reaches to a larger audience. Twitter became a platform for addressing a person directly. Direct messaging also
-creates complexities for users in having to handle multiplicity and one-to-one conversations at the same time.&lt;/p>
-&lt;p>Based on the above discussion, we assume similar behavior amongst the users of our dataset and believe that there will be a high number of one-to-one messaging indicating interactive political dialogue.&lt;/p>
-&lt;h3 id="hypothesis-3-popular-terms-in-twitter-discussion-are-significant-real-world-events-and-plays-major-role-in-elections">Hypothesis 3: Popular terms in Twitter discussion are significant real-world events and plays major role in elections.&lt;/h3>
-&lt;p>Several studies have been conducted to conclude Twitter is used as a real-time latest news identification tool and studies have claimed that based on trending topics active period of tweets showed that as many as 85% of topics are headlines or persistent in real-world news.&lt;/p>
-&lt;p>Analysis of daily tweets during the US- election 2020 provides us current news events taking place in the real world. We analyzed high-frequency terms to justify our hypothesis.&lt;/p>
-&lt;h2 id="8-results">8. Results&lt;/h2>
-&lt;p>In this section, we present the results of the data analysis performed throughout the study. With the help of some prefatory findings, we understood the sentiment of the data, found the numerical statistics of the positive and negative tweets, and set a trend that successfully predicted the results of the 2020 U.S. presidential elections. Through the help of profound data analysis, we validated our hypotheses presented in the previous section.&lt;/p>
-&lt;p>The initial step of the analysis involves analyzing the data in two methods: individual candidate analysis and combined candidate analysis. Both the methods involved assigning tweets with individual sentiment scores and averaging these scores accordingly. Performing these steps, we will achieve positive and negative sentimental scores towards the candidates and get to compare these scores with each other. This way, we see an overall opinion about the candidates. We also get to monitor the conversations taking place over the topic of the election. The attitude towards the candidates is strongly positive from their inner circles. When it came to the general public, however, both candidates received negative feedback.&lt;/p>
-&lt;p>The mentality of the whole public can never be properly depicted by a single dataset. Furthermore, you cannot assume that the data recorded and analyzed from Twitter will be genuine in all regions. However, it can be a good representation due to its ability to empower users by allowing them to freely share their views and opinions. The consensus of an average American citizen is currently divided due to two factors. The first factor is the existence of a previous or a new affiliation with a specific political party. This is not surprising since political affiliation is a phenomenon that has existed since the conception of a democratic government. However, it does make a huge difference. Since the start of the concept, the American population has always changed their opinion. More recently, however, the general American population has dedicated its supporting two main political parties: the Democratic party and the Republican party. The population is almost split evenly throughout the country. However, the location of these specific groups has changed in recent years. The change is very interesting as it shows major trends towards the individual parties and their followers. Democratic followers, shown by twitter information of Biden supporters, tend to live in cities and are generally younger or work white-collar jobs. Republican followers, shown by twitter information of Trump supporters, tend to live in suburbs, small towns, and in the countryside. They are also generally older and have blue-collar jobs. Due to this reason, there are fewer republicans active on Twitter, however, we know that there are many more republicans outside of Twitter from the results of the previous elections. This would make our use of Twitter data nugatory. If that is the truth, why have we decided to use the Twitter data? There are indeed more Democratic Twitter users than Republican ones, however, there are many more neutral citizens that are not affiliated with any party. The second factor affects this group of neutral citizens. The second factor is the individual opinion of the person in question. The general view held in the minds of these neutral citizens, showed by many tweets from these groups of people, is that they have to choose the best option from two subpar choices. The truth of the fact is that the candidates are strongly advertising to their party supporters first and then to the supporters of the other parties and non-affiliates to any party. This leads to the neutral group not preferring the two candidates as their first choices. However, they have to choose one of the two and the decision, like all other decisions, will be heavily based on their livelihoods. Therefore, the results, based solely on Twitter data and previous presidential elections data that we have looked at, will depend on the lively hood of these neutral citizens. This will not be the perfect representation of the entire country by any means, however, the sample size is wide and large enough to be a good representation of the American public.&lt;/p>
-&lt;p>After all the data was collected, we have formatted the candidate&amp;rsquo;s information and cleaned the Twitter data. After closely watching the Twitter data
-with the graphical representation, we predicted the results.
-The analysis’ prediction favored Joe Biden to win this year’s election. However, President Trump was close behind. The predicted race included a very tight race, ending with Joe Biden breaking through. The actual presidential race this November seemed to be following the predicted trend, with Joe Biden taking a lead at the start and President Trump catching up by the first day’s end. The race continued to be tight for a couple of days, matching the general trend of the prediction. However, on November 7th, Biden broke through the stalemate and secured the elections. The prediction was close for most of the race, but the trend broke when Joe Biden won by a convincing lead.&lt;/p>
-&lt;p>&lt;img src="https://raw.github.com/cybertraining-dsc/fa20-523-316/main/project/images/Electionresults.png" alt="Predicted results of US Elections 2020">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Predicted results of US Elections 2020&lt;/p>
-&lt;p>&lt;img src="https://raw.github.com/cybertraining-dsc/fa20-523-316/main/project/images/likedtweets.png" alt="Liked Tweets of US Elections 2020">&lt;/p>
-&lt;p>&lt;strong>Figure 2:&lt;/strong> Liked Tweets of US Elections 2020&lt;/p>
-&lt;p>Reference image: &lt;a href="https://www.kaggle.com/radustoicescu/2020-united-states-presidential-election/notebooks">https://www.kaggle.com/radustoicescu/2020-united-states-presidential-election/notebooks&lt;/a> and edited it from our program.&lt;/p>
-&lt;p>Below is the example of extracting tweets and forming them into a graph to represent the data.
-Among the most frequent words in tweets dedicated to Donald Trump (excluding candidates' proper nouns) occur both popular election words: &amp;ldquo;vote&amp;rdquo;, &amp;ldquo;election&amp;rdquo;, &amp;ldquo;president&amp;rdquo;, &amp;ldquo;people&amp;rdquo;, &amp;ldquo;Election Day&amp;rdquo;, etc., and specific, like &amp;ldquo;MAGA&amp;rdquo; (Trump&amp;rsquo;s tagline &amp;ldquo;Make America Great Again&amp;rdquo;) or &amp;ldquo;die&amp;rdquo; (a word with negative sense). Specific words of tweets dedicated to Joe Biden: &amp;ldquo;Kamala Harris&amp;rdquo; (Vice President-elect of the United States), &amp;ldquo;BidenHarris&amp;rdquo;, &amp;ldquo;win&amp;rdquo; (a word that is more frequent regarding Joe Biden than Donald Trump). Let&amp;rsquo;s look at Bi and Tri n-grams of words.
-&lt;img src="https://raw.github.com/cybertraining-dsc/fa20-523-316/main/project/images/__results___53_0.png" alt="Words used in US Elections 2020">&lt;/p>
-&lt;p>&lt;strong>Figure 4:&lt;/strong> Retweeted of US Elections 2020 With Trump&lt;/p>
-&lt;p>&lt;img src="https://raw.github.com/cybertraining-dsc/fa20-523-316/main/project/images/retweets_trump.jpg" alt="Retweets from Twitter">&lt;/p>
-&lt;p>Reference image: &lt;a href="https://www.kaggle.com/radustoicescu/2020-united-states-presidential-election/notebooks">https://www.kaggle.com/radustoicescu/2020-united-states-presidential-election/notebooks&lt;/a> and edited it form our program.&lt;/p>
-&lt;p>&lt;strong>Figure 5:&lt;/strong> Retweeted of US Elections 2020 Without Trump&lt;/p>
-&lt;p>&lt;img src="https://raw.github.com/cybertraining-dsc/fa20-523-316/main/project/images/retweets_no_trump.jpg" alt="Retweets from Twitter">&lt;/p>
-&lt;p>Reference image: &lt;a href="https://www.kaggle.com/radustoicescu/2020-united-states-presidential-election/notebooks">https://www.kaggle.com/radustoicescu/2020-united-states-presidential-election/notebooks&lt;/a> and edited it from our program.&lt;/p>
-&lt;h2 id="9-conclusion">9. Conclusion&lt;/h2>
-&lt;p>So, we&amp;rsquo;ve taken a quick look at the sentiment of tweets. There are a lot of analysis variants. It looks great to study the tweets by each Twitter account and therefore don&amp;rsquo;t cover the actual situation since restriction to data.
-Based on the visualization analysis with predicted tweets from Twitter the predicted winner is projected. The sentiment analysis was performed only on data that had geo-data originating from the &amp;ldquo;United States of America&amp;rdquo; to try to ascertain the sentiment in each respective dataset and therefore each presidential candidate.&lt;/p>
-&lt;h2 id="10-acknowledgments">10. Acknowledgments&lt;/h2>
-&lt;p>Would like to thank Dr. Gregor von Laszewski, Dr. Geoffrey Fox, and the associate instructors for providing continuous guidance and feedback for this final project.&lt;/p>
-&lt;h2 id="11-references">11. References&lt;/h2>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Taken election dataset &lt;a href="https://www.kaggle.com/kerneler/starter-2020-united-states-e6a4facf-a">https://www.kaggle.com/kerneler/starter-2020-united-states-e6a4facf-a&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: Estimating Soil Moisture Content Using Weather Data</title><link>/report/fa20-523-305/project/project/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/fa20-523-305/project/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/fa20-523-305/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-305/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/fa20-523-305/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-305/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: final, Type: Project&lt;/p>
-&lt;p>Cody Harris, &lt;a href="mailto:harrcody@iu.edu">harrcody@iu.edu&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/fa20-523-305">fa20-523-305&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/fa20-523-305/edit/main/project/project.md">Edit&lt;/a>&lt;/p>
-&lt;p>Code: &lt;a href="https://github.com/cybertraining-dsc/fa20-523-305/blob/main/project/code/ml_pipeline.ipynb">ml_pipeline.ipynb&lt;/a>
-Data: &lt;a href="https://github.com/cybertraining-dsc/fa20-523-305/tree/main/project/data">data&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>As the world is gripped with finding solutions
-to problems such as food and water shortages, the study of agriculture could improve where we stand with both of these problems. By integrating weather and sensor data, a model could be created to estimate soil moisture based on weather data that is easily accessible. While some farmers could afford to have many moisture sensors and monitor them, many would not have the funds or resources to keep track of the soil moisture long term. A solution would be to allow farmers to contract out a limited study of their land using sensors and then this model would be able to predict soil moistures from weather data. This collection of data, and predictions could be used on their own or as a part of a larger agricultural solution.&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-background">2. Background&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-datasets">3. Datasets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-data-cleaning-and-aggregation">4. Data Cleaning and Aggregation&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-pipeline-for-preprocessing">5. Pipeline for Preprocessing&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#51-loading-and-joining-data">5.1 Loading and Joining Data&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#52-feature-engineering">5.2 Feature Engineering&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#53-generic-pipeline">5.3 Generic Pipeline&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#6-multiple-models-for-multiple-soil-depths">6. Multiple Models for Multiple Soil Depths&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#7-splitting-data-into-train-and-test">7. Splitting Data into Train and Test&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-preliminary-analysis-and-eda">8. Preliminary Analysis and EDA&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-initial-model-testing-regressor">9. Initial Model Testing (Regressor)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#10-classifier-vs-regressor">10. Classifier vs. Regressor&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#11-various-other-linear-regression-model-experiments">11. Various Other Linear Regression Model Experiments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#12-other-models">12. Other Models&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#13-conclusion">13. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#14-acknowledgements">14. Acknowledgements&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#15-references">15. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> agriculture, soil moisture, IoT, machine learning, regression, sklearn&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Maintaining correct soil moisture throughout the plant growing process can result in better yields, and less overall problems with the crop. Water deficiencies or surplus at various stages of growth have different effects, or even negligible effects &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. It is important to have an idea of how your land consumes and stores water, which could be very different based on the plants being used, and variation of elevation and geography.&lt;/p>
-&lt;p>For hundreds of years, farmers have done something similar to this model. The difference is the precision that we can gain by using real data. For the past few hundred years, farmers had to rely on mostly experience and touch to know the moisture of their soil. While many farmers were successful, in the sense that they produced crops, there were ways they could have better optimized their crops to produce better. The water available to the plants is not the only variable that effects yields, but this project seeks to create an accessible model to which farmers can have predicted values of soil moisture without needing to buy and deploy expensive sensors.&lt;/p>
-&lt;p>The model created could be used in various ways. The first main use is to be able to monitor what is currently happening in the soil so that changes can be made to correct the issue if there is one. Secondly, a farmer could evaluate historical data and compare it to yields or other results of the harvest and use this analytical information to inform future decisions. For example, a corn farmer might only care about the predicted conditions to make sure that they are within reasonable ranges. A grape farmer in a wine vineyard might use this data, along with other data, to predict the quality of wine or even the recipe of wine that would best used grapes farmed under these conditions. Again, this model is just the starting point of a theoretical complex agricultural data analysis suite.&lt;/p>
-&lt;p>This project specifically seeks to see the effect of weather on a particular piece of land in Washington state. This process could be done all over the world to obtain benchmarks. These benchmarks could be a cheap option for a farmer that does not have the funds to support a full study of water usage on their land to use as training data. Instead, they could look for a model that has land that has similar soil and or geographical features, and then use their own weather data to estimate their soil moisture content. A major goal of this project is to create the best tool that is cheap enough for widespread adoption.&lt;/p>
-&lt;h2 id="2-background">2. Background&lt;/h2>
-&lt;p>Understanding how weather impacts soil moisture is something that has been studied in various ways, all because it is a driving factor in crop success. Multiple studies have sought to apply a deterministic approach to calculating soil moisture based on observational weather data.&lt;/p>
-&lt;p>One such study, was motivated by trying to predict dust storms in China, in which soil moisture plays a large role in. This prediction used multiple-linear regression, and focused on predictions that dealt with the top 10 cm of soil. Two key takeaways can be derived from this work that are beneficial for carrying out this project.&lt;/p>
-&lt;ul>
-&lt;li>&amp;ldquo;The influence of precipitation on surface soil moisture content does not last more than 16 days.&amp;rdquo;&lt;/li>
-&lt;li>&amp;ldquo;The compound effect of the ratio of precipitation to evaporation, which is nonlinearly summed, can be used to calculate the surface soil moisture content in China&amp;rdquo; &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>.&lt;/li>
-&lt;/ul>
-&lt;p>Moving forward, this project will assume that precipitation from the prior 16 days is relevant. In the case that for the specific data being fit, less days are relevant, then their coefficients in the model will likely become small enough to not affect the model. Secondly, soil moisture is influenced by a ratio or precipitation to evaporation. While this project might not seek to evaluate this relationship directly, it will seek to include data that would influence these ratios such as temperature, time of year, and wind speeds.&lt;/p>
-&lt;p>Multiple publications have sought to come up with complete hydrological models to determine soil moisture from a variety of factors. These models are generally stochastic in nature and are reliable predictors when many parameters of the model are available. One such cited model requires a minimum or 19 variables or measured coefficients &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>. The authors of another study note the aforementioned study, as well as other similar studies, and make a point that these methods might not be the best models when it comes to practical applications. Their solution was to create a generalize model that relied mostly on soil moisture as &amp;ldquo;a function of the time-weighted average of previous cumulative rainfall over a period&amp;rdquo; &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. Such a model is closer in terms to simplicity and generalization to what is hoped to be accomplished in this project.&lt;/p>
-&lt;p>The relationship between soil moisture and weather patterns is one with a rich history of study. Both of these measures affect each other in various ways. Most studies that sought to quantify this relationship were conducted at a time in which large scale sensor arrays could not have been implemented in the field. With the prevalence of IoT and improved sensing technologies, it seems as though there might not be a need to use predictive models for soil moisture, but instead just use sensor data. While this could be true in some applications, a wide array of challenges occur when trying to maintain these sensor arrays. Problems such as charging or replacing batteries, sensor and relay equipment not working if completely buried, but are in the way of farming if mounted above ground, sensors failing, etc. These were real challenges faced by the farm in which the soil moisture data was collected &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>. The objective of this project is to create predictive models based on limited training data so that farmers would not need to deal with sensor arrays indefinitely.&lt;/p>
-&lt;h2 id="3-datasets">3. Datasets&lt;/h2>
-&lt;p>The first data set comes from NOAA and contains daily summary data in regards to various measurements such as temperature, precipitation, wind speed, etc. For this project, only data that came from the closest station to the field will be used &lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>. In this case, that is the Pullman station at the Pullman-Moscow airport. Below is an image showing the weather data collection location, and the red pin is at the longitude and latitude of one of the sensors in the field. This data is in csv format (see Figure 1).&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-305/main/project/images/distance_map.png" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Estimated distance from weather reports to the crop fields. Distance is calculated using Google Maps&lt;/p>
-&lt;p>The second dataset comes from the USDA. This dataset consists of &amp;ldquo;hourly and daily measurements of volumetric water content, soil temperature, and bulk electrical conductivity, collected at 42 monitoring locations and 5 depths (30, 60, 90, 120, and 150 cm)&amp;rdquo; at a farm in Washington state &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>. Mainly, the daily temperature and water content are the measurements of interest. There are multiple files that have data that corresponds to what plants are being grown in specific places, and the makeup of the soil at each sensor cite. This auxilary information could be used in later models once the base model has been completed. This data is in tab delimited files.&lt;/p>
-&lt;p>Within the data, there are GIS file types that can be imported into Google Maps desktop to visualize the locations of the sensors and other geographical information. Below is an example of the sensor locations plotted on the satellite image (see Figure 2).&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-305/main/project/images/sensor_locations.png" alt="Figure 2">&lt;/p>
-&lt;p>&lt;strong>Figure 2:&lt;/strong> Location of sensors within the test field&lt;/p>
-&lt;h2 id="4-data-cleaning-and-aggregation">4. Data Cleaning and Aggregation&lt;/h2>
-&lt;p>The first step is to get the soil moisture data into a combined format, currently it is in one file per sensor, and there are 42 sensors. See the &lt;a href="https://github.com/cybertraining-dsc/fa20-523-305/blob/main/project/code/ml_pipeline.ipynb">ml_pipeline.ipynb&lt;/a> file to see how this was done, specifically the section titled &amp;ldquo;Data Processing&amp;rdquo;. After aggregation, some basic information can be checked about the data. For instance, there is quite a bit of NAs in the data. These NAs are just instances where there was no measurement on that day. There is about 45% NAs in the measurement columns. To further clean the data, any row that has only NAs for the measurements will be removed.&lt;/p>
-&lt;p>Next, the weather data needs some small adjustments. This is mostly in the form of removing columns that either are empty or have redundant data such as elevation, which is the same for every row.&lt;/p>
-&lt;p>Once the data is sufficiently clean, some choices have to be made on joining the data. The simplest route would be to join the weather measurements directly with the same day the soil measurement, however, the previous days weather is likely to also have an impact on the moisture. As evaluated in section 2 above, it is believed that the prior 16 days weather data is what is needed for a good prediction.&lt;/p>
-&lt;h2 id="5-pipeline-for-preprocessing">5. Pipeline for Preprocessing&lt;/h2>
-&lt;p>Before feeding the data through a machine learning algorithm, the data needs to be manipulated in such a way that it is ready to be directly fed into an algorithm. This includes joining the two data sets, feature engineering, and other tasks that prepare the data. This will need to be done every time a new dataset is being used, so this must be built in a repeatable way. The machine learning library scikit-learn incorporates something called &amp;ldquo;pipelines&amp;rdquo; that can allow processed to be sequentially done to a dataframe. For purposes of this project two pipelines will be built, one will be used for feature engineering and joining the data, the other will be used to handle preparation of numerical, categorical, and date data. See sections: &amp;ldquo;Data Processing Pipeline&amp;rdquo; in &lt;a href="https://github.com/cybertraining-dsc/fa20-523-305/blob/main/project/code/ml_pipeline.ipynb">ml_pipeline.ipynb&lt;/a>.&lt;/p>
-&lt;h3 id="51-loading-and-joining-data">5.1 Loading and Joining Data&lt;/h3>
-&lt;p>This is the first step of the entire pipeline. This is where both the weather, and the soil moisture data are read in from csv files in their raw format. The soil moisture data is found in many different files, and these all need to be combined. After combining the files, any lines that are full of NAs for the measurements are dropped. Next the weather data is loaded in. Both files have a date field which is the field they will be joined on. To make things consistent, both of these fields need to set be date format.&lt;/p>
-&lt;p>When it comes to joining the data, each row should include the moisture content at various depths, as well as the weather information from the past ten days. While this creates a great deal of redundant data, the data is small enough that this is not an issue. Experiments will be done to evaluate just how many days of prior weather data are needed to form accurate results, while trying to minimize the number of the days.&lt;/p>
-&lt;h3 id="52-feature-engineering">5.2 Feature Engineering&lt;/h3>
-&lt;p>Currently only two features are added, the first is a boolean flag that says whether it rained or not on a certain day. The thought behind this is, that for some days prior to the current measurement, the amount of rain might be needed, but for other days, such as 10 days prior, it might be more important to just know if there was rain or not. This feature is engineered within the pipeline.&lt;/p>
-&lt;p>The next feature is a categorical feature that is the month of the year. It isn&amp;rsquo;t very import to know the exact date of a measurement, but the month might be helpful in a model. This simplifies the model by not using date as a predictor, while still being able to capture this potentially important feature.&lt;/p>
-&lt;p>An excerpt of the code used to create these two features, this comes from &lt;a href="https://github.com/cybertraining-dsc/fa20-523-305/blob/main/project/code/ml_pipeline.ipynb">ml_pipeline.ipynb&lt;/a>.&lt;/p>
-&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">soil&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;Month&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">pd&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">DatetimeIndex&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">soil&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;Date&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">])&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">month&lt;/span>
-&lt;span style="color:#204a87;font-weight:bold">for&lt;/span> &lt;span style="color:#000">i&lt;/span> &lt;span style="color:#204a87;font-weight:bold">in&lt;/span> &lt;span style="color:#204a87">range&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">17&lt;/span>&lt;span style="color:#000;font-weight:bold">):&lt;/span>
-&lt;span style="color:#000">col_name&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;PRCP_&amp;#39;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">+&lt;/span> &lt;span style="color:#204a87">str&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">i&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;span style="color:#000">rain_y_n_name&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;RAIN_Y_N_&amp;#39;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">+&lt;/span> &lt;span style="color:#204a87">str&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">i&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;span style="color:#000">X&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#000">rain_y_n_name&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">np&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">nan&lt;/span>
-&lt;span style="color:#000">X&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#000">rain_y_n_name&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">loc&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#000">X&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#000">col_name&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;gt;&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">0&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">1&lt;/span>
-&lt;span style="color:#000">X&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#000">rain_y_n_name&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">loc&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#000">X&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#000">col_name&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">==&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">0&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">0&lt;/span>
-&lt;span style="color:#000">X&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#000">rain_y_n_name&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">X&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#000">rain_y_n_name&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">astype&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;object&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="53-generic-pipeline">5.3 Generic Pipeline&lt;/h3>
-&lt;p>After doing operations that are specific to the current dataset, some built in processors from sklearn are used to make sure the data can be used in a machine learning model. This means that for numerical data types, the pipeline will fill in missing values with 0 instead of leaving them as NaN. Also, the various numerical fields must be standardized, this is important for models such as linear regression so one large variable isn&amp;rsquo;t dominating the model.&lt;/p>
-&lt;p>As far as text and categorical features, the imputer will be used to fill in missing data as well. Then a process called one hot encoding will be used to handle the categorical variables so that they can be read into sklearns estimators. Lastly, these two main processes will be put together to make a single pipeline step. Then this pipeline step will be added to a regressor of some sort to create the entire process.&lt;/p>
-&lt;h2 id="6-multiple-models-for-multiple-soil-depths">6. Multiple Models for Multiple Soil Depths&lt;/h2>
-&lt;p>There are a few different approaches for modeling for this particular problem. The issue is that we have multiple things we would like to predict with the same predictors. It is unlikely that the model that predicts for a depth of 30 cm, would accurately predict for a depth of 150 cm. In order to adjust the models, a separate model will be created for each depth, with that said, the predictors are all the same for each depth, but the trained output is different. To accomplish this, five different datasets were constructed, each one representing a depth. All rows in which the predicted value is not available for that depth were pruned from the dataset.&lt;/p>
-&lt;p>In each experiment, there will be 5 different models created. Initially, these 5 models will use the same hyper-parameters for all the depths. It might turn out that all the models will need the same hyper-parameters, or each soil depth could be different. This will be examined through experimentation.&lt;/p>
-&lt;h2 id="7-splitting-data-into-train-and-test">7. Splitting Data into Train and Test&lt;/h2>
-&lt;p>In order to test any model created, there must be a split between test and training data. This is done by using a function in sklearn. In this case, there are about 76k rows in the data set. For the training data, 80% of the total data will be used, or about 60.8k records. The split is done after shuffling the rows so that it does not just pick the top 80% every time. Lastly the data is split using a stratified method. As we want to have models that take the specific area of the field into account, that means that we need to have the different areas of the field represented equally in both the training and testing dataset. This means that if 10% of the data came from sensor CAF0003, then roughly 10% of the training data will come from CAF0003 as well as 10% of the test data will be from this location.&lt;/p>
-&lt;h2 id="8-preliminary-analysis-and-eda">8. Preliminary Analysis and EDA&lt;/h2>
-&lt;p>Before building a machine learning model, it is important to get a general idea of how the data looks, to see if any insights can be made right away. The actual visualizations were built using a python package called Altair. This created the visualizations well, but the actual notebook that would contain these images was too large to include in their entirety.&lt;/p>
-&lt;p>The first two visualizations (&lt;a href="https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-305/main/project/images/one.png">viz_1&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/fa20-523-305/blob/main/project/images/two.png">viz_2&lt;/a>) are grids that show the entire distribution of measurements across each sensor. The first grid is the volume of water at 30 cm, and the second grid is the water volume at 150 cm. Each chart could be looked at and examined on it&amp;rsquo;s own, but what is most important to note is the variability of the measures from location to location. These different sensors are not that far away, but show that different areas of the farm do retain water in different ways. See Figure 3 for a small section of the grid from the visualization on the sensors at 30cm.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-305/main/project/images/one_small.png" alt="Figure 3">&lt;/p>
-&lt;p>&lt;strong>Figure 3:&lt;/strong> Six locations soil moisture level over time at 30 cm depth&lt;/p>
-&lt;p>The third and fourth grid shows the temperature at 150 cm, the results are what would logically be expected. The different sensors do not show much variance from location to location.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-305/main/project/images/four_small.png" alt="Figure 4">&lt;/p>
-&lt;p>&lt;strong>Figure 4:&lt;/strong> Six locations soil temperature over time at 150 cm depth&lt;/p>
-&lt;h2 id="9-initial-model-testing-regressor">9. Initial Model Testing (Regressor)&lt;/h2>
-&lt;p>Once the pipelines were setup, the first model could be tested for accuracy. As the output data is continuous in nature, the easiest machine learning algorithm to test to make sure everything is correct, was a linear regression model. It seems fairly likely that a linear regression model would do rather well with this data. The weather is the driving factor in soil moisture in a non-irrigated field, so this test is a litmus test to make sure that the data is good and provide a baseline measurement for future models. The experiment log below shows the returned values from the test that was run. Over the course of experimentation, a log such as this will be kept.&lt;/p>
-&lt;p>The results are as follows:&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Experiment&lt;/th>
-&lt;th>Depth&lt;/th>
-&lt;th>Fit_Time&lt;/th>
-&lt;th>Pred_Time&lt;/th>
-&lt;th>r2_score&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>First Linear Reg&lt;/td>
-&lt;td>30cm&lt;/td>
-&lt;td>2.029387&lt;/td>
-&lt;td>0.169824&lt;/td>
-&lt;td>9.16E-01&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>First Linear Reg&lt;/td>
-&lt;td>60cm&lt;/td>
-&lt;td>2.002373&lt;/td>
-&lt;td>0.17377&lt;/td>
-&lt;td>-1.42E+15&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>First Linear Reg&lt;/td>
-&lt;td>90cm&lt;/td>
-&lt;td>2.080393&lt;/td>
-&lt;td>0.162992&lt;/td>
-&lt;td>9.49E-01&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>First Linear Reg&lt;/td>
-&lt;td>120cm&lt;/td>
-&lt;td>2.299457&lt;/td>
-&lt;td>0.18056&lt;/td>
-&lt;td>9.46E-01&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>First Linear Reg&lt;/td>
-&lt;td>150cm&lt;/td>
-&lt;td>2.573193&lt;/td>
-&lt;td>0.186042&lt;/td>
-&lt;td>9.43E-01&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;strong>Figure 5:&lt;/strong> Baseline experiment results&lt;/p>
-&lt;p>These results show that the data is pretty well correlated and that there is reason to believe that we could predict soil moisture from weather alone. Although an r^2 of around 0.916-0.949 are pretty good, with such highly related predictors, there is definitely room for model improvement. Also for a depth of 60 cm, something is not predicting correctly and is resulting in a small negative r^2&lt;/p>
-&lt;h2 id="10-classifier-vs-regressor">10. Classifier vs. Regressor&lt;/h2>
-&lt;p>While the output is continuous, there is an argument to use a categorical classifier model. For a specific plant, an optimal moisture range could be studied. For examples sake, the range could be 0.2-0.4 units. Then it would not matter if the soil is 0.2 or 0.3, both would be in the acceptable range. With this in mind, certain levels could be created to alert the farmer of which category they could be experiencing. For example there might be five levels: too dry, acceptable dryness, optimal, acceptable wetness, and too wet. The training data could be adjusted to fit into these categories.&lt;/p>
-&lt;p>Code to create a categorical variable for each of the depth measurements can be found in the section &amp;ldquo;Make Classifier Label&amp;rdquo; in the file: &lt;a href="https://github.com/cybertraining-dsc/fa20-523-305/blob/main/project/code/ml_pipeline.ipynb">ml_pipeline.ipynb&lt;/a>.&lt;/p>
-&lt;p>In the end, the decision to not use classifier methods was made. After using a regressor, the output could be converted to a categorical feature if the user or application so desired this. As our output is continuous in nature, precision would be lost.&lt;/p>
-&lt;h2 id="11-various-other-linear-regression-model-experiments">11. Various Other Linear Regression Model Experiments&lt;/h2>
-&lt;p>The next set of experiments came up with the results in the following table. This was a test to see if baseline Lasso or Ridge Regression would improve on the basic linear regression model. Results and code for this portion can be found in &lt;a href="https://github.com/cybertraining-dsc/fa20-523-305/blob/main/project/code/ml_pipeline.ipynb">ml_pipeline.ipynb&lt;/a> under the &amp;ldquo;Linear Regression Tests&amp;rdquo; section.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Experiment&lt;/th>
-&lt;th>Depth&lt;/th>
-&lt;th>Fit_Time&lt;/th>
-&lt;th>Pred_Time&lt;/th>
-&lt;th>r2_score&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Ridge Reg, Alpha = 1&lt;/td>
-&lt;td>30cm&lt;/td>
-&lt;td>1.321553&lt;/td>
-&lt;td>0.173714&lt;/td>
-&lt;td>0.916211&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Ridge Reg, Alpha = 1&lt;/td>
-&lt;td>60cm&lt;/td>
-&lt;td>1.29167&lt;/td>
-&lt;td>0.187392&lt;/td>
-&lt;td>0.942757&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Ridge Reg, Alpha = 1&lt;/td>
-&lt;td>90cm&lt;/td>
-&lt;td>1.393526&lt;/td>
-&lt;td>0.197152&lt;/td>
-&lt;td>0.94879&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Ridge Reg, Alpha = 1&lt;/td>
-&lt;td>120cm&lt;/td>
-&lt;td>1.307926&lt;/td>
-&lt;td>0.176656&lt;/td>
-&lt;td>0.946032&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Ridge Reg, Alpha = 1&lt;/td>
-&lt;td>150cm&lt;/td>
-&lt;td>1.33738&lt;/td>
-&lt;td>0.179585&lt;/td>
-&lt;td>0.94332&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Lasso Reg, Alpha = 1&lt;/td>
-&lt;td>30cm&lt;/td>
-&lt;td>1.45102&lt;/td>
-&lt;td>0.170752&lt;/td>
-&lt;td>-0.00018&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Lasso Reg, Alpha = 1&lt;/td>
-&lt;td>60cm&lt;/td>
-&lt;td>1.419546&lt;/td>
-&lt;td>0.174177&lt;/td>
-&lt;td>-4.6E-05&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Lasso Reg, Alpha = 1&lt;/td>
-&lt;td>90cm&lt;/td>
-&lt;td>1.4632&lt;/td>
-&lt;td>0.176657&lt;/td>
-&lt;td>-5.7E-06&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Lasso Reg, Alpha = 1&lt;/td>
-&lt;td>120cm&lt;/td>
-&lt;td>1.553091&lt;/td>
-&lt;td>0.182349&lt;/td>
-&lt;td>-1.1E-06&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Lasso Reg, Alpha = 1&lt;/td>
-&lt;td>150cm&lt;/td>
-&lt;td>1.437419&lt;/td>
-&lt;td>0.163967&lt;/td>
-&lt;td>-0.00018&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Ridge Reg - GSCV&lt;/td>
-&lt;td>30cm&lt;/td>
-&lt;td>3.914718&lt;/td>
-&lt;td>0.203007&lt;/td>
-&lt;td>0.916235&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Ridge Reg - GSCV&lt;/td>
-&lt;td>60cm&lt;/td>
-&lt;td>3.726651&lt;/td>
-&lt;td>0.172752&lt;/td>
-&lt;td>0.942757&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Ridge Reg - GSCV&lt;/td>
-&lt;td>90cm&lt;/td>
-&lt;td>4.135154&lt;/td>
-&lt;td>0.200589&lt;/td>
-&lt;td>0.948796&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Ridge Reg - GSCV&lt;/td>
-&lt;td>120cm&lt;/td>
-&lt;td>4.03203&lt;/td>
-&lt;td>0.193512&lt;/td>
-&lt;td>0.946032&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Ridge Reg - GSCV&lt;/td>
-&lt;td>150cm&lt;/td>
-&lt;td>4.361977&lt;/td>
-&lt;td>0.191296&lt;/td>
-&lt;td>0.943328&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;strong>Figure 6:&lt;/strong> Further Linear Regression Experiment Results&lt;/p>
-&lt;p>For the first two experiments, an alpha of 1 was used for both ridge and lasso regression. The third experiment used a special regressor that uses cross validation to try to find the best alpha value and then fit the model based on that. The best alpha value seemed to not have much effect at all on the results. Still the ridge regression so far was the best performing model.&lt;/p>
-&lt;h2 id="12-other-models">12. Other Models&lt;/h2>
-&lt;p>While there were great results in the different linear regression models, other models should be evaluated to make sure that something is not missed. Three models were chosen to check, Stochastic Gradient Descent, Support Vector Machine, and Random Forest. All of these models were tested with default parameters and their results are shown below in Figure 7, and the code can be found in the section called &amp;ldquo;Other Regressors Tests&amp;rdquo;.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Experiment&lt;/th>
-&lt;th>Depth&lt;/th>
-&lt;th>Fit_Time&lt;/th>
-&lt;th>Pred_Time&lt;/th>
-&lt;th>r2_score&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Random Forest&lt;/td>
-&lt;td>30cm&lt;/td>
-&lt;td>60.06952&lt;/td>
-&lt;td>0.250543&lt;/td>
-&lt;td>0.977118&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Random Forest&lt;/td>
-&lt;td>60cm&lt;/td>
-&lt;td>62.17435&lt;/td>
-&lt;td>0.216641&lt;/td>
-&lt;td>0.989113&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Random Forest&lt;/td>
-&lt;td>90cm&lt;/td>
-&lt;td>62.29475&lt;/td>
-&lt;td>0.243051&lt;/td>
-&lt;td>0.99158&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Random Forest&lt;/td>
-&lt;td>120cm&lt;/td>
-&lt;td>64.48227&lt;/td>
-&lt;td>0.256666&lt;/td>
-&lt;td>0.991274&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Random Forest&lt;/td>
-&lt;td>150cm&lt;/td>
-&lt;td>68.47001&lt;/td>
-&lt;td>0.240149&lt;/td>
-&lt;td>0.991748&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>SVM&lt;/td>
-&lt;td>30cm&lt;/td>
-&lt;td>38.83822&lt;/td>
-&lt;td>5.712513&lt;/td>
-&lt;td>0.676934&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>SVM&lt;/td>
-&lt;td>60cm&lt;/td>
-&lt;td>106.2816&lt;/td>
-&lt;td>7.897556&lt;/td>
-&lt;td>0.766008&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>SVM&lt;/td>
-&lt;td>90cm&lt;/td>
-&lt;td>102.9438&lt;/td>
-&lt;td>7.763206&lt;/td>
-&lt;td>0.788833&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>SVM&lt;/td>
-&lt;td>120cm&lt;/td>
-&lt;td>79.76476&lt;/td>
-&lt;td>6.985236&lt;/td>
-&lt;td>0.760895&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>SVM&lt;/td>
-&lt;td>150cm&lt;/td>
-&lt;td>96.46352&lt;/td>
-&lt;td>7.548365&lt;/td>
-&lt;td>0.760936&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>SGD&lt;/td>
-&lt;td>30cm&lt;/td>
-&lt;td>1.382992&lt;/td>
-&lt;td>0.171777&lt;/td>
-&lt;td>0.89019&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>SGD&lt;/td>
-&lt;td>60cm&lt;/td>
-&lt;td>1.392753&lt;/td>
-&lt;td>0.15128&lt;/td>
-&lt;td>0.931394&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>SGD&lt;/td>
-&lt;td>90cm&lt;/td>
-&lt;td>1.399587&lt;/td>
-&lt;td>0.142493&lt;/td>
-&lt;td>0.941092&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>SGD&lt;/td>
-&lt;td>120cm&lt;/td>
-&lt;td>1.438626&lt;/td>
-&lt;td>0.150302&lt;/td>
-&lt;td>0.936692&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>SGD&lt;/td>
-&lt;td>150cm&lt;/td>
-&lt;td>1.403488&lt;/td>
-&lt;td>0.14933&lt;/td>
-&lt;td>0.92957&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;strong>Figure 7:&lt;/strong> Further Linear Regression Experiment Results&lt;/p>
-&lt;p>The random forest regressor performed amazingly in predicting the soil moisture. While the lower depths of soil did perform better than the depth of 30 cm. As random forests performed so well out of the box, some attempts were made to tune the hyperparameters, but most experiments turned out to be computationally expensive.&lt;/p>
-&lt;h2 id="13-conclusion">13. Conclusion&lt;/h2>
-&lt;p>The end results of all experimentation was a process in which two datasets could be joined and fed into a model to predict the soil moisture with great accuracy, an r^2 score of between 0.977 and 0.991 depending on the depth using a Random Forest Regressor with default settings. This process could be a repeatable process in which a farmer contracts a company to gather training data on their land specifically for a growing season. As the collection of the sensor data could be cumbersome and expensive to deal with as a farmer, so this is an alternative that is cheaper and still gives nearly the same results as having sensors constantly running. Alternatively, this process could be a subprocess in a larger suite of software that farmers could use for predictive analysis or even to have data on soil moisture from a grow season to use in post season analysis of their crop produced. As long as large scale AI programs are still expensive and cumbersome for farmers to deal with, there will be a low rate of adoption. This project has shown that a solution for large scale soil moisture prediction software could be done with relatively low computational cost.&lt;/p>
-&lt;h2 id="14-acknowledgements">14. Acknowledgements&lt;/h2>
-&lt;p>The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and the associate instructors in the &lt;em>FA20-BL-ENGR-E534-11530: Big Data Applications&lt;/em> course (offered in the Fall 2020 semester at Indiana University, Bloomington) for their continued assistance and suggestions with regard to exploring this idea and also for their aid with preparing the various drafts of this article.&lt;/p>
-&lt;h2 id="15-references">15. References&lt;/h2>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>O. Denmead and R. Shaw, &amp;ldquo;The Effects of Soil Moisture Stress at Different Stages of Growth on the Development and Yield of Corn 1&amp;rdquo;, Agronomy Journal, vol. 52, no. 5, pp. 272-274, 1960. Available: 10.2134/agronj1960.00021962005200050010x.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>K. Shang, S. Wang, Y. Ma, Z. Zhou, J. Wang, H. Liu and Y. Wang, &amp;ldquo;A scheme for calculating soil moisture content by using routine weather data&amp;rdquo;, Atmospheric Chemistry and Physics, vol. 7, no. 19, pp. 5197-5206, 2007 [Online]. Available: &lt;a href="https://hal.archives-ouvertes.fr/hal-00302825/document">https://hal.archives-ouvertes.fr/hal-00302825/document&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:3" role="doc-endnote">
-&lt;p>W. Capehart and T. Carlson, &amp;ldquo;Estimating near-surface soil moisture availability using a meteorologically driven soil-water profile model&amp;rdquo;, Journal of Hydrology, vol. 160, no. 1-4, pp. 1-20, 1994 [Online]. Available: &lt;a href="https://tinyurl.com/yxjyuy5x">https://tinyurl.com/yxjyuy5x&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:4" role="doc-endnote">
-&lt;p>F. Pan, C. Peters-Lidard and M. Sale, &amp;ldquo;An analytical method for predicting surface soil moisture from rainfall observations&amp;rdquo;, Water Resources Research, vol. 39, no. 11, 2003 [Online]. Available: &lt;a href="https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2003WR002142">https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2003WR002142&lt;/a>. [Accessed: 08- Nov- 2020]&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:5" role="doc-endnote">
-&lt;p>C. Gasch, D. Brown, C. Campbell, D. Cobos, E. Brooks, M. Chahal and M. Poggio, &amp;ldquo;A Field-Scale Sensor Network Data Set for Monitoring and Modeling the Spatial and Temporal Variation of Soil Water Content in a Dryland Agricultural Field&amp;rdquo;, Water Resources Research, vol. 53, no. 12, pp. 10878-10887, 2017 [Online]. Available: &lt;a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2017WR021307">https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2017WR021307&lt;/a>. [Accessed: 08- Nov- 2020]&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:6" role="doc-endnote">
-&lt;p>N. (NCEI), &amp;ldquo;Climate Data Online (CDO) - The National Climatic Data Center&amp;rsquo;s (NCDC) Climate Data Online (CDO) provides free access to NCDC&amp;rsquo;s archive of historical weather and climate data in addition to station history information. | National Climatic Data Center (NCDC)&amp;rdquo;, Ncdc.noaa.gov, 2020. [Online]. Available: &lt;a href="https://www.ncdc.noaa.gov/cdo-web/">https://www.ncdc.noaa.gov/cdo-web/&lt;/a>. [Accessed: 19- Oct- 2020].&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:7" role="doc-endnote">
-&lt;p>&amp;ldquo;Data from: A field-scale sensor network data set for monitoring and modeling the spatial and temporal variation of soil moisture in a dryland agricultural field&amp;rdquo;, USDA: Ag Data Commons, 2020. [Online]. Available: &lt;a href="https://data.nal.usda.gov/dataset/data-field-scale-sensor-network-data-set-monitoring-and-modeling-spatial-and-temporal-variation-soil-moisture-dryland-agricultural-field">https://data.nal.usda.gov/dataset/data-field-scale-sensor-network-data-set-monitoring-and-modeling-spatial-and-temporal-variation-soil-moisture-dryland-agricultural-field&lt;/a>. [Accessed: 19- Oct- 2020].&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item></channel></rss>

@@ -4,7 +4,7 @@ owner:
   lastname: "Williams"
   hid: "su21-reu-370"
   community: "reu"
-  semester: "sp21"
+  semester: "su21"
 project:
   title: Marine aninmal population analysis using AI
   url: https://github.com/cybertraining-dsc/su21-reu-370/blob/main/project/index.md
