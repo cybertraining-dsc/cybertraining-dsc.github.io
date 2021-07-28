@@ -31,7 +31,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="Analyzing Price Changes on the Electro-Optical System Blockchain"
+  title="Time Series Analysis of Blockchain-Based Cryptocurrency Price Changes"
   author="Jacques Fleischer"
   hid= "su21-reu-361"
   %}}
