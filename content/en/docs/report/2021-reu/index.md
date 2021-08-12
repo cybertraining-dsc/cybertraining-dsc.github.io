@@ -23,14 +23,6 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="Classification of Hyperspectral Images"
-  author="Carlos Theran"
-  hid= "su21-reu-360"
-  %}}
-
----
-
-* {{% addprojectreport
   title="Time Series Analysis of Blockchain-Based Cryptocurrency Price Changes"
   author="Jacques Fleischer"
   hid= "su21-reu-361"
@@ -118,15 +110,6 @@ REU 2021.
 
 ---
 
-
-* {{% addprojectreport
-  title="TBD"
-  hid="su21-reu-373" 
-  author="Neel Patel"
-  %}}
-
----
-
 * {{% addprojectreport
   title="AI Time Series Analysis"
   hid="su21-reu-374" 
@@ -163,14 +146,6 @@ REU 2021.
   title="Analysis of Autism in three different cities using AI"
   hid="su21-reu-378"
   author="Myra Saunders"
-  %}}
-
----
-
-* {{% addprojectreport
-  title="TBD"
-  hid="su21-reu-379"
-  author="Carrington Kee"
   %}}
 
 ---
