@@ -111,14 +111,6 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="AI Time Series Analysis"
-  hid="su21-reu-374" 
-  author="Victor Adankai"
-  %}}
-
----
-
-* {{% addprojectreport
   title="Analysis of Covid-19 Vaccination Rates in Different Races"
   hid="su21-reu-375"
   author="Ololade Latinwo"
@@ -146,6 +138,18 @@ REU 2021.
   title="Analysis of Autism in three different cities using AI"
   hid="su21-reu-378"
   author="Myra Saunders"
+  %}}
+
+---
+
+## Reports marked for deletion
+
+---
+
+* {{% addprojectreport
+  title="AI Time Series Analysis"
+  hid="su21-reu-374" 
+  author="Victor Adankai"
   %}}
 
 ---
