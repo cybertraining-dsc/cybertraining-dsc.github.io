@@ -899,11 +899,10 @@ Status: draft, Type: Project&lt;/p>
 &lt;p>The goal was to emphasize the present data in terms of test accuracy and clinical utility results, as well as any gaps in the evidence. Women are screened by getting photos taken of each breast from different views. Two readers are assigned to interpret the photographs in a sequential order. Each reader decides whether the photograph is normal or whether a woman should be recalled for further examination. Arbitration is used when there is a disagreement. If a woman is recalled, she will be offered extra testing to see if she has cancer.&lt;/p>
 &lt;p>Another goal is to detect cancer at an earlier stage during screening so that therapy can be more successful. Some malignancies found during screening, on the other hand, might never have given the woman symptoms. Overdiagnosis is a term used to describe a situation in which a person has caused harm to another person during their lifetime. As a result, overtreatment (unnecessary treatment) occurs. Since some malignancies are overlooked during screening, the women are misled.&lt;/p>
 &lt;p>The methods in diagnostic procedures vary between radiologists and Artificial Intelligence networks. In a breast ultrasound exam, radiologists look for abnormal abnormalities in each image, while AI networks analyze each image in an exam that is processed separately using a ResNet-18 model, and a saliency map is generated, identifying the most essential sections. With radiologists, the focus is on photos with abnormal lesions and with AI networks the image is given an attention score based on its relative value. To make a final diagnosis, radiologists consider signals in all photos, and AI computes final predictions for benign and malignant results by combining information from all photos using an attention technique.&lt;/p>
-&lt;p>![Figure 1](&lt;a href="https://github.com/cybertraining-dsc/su21-reu-377/blob/main/project/images/IMG_9446.jpg%22">https://github.com/cybertraining-dsc/su21-reu-377/blob/main/project/images/IMG_9446.jpg&amp;quot;&lt;/a>&lt;/p>
 &lt;h2 id="3-results-from-literature-review">3. Results From Literature Review&lt;/h2>
 &lt;p>Using pathology data, each breast in an exam was given a label indicating the presence of cancer. Image-guided biopsy or surgical excision were used to collect tissues for pathological tests. The AI system was shown to perform comparably to board-certified breast radiologists in the reader study subgroup. In this reader research, the AI system detected tumors with the same sensitivity as radiologists, but with greater specificity, a higher PPV, and a lower biopsy rate. Furthermore, the AI system outperformed all ten radiologists in terms of AUROC and AUPRC. This pattern was replicated in the subgroup study, which revealed that the algorithm could correctly interpret Ultrasound Screening examinations that radiologists considered challenging.&lt;/p>
-&lt;p>Figure -
-Analysis of saliency maps on a qualitative level- This figure displays the sagittal and transverse views of the lesion (left) and the AI&amp;rsquo;s saliency maps indicating the anticipated sites of benign (center) and malignant (right) findings in each of the six instances (a-f) from the reader study.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-377/raw/main/project/images/IMG_9446.jpg" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Analysis of saliency maps on a qualitative level- This figure displays the sagittal and transverse views of the lesion (left) and the AI&amp;rsquo;s saliency maps indicating the anticipated sites of benign (center) and malignant (right) findings in each of the six instances (a-f) from the reader study.&lt;/p>
 &lt;h2 id="4-datasets">4. Datasets&lt;/h2>
 &lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-377/main/project/images/Dataset%20Image.png" alt="Figure 2">&lt;/p>
 &lt;p>&lt;strong>Figure 2:&lt;/strong> The probabilistic forecasts of each hybrid model were randomly divided to fit the reader&amp;rsquo;s sensitivity. The dichotomization of the AI&amp;rsquo;s predictions matches the sensitivity of the average radiologists. Readers' AUROC, AUPRC, specificity, and PPV improve as a result of the collaboration between AI and readers, whereas biopsy rates decrease.&lt;/p>
@@ -922,12 +921,12 @@ Analysis of saliency maps on a qualitative level- This figure displays the sagit
 &lt;/ol>
 &lt;h2 id="7-references">7. References&lt;/h2>
 &lt;ol>
-&lt;li>Coleman C. Early Detection and Screening for Breast Cancer. Semin Oncol Nurs. 2017 May;33(2):141-155. doi: 10.1016/j.soncn.2017.02.009. Epub 2017 Mar 29. PMID: 28365057.&lt;/li>
-&lt;li>Freeman, K., Geppert, J., Stinton, C., Todkill, D., Johnson, S., Clarke, A., &amp;amp; Taylor-Phillips, S. (2021, May 10). Use of Artificial Intelligence for Image Analysis in Breast Cancer Screening . &lt;a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/987021/AI_in_BSP_Rapid_review_consultation_2021.pdf">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/987021/AI_in_BSP_Rapid_review_consultation_2021.pdf&lt;/a>.&lt;/li>
+&lt;li>Coleman C. Early Detection and Screening for Breast Cancer. Semin Oncol Nurs. 2017 May;33(2):141-155. doi: 10.1016/j.soncn.2017.02.009. Epub 2017 Mar 29. PMID: 28365057&lt;/li>
+&lt;li>Freeman, K., Geppert, J., Stinton, C., Todkill, D., Johnson, S., Clarke, A., &amp;amp; Taylor-Phillips, S. (2021, May 10). Use of Artificial Intelligence for Image Analysis in Breast Cancer Screening. &lt;a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/987021/AI_in_BSP_Rapid_review_consultation_2021.pdf">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/987021/AI_in_BSP_Rapid_review_consultation_2021.pdf&lt;/a>&lt;/li>
 &lt;li>Li, J., Zhou, Z., Dong, J., Fu, Y., Li, Y., Luan, Z., &amp;amp; Peng, X. (2021). Predicting breast cancer 5-year survival using machine learning: A systematic review. PloS one, 16(4), e0250370.&lt;/li>
 &lt;li>Mendelsonm, Ellen B., Artificial Intelligence in Breast Imaging: Potentials and Limitations. American Journal of Roentgenology 2019 212:2, 293-299&lt;/li>
 &lt;li>Seely, J. M., &amp;amp; Alhassan, T. (2018). Screening for breast cancer in 2018-what should we be doing today?. Current oncology (Toronto, Ont.), 25(Suppl 1), S115–S124.&lt;/li>
-&lt;li>Shamout, F. E., Shen, A., Witowski, J., Oliver, J., &amp;amp; Geras, K. (2021, June 24). Improving Breast Cancer Detection in Ultrasound Imaging Using AI. NVIDIA Developer Blog. &lt;a href="https://developer.nvidia.com/blog/improving-breast-cancer-detection-in-ultrasound-imaging-using-ai/">https://developer.nvidia.com/blog/improving-breast-cancer-detection-in-ultrasound-imaging-using-ai/&lt;/a>.&lt;/li>
+&lt;li>Shamout, F. E., Shen, A., Witowski, J., Oliver, J., &amp;amp; Geras, K. (2021, June 24). Improving Breast Cancer Detection in Ultrasound Imaging Using AI. NVIDIA Developer Blog. &lt;a href="https://developer.nvidia.com/blog/improving-breast-cancer-detection-in-ultrasound-imaging-using-ai/">https://developer.nvidia.com/blog/improving-breast-cancer-detection-in-ultrasound-imaging-using-ai/&lt;/a>&lt;/li>
 &lt;/ol></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-379/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-379/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-379/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-379/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-379/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-379/workflows/Status/badge.svg" alt="Status">&lt;/a>
@@ -1080,9 +1079,9 @@ Status: draft, Type: Project&lt;/p>
 &lt;p>Several codes were written to determine the best number of clusters for the model. The effectiveness of a cluster is often measured by scores such as silhouette score, homogeneity score and adjusted rand score.&lt;/p>
 &lt;p>The silhouette score for a cluster of 3, 4, and 5, 8, 20 and 79 were 0.143, 0.1393, 0.1193, 0.50968, 0.0872, 0.012 while the homogenenity scores were 0.4635, 0.4749, 0.1193, 0.5617, 0.6519 and 1.0 respectively. The homogeneity score for 79 is 1.0 since the algorithm can assign all the points into sepearate clusters. However, it is not efficient for the dataset we used. A cluster of 3 works best since the silhouette score is high and the homogeneity score jumps ~2-fold.&lt;/p>
 &lt;p>Figures 1 and 2 show the results of the visualization of the clusters of 3 and 4.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/images/new.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-362/raw/main/project/images/new.png" alt="Figure 1">&lt;/p>
 &lt;p>&lt;strong>Figure 1:&lt;/strong> The classification of Breast Cancer Moleecular Subtypes using KMeans Clustering. (k=3). Each data point represnt the expression value for the genes that were used for clustering.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/images/k%3D4_image.png" alt="Figure 2">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-362/raw/main/project/images/k%3D4_image.png" alt="Figure 2">&lt;/p>
 &lt;p>&lt;strong>Figure 2:&lt;/strong> The classification of Breast Cancer Moleecular Subtypes using KMeans Clustering. (k=4). Each data point represnt the expression value for the genes that were used for clustering.&lt;/p>
 &lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
 &lt;p>This program was executed on a Google Colab server and the entire runtime took 1.012 seconds Table 1 lists the amount of time taken to loop for n_components. The n_components is gotten from the code and it refers to the features of the dataset.&lt;/p>
@@ -1143,12 +1142,10 @@ Status: draft, Type: Project&lt;/p>
 Also, future research could be done by using other machine learning algorithms, possibly a supervised learning algotithm, to identify the correlation between the clusters and the four molecular subtypes.
 This model can be improved on and if proven to show that there truly exist a relationship between the four molecular subtypes, more research could be done to identify the factors that contribure to the interelatedness. This would lead medical scientists and researchers to work on better innovative methods that will aid the treatment and management of breast cancer.&lt;/p>
 &lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> This projected was immensely supported by Dr. Gregor von Laszewski.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Also, a big appreciation to the REU Instructors (Carlos Theran, Yohn Jairo and Victor Adankai) for their contribution, support, teachings and advice.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Also, gratitude to my colleagues who helped me out; Jacques Fleischer, David Umanzor and Sheimy Paz Serpa. gratitude to my colleagues.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Lastly, appreciation to Dr. Byron Greene, the Florida A&amp;amp;M University, the Indiana University and Bethune Cookman University for providing a platform to be able to learn new things and embark on new projects.&lt;/li>
-&lt;/ul>
+&lt;p>This projected was immensely supported by Dr. Gregor von Laszewski.
+Also, a big appreciation to the REU Instructors (Carlos Theran, Yohn Jairo and Victor Adankai) for their contribution, support, teachings and advice.
+Also, gratitude to my colleagues who helped me out; Jacques Fleischer, David Umanzor and Sheimy Paz Serpa. gratitude to my colleagues.
+Lastly, appreciation to Dr. Byron Greene, the Florida A&amp;amp;M University, the Indiana University and Bethune Cookman University for providing a platform to be able to learn new things and embark on new projects.&lt;/p>
 &lt;h2 id="9-references">9. References&lt;/h2>
 &lt;section class="footnotes" role="doc-endnotes">
 &lt;hr>
@@ -1379,9 +1376,9 @@ hysterectomy which is the removal of the womb.&lt;/p>
 &lt;p>In this paper, we will study the exact cause and risk factors that may place someone in this position. If spotted early it wouldn’t affect someone’s dream chance
 of conceiving or affect their reproductive parts. Using various data sets we will study the way everything may alignes in causes and machine leaning would be the
 primary technique to used interpretate the relation between variables and risk factor on cervical cancer.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-369/main/project/images/Cervical-Cancer-1024x624.jpg" alt="Figure 2">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/raw/main/project/images//Cervical-Cancer-1024x624.jpg" alt="Figure 2">&lt;/p>
 &lt;h2 id="model">Model&lt;/h2>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/blob/main/project/images/Screen%20Shot%202021-07-27%20at%207.40.36%20PM.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/raw/main/project/images/Screen%20Shot%202021-07-27%20at%207.40.36%20PM.png" alt="Figure 1">&lt;/p>
 &lt;h2 id="2-datasets">2. DataSets&lt;/h2>
 &lt;p>The Data sets obatained shows the primary risk factors that affect women ages 15 and above. The few factors that sticked out the most were age, start of sexual
 activity, tabacoo intake, and IUD. The age and start of sexual activity maybe primary factor because a person is more liable to catch an STD and get this diease
@@ -1390,11 +1387,11 @@ weaking the immune system and making somone more septable to the disease. The IU
 person at risk, this device aids the prevention of pregency by thickneing the mucos of the cervix that could later cause infection or make your more spetiable to
 them.&lt;/p>
 &lt;h2 id="iud-visulaization">IUD Visulaization&lt;/h2>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/blob/main/project/images/cervical%20iud%20.jpg" alt="figure 2">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/raw/main/project/images/cervical%20iud%20.jpg" alt="figure 2">&lt;/p>
 &lt;h2 id="tabacoo-visulization-affect-on-cervixs">Tabacoo Visulization Affect On Cervixs&lt;/h2>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/blob/main/project/images/tab.png" alt="Figure 3">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/raw/main/project/images/tab.png" alt="Figure 3">&lt;/p>
 &lt;h2 id="correlation-of-age-and-start-of-sexual-activity">Correlation of Age and Start Of sexual activity&lt;/h2>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-369/main/project/images/download-2021-06-29T15-34-01-628Z.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/raw/main/project/images/download-2021-06-29T15-34-01-628Z.png" alt="Figure 1">&lt;/p>
 &lt;h2 id="3-other-people-works">3. Other People Works&lt;/h2>
 &lt;p>The research of others work has made a huge imapact to this project starting from data to important knowledge needed to conduct the project. With the various
 research sites, we were able to witness what the affects various day to day activtie affect women long term. The Cervical Cancer Diagnosis Using a Chicken Swarm
@@ -1403,11 +1400,11 @@ may cause. With the data that was used from UCI Machine Learning, we were able t
 &lt;h2 id="4--explantion-of-confusion-matrix">4. Explantion of Confusion Matrix&lt;/h2>
 &lt;p>The confusion matrix generated by multilayer perceptron can be explained as the perdicted summary results from the data obtained. Zero is when no cervical cancer is witnessed, one is when cervical cancer is seen. A hundrend and sixty-two is the highest number of this disease seen on the chart and the lowest number being winessed is two and eight being quiet of a jump.&lt;/p>
 &lt;h2 id="5-benchmark">5. Benchmark&lt;/h2>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/blob/main/project/images/graph%5C.png" alt="figure4">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/raw/main/project/images/graph%5C.png" alt="figure4">&lt;/p>
 &lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
 &lt;p>In conclusion it can be found as women partake in their first sexual activity and continue they are more at risk. 162 is a dramatic number not necessarily being affected by age and 0 is only seen when a person does not partake in it. In the future I hope to keep furthering my Knowledge on Cervical Cancer, hopefully coming up with a realistic method to cure this disease where one can continue to live their life with as a human being.&lt;/p>
 &lt;h2 id="7-acknowledgments">7. Acknowledgments&lt;/h2>
-&lt;p>I would like to thank Yohn, Carlos, Gregor, Victor, and Jacques for all of their Help. Thank you!&lt;/p>
+&lt;p>The author would like to thank Yohn, Carlos, Gregor, Victor, and Jacques for all of their Help. Thank you!&lt;/p>
 &lt;h2 id="8-references">8. References&lt;/h2></description></item><item><title>Report: Cyber Attacks Detection Using AI Algorithms</title><link>/report/su21-reu-365/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-365/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-365/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-365/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-365/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-365/workflows/Status/badge.svg" alt="Status">&lt;/a>
@@ -1545,8 +1542,10 @@ The implant which are typically ribbed and threaded to promote stability while i
 &lt;p>Osseointegrated dental implants depend on various factors that affect the anchorage of the implant to the bone tissue. Successful surgical anchoring techniques can contribute to long term success of implant stability. Primary stability plays a role 2 week postoperatively by achieving mechanical retention of the implant. It helps establish a mechanical microenvironment for gradual bone healing, or osseointegration-This is secondary implant stability. {2} Bone type, implant length, implant and diameter influences primary and secondary implant stability. Implant length can range from 6mm to 20mm; however, the most common lengths are between 8mm to 15mm. Many studies suggest that implant length contribute to decreasing bone stress and increasing implant stability. Bone stress can occur at both the cortical and cancellous part of the bone. Increasing implant length will decrease stress in the cancellous part of the bone while increasing the implant diameter can decrease stress in the cortical part of the bone. Bone type can promote positive bone stimulation around an implant improving the overall function. There are four different types: Type I, Type II, Type III, and Type IV. Type I is the most dense of them which provides more cortical anchorage but has limited vascularity. Type II is the best for osseointegration because it provides good cortical anchorage and has better vascularity than type I. Type III and IV have a thin layer of cortical bone which decrease the success rate of primary stability{3).&lt;/p>
 &lt;p>&lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7494467/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7494467/&lt;/a>
 &lt;a href="https://www.sciencedirect.com/science/article/pii/S0901502720302496">https://www.sciencedirect.com/science/article/pii/S0901502720302496&lt;/a>&lt;/p>
-&lt;p>Implant stability can be measured using the Implant Stability Quotient (ISQ) as an indirect indicator to determine the time frame for implant loading and prognostic indicator for implant failure(1). This can be measured by resonance frequency analysis (RFA) immediately after the implant has been placed. Resonance frequency analysis is the measurement in which a device vibrates in response to frequencies in the range of 5-15 kHz. The peak amplitude of the response is then encoded into the implant stability quotient (ISQ) .The clinical range of ISQ is from 55-80. High stability is &amp;gt;70 ISQ while medium stability is between 60-69 ISQ. Low stability is &amp;lt;60 ISQ.(2)&lt;/p>
+&lt;p>Implant stability can be measured using the Implant Stability Quotient (ISQ) as an indirect indicator to determine the time frame for implant loading and prognostic indicator for implant failure(1). This can be measured by resonance frequency analysis (RFA) immediately after the implant has been placed. Resonance frequency analysis is the measurement in which a device vibrates in response to frequencies in the range of 5-15 kHz. The peak amplitude of the response is then encoded into the implant stability quotient (ISQ) .The clinical range of ISQ is from 55-80. High stability is &amp;gt;70 ISQ while medium stability is between 60-69 ISQ. Low stability is &amp;lt;60 ISQ.(2)
+&lt;img src="images/ISQ-Implant-Stability-GP-Implants-2.png" alt="Implant Stability Quotient Chart">&lt;/p>
 &lt;h2 id="2-data-sets">2. Data sets&lt;/h2>
+&lt;p>&lt;img src="images/Mean-IT-and-implant-stability-quotient-ISQ-in-different-bone-types-Both-IT-and-ISQ.png" alt="">&lt;/p>
 &lt;ul>
 &lt;li>&lt;input disabled="" type="checkbox"> Find data sets about effects about dentronics&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> Identify the purpose of data sets&lt;/li>
@@ -1562,7 +1561,6 @@ the download function.&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> if image is copied , you must use a reference such as shown in the Figure 1 caption&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> list&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
 &lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
 &lt;h2 id="5-example-of-an-ai-algorithm-in-dentronics">5. Example of an AI algorithm in Dentronics&lt;/h2>
 &lt;ul>
@@ -2384,30 +2382,37 @@ Status: draft, Type: Project&lt;/p>
 &lt;/div>
 &lt;p>&lt;strong>Keywords:&lt;/strong> ai, orthodontics, x-rays.&lt;/p>
 &lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Dental field technology capability has increased over the past 25 years, and has helped reduce time, cost, medical errors, and dependence on human expertise. Intelligence in orthodontics can learn, build, remember, understand and recognize designs from techniques used in correcting the teeth like retainers. Dental field can create alternatives, adapt to change and explore experiences with sub-groups of patients. AI has taken part of the dental field by accurately and efficiently processing the best data from treatments. For smart use of Health Data, machine learning and artificial intelligence are expected to promote further development of the digital revolution in (dental) medicine, like x-rays, using algorithms to simulate human cognition in the analysis of complex data. The performance is better, the higher the degree of repetitive pattern and the larger the amount of accessible data[5].&lt;/p>
+&lt;p>Dental field technology capability has increased over the past 25 years, and has helped reduce time, cost, medical errors, and dependence on human expertise. Intelligence in orthodontics can learn, build, remember, understand and recognize designs from techniques used in correcting the teeth like retainers. Dental field can create alternatives, adapt to change and explore experiences with sub-groups of patients. AI has taken part of the dental field by accurately and efficiently processing the best data from treatments. For smart use of Health Data, machine learning and artificial intelligence are expected to promote further development of the digital revolution in (dental) medicine, like x-rays, using algorithms to simulate human cognition in the analysis of complex data. The performance is better, the higher the degree of repetitive pattern and the larger the amount of accessible data&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
 &lt;h2 id="2-data-sets">2. Data Sets&lt;/h2>
 &lt;p>We found a dataset on a kaggle website that is about dental images. The data was collected by Mr. Parth Chokhra. The name of the dataset is Dental Images of kjbjl. The dataset did not have metadata and an explanation of how they collected the data. The data set supports how x-rays of teeth in dentistry becomes artificial intelligence. The Dental Images of kjbjl dataset was used in AI already using autoencoders. Autoencoders are an freely artificial neural network (located in the nervous system) that learns how to accurately encode data and reconstruct the data back from the reduced encoded depiction to a representation that is closes to the original. For some challenges with Orthodontics data sets with privacy, size, avalibility were surprisingly hard to find than we thought.&lt;/p>
 &lt;h2 id="3-using-images">3. Using Images&lt;/h2>
-&lt;p>Below we observed actual dental x-rays. These dental x-rays images below came from Parth Chorkhra on kaggle.com [1]. The images are patient x-rays taken by Parth in his dental imagery data set. In the images we can see the caps and nerves of the teeth. Using these x-rays, we may can also find cavities if there are some. We can also identify other issues with patients teeth by taking and using x-rays.&lt;/p>
+&lt;p>Below we observed actual dental x-rays. These dental x-rays images below came from Parth Chorkhra on kaggle.com &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. The images are patient x-rays taken by Parth in his dental imagery data set. In the images we can see the caps and nerves of the teeth. Using these x-rays, we may can also find cavities if there are some. We can also identify other issues with patients teeth by taking and using x-rays.&lt;/p>
 &lt;p>&lt;img src="https://user-images.githubusercontent.com/85571628/127322590-3d92ee2c-92a0-4df5-849a-b89545a3ffc2.jpg" alt="Figure 1">
 &lt;img src="https://user-images.githubusercontent.com/85571628/127322621-184ac569-699f-452c-89c3-dcf87378574d.jpg" alt="Figure 2">
 &lt;img src="https://user-images.githubusercontent.com/85571628/127322655-1ec9172f-45fe-4648-9d55-6b028512ec1e.jpg" alt="Figure 3">&lt;/p>
 &lt;h2 id="5-example-of-a-ai-algorighm-in-orthodontics">5. Example of a AI algorighm in Orthodontics&lt;/h2>
-&lt;p>On a separate kaggle website, we found a code for DENTAL PANORAMIC KNN [5]. The kaggle site shows dental codes taken place in Orthodontics.&lt;/p>
+&lt;p>On a separate kaggle website, we found a code for DENTAL PANORAMIC KNN &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. The kaggle site shows dental codes taken place in Orthodontics.&lt;/p>
 &lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
 &lt;p>Here is an algorighn/code from one of the researchers we found. are using to study the performance of their algorighns or code.&lt;/p>
 &lt;p>Lateral and frontal facial images of patients who visited the Orthodontic department (352 patients) were employed as the training and evaluation data. An experienced orthodontist examined all the facial images for each patient and identified as many clinically used facial traits during the orthodontic diagnosis process as possible (e.g., deviation of the lips, deviation of the mouth, asymmetry of the face, concave profile, upper lip retrusion, presence of scars). A sample patient’s image, a list of sample assessments (i.e., labels), and the multi-label data used in the work by Murata et al. are shown in Figure 1.&lt;/p>
 &lt;p>Figure 1. Sample patient’s image and a list of sample assessments (i.e., labels) including the region of interest, evaluation, etc. In a previous study by Murata et al., they employed labels representing only the facial part (mouth, chin, and whole face), distorted direction (right and left), and its severity (severe, mild, no deviation).&lt;/p>
 &lt;p>&lt;img src="https://user-images.githubusercontent.com/85571628/127335802-d49312a1-0c52-4063-8fbf-eade552483a5.jpg" alt="IMG_6251">&lt;/p>
 &lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
-&lt;p>Artificial intelligence is rapidly expanding into multiple facets of society. Orthodontics may be one of the fastest branches of dentistry to adapt AI for three reasons. First, patient encounters during treatment generate many types of data. Second, the standardization in the field of dentistry is low compared to other areas of healthcare. A range of valid treatment options exists for any given case. Using AI and large datasets (that include diagnostic results, treatments, and outcomes), one can now measure the effectiveness of different treatment modalities given very specific clinical findings and conditions. Third, orthodontics is largely practiced by independent dentists in their own clinics. Despite the promise of AI, the volume of orthodontic research in this field is relatively low. Further, the clinical accuracy of AI must be improved with an increased number and variety of cases. Before AI can take on a more important role in making diagnostic recommendations, the volume and quality of research data will need to increase.[5]&lt;/p>
+&lt;p>Artificial intelligence is rapidly expanding into multiple facets of society. Orthodontics may be one of the fastest branches of dentistry to adapt AI for three reasons. First, patient encounters during treatment generate many types of data. Second, the standardization in the field of dentistry is low compared to other areas of healthcare. A range of valid treatment options exists for any given case. Using AI and large datasets (that include diagnostic results, treatments, and outcomes), one can now measure the effectiveness of different treatment modalities given very specific clinical findings and conditions. Third, orthodontics is largely practiced by independent dentists in their own clinics. Despite the promise of AI, the volume of orthodontic research in this field is relatively low. Further, the clinical accuracy of AI must be improved with an increased number and variety of cases. Before AI can take on a more important role in making diagnostic recommendations, the volume and quality of research data will need to increase &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
 &lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Gregor guided me throughout this process.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Carlos guided me throughout this process.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Yohn guided me throughout this process.&lt;/li>
-&lt;/ul>
-&lt;h2 id="9-references">9. References&lt;/h2></description></item><item><title>Report: AI Time Series Analysis</title><link>/report/su21-reu-374/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-374/project/</guid><description>
+&lt;p>Dr. Gregor von Laszewski, Carlos and Yohn guided me throughout this process.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Hasnitadita. (2021, July 10). DENTAL panoramic knn. Kaggle. &lt;a href="https://www.kaggle.com/hasnitadita/dental-panoramic-knn">https://www.kaggle.com/hasnitadita/dental-panoramic-knn&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Chokhra, P. (2020, June 29). Medical image dataset. Kaggle. &lt;a href="https://www.kaggle.com/parthplc/medical-image-dataset">https://www.kaggle.com/parthplc/medical-image-dataset&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: AI Time Series Analysis</title><link>/report/su21-reu-374/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-374/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-312/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-312/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
@@ -2467,13 +2472,13 @@ What is one conclusion utilizing the source code?
 &lt;h2 id="7-references">7. References&lt;/h2>
 &lt;ol>
 &lt;li>
-&lt;p>Marco Iansiti and Karim R. Lakhani, The Truth About Blockchain, [Online resource] &lt;a href="https://hbr.org/2017/01/the-truth-about-blockchain">https://hbr.org/2017/01/the-truth-about-blockchain&lt;/a> ↩︎&lt;/p>
+&lt;p>Marco Iansiti and Karim R. Lakhani, The Truth About Blockchain, [Online resource] &lt;a href="https://hbr.org/2017/01/the-truth-about-blockchain">https://hbr.org/2017/01/the-truth-about-blockchain&lt;/a>&lt;/p>
 &lt;ol start="2">
 &lt;li>
-&lt;p>Jeremy Swinfen Green, Understanding cryptocurrency market fluctuations, [Online resource] &lt;a href="https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/">https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/&lt;/a> ↩︎&lt;/p>
+&lt;p>Jeremy Swinfen Green, Understanding cryptocurrency market fluctuations, [Online resource] &lt;a href="https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/">https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Mehmet Tarik Akcay, Historical Data for Top 20 Coins by Market Cap, [Online resource] &lt;a href="https://www.kaggle.com/mtakcy/historical-data-for-top-20-coins-by-market-cap?select=eos.csv">https://www.kaggle.com/mtakcy/historical-data-for-top-20-coins-by-market-cap?select=eos.csv&lt;/a> ↩︎&lt;/p>
+&lt;p>Mehmet Tarik Akcay, Historical Data for Top 20 Coins by Market Cap, [Online resource] &lt;a href="https://www.kaggle.com/mtakcy/historical-data-for-top-20-coins-by-market-cap?select=eos.csv">https://www.kaggle.com/mtakcy/historical-data-for-top-20-coins-by-market-cap?select=eos.csv&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/li>
