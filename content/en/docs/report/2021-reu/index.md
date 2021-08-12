@@ -119,7 +119,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="TBD"
+  title="Analysis of Covid-19 Vaccination Rates in Different Races"
   hid="su21-reu-375"
   author="Ololade Latinwo"
   %}}
