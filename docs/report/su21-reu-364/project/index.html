@@ -28,7 +28,7 @@
 <meta itemprop="name" content="Project: Hand Tracking with AI">
 <meta itemprop="description" content="In this project we study the ability of an AI to recognize letters from the American Sign Language (ASL) alphabet. We use a Convolutional Neural Network and apply it to a dataset of hands in different positionings showing the letters &#39;a&#39;, &#39;b&#39;, and &#39;c&#39; in ASL. With this we build a model to recognize the letter and output the letter it predicts."><meta itemprop="datePublished" content="2021-06-16T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2021-06-16T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="1446">
+<meta itemprop="wordCount" content="1678">
 <meta itemprop="keywords" content="project,reu,ai,object recognition,image processing,computer vision," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Project: Hand Tracking with AI"/>
 <meta name="twitter:description" content="In this project we study the ability of an AI to recognize letters from the American Sign Language (ASL) alphabet. We use a Convolutional Neural Network and apply it to a dataset of hands in different positionings showing the letters &#39;a&#39;, &#39;b&#39;, and &#39;c&#39; in ASL. With this we build a model to recognize the letter and output the letter it predicts."/>
@@ -412,7 +412,7 @@
   <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-reportsu21-reu-377project-li">
     
       <input type="checkbox" id="m-reportsu21-reu-377project-check"/>
-      <label for="m-reportsu21-reu-377project-check"><a href="/report/su21-reu-377/project/" title="Project: Pros and Cons of Artificial Intelligence for Breast Cancer Detection in Women" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-reportsu21-reu-377project"><span class="">377</span></a></label>
+      <label for="m-reportsu21-reu-377project-check"><a href="/report/su21-reu-377/project/" title="Project: Analyzing the Advantages and Disadvantages of Artificial Intelligence for Breast Cancer Detection in Women" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-reportsu21-reu-377project"><span class="">377</span></a></label>
     
     
   </li>
@@ -468,7 +468,7 @@
   <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-reportsu21-reu-362project-li">
     
       <input type="checkbox" id="m-reportsu21-reu-362project-check"/>
-      <label for="m-reportsu21-reu-362project-check"><a href="/report/su21-reu-362/project/" title="Automated Detection and Classification of Breast Cancer Subtypes using Machine Learning Algorithms" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-reportsu21-reu-362project"><span class="">AI in Healthcare</span></a></label>
+      <label for="m-reportsu21-reu-362project-check"><a href="/report/su21-reu-362/project/" title="Investigating the Classification of Breast Cancer Subtypes using KMeans" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-reportsu21-reu-362project"><span class="">AI in Healthcare</span></a></label>
     
     
   </li>
@@ -1950,7 +1950,7 @@
 			
 		
 		
-			<p class="reading-time"><i class="fa fa-clock" aria-hidden="true"></i> 7 minute read</p>
+			<p class="reading-time"><i class="fa fa-clock" aria-hidden="true"></i> 8 minute read</p>
 		
 	</header>    
 	<p><a href="https://github.com/cybertraining-dsc/su21-reu-364/actions"><img src="https://github.com/cybertraining-dsc/su21-reu-364/workflows/Check%20Report/badge.svg" alt="Check Report"></a>
@@ -1982,17 +1982,17 @@ Status: draft, Type: Project</p>
 
 <p><strong>Keywords:</strong> ai, object recognition, image processing, computer vision, american sign language.</p>
 <h2 id="1-introduction">1. Introduction</h2>
-<p>Object detection and feature selection are essential tasks in computer vision and have been approached from various perspectives over the past few decades [1]. The brain uses object recognition to solve an inverse problem: one where (surface properties, shapes, and arrangements of objects) need to be inferred from the perceived outcome of the image formation process [3]. Visual object recognition as a neural substrate in humans was revealed by neuropsychological studies. There are specific brain regions that cause object recognition, yet we still do not understand how the brain achieves this remarkable behavior [2]. Human beings rely and rapidly recognize objects despite considerable retinal image transformations arising from changes in lighting, image size, position, and viewing angle [2].</p>
-<p>A gesture is a form of nonverbal communication done with positions and movements of the hand, arms, body parts, hand shapes, movements of the lips or face [4]. One of the key differences of hand gestures is that they allow communication over a long distance [5]. American Sign Language (ASL) is a formal language that has the same lingual properties as oral languages commonly used by deaf people to communicate [6]. ASL typically is formed by the finger, hand, and arm positioning and can contain static and dynamic movement or a combination of both to communicate words and meanings to another [7]. Communication with other people can be challenging because people are not typically willing to learn sign language [7].</p>
-<p>In this paper, we consider the problem of detecting and understanding American Sign Language. We test CNN&rsquo;s ability to recognize the ASL alphabet. As advancements in technology increase, there are more improvements to 2D methods of hand detection. Commonly these methods are visual-based, using color, shape, and edge to detect and recognize the hand [8]. There are issues to these technologies like inconsistent lighting conditions, non-hand color similarity, and varying viewpoints that can decrease the model&rsquo;s ability to recognize the hand and its positioning. We use a Convolutional Neural Network to create the model and detect different letters of American Sign Language.</p>
+<p>Object detection and feature selection are essential tasks in computer vision and have been approached from various perspectives over the past few decades <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. The brain uses object recognition to solve an inverse problem: one where (surface properties, shapes, and arrangements of objects) need to be inferred from the perceived outcome of the image formation process <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. Visual object recognition as a neural substrate in humans was revealed by neuropsychological studies. There are specific brain regions that cause object recognition, yet we still do not understand how the brain achieves this remarkable behavior <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>. Human beings rely and rapidly recognize objects despite considerable retinal image transformations arising from changes in lighting, image size, position, and viewing angle <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.</p>
+<p>A gesture is a form of nonverbal communication done with positions and movements of the hand, arms, body parts, hand shapes, movements of the lips or face <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>. One of the key differences of hand gestures is that they allow communication over a long distance <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>. American Sign Language (ASL) is a formal language that has the same lingual properties as oral languages commonly used by deaf people to communicate [6]. ASL typically is formed by the finger, hand, and arm positioning and can contain static and dynamic movement or a combination of both to communicate words and meanings to another <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>. Communication with other people can be challenging because people are not typically willing to learn sign language <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>.</p>
+<p>In this paper, we consider the problem of detecting and understanding American Sign Language. We test CNN&rsquo;s ability to recognize the ASL alphabet. As advancements in technology increase, there are more improvements to 2D methods of hand detection. Commonly these methods are visual-based, using color, shape, and edge to detect and recognize the hand <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup>. There are issues to these technologies like inconsistent lighting conditions, non-hand color similarity, and varying viewpoints that can decrease the model&rsquo;s ability to recognize the hand and its positioning. We use a Convolutional Neural Network to create the model and detect different letters of American Sign Language.</p>
 <h2 id="2-data-sets">2. Data Sets</h2>
 <p>In this research we use two sources of datasets, the first is from kaggle which it was already prepared but we needed more. The second is self made dataset by take images in good lighting against a white wall, it was then cropped to 400x400 pixels focused on the hand. The program then sets the images to grayscale as the color is not needed for this research. Finally, the images are reduced to 50x50 resolution for the AI to use for training.</p>
 <p><img src="https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/Hand%20B%20Dataset%20Demo.png" alt="Figure 1"></p>
-<p><strong>Figure 1:</strong> Dataset of hands doing different alphabet letters in ASL <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p><strong>Figure 1:</strong> Dataset of hands doing different alphabet letters in ASL <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>.</p>
 <h2 id="3-documentation">3. Documentation</h2>
 <p><img src="https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/CNNDiagram.png" alt="Figure 2"></p>
 <p><strong>Figure 2:</strong> The Convolutional Neural Network (CNN) model.</p>
-<p>This model shows the CNN model that we used to train the AI. The CNN takes pictures and breaks them down into smaller segments called features. It is trained to find patterns and features over the images allowing the CNN to predict an &lsquo;a&rsquo;, &lsquo;b&rsquo;, or &lsquo;c&rsquo; upon the given ASL image with high accuracy. A CNN uses a convolution operation that filters every possible position the feature it collected can be matched to and attempts to find where it fits in [10]. This process is repeated and becomes the convolution layer or in the image depicted as Conv2d + Relu. The ReLU stands for the rectified linear unit and is used as an activation function for the CNN [11].</p>
+<p>This model shows the CNN model that we used to train the AI. The CNN takes pictures and breaks them down into smaller segments called features. It is trained to find patterns and features over the images allowing the CNN to predict an &lsquo;a&rsquo;, &lsquo;b&rsquo;, or &lsquo;c&rsquo; upon the given ASL image with high accuracy. A CNN uses a convolution operation that filters every possible position the feature it collected can be matched to and attempts to find where it fits in <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup>. This process is repeated and becomes the convolution layer or in the image depicted as Conv2d + Relu. The ReLU stands for the rectified linear unit and is used as an activation function for the CNN <sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup>.</p>
 <ul>
 <li>
 <p>[] What is a Relu operation?
@@ -2039,8 +2039,40 @@ Maximum pooling is an operation the gathers the biggest number in each collectio
 <hr>
 <ol>
 <li id="fn:1" role="doc-endnote">
+<p>Pan, T.-Y., Zhang, C., Li, Y., Hu, H., Xuan, D., Changpinyo, S., Gong, B., &amp; Chao, W.-L. (2021, July 5). On Model Calibration for Long-Tailed Object Detection and Instance Segmentation. arXiv.org.
+<a href="https://arxiv.org/abs/2107.02170">https://arxiv.org/abs/2107.02170</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>Wardle, S. G., &amp; Baker, C. (2020). Recent advances in understanding object recognition in the human brain: Deep neural networks, temporal dynamics, and context. F1000Research. F1000 Research Ltd.
+<a href="https://doi.org/10.12688/f1000research.22296.1">https://doi.org/10.12688/f1000research.22296.1</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>Wardle, S. G., &amp; Baker, C. (2020). Recent advances in understanding object recognition in the human brain: Deep neural networks, temporal dynamics, and context. F1000Research. F1000 Research Ltd.
+<a href="https://doi.org/10.12688/f1000research.22296.1">https://doi.org/10.12688/f1000research.22296.1</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4" role="doc-endnote">
+<p>Dabre, K., &amp; Dholay, S. (2014). Machine learning model for sign language interpretation using webcam images. 2014 International Conference on Circuits, Systems, Communication and Information Technology Applications (CSCITA), 317-321.
+<a href="https://ieeexplore.ieee.org/document/6839279">https://ieeexplore.ieee.org/document/6839279</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5" role="doc-endnote">
 <p>tecperson, Sign Language MNIST Drop-In Replacement for MNIST for Hand Gesture Recognition Tasks, [Kaggle]
-<a href="https://www.kaggle.com/datamunge/sign-language-mnist">https://www.kaggle.com/datamunge/sign-language-mnist</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<a href="https://www.kaggle.com/datamunge/sign-language-mnist">https://www.kaggle.com/datamunge/sign-language-mnist</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6" role="doc-endnote">
+<p>A. Rahagiyanto, A. Basuki, R. Sigit, A. Anwar and M. Zikky, &ldquo;Hand Gesture Classification for Sign Language Using Artificial Neural Network,&rdquo; 2017 21st International Computer Science and Engineering Conference (ICSEC), 2017, pp. 1-5,
+&lt;doi: 10.1109/ICSEC.2017.8443898&gt;&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7" role="doc-endnote">
+<p>Jiayi Wang, Franziska Mueller, Florian Bernard, Suzanne Sorli, Oleksandr Sotnychenko, Neng Qian, Miguel A. Otaduy, Dan Casas, and Christian Theobalt. 2020. RGB2Hands: real-time tracking of 3D hand interactions from monocular RGB video. ACM Trans. Graph. 39, 6, Article 218 (December 2020), 16 pages.
+<a href="https://doi.org/10.1145/3414685.3417852">https://doi.org/10.1145/3414685.3417852</a>&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8" role="doc-endnote">
+<p>Rohrer, B. (2016, August 18). How do Convolutional Neural Networks work? Library for end-to-end machine learning.
+<a href="https://e2eml.school/how_convolutional_neural_networks_work.html">https://e2eml.school/how_convolutional_neural_networks_work.html</a>&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9" role="doc-endnote">
+<p>Patel, K. (2020, October 18). Convolution neural networks - a beginner&rsquo;s Guide. Towards Data Science.
+<a href="https://towardsdatascience.com/convolution-neural-networks-a-beginners-guide-implementing-a-mnist-hand-written-digit-8aa60330d022">https://towardsdatascience.com/convolution-neural-networks-a-beginners-guide-implementing-a-mnist-hand-written-digit-8aa60330d022</a>&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </section>

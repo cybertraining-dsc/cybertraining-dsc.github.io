@@ -6,7 +6,7 @@ owner:
   community: "reu"
   semester: "sp21"
 project: "Artificial Intelligence in Healthcare"
-  title: "Predicting and Classifying Breast Cancer Subtypes using AI Algorithms"
+  title: "Investigating the Classification of Breast Cancer Molecular Subtypes using KMeans"
   url: https://cybertraining-dsc.github.io/report/su21-reu-362/project/
   author:
     - su21-reu-362

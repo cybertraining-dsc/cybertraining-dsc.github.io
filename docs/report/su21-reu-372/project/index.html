@@ -28,7 +28,7 @@
 <meta itemprop="name" content="Project: Analyzing Hashimoto disease causes, symptoms and cases improvements using Topic Modeling">
 <meta itemprop="description" content="Analyzing factors as immune systems, genetics and diets than can lead to Hashimoto disease"><meta itemprop="datePublished" content="2021-06-16T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2021-06-16T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="3690">
+<meta itemprop="wordCount" content="3777">
 <meta itemprop="keywords" content="project,reu," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Project: Analyzing Hashimoto disease causes, symptoms and cases improvements using Topic Modeling"/>
 <meta name="twitter:description" content="Analyzing factors as immune systems, genetics and diets than can lead to Hashimoto disease"/>
@@ -412,7 +412,7 @@
   <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-reportsu21-reu-377project-li">
     
       <input type="checkbox" id="m-reportsu21-reu-377project-check"/>
-      <label for="m-reportsu21-reu-377project-check"><a href="/report/su21-reu-377/project/" title="Project: Pros and Cons of Artificial Intelligence for Breast Cancer Detection in Women" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-reportsu21-reu-377project"><span class="">377</span></a></label>
+      <label for="m-reportsu21-reu-377project-check"><a href="/report/su21-reu-377/project/" title="Project: Analyzing the Advantages and Disadvantages of Artificial Intelligence for Breast Cancer Detection in Women" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-reportsu21-reu-377project"><span class="">377</span></a></label>
     
     
   </li>
@@ -468,7 +468,7 @@
   <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-reportsu21-reu-362project-li">
     
       <input type="checkbox" id="m-reportsu21-reu-362project-check"/>
-      <label for="m-reportsu21-reu-362project-check"><a href="/report/su21-reu-362/project/" title="Automated Detection and Classification of Breast Cancer Subtypes using Machine Learning Algorithms" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-reportsu21-reu-362project"><span class="">AI in Healthcare</span></a></label>
+      <label for="m-reportsu21-reu-362project-check"><a href="/report/su21-reu-362/project/" title="Investigating the Classification of Breast Cancer Subtypes using KMeans" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-reportsu21-reu-362project"><span class="">AI in Healthcare</span></a></label>
     
     
   </li>
@@ -1948,8 +1948,16 @@
 	</header>    
 	<p><a href="https://github.com/cybertraining-dsc/su21-reu-372/actions"><img src="https://github.com/cybertraining-dsc/su21-reu-372/workflows/Check%20Report/badge.svg" alt="Check Report"></a>
 <a href="https://github.com/cybertraining-dsc/su21-reu-372/actions"><img src="https://github.com/cybertraining-dsc/su21-reu-372/workflows/Status/badge.svg" alt="Status"></a>
-Status: draft, Type: Project</p>
+<code>Status: final</code>, Type: Project</p>
 <p>Sheimy Paz, <a href="https://github.com/cybertraining-dsc/su21-reu-372">su21-reu-372</a>, <a href="https://github.com/cybertraining-dsc/su21-reu-372/blob/main/project/index.md">Edit</a></p>
+<ul>
+<li>Code:
+<ul>
+<li><a href="https://github.com/cybertraining-dsc/su21-reu-372/blob/main/project/code/requirements.txt">Install documentation requirements.txt</a></li>
+<li><a href="https://github.com/cybertraining-dsc/su21-reu-372/blob/main/Tyroidhitis_Project.ipynb">Tyroidhitis_Project.ipynb</a></li>
+</ul>
+</li>
+</ul>
 
 
 <div class="pageinfo pageinfo-primary">
@@ -1958,6 +1966,7 @@ Status: draft, Type: Project</p>
 topic modeling which is a technic used to process large collection of data to identifying topics.
 Topic modeling is a text-mining tool that help to correlate words with topics making the research process easy and organized with the purpose to get a better understanding of the disorder and the relationship that this has with other health issues hoping to find clear information about the causes and effect that can have on the human body.
 The dataset was collected from silo breaker software, which contains information about news, reports, tweets, and blogs. The program will organize our findings highlighting key words related to symptoms, causes, cures, anything that can apport clarification to the disorder.</p>
+<p>Contents</p>
 <div class="toc">
   <nav id="TableOfContents">
   <ul>
@@ -2006,36 +2015,33 @@ The model is able to distinguish if the second sentence is connected to the firs
 <p>This data was preprocessed dropping the columns &lsquo;Id&rsquo;, &lsquo;ClusterId&rsquo;, &lsquo;Language&rsquo;, &lsquo;LastUpdated&rsquo;,&lsquo;CreatedDate&rsquo;,&lsquo;FirstReported&rsquo;. Also, stop words and punctuation were removed, we convert to lower case all the titles.</p>
 <p>The dataset already query can be download in my personal drive [Here](<a href="https://drive.google.com/drive/u/0/folders/1Omtnn5e-yH3bbhW0-5fIbLgi8SEyfYBP">https://drive.google.com/drive/u/0/folders/1Omtnn5e-yH3bbhW0-5fIbLgi8SEyfYBP</a>.</p>
 <h2 id="4-results">4. Results</h2>
-<ul>
-<li><input disabled="" type="checkbox"> introduction paragraph missing</li>
-</ul>
-<p>The following figures observed were create with different techniques used in this project with the help of libraries like gemsim. Each figure is described and explains the method we used to created it along with the relationship of the key word or major topic to the Hashimoto disorder.</p>
+<p>The following figures were creating with the help of libraries like gensim. Gensim stands for Generate similar and is an unsupervised library wide used for topic modeling and natural language processing based on modern statistical machine learning <sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup>. it can handle large text collections of data and can preforms task like corpora, building document, word vectors and topic identification, which is one of the technics we used here, and we can observe it in some of the images. Each figure is described and explains the method we used to created it along with the relationship of the key word or major topic to the Hashimoto disorder.</p>
 <p><img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/wordCloudObject.png" alt="Figure 1"></p>
 <p><strong>Figure 1:</strong> &ldquo;Example of a Word Cloud Object&rdquo;</p>
 <p>On Figure 1 we observed an example of a word cloud object and represent the difference words found in our dataset and the size of the words means the frequency of the given words in the document. Meaning that the size of the words is proportional to the frequency of its used.</p>
 <p><img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/IntertopicDistanceMap.png" alt="Figure 2"></p>
 <p><strong>Figure 2:</strong> &ldquo;Example of a Intertopic Distance Map&rdquo;</p>
-<p>Figure 2 shows an Intertopic Distance Map which is a two-dimensional space filled with circles representing the proportional number of words that belongs to each topic making the distance to each other represent the relation between the topics, meaning that topics that are closer together have more words in common. For instance, in topic 1 we observed word like hypothyroidism, Morgan, symptoms after a small search we were able to find that Morgan is a well-known writer that presented thyroiditis symptoms after giving birth which is something that happen to some women’s and then recover after a couple of months, however this increments the risk of developing the syndrome later in their lives <sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup>. On topic 4 we see words like food, levothyroxine, liothyronine, selenium and dietary. the relationship between these words is symptom control, symptoms relive, some natural remedies and supplements <sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup><sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup>.</p>
+<p>Figure 2 shows an Intertopic Distance Map which is a two-dimensional space filled with circles representing the proportional number of words that belongs to each topic making the distance to each other represent the relation between the topics, meaning that topics that are closer together have more words in common. For instance, in topic 1 we observed word like hypothyroidism, Morgan, symptoms after a small search we were able to find that Morgan is a well-known writer that presented thyroiditis symptoms after giving birth which is something that happen to some women’s and then recover after a couple of months, however this increments the risk of developing the syndrome later in their lives <sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup>. On topic 4 we see words like food, levothyroxine, liothyronine, selenium and dietary. the relationship between these words is symptom control, symptoms relive, some natural remedies and supplements <sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup><sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup>.</p>
 <p><img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/topic%20modeling%20picture.png" alt="Figure 3"></p>
 <p><strong>Figure 3:</strong> &ldquo;Top 30 major Topics&rdquo;</p>
-<p>On figure 3 we observed a bar chart that shows 30 major terms. The bars indicate the total frequency of the term across the entire corpus. The size of the bubble measures the importance of the topics, relative to the data. for example, for visualization purposes we used the first topic that include Hashimoto, thyroiditis, and selenium. Saliency is a measure of how much the term talks about the topic. And in terms of findings is important to mentions the relationship between Hashimoto thyroiditis and selenium. Selenium is a suplement recomended for patients with this disorder that have shown a reduction on antibody levels <sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup>.</p>
+<p>On figure 3 we observed a bar chart that shows 30 major terms. The bars indicate the total frequency of the term across the entire corpus. The size of the bubble measures the importance of the topics, relative to the data. for example, for visualization purposes we used the first topic that include Hashimoto, thyroiditis, and selenium. Saliency is a measure of how much the term talks about the topic. And in terms of findings is important to mentions the relationship between Hashimoto thyroiditis and selenium. Selenium is a suplement recomended for patients with this disorder that have shown a reduction on antibody levels <sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup>.</p>
 <p><img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/HierarchicalClustering.png" alt="Figure 4"></p>
 <p><strong>Figure 4:</strong> &ldquo;Example of Hierarchical Clustering chart&rdquo;</p>
 <p>On figure 4 we can see that the dendrograms have been created joining points 4 with 9, 0 with 2, 1 with 6, and 12 with 13. The vertical height of the dendrogram shows the Euclidean distances between points. It is easy to see that Euclidean distance between points 12 and 13 is greater than the distance between point 4 and 9. This is because the algorithm is clustering by similarity, differences, and frequency of words. We observed in the dark green dendrogram topic 7,3,4,9 which are all related to an advance stage of the disorder. we can find the information about certain treatments, causes of the disorder, level of damage at certain stages. On the reds dendrograms we observe topics 0,2,1,6 which are closely related to diagnosis, early symptoms and procedures used for the diagnosis of the disorder.</p>
 <p><img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/SimilarityMatrix.png" alt="Figure 5"></p>
 <p><strong>Figure 5:</strong> &ldquo;Exaple of Similarity Matrix Chart&rdquo;</p>
-<p>On figure 5 we can see a similarity matrix chart, the graph is build based on similarity reached from the volume of topic and association by document, therefore the graph show groups of documents that are cluster together based on similarities. in this case the blue square is an indication of a strong similarity, and the green and light green is an indication of different topics. for instance, we are able to derive as a conclusion that carcinoma cancer, carcinoma therapy, lymph papillary metastasis and hypothyroidism are closely related. in facts they are advance stages of the disorder. E.g. Carcinoma therapy is a type of treatment that can be used for this disorder <sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup>.</p>
+<p>On figure 5 we can see a similarity matrix chart, the graph is build based on similarity reached from the volume of topic and association by document, therefore the graph show groups of documents that are cluster together based on similarities. in this case the blue square is an indication of a strong similarity, and the green and light green is an indication of different topics. for instance, we are able to derive as a conclusion that carcinoma cancer, carcinoma therapy, lymph papillary metastasis and hypothyroidism are closely related. in facts they are advance stages of the disorder. E.g. Carcinoma therapy is a type of treatment that can be used for this disorder <sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup>.</p>
 <p><img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/TermScoreDeclinePerTopic.png" alt="Figure 6"></p>
 <p><strong>Figure 6:</strong> &ldquo;Example of Term Score Decline Per Topic Chart&rdquo;</p>
-<p>On figure 6 we observed TF-IDF which is an interesting technic used on machine learning that have the ability to give weight to those words that are not frequent in the document but can carry important information. In this example we can see how topic 12, covid19 pandemic patients is the at the top of the chart and then start declining when the rank term increase. The science behind this behave is explain by the TF-IDF which is term frequency - Inverse document frequency. Therefore, covid 19 was a relative new disease, and we do not expect to have a high frequency used in the document. In this case we were able to find information about Hashimoto patients and covid19 which it seems not to causes any extreme symptoms for patient with this disorder others than the ones expected from a healthy person in other words Hashimoto patients have the same risk of a healthy person <sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup>.</p>
+<p>On figure 6 we observed TF-IDF which is an interesting technic used on machine learning that have the ability to give weight to those words that are not frequent in the document but can carry important information. In this example we can see how topic 12, covid19 pandemic patients is the at the top of the chart and then start declining when the rank term increase. The science behind this behave is explain by the TF-IDF which is term frequency - Inverse document frequency. Therefore, covid 19 was a relative new disease, and we do not expect to have a high frequency used in the document. In this case we were able to find information about Hashimoto patients and covid19 which it seems not to causes any extreme symptoms for patient with this disorder others than the ones expected from a healthy person in other words Hashimoto patients have the same risk of a healthy person <sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup>.</p>
 <p><img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/TopicProbability.png" alt="Figure 7"></p>
 <p><strong>Figure 7:</strong> &ldquo;Example of Topic Probability chart&rdquo;</p>
-<p>On figure 7 we see a probability distribution chart based on each topic frequency and its relationship with the main topic: Hashimoto thyroiditis causes or cure. We can see that topic 12 is the least frequent or least related since most of its content is about covid19. Then we have topic 11 zebrafish which is related to the investigation of the disorder but most of its content is about the research made on zebrafish and how had help researchers to understand thyroid diseases in other no mammals’ animals, but is not closely related to the major point of this project, however, is an interesting research which have provide useful information about thyroiditis <sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup>.</p>
+<p>On figure 7 we see a probability distribution chart based on each topic frequency and its relationship with the main topic: Hashimoto thyroiditis causes or cure. We can see that topic 12 is the least frequent or least related since most of its content is about covid19. Then we have topic 11 zebrafish which is related to the investigation of the disorder but most of its content is about the research made on zebrafish and how had help researchers to understand thyroid diseases in other no mammals’ animals, but is not closely related to the major point of this project, however, is an interesting research which have provide useful information about thyroiditis <sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup>.</p>
 <p><img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/topicwordscore.png" alt="Figure 8"></p>
 <p><strong>Figure 8:</strong> &ldquo;Example of a Topic Word Score Chart&rdquo;</p>
-<p>On figure 8 we have Topic Word Scores chart that provides a deep understanding of large corpus of texts trough topic extraction. for instance, the data used in this project provide 5 fundamental topics from 0 to 4. Essentially each topic provided closely related words with deep information about the disorder itself, treatments, diagnosis, and symptoms. E.g. in topic number 4 we find a specific word &ldquo;eye&rdquo; which it does not seem to have a close relationship with Hashimoto thyroiditis but in facts is related to one of the early symptoms that the human body experiment most likely when is still undiagnosed [16]. In the same topic we also find the word teprotumumab which is an eye relieve medication recommended from doctors to relive the symptoms, in other word is not the cure but it helps <sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup>.</p>
+<p>On figure 8 we have Topic Word Scores chart that provides a deep understanding of large corpus of texts trough topic extraction. for instance, the data used in this project provide 5 fundamental topics from 0 to 4. Essentially each topic provided closely related words with deep information about the disorder itself, treatments, diagnosis, and symptoms. E.g. in topic number 4 we find a specific word &ldquo;eye&rdquo; which it does not seem to have a close relationship with Hashimoto thyroiditis but in facts is related to one of the early symptoms that the human body experiment most likely when is still undiagnosed [16]. In the same topic we also find the word teprotumumab which is an eye relieve medication recommended from doctors to relive the symptoms, in other word is not the cure but it helps <sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup>.</p>
 <h2 id="5-hashimoto-findings">5. Hashimoto Findings</h2>
-<p>As we can see our findings are wide in aspects of causes which is one of the main keys, because if we know the cause of something most likely we will be able to avoid it. However, this disorder is considered relative knew and have been around for some decades only, but it is necessary to point out the relation of diseases with the environment. Environmental changes are a fact and are affecting us every day even when we don’t notice it. We have seen an exponential increase of Hashimoto cases in the last five decades, and at the same time the last five decades have been potentially related to climate change, high levels of pollution, less fertile soils, increased use of pesticides on food, etc. It would be a good idea to think about our environment and how to help it heal since it will bring benefits for all of us<sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup>.</p>
+<p>As we can see our findings are wide in aspects of causes which is one of the main keys, because if we know the cause of something most likely we will be able to avoid it. However, this disorder is considered relative knew and have been around for some decades only, but it is necessary to point out the relation of diseases with the environment. Environmental changes are a fact and are affecting us every day even when we don’t notice it. We have seen an exponential increase of Hashimoto cases in the last five decades, and at the same time the last five decades have been potentially related to climate change, high levels of pollution, less fertile soils, increased use of pesticides on food, etc. It would be a good idea to think about our environment and how to help it heal since it will bring benefits for all of us<sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup>.</p>
 <p><strong>Table Summary:</strong> &ldquo;Finding summary on causes, descriptions and recommendations.&rdquo;</p>
 <table>
 <thead>
@@ -2047,9 +2053,9 @@ The model is able to distinguish if the second sentence is connected to the firs
 </thead>
 <tbody>
 <tr>
-<td>Genetic predispositionsc</td>
+<td>Genetic predispositions</td>
 <td>Genetically linked</td>
-<td>stress levels</td>
+<td>Manage stress</td>
 </tr>
 <tr>
 <td>Dietary errors</td>
@@ -2059,39 +2065,44 @@ The model is able to distinguish if the second sentence is connected to the firs
 <tr>
 <td>Nutritional deficiencies</td>
 <td>not enough veggies, vitamins and minerals</td>
-<td>yoga, meditation reiki</td>
+<td>eat more veggies</td>
 </tr>
 <tr>
 <td>Hormone deficiencies</td>
 <td>lover levels of vit D</td>
-<td>Enough sleep</td>
+<td>Enough sleep, Take some sun light</td>
 </tr>
 <tr>
 <td>Viral, bacterial, yeast, and parasitic infections.</td>
-<td>H pylori, etc.</td>
+<td>H pylori, Bad guts microbes</td>
 <td>food hygiene</td>
+</tr>
+<tr>
+<td>Enviromental Factors</td>
+<td>Pollution, Pesticides used etc.</td>
+<td>Human footprint on environment</td>
 </tr>
 </tbody>
 </table>
 <p><strong>Possible causes</strong></p>
 <p>Genetic predispositions, Dietary errors, Nutritional deficiencies, Hormone deficiencies, Viral, bacterial, yeast, and parasitic infections <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup>.</p>
 <p><strong>Hashimoto Trigger Food</strong></p>
-<p>Some Food that can trigger Hashimoto are gluten, dairy, some type of grains, eggs, nuts or nightshades, sugar, sweeteners, sweet fruits, including honey, agave, maple syrup, and coconut sugar and high-glycemic fruits like watermelon, mango, pineapple, grapes, canned and dried fruits. Vegetable oil, specially hydrogenated oils, ad trans-fat. Patient with this disorder may experience symptoms of fatigue, rashes, joint pain, digestive issues, headaches, anxiety, and depression after eating some of these foods <sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup>.</p>
+<p>Some Food that can trigger Hashimoto are gluten, dairy, some type of grains, eggs, nuts or nightshades, sugar, sweeteners, sweet fruits, including honey, agave, maple syrup, and coconut sugar and high-glycemic fruits like watermelon, mango, pineapple, grapes, canned and dried fruits. Vegetable oil, specially hydrogenated oils, ad trans-fat. Patient with this disorder may experience symptoms of fatigue, rashes, joint pain, digestive issues, headaches, anxiety, and depression after eating some of these foods <sup id="fnref:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup>.</p>
 <p><strong>Hashimoto recommended Diets</strong></p>
-<p>The recommended foods are healthy fats like coconut, avocado, and olive oil, ghee, grass-fed and organic meat, wild fish, healthy fats, fermented foods like coconut yogurt, kombucha, fermented cucumbers and pickle ginger, and plenty of vegetable like Asparagus, spinach, lettuce, broccoli, beets, cauliflower, carrots, celery, artichokes, garlic, onions <sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup>.</p>
+<p>The recommended foods are healthy fats like coconut, avocado, and olive oil, ghee, grass-fed and organic meat, wild fish, healthy fats, fermented foods like coconut yogurt, kombucha, fermented cucumbers and pickle ginger, and plenty of vegetable like Asparagus, spinach, lettuce, broccoli, beets, cauliflower, carrots, celery, artichokes, garlic, onions <sup id="fnref:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup>.</p>
 <p><strong>Environmental causes of Hashimoto</strong></p>
 <p>There have been an increase in the number of Hashimoto cases in the United States since 1950s. These is one of the reason research explain that Hashimoto disorder can be closely related to environmental causes since the rapid increase of cases can not only be related to family gens as it takes at least two generations to acquire and transfer gen mutation. Adding to this that for generation thru history human have been fitting microorganisms than enter our body but for the past centuries our environment has become very hygienic consequently our immune system suddeling was left without aggressors therefore humane start developing more allergies and autoimmune diseases.
-Another important factor is the balance of iodine intake because too much is as dangerous for people with genetic Hashimoto predisposition but too littler can be also dangerous for patients with the disorder to reduce goiter which is the enlargement of the thyroid glands <sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup>.</p>
-<p>It is still not enough research to state that low vitamin D levels are a cause or a consequence of the Hashimoto disorder, but it is a fact that most patients with this disorder have low levels of vitamin D this insufficient this is closely related to insufficient sun exposure <sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup>.</p>
-<p>The exposure to certain synthetic pesticide. An important fact is that 9 out of 12 pesticides are dangerous and persistent pollutants <sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup>.</p>
+Another important factor is the balance of iodine intake because too much is as dangerous for people with genetic Hashimoto predisposition but too littler can be also dangerous for patients with the disorder to reduce goiter which is the enlargement of the thyroid glands <sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup>.</p>
+<p>It is still not enough research to state that low vitamin D levels are a cause or a consequence of the Hashimoto disorder, but it is a fact that most patients with this disorder have low levels of vitamin D this insufficient this is closely related to insufficient sun exposure <sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup>.</p>
+<p>The exposure to certain synthetic pesticide. An important fact is that 9 out of 12 pesticides are dangerous and persistent pollutants <sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup>.</p>
 <p><strong>Symptoms of Hashimoto’s</strong></p>
-<p>Some of the symptoms are fatigue and sluggishness, sensitivity to cold, constipation, pale and dry skin, dry eyes, puffy face, brittle nails, hair loss, enlargement of the tongue, unexplained weight gain, muscle aches, tenderness and stiffness, joint pain and stiffness, muscle weakness, excessive or prolonged menstrual bleeding, depression, memory lapses, Another symptom reported by some patients was ablation, some patient described as an acceleration of the heart rhythm <sup id="fnref:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup>.</p>
+<p>Some of the symptoms are fatigue and sluggishness, sensitivity to cold, constipation, pale and dry skin, dry eyes, puffy face, brittle nails, hair loss, enlargement of the tongue, unexplained weight gain, muscle aches, tenderness and stiffness, joint pain and stiffness, muscle weakness, excessive or prolonged menstrual bleeding, depression, memory lapses, Another symptom reported by some patients was ablation, some patient described as an acceleration of the heart rhythm <sup id="fnref:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup>.</p>
 <p><strong>Complications</strong></p>
-<p>Tissue damage, Abnormal look of the thyroid gland (figure 2), goiter, Heart problems, mental health issues, myxedema, birth defects <sup id="fnref:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup>, Nodule (figure 4 Similarity Matrix topic 3), and High antibody level. It is important to mention an association between high levels of thyroid autoantibodies and the increased of mood disorders, thyroid autoimmunity disease, celiac disease, panic disorder and major depressive disorder <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup>.</p>
+<p>Tissue damage, Abnormal look of the thyroid gland (figure 2), goiter, Heart problems, mental health issues, myxedema, birth defects <sup id="fnref:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup>, Nodule (figure 4 Similarity Matrix topic 3), and High antibody level. It is important to mention an association between high levels of thyroid autoantibodies and the increased of mood disorders, thyroid autoimmunity disease, celiac disease, panic disorder and major depressive disorder <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup>.</p>
 <p><strong>Recomendations</strong></p>
 <p>Healthy diets, exercising, selenium supplementation [8], healthy sun exposure at an adequate time, getting enough sleep is primordial for the human body, in special for the metabolism regulation and the creation of normal hormones that the human body needs, <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup> lowering stress levels by physical exercise is a good idea, exercise like yoga and reiki are valuable because it also exercise you brain with meditation which is a great stress reliever.</p>
 <h2 id="6-benchmark">6. Benchmark</h2>
-<p>We used benchmark to perform the process time to get topics frequency in parallel using google colab with run type: GPU and TPU. We can observe that TPU machines take less time to classify topic 1. Tensor Processor Unit (TPU) is designed to run cutting-edge machine learning models with AI services on Google Cloud <sup id="fnref:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup></p>
+<p>We used benchmark to perform the process time to get topics frequency in parallel using google colab with run type: GPU and TPU. We can observe that TPU machines take less time to classify topic 1. Tensor Processor Unit (TPU) is designed to run cutting-edge machine learning models with AI services on Google Cloud <sup id="fnref:21"><a href="#fn:21" class="footnote-ref" role="doc-noteref">21</a></sup></p>
 <p><strong>Benchmark Topics Frequency:</strong></p>
 <table>
 <thead>
@@ -2165,48 +2176,52 @@ Another important factor is the balance of iodine intake because too much is as 
 <a href="https://www.silobreaker.com">https://www.silobreaker.com</a>&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:10" role="doc-endnote">
-<p>Julia Haskins, Thyroid Conditions Raise the Risk of Pregnancy Complications, [Online resource]
-<a href="https://www.healthline.com/health-news/children-thyroid-conditions-raise-pregnancy-risks-052913">https://www.healthline.com/health-news/children-thyroid-conditions-raise-pregnancy-risks-052913</a>&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>Gensim Tutorial – A Complete Beginners Guide, [Onile resource]
+<a href="https://www.machinelearningplus.com/nlp/gensim-tutorial/">https://www.machinelearningplus.com/nlp/gensim-tutorial/</a>&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:11" role="doc-endnote">
-<p>How your diet can trigger Hashimoto&rsquo;s, [Online resource]
-<a href="https://www.boostthyroid.com/blog/2019/4/5/how-your-diet-can-trigger-hashimotos">https://www.boostthyroid.com/blog/2019/4/5/how-your-diet-can-trigger-hashimotos</a>&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>Julia Haskins, Thyroid Conditions Raise the Risk of Pregnancy Complications, [Online resource]
+<a href="https://www.healthline.com/health-news/children-thyroid-conditions-raise-pregnancy-risks-052913">https://www.healthline.com/health-news/children-thyroid-conditions-raise-pregnancy-risks-052913</a>&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:12" role="doc-endnote">
-<p>Selenium Supplementation for Hashimoto&rsquo;s Thyroiditis, [Online resource]
-<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4005265/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4005265/</a>&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>How your diet can trigger Hashimoto&rsquo;s, [Online resource]
+<a href="https://www.boostthyroid.com/blog/2019/4/5/how-your-diet-can-trigger-hashimotos">https://www.boostthyroid.com/blog/2019/4/5/how-your-diet-can-trigger-hashimotos</a>&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:13" role="doc-endnote">
-<p>Thyroid Cancer Treatment, [Online resource]
-<a href="https://www.cancer.gov/types/thyroid/patient/thyroid-treatment-pdq">https://www.cancer.gov/types/thyroid/patient/thyroid-treatment-pdq</a>&#160;<a href="#fnref:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>Selenium Supplementation for Hashimoto&rsquo;s Thyroiditis, [Online resource]
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4005265/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4005265/</a>&#160;<a href="#fnref:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:14" role="doc-endnote">
-<p>Hashimoto&rsquo;s Disease And Coronavirus (COVID-19), [Online resource]
-<a href="https://www.palomahealth.com/learn/coronavirus-and-hashimotos-disease">https://www.palomahealth.com/learn/coronavirus-and-hashimotos-disease</a>&#160;<a href="#fnref:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>Thyroid Cancer Treatment, [Online resource]
+<a href="https://www.cancer.gov/types/thyroid/patient/thyroid-treatment-pdq">https://www.cancer.gov/types/thyroid/patient/thyroid-treatment-pdq</a>&#160;<a href="#fnref:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:15" role="doc-endnote">
-<p>How zebrafish research has helped in understanding thyroid diseases, [Online resource]
-<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5730863/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5730863/</a>&#160;<a href="#fnref:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>Hashimoto&rsquo;s Disease And Coronavirus (COVID-19), [Online resource]
+<a href="https://www.palomahealth.com/learn/coronavirus-and-hashimotos-disease">https://www.palomahealth.com/learn/coronavirus-and-hashimotos-disease</a>&#160;<a href="#fnref:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:16" role="doc-endnote">
-<p>Teprotumumab for the Treatment of Active Thyroid Eye Disease, [Online resource]
-<a href="https://www.nejm.org/doi/full/10.1056/nejmoa1910434">https://www.nejm.org/doi/full/10.1056/nejmoa1910434</a>&#160;<a href="#fnref:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>How zebrafish research has helped in understanding thyroid diseases, [Online resource]
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5730863/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5730863/</a>&#160;<a href="#fnref:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:17" role="doc-endnote">
-<p>11 environmental triggers of Hashimoto’s, [Online research]
-<a href="https://www.boostthyroid.com/blog/11-environmental-triggers-of-hashimotos">https://www.boostthyroid.com/blog/11-environmental-triggers-of-hashimotos</a>&#160;<a href="#fnref:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>Teprotumumab for the Treatment of Active Thyroid Eye Disease, [Online resource]
+<a href="https://www.nejm.org/doi/full/10.1056/nejmoa1910434">https://www.nejm.org/doi/full/10.1056/nejmoa1910434</a>&#160;<a href="#fnref:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:18" role="doc-endnote">
-<p>Hashimoto’s low thyroid autoimmune, [Online research]
-<a href="https://www.redriverhealthandwellness.com/diet-hashimotos-hypothyroidism/">https://www.redriverhealthandwellness.com/diet-hashimotos-hypothyroidism/</a>&#160;<a href="#fnref:18" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>11 environmental triggers of Hashimoto’s, [Online research]
+<a href="https://www.boostthyroid.com/blog/11-environmental-triggers-of-hashimotos">https://www.boostthyroid.com/blog/11-environmental-triggers-of-hashimotos</a>&#160;<a href="#fnref:18" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:19" role="doc-endnote">
-<p>Hashimoto&rsquo;s disease, [Online research]
-<a href="https://www.mayoclinic.org/diseases-conditions/hashimotos-disease/symptoms-causes/syc-20351855">https://www.mayoclinic.org/diseases-conditions/hashimotos-disease/symptoms-causes/syc-20351855</a>&#160;<a href="#fnref:19" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>Hashimoto’s low thyroid autoimmune, [Online research]
+<a href="https://www.redriverhealthandwellness.com/diet-hashimotos-hypothyroidism/">https://www.redriverhealthandwellness.com/diet-hashimotos-hypothyroidism/</a>&#160;<a href="#fnref:19" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:20" role="doc-endnote">
+<p>Hashimoto&rsquo;s disease, [Online research]
+<a href="https://www.mayoclinic.org/diseases-conditions/hashimotos-disease/symptoms-causes/syc-20351855">https://www.mayoclinic.org/diseases-conditions/hashimotos-disease/symptoms-causes/syc-20351855</a>&#160;<a href="#fnref:20" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:21" role="doc-endnote">
 <p>TPU: Tensor Processor Unit
-<a href="https://cloud.google.com/tpu">https://cloud.google.com/tpu</a>&#160;<a href="#fnref:20" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<a href="https://cloud.google.com/tpu">https://cloud.google.com/tpu</a>&#160;<a href="#fnref:21" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </section>
