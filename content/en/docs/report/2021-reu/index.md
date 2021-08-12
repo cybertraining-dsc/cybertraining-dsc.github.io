@@ -95,7 +95,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="TBD"
+  title="Project: Detecting Multiple Sclerosis Symptoms using AI"
   hid="su21-reu-371" 
   author="Raeven Hatcher"
   %}}
@@ -136,7 +136,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="TBD"
+  title="Project: Analyzing the Advantages and Disadvantages of Artificial Intelligence for Breast Cancer Detection in Women"
   hid="su21-reu-377"
   author="RonDaisja Dunn"
   %}}
