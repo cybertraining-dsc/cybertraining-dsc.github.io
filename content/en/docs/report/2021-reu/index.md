@@ -71,14 +71,6 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="AI in Orthodontics"
-  hid="su21-reu-363" 
-  author="Whitney McNair"
-  %}}
-
----
-
-* {{% addprojectreport
   title="Increasing Cervical Cancer Risk Analysis"
   hid="su21-reu-369" 
   author="Theresa Jeanbaptiste"
