@@ -2077,14 +2077,14 @@ set of &lt;a href="https://docs.google.com/document/d/1E8orgHbNV6P8STl2lQxov2VHK
 &lt;h2 id="9-references">9. References&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://research.google.com/colaboratory/faq.html">https://research.google.com/colaboratory/faq.html&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Report: Project: Pros and Cons of Artificial Intelligence for Breast Cancer Detection in Women</title><link>/report/su21-reu-377/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-377/project/</guid><description>
+&lt;/ul></description></item><item><title>Report: Project: Analyzing the Advantages and Disadvantages of Artificial Intelligence for Breast Cancer Detection in Women</title><link>/report/su21-reu-377/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-377/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-377/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-377/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-377/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-377/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
 &lt;p>RonDaisja Dunn, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-377">su21-reu-377&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-377/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Breast Cancer is one of the most dangerous type of disease that affects many women. For detecting Breast Cancer, machine learning techniques are applied to improve the accuracy of diagnosis. We collected data from African American women that have been diagnosed with Breast Cancer. Through the use of Artificial Intellingence, we will be able to detect the specific forms of Breast Cancer.&lt;/p>
+&lt;p>The AI system is improving its diagnostic accuracy by significantly decreasing unnecessary biopsies. AI&amp;rsquo;s algorithms for workflow improvement and outcome analyses are advancing. Although artificial intelligence can be beneficial to detecting and diagnosing breast cancer, there are some limitations to its techniques. The possibility of insufficient quality, quantity or appropriateness is possible. When compared to other imaging modalities, breast ultrasound screening offers numerous benefits, including a cheaper cost, the absence of ionizing radiation, and the ability to examine pictures in real time. Despite these benefits, reading breast ultrasound is a difficult process. Different characteristics, such as lesion size, shape, margin, echogenicity, posterior acoustic signals, and orientation, are used by radiologists to assess US pictures, which vary substantially across individuals. The development of AI systems for the automated detection of breast cancer using Ultrasound Screening pictures has been aided by recent breakthroughs in deep learning.&lt;/p>
 &lt;p>Contents&lt;/p>
 &lt;div class="toc">
 &lt;nav id="TableOfContents">
@@ -2109,6 +2109,7 @@ Status: draft, Type: Project&lt;/p>
 &lt;p>The goal was to emphasize the present data in terms of test accuracy and clinical utility results, as well as any gaps in the evidence. Women are screened by getting photos taken of each breast from different views. Two readers are assigned to interpret the photographs in a sequential order. Each reader decides whether the photograph is normal or whether a woman should be recalled for further examination. Arbitration is used when there is a disagreement. If a woman is recalled, she will be offered extra testing to see if she has cancer.&lt;/p>
 &lt;p>Another goal is to detect cancer at an earlier stage during screening so that therapy can be more successful. Some malignancies found during screening, on the other hand, might never have given the woman symptoms. Overdiagnosis is a term used to describe a situation in which a person has caused harm to another person during their lifetime. As a result, overtreatment (unnecessary treatment) occurs. Since some malignancies are overlooked during screening, the women are misled.&lt;/p>
 &lt;p>The methods in diagnostic procedures vary between radiologists and Artificial Intelligence networks. In a breast ultrasound exam, radiologists look for abnormal abnormalities in each image, while AI networks analyze each image in an exam that is processed separately using a ResNet-18 model, and a saliency map is generated, identifying the most essential sections. With radiologists, the focus is on photos with abnormal lesions and with AI networks the image is given an attention score based on its relative value. To make a final diagnosis, radiologists consider signals in all photos, and AI computes final predictions for benign and malignant results by combining information from all photos using an attention technique.&lt;/p>
+&lt;p>![Figure 1](&lt;a href="https://github.com/cybertraining-dsc/su21-reu-377/blob/main/project/images/IMG_9446.jpg%22">https://github.com/cybertraining-dsc/su21-reu-377/blob/main/project/images/IMG_9446.jpg&amp;quot;&lt;/a>&lt;/p>
 &lt;h2 id="3-results-from-literature-review">3. Results From Literature Review&lt;/h2>
 &lt;p>Using pathology data, each breast in an exam was given a label indicating the presence of cancer. Image-guided biopsy or surgical excision were used to collect tissues for pathological tests. The AI system was shown to perform comparably to board-certified breast radiologists in the reader study subgroup. In this reader research, the AI system detected tumors with the same sensitivity as radiologists, but with greater specificity, a higher PPV, and a lower biopsy rate. Furthermore, the AI system outperformed all ten radiologists in terms of AUROC and AUPRC. This pattern was replicated in the subgroup study, which revealed that the algorithm could correctly interpret Ultrasound Screening examinations that radiologists considered challenging.&lt;/p>
 &lt;p>Figure -
@@ -2122,25 +2123,32 @@ Analysis of saliency maps on a qualitative level- This figure displays the sagit
 &lt;h2 id="6-acknowledgments">6. Acknowledgments&lt;/h2>
 &lt;p>Thank you to the extremely intellectual, informative, patient and courteous instructors of the Research Experience for Undergraduates Program.&lt;/p>
 &lt;ol>
-&lt;li>Carlos Theran, REU Intructor&lt;/li>
-&lt;li>Yohn Jairo Parra, REU Intructor&lt;/li>
+&lt;li>Carlos Theran, REU Instructor&lt;/li>
+&lt;li>Yohn Jairo Parra, REU Instructor&lt;/li>
 &lt;li>Gregor von Laszewski, REU Instructor&lt;/li>
 &lt;li>Victor Adankai, Graduate Student&lt;/li>
+&lt;li>REU Peers&lt;/li>
+&lt;li>Florida Agricultural and Mechanical University&lt;/li>
 &lt;/ol>
 &lt;h2 id="7-references">7. References&lt;/h2>
-&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
-one point automatically change the references from superscript to square brackets it is best to introduce a space before
-the first square bracket.&lt;/p></description></item><item><title>Report: Project: Detection of Autism Spectrum Disorder with a Facial Image using Artificial Intelligence</title><link>/report/su21-reu-378/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-378/project/</guid><description>
+&lt;ol>
+&lt;li>Coleman C. Early Detection and Screening for Breast Cancer. Semin Oncol Nurs. 2017 May;33(2):141-155. doi: 10.1016/j.soncn.2017.02.009. Epub 2017 Mar 29. PMID: 28365057.&lt;/li>
+&lt;li>Freeman, K., Geppert, J., Stinton, C., Todkill, D., Johnson, S., Clarke, A., &amp;amp; Taylor-Phillips, S. (2021, May 10). Use of Artificial Intelligence for Image Analysis in Breast Cancer Screening . &lt;a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/987021/AI_in_BSP_Rapid_review_consultation_2021.pdf">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/987021/AI_in_BSP_Rapid_review_consultation_2021.pdf&lt;/a>.&lt;/li>
+&lt;li>Li, J., Zhou, Z., Dong, J., Fu, Y., Li, Y., Luan, Z., &amp;amp; Peng, X. (2021). Predicting breast cancer 5-year survival using machine learning: A systematic review. PloS one, 16(4), e0250370.&lt;/li>
+&lt;li>Mendelsonm, Ellen B., Artificial Intelligence in Breast Imaging: Potentials and Limitations. American Journal of Roentgenology 2019 212:2, 293-299&lt;/li>
+&lt;li>Seely, J. M., &amp;amp; Alhassan, T. (2018). Screening for breast cancer in 2018-what should we be doing today?. Current oncology (Toronto, Ont.), 25(Suppl 1), S115–S124.&lt;/li>
+&lt;li>Shamout, F. E., Shen, A., Witowski, J., Oliver, J., &amp;amp; Geras, K. (2021, June 24). Improving Breast Cancer Detection in Ultrasound Imaging Using AI. NVIDIA Developer Blog. &lt;a href="https://developer.nvidia.com/blog/improving-breast-cancer-detection-in-ultrasound-imaging-using-ai/">https://developer.nvidia.com/blog/improving-breast-cancer-detection-in-ultrasound-imaging-using-ai/&lt;/a>.&lt;/li>
+&lt;/ol></description></item><item><title>Report: Project: Detection of Autism Spectrum Disorder with a Facial Image using Artificial Intelligence</title><link>/report/su21-reu-378/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-378/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: draft, Type: Project&lt;/p>
+Status: draft: Project&lt;/p>
 &lt;p>Myra Saunders, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378">su21-reu-378&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Utilized CNN Code: &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/blob/main/project/code/autism_classification.ipynb">autism_classification.ipynb&lt;/a>&lt;/li>
+&lt;/ul>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;p>Autism affects 1 in every 160 children worlwide. Early detection and diagnosis of Autism, along with treatment, is needed to minimize some of the difficulties that people with Autism encounter. Autism is usually diagnosed by a specialist through various Autism screening methnods. This can be an expensive and complex process. Many children that display signs of Autism go undiagnosed because there families lack the expenses needed to pay for Autism screening and diagnosing. Therefore, the development of a potential inexpensive, but accurate way to detect Autism in children is necessary for low-income families. With all the technological advances in Artificial Intelligence today, deep learning can be used to develop an effective method to detect Autism in children. This project utilizes a Convolutional Neural Network classifier to explore the possibility of using a facial image analysis to detect Autism in children. The facial images of Autistic and non-autistic male and female children will be used in this project.&lt;/p>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Add a bit more&lt;/li>
-&lt;/ul>
 &lt;p>Contents&lt;/p>
 &lt;div class="toc">
 &lt;nav id="TableOfContents">
@@ -2148,80 +2156,104 @@ Status: draft, Type: Project&lt;/p>
 &lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#2-related-work">2. Related Work&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#3-dataset">3. Dataset&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-proposed-methodology">4. Proposed Methodology&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#41-convolutional-neural-network">4.1. Convolutional Neural Network&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#42-architecture">4.2. Architecture&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#5-implementation">5. Implementation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-proposed-methodology">4. Proposed Methodology&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-results">5. Results&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#7-conclusion">7. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-future-work">8. Future Work&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-acknowledgments">9. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#11-references">11. References&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-conclusions-and-future-work">7. Conclusions and Future Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/nav>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> Autism Spectrum Disorder, Detection, Artificial Intelligence, Deep Learning, Convolutional Neural Network, Computer Vision.&lt;/p>
+&lt;p>&lt;strong>Keywords:&lt;/strong> Autism Spectrum Disorder, Detection, Artificial Intelligence, Deep Learning, Convolutional Neural Network.&lt;/p>
 &lt;h2 id="1-introduction">1. Introduction&lt;/h2>
 &lt;p>Autism Spectrum Disorder (ASD) is a broad range of lifelong developmental and neurological disorders that usually appear during early childhood. Autism affects the brain and can cause challenges with speech and nonverbal communication, repetitive behaviors, and social skills. Autism Spectrum Disorder can occur in all socioeconomic, ethnic, and racial groups, and can usually be detected and diagnosed from the age of three years old and up. As of June 2021, the World Health Organization has estimated that one in 160 children have an Autism Spectrum Disorder worldwide&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. Early detection of Autism, along with treatment, is crucial to minimize some of the difficulties and symptoms that people with Autism face&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. Symptoms of Autism Spectrum Disorder are normally identified based on psychological criteria&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>. Specialists use techniques such as behaivoral observation reports, questionaires, and a review of the child&amp;rsquo;s cognitive ability to detect and diagose Autism in children.&lt;/p>
-&lt;p>Many researchers believe that there is a correlation between facial morphology and Autism Spectrum Disorder, and that people with Autism have distinct facial features that can be used to detect their Autism Spectrum Disorder&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. Human faces encode important markers that can be used to detect Autism Spectrum Disorder by analyzing facial features, eye contact,facial movements, and more&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>. Scientists found that children diagnosed with Autism share common facial feature distinctions from children who are not diagnosed with Autism&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>. Some of these facial features are wide-set eyes, short middle region of the face, and a broad upper face. Image one provides an example of the facial feature differences between a child with Autism and a child without.&lt;/p>
+&lt;p>Many researchers believe that there is a correlation between facial morphology and Autism Spectrum Disorder, and that people with Autism have distinct facial features that can be used to detect their Autism Spectrum Disorder&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. Human faces encode important markers that can be used to detect Autism Spectrum Disorder by analyzing facial features, eye contact,facial movements, and more&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>. Scientists found that children diagnosed with Autism share common facial feature distinctions from children who are not diagnosed with Autism&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>. Some of these facial features are wide-set eyes, short middle region of the face, and a broad upper face. Figure 1 provides an example of the facial feature differences between a child with Autism and a child without.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Autistic%20compared%20with%20Non-Autistic%20(4).png" alt="Autistic and Non-Autistic Child">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Image of Child with Autism (left) and Child with no Autism (right)&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>.&lt;/p>
 &lt;p>Due to the distinct features of Autistic individuals, we believe that it is necessary to explore the possiblities of using a facial analysis to detect Autism in children, using Artificial Intelligence (AI). Many researchers have attempted to explore the possibility of using various novel algorithms to detect and diagnose children, adolescents, and adults with Autism&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. Previous research has been done to determine if Autism Spectrum Disorder can be detected in children by analyzing a facial image&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>. The author of this research collected approximately 1500 facial images of children with Autism from websites and Facebook pages associated with Autism. The facial images of non-autistic children were randomly downloaded from online and cropped.The author aimed to provide a first level screening for autism diagnosis, whereby parents could submit an image of their child and in return recieve a probability of the potential of Autism, without cost.&lt;/p>
 &lt;p>To contribute to this previous research&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>, this project will propose a model that can be used to detect the presence of Autism in children based on a facial image analysis.
-A deep learning algorithm will be used to develop an inexpensive, accurate, and effective method to detect Autism in children. This project implements and utilizes a Convolutional Neural Network (CNN) classifier to explore the possibility of using a facial image analysis to detect Autism in children. Most of the coding used for this CNN model was obtained from the Kaggle dataset and was done by Fran Valuch&lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>. We made changes to some parts of this code, which will be discussed further in this project. The goal of this project is not to diagnose Autism, but to explore the possibility of detecting Autism at its early stage, using a facial image analysis.&lt;/p>
+A deep learning algorithm will be used to develop an inexpensive, accurate, and effective method to detect Autism in children. This project implements and utilizes a Convolutional Neural Network (CNN) classifier to explore the possibility of using a facial image analysis to detect Autism in children, with an accuracy of 95% or higher. Most of the coding used for this CNN model was obtained from the Kaggle dataset and was done by Fran Valuch&lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>. We made changes to some parts of this code, which will be discussed further in this project. The goal of this project is not to diagnose Autism, but to explore the possibility of detecting Autism at its early stage, using a facial image analysis.&lt;/p>
 &lt;h2 id="2-related-work">2. Related Work&lt;/h2>
-&lt;p>Study 1:&lt;/p>
-&lt;p>Study 2:&lt;/p>
-&lt;p>Study 3:&lt;/p>
-&lt;p>Study 4:&lt;/p>
-&lt;p>Study 5:&lt;/p>
+&lt;p>Previous work exists on the use of artificial intelligence to detect Autism in children using a facial image. Most of this previous work used the Autism kaggle dataset&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>, which was also used for this project. One study utilized MobileNet followed by two dense layers in order to perform deep learning on the dataset&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>. MobileNet was used because of its ability to compute outputs much faster, as it can reduce both computation and model size. The first layer was dedicated to distribution, and allowed customisation of weights to input into the second dense layer. The second dense layer allowed for classification. The architecture of this algorithm is shown below in Figure 2.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/2021-07-29.png" alt="Algorithm Architecture using MobileNet">&lt;/p>
+&lt;p>&lt;strong>Figure 2:&lt;/strong> Algorithm Architecture using MobileNet&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>Training of this model completed after fifteen epochs, which resulted in a test accuracy of 94.64%. In this project we will also utilize a classic Convolutional Neural Network model. This will be done in hopes of obtaining a test accuracy of 95% or higher.&lt;/p>
 &lt;h2 id="3-dataset">3. Dataset&lt;/h2>
 &lt;p>The dataset used for this project was obtained from Kaggle&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>. This dataset contained approximately 1500 facial images of children with Autism that were obtained from websites and Facebook pages associated with Autism. The facial images of non-autistic children were randomly downloaded from online. The pictures obtained were not of the best quality or consistency with respect to the facial alignment. Therefore, the author developed a python program to automatically crop the images to include only the extent possible for a facial image. These images consist of male and female children that are of different races and range from around ages two to fourteen.&lt;/p>
-&lt;p>This project uses version 12 of this dataset, which is the latest version. The dataset consists of three directories labled test, train, and valid, along with a CSV file. The training set is labeled as train, and consists of &amp;lsquo;Autistic&amp;rsquo; and &amp;lsquo;Non-Autistic&amp;rsquo; subdirectories. These subdirectories contain 1269 images of autistic and 1269 images of non-autistic children respectively. The validation set located in the valid directory are separated into &amp;lsquo;Autistic&amp;rsquo; and &amp;lsquo;Non-autistic&amp;rsquo; subdirectories. These subdirectories also contain 100 images of autistic and 100 images of non-autistic children respectively. The testing set located in the test directory is divided into 100 images of autistic children and 100 images of non-autistic children. All of the images provided in this dataset are in 224 X 224 X 3, jpg format.&lt;/p>
-&lt;p>&lt;strong>Image 1:&lt;/strong> Image of Child with Autism (left) and Child with no Autism (right)&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Autistic%20compared%20with%20Non-Autistic%20(4).png" alt="Autistic and Non-Autistic Child">&lt;/p>
+&lt;p>This project uses version 12 of this dataset, which is the latest version. The dataset consists of three directories labled test, train, and valid, along with a CSV file. The training set is labeled as train, and consists of &amp;lsquo;Autistic&amp;rsquo; and &amp;lsquo;Non-Autistic&amp;rsquo; subdirectories. These subdirectories contain 1269 images of autistic and 1269 images of non-autistic children respectively. The validation set located in the valid directory are separated into &amp;lsquo;Autistic&amp;rsquo; and &amp;lsquo;Non-autistic&amp;rsquo; subdirectories. These subdirectories also contain 100 images of autistic and 100 images of non-autistic children respectively. The testing set located in the test directory is divided into 100 images of autistic children and 100 images of non-autistic children. All of the images provided in this dataset are in 224 X 224 X 3, jpg format. Table 1 provides a summary of the content in the dataset.&lt;/p>
+&lt;p>&lt;strong>Table 1:&lt;/strong> Summary Table of Dataset.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/DATASET%20BREAKDOWN.png" alt="Summary Table of the Kaggle Dataset">&lt;/p>
 &lt;h2 id="4-proposed-methodology">4. Proposed Methodology&lt;/h2>
-&lt;h3 id="41-convolutional-neural-network">4.1. Convolutional Neural Network&lt;/h3>
-&lt;p>-[ ] Add info about CNN and how it will be used.&lt;/p>
-&lt;h3 id="42-architecture">4.2. Architecture&lt;/h3>
-&lt;p>&lt;strong>Image 2:&lt;/strong> Architecture of utilized Convolutional Neural Network Model.&lt;/p>
+&lt;p>Convolutional Neural Network (CNN)&lt;/p>
+&lt;p>This project utilizes a Convolution Neural Network (CNN) to develop a program that can be used to detect the presence of Autism in children from a facial image analysis. If successful this program can be used an inexpensive method to detect Autism in children at its early stages. We believed that a CNN model would be the best way create this program because of its little dependence on preprocessing data. A Convolutional Neural Network was also used becuase of its ability to take in an image and assign importance to, and identify diferent objects within the image. CNN also has very high accuracy when dealing with image recognition. The dataset used contains 1269 training images that were used to train this Convolution Neural Network model. The architecture of this model can be seen in Figure 3.&lt;/p>
 &lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/CNN%20Architecture.png" alt="CNN Architecture">&lt;/p>
-&lt;h2 id="5-implementation">5. Implementation&lt;/h2>
-&lt;p>-[ ] Add info about each figure.&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Plot Histogram (1).&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Plot%20Histogram%20(1).png" alt="Plot Histogram (1)">&lt;/p>
-&lt;p>&lt;strong>Figure 2:&lt;/strong> Plot Histogram (2).&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Plot%20Histogram%20(2).png" alt="Plot Histogram (2)">&lt;/p>
-&lt;p>&lt;strong>Figure 3:&lt;/strong> Training and Validation (1).&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Training%20and%20Validation%20(1).png" alt="Training and Validation (1)">&lt;/p>
-&lt;p>&lt;strong>Figure 4:&lt;/strong> Training and Validation (2).&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Training%20and%20Validation%20(2).png" alt="Training and Validation (2)">&lt;/p>
-&lt;p>&lt;strong>Figure 5:&lt;/strong> Correct Labels.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Correct%20Labels.png" alt="Correct Labels">&lt;/p>
-&lt;p>&lt;strong>Figure 6:&lt;/strong> Incorrect Labels.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Incorrect%20Labels.png" alt="Incorrect Labels">&lt;/p>
-&lt;p>&lt;strong>Figure 7:&lt;/strong> Confusion Matrix CNN.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Confusion%20Matrix%20CNN.png" alt="Confusion Matrix CNN">&lt;/p>
+&lt;p>&lt;strong>Figure 3:&lt;/strong> Architecture of utilized Convolutional Neural Network Model.&lt;/p>
+&lt;h2 id="5-results">5. Results&lt;/h2>
+&lt;p>The results of this project is estimated by affectability and accuracy by utilizing the Confusion Matrix CNN. The results also rely on how correct and precise the model was trained. This model was created to explore the possibility of detecting Autism in children at its early stage, using a facial image analysis. A deep learning algorithm was used to develop this inexpensive, but accurate method to detect Autism in children. A Convolutional Neural Network (CNN) classifier was used to create this model, to recieve an accuracy of 95% or higher. For this CNN model we utilized max pooling and Rectified Linear Unit (ReLU), with two epochs. This resulted in an accuracy of 71%. These results can be seen below in Figure 4. Figure 5 displays some of the images that were classified and labeled correctly (right) and the others that were labeled incorrectly (left).&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Training%20and%20Validation%20Loss%20and%20Accuracy%20(3).png" alt="Results after Execution">&lt;/p>
+&lt;p>&lt;strong>Figure 4:&lt;/strong> Results after Execution.&lt;/p>
+&lt;p>validation loss: 57% - validation accuracy: 68% - training loss: 55% - training accuracy: 71%&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Labels.png" alt="Correct and Incorrect Labels">&lt;/p>
+&lt;p>&lt;strong>Figure 5:&lt;/strong> Correct Labels and Incorrect Labels.&lt;/p>
 &lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
-&lt;h2 id="7-conclusion">7. Conclusion&lt;/h2>
-&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> State if goal was met, then explain.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Talk about problems experienced/limitations.&lt;/li>
-&lt;/ul>
-&lt;h2 id="8-future-work">8. Future Work&lt;/h2>
-&lt;p>Talk about what work will be done in the future.&lt;/p>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Work on a model that can be used for children outside of the dataset age range, i.e teenagers.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Work on model that trains data for children of all colors, i.e people of color.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Continue working on model to achieve accuracy above 95%.&lt;/li>
-&lt;/ul>
-&lt;h2 id="9-acknowledgments">9. Acknowledgments&lt;/h2>
+&lt;p>Figure 6 shows the Confusion Matrix of the Convolutional Neural Network model used in this project. The Confusion Matrix displays a summary of the model&amp;rsquo;s predicted results after its attempt to classify each image as either autistic or non-autistic. Out of the 200 images, 159 of the images were labled correctly and 41 of the images were labled incorrectly.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Confusion%20Matrix%20CNN.png" alt="Confusion Matrix CNN">&lt;/p>
+&lt;p>&lt;strong>Figure 6:&lt;/strong> Confusion Matrix of the Convolutional Neural Network model.&lt;/p>
+&lt;p>Cloudmesh-common&lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup> was used to create a Stopwatch module, that was used to measure and study the training and testing time of the model. Table 2 shows the cloudmesh benchmark output.&lt;/p>
+&lt;p>&lt;strong>Table 2:&lt;/strong> Cloudmesh Benchmark&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Status&lt;/th>
+&lt;th>Time&lt;/th>
+&lt;th>Sum&lt;/th>
+&lt;th>Start&lt;/th>
+&lt;th>tag&lt;/th>
+&lt;th>msg&lt;/th>
+&lt;th>Node&lt;/th>
+&lt;th>User&lt;/th>
+&lt;th>OS&lt;/th>
+&lt;th>Version&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Train&lt;/td>
+&lt;td>ok&lt;/td>
+&lt;td>3745.28&lt;/td>
+&lt;td>3745.28&lt;/td>
+&lt;td>2021-08-10 16:08:57&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>dab8db0489cd&lt;/td>
+&lt;td>collab&lt;/td>
+&lt;td>Linux&lt;/td>
+&lt;td>#1 SMP Sat Jun 5 09:50:34 PDT 2021&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Test&lt;/td>
+&lt;td>ok&lt;/td>
+&lt;td>2.088&lt;/td>
+&lt;td>2.088&lt;/td>
+&lt;td>2021-08-10 17:43:09&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>dab8db0489cd&lt;/td>
+&lt;td>collab&lt;/td>
+&lt;td>Linux&lt;/td>
+&lt;td>#1 SMP Sat Jun 5 09:50:34 PDT 2021&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="7-conclusions-and-future-work">7. Conclusions and Future Work&lt;/h2>
+&lt;p>Autism Spectrum Disorder is a broad range of lifelong developmental and neurological disorders that is considered one of the most growing disorders in children. The World Health Organization has estimated that one in 160 children have an Autism Spectrum Disorder worldwide&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. Techniques that are used by specialists to detect autism can be time consuming and inconvenient for some families. Considering these factors, finding effective and essential ways to detect Autism in children is a neccesity. The aim of this project was to create a model that would analyze facial images of children, and in return determine if the child is Autistic or not. This was done in hopes of receiving 95% accuracy or higher. After executing the model we received an accuracy of 71%.&lt;/p>
+&lt;p>As shown in the results section above, some of the pictures that were initially labeled as Autistic, were labeled incorrectly after running the model. This low accuracy rate could be improved if the CNN model is combined with other algorithms such as transfer learning and VGG-19. This low accuracy could also be improved by using a dataset that includes a wider variety and larger amount of images. We could also ensure that images in the dataset includes children that are of a wider age range. These improvements could possibly increase our chances of obtaining an accuracy of 95% or higher. When this model is improved and an accuracy of atleast 95% is achieved, furture work can be done to create a model that can be used for Autistic individuals outside of the dataset age range (2 - 14 years old).&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
 &lt;p>The author of this project would like to express a vote of thanks to Yohn Jairo, Carlos Theran, and Dr. Gregor von Laszewski for their encouragement and guidance throughout this project. A special vote of thanks also goes to Florida A&amp;amp;M University for funding this wonderful research program. The completion of this project could not have been possible without their support.&lt;/p>
-&lt;h2 id="11-references">11. References&lt;/h2>
+&lt;h2 id="9-references">9. References&lt;/h2>
 &lt;section class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
@@ -2248,6 +2280,9 @@ A deep learning algorithm will be used to develop an inexpensive, accurate, and 
 &lt;/li>
 &lt;li id="fn:8" role="doc-endnote">
 &lt;p>Valuch, F., 2021. Easy Autism Detection with TF.[Online resource] &lt;a href="https://www.kaggle.com/franvaluch/easy-autism-detection-with-tf/comments">https://www.kaggle.com/franvaluch/easy-autism-detection-with-tf/comments&lt;/a>&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:9" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark - Cloudmesh-Common, [GitHub] &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item><item><title>Report: Cyber Attacks Detection Using AI Algorithms</title><link>/report/su21-reu-365/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-365/project/</guid><description>
@@ -2462,17 +2497,17 @@ Status: draft, Type: Project&lt;/p>
 &lt;/div>
 &lt;p>&lt;strong>Keywords:&lt;/strong> ai, object recognition, image processing, computer vision, american sign language.&lt;/p>
 &lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Object detection and feature selection are essential tasks in computer vision and have been approached from various perspectives over the past few decades [1]. The brain uses object recognition to solve an inverse problem: one where (surface properties, shapes, and arrangements of objects) need to be inferred from the perceived outcome of the image formation process [3]. Visual object recognition as a neural substrate in humans was revealed by neuropsychological studies. There are specific brain regions that cause object recognition, yet we still do not understand how the brain achieves this remarkable behavior [2]. Human beings rely and rapidly recognize objects despite considerable retinal image transformations arising from changes in lighting, image size, position, and viewing angle [2].&lt;/p>
-&lt;p>A gesture is a form of nonverbal communication done with positions and movements of the hand, arms, body parts, hand shapes, movements of the lips or face [4]. One of the key differences of hand gestures is that they allow communication over a long distance [5]. American Sign Language (ASL) is a formal language that has the same lingual properties as oral languages commonly used by deaf people to communicate [6]. ASL typically is formed by the finger, hand, and arm positioning and can contain static and dynamic movement or a combination of both to communicate words and meanings to another [7]. Communication with other people can be challenging because people are not typically willing to learn sign language [7].&lt;/p>
-&lt;p>In this paper, we consider the problem of detecting and understanding American Sign Language. We test CNN&amp;rsquo;s ability to recognize the ASL alphabet. As advancements in technology increase, there are more improvements to 2D methods of hand detection. Commonly these methods are visual-based, using color, shape, and edge to detect and recognize the hand [8]. There are issues to these technologies like inconsistent lighting conditions, non-hand color similarity, and varying viewpoints that can decrease the model&amp;rsquo;s ability to recognize the hand and its positioning. We use a Convolutional Neural Network to create the model and detect different letters of American Sign Language.&lt;/p>
+&lt;p>Object detection and feature selection are essential tasks in computer vision and have been approached from various perspectives over the past few decades &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. The brain uses object recognition to solve an inverse problem: one where (surface properties, shapes, and arrangements of objects) need to be inferred from the perceived outcome of the image formation process &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. Visual object recognition as a neural substrate in humans was revealed by neuropsychological studies. There are specific brain regions that cause object recognition, yet we still do not understand how the brain achieves this remarkable behavior &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>. Human beings rely and rapidly recognize objects despite considerable retinal image transformations arising from changes in lighting, image size, position, and viewing angle &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>A gesture is a form of nonverbal communication done with positions and movements of the hand, arms, body parts, hand shapes, movements of the lips or face &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. One of the key differences of hand gestures is that they allow communication over a long distance &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>. American Sign Language (ASL) is a formal language that has the same lingual properties as oral languages commonly used by deaf people to communicate [6]. ASL typically is formed by the finger, hand, and arm positioning and can contain static and dynamic movement or a combination of both to communicate words and meanings to another &lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>. Communication with other people can be challenging because people are not typically willing to learn sign language &lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>In this paper, we consider the problem of detecting and understanding American Sign Language. We test CNN&amp;rsquo;s ability to recognize the ASL alphabet. As advancements in technology increase, there are more improvements to 2D methods of hand detection. Commonly these methods are visual-based, using color, shape, and edge to detect and recognize the hand &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>. There are issues to these technologies like inconsistent lighting conditions, non-hand color similarity, and varying viewpoints that can decrease the model&amp;rsquo;s ability to recognize the hand and its positioning. We use a Convolutional Neural Network to create the model and detect different letters of American Sign Language.&lt;/p>
 &lt;h2 id="2-data-sets">2. Data Sets&lt;/h2>
 &lt;p>In this research we use two sources of datasets, the first is from kaggle which it was already prepared but we needed more. The second is self made dataset by take images in good lighting against a white wall, it was then cropped to 400x400 pixels focused on the hand. The program then sets the images to grayscale as the color is not needed for this research. Finally, the images are reduced to 50x50 resolution for the AI to use for training.&lt;/p>
 &lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/Hand%20B%20Dataset%20Demo.png" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Dataset of hands doing different alphabet letters in ASL &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Dataset of hands doing different alphabet letters in ASL &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>.&lt;/p>
 &lt;h2 id="3-documentation">3. Documentation&lt;/h2>
 &lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/CNNDiagram.png" alt="Figure 2">&lt;/p>
 &lt;p>&lt;strong>Figure 2:&lt;/strong> The Convolutional Neural Network (CNN) model.&lt;/p>
-&lt;p>This model shows the CNN model that we used to train the AI. The CNN takes pictures and breaks them down into smaller segments called features. It is trained to find patterns and features over the images allowing the CNN to predict an &amp;lsquo;a&amp;rsquo;, &amp;lsquo;b&amp;rsquo;, or &amp;lsquo;c&amp;rsquo; upon the given ASL image with high accuracy. A CNN uses a convolution operation that filters every possible position the feature it collected can be matched to and attempts to find where it fits in [10]. This process is repeated and becomes the convolution layer or in the image depicted as Conv2d + Relu. The ReLU stands for the rectified linear unit and is used as an activation function for the CNN [11].&lt;/p>
+&lt;p>This model shows the CNN model that we used to train the AI. The CNN takes pictures and breaks them down into smaller segments called features. It is trained to find patterns and features over the images allowing the CNN to predict an &amp;lsquo;a&amp;rsquo;, &amp;lsquo;b&amp;rsquo;, or &amp;lsquo;c&amp;rsquo; upon the given ASL image with high accuracy. A CNN uses a convolution operation that filters every possible position the feature it collected can be matched to and attempts to find where it fits in &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>. This process is repeated and becomes the convolution layer or in the image depicted as Conv2d + Relu. The ReLU stands for the rectified linear unit and is used as an activation function for the CNN &lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup>.&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;p>[] What is a Relu operation?
@@ -2519,8 +2554,40 @@ Maximum pooling is an operation the gathers the biggest number in each collectio
 &lt;hr>
 &lt;ol>
 &lt;li id="fn:1" role="doc-endnote">
+&lt;p>Pan, T.-Y., Zhang, C., Li, Y., Hu, H., Xuan, D., Changpinyo, S., Gong, B., &amp;amp; Chao, W.-L. (2021, July 5). On Model Calibration for Long-Tailed Object Detection and Instance Segmentation. arXiv.org.
+&lt;a href="https://arxiv.org/abs/2107.02170">https://arxiv.org/abs/2107.02170&lt;/a>.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Wardle, S. G., &amp;amp; Baker, C. (2020). Recent advances in understanding object recognition in the human brain: Deep neural networks, temporal dynamics, and context. F1000Research. F1000 Research Ltd.
+&lt;a href="https://doi.org/10.12688/f1000research.22296.1">https://doi.org/10.12688/f1000research.22296.1&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3" role="doc-endnote">
+&lt;p>Wardle, S. G., &amp;amp; Baker, C. (2020). Recent advances in understanding object recognition in the human brain: Deep neural networks, temporal dynamics, and context. F1000Research. F1000 Research Ltd.
+&lt;a href="https://doi.org/10.12688/f1000research.22296.1">https://doi.org/10.12688/f1000research.22296.1&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4" role="doc-endnote">
+&lt;p>Dabre, K., &amp;amp; Dholay, S. (2014). Machine learning model for sign language interpretation using webcam images. 2014 International Conference on Circuits, Systems, Communication and Information Technology Applications (CSCITA), 317-321.
+&lt;a href="https://ieeexplore.ieee.org/document/6839279">https://ieeexplore.ieee.org/document/6839279&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5" role="doc-endnote">
 &lt;p>tecperson, Sign Language MNIST Drop-In Replacement for MNIST for Hand Gesture Recognition Tasks, [Kaggle]
-&lt;a href="https://www.kaggle.com/datamunge/sign-language-mnist">https://www.kaggle.com/datamunge/sign-language-mnist&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;a href="https://www.kaggle.com/datamunge/sign-language-mnist">https://www.kaggle.com/datamunge/sign-language-mnist&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:6" role="doc-endnote">
+&lt;p>A. Rahagiyanto, A. Basuki, R. Sigit, A. Anwar and M. Zikky, &amp;ldquo;Hand Gesture Classification for Sign Language Using Artificial Neural Network,&amp;rdquo; 2017 21st International Computer Science and Engineering Conference (ICSEC), 2017, pp. 1-5,
+&amp;lt;doi: 10.1109/ICSEC.2017.8443898&amp;gt;&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:7" role="doc-endnote">
+&lt;p>Jiayi Wang, Franziska Mueller, Florian Bernard, Suzanne Sorli, Oleksandr Sotnychenko, Neng Qian, Miguel A. Otaduy, Dan Casas, and Christian Theobalt. 2020. RGB2Hands: real-time tracking of 3D hand interactions from monocular RGB video. ACM Trans. Graph. 39, 6, Article 218 (December 2020), 16 pages.
+&lt;a href="https://doi.org/10.1145/3414685.3417852">https://doi.org/10.1145/3414685.3417852&lt;/a>&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:8" role="doc-endnote">
+&lt;p>Rohrer, B. (2016, August 18). How do Convolutional Neural Networks work? Library for end-to-end machine learning.
+&lt;a href="https://e2eml.school/how_convolutional_neural_networks_work.html">https://e2eml.school/how_convolutional_neural_networks_work.html&lt;/a>&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:9" role="doc-endnote">
+&lt;p>Patel, K. (2020, October 18). Convolution neural networks - a beginner&amp;rsquo;s Guide. Towards Data Science.
+&lt;a href="https://towardsdatascience.com/convolution-neural-networks-a-beginners-guide-implementing-a-mnist-hand-written-digit-8aa60330d022">https://towardsdatascience.com/convolution-neural-networks-a-beginners-guide-implementing-a-mnist-hand-written-digit-8aa60330d022&lt;/a>&amp;#160;&lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item><item><title>Report: Project: Detecting Multiple Sclerosis Symptoms using AI</title><link>/report/su21-reu-371/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-371/project/</guid><description>
@@ -2610,67 +2677,30 @@ Status: draft, Type: Project&lt;/p>
 &lt;/div>
 &lt;p>&lt;strong>Keywords:&lt;/strong> ai, orthodontics, x-rays.&lt;/p>
 &lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Dental field technology capability has increased over the past 25 years, and has helped reduce time, cost, medical errors, and dependence on human expertise[1]. Intelligence in orthodontics can learn, build, remember, understand and recognize designs from techniques used in correcting the teeth like retainers. Dental field can create alternatives, adapt to change and explore experiences with sub-groups of patients[reference]. AI has taken part of the dental field by accurately and efficiently processes the best data from treatments. For smart use of Health Data, machine learning and artificial intelligence (AI) are expected to promote further development of the digital revolution in (dental) medicine using algorithms to simulate human cognition in the analysis of complex data. The performance is better, the higher the degree of repetitive pattern and the larger the amount of accessible data[5].&lt;/p>
+&lt;p>Dental field technology capability has increased over the past 25 years, and has helped reduce time, cost, medical errors, and dependence on human expertise. Intelligence in orthodontics can learn, build, remember, understand and recognize designs from techniques used in correcting the teeth like retainers. Dental field can create alternatives, adapt to change and explore experiences with sub-groups of patients. AI has taken part of the dental field by accurately and efficiently processing the best data from treatments. For smart use of Health Data, machine learning and artificial intelligence are expected to promote further development of the digital revolution in (dental) medicine, like x-rays, using algorithms to simulate human cognition in the analysis of complex data. The performance is better, the higher the degree of repetitive pattern and the larger the amount of accessible data[5].&lt;/p>
 &lt;h2 id="2-data-sets">2. Data Sets&lt;/h2>
-&lt;p>We found a dataset in kaggle website that is about dental images. The data was collected by Mr. Parth Chokhra. The name of the dataset is Dental Images of kjbjl. The dataset did not have metadata and an explanation of how they collected the data. The data set supports how x-rays of teeth in dentistry becomes artificial intelligence. The Dental Images of kjbjl dataset was used in AI already using autoencoders. Autoencoders are an freely artificial neural network (located in the nervous system) that learns how to accurately encode data and reconstruct the data back from the reduced encoded representation to a representation that is as close to the original input as possible.&lt;/p>
-&lt;p>Describe the data that was in the paper.&lt;/p>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> What are the challenges with Orthodontics data set? Privacy, HIPAA, Size, Avalibility
-Some challenges with Orthodontics data sets with privacy&lt;/li>
-&lt;/ul>
-&lt;p>explain how its hard to find&lt;/p>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
-However, if the data is publicly available you program must contain a download function instead that you customize.
-Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
-the download function.&lt;/li>
-&lt;/ul>
+&lt;p>We found a dataset on a kaggle website that is about dental images. The data was collected by Mr. Parth Chokhra. The name of the dataset is Dental Images of kjbjl. The dataset did not have metadata and an explanation of how they collected the data. The data set supports how x-rays of teeth in dentistry becomes artificial intelligence. The Dental Images of kjbjl dataset was used in AI already using autoencoders. Autoencoders are an freely artificial neural network (located in the nervous system) that learns how to accurately encode data and reconstruct the data back from the reduced encoded depiction to a representation that is closes to the original. For some challenges with Orthodontics data sets with privacy, size, avalibility were surprisingly hard to find than we thought.&lt;/p>
 &lt;h2 id="3-using-images">3. Using Images&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Place a cool image into projects images in my directory&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Correct the following link, replace the fa number with my su number and thne chart of png.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> If the image has been copied, you must use a reference such as shown in the Figure 1 caption.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>Place image of x ray and url of the kaggle images. Talk about what and how etc. the images are about and look like and what you can do with them.&lt;/p>
+&lt;p>Below we observed actual dental x-rays. These dental x-rays images below came from Parth Chorkhra on kaggle.com [1]. The images are patient x-rays taken by Parth in his dental imagery data set. In the images we can see the caps and nerves of the teeth. Using these x-rays, we may can also find cavities if there are some. We can also identify other issues with patients teeth by taking and using x-rays.&lt;/p>
+&lt;p>&lt;img src="https://user-images.githubusercontent.com/85571628/127322590-3d92ee2c-92a0-4df5-849a-b89545a3ffc2.jpg" alt="Figure 1">
+&lt;img src="https://user-images.githubusercontent.com/85571628/127322621-184ac569-699f-452c-89c3-dcf87378574d.jpg" alt="Figure 2">
+&lt;img src="https://user-images.githubusercontent.com/85571628/127322655-1ec9172f-45fe-4648-9d55-6b028512ec1e.jpg" alt="Figure 3">&lt;/p>
 &lt;h2 id="5-example-of-a-ai-algorighm-in-orthodontics">5. Example of a AI algorighm in Orthodontics&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete data sets that will be used.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete algorighm to analyze the data sets.&lt;/li>
-&lt;/ul>
-&lt;p>Read over google scholar review page on orthondontics about their research and algorighm (if used).&lt;/p>
+&lt;p>On a separate kaggle website, we found a code for DENTAL PANORAMIC KNN [5]. The kaggle site shows dental codes taken place in Orthodontics.&lt;/p>
 &lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
-&lt;p>Talk about the matrics in the google scholar review says. The matrics that the researchers are using to study the performance of their algorighns or code.&lt;/p>
+&lt;p>Here is an algorighn/code from one of the researchers we found. are using to study the performance of their algorighns or code.&lt;/p>
+&lt;p>Lateral and frontal facial images of patients who visited the Orthodontic department (352 patients) were employed as the training and evaluation data. An experienced orthodontist examined all the facial images for each patient and identified as many clinically used facial traits during the orthodontic diagnosis process as possible (e.g., deviation of the lips, deviation of the mouth, asymmetry of the face, concave profile, upper lip retrusion, presence of scars). A sample patient’s image, a list of sample assessments (i.e., labels), and the multi-label data used in the work by Murata et al. are shown in Figure 1.&lt;/p>
+&lt;p>Figure 1. Sample patient’s image and a list of sample assessments (i.e., labels) including the region of interest, evaluation, etc. In a previous study by Murata et al., they employed labels representing only the facial part (mouth, chin, and whole face), distorted direction (right and left), and its severity (severe, mild, no deviation).&lt;/p>
+&lt;p>&lt;img src="https://user-images.githubusercontent.com/85571628/127335802-d49312a1-0c52-4063-8fbf-eade552483a5.jpg" alt="IMG_6251">&lt;/p>
 &lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
-&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
-&lt;p>What the researchers have done in conclusion. &amp;ldquo;&amp;hellip; used these algorigns to&amp;hellip;.&amp;rdquo;&lt;/p>
+&lt;p>Artificial intelligence is rapidly expanding into multiple facets of society. Orthodontics may be one of the fastest branches of dentistry to adapt AI for three reasons. First, patient encounters during treatment generate many types of data. Second, the standardization in the field of dentistry is low compared to other areas of healthcare. A range of valid treatment options exists for any given case. Using AI and large datasets (that include diagnostic results, treatments, and outcomes), one can now measure the effectiveness of different treatment modalities given very specific clinical findings and conditions. Third, orthodontics is largely practiced by independent dentists in their own clinics. Despite the promise of AI, the volume of orthodontic research in this field is relatively low. Further, the clinical accuracy of AI must be improved with an increased number and variety of cases. Before AI can take on a more important role in making diagnostic recommendations, the volume and quality of research data will need to increase.[5]&lt;/p>
 &lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
 &lt;ul>
 &lt;li>&lt;input disabled="" type="checkbox"> Gregor guided me throughout this process.&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> Carlos guided me throughout this process.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Yohn guided me throughout this process.&lt;/li>
 &lt;/ul>
-&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
-&lt;h2 id="9-references">9. References&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
-one point automatically change the references from superscript to square brackets it is best to introduce a space before
-the first square bracket.&lt;/li>
-&lt;/ul>
-&lt;p>Change 6 reference and replace with google scholar research paper.&lt;/p>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Use of energy explained - Energy use in homes, [Online resource]
-&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>&amp;lt;Bichu, Y.M., Hansa, I., Bichu, A.Y. et al. Applications of artificial intelligence and machine learning in orthodontics: a scoping review. Prog Orthod. 22, 18 (2021).&amp;gt;&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: AI Time Series Analysis</title><link>/report/su21-reu-374/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-374/project/</guid><description>
+&lt;h2 id="9-references">9. References&lt;/h2></description></item><item><title>Report: AI Time Series Analysis</title><link>/report/su21-reu-374/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-374/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-312/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-312/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>

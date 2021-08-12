@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – cryptocurrency</title><link>/tags/cryptocurrency/</link><description>Recent content in cryptocurrency on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 16 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/cryptocurrency/index.xml" rel="self" type="application/rss+xml"/><item><title>Report: Time Series Analysis of Blockchain-Based Cryptocurrency Price Changes</title><link>/report/su21-reu-361/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-361/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-361/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: draft, Type: Project&lt;/p>
+Status: final, Type: Project&lt;/p>
 &lt;p>Jacques Fleischer, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-361">su21-reu-361&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>Code:
@@ -43,11 +43,12 @@ Status: draft, Type: Project&lt;/p>
 &lt;h2 id="3-architecture">3. Architecture&lt;/h2>
 &lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/architecture-process.png" alt="Figure 2">&lt;/p>
 &lt;p>&lt;strong>Figure 2:&lt;/strong> The process of producing LSTM timeseries based on cryptocurrency price.&lt;/p>
+&lt;p>This program undergoes the four main phases outlined in Figure 2: retrieving data from Yahoo Finance&lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>, isolating the Close prices (the price the cryptocurrency has at the end of each day), training the LSTM to predict Close prices, and plotting the prediction model, respectively.&lt;/p>
 &lt;h2 id="4-implementation">4. Implementation&lt;/h2>
 &lt;p>Initially, this project was meant to scrape prices using the BeautifulSoup Python module; however, slight changes in a financial page&amp;rsquo;s website caused the code to break. Alternatively, Kaggle offered historical datasets of cryptocurrency, but they were not up to date. Thus, the final method of retrieving data is from Yahoo Finance through the yfinance Python module, which returns the coins' price from the day to its inception to the present day.&lt;/p>
 &lt;p>The code is inspired from Towards Data Science articles by Serafeim Loukas&lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup> and Viraf&lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup>, who explore using LSTM to predict stock timeseries. This program contains adjustments and changes to their code so that cryptocurrency is analyzed instead. This project opts to use LSTM (long short-term memory) to predict the price because it has a memory capacity, which is ideal for a timeseries data set analysis such as cryptocurrency price over time. LSTM can remember historical patterns and use them to inform further predictions; it can also selectively choose which datapoints to use and which to disregard for the model&lt;sup id="fnref:11">&lt;a href="#fn:11" class="footnote-ref" role="doc-noteref">11&lt;/a>&lt;/sup>. For example, this experiment&amp;rsquo;s code isolates only the close values to predict them and nothing else.&lt;/p>
 &lt;p>Firstly, the code asks the user for the ticker of the cryptocurrency that is to be predicted, such as EOS-USD or BTC-USD. A complete list of acceptable inputs is under the Symbol column at &lt;a href="https://finance.yahoo.com/cryptocurrencies">https://finance.yahoo.com/cryptocurrencies&lt;/a> but theoretically, the program should be able to analyze traditional stocks as well as cryptocurrency.&lt;/p>
-&lt;p>Then, the historical data for the corresponding coin is downloaded through the yfinance Python module. The data must go through normalization for simplicity and optimization of the model. Next, the Close data (the price that the currency has at the end of the day, everyday since the coin&amp;rsquo;s inception) is split into two sets: a training set and a test set, which are further split into their own respective x and y sets to guide the model through training.&lt;/p>
+&lt;p>Then, the program downloads the historical data for the corresponding coin through the yfinance Python module. The data must go through normalization for simplicity and optimization of the model. Next, the Close data (the price that the currency has at the end of the day, everyday since the coin&amp;rsquo;s inception) is split into two sets: a training set and a test set, which are further split into their own respective x and y sets to guide the model through training.&lt;/p>
 &lt;p>The training model is run through a layer of long short-term memory, as well as a dropout layer to prevent overfitting and a dense layer to give the model a memory capacity. Figure 3 showcases the setup of the LSTM layer.&lt;/p>
 &lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/lstm.png" alt="Figure 3">&lt;/p>
 &lt;p>&lt;strong>Figure 3:&lt;/strong> Visual depiction of one layer of long short-term memory&lt;sup id="fnref:12">&lt;a href="#fn:12" class="footnote-ref" role="doc-noteref">12&lt;/a>&lt;/sup>&lt;/p>
@@ -61,8 +62,8 @@ Status: draft, Type: Project&lt;/p>
 &lt;p>&lt;strong>Figure 6:&lt;/strong> Line graph of model loss over the number of epochs the prediction model completed using EOS-USD data set&lt;/p>
 &lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/adjusting-epochs.png" alt="Figure 7">&lt;/p>
 &lt;p>&lt;strong>Figure 7:&lt;/strong> Effect of EOS-USD prediction model based on number of epochs completed&lt;/p>
-&lt;p>The epochs can also affect the Mean Squared Error, which details how close the prediction line is to the true Close values in United States Dollars (USD).&lt;/p>
-&lt;p>&lt;strong>Table 1:&lt;/strong>: Number of epochs compared with mean squared error; all tests were run with EOS-USD as input. The Mean Squared Error is rounded to the nearest thousandth.&lt;/p>
+&lt;p>The epochs can also affect the Mean Squared Error, which details how close the prediction line is to the true Close values in United States Dollars (USD). As demonstrated in Table 1, more epochs lessens the Mean Squared Error (but the change becomes negligible after 25 epochs).&lt;/p>
+&lt;p>&lt;strong>Table 1:&lt;/strong> Number of epochs compared with Mean Squared Error; all tests were run with EOS-USD as input. The Mean Squared Error is rounded to the nearest thousandth.&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -98,8 +99,8 @@ Status: draft, Type: Project&lt;/p>
 &lt;p>&lt;strong>Figure 8:&lt;/strong> EOS, Dogecoin, Ethereum, and Bitcoin prediction models&lt;/p>
 &lt;p>Dogecoin presents a model that does not account well for the sharp rises, likely because the training period encompasses a period of relative inactivity (no high changes in price).&lt;/p>
 &lt;h2 id="5-benchmark">5. Benchmark&lt;/h2>
-&lt;p>The benchmark is run within yfinance-lstm.ipynb located in project/code&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. The program ran on a 64-bit Windows 10 Home Edition (21H1) computer with a Ryzen 5 3600 processor (3.6 GHz). It also has dual-channel 16 GB RAM clocked at 3200 MHz and a GTX 1660 Ventus XS OC graphics card. The amount of time it takes to train the 50 epochs for the LSTM is around 16 seconds. A StopWatch module was used from the package cloudmesh-common&lt;sup id="fnref:13">&lt;a href="#fn:13" class="footnote-ref" role="doc-noteref">13&lt;/a>&lt;/sup> to precisely measure the training time.&lt;/p>
-&lt;p>&lt;strong>Table 2:&lt;/strong>: First half of cloudmesh benchmark output, which details the specifications and status of the computer at the time of program execution&lt;/p>
+&lt;p>The benchmark is run within yfinance-lstm.ipynb located in project/code&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. The program ran on a 64-bit Windows 10 Home Edition (21H1) computer with a Ryzen 5 3600 processor (3.6 GHz). It also has dual-channel 16 GB RAM clocked at 3200 MHz and a GTX 1660 Ventus XS OC graphics card. Table 2 lists these specifications as well as the allocated computer memory during runtime and module versions. Table 3 shows that the amount of time it takes to train the 50 epochs for the LSTM is around 15 seconds, while the entire program execution takes around 16 seconds. A StopWatch module was used from the package cloudmesh-common&lt;sup id="fnref:13">&lt;a href="#fn:13" class="footnote-ref" role="doc-noteref">13&lt;/a>&lt;/sup> to precisely measure the training time.&lt;/p>
+&lt;p>&lt;strong>Table 2:&lt;/strong> First half of cloudmesh benchmark output, which details the specifications and status of the computer at the time of program execution&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -186,7 +187,7 @@ Status: draft, Type: Project&lt;/p>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>&lt;strong>Table 3:&lt;/strong>: Second half of cloudmesh benchmark output, which reports the execution time of training, overall program, and prediction&lt;/p>
+&lt;p>&lt;strong>Table 3:&lt;/strong> Second half of cloudmesh benchmark output, which reports the execution time of training, overall program, and prediction&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -229,7 +230,7 @@ Status: draft, Type: Project&lt;/p>
 &lt;p>At first glance, the results look promising as the predictions have minimal deviation from the true values. However, upon closer look, the values lag by one day, which is a sign that they are only viewing the previous day and mimicking those values. Furthermore, the model cannot go several days or years into the future because there is no data to run on, such as opening price or volume. The experiment is further confounded by the nature of stock prices: they follow random walk theory, which means that the nature in which they move follows a random walk: the changes in price do not necessarily happen as a result of previous changes. Thus, this nature of stocks contradicts the very architecture of this experiment because long short-term memory assumes that the values have an effect on one another.&lt;/p>
 &lt;p>For future research, a program can scrape tweets from influencers' Twitter pages so that a model can guess whether public discussion of a cryptocurrency is favorable or unfavorable (and whether the price will increase as a result).&lt;/p>
 &lt;h2 id="7-acknowledgments">7. Acknowledgments&lt;/h2>
-&lt;p>Thank you to Gregor von Laszewski, Yohn Jairo, and Carlos Theran for their invaluable guidance. Furthermore, thank you to Florida A&amp;amp;M University for graciously funding this scientific excursion and Miami Dade College School of Science for this research opportunity.&lt;/p>
+&lt;p>Thank you to Dr. Gregor von Laszewski, Dr. Yohn Jairo Parra Bautista, and Dr. Carlos Theran for their invaluable guidance. Furthermore, thank you to Florida A&amp;amp;M University for graciously funding this scientific excursion and Miami Dade College School of Science for this research opportunity.&lt;/p>
 &lt;h2 id="8-references">8. References&lt;/h2>
 &lt;section class="footnotes" role="doc-endnotes">
 &lt;hr>

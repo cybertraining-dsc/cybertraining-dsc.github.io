@@ -24,64 +24,27 @@ Status: draft, Type: Project&lt;/p>
 &lt;/div>
 &lt;p>&lt;strong>Keywords:&lt;/strong> ai, orthodontics, x-rays.&lt;/p>
 &lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Dental field technology capability has increased over the past 25 years, and has helped reduce time, cost, medical errors, and dependence on human expertise[1]. Intelligence in orthodontics can learn, build, remember, understand and recognize designs from techniques used in correcting the teeth like retainers. Dental field can create alternatives, adapt to change and explore experiences with sub-groups of patients[reference]. AI has taken part of the dental field by accurately and efficiently processes the best data from treatments. For smart use of Health Data, machine learning and artificial intelligence (AI) are expected to promote further development of the digital revolution in (dental) medicine using algorithms to simulate human cognition in the analysis of complex data. The performance is better, the higher the degree of repetitive pattern and the larger the amount of accessible data[5].&lt;/p>
+&lt;p>Dental field technology capability has increased over the past 25 years, and has helped reduce time, cost, medical errors, and dependence on human expertise. Intelligence in orthodontics can learn, build, remember, understand and recognize designs from techniques used in correcting the teeth like retainers. Dental field can create alternatives, adapt to change and explore experiences with sub-groups of patients. AI has taken part of the dental field by accurately and efficiently processing the best data from treatments. For smart use of Health Data, machine learning and artificial intelligence are expected to promote further development of the digital revolution in (dental) medicine, like x-rays, using algorithms to simulate human cognition in the analysis of complex data. The performance is better, the higher the degree of repetitive pattern and the larger the amount of accessible data[5].&lt;/p>
 &lt;h2 id="2-data-sets">2. Data Sets&lt;/h2>
-&lt;p>We found a dataset in kaggle website that is about dental images. The data was collected by Mr. Parth Chokhra. The name of the dataset is Dental Images of kjbjl. The dataset did not have metadata and an explanation of how they collected the data. The data set supports how x-rays of teeth in dentistry becomes artificial intelligence. The Dental Images of kjbjl dataset was used in AI already using autoencoders. Autoencoders are an freely artificial neural network (located in the nervous system) that learns how to accurately encode data and reconstruct the data back from the reduced encoded representation to a representation that is as close to the original input as possible.&lt;/p>
-&lt;p>Describe the data that was in the paper.&lt;/p>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> What are the challenges with Orthodontics data set? Privacy, HIPAA, Size, Avalibility
-Some challenges with Orthodontics data sets with privacy&lt;/li>
-&lt;/ul>
-&lt;p>explain how its hard to find&lt;/p>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
-However, if the data is publicly available you program must contain a download function instead that you customize.
-Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
-the download function.&lt;/li>
-&lt;/ul>
+&lt;p>We found a dataset on a kaggle website that is about dental images. The data was collected by Mr. Parth Chokhra. The name of the dataset is Dental Images of kjbjl. The dataset did not have metadata and an explanation of how they collected the data. The data set supports how x-rays of teeth in dentistry becomes artificial intelligence. The Dental Images of kjbjl dataset was used in AI already using autoencoders. Autoencoders are an freely artificial neural network (located in the nervous system) that learns how to accurately encode data and reconstruct the data back from the reduced encoded depiction to a representation that is closes to the original. For some challenges with Orthodontics data sets with privacy, size, avalibility were surprisingly hard to find than we thought.&lt;/p>
 &lt;h2 id="3-using-images">3. Using Images&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Place a cool image into projects images in my directory&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Correct the following link, replace the fa number with my su number and thne chart of png.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> If the image has been copied, you must use a reference such as shown in the Figure 1 caption.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>Place image of x ray and url of the kaggle images. Talk about what and how etc. the images are about and look like and what you can do with them.&lt;/p>
+&lt;p>Below we observed actual dental x-rays. These dental x-rays images below came from Parth Chorkhra on kaggle.com [1]. The images are patient x-rays taken by Parth in his dental imagery data set. In the images we can see the caps and nerves of the teeth. Using these x-rays, we may can also find cavities if there are some. We can also identify other issues with patients teeth by taking and using x-rays.&lt;/p>
+&lt;p>&lt;img src="https://user-images.githubusercontent.com/85571628/127322590-3d92ee2c-92a0-4df5-849a-b89545a3ffc2.jpg" alt="Figure 1">
+&lt;img src="https://user-images.githubusercontent.com/85571628/127322621-184ac569-699f-452c-89c3-dcf87378574d.jpg" alt="Figure 2">
+&lt;img src="https://user-images.githubusercontent.com/85571628/127322655-1ec9172f-45fe-4648-9d55-6b028512ec1e.jpg" alt="Figure 3">&lt;/p>
 &lt;h2 id="5-example-of-a-ai-algorighm-in-orthodontics">5. Example of a AI algorighm in Orthodontics&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete data sets that will be used.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete algorighm to analyze the data sets.&lt;/li>
-&lt;/ul>
-&lt;p>Read over google scholar review page on orthondontics about their research and algorighm (if used).&lt;/p>
+&lt;p>On a separate kaggle website, we found a code for DENTAL PANORAMIC KNN [5]. The kaggle site shows dental codes taken place in Orthodontics.&lt;/p>
 &lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
-&lt;p>Talk about the matrics in the google scholar review says. The matrics that the researchers are using to study the performance of their algorighns or code.&lt;/p>
+&lt;p>Here is an algorighn/code from one of the researchers we found. are using to study the performance of their algorighns or code.&lt;/p>
+&lt;p>Lateral and frontal facial images of patients who visited the Orthodontic department (352 patients) were employed as the training and evaluation data. An experienced orthodontist examined all the facial images for each patient and identified as many clinically used facial traits during the orthodontic diagnosis process as possible (e.g., deviation of the lips, deviation of the mouth, asymmetry of the face, concave profile, upper lip retrusion, presence of scars). A sample patient’s image, a list of sample assessments (i.e., labels), and the multi-label data used in the work by Murata et al. are shown in Figure 1.&lt;/p>
+&lt;p>Figure 1. Sample patient’s image and a list of sample assessments (i.e., labels) including the region of interest, evaluation, etc. In a previous study by Murata et al., they employed labels representing only the facial part (mouth, chin, and whole face), distorted direction (right and left), and its severity (severe, mild, no deviation).&lt;/p>
+&lt;p>&lt;img src="https://user-images.githubusercontent.com/85571628/127335802-d49312a1-0c52-4063-8fbf-eade552483a5.jpg" alt="IMG_6251">&lt;/p>
 &lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
-&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
-&lt;p>What the researchers have done in conclusion. &amp;ldquo;&amp;hellip; used these algorigns to&amp;hellip;.&amp;rdquo;&lt;/p>
+&lt;p>Artificial intelligence is rapidly expanding into multiple facets of society. Orthodontics may be one of the fastest branches of dentistry to adapt AI for three reasons. First, patient encounters during treatment generate many types of data. Second, the standardization in the field of dentistry is low compared to other areas of healthcare. A range of valid treatment options exists for any given case. Using AI and large datasets (that include diagnostic results, treatments, and outcomes), one can now measure the effectiveness of different treatment modalities given very specific clinical findings and conditions. Third, orthodontics is largely practiced by independent dentists in their own clinics. Despite the promise of AI, the volume of orthodontic research in this field is relatively low. Further, the clinical accuracy of AI must be improved with an increased number and variety of cases. Before AI can take on a more important role in making diagnostic recommendations, the volume and quality of research data will need to increase.[5]&lt;/p>
 &lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
 &lt;ul>
 &lt;li>&lt;input disabled="" type="checkbox"> Gregor guided me throughout this process.&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> Carlos guided me throughout this process.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Yohn guided me throughout this process.&lt;/li>
 &lt;/ul>
-&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
-&lt;h2 id="9-references">9. References&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
-one point automatically change the references from superscript to square brackets it is best to introduce a space before
-the first square bracket.&lt;/li>
-&lt;/ul>
-&lt;p>Change 6 reference and replace with google scholar research paper.&lt;/p>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Use of energy explained - Energy use in homes, [Online resource]
-&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>&amp;lt;Bichu, Y.M., Hansa, I., Bichu, A.Y. et al. Applications of artificial intelligence and machine learning in orthodontics: a scoping review. Prog Orthod. 22, 18 (2021).&amp;gt;&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item></channel></rss>
+&lt;h2 id="9-references">9. References&lt;/h2></description></item></channel></rss>
