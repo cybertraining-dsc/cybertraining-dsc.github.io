@@ -45,6 +45,11 @@ cd cybertraining-dsc.github.io
 make setup
 ```
 
+
+```
+npm install postcss@latest autoprefixer@latest
+```
+
 ## Compile
 
 The web page can be compiled and run with
