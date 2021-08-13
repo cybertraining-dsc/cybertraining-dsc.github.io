@@ -91,19 +91,19 @@ pull-reu:
 	cd content/en/report/su21-reu-364; git checkout main; git pull
 	cd content/en/report/su21-reu-365; git checkout main; git pull
 	cd content/en/report/su21-reu-366; git checkout main; git pull
-	cd content/en/report/su21-reu-367; git checkout main; git pull
-	cd content/en/report/su21-reu-368; git checkout main; git pull
+	# cd content/en/report/su21-reu-367; git checkout main; git pull
+	# cd content/en/report/su21-reu-368; git checkout main; git pull
 	cd content/en/report/su21-reu-369; git checkout main; git pull
 	cd content/en/report/su21-reu-370; git checkout main; git pull
 	cd content/en/report/su21-reu-371; git checkout main; git pull
 	cd content/en/report/su21-reu-372; git checkout main; git pull
-	cd content/en/report/su21-reu-373; git checkout main; git pull
+	# cd content/en/report/su21-reu-373; git checkout main; git pull
 	cd content/en/report/su21-reu-374; git checkout main; git pull
 	cd content/en/report/su21-reu-375; git checkout main; git pull
 	cd content/en/report/su21-reu-376; git checkout main; git pull
 	cd content/en/report/su21-reu-377; git checkout main; git pull
 	cd content/en/report/su21-reu-378; git checkout main; git pull
-	cd content/en/report/su21-reu-379; git checkout main; git pull
+	# cd content/en/report/su21-reu-379; git checkout main; git pull
 
 
 # 316
