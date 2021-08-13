@@ -14,16 +14,16 @@ aliases:
 
 {{% /pageinfo %}}
 
-## Do I have to read every Piazza post?
+## Do I have to read every Slack post?
 
 Yes.
 
-There are very view posts in Piazza, typically much less than 10 per
+There are relatively few posts in Slack, typically much less than 10 per
 week. If you were taking a live class I am sure you get also 10+ tips
-and comments from the instructors. Piazza is a mechanism for us to
+and comments from the instructors. Slack is a mechanism for us to
 communicate to the entire online class.
 
-Use piazza to discuss things. You can also use it to discuss issues in
+Use SLack to discuss things. You can also use it to discuss issues in
 your projects with other class mates openly.
 
 ## I see something mssing or wrong in this FAQ. How can I correct or add it?
@@ -35,15 +35,7 @@ page and create a pull request with your changes:
 
 ## Where to get help?
 
-We often use the term TA instead of AI as AI in this class has a
-specific meaning related to class content. 
-
-TA hours are posted at
-
-* <https://piazza.com/class/kedccsbsthm5sc?cid=179>
-
-If a TA is not available during that time, you have the right to ask
-for an alternative time.
+Please use Slack.
 
 ## Do I have to work weekly on the project?
 
@@ -124,6 +116,8 @@ Her an example of an image file name that is wrong in many ways:
 
 * `project/images/THIS IS Gregor's Image.PNG`
 
+Images in reports must use the download link that is used in github as the link that you use to refer to it. If you see the word "blog" in it you have the wrong link. Take a look at our project example and carefully compare.
+
 Wrong because
 
 1. contains spaces contains
@@ -195,9 +189,7 @@ important for reports!
 
 They shall not use the word "I" in the report.
 
-see also: <https://piazza.com/class/kedccsbsthm5sc?cid=181>
-
-We do allow, however, the words *we*, *you*
+We do allow, however, the words *we*, *you*, or *the author*
 
 In general:
 
@@ -281,10 +273,30 @@ The reference section must be the last section in your report
 
 See, there is no space before the :
 
-see also https://piazza.com/class/kedccsbsthm5sc?cid=45
-
 Please make sure that different refernces are separated by an empty
 line.
+
+As with any class, you need to know what plagiarism is and how to avoid it. If you need more information, check out our notes in the book "Scientific Writing with Markdown". Make sure you know how to cite and use proper punctuation after the citation. E.g.
+
+This is a wrong citation. [1]
+
+[1] This is a wrong citation. 
+
+This is a correct citation [1].
+
+Note the position of the . and the [1]
+
+Also in most cases, we do not care who said what, while in Engilsh, business, or psychology you emphasize this leading often to complex sentences.
+
+Example:
+
+Once upon a time, there was a scientist called von Neuman that introduced a computing machine for weather predictions while being a researcher at Institute XYZ [1].
+
+Instead, it is often better to just write:
+
+Computers were used for weather prediction early on [1].
+
+Please note that there is quite a difference between these citation styles. Shorter is often better.
 
 ### Format of References
 
@@ -342,14 +354,6 @@ data when it is already downloaded. Python makes this easy with
 and not `urllib`. You can share the download function openly with each
 other. 
 
-In case of questions discuss on piazza.
-
-See also:
-
-* <https://piazza.com/class/kedccsbsthm5sc?cid=227>
-* <https://piazza.com/class/kedccsbsthm5sc?cid=142>
-
-
 ### Images from Programs
 
 You can create png files of graphics so you can include them in your
@@ -365,7 +369,9 @@ can use, examples are
 * seaborn
 * ...
 
-See also: <https://piazza.com/class/kedccsbsthm5sc?cid=226>
+See also: <https://cybertraining-dsc.github.io/report/fa20-523-305/project/project/>
+
+If you copy the image from somewhere, you must create a citation in the caption. If you did this figure yourself, you do not have to do that. See Plagiarism rules.
 
 
 ### Bechmark
@@ -373,7 +379,7 @@ See also: <https://piazza.com/class/kedccsbsthm5sc?cid=226>
 Your program must use cloudmesh benchmark. It includes a convenient
 StopWatch and benchmark print function. 
 
-see: <https://piazza.com/class/kedccsbsthm5sc?cid=103>
+see: <https://colab.research.google.com/drive/1tG7IcP-XMQiNVxU05yazKQYciQ9GpMat#scrollTo=TZAjATZiQh4q&uniqifier=1>
 
 
 ## Template Links
