@@ -15,7 +15,7 @@
     
     
     <item>
-      <title>Report: Dentronics: Artifical intelligence in Prosthodontics </title>
+      <title>Report: Dentronics: Artifical intelligence in Prosthodontics</title>
       <link>/report/su21-reu-376/project/</link>
       <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
       
@@ -64,9 +64,9 @@ The implant which are typically ribbed and threaded to promote stability while i
 &lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7494467/&#34;&gt;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7494467/&lt;/a&gt;
 &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0901502720302496&#34;&gt;https://www.sciencedirect.com/science/article/pii/S0901502720302496&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Implant stability can be measured using the Implant Stability Quotient (ISQ) as an indirect indicator to determine the time frame for implant loading and prognostic indicator for implant failure(1). This can be measured by resonance frequency analysis (RFA) immediately after the implant has been  placed. Resonance frequency analysis is the measurement in which a device vibrates in response to frequencies in the range of 5-15 kHz. The peak amplitude of the response is then encoded into the implant stability quotient (ISQ) .The clinical range of ISQ is from 55-80. High stability is &amp;gt;70 ISQ while medium stability is between 60-69 ISQ. Low stability is &amp;lt;60 ISQ.(2)
-&lt;img src=&#34;images/ISQ-Implant-Stability-GP-Implants-2.png&#34; alt=&#34;Implant Stability Quotient Chart&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-376/main/project/images/ISQ-Implant-Stability-GP-Implants-2.png&#34; alt=&#34;Implant Stability Quotient Chart&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;2-data-sets&#34;&gt;2. Data sets&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;images/Mean-IT-and-implant-stability-quotient-ISQ-in-different-bone-types-Both-IT-and-ISQ.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-376/main/project/images/Mean-IT-and-implant-stability-quotient-ISQ-in-different-bone-types-Both-IT-and-ISQ.png&#34; alt=&#34;Mean IT and Implant Stability Quotient&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Find data sets about effects about dentronics&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Identify the purpose of data sets&lt;/li&gt;
@@ -100,7 +100,9 @@ the download function.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Please add acknowledgments to all that contributed or helped on this project.&lt;/p&gt;
 &lt;h2 id=&#34;9-references&#34;&gt;9. References&lt;/h2&gt;
-&lt;p&gt;-[ ]  Your report must include at least 6 references. Please use customary academic citation and not                  just URLs. As we will at one point automatically change the references from superscript to square brackets it is best to introduce a space before the first square bracket.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Your report must include at least 6 references. Please use customary academic citation and not                  just URLs. As we will at one point automatically change the references from superscript to square brackets it is best to introduce a space before the first square bracket.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
