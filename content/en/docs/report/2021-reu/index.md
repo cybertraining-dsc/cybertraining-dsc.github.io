@@ -2,6 +2,7 @@
 title: "2021 REU Reports"
 linkTitle: "2021 REU Reports"
 weight: 21
+description: "Research Experience for under graduate reports for the SUmmer of 2021."
 menu:
   main: 
     weight: 1
