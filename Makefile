@@ -8,9 +8,6 @@ setup:
 example:
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/hid-example.git
 
-uuu:
-	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-379.git
-
 
 reu-add:
 	# cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-379.git

@@ -7,12 +7,6 @@
 [submodule "content/en/report/su21-reu-366"]
 	path = content/en/report/su21-reu-366
 	url = git@github.com:cybertraining-dsc/su21-reu-366.git
-[submodule "content/en/report/su21-reu-367"]
-	path = content/en/report/su21-reu-367
-	url = git@github.com:cybertraining-dsc/su21-reu-367.git
-[submodule "content/en/report/su21-reu-368"]
-	path = content/en/report/su21-reu-368
-	url = git@github.com:cybertraining-dsc/su21-reu-368.git
 [submodule "content/en/report/su21-reu-369"]
 	path = content/en/report/su21-reu-369
 	url = git@github.com:cybertraining-dsc/su21-reu-369.git
@@ -25,9 +19,6 @@
 [submodule "content/en/report/su21-reu-372"]
 	path = content/en/report/su21-reu-372
 	url = git@github.com:cybertraining-dsc/su21-reu-372.git
-[submodule "content/en/report/su21-reu-373"]
-	path = content/en/report/su21-reu-373
-	url = git@github.com:cybertraining-dsc/su21-reu-373.git
 [submodule "content/en/report/su21-reu-374"]
 	path = content/en/report/su21-reu-374
 	url = git@github.com:cybertraining-dsc/su21-reu-374.git
@@ -193,6 +184,3 @@
 [submodule "content/en/report/cloudmesh-openapi"]
 	path = content/en/report/cloudmesh-openapi
 	url = git@github.com:cloudmesh/cloudmesh-openapi.git
-[submodule "content/en/report/su21-reu-379"]
-	path = content/en/report/su21-reu-379
-	url = git@github.com:cybertraining-dsc/su21-reu-379.git
