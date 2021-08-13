@@ -13,18 +13,18 @@ uuu:
 
 
 reu-add:
-	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-379.git
+	# cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-379.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-378.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-377.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-376.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-366.git
-	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-367.git
-	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-368.git
+	# cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-367.git
+	# cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-368.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-369.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-370.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-371.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-372.git
-	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-373.git
+	# cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-373.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-374.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-375.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-360.git
