@@ -34,6 +34,7 @@ jobs:
             ${{ runner.os }}-node-
 
       - run: sudo npm install
+      - run: sudo npm install -g postcss-cli
       - run: sudo npm install -D postcss
       - run: hugo --minify
 
