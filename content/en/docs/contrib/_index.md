@@ -3,6 +3,7 @@
 title: "Contributing"
 linkTitle: "Contributing"
 weight: 100
+description: "Find out how to contribute to this effort."
 ---
 
 {{% pageinfo %}}
