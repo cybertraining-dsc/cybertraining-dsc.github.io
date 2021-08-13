@@ -2,7 +2,7 @@
 title: "Reports"
 linkTitle: "All"
 weight: 20
-description: "collection of reports from 2020 sorted by application topic"
+description: "Collection of reports from 2020 sorted by application topic"
 ---
 
 {{% pageinfo %}}
