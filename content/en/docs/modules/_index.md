@@ -2,6 +2,7 @@
 title: "Modules"
 linkTitle: "Modules"
 weight: 20
+description: "A list of modules that have been used in various classes and tutorials"
 aliases:
   - "/modules/"
 ---
