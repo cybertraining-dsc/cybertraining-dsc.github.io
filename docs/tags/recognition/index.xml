@@ -1,0 +1,142 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cybertraining – recognition</title>
+    <link>/tags/recognition/</link>
+    <description>Recent content in recognition on Cybertraining</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 16 Jun 2021 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/tags/recognition/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Report: Handwriting Recognition Using AI</title>
+      <link>/report/su21-reu-366/project/</link>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/report/su21-reu-366/project/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-366/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-366/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-366/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-366/workflows/Status/badge.svg&#34; alt=&#34;Status&#34;&gt;&lt;/a&gt;
+Status: final, Type: Report&lt;/p&gt;
+&lt;p&gt;Mikahla Reeves, &lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-366&#34;&gt;su21-reu-366&lt;/a&gt;, &lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-366/blob/main/project/index.md&#34;&gt;Edit&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;The first thing that comes to numerous minds when they hear &lt;em&gt;Handwriting Recognition&lt;/em&gt; is simply computers identifying handwriting,
+and that is correct. Handwriting Recognition is the ability of a computer to interpret handwritten input received from different sources.
+In the artificial intelligence world, handwriting recognition has become a very established area. Over the years, there have been many
+developments and applications made in this field. In this new age, Handwriting Recognition technologies can be used for the conversion of
+handwritten and/or printed text to speech for the blind, language translation, and for any field that requires handwritten reports to be
+converted to digital forms instantly.&lt;/p&gt;
+&lt;p&gt;This study investigates two of the approaches taken by researchers/developers to convert handwritten information to digital
+forms using (AI) Artificial Intelligence. These two deep learning approaches are the (CNN) Convolutional Neural Network and
+(LSTM) Long Short Term Memory. The CNN takes advantage of the spatial correlation in data, while LSTM makes predictions based on sequences of data.&lt;/p&gt;
+&lt;p&gt;Contents&lt;/p&gt;
+&lt;div class=&#34;toc&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#1-introduction&#34;&gt;1. Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#2-convolutional-neural-network-model&#34;&gt;2. Convolutional Neural Network Model&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#3-long-short-term-memory-model&#34;&gt;3. Long Short Term Memory Model&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#4-handwriting-recognition-using-cnn&#34;&gt;4. Handwriting Recognition using CNN&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#5-conclusion&#34;&gt;5. Conclusion&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#6-acknowledgments&#34;&gt;6. Acknowledgments&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#7-references&#34;&gt;7. References&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; handwriting recognition, optical character recognition, deep learning.&lt;/p&gt;
+&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;
+&lt;p&gt;Perhaps one of the most monumental things in this modern-day is how our devices can behave like brains. Our various devices can call mom, play our favorite song,
+and answer our questions by just a simple utterance of Siri or Alexa. These things are all possible because of what we call artificial intelligence. Artificial
+intelligence is a part of computer science that involves learning, problem-solving, and replication of human intelligence. When we hear of artificial intelligence,
+we often hear of machine learning as well. The reason for this is because machine learning also involves the use of human intelligence. Machine learning is the
+process of a program or system getting more capable over time &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. One example of machine learning at work is Netflix. Netflix is a streaming service that allows
+users to watch a variety of tv shows and movies, and it also falls under the category of a recommendation engine. Recommendation engines/applications like Netflix
+do not need to be explicitly programmed. However, their algorithms mine the data, identify patterns, and then the applications can make recommendations.&lt;/p&gt;
+&lt;p&gt;Now, what is handwriting recognition? Handwriting Recognition is a branch of (OCR) Optical Character Recognition. It is a technology that receives handwritten
+information from paper, images, and other items and interprets them into digital text in real-time &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. Handwriting recognition is a well-established area in the
+field of image processing. Over the last few years, developers have created handwriting recognition technology to convert written postal codes, addresses, math questions,
+essays, and many more types of written information into digital forms, thus making life easier for businesses and individuals. However, the development of handwriting
+recognition technology has been quite challenging.&lt;/p&gt;
+&lt;p&gt;One of the main challenges of handwriting recognition is accuracy, or in other words, the variability in data. There is a wide variety of handwriting styles, both good and bad,
+thus making it harder for developers to provide enough samples of what a specific character/integer looks like &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;. In handwriting recognition, the computer has to translate
+the handwriting into a format that it understands, and this is where Optical Character Recognition becomes useful. In OCR, the computer focuses on a character, compares it to
+characters in its database, then identifies what the letters are and fundamentally what the words are. Also, this is why deep learning algorithms like Convolutional Neural
+Networks and Long Short Term Memory exist. This study will highlight the impact each algorithm has on the development of handwriting recognition.&lt;/p&gt;
+&lt;h2 id=&#34;2-convolutional-neural-network-model&#34;&gt;2. Convolutional Neural Network Model&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-366/raw/main/project/images/CNN.jpg&#34; alt=&#34;Figure 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 1:&lt;/strong&gt;  Architecture of CNN for feature extraction &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;In this model, the &lt;em&gt;input image&lt;/em&gt; passes through two convolutional layers, two sub-sample layers, and a linear SVM (Support Vector Machine) that allows for the output
+which is a &lt;em&gt;class prediction&lt;/em&gt;. This class prediction leads to the editable text file.&lt;/p&gt;
+&lt;p&gt;Class prediction is a supervised learning method where the algorithm learns from samples with known class membership (training set) and establishes a
+prediction rule to classify new samples (test set). This method can be used, for instance, to predict cancer types using genomic expression profiling &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;3-long-short-term-memory-model&#34;&gt;3. Long Short Term Memory Model&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-366/raw/main/project/images/LSTM.jpg&#34; alt=&#34;Figure 2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 2:&lt;/strong&gt; Overview of the CNN-RNN hybrid network architecture &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;This model has a spacial transformer network, residual convolutional blocks, bidirectional LSTMs and the CTC loss (Connectionist Temporal Classification loss)
+which are all the processes the &lt;em&gt;input worded image&lt;/em&gt; has to pass through before the output which is a &lt;em&gt;label sequence&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Sequence labeling is a typical NLP task which assigns a class or label to each token in a given input sequence &lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;4-handwriting-recognition-using-cnn&#34;&gt;4. Handwriting Recognition using CNN&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-366/raw/main/project/images/HRS.png&#34; alt=&#34;Figure 3&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 3:&lt;/strong&gt; Flowchart of handwriting character recognition on form document using CNN &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;In the study, former developers created a system to recognize the handwriting characters on form document automatically and convert it into editable text.
+The system consists of four stages: get ROI (Region of Interest), pre-processing, segmentation and classification. In the getting ROI stage, according to
+the specified coordinates, the ROI is cropped. Next, each ROI goes through pre-processing. The pre-processing consists of bounding box removal using
+the eccentricity criteria, median filter, and bare open. The output image of the pre-processing stage will be segmented using the Connected Component
+Labeling (CCL) method. It aims to get an individual character&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;5-conclusion&#34;&gt;5. Conclusion&lt;/h2&gt;
+&lt;p&gt;In this study, we learned how to use synthetic data, domain-specific image normalization, and augmentation - to train an LSTM architecture&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;.
+Additionally, we learned how a CNN is a powerful feature extraction method when applied to extract the feature of the handwritten characters and
+linear SVM using L1 loss function and L2 regularization used as end classifier&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;For future research, we can focus on improving the CNN model to be able to better process information from images to create digital text.&lt;/p&gt;
+&lt;h2 id=&#34;6-acknowledgments&#34;&gt;6. Acknowledgments&lt;/h2&gt;
+&lt;p&gt;This paper would not have been possible without the exceptional support of Gregor von Laszewski, Carlos Theran, Yohn Jairo.
+Their constant guidance, enthusiasm, knowledge and encouragement have been a huge motivation to keep going and to complete this work.
+Thank you to Jacques Fleicher, for always making himself available to answer questions. Finally, thank you to Byron Greene
+and the Florida A&amp;amp;M University for providing this great opportunity for undergraduate students to do research.&lt;/p&gt;
+&lt;h2 id=&#34;7-references&#34;&gt;7. References&lt;/h2&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Brown, S., 2021. Machine learning, explained | MIT Sloan. [online] MIT Sloan. Available at: &lt;a href=&#34;https://mitsloan.mit.edu/ideas-made-to-matter/machine-learning-explained&#34;&gt;https://mitsloan.mit.edu/ideas-made-to-matter/machine-learning-explained&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Handwriting Recognition in 2021: In-depth Guide. (n.d.). &lt;a href=&#34;https://research.aimultiple.com/handwriting-recognition&#34;&gt;https://research.aimultiple.com/handwriting-recognition&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;ThinkAutomation. 2021. Why is handwriting recognition so difficult for AI? - ThinkAutomation. [online] Available at: &lt;a href=&#34;https://www.thinkautomation.com/bots-and-ai/why-is-handwriting-recognition-so-difficult-for-ai/&#34;&gt;https://www.thinkautomation.com/bots-and-ai/why-is-handwriting-recognition-so-difficult-for-ai/&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Darmatasia, and Mohamad Ivan Fanany. 2017. &amp;ldquo;Handwriting Recognition on Form Document Using Convolutional Neural Network and Support Vector Machines (CNN-SVM).&amp;rdquo; In 2017 5th International Conference on Information and Communication Technology (ICoIC7), 1–6.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;&amp;ldquo;Class Prediction (Predict Parameter Value).&amp;rdquo; NEBC: NERC Environmental Bioinformatics Centre. Silicon Genetics, 2002. &lt;a href=&#34;http://nebc.nerc.ac.uk/courses/GeneSpring/GS_Mar2006/Class%20Prediction.pdf&#34;&gt;http://nebc.nerc.ac.uk/courses/GeneSpring/GS_Mar2006/Class%20Prediction.pdf&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:6&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;K. Dutta, P. Krishnan, M. Mathew and C. V. Jawahar, &amp;ldquo;Improving CNN-RNN Hybrid Networks for Handwriting Recognition,&amp;rdquo; 2018 16th International Conference on Frontiers in Handwriting Recognition (ICFHR), 2018, pp. 80-85, doi: 10.1109/ICFHR-2018.2018.00023.&amp;#160;&lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:7&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Jacob. &amp;ldquo;Deep Text Representation for Sequence Labeling.&amp;rdquo; Medium. Mosaix, August 15, 2019. &lt;a href=&#34;https://medium.com/mosaix/deep-text-representation-for-sequence-labeling-2f2e605ed9d&#34;&gt;https://medium.com/mosaix/deep-text-representation-for-sequence-labeling-2f2e605ed9d&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

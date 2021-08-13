@@ -1,0 +1,95 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cybertraining – disadvantages&#34;</title>
+    <link>/tags/disadvantages/</link>
+    <description>Recent content in disadvantages&#34; on Cybertraining</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 16 Jun 2021 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/tags/disadvantages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Report: Project: Analyzing the Advantages and Disadvantages of Artificial Intelligence for Breast Cancer Detection in Women</title>
+      <link>/report/su21-reu-377/project/</link>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/report/su21-reu-377/project/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-377/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-377/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-377/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-377/workflows/Status/badge.svg&#34; alt=&#34;Status&#34;&gt;&lt;/a&gt;
+Status: draft, Type: Project&lt;/p&gt;
+&lt;p&gt;RonDaisja Dunn, &lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-377&#34;&gt;su21-reu-377&lt;/a&gt;, &lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-377/blob/main/project/index.md&#34;&gt;Edit&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;The AI system is improving its diagnostic accuracy by significantly decreasing unnecessary biopsies. AI&amp;rsquo;s algorithms for workflow improvement and outcome analyses are advancing. Although artificial intelligence can be beneficial to detecting and diagnosing breast cancer, there are some limitations to its techniques. The possibility of insufficient quality, quantity or appropriateness is possible. When compared to other imaging modalities, breast ultrasound screening offers numerous benefits, including a cheaper cost, the absence of ionizing radiation, and the ability to examine pictures in real time. Despite these benefits, reading breast ultrasound is a difficult process. Different characteristics, such as lesion size, shape, margin, echogenicity, posterior acoustic signals, and orientation, are used by radiologists to assess US pictures, which vary substantially across individuals. The development of AI systems for the automated detection of breast cancer using Ultrasound Screening pictures has been aided by recent breakthroughs in deep learning.&lt;/p&gt;
+&lt;p&gt;Contents&lt;/p&gt;
+&lt;div class=&#34;toc&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#1-introduction&#34;&gt;1. Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#2-methods-from-literature-review&#34;&gt;2. Methods From Literature Review&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#3-results-from-literature-review&#34;&gt;3. Results From Literature Review&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#4-datasets&#34;&gt;4. Datasets&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#5-conclusion&#34;&gt;5. Conclusion&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#6-acknowledgments&#34;&gt;6. Acknowledgments&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#7-references&#34;&gt;7. References&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; project, reu, breast cancer, Artificial Intelligence, diagnosis detection, women, early detection, advantages, disadvantages&lt;/p&gt;
+&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;
+&lt;p&gt;The leading cause of cancer death in women worldwide is breast cancer. This deadly form of cancer has impacted many women across the globe. Specifically, African American women have been the most negatively impacted. Their death rates due to breast cancer have surpassed all other ethnicities. Serial screening is an essential part in detecting Breast cancer. Detecting the early stages of this disease and decreasing mortality rates is most effective by utilizing serial screening. Some women detect that they could have breast cancer by discovering a painless lump in their breast. Other women began to detect that there may be a problem due to annual and bi-annual breast screenings. Screening in younger women is not likely, because breast cancer is most likely to be detected in older women. Women from the age 55 to 69 are likely to be diagnosed with breast cancer. Women who frequently participate in receiving mammograms reduce the chance of breast cancer mortality.&lt;/p&gt;
+&lt;p&gt;Artificial Intelligence is the branch of computer science dedicated to the development of computer algorithms to accomplish tasks traditionally associated with human intelligence, such as the ability to learn and solve problems. This branch of computer science coincides with diagnosing breast cancer in individuals because of the use of radiology. Radiological images can be quantitated and can inform and train some algorithms. There are many terms that relate to Artificial Intelligence such as artificial neural networks (ANNs), machine and deep learning (ML, DL). These techniques complete duties in healthcare, including radiology. Machine learning interprets pixel data and patterns from mammograms. Benign or malignant features for inputs are defined by microcalcifications. Deep learning is effective in breast imaging, where it can identify several features such as edges, textures, and lines. More intricate features such as organs, shapes, and lesions can also be detected. Neural networks algorithms are used for image feature extractions that cannot be detected beyond human recognition.&lt;/p&gt;
+&lt;p&gt;A computer system that can perform complicated data analysis and picture recognition tasks is known as artificial intelligence (AI). Both massive processing power and the application of deep learning techniques made this possible, and are increasingly being used in the medical field. Mammograms are the x-rays used to detect breast cancer in women. Early detection is important to reduce deaths, because that is when the cancer is most treatable. Screenings have presented a 15%-35% false report in screened women. Errors and the ability to view the cancer from the human eye are the reasons for the false reports. Artificial Intelligence offers many advantages when detecting breast cancer. These advantages include less false reports, fewer cases missed because the AI program does not get tired and it reduces the effort of reading thousands of mammograms.&lt;/p&gt;
+&lt;h2 id=&#34;2-methods-from-literature-review&#34;&gt;2. Methods From Literature Review&lt;/h2&gt;
+&lt;p&gt;The goal was to emphasize the present data in terms of test accuracy and clinical utility results, as well as any gaps in the evidence. Women are screened by getting photos taken of each breast from different views. Two readers are assigned to interpret the photographs in a sequential order. Each reader decides whether the photograph is normal or whether a woman should be recalled for further examination. Arbitration is used when there is a disagreement. If a woman is recalled, she will be offered extra testing to see if she has cancer.&lt;/p&gt;
+&lt;p&gt;Another goal is to detect cancer at an earlier stage during screening so that therapy can be more successful. Some malignancies found during screening, on the other hand, might never have given the woman symptoms. Overdiagnosis is a term used to describe a situation in which a person has caused harm to another person during their lifetime. As a result, overtreatment (unnecessary treatment) occurs. Since some malignancies are overlooked during screening, the women are misled.&lt;/p&gt;
+&lt;p&gt;The methods in diagnostic procedures vary between radiologists and Artificial Intelligence networks. In a breast ultrasound exam, radiologists look for abnormal abnormalities in each image, while AI networks analyze each image in an exam that is processed separately using a ResNet-18 model, and a saliency map is generated, identifying the most essential sections. With radiologists, the focus is on photos with abnormal lesions and with AI networks the image is given an attention score based on its relative value. To make a final diagnosis, radiologists consider signals in all photos, and AI computes final predictions for benign and malignant results by combining information from all photos using an attention technique.&lt;/p&gt;
+&lt;h2 id=&#34;3-results-from-literature-review&#34;&gt;3. Results From Literature Review&lt;/h2&gt;
+&lt;p&gt;Using pathology data, each breast in an exam was given a label indicating the presence of cancer. Image-guided biopsy or surgical excision were used to collect tissues for pathological tests. The AI system was shown to perform comparably to board-certified breast radiologists in the reader study subgroup. In this reader research, the AI system detected tumors with the same sensitivity as radiologists, but with greater specificity, a higher PPV, and a lower biopsy rate. Furthermore, the AI system outperformed all ten radiologists in terms of AUROC and AUPRC. This pattern was replicated in the subgroup study, which revealed that the algorithm could correctly interpret Ultrasound Screening examinations that radiologists considered challenging.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-377/raw/main/project/images/IMG_9446.jpg&#34; alt=&#34;Figure 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 1:&lt;/strong&gt; Analysis of saliency maps on a qualitative level- This figure displays the sagittal and transverse views of the lesion (left) and the AI&amp;rsquo;s saliency maps indicating the anticipated sites of benign (center) and malignant (right) findings in each of the six instances (a-f) from the reader study.&lt;/p&gt;
+&lt;h2 id=&#34;4-datasets&#34;&gt;4. Datasets&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-377/main/project/images/Dataset%20Image.png&#34; alt=&#34;Figure 2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 2:&lt;/strong&gt; The probabilistic forecasts of each hybrid model were randomly divided to fit the reader&amp;rsquo;s sensitivity. The dichotomization of the AI&amp;rsquo;s predictions matches the sensitivity of the average radiologists. Readers&#39; AUROC, AUPRC, specificity, and PPV improve as a result of the collaboration between AI and readers, whereas biopsy rates decrease.&lt;/p&gt;
+&lt;h2 id=&#34;5-conclusion&#34;&gt;5. Conclusion&lt;/h2&gt;
+&lt;p&gt;There are some benefits of AI help with mammogram screenings. The reduction in treatment expenses is one of the advantages of screening. Treatment for people who are diagnosed sooner is less invasive and expensive, which may lessen patient anxiety and improve their prognosis. One or all human readers could be replaced by AI. AI may be used to pre-screen photos, with only the most aggressive ones being reviewed by humans. AI could be employed as a reader aid, with the human reader relying on the AI system for guidance during the reading process.&lt;/p&gt;
+&lt;p&gt;However, there is also fear that AI could discover changes that would never hurt women. Because the adoption of AI systems will alter the current screening program, it&amp;rsquo;s crucial to determine how accurate AI is in breast screening clinical practice before making any changes. It&amp;rsquo;s uncertain how effective AI is at detecting breast cancer in different sorts of women or in different groups of women (for example different ethnic groups). AI could significantly minimize staff workload, as well as the proportion of cancers overlooked during screening, and the amount of women who are asked to return for more tests despite the fact that they do not have cancer. According to the findings of the reader survey, such teamwork between AI systems and radiologists increases diagnosis accuracy and decreases false positive biopsies for all 10 radiologists. This research indicated that integrating the Artificial intelligence system&amp;rsquo;s predictions enhanced the performance of all readers.&lt;/p&gt;
+&lt;h2 id=&#34;6-acknowledgments&#34;&gt;6. Acknowledgments&lt;/h2&gt;
+&lt;p&gt;Thank you to the extremely intellectual, informative, patient and courteous instructors of the Research Experience for Undergraduates Program.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Carlos Theran, REU Instructor&lt;/li&gt;
+&lt;li&gt;Yohn Jairo Parra, REU Instructor&lt;/li&gt;
+&lt;li&gt;Gregor von Laszewski, REU Instructor&lt;/li&gt;
+&lt;li&gt;Victor Adankai, Graduate Student&lt;/li&gt;
+&lt;li&gt;REU Peers&lt;/li&gt;
+&lt;li&gt;Florida Agricultural and Mechanical University&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;7-references&#34;&gt;7. References&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Coleman C. Early Detection and Screening for Breast Cancer. Semin Oncol Nurs. 2017 May;33(2):141-155. doi: 10.1016/j.soncn.2017.02.009. Epub 2017 Mar 29. PMID: 28365057&lt;/li&gt;
+&lt;li&gt;Freeman, K., Geppert, J., Stinton, C., Todkill, D., Johnson, S., Clarke, A., &amp;amp; Taylor-Phillips, S. (2021, May 10). Use of Artificial Intelligence for Image Analysis in Breast Cancer Screening. &lt;a href=&#34;https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/987021/AI_in_BSP_Rapid_review_consultation_2021.pdf&#34;&gt;https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/987021/AI_in_BSP_Rapid_review_consultation_2021.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Li, J., Zhou, Z., Dong, J., Fu, Y., Li, Y., Luan, Z., &amp;amp; Peng, X. (2021). Predicting breast cancer 5-year survival using machine learning: A systematic review. PloS one, 16(4), e0250370.&lt;/li&gt;
+&lt;li&gt;Mendelsonm,  Ellen B., Artificial Intelligence in Breast Imaging: Potentials and Limitations. American Journal of Roentgenology 2019 212:2, 293-299&lt;/li&gt;
+&lt;li&gt;Seely, J. M., &amp;amp; Alhassan, T. (2018). Screening for breast cancer in 2018-what should we be doing today?. Current oncology (Toronto, Ont.), 25(Suppl 1), S115–S124.&lt;/li&gt;
+&lt;li&gt;Shamout, F. E., Shen, A., Witowski, J., Oliver, J., &amp;amp; Geras, K. (2021, June 24). Improving Breast Cancer Detection in Ultrasound Imaging Using AI. NVIDIA Developer Blog. &lt;a href=&#34;https://developer.nvidia.com/blog/improving-breast-cancer-detection-in-ultrasound-imaging-using-ai/&#34;&gt;https://developer.nvidia.com/blog/improving-breast-cancer-detection-in-ultrasound-imaging-using-ai/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
