@@ -48,6 +48,14 @@ home = [ "HTML" ]
 page = [ "HTML" ]
 section = [ "HTML", "RSS", "print"]
 
+[outputFormats]
+[outputFormats.PRINT]
+baseName = "index"
+isHTML = true
+mediaType = "text/html"
+path = "printview"
+permalinkable = false
+
 ## Configuration for BlackFriday markdown parser: https://github.com/russross/blackfriday
 [blackfriday]
 plainIDAnchors = true
