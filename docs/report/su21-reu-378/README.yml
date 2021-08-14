@@ -1,12 +1,12 @@
 ---
 owner:
-  firstname: "Saunders"
-  lastname: "Myra"
+  firstname: "Myra"
+  lastname: "Saunders"
   hid: "su21-reu-378"
-  community: "599"
+  community: "reu"
   semester: "sp21"
 project:
-  title: Detection of Autism Spectrum Disorder with a Facial Image Analysis using AI
-  url: https://github.com/cybertraining-dsc/su21-reu-378/blob/main/project/index.md
+  title: "Detection of Autism Spectrum Disorder with a Facial Image using Artificial Intelligence"
+  url: "ttps://github.com/cybertraining-dsc/su21-reu-378/blob/main/project/index.md"
   author:
-    - Myra Saunders, su21-reu-378
+    - su21-reu-378

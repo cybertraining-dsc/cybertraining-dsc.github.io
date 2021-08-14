@@ -15,7 +15,7 @@
     
     
     <item>
-      <title>Report: Dentronics: Artifical intelligence in Prosthodontics</title>
+      <title>Report: Dentronics: Classifying Dental Implant Systems by using Automated Deep Learning </title>
       <link>/report/su21-reu-376/project/</link>
       <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
       
@@ -38,7 +38,9 @@ Status: draft, Type: Project&lt;/p&gt;
   &lt;ul&gt;
     &lt;li&gt;&lt;a href=&#34;#1-introduction&#34;&gt;1. Introduction&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#2-data-sets&#34;&gt;2. Data sets&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#3-using-images&#34;&gt;3. Using Images&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#21-dental-implant-classification&#34;&gt;2.1 Dental implant classification&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#22-deep-convulutional-neural-network&#34;&gt;2.2 Deep Convulutional Neural Network&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#3-results&#34;&gt;3. Results&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#5-example-of-an-ai-algorithm-in-dentronics&#34;&gt;5. Example of an AI algorithm in Dentronics&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#6-benchmark&#34;&gt;6. Benchmark&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#7-conclusion&#34;&gt;7. Conclusion&lt;/a&gt;&lt;/li&gt;
@@ -50,23 +52,30 @@ Status: draft, Type: Project&lt;/p&gt;
 
 &lt;/div&gt;
 
-&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; Dental implants, implant stability, prosthodotics.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; Dental implants, Deep Learning, Prosthodontics, Implant classificiation, Artificial Intelligence, Neural Networks.&lt;/p&gt;
 &lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;
-&lt;p&gt;{https://www.drkarras.com/a-look-at-the-structure-of-dental-implants/}
-&lt;a href=&#34;https://www.infodentis.com/dental-implants/abutment.php&#34;&gt;https://www.infodentis.com/dental-implants/abutment.php&lt;/a&gt;
-Dental implants are  ribbed oral protheses typically made up of biocompatible titanium to replace the missing root(s) of an absent tooth.
-{1} These dental protheses are used to support the jaw bone to prevent deterioration due to an absent root. This is referred to as bone resorption which can result to facial malformation as well as reduced oral function such as biting and chewing. These devices are composed of three elements that imitate a natural tooth function and structure.
-The implant which are typically ribbed and threaded to promote stability while integrating within the bone tissue. The osseointegration process usually takes 6-8 months to rebuild the bone to support the implant. An implant abutment is fixed on top of the implant to act as a base for prosthetic devices. (2) Prefabricated abutments are manufactured in many shapes, sizes and angles depending on the location of the implant and the types of prothesis that will be attached. Dental abutments support a range of prothetic devices such as dental crowns, bridges, and dentures.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5268121/&#34;&gt;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5268121/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7494467/&#34;&gt;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7494467/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5480808/&#34;&gt;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5480808/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Dental implants are  ribbed oral protheses typically made up of biocompatible titanium to replace the missing root(s) of an absent tooth. {1} These dental protheses are used to support the jaw bone to prevent deterioration due to an absent root. This is referred to as bone resorption which can result to facial malformation as well as reduced oral function such as biting and chewing. These devices are composed of three elements that imitates a natural tooth function and structure.The implant which are typically ribbed and threaded to promote stability while integrating within the bone tissue. The osseointegration process usually takes 6-8 months to rebuild the bone to support the implant. An implant abutment is fixed on top of the implant to act as a base for prosthetic devices. (2) Prefabricated abutments are manufactured in many shapes, sizes and angles depending on the location of the implant and the types of prothesis that will be attached. Dental abutments support a range of prothetic devices such as dental crowns, bridges, and dentures.&lt;/p&gt;
 &lt;p&gt;Osseointegrated dental implants depend on various factors that affect the anchorage of the  implant to the bone tissue. Successful surgical anchoring techniques can contribute to long term success of implant stability. Primary stability plays a role 2 week postoperatively by achieving mechanical retention of the implant.   It helps establish a mechanical microenvironment for gradual bone healing, or osseointegration-This is secondary implant stability. {2} Bone type, implant length, implant and diameter influences primary and secondary implant stability. Implant length can range from 6mm to 20mm; however, the most common lengths are between 8mm to 15mm. Many studies suggest that implant length contribute to decreasing bone stress and increasing implant stability. Bone stress can occur at both the cortical and cancellous part of the bone. Increasing implant length will decrease stress in the cancellous part of the bone while increasing the implant diameter can decrease  stress in the cortical part of the bone. Bone type can promote positive bone stimulation around an implant improving the overall function. There are four different types: Type I, Type II, Type III, and Type IV. Type I is the most dense of them which provides more cortical anchorage but has limited vascularity. Type II is the best for osseointegration because it provides good cortical anchorage and has better vascularity than type I. Type III and IV have a thin layer of cortical bone which decrease the success rate of primary stability{3).&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7494467/&#34;&gt;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7494467/&lt;/a&gt;
-&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0901502720302496&#34;&gt;https://www.sciencedirect.com/science/article/pii/S0901502720302496&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Implant stability can be measured using the Implant Stability Quotient (ISQ) as an indirect indicator to determine the time frame for implant loading and prognostic indicator for implant failure(1). This can be measured by resonance frequency analysis (RFA) immediately after the implant has been  placed. Resonance frequency analysis is the measurement in which a device vibrates in response to frequencies in the range of 5-15 kHz. The peak amplitude of the response is then encoded into the implant stability quotient (ISQ) .The clinical range of ISQ is from 55-80. High stability is &amp;gt;70 ISQ while medium stability is between 60-69 ISQ. Low stability is &amp;lt;60 ISQ.(2)
-&lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-376/main/project/images/ISQ-Implant-Stability-GP-Implants-2.png&#34; alt=&#34;Implant Stability Quotient Chart&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Implant stability can be measured using the Implant Stability Quotient (ISQ) as an indirect indicator to determine the time frame for implant loading and prognostic indicator for implant failure(1). This can be measured by resonance frequency analysis (RFA) immediately after the implant has been  placed. Resonance frequency analysis is the measurement in which a device vibrates in response to frequencies in the range of 5-15 kHz. The peak amplitude of the response is then encoded into the implant stability quotient (ISQ) .The clinical range of ISQ is from 55-80. High stability is &amp;gt;70 ISQ while medium stability is between 60-69 ISQ. Low stability is &amp;lt;60 ISQ.(2)&lt;/p&gt;
+&lt;p&gt;There are over 2000 types of  dental implant systems (DIS) that differs in diameter, length, shape, coating, and surface material properties. These devices have more than a 90% long termed survival rate which ranges more than 10 years. Inevitably, biological and mechanical complications such as fractures, low implant stability, and screw loosening can occur. Therefore, identifying the correct Dental Implant System is essential to repair or replace  the existing system. Methods and techniques that enables clear identification is insufficient.&lt;/p&gt;
+&lt;p&gt;Artificial intelligence is a branch of computer science that focuses on building and programming machines to think like humans and mimic their actions. A deep convolutional neural network (DCNN) is a brach of artificial intelligence that applies multiple layers of nonlinear processing units for feature extraction, transformation, and classification of high dimensional datasets. Deep convolutional neural networks are commonly used to identify patterns in images and videos.  The structure typically consist of four types of layers: convolution, pooling, activation, and fully connected. These neural networks use images as an input to train a classifier which employs a mathematical operation called a convolution. Deep neural networks have been successfully applied in the dental field and demonstrated advantages in terms of diagnosis and prognosis. Using automated deep convolutional neural networks is highly efficient in classifying different dental implant systems compared to most dental professionals.&lt;/p&gt;
 &lt;h2 id=&#34;2-data-sets&#34;&gt;2. Data sets&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-376/main/project/images/Mean-IT-and-implant-stability-quotient-ISQ-in-different-bone-types-Both-IT-and-ISQ.png&#34; alt=&#34;Mean IT and Implant Stability Quotient&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Researchers at Daejon Dental Hospital used automated deep convolutional neural networks to evaluate the efficacy of its ability to classify dental implant systems and compare the performance with dental professionals using radiographic images.&lt;/p&gt;
+&lt;p&gt;11,980 raw panoramic and periapical radiographic images of dental implant systems were collected. these images were then randomly divided into 2 groups: 9584 (80%) images were selected for the training dataset and the remaining 2396 (20%) images were used as the testing dataset.&lt;/p&gt;
+&lt;h2 id=&#34;21-dental-implant-classification&#34;&gt;2.1 Dental implant classification&lt;/h2&gt;
+&lt;p&gt;Dental implant systems were classified into six different types with a diameter of 3.3-5.0mm and a length of 7-13mm.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Astra OsseoSpeed® TX (Dentsply IH AB, Molndal, Sweden), with a diameter of 4.5–5.0 mm and a length of 9–13 mm;  &lt;/li&gt;
+&lt;li&gt;Implantium® (Dentium, Seoul, Korea), with a diameter of 3.6–5.0 mm and a length of 8–12 mm;  &lt;/li&gt;
+&lt;li&gt;Superline® (Dentium, Seoul, Korea), with a diameter of 3.6–5.0 mm and a length of 8–12 mm;  &lt;/li&gt;
+&lt;li&gt;TSIII® (Osstem, Seoul, Korea), with a diameter of 3.5–5.0 mm and a length of 7–13 mm;  &lt;/li&gt;
+&lt;li&gt;SLActive® BL (Institut Straumann AG, Basel, Switzerland), with a diameter of 3.3–4.8 mm and a  length of 8–12 mm;&lt;/li&gt;
+&lt;li&gt;SLActive® BLT (Institut Straumann AG, Basel, Switzerland), with a diameter of 3.3–4.8 mm and a  length of 8–12 mm.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;22-deep-convulutional-neural-network&#34;&gt;2.2 Deep Convulutional Neural Network&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;images/DCNN.png&#34; alt=&#34;&#34;&gt;
+Figure 1: Overview of an automated deep convolutional neural network. Using Neuro-T to automatically select the model and optimize hyper-parameter. During training and inference, the automated DCNN automatically creates effective deep learning models and searches the optimal hyperparameters. An Adam optimizer with L2 regularization was
+used for transfer learning. The batch size was set to 432, and the automated DCNN architecture  consisted of 18 layers with no dropout.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Find data sets about effects about dentronics&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Identify the purpose of data sets&lt;/li&gt;
@@ -75,7 +84,9 @@ The implant which are typically ribbed and threaded to promote stability while i
 Write it using pythons &lt;code&gt;request&lt;/code&gt;. You will get point deductions if you check-in data sets that are large and do not use
 the download function.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;3-using-images&#34;&gt;3. Using Images&lt;/h2&gt;
+&lt;h2 id=&#34;3-results&#34;&gt;3. Results&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;images/results.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/results2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Place a cool image into projects images in my directory&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Correct the following, replace the fa number with my su number and the chart of png&lt;/li&gt;
