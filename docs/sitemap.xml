@@ -738,6 +738,11 @@
   </url>
   
   <url>
+    <loc>https://www.docsy.dev/docs/tutorial/reu/</loc>
+    <lastmod>2021-08-15T08:24:55-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.docsy.dev/docs/tutorial/</loc>
     <lastmod>2021-08-13T08:31:16-04:00</lastmod>
   </url>
@@ -808,6 +813,11 @@
   </url>
   
   <url>
+    <loc>https://www.docsy.dev/docs/pub/</loc>
+    <lastmod>2021-08-15T10:48:35-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.docsy.dev/docs/modules/bigdataapplications/2019/applications/</loc>
     <lastmod>2021-06-17T19:37:44-04:00</lastmod>
   </url>
@@ -815,6 +825,56 @@
   <url>
     <loc>https://www.docsy.dev/docs/modules/bigdataapplications/2019/tech/</loc>
     <lastmod>2021-06-16T11:19:16-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/docs/tutorial/reu/pycharm/</loc>
+    <lastmod>2021-08-15T08:24:55-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/tags/git/</loc>
+    <lastmod>2021-08-15T08:24:55-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/tags/git-bash/</loc>
+    <lastmod>2021-08-15T08:24:55-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/docs/tutorial/reu/github/git/</loc>
+    <lastmod>2021-08-15T08:24:55-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/tags/pycharm/</loc>
+    <lastmod>2021-08-15T08:24:55-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/docs/tutorial/reu/github/images/</loc>
+    <lastmod>2021-08-15T08:24:55-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/tags/reu/</loc>
+    <lastmod>2021-08-15T08:24:55-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/tags/</loc>
+    <lastmod>2021-08-15T08:24:55-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/tags/tutorial/</loc>
+    <lastmod>2021-08-15T08:24:55-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/tags/colab/</loc>
+    <lastmod>2021-08-15T08:24:55-04:00</lastmod>
   </url>
   
   <url>
@@ -828,22 +888,12 @@
   </url>
   
   <url>
-    <loc>https://www.docsy.dev/tags/reu/</loc>
-    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+    <loc>https://www.docsy.dev/docs/tutorial/reu/colab/</loc>
+    <lastmod>2021-08-15T08:24:55-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.docsy.dev/tags/</loc>
-    <lastmod>2021-08-13T08:00:27-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.docsy.dev/tags/tutorial/</loc>
-    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.docsy.dev/report/su21-reu-361/tutorials/colab/</loc>
+    <loc>https://www.docsy.dev/report/su21-reu-361/deprecated/colab/</loc>
     <lastmod>2021-07-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -854,7 +904,7 @@
   
   <url>
     <loc>https://www.docsy.dev/tags/ssh/</loc>
-    <lastmod>2021-07-19T15:44:21-04:00</lastmod>
+    <lastmod>2021-08-15T08:24:55-04:00</lastmod>
   </url>
   
   <url>
@@ -863,8 +913,8 @@
   </url>
   
   <url>
-    <loc>https://www.docsy.dev/tags/pycharm/</loc>
-    <lastmod>2021-07-17T17:54:43-04:00</lastmod>
+    <loc>https://www.docsy.dev/docs/tutorial/reu/github/ssh/</loc>
+    <lastmod>2021-08-15T08:24:55-04:00</lastmod>
   </url>
   
   <url>
@@ -878,18 +928,28 @@
   </url>
   
   <url>
-    <loc>https://www.docsy.dev/report/su21-reu-361/tutorials/pycharm/</loc>
+    <loc>https://www.docsy.dev/report/su21-reu-361/deprecated/pycharm/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.docsy.dev/report/su21-reu-361/tutorials/github/</loc>
+    <loc>https://www.docsy.dev/report/su21-reu-361/deprecated/github/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.docsy.dev/report/su21-reu-361/tutorials/python/</loc>
+    <loc>https://www.docsy.dev/docs/tutorial/reu/python/</loc>
+    <lastmod>2021-08-15T08:24:55-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/report/su21-reu-361/deprecated/python/</loc>
     <lastmod>2021-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/tags/python/</loc>
+    <lastmod>2021-08-15T08:24:55-04:00</lastmod>
   </url>
   
   <url>
@@ -1048,7 +1108,12 @@
   </url>
   
   <url>
-    <loc>https://www.docsy.dev/report/su21-reu-361/tutorials/visual-studio-code/</loc>
+    <loc>https://www.docsy.dev/docs/tutorial/reu/visual-studio-code/</loc>
+    <lastmod>2021-08-15T08:24:55-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.docsy.dev/report/su21-reu-361/deprecated/visual-studio-code/</loc>
     <lastmod>2021-06-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -1265,11 +1330,6 @@
   <url>
     <loc>https://www.docsy.dev/report/fa20-523-315/report/report/</loc>
     <lastmod>2021-03-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.docsy.dev/tags/git/</loc>
-    <lastmod>2021-06-17T19:37:44-04:00</lastmod>
   </url>
   
   <url>
@@ -1839,7 +1899,7 @@
   </url>
   
   <url>
-    <loc>https://www.docsy.dev/report/su21-reu-361/tutorials/readme/</loc>
+    <loc>https://www.docsy.dev/report/su21-reu-361/deprecated/readme/</loc>
   </url>
   
   <url>
@@ -1983,11 +2043,6 @@
   
   <url>
     <loc>https://www.docsy.dev/projects/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.docsy.dev/tags/python/</loc>
-    <lastmod>2021-06-21T12:57:12-04:00</lastmod>
   </url>
   
   <url>

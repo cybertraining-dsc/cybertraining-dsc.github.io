@@ -1,0 +1,93 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cybertraining – git bash</title>
+    <link>/tags/git-bash/</link>
+    <description>Recent content in git bash on Cybertraining</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 15 Aug 2021 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/tags/git-bash/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Installing Git Bash on Windows 10</title>
+      <link>/docs/tutorial/reu/github/git/</link>
+      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/tutorial/reu/github/git/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;This tutorial teaches how to install Git and Git Bash.&lt;/p&gt;
+&lt;p&gt;Contents&lt;/p&gt;
+&lt;div class=&#34;toc&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#windows&#34;&gt;Windows&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; git&lt;/p&gt;
+&lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
+&lt;p&gt;Click the following image to be redirected to a YouTube video tutorial for installing Git and Git Bash. This same video also includes instructions to create a virtual Python environment, which you can do as well.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/HCotEx_xCfA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;To verify whether you have Git, you can press &lt;code&gt;Win + R&lt;/code&gt; on your desktop, type &lt;code&gt;cmd&lt;/code&gt;, and press &lt;code&gt;Enter&lt;/code&gt;. Then type &lt;code&gt;git clone&lt;/code&gt; and press &lt;code&gt;Enter&lt;/code&gt;. If you do not have Git installed, it will say &lt;code&gt;&#39;git&#39; is not recognized as an internal or external command...&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;As long as Git does not change up their website and hyperlinks, you should be able to download Git from here and skip to step 2: &lt;a href=&#34;https://git-scm.com/downloads&#34;&gt;https://git-scm.com/downloads&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open a web browser and search &lt;code&gt;git&lt;/code&gt;. Look for the result that is from &lt;code&gt;git-scm.com&lt;/code&gt; and click Downloads.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;code&gt;Download for Windows&lt;/code&gt;. The download will commence. Please open the file once it is finished downloading.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The UAC Prompt will appear. Click &lt;code&gt;Yes&lt;/code&gt; because Git is a safe program. It will show you Git&amp;rsquo;s license: a GNU General Public License. Click &lt;code&gt;Next&lt;/code&gt;.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The GNU General Public License means that the program is open-source (free of charge).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;code&gt;Next&lt;/code&gt; to confirm that &lt;code&gt;C:\Program Files\Git&lt;/code&gt; is the directory where you want Git to be installed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;code&gt;Next&lt;/code&gt; unless you would like an icon for Git on the desktop (in which case you can check the box and then click &lt;code&gt;Next&lt;/code&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You will be askes several questions for the setup. We recommend the following settings:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Click &lt;code&gt;Next&lt;/code&gt; to accept the text editor,&lt;/li&gt;
+&lt;li&gt;Click &lt;code&gt;Next&lt;/code&gt; again to Let Git decide the default branch name&lt;/li&gt;
+&lt;li&gt;Click &lt;code&gt;Next&lt;/code&gt; again to run Git from the command line and 3rd party software,&lt;/li&gt;
+&lt;li&gt;Click &lt;code&gt;Next&lt;/code&gt; again to use the OpenSSL library&lt;/li&gt;
+&lt;li&gt;Click &lt;code&gt;Next&lt;/code&gt; again to checkout Windows-style,&lt;/li&gt;
+&lt;li&gt;Click &lt;code&gt;Next&lt;/code&gt; again to use MinTTY,&lt;/li&gt;
+&lt;li&gt;Click &lt;code&gt;Next&lt;/code&gt; again to use the default git pull,&lt;/li&gt;
+&lt;li&gt;Click &lt;code&gt;Next&lt;/code&gt; again to use the Git Credential Manager Core,&lt;/li&gt;
+&lt;li&gt;Click &lt;code&gt;Next&lt;/code&gt; again to enable file system caching, and then&lt;/li&gt;
+&lt;li&gt;Click &lt;code&gt;Install&lt;/code&gt; because we do not need experimental features.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The progress bar should not take too long to finish. To test if it is installed, you can search for &lt;code&gt;Git Bash&lt;/code&gt; in the Windows search now to run it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

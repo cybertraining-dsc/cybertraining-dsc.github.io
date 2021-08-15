@@ -109,5 +109,77 @@ $ ssh-add
       </description>
     </item>
     
+    <item>
+      <title>Docs: Adding SSH Keys for a GitHub Repository</title>
+      <link>/docs/tutorial/reu/github/ssh/</link>
+      <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/tutorial/reu/github/ssh/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;This tutorial teaches how to configure an SSH Key on GitHub so that you can clone, commit, pull, and push to repositories (repos).&lt;/p&gt;
+&lt;p&gt;Contents&lt;/p&gt;
+&lt;div class=&#34;toc&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#windows&#34;&gt;Windows&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; ssh&lt;/p&gt;
+&lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
+&lt;p&gt;Please ensure that you have Git (Git Bash) and a repository on GitHub. This tutorial was created with the REU program in mind, where the students are provided with a GitHub repository. If you are not in REU, then you can create a new repository on GitHub and clone that instead.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open Git Bash by pressing the Windows key, typing &lt;code&gt;git bash&lt;/code&gt;, and pressing Enter.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Then, go on GitHub, click on your profile icon in the top right, click &lt;code&gt;Settings&lt;/code&gt;, and click &lt;code&gt;SSH and GPG keys&lt;/code&gt; on the left hand side. Confirm that there are no SSH keys associated with your account. If there are keys, then perhaps you have made some already. This tutorial focuses on creating a new one.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Go back to Git Bash and type &lt;code&gt;ssh-keygen&lt;/code&gt;. Press &lt;code&gt;Enter&lt;/code&gt;. Press &lt;code&gt;Enter&lt;/code&gt; again when it asks you the file in which to save the key (it should say &lt;code&gt;Enter file in which to save the key (/c/Users/USERNAME/.ssh/id_rsa):&lt;/code&gt;.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;If you have already created a key here, it will ask you if you would like to overwrite the file. Type &lt;code&gt;y&lt;/code&gt; and press &lt;code&gt;Enter&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Enter a password that you will remember for your SSH key. It will not appear as you type it, so make sure you get it right the first time. Press &lt;code&gt;Enter&lt;/code&gt; after typing the password that you come up with.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;After seeing the randomart image associated with your SSH, you should be able to type a new command. Type &lt;code&gt;cat ~/.ssh/id_rsa.pub&lt;/code&gt; and press &lt;code&gt;Enter&lt;/code&gt;. Your key will appear— remember that this should not be shared with others. The key begins with &lt;code&gt;ssh-rsa&lt;/code&gt; and it may end with your username. Copy this entire key by clicking and dragging over it, right-clicking, and clicking &lt;code&gt;Copy&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Return to your web browser which is on the GitHub SSH key settings page. Click the green button that reads &lt;code&gt;New SSH Key&lt;/code&gt; and type a Title for this key. You should name it something memorable and distinct; for example, if you just generated the key on your desktop computer, a suitable name is &lt;code&gt;Desktop&lt;/code&gt;. If generated on your laptop, name it &lt;code&gt;Laptop&lt;/code&gt;, or if you have numerous laptops, differentiate them with distinct names, and so on.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;If you only have one computer and you have preexisting keys on this page, maybe some which you do not remember the password to or have fallen out of use, consider deleting them (as long as you are sure this will not break anything).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Paste the key into the key box. You should have copied it from Git Bash in Step #5. Then, click the green button that reads &lt;code&gt;Add SSH key&lt;/code&gt;. Congratulations— you have successfully configured your SSH key. Now we will try cloning your REU repository.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Navigate to your repository. It should be in the cybertraining-dsc directory with a name format of &lt;code&gt;xxxx-reu-xxx&lt;/code&gt;. Once you are on that page, click the green button that reads &lt;code&gt;Code&lt;/code&gt; with a download symbol. Click the &lt;code&gt;SSH&lt;/code&gt; option and click on the clipboard next to the link so that you copy it. It should say &lt;code&gt;Copied!&lt;/code&gt; after you click on it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Decide where you want your repository folder to be stored. This tutorial will clone the repo into the Documents folder. Go back to Git Bash and type &lt;code&gt;cd ~/Documents&lt;/code&gt; and press &lt;code&gt;Enter&lt;/code&gt;. It is a good idea to create a folder titled &lt;code&gt;reu&lt;/code&gt; for organization. Type &lt;code&gt;mkdir reu&lt;/code&gt; and press &lt;code&gt;Enter&lt;/code&gt;. Type &lt;code&gt;cd reu&lt;/code&gt; and press &lt;code&gt;Enter&lt;/code&gt;. Finally, type &lt;code&gt;git clone&lt;/code&gt;, and after you put a space after clone, paste the copied link from GitHub. For example, your command should look similar to this: &lt;code&gt;git clone git@github.com:cybertraining-dsc/su21-reu-361.git&lt;/code&gt; Then, press &lt;code&gt;Enter&lt;/code&gt;.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The shortcut &lt;code&gt;Ctrl + V&lt;/code&gt; does not work in Git Bash for pasting. Instead, you can press &lt;code&gt;Shift + Insert&lt;/code&gt; to paste.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Type in your password for your SSH key and press &lt;code&gt;Enter&lt;/code&gt;. The repo should clone with no issue. You can now type &lt;code&gt;code .&lt;/code&gt; and press &lt;code&gt;Enter&lt;/code&gt; to open VSCode in this directory. Click &lt;code&gt;Yes, I trust the authors&lt;/code&gt; if prompted in VSCode. If you use PyCharm instead of VSCode, you can open it from Windows search; inside of PyCharm, click &lt;code&gt;File&lt;/code&gt;, &lt;code&gt;Open...&lt;/code&gt; and then navigate to &lt;code&gt;C:&lt;/code&gt;, &lt;code&gt;Users&lt;/code&gt;, your username, &lt;code&gt;Documents&lt;/code&gt;, and then click on &lt;code&gt;reu&lt;/code&gt; so it is highlighted in blue and then click &lt;code&gt;OK&lt;/code&gt;. If PyCharm asks, you can choose to open it in &lt;code&gt;This Window&lt;/code&gt; or a &lt;code&gt;New Window&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>

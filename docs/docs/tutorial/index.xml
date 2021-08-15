@@ -40,6 +40,19 @@
     </item>
     
     <item>
+      <title>Docs: REU Tutorials</title>
+      <link>/docs/tutorial/reu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/tutorial/reu/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Tutorial on Using venv in PyCharm</title>
       <link>/docs/tutorial/pycharm/</link>
       <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>

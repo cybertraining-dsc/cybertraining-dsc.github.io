@@ -4,7 +4,7 @@
     <link>/tags/git/</link>
     <description>Recent content in git on Cybertraining</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 15 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Aug 2021 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
@@ -105,6 +105,209 @@ given issue.&lt;/p&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/eU3jOuM7OQc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Installing Git Bash on Windows 10</title>
+      <link>/docs/tutorial/reu/github/git/</link>
+      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/tutorial/reu/github/git/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;This tutorial teaches how to install Git and Git Bash.&lt;/p&gt;
+&lt;p&gt;Contents&lt;/p&gt;
+&lt;div class=&#34;toc&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#windows&#34;&gt;Windows&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; git&lt;/p&gt;
+&lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
+&lt;p&gt;Click the following image to be redirected to a YouTube video tutorial for installing Git and Git Bash. This same video also includes instructions to create a virtual Python environment, which you can do as well.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/HCotEx_xCfA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;To verify whether you have Git, you can press &lt;code&gt;Win + R&lt;/code&gt; on your desktop, type &lt;code&gt;cmd&lt;/code&gt;, and press &lt;code&gt;Enter&lt;/code&gt;. Then type &lt;code&gt;git clone&lt;/code&gt; and press &lt;code&gt;Enter&lt;/code&gt;. If you do not have Git installed, it will say &lt;code&gt;&#39;git&#39; is not recognized as an internal or external command...&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;As long as Git does not change up their website and hyperlinks, you should be able to download Git from here and skip to step 2: &lt;a href=&#34;https://git-scm.com/downloads&#34;&gt;https://git-scm.com/downloads&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open a web browser and search &lt;code&gt;git&lt;/code&gt;. Look for the result that is from &lt;code&gt;git-scm.com&lt;/code&gt; and click Downloads.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;code&gt;Download for Windows&lt;/code&gt;. The download will commence. Please open the file once it is finished downloading.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The UAC Prompt will appear. Click &lt;code&gt;Yes&lt;/code&gt; because Git is a safe program. It will show you Git&amp;rsquo;s license: a GNU General Public License. Click &lt;code&gt;Next&lt;/code&gt;.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The GNU General Public License means that the program is open-source (free of charge).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;code&gt;Next&lt;/code&gt; to confirm that &lt;code&gt;C:\Program Files\Git&lt;/code&gt; is the directory where you want Git to be installed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;code&gt;Next&lt;/code&gt; unless you would like an icon for Git on the desktop (in which case you can check the box and then click &lt;code&gt;Next&lt;/code&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You will be askes several questions for the setup. We recommend the following settings:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Click &lt;code&gt;Next&lt;/code&gt; to accept the text editor,&lt;/li&gt;
+&lt;li&gt;Click &lt;code&gt;Next&lt;/code&gt; again to Let Git decide the default branch name&lt;/li&gt;
+&lt;li&gt;Click &lt;code&gt;Next&lt;/code&gt; again to run Git from the command line and 3rd party software,&lt;/li&gt;
+&lt;li&gt;Click &lt;code&gt;Next&lt;/code&gt; again to use the OpenSSL library&lt;/li&gt;
+&lt;li&gt;Click &lt;code&gt;Next&lt;/code&gt; again to checkout Windows-style,&lt;/li&gt;
+&lt;li&gt;Click &lt;code&gt;Next&lt;/code&gt; again to use MinTTY,&lt;/li&gt;
+&lt;li&gt;Click &lt;code&gt;Next&lt;/code&gt; again to use the default git pull,&lt;/li&gt;
+&lt;li&gt;Click &lt;code&gt;Next&lt;/code&gt; again to use the Git Credential Manager Core,&lt;/li&gt;
+&lt;li&gt;Click &lt;code&gt;Next&lt;/code&gt; again to enable file system caching, and then&lt;/li&gt;
+&lt;li&gt;Click &lt;code&gt;Install&lt;/code&gt; because we do not need experimental features.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The progress bar should not take too long to finish. To test if it is installed, you can search for &lt;code&gt;Git Bash&lt;/code&gt; in the Windows search now to run it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Using Raw Images in GitHub and Hugo in Compatible Fashion</title>
+      <link>/docs/tutorial/reu/github/images/</link>
+      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/tutorial/reu/github/images/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;This tutorial teaches how to add images on GitHub and use them in your
+markdown file that can be rendered in Hugo and markdownon GitHub.&lt;/p&gt;
+&lt;p&gt;Contents&lt;/p&gt;
+&lt;div class=&#34;toc&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#steps&#34;&gt;Steps&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; github&lt;/p&gt;
+&lt;h2 id=&#34;steps&#34;&gt;Steps&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Upload your image to GitHub in the images directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click on the image file and then right click on it and click &lt;code&gt;Open image in new tab&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Use the URL shown in the address bar of the new tab to paste into
+the markdown file.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;When using the file, please add a caption and if it is copied also
+the citation in a REference section&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;![database sample](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/sampledatabase.png)
+
+**Figure 2:** Sample Database file obtained from the USGS
+water-quality database for the year 2017 [^1]
+
+## Refernces
+
+[^1]: HERE COMES THE CITATION OF THE IMAGE
+
+&lt;/code&gt;&lt;/pre&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Adding SSH Keys for a GitHub Repository</title>
+      <link>/docs/tutorial/reu/github/ssh/</link>
+      <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/tutorial/reu/github/ssh/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;This tutorial teaches how to configure an SSH Key on GitHub so that you can clone, commit, pull, and push to repositories (repos).&lt;/p&gt;
+&lt;p&gt;Contents&lt;/p&gt;
+&lt;div class=&#34;toc&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#windows&#34;&gt;Windows&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; ssh&lt;/p&gt;
+&lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
+&lt;p&gt;Please ensure that you have Git (Git Bash) and a repository on GitHub. This tutorial was created with the REU program in mind, where the students are provided with a GitHub repository. If you are not in REU, then you can create a new repository on GitHub and clone that instead.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open Git Bash by pressing the Windows key, typing &lt;code&gt;git bash&lt;/code&gt;, and pressing Enter.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Then, go on GitHub, click on your profile icon in the top right, click &lt;code&gt;Settings&lt;/code&gt;, and click &lt;code&gt;SSH and GPG keys&lt;/code&gt; on the left hand side. Confirm that there are no SSH keys associated with your account. If there are keys, then perhaps you have made some already. This tutorial focuses on creating a new one.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Go back to Git Bash and type &lt;code&gt;ssh-keygen&lt;/code&gt;. Press &lt;code&gt;Enter&lt;/code&gt;. Press &lt;code&gt;Enter&lt;/code&gt; again when it asks you the file in which to save the key (it should say &lt;code&gt;Enter file in which to save the key (/c/Users/USERNAME/.ssh/id_rsa):&lt;/code&gt;.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;If you have already created a key here, it will ask you if you would like to overwrite the file. Type &lt;code&gt;y&lt;/code&gt; and press &lt;code&gt;Enter&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Enter a password that you will remember for your SSH key. It will not appear as you type it, so make sure you get it right the first time. Press &lt;code&gt;Enter&lt;/code&gt; after typing the password that you come up with.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;After seeing the randomart image associated with your SSH, you should be able to type a new command. Type &lt;code&gt;cat ~/.ssh/id_rsa.pub&lt;/code&gt; and press &lt;code&gt;Enter&lt;/code&gt;. Your key will appear— remember that this should not be shared with others. The key begins with &lt;code&gt;ssh-rsa&lt;/code&gt; and it may end with your username. Copy this entire key by clicking and dragging over it, right-clicking, and clicking &lt;code&gt;Copy&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Return to your web browser which is on the GitHub SSH key settings page. Click the green button that reads &lt;code&gt;New SSH Key&lt;/code&gt; and type a Title for this key. You should name it something memorable and distinct; for example, if you just generated the key on your desktop computer, a suitable name is &lt;code&gt;Desktop&lt;/code&gt;. If generated on your laptop, name it &lt;code&gt;Laptop&lt;/code&gt;, or if you have numerous laptops, differentiate them with distinct names, and so on.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;If you only have one computer and you have preexisting keys on this page, maybe some which you do not remember the password to or have fallen out of use, consider deleting them (as long as you are sure this will not break anything).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Paste the key into the key box. You should have copied it from Git Bash in Step #5. Then, click the green button that reads &lt;code&gt;Add SSH key&lt;/code&gt;. Congratulations— you have successfully configured your SSH key. Now we will try cloning your REU repository.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Navigate to your repository. It should be in the cybertraining-dsc directory with a name format of &lt;code&gt;xxxx-reu-xxx&lt;/code&gt;. Once you are on that page, click the green button that reads &lt;code&gt;Code&lt;/code&gt; with a download symbol. Click the &lt;code&gt;SSH&lt;/code&gt; option and click on the clipboard next to the link so that you copy it. It should say &lt;code&gt;Copied!&lt;/code&gt; after you click on it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Decide where you want your repository folder to be stored. This tutorial will clone the repo into the Documents folder. Go back to Git Bash and type &lt;code&gt;cd ~/Documents&lt;/code&gt; and press &lt;code&gt;Enter&lt;/code&gt;. It is a good idea to create a folder titled &lt;code&gt;reu&lt;/code&gt; for organization. Type &lt;code&gt;mkdir reu&lt;/code&gt; and press &lt;code&gt;Enter&lt;/code&gt;. Type &lt;code&gt;cd reu&lt;/code&gt; and press &lt;code&gt;Enter&lt;/code&gt;. Finally, type &lt;code&gt;git clone&lt;/code&gt;, and after you put a space after clone, paste the copied link from GitHub. For example, your command should look similar to this: &lt;code&gt;git clone git@github.com:cybertraining-dsc/su21-reu-361.git&lt;/code&gt; Then, press &lt;code&gt;Enter&lt;/code&gt;.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The shortcut &lt;code&gt;Ctrl + V&lt;/code&gt; does not work in Git Bash for pasting. Instead, you can press &lt;code&gt;Shift + Insert&lt;/code&gt; to paste.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Type in your password for your SSH key and press &lt;code&gt;Enter&lt;/code&gt;. The repo should clone with no issue. You can now type &lt;code&gt;code .&lt;/code&gt; and press &lt;code&gt;Enter&lt;/code&gt; to open VSCode in this directory. Click &lt;code&gt;Yes, I trust the authors&lt;/code&gt; if prompted in VSCode. If you use PyCharm instead of VSCode, you can open it from Windows search; inside of PyCharm, click &lt;code&gt;File&lt;/code&gt;, &lt;code&gt;Open...&lt;/code&gt; and then navigate to &lt;code&gt;C:&lt;/code&gt;, &lt;code&gt;Users&lt;/code&gt;, your username, &lt;code&gt;Documents&lt;/code&gt;, and then click on &lt;code&gt;reu&lt;/code&gt; so it is highlighted in blue and then click &lt;code&gt;OK&lt;/code&gt;. If PyCharm asks, you can choose to open it in &lt;code&gt;This Window&lt;/code&gt; or a &lt;code&gt;New Window&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 
       </description>
     </item>
