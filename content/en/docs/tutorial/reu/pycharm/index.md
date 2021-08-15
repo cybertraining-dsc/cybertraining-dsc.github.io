@@ -4,7 +4,7 @@ title: Installing PyCharm Professional for Free
 linkTitle: Get PyCharm Professional
 tags: ["reu", "tutorial", "pycharm"]
 description: "This tutorial teaches how to get PyCharm Professional for free on Windows 10 using a university email address."
-author: Jacques, Fleischer
+author: Jacques Fleischer
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
