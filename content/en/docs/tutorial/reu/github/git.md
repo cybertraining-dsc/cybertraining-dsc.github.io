@@ -47,7 +47,7 @@ As long as Git does not change up their website and hyperlinks, you should be ab
 
 5. Click `Next` unless you would like an icon for Git on the desktop (in which case you can check the box and then click `Next`).
 
-6. You will be askes several questions for the setup. We recommend the following settings:
+6. You will be asked several questions for the setup. We recommend the following settings:
 
    * Click `Next` to accept the text editor, 
    * Click `Next` again to Let Git decide the default branch name

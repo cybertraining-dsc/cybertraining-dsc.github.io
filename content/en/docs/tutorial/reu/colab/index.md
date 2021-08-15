@@ -42,7 +42,7 @@ must upload the CSV file to the Google Drive of the same Google account on which
 CSV file in this example is titled `kag_risk_factors_cervical_cancer` but please rename it accordingly to match the file
 you would like to upload.
 
-Cell 2:
+Cell 1:
 
 ```python
 import pandas as pd
@@ -68,9 +68,9 @@ your CSV is not in any folders inside Google drive. You can also alter the code 
 
 ## Read File from Direct Upload
 
-To read it with build-in colab methods you can use the following code:
+To read it with built-in Colab methods, you can use the following code:
 
-Cell 2: 
+Cell 1: 
 
 ```python
 from google.colab import files
@@ -83,10 +83,10 @@ computer to upload. Sometimes trying to upload the file will give this error:
 `MessageError: RangeError: Maximum call stack size exceeded.`
 
 In this case, the user should click the folder icon on the left side of Google Colab window, then the paper
-with an arrow icon (to upload a file), then upload the CSV you wish to use. Then rerunning Cell 2 is not
-necessary. Simply proceed to Cell 3. If this still does not work, see [this stackoverflow page](https://stackoverflow.com/questions/53630073/google-colaboratory-import-data-stack-size-exceeded) for further information.
+with an arrow icon (to upload a file), then upload the CSV you wish to use. Then rerunning Cell 1 is not
+necessary. Simply proceed to Cell 2. If this still does not work, see [this stackoverflow page](https://stackoverflow.com/questions/53630073/google-colaboratory-import-data-stack-size-exceeded) for further information.
 
-Cell 3:
+Cell 2:
 
 ```python
 df=pd.read_csv('kag_risk_factors_cervical_cancer.csv')
@@ -102,4 +102,4 @@ Remember to rename the instances of `kag_risk_factors_cervical_cancer.csv` accor
 
 ## Acknowledgments
 
-Credit to Carlos provided the cell to upload the file directly.
+Credit to Carlos who provided the cell to upload the file directly.

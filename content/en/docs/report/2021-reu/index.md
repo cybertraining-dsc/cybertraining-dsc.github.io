@@ -80,15 +80,15 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="Marine aninmal population analysis using AI"
+  title="Aquatic Animals Classification Using AI"
   hid="su21-reu-370" 
-  author="Tiamia WIlliams"
+  author="Timia Williams"
   %}}
 
 ---
 
 * {{% addprojectreport
-  title="Project: Detecting Multiple Sclerosis Symptoms using AI"
+  title="Detecting Multiple Sclerosis Symptoms using AI"
   hid="su21-reu-371" 
   author="Raeven Hatcher"
   %}}
@@ -121,7 +121,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="Project: Analyzing the Advantages and Disadvantages of Artificial Intelligence for Breast Cancer Detection in Women"
+  title="Analyzing the Advantages and Disadvantages of Artificial Intelligence for Breast Cancer Detection in Women"
   hid="su21-reu-377"
   author="RonDaisja Dunn"
   %}}
