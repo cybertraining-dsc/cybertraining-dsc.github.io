@@ -1,12 +1,12 @@
 ---
 owner:
-  firstname: "McNair"
-  lastname: "Whitney"
+  firstname: "Whitney"
+  lastname: "McNair"
   hid: "su21-reu-363"
   community: "reu"
   semester: "sp21"
 project:
-  title: TBD
-  url: TBD
+  title: "AI in Orthodontics"
+  url: "https://github.com/cybertraining-dsc/su21-reu-363/blob/main/project/index.md"
   author:
     - su21-reu-363

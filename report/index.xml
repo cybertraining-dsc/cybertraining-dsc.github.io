@@ -618,36 +618,36 @@ Status: final: Project&lt;/p>
 &lt;h2 id="1-introduction">1. Introduction&lt;/h2>
 &lt;p>Autism Spectrum Disorder (ASD) is a broad range of lifelong developmental and neurological disorders that usually appear during early childhood. Autism affects the brain and can cause challenges with speech and nonverbal communication, repetitive behaviors, and social skills. Autism Spectrum Disorder can occur in all socioeconomic, ethnic, and racial groups, and can usually be detected and diagnosed from the age of three years old and up. As of June 2021, the World Health Organization has estimated that one in 160 children have an Autism Spectrum Disorder worldwide&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. Early detection of Autism, along with treatment, is crucial to minimize some of the difficulties and symptoms that people with Autism face&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. Symptoms of Autism Spectrum Disorder are normally identified based on psychological criteria&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>. Specialists use techniques such as behaivoral observation reports, questionaires, and a review of the child&amp;rsquo;s cognitive ability to detect and diagose Autism in children.&lt;/p>
 &lt;p>Many researchers believe that there is a correlation between facial morphology and Autism Spectrum Disorder, and that people with Autism have distinct facial features that can be used to detect their Autism Spectrum Disorder&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. Human faces encode important markers that can be used to detect Autism Spectrum Disorder by analyzing facial features, eye contact,facial movements, and more&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>. Scientists found that children diagnosed with Autism share common facial feature distinctions from children who are not diagnosed with Autism&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>. Some of these facial features are wide-set eyes, short middle region of the face, and a broad upper face. Figure 1 provides an example of the facial feature differences between a child with Autism and a child without.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Autistic%20compared%20with%20Non-Autistic%20(4).png" alt="Autistic and Non-Autistic Child">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/raw/main/project/images/Autistic%20compared%20with%20Non-Autistic%20(4).png" alt="Autistic and Non-Autistic Child">&lt;/p>
 &lt;p>&lt;strong>Figure 1:&lt;/strong> Image of Child with Autism (left) and Child with no Autism (right)&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>.&lt;/p>
 &lt;p>Due to the distinct features of Autistic individuals, we believe that it is necessary to explore the possiblities of using a facial analysis to detect Autism in children, using Artificial Intelligence (AI). Many researchers have attempted to explore the possibility of using various novel algorithms to detect and diagnose children, adolescents, and adults with Autism&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. Previous research has been done to determine if Autism Spectrum Disorder can be detected in children by analyzing a facial image&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>. The author of this research collected approximately 1500 facial images of children with Autism from websites and Facebook pages associated with Autism. The facial images of non-autistic children were randomly downloaded from online and cropped.The author aimed to provide a first level screening for autism diagnosis, whereby parents could submit an image of their child and in return recieve a probability of the potential of Autism, without cost.&lt;/p>
 &lt;p>To contribute to this previous research&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>, this project will propose a model that can be used to detect the presence of Autism in children based on a facial image analysis.
 A deep learning algorithm will be used to develop an inexpensive, accurate, and effective method to detect Autism in children. This project implements and utilizes a Convolutional Neural Network (CNN) classifier to explore the possibility of using a facial image analysis to detect Autism in children, with an accuracy of 95% or higher. Most of the coding used for this CNN model was obtained from the Kaggle dataset and was done by Fran Valuch&lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>. We made changes to some parts of this code, which will be discussed further in this project. The goal of this project is not to diagnose Autism, but to explore the possibility of detecting Autism at its early stage, using a facial image analysis.&lt;/p>
 &lt;h2 id="2-related-work">2. Related Work&lt;/h2>
 &lt;p>Previous work exists on the use of artificial intelligence to detect Autism in children using a facial image. Most of this previous work used the Autism kaggle dataset&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>, which was also used for this project. One study utilized MobileNet followed by two dense layers in order to perform deep learning on the dataset&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>. MobileNet was used because of its ability to compute outputs much faster, as it can reduce both computation and model size. The first layer was dedicated to distribution, and allowed customisation of weights to input into the second dense layer. The second dense layer allowed for classification. The architecture of this algorithm is shown below in Figure 2.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/2021-07-29.png" alt="Algorithm Architecture using MobileNet">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/raw/main/project/images/2021-07-29.png" alt="Algorithm Architecture using MobileNet">&lt;/p>
 &lt;p>&lt;strong>Figure 2:&lt;/strong> Algorithm Architecture using MobileNet&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>.&lt;/p>
 &lt;p>Training of this model completed after fifteen epochs, which resulted in a test accuracy of 94.64%. In this project we utilize a classic Convolutional Neural Network model using tensorflow. This will be done in hopes of obtaining a test accuracy of 95% or higher.&lt;/p>
 &lt;h2 id="3-dataset">3. Dataset&lt;/h2>
 &lt;p>The dataset used for this project was obtained from Kaggle&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>. This dataset contained approximately 1500 facial images of children with Autism that were obtained from websites and Facebook pages associated with Autism. The facial images of non-autistic children were randomly downloaded from online. The pictures obtained were not of the best quality or consistency with respect to the facial alignment. Therefore, the author developed a python program to automatically crop the images to include only the extent possible for a facial image. These images consist of male and female children that are of different races and range from around ages two to fourteen.&lt;/p>
 &lt;p>This project uses version 12 of this dataset, which is the latest version. The dataset consists of three directories labled test, train, and valid, along with a CSV file. The training set is labeled as train, and consists of &amp;lsquo;Autistic&amp;rsquo; and &amp;lsquo;Non-Autistic&amp;rsquo; subdirectories. These subdirectories contain 1269 images of autistic and 1269 images of non-autistic children respectively. The validation set located in the valid directory are separated into &amp;lsquo;Autistic&amp;rsquo; and &amp;lsquo;Non-autistic&amp;rsquo; subdirectories. These subdirectories also contain 100 images of autistic and 100 images of non-autistic children respectively. The testing set located in the test directory is divided into 100 images of autistic children and 100 images of non-autistic children. All of the images provided in this dataset are in 224 X 224 X 3, jpg format. Table 1 provides a summary of the content in the dataset.&lt;/p>
 &lt;p>&lt;strong>Table 1:&lt;/strong> Summary Table of Dataset.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/DATASET%20BREAKDOWN.png" alt="Summary Table of the Kaggle Dataset">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/raw/main/project/images/DATASET%20BREAKDOWN.png" alt="Summary Table of the Kaggle Dataset">&lt;/p>
 &lt;h2 id="4-proposed-methodology">4. Proposed Methodology&lt;/h2>
 &lt;p>Convolutional Neural Network (CNN)&lt;/p>
 &lt;p>This project utilizes a Convolution Neural Network (CNN) to develop a program that can be used to detect the presence of Autism in children from a facial image analysis. If successful this program can be used an inexpensive method to detect Autism in children at its early stages. We believed that a CNN model would be the best way create this program because of its little dependence on preprocessing data. A Convolutional Neural Network was also used becuase of its ability to take in an image and assign importance to, and identify diferent objects within the image. CNN also has very high accuracy when dealing with image recognition. The dataset used contains 1269 training images that were used to train and test this Convolution Neural Network model. The architecture of this model can be seen in Figure 3.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/CNN%20Architecture.png" alt="CNN Architecture">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/raw/main/project/images/CNN%20Architecture.png" alt="CNN Architecture">&lt;/p>
 &lt;p>&lt;strong>Figure 3:&lt;/strong> Architecture of utilized Convolutional Neural Network Model.&lt;/p>
 &lt;h2 id="5-results">5. Results&lt;/h2>
 &lt;p>The results of this project is estimated by affectability and accuracy by utilizing the Confusion Matrix CNN. The results also rely on how correct and precise the model was trained. This model was created to explore the possibility of detecting Autism in children at its early stage, using a facial image analysis. A Convolutional Neural Network classifier was used to create this model. For this CNN model we utilized max pooling and Rectified Linear Unit (ReLU), with two epochs. This resulted in an accuracy of 71%. These results can be seen below in Figure 4. Figure 5 displays some of the images that were classified and labeled correctly (right) and the others that were labeled incorrectly (left).&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Training%20and%20Validation%20Loss%20and%20Accuracy%20(3).png" alt="Results after Execution">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/raw/main/project/images/Training%20and%20Validation%20Loss%20and%20Accuracy%20(3).png" alt="Results after Execution">&lt;/p>
 &lt;p>&lt;strong>Figure 4:&lt;/strong> Results after Execution.&lt;/p>
 &lt;p>validation loss: 57% - validation accuracy: 68% - training loss: 55% - training accuracy: 71%&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Labels.png" alt="Correct and Incorrect Labels">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/raw/main/project/images/Labels.png" alt="Correct and Incorrect Labels">&lt;/p>
 &lt;p>&lt;strong>Figure 5:&lt;/strong> Correct Labels and Incorrect Labels.&lt;/p>
 &lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
 &lt;p>Figure 6 shows the Confusion Matrix of the Convolutional Neural Network model used in this project. The Confusion Matrix displays a summary of the model&amp;rsquo;s predicted results after its attempt to classify each image as either autistic or non-autistic. Out of the 200 images, 159 of the images were labled correctly and 41 of the images were labled incorrectly.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Confusion%20Matrix%20CNN.png" alt="Confusion Matrix CNN">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/raw/main/project/images/Confusion%20Matrix%20CNN.png" alt="Confusion Matrix CNN">&lt;/p>
 &lt;p>&lt;strong>Figure 6:&lt;/strong> Confusion Matrix of the Convolutional Neural Network model.&lt;/p>
 &lt;p>Cloudmesh-common&lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup> was used to create a Stopwatch module, that was used to measure and study the training and testing time of the model. Table 2 shows the cloudmesh benchmark output.&lt;/p>
 &lt;p>&lt;strong>Table 2:&lt;/strong> Cloudmesh Benchmark&lt;/p>
@@ -967,14 +967,14 @@ the download function.&lt;/li>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report: Dentronics: Classifying Dental Implant Systems by using Automated Deep Learning</title><link>/report/su21-reu-376/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-376/project/</guid><description>
+&lt;/section></description></item><item><title>Report: Report: Dentronics: Classifying Dental Implant Systems by using Automated Deep Learning</title><link>/report/su21-reu-376/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-376/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-376/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-376/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: draft, Type: Project&lt;/p>
+Status: final, Type: Project&lt;/p>
 &lt;p>Jamyla Young, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-376">su21-reu-376&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Artificial intelligence is a branch of computer science that focuses on building and programming machines to think like humans and mimic their actions. The proper concept definition of this term cannot be achieved simply by applying a mathematical, engineering, or logical approach but requires an approach that is linked to a deep cognitive scientific inquiry. THe use of machine-based learning is constantly evolving the dental and medical field to assist with medical decision making process.In addition to diagnosis of visually confirmed dental caries and impacted teeth, studies applying machine learning based on artificial neural networks to dental treatment through analysis of dental magnetic resonance imaging, computed tomography, and cephalometric radiography are actively underway, and some visible results are emerging at a rapid pace for commercialization.&lt;/p>
+&lt;p>Artificial intelligence is a branch of computer science that focuses on building and programming machines to think like humans and mimic their actions. The proper concept definition of this term cannot be achieved simply by applying a mathematical, engineering, or logical approach but requires an approach that is linked to a deep cognitive scientific inquiry. The use of machine-based learning is constantly evolving the dental and medical field to assist with medical decision making process.In addition to diagnosis of visually confirmed dental caries and impacted teeth, studies applying machine learning based on artificial neural networks to dental treatment through analysis of dental magnetic resonance imaging, computed tomography, and cephalometric radiography are actively underway, and some visible results are emerging at a rapid pace for commercialization.&lt;/p>
 &lt;p>Contents&lt;/p>
 &lt;div class="toc">
 &lt;nav id="TableOfContents">
@@ -984,87 +984,102 @@ Status: draft, Type: Project&lt;/p>
 &lt;li>&lt;a href="#21-dental-implant-classification">2.1 Dental implant classification&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#22-deep-convulutional-neural-network">2.2 Deep Convulutional Neural Network&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#3-results">3. Results&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-example-of-an-ai-algorithm-in-dentronics">5. Example of an AI algorithm in Dentronics&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#7-conclusion">7. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-conclusion">4. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-acknowledgments">5. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-references">6. References&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/nav>
 &lt;/div>
 &lt;/div>
 &lt;p>&lt;strong>Keywords:&lt;/strong> Dental implants, Deep Learning, Prosthodontics, Implant classificiation, Artificial Intelligence, Neural Networks.&lt;/p>
 &lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Dental implants are ribbed oral protheses typically made up of biocompatible titanium to replace the missing root(s) of an absent tooth. {1} These dental protheses are used to support the jaw bone to prevent deterioration due to an absent root. This is referred to as bone resorption which can result to facial malformation as well as reduced oral function such as biting and chewing. These devices are composed of three elements that imitates a natural tooth function and structure.The implant which are typically ribbed and threaded to promote stability while integrating within the bone tissue. The osseointegration process usually takes 6-8 months to rebuild the bone to support the implant. An implant abutment is fixed on top of the implant to act as a base for prosthetic devices. (2) Prefabricated abutments are manufactured in many shapes, sizes and angles depending on the location of the implant and the types of prothesis that will be attached. Dental abutments support a range of prothetic devices such as dental crowns, bridges, and dentures.&lt;/p>
-&lt;p>Osseointegrated dental implants depend on various factors that affect the anchorage of the implant to the bone tissue. Successful surgical anchoring techniques can contribute to long term success of implant stability. Primary stability plays a role 2 week postoperatively by achieving mechanical retention of the implant. It helps establish a mechanical microenvironment for gradual bone healing, or osseointegration-This is secondary implant stability. {2} Bone type, implant length, implant and diameter influences primary and secondary implant stability. Implant length can range from 6mm to 20mm; however, the most common lengths are between 8mm to 15mm. Many studies suggest that implant length contribute to decreasing bone stress and increasing implant stability. Bone stress can occur at both the cortical and cancellous part of the bone. Increasing implant length will decrease stress in the cancellous part of the bone while increasing the implant diameter can decrease stress in the cortical part of the bone. Bone type can promote positive bone stimulation around an implant improving the overall function. There are four different types: Type I, Type II, Type III, and Type IV. Type I is the most dense of them which provides more cortical anchorage but has limited vascularity. Type II is the best for osseointegration because it provides good cortical anchorage and has better vascularity than type I. Type III and IV have a thin layer of cortical bone which decrease the success rate of primary stability{3).&lt;/p>
-&lt;p>Implant stability can be measured using the Implant Stability Quotient (ISQ) as an indirect indicator to determine the time frame for implant loading and prognostic indicator for implant failure(1). This can be measured by resonance frequency analysis (RFA) immediately after the implant has been placed. Resonance frequency analysis is the measurement in which a device vibrates in response to frequencies in the range of 5-15 kHz. The peak amplitude of the response is then encoded into the implant stability quotient (ISQ) .The clinical range of ISQ is from 55-80. High stability is &amp;gt;70 ISQ while medium stability is between 60-69 ISQ. Low stability is &amp;lt;60 ISQ.(2)&lt;/p>
-&lt;p>There are over 2000 types of dental implant systems (DIS) that differs in diameter, length, shape, coating, and surface material properties. These devices have more than a 90% long termed survival rate which ranges more than 10 years. Inevitably, biological and mechanical complications such as fractures, low implant stability, and screw loosening can occur. Therefore, identifying the correct Dental Implant System is essential to repair or replace the existing system. Methods and techniques that enables clear identification is insufficient.&lt;/p>
-&lt;p>Artificial intelligence is a branch of computer science that focuses on building and programming machines to think like humans and mimic their actions. A deep convolutional neural network (DCNN) is a brach of artificial intelligence that applies multiple layers of nonlinear processing units for feature extraction, transformation, and classification of high dimensional datasets. Deep convolutional neural networks are commonly used to identify patterns in images and videos. The structure typically consist of four types of layers: convolution, pooling, activation, and fully connected. These neural networks use images as an input to train a classifier which employs a mathematical operation called a convolution. Deep neural networks have been successfully applied in the dental field and demonstrated advantages in terms of diagnosis and prognosis. Using automated deep convolutional neural networks is highly efficient in classifying different dental implant systems compared to most dental professionals.&lt;/p>
+&lt;p>Dental implants are ribbed oral protheses typically made up of biocompatible titanium to replace the missing root(s) of an absent tooth. These dental protheses are used to support the jaw bone to prevent deterioration due to an absent root&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. This is referred to as bone resorption which can result to facial malformation as well as reduced oral function such as biting and chewing. These devices are composed of three elements that imitates a natural tooth function and structure.The implant which are typically ribbed and threaded to promote stability while integrating within the bone tissue. The osseointegration process usually takes 6-8 months to rebuild the bone to support the implant. An implant abutment is fixed on top of the implant to act as a base for prosthetic devices &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. Prefabricated abutments are manufactured in many shapes, sizes and angles depending on the location of the implant and the types of prothesis that will be attached. Dental abutments support a range of prothetic devices such as dental crowns, bridges, and dentures &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>Osseointegrated dental implants depend on various factors that affect the anchorage of the implant to the bone tissue. Successful surgical anchoring techniques can contribute to long term success of implant stability. Primary stability plays a role 2 week postoperatively by achieving mechanical retention of the implant. It helps establish a mechanical microenvironment for gradual bone healing, or osseointegration-This is secondary implant stability. Bone type, implant length, implant and diameter influences primary and secondary implant stability. Implant length can range from 6mm to 20mm; however, the most common lengths are between 8mm to 15mm. Many studies suggest that implant length contribute to decreasing bone stress and increasing implant stability. Bone stress can occur at both the cortical and cancellous part of the bone. Increasing implant length will decrease stress in the cancellous part of the bone while increasing the implant diameter can decrease stress in the cortical part of the bone&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. Bone type can promote positive bone stimulation around an implant improving the overall function. There are four different types: Type I, Type II, Type III, and Type IV. Type I is the most dense of them which provides more cortical anchorage but has limited vascularity. Type II is the best for osseointegration because it provides good cortical anchorage and has better vascularity than type I. Type III and IV have a thin layer of cortical bone which decrease the success rate of primary stability&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>Implant stability can be measured using the Implant Stability Quotient (ISQ) as an indirect indicator to determine the time frame for implant loading and prognostic indicator for implant failure &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. This can be measured by resonance frequency analysis (RFA) immediately after the implant has been placed. Resonance frequency analysis is the measurement in which a device vibrates in response to frequencies in the range of 5-15 kHz. The peak amplitude of the response is then encoded into the implant stability quotient (ISQ). The clinical range of ISQ is from 55-80. High stability is &amp;gt;70 ISQ while medium stability is between 60-69 ISQ. Low stability is &amp;lt;60 ISQ&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>There are over 2000 types of dental implant systems (DIS) that differs in diameter, length, shape, coating, and surface material properties. These devices have more than a 90% long termed survival rate which ranges more than 10 years. Inevitably, biological and mechanical complications such as fractures, low implant stability, and screw loosening can occur. Therefore, identifying the correct Dental Implant System is essential to repair or replace the existing system. Methods and techniques that enables clear identification is insufficient &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>Artificial intelligence is a branch of computer science that focuses on building and programming machines to think like humans and mimic their actions. A deep convolutional neural network (DCNN) is a brach of artificial intelligence that applies multiple layers of nonlinear processing units for feature extraction, transformation, and classification of high dimensional datasets. Deep convolutional neural networks are commonly used to identify patterns in images and videos. The structure typically consist of four types of layers: convolution, pooling, activation, and fully connected. These neural networks use images as an input to train a classifier which employs a mathematical operation called a convolution. Deep neural networks have been successfully applied in the dental field and demonstrated advantages in terms of diagnosis and prognosis. Using automated deep convolutional neural networks is highly efficient in classifying different dental implant systems compared to most dental professionals&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>.&lt;/p>
 &lt;h2 id="2-data-sets">2. Data sets&lt;/h2>
 &lt;p>Researchers at Daejon Dental Hospital used automated deep convolutional neural networks to evaluate the efficacy of its ability to classify dental implant systems and compare the performance with dental professionals using radiographic images.&lt;/p>
 &lt;p>11,980 raw panoramic and periapical radiographic images of dental implant systems were collected. these images were then randomly divided into 2 groups: 9584 (80%) images were selected for the training dataset and the remaining 2396 (20%) images were used as the testing dataset.&lt;/p>
 &lt;h2 id="21-dental-implant-classification">2.1 Dental implant classification&lt;/h2>
 &lt;p>Dental implant systems were classified into six different types with a diameter of 3.3-5.0mm and a length of 7-13mm.&lt;/p>
 &lt;ul>
-&lt;li>Astra OsseoSpeed® TX (Dentsply IH AB, Molndal, Sweden), with a diameter of 4.5–5.0 mm and a length of 9–13 mm;  &lt;/li>
-&lt;li>Implantium® (Dentium, Seoul, Korea), with a diameter of 3.6–5.0 mm and a length of 8–12 mm;  &lt;/li>
-&lt;li>Superline® (Dentium, Seoul, Korea), with a diameter of 3.6–5.0 mm and a length of 8–12 mm;  &lt;/li>
-&lt;li>TSIII® (Osstem, Seoul, Korea), with a diameter of 3.5–5.0 mm and a length of 7–13 mm;  &lt;/li>
-&lt;li>SLActive® BL (Institut Straumann AG, Basel, Switzerland), with a diameter of 3.3–4.8 mm and a  length of 8–12 mm;&lt;/li>
-&lt;li>SLActive® BLT (Institut Straumann AG, Basel, Switzerland), with a diameter of 3.3–4.8 mm and a  length of 8–12 mm.&lt;/li>
+&lt;li>Astra OsseoSpeed TX (Dentsply IH AB, Molndal, Sweden), with a diameter of 4.5–5.0 mm and a length of 9–13 mm;&lt;/li>
+&lt;li>Implantium (Dentium, Seoul, Korea), with a diameter of 3.6–5.0 mm and a length of 8–12 mm;&lt;/li>
+&lt;li>Superline (Dentium, Seoul, Korea), with a diameter of 3.6–5.0 mm and a length of 8–12 mm;&lt;/li>
+&lt;li>TSIII (Osstem, Seoul, Korea), with a diameter of 3.5–5.0 mm and a length of 7–13 mm;&lt;/li>
+&lt;li>SLActive BL (Institut Straumann AG, Basel, Switzerland), with a diameter of 3.3–4.8 mm and a length of 8–12 mm;&lt;/li>
+&lt;li>SLActive BLT (Institut Straumann AG, Basel, Switzerland), with a diameter of 3.3–4.8 mm and a length of 8–12 mm.&lt;/li>
 &lt;/ul>
 &lt;h2 id="22-deep-convulutional-neural-network">2.2 Deep Convulutional Neural Network&lt;/h2>
-&lt;p>&lt;img src="images/DCNN.png" alt="">
-Figure 1: Overview of an automated deep convolutional neural network. Using Neuro-T to automatically select the model and optimize hyper-parameter. During training and inference, the automated DCNN automatically creates effective deep learning models and searches the optimal hyperparameters. An Adam optimizer with L2 regularization was
-used for transfer learning. The batch size was set to 432, and the automated DCNN architecture consisted of 18 layers with no dropout.&lt;/p>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Find data sets about effects about dentronics&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Identify the purpose of data sets&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> What are the challenges with Dentronics data sets? HIPPA, size, availibility&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub. However, if the data is publicly available you program must contain a download function instead that you customize.
-Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
-the download function.&lt;/li>
-&lt;/ul>
+&lt;p>Using Neuro-T to automatically select the model and optimize hyper-parameter. During training and inference, the automated DCNN automatically creates effective deep learning models and searches the optimal hyperparameters. An Adam optimizer with L2 regularization was used for transfer learning. The batch size was set to 432, and the automated DCNN architecture consisted of 18 layers with no dropout.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-376/raw/main/project/images/DCNN.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1&lt;/strong>: Overview of an automated deep convolutional neural network &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>.&lt;/p>
 &lt;h2 id="3-results">3. Results&lt;/h2>
-&lt;p>&lt;img src="images/results.png" alt="">&lt;/p>
-&lt;p>&lt;img src="images/results2.png" alt="">&lt;/p>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Place a cool image into projects images in my directory&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Correct the following, replace the fa number with my su number and the chart of png&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> if image is copied , you must use a reference such as shown in the Figure 1 caption&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> list&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="5-example-of-an-ai-algorithm-in-dentronics">5. Example of an AI algorithm in Dentronics&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete data set that will be used&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Identify the concrete algorithm that is used to anaylze the data set&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Write the program&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Verify that it works&lt;/li>
-&lt;/ul>
-&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
-&lt;h2 id="7-conclusion">7. Conclusion&lt;/h2>
-&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
-&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Gregor helped me&lt;/li>
-&lt;/ul>
-&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
-&lt;h2 id="9-references">9. References&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at one point automatically change the references from superscript to square brackets it is best to introduce a space before the first square bracket.&lt;/li>
-&lt;/ul>
+&lt;p>For the evaluation, the following statistical parameters were taken into account: receiver operating characteristic (ROC) curve, area under the ROC curve (AUC), 95% confidence intervals (CIs), standard error (SE), Youden index (sensitivity + specificity − 1), sensitivity, and specificity, which were calculated using Neuro-T and R statistical software . Delong’s method was used to compare the AUCs generated from the test dataset, and the significance level was set at p &amp;lt; 0.05.&lt;/p>
+&lt;p>The accuracy of the automated DCNN abased on the AUC, Youden index, sensitivity, and specificity
+for the 2,396 panoramic and periapical radiographic images were 0.954(95% CI = 0.933–0.970,
+SE = 0.011), 0.808, 0.955, and 0.853, respectively. Using only panoramic radiographic images (n = 1429),
+the automated DCNN achieved an AUC of 0.929 (95% CI = 0.904–0.949, SE = 0.018, Youden index = 0804,
+sensitivity = 0.922, and specificity = 0.882), while the corresponding value using only periapical
+radiographic images (n = 967) achieved an AUC of 0.961 (95% CI = 0.941–0.976, SE = 0.009, Youden
+index = 0.802, sensitivity = 0.955, and specificity = 0.846). There were no significant differences in
+accuracy among the three ROC curves.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-376/raw/main/project/images/results.png" alt="Figure 2">&lt;/p>
+&lt;p>&lt;strong>Figure 2&lt;/strong>: The accuracy of the automated DCNN for the test dataset did not show a significant difference among the three ROC three ROC curves based on DeLong’s method &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>The Straumann SLActive BLT implant system has a relatively large tapered shape compared to other types of DISs. Thus, the automated DCNN (AUC = 0.981, 95% CI = 0.949–0.996). However, for the Dentium Superline and Osstem TSIII implant systems that do not have conspicuous characteristic elements with a tapered shape, the automated DCNN classified correctly with an AUC of 0.903 (95% CI = 0.850–0.967) and 0.937 (95% CI = 0.890–0.967)&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-376/raw/main/project/images/results2.png" alt="Figure 3">&lt;/p>
+&lt;p>&lt;strong>Figure 3 (a-f)&lt;/strong>: Performance of the automated DCNN and comparison with dental professionals for
+classification of six types of DIS &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="4-conclusion">4. Conclusion&lt;/h2>
+&lt;p>Nonetheless, this study has certain limitations. Although six types of DISs were selected from three different dental hospitals and categorized as a dataset, the training dataset was still insufficient for clinical practice. Therefore, it is necessary to build a high-quality and large-scale dataset containing different types of DISs. If time and cost are not limited, the automated DCNN can be continuously trained and optimized for improved accuracy. Additionally, the automated DCNN regulates the entire process, including appropriate model selection and optimized hyper-parameter adjustment. The automated DCNN can help clinical dental practitioners to classify various types of DISs based on dental radiographic images. Nevertheless, further studies are necessary to determine the efficacy and feasibility of applying the automated DCNN in clinical practice.&lt;/p>
+&lt;h2 id="5-acknowledgments">5. Acknowledgments&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Carlos Theran, REU Instructor&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Yohn Jairo Parra, REU Instructor&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Gregor von Laszewski, REU Instructor&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Victor Adankai, Graduate Student&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Jacques Fleischer, REU peer&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Florida Agricultural and Mechanical University&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="6-references">6. References&lt;/h2>
+&lt;p>[^3] Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&lt;/p>
 &lt;section class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
 &lt;li id="fn:1" role="doc-endnote">
-&lt;p>Use of energy explained - Energy use in homes, [Online resource]
-&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>Karras, Spiro, Look at the structure of dental implants.(2020, September 2).
+&lt;a href="https://www.drkarras.com/a-look-at-the-structure-of-dental-implants/">https://www.drkarras.com/a-look-at-the-structure-of-dental-implants/&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:2" role="doc-endnote">
-&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
-&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>Ghidrai, G. (n.d.). Dental implant abutment. Stomatologia pe intelesul tuturor. &lt;a href="https://www.infodentis.com/dental-implants/abutment.php">https://www.infodentis.com/dental-implants/abutment.php&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3" role="doc-endnote">
+&lt;p>Bataineh, A. B., &amp;amp; Al-Dakes, A. M. (2017, January 1). The influence of length of implant on primary stability: An in vitro study using resonance frequency analysis. Journal of clinical and experimental dentistry. &lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5268121/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5268121/&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4" role="doc-endnote">
+&lt;p>Huang, H., G, Wu., &amp;amp; E, Hunziker. (2020). The clinical significance of implant Stability QUOTIENT (ISQ) MEASUREMENTS: A literature review. Journal of oral biology and craniofacial research. &lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7494467/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7494467/&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5" role="doc-endnote">
+&lt;p>Li, J., Yin, X., Huang, L., Mouraret, S., Brunski, J. B., Cordova, L., Salmon, B., &amp;amp; Helms, J. A. (2017, July). Relationships among Bone QUALITY, IMPLANT Osseointegration, and WNT SIGNALING. Journal of dental research &lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5480808/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5480808/&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:6" role="doc-endnote">
+&lt;p>Möhlhenrich, S. C., Heussen, N., Modabber, A., Bock, A., Hölzle, F., Wilmes, B., Danesh, G., &amp;amp; Szalma, J. (2020, July 24). Influence of bone density, screw size and surgical procedure on orthodontic mini-implant placement – part b: Implant stability. International Journal of Oral and Maxillofacial Surgery. &lt;a href="https://www.sciencedirect.com/science/article/abs/pii/S0901502720302496">https://www.sciencedirect.com/science/article/abs/pii/S0901502720302496&lt;/a>&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:7" role="doc-endnote">
+&lt;p>Lee JH, Kim YT, Lee JB, Jeong SN. A Performance Comparison between Automated Deep Learning and Dental Professionals in Classification of Dental Implant Systems from Dental Imaging: A Multi-Center Study. Diagnostics (Basel). 2020 Nov 7;10(11):910. doi: 10.3390/diagnostics10110910. PMID: 33171758; PMCID: PMC7694989.&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item><item><title>Report:</title><link>/report/hid-example/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/hid-example/project/</guid><description>
@@ -1926,26 +1941,26 @@ The above image shows the MRI-based subtypes. The color shades range from blue t
 &lt;h2 id="7-acknowledgments">7. Acknowledgments&lt;/h2>
 &lt;p>The author likes to thank Gregor von Laszewski, Yohn Jairo, and Carlos Theran.&lt;/p>
 &lt;h2 id="8-references">8. References&lt;/h2>
-&lt;p>[^6] What Is MS? National Multiple Sclerosis Society. (n.d.). &lt;a href="https://www.nationalmssociety.org/What-is-MS">https://www.nationalmssociety.org/What-is-MS&lt;/a>.&lt;/p></description></item><item><title>Report: Project: AI in Orthodontics</title><link>/report/su21-reu-363/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-363/project/</guid><description>
+&lt;p>[^6] What Is MS? National Multiple Sclerosis Society. (n.d.). &lt;a href="https://www.nationalmssociety.org/What-is-MS">https://www.nationalmssociety.org/What-is-MS&lt;/a>.&lt;/p></description></item><item><title>Report: Report: AI in Orthodontics</title><link>/report/su21-reu-363/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-363/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-363/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-363/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-363/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-363/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: draft, Type: Project&lt;/p>
+Status: final, Type: Report&lt;/p>
 &lt;p>Whitney McNair, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-363">su21-reu-363&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-363/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>In this effort we are analzying X-ray images in AI and identify cavitites&lt;/p>
+&lt;p>In this effort we are analyzing X-ray images in AI and identifying cavitites&lt;/p>
 &lt;p>Contents&lt;/p>
 &lt;div class="toc">
 &lt;nav id="TableOfContents">
 &lt;ul>
 &lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#2-data-sets">2. Data Sets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-example-of-a-ai-algorighm-in-orthodontics">5. Example of a AI algorighm in Orthodontics&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-figures">3. Figures&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-example-of-a-ai-algorighm-in-orthodontics">4. Example of a AI algorighm in Orthodontics&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-benchmark">5. Benchmark&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-acknowledgments">7. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-references">8. References&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/nav>
 &lt;/div>
@@ -1955,23 +1970,26 @@ Status: draft, Type: Project&lt;/p>
 &lt;p>Dental field technology capability has increased over the past 25 years, and has helped reduce time, cost, medical errors, and dependence on human expertise. Intelligence in orthodontics can learn, build, remember, understand and recognize designs from techniques used in correcting the teeth like retainers. Dental field can create alternatives, adapt to change and explore experiences with sub-groups of patients. AI has taken part of the dental field by accurately and efficiently processing the best data from treatments. For smart use of Health Data, machine learning and artificial intelligence are expected to promote further development of the digital revolution in (dental) medicine, like x-rays, using algorithms to simulate human cognition in the analysis of complex data. The performance is better, the higher the degree of repetitive pattern and the larger the amount of accessible data&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
 &lt;h2 id="2-data-sets">2. Data Sets&lt;/h2>
 &lt;p>We found a dataset on a kaggle website that is about dental images. The data was collected by Mr. Parth Chokhra. The name of the dataset is Dental Images of kjbjl. The dataset did not have metadata and an explanation of how they collected the data. The data set supports how x-rays of teeth in dentistry becomes artificial intelligence. The Dental Images of kjbjl dataset was used in AI already using autoencoders. Autoencoders are an freely artificial neural network (located in the nervous system) that learns how to accurately encode data and reconstruct the data back from the reduced encoded depiction to a representation that is closes to the original. For some challenges with Orthodontics data sets with privacy, size, avalibility were surprisingly hard to find than we thought.&lt;/p>
-&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;h2 id="3-figures">3. Figures&lt;/h2>
 &lt;p>Below we observed actual dental x-rays. These dental x-rays images below came from Parth Chorkhra on kaggle.com &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. The images are patient x-rays taken by Parth in his dental imagery data set. In the images we can see the caps and nerves of the teeth. Using these x-rays, we may can also find cavities if there are some. We can also identify other issues with patients teeth by taking and using x-rays.&lt;/p>
-&lt;p>&lt;img src="https://user-images.githubusercontent.com/85571628/127322590-3d92ee2c-92a0-4df5-849a-b89545a3ffc2.jpg" alt="Figure 1">
-&lt;img src="https://user-images.githubusercontent.com/85571628/127322621-184ac569-699f-452c-89c3-dcf87378574d.jpg" alt="Figure 2">
-&lt;img src="https://user-images.githubusercontent.com/85571628/127322655-1ec9172f-45fe-4648-9d55-6b028512ec1e.jpg" alt="Figure 3">&lt;/p>
-&lt;h2 id="5-example-of-a-ai-algorighm-in-orthodontics">5. Example of a AI algorighm in Orthodontics&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-363/raw/main/project/images/figure-1.jpg" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> First x-ray&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-363/raw/main/project/images/figure-2.jpg" alt="Figure 2">&lt;/p>
+&lt;p>&lt;strong>Figure 2:&lt;/strong> Second x-ray&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-363/raw/main/project/images/figure-3.jpg" alt="Figure 3">&lt;/p>
+&lt;p>&lt;strong>Figure 3:&lt;/strong> Third x-ray&lt;/p>
+&lt;h2 id="4-example-of-a-ai-algorighm-in-orthodontics">4. Example of a AI algorighm in Orthodontics&lt;/h2>
 &lt;p>On a separate kaggle website, we found a code for DENTAL PANORAMIC KNN &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. The kaggle site shows dental codes taken place in Orthodontics.&lt;/p>
-&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
-&lt;p>Here is an algorighn/code from one of the researchers we found. are using to study the performance of their algorighns or code.&lt;/p>
-&lt;p>Lateral and frontal facial images of patients who visited the Orthodontic department (352 patients) were employed as the training and evaluation data. An experienced orthodontist examined all the facial images for each patient and identified as many clinically used facial traits during the orthodontic diagnosis process as possible (e.g., deviation of the lips, deviation of the mouth, asymmetry of the face, concave profile, upper lip retrusion, presence of scars). A sample patient’s image, a list of sample assessments (i.e., labels), and the multi-label data used in the work by Murata et al. are shown in Figure 1.&lt;/p>
-&lt;p>Figure 1. Sample patient’s image and a list of sample assessments (i.e., labels) including the region of interest, evaluation, etc. In a previous study by Murata et al., they employed labels representing only the facial part (mouth, chin, and whole face), distorted direction (right and left), and its severity (severe, mild, no deviation).&lt;/p>
-&lt;p>&lt;img src="https://user-images.githubusercontent.com/85571628/127335802-d49312a1-0c52-4063-8fbf-eade552483a5.jpg" alt="IMG_6251">&lt;/p>
+&lt;h2 id="5-benchmark">5. Benchmark&lt;/h2>
+&lt;p>Here is an algorithm/code from one of the researchers we found. are using to study the performance of their algorithms or code.&lt;/p>
+&lt;p>Lateral and frontal facial images of patients who visited the Orthodontic department (352 patients) were employed as the training and evaluation data. An experienced orthodontist examined all the facial images for each patient and identified as many clinically used facial traits during the orthodontic diagnosis process as possible (e.g., deviation of the lips, deviation of the mouth, asymmetry of the face, concave profile, upper lip retrusion, presence of scars). A sample patient’s image, a list of sample assessments (i.e., labels), and the multi-label data used in the work by Murata et al. are shown in Figure 4.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-363/raw/main/project/images/figure-4.jpg" alt="Figure 4">&lt;/p>
+&lt;p>&lt;strong>Figure 4:&lt;/strong> Sample patient’s image and a list of sample assessments (i.e., labels) including the region of interest, evaluation, etc. In a previous study by Murata et al., they employed labels representing only the facial part (mouth, chin, and whole face), distorted direction (right and left), and its severity (severe, mild, no deviation).&lt;/p>
 &lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
-&lt;p>Artificial intelligence is rapidly expanding into multiple facets of society. Orthodontics may be one of the fastest branches of dentistry to adapt AI for three reasons. First, patient encounters during treatment generate many types of data. Second, the standardization in the field of dentistry is low compared to other areas of healthcare. A range of valid treatment options exists for any given case. Using AI and large datasets (that include diagnostic results, treatments, and outcomes), one can now measure the effectiveness of different treatment modalities given very specific clinical findings and conditions. Third, orthodontics is largely practiced by independent dentists in their own clinics. Despite the promise of AI, the volume of orthodontic research in this field is relatively low. Further, the clinical accuracy of AI must be improved with an increased number and variety of cases. Before AI can take on a more important role in making diagnostic recommendations, the volume and quality of research data will need to increase &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Artificial intelligence is rapidly expanding into multiple facets of society. Orthodontics may be one of the fastest branches of dentistry to adapt AI for three reasons. First, patient encounters during treatment generate many types of data. Second, the standardization in the field of dentistry is low compared to other areas of healthcare. A range of valid treatment options exists for any given case. Using AI and large datasets (that include diagnostic results, treatments, and outcomes), one can now measure the effectiveness of different treatment modalities given very specific clinical findings and conditions. Third, orthodontics is largely practiced by independent dentists in their own clinics. Despite the promise of AI, the volume of orthodontic research in this field is relatively low. Further, the clinical accuracy of AI must be improved with an increased number and variety of cases. Before AI can take on a more important role in making diagnostic recommendations, the volume and quality of research data will need to increase&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="7-acknowledgments">7. Acknowledgments&lt;/h2>
 &lt;p>Dr. Gregor von Laszewski, Carlos and Yohn guided me throughout this process.&lt;/p>
-&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;h2 id="8-references">8. References&lt;/h2>
 &lt;section class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
