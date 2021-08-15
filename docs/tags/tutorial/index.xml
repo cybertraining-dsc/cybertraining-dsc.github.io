@@ -330,10 +330,10 @@ necessary. Simply proceed to Cell 3. If this still does not work, see &lt;a href
     
     <item>
       <title>Report: Tutorial on Uploading Files to Google Colab</title>
-      <link>/report/su21-reu-361/tutorials/colab/</link>
+      <link>/report/su21-reu-361/deprecated/colab/</link>
       <pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>/report/su21-reu-361/tutorials/colab/</guid>
+      <guid>/report/su21-reu-361/deprecated/colab/</guid>
       <description>
         
         
@@ -655,10 +655,10 @@ $ ssh-add
     
     <item>
       <title>Report: Tutorial on Getting PyCharm Professional for Free</title>
-      <link>/report/su21-reu-361/tutorials/pycharm/</link>
+      <link>/report/su21-reu-361/deprecated/pycharm/</link>
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>/report/su21-reu-361/tutorials/pycharm/</guid>
+      <guid>/report/su21-reu-361/deprecated/pycharm/</guid>
       <description>
         
         
@@ -753,10 +753,10 @@ sign in with your JetBrains account after receiving this email. Click &lt;code&g
     
     <item>
       <title>Report: Tutorial on Getting Raw Images on GitHub</title>
-      <link>/report/su21-reu-361/tutorials/github/</link>
+      <link>/report/su21-reu-361/deprecated/github/</link>
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>/report/su21-reu-361/tutorials/github/</guid>
+      <guid>/report/su21-reu-361/deprecated/github/</guid>
       <description>
         
         
@@ -780,16 +780,23 @@ sign in with your JetBrains account after receiving this email. Click &lt;code&g
 &lt;h2 id=&#34;steps&#34;&gt;Steps&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;Upload your image to GitHub in the images directory&lt;/p&gt;
+&lt;p&gt;Upload your image to GitHub in the images directory. This folder is inside the project folder in your REU repository. Once there, click &lt;code&gt;Add file&lt;/code&gt; and click &lt;code&gt;Upload files&lt;/code&gt;. Proceed by clicking &lt;code&gt;choose your files&lt;/code&gt; and uploading the correct image.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Click on the image file and then right click on it and click &lt;code&gt;Open image in new tab&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Once you navigate to the images directory by clicking on it in GitHub, click on the name of the image to view it and then right click the Download button&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Use the URL shown in the address bar of the new tab to paste into index.md&lt;/p&gt;
+&lt;p&gt;Click &lt;code&gt;Copy Link&lt;/code&gt; and paste the copied link into your index.md report in this format:&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;![Figure 1](https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/eos-price.png)
 
+**Figure 1:** Type a description of Figure 1 here
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Make sure that you replace the link by clicking and dragging over the template placeholder link by pasting the link you just copied:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;![Figure 1](paste-the-link-here)
+
+**Figure 1:** Type a description of Figure 1 here
+&lt;/code&gt;&lt;/pre&gt;
       </description>
     </item>
     
@@ -987,10 +994,10 @@ This tutorial uses Ubuntu, but it should work on other Linux distros, as well.&l
     
     <item>
       <title>Report: Tutorial on Installing Python</title>
-      <link>/report/su21-reu-361/tutorials/python/</link>
+      <link>/report/su21-reu-361/deprecated/python/</link>
       <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>/report/su21-reu-361/tutorials/python/</guid>
+      <guid>/report/su21-reu-361/deprecated/python/</guid>
       <description>
         
         
@@ -998,7 +1005,7 @@ This tutorial uses Ubuntu, but it should work on other Linux distros, as well.&l
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;This tutorial teaches how to install Python on Windows 10.&lt;/p&gt;
+&lt;p&gt;This tutorial teaches how to install Python on Windows, Mac, and Linux.&lt;/p&gt;
 &lt;p&gt;Contents&lt;/p&gt;
 &lt;div class=&#34;toc&#34;&gt;
   &lt;nav id=&#34;TableOfContents&#34;&gt;
@@ -1310,10 +1317,10 @@ This tutorial uses Ubuntu, but it should work on other Linux distros, as well.&l
     
     <item>
       <title>Report: Tutorial on Installing Visual Studio Code</title>
-      <link>/report/su21-reu-361/tutorials/visual-studio-code/</link>
+      <link>/report/su21-reu-361/deprecated/visual-studio-code/</link>
       <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>/report/su21-reu-361/tutorials/visual-studio-code/</guid>
+      <guid>/report/su21-reu-361/deprecated/visual-studio-code/</guid>
       <description>
         
         

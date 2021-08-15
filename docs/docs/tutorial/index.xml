@@ -14,19 +14,6 @@
     
     
     <item>
-      <title>Docs: REU Tutorials</title>
-      <link>/docs/tutorial/reu/</link>
-      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/tutorial/reu/</guid>
-      <description>
-        
-        
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Docs: cms</title>
       <link>/docs/tutorial/cms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -45,6 +32,19 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/docs/tutorial/git/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: REU Tutorials</title>
+      <link>/docs/tutorial/reu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/tutorial/reu/</guid>
       <description>
         
         
