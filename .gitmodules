@@ -19,9 +19,6 @@
 [submodule "content/en/report/su21-reu-372"]
 	path = content/en/report/su21-reu-372
 	url = git@github.com:cybertraining-dsc/su21-reu-372.git
-[submodule "content/en/report/su21-reu-374"]
-	path = content/en/report/su21-reu-374
-	url = git@github.com:cybertraining-dsc/su21-reu-374.git
 [submodule "content/en/report/su21-reu-375"]
 	path = content/en/report/su21-reu-375
 	url = git@github.com:cybertraining-dsc/su21-reu-375.git
