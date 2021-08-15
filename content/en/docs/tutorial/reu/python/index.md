@@ -137,14 +137,14 @@ $ sudo apt install -y libgdbm-dev libnss3-dev  libreadline-dev libffi-dev libsql
 
 ## Python venv
 
-Before you install packages, you need to create a Python venv in your loacl envioronment. We typically do this with 
+Before you install packages, you need to create a Python venv in your local environment. We typically do this with 
 
 ```bash
 $ python3.9 -m venv ~/ENV3
 $ source ~/ENV3/bin/activate
 ```
 
-or for Windows executed in gitbash
+or for Windows executed in git bash
 
 ```bash
 $ python -m venv ~/ENV3
