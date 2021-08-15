@@ -2,7 +2,7 @@
 date: 2021-08-15
 title: Installing Git Bash on Windows 10
 linkTitle: Install Git Bash
-tags: ["reu", "tutorial", "git", "git bash"]
+tags: ["reu", "tutorial", "git"]
 description: "Installung Git."
 author: Jacques Fleischer, Gregor von Laszewski
 resources:
