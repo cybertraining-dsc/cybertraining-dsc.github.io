@@ -33,32 +33,31 @@ Click the following image to be redirected to a 2-minute YouTube walkthrough.
 
 {{% youtube T6UYyu5XVMc %}}
 
-1. First, open up any web browser. This tutorial utilizes Google Chrome, but any other browser should work as long as it is not a 1990s version of Netscape. (Do not worry— you probably don't have this.) The browser of choice can be Microsoft Edge, Firefox, Opera— as long as it can perform a search on a search engine, access a webpage, and download a file.
+1. First, open the url <https://www.python.org/downloads/> in any web browser.
 
-2. Open your browser by clicking the search box in the bottom left of your screen, where it says "Type here to search". Then, type "google chrome" (or whatever is the name of the browser you use) and click it once it appears.
-   1. The "Type here to search" box could be missing if you have customized your taskbar (the taskbar is the long box typically located on the bottom of your screen which has icons). In this case, just click the Windows logo in the bottom left and type your browser name.
-   2. This is just one way to open your browser. You can even click a shortcut to your web browser on your taskbar, on your Desktop, or your Start Menu. In computing, there is typically many ways to accomplish the same end objective.
- 
-3. Once your browser has loaded, search for "python" on Google or any search engine. Click the result that reads "Downloads" from the website "python.org".
- 
-4. As of July 2021 the latest version of Python is `3.9.6`. You may see a different number. As long as you click the button under "Download the latest version for Windows", this will work. Try it now.
- 
-5. Once the download has completed, open the file by clicking on it in your Downloads pane.
-   1. If you are utilizing a school-issued computer, you may be prevented from opening this .exe file because you are not the administrator. Please email or otherwise get in contact with your instructor, professor, or head of IT to discuss installing Python.
- 
-6. Be sure to check the box that reads "Add Python x.x to PATH". This will allow you to run commands from the terminal/command prompt.
- 
-7. Click "Install Now". The default options that entail this selection are appropriate for this experiment's intents and purposes; choosing "Customize installation" may create reproducibility issues down the road, so please select "Install Now" instead.
-   1. The UAC prompt will pop up. UAC stands for "User Account Control" and exists so that the computer will not have unauthorized changes performed on it. Click "Yes" because Python is safe. School-issued computers may ask for an administrator password, so refer to step 5's sidenote.
- 
-8. Sit back and watch the green progress bar, whose speed will depend on the power of the computer.
- 
-9. If the setup was successful, then it will say so. Click "Close".
- 
-10. Click the "Type here to search" box in the bottom-left of the screen, type "cmd", and press Enter.
-    1. An alternative method is to press the Windows key and the "R" key at the same time, type "cmd", and press Enter. This is convenient for those who like to use the keyboard.
- 
-11. Type `python --version` and the output should read "Python x.x.x"; as long as it is the latest version from the website, congratulations. Python is installed on the computer.
+2. As of June 2021, the latest version of Python is `3.9.6`. You may see a different number. We recommend you use the newest official version which is provided to you by simply clicking the button under "Download the latest version for Windows".
+
+3. Once the download has completed, open the file by clicking on it in your Downloads pane.
+
+4. Be sure to check the box that reads "Add Python x.x to PATH". This will allow you to run commands from the terminal/command prompt.
+
+5. Click "Install Now". The default options that entail this selection are appropriate. 
+
+   1. The UAC prompt will pop up. UAC stands for "User Account Control" and exists so that the computer will 
+      not have unauthorized changes performed on it. Click "Yes" because Python is safe. School-issued computers 
+      may ask for an administrator password, so contact your IT department or professor.
+
+6. The installation will take some time.
+
+7. If the setup was successful, then it will say so. Click "Close".
+
+8. Click the "Type here to search" box in the bottom-left of the screen, type "cmd", and press Enter.
+
+    1. An alternative method is to press the Windows key and the "R" key at the same time, type "cmd", and 
+       press Enter. This is convenient for those who like to use the keyboard.
+
+9. Type `python --version` and the output should read "Python x.x.x"; as long as it is the latest version 
+    from the website, congratulations. Python is installed on the computer.
  
 ## Mac
 
@@ -67,31 +66,27 @@ You can skip to the 1:00 minute mark if you are in a hurry.)
 
 {{% youtube TttmzM-EDmk %}}
 
+1. First, open the url <https://www.python.org/downloads/> in any web browser. 
 
-1. Open a web browser that is able to search and download a file. This tutorial uses Google Chrome for Mac.
- 
-2. Type in `python` in the address bar and press enter. It should perform a search on your default search engine.
- 
-3. Look for the result that is from `python.org`. Click on the subresult that says `Downloads`.
- 
-4. Underneath `Download the latest version for Mac OS X`, there should be a yellow button that reads `Download Python x.x.x`. Click on it, and the download should commence.
- 
-5. Once the download finishes, open it by clicking on it. The installer will open. Click `Continue`, click `Continue` again, click `Continue` again, oh my goodness!
- 
-6. Click `Agree`. 
+2. Underneath `Download the latest version for Mac OS X`, there should be a yellow button that reads `Download Python x.x.x`. Click on it, and the download should commence.
+
+3. Once the download finishes, open it by clicking on it. The installer will open. Click `Continue`, click `Continue` again, and click `Continue` again.
+   Read the agreements.
+
+4. Click `Agree`. 
+
    1. If you want to check how much free storage you have on your computer, click the Apple icon in the top left of your computer. Click
     `About This Mac` and then click on `Storage`. As of July 2021, Python takes ~120 MB of space. Remember that 1 GB = 1000 MB.
- 
-7. Click `Install`. Enter your password and press Enter. Watch the blue progress bar crawl like a turtle... or blast off at the speed of sound! This depends on your computer speed.
- 
-8. A Finder window will open. You can close it as it is unnecessary. Click `Close` in the bottom-right of the installer. Click `Move to Trash` because you do not need the installer anymore.
- 
-9. Time to confirm that Python installed correctly. Click the magnifying glass in the top-right of your screen and then type `terminal` into Spotlight Search. Double-click `Terminal`.
-   1. The terminal will be used frequently in this experiment. Consider keeping it in the dock for convenience. Click and hold the Terminal in the dock, go to `Options`, and click `Keep in Dock`.
- \
-&nbsp;    
 
-10. Type `python3 --version` into the terminal and press Enter. It should output the latest version of Python. Congratulations!
+5. Click `Install`. Enter your password and press Enter. The installation will take a while.
+
+6. A Finder window will open. You can close it as it is unnecessary. Click `Close` in the bottom-right of the installer. Click `Move to Trash` because you do not need the installer anymore.
+
+7. Next confirm that Python installed correctly. Click the magnifying glass in the top-right of your screen and then type `terminal` into Spotlight Search. Double-click `Terminal`.
+
+   1. The terminal will be used frequently. Consider keeping it in the dock for convenience. Click and hold the Terminal in the dock, go to `Options`, and click `Keep in Dock`.
+  
+8. Type `python3 --version` into the terminal and press Enter. It should output the latest version of Python. Congratulations!
  
 ## Linux
 
@@ -99,42 +94,67 @@ Click the following image to be redirected to a 9-minute YouTube walkthrough. (L
 This tutorial uses Ubuntu, but it should work on other Linux distros, as well.
 
 {{% youtube cRp_ScANL1w %}}
+* Naturally we recommend that you read all of the licensing information.
 
+1. First, open the url <https://www.python.org/downloads/> in any web browser.
+   
+2. Look at the latest version. It is on the yellow button: `Download Python x.x.x`. You do not need to click this button. Remember this version number.
 
-1. Open a web browser. It can be any browser as long as it can perform a search and navigate to a webpage.
+3. Open a terminal by pressing the Windows key or by clicking the grid on the bottom left of your screen. Type `terminal`. Click on the `Terminal` result that appears.
+   
+4. Next, prepare your system:
+
+Note: If you want to check how much disk space you have, you can use 
+
+```bash
+$ df -h /
+Filesystem       Size   Used  Avail Capacity iused       ifree %iused  Mounted on
+/dev/disk1s5s1  1.8Ti   14Gi  387Gi     4%  553757 19538475003    0%   /
+```
+The value under Avail will be your available space. Make sure you have sufficient space.
+
+```bash
+$ sudo apt-get update
+$ sudo apt install -y wget curl
+$ sudo apt install -y openssl libssl-dev
+$ sudo apt install -y build-essential zlib1g-dev libncurses5-dev 
+$ sudo apt install -y libgdbm-dev libnss3-dev  libreadline-dev libffi-dev libsqlite3-dev libbz2-dev
+``` 
+
+5. After this finishes, type `cd /opt` and press Enter. Then, remember which version you read on the Python webpage (the latest version) and add it as environment variable `PV` to your terminal so we can more easily execute commands that include the version number. Type: 
+  
+   ```bash
+   $ PV=3.9.6
+   $ sudo wget https://www.python.org/ftp/python/$PV/Python-$PV.tgz
+   $ sudo tar xzvf Python-$PV.tgz
+   $ cd Python-$PV
+   $ ./configure --enable-optimizations
+   $ make
+   $ sudo make altinstall
+   ``` 
     
-2. Search for `python` by typing it into the address bar and pressing enter. Click on `Downloads` underneath the result from `https://www.python.org`.
-    
-3. Look at the latest version. It is on the yellow button: `Download Python x.x.x`. You do not need to click this button. Remember this version number.
-    
-4. Open a terminal by pressing the Windows key, or by clicking the grid on the bottom left of your screen. Type `terminal`. Click on the `Terminal` result that appears.
-    
-5. Type `sudo apt-get update` and press Enter. Wait for it to finish. It may already be up-to-date. 
-    
-6. Type `sudo apt-get install libssl-dev openssl make gcc` and press Enter. This will install the libraries required to connect to an FTP to download Python. Type your password for your Linux user account, if prompted, and press Enter.
-    
-7. You are then asked if you are okay with a certain amount of disk space being taken up. Type `y`, which stands for Yes, and then press Enter.
-   1. If you want to check how much disk space you have, press the Files icon on the left (on the taskbar) and click `Other Locations`. You may have to scroll down on the sidebar in order to see it. It should say how much GB is available. Remember, 1 GB = 1000 MB and 1 MB = 1000 KB.
-       
-8. After this finishes, type `cd /opt` and press Enter. Then, remember which version you read on the Python webpage (the latest version). Type `sudo wget https://www.python.org/ftp/python/x.x.x/Python-x.x.x.tgz` after replacing the `x.x.x` with the latest Python version number. As of July 2021, it is `3.9.6`. Press Enter.
-    
-9. Wait for the download to complete. Then, type `sudo tar xzvf Python-x.x.x.tgz` after you replace `x.x.x` with the latest Python version number. Press Enter.
-    
-10. Type `cd Python-x.x.x` after replacing `x.x.x` with the latest version number. Type `./configure` and press Enter.
-     
-11. Once it finishes, type `make` and press Enter. Once *that* finishes, type `sudo make install` and press Enter.
-     
-12. Once the installation finishes, type `sudo ln -fs /opt/Python-x.x.x/Python /usr/bin/pythonx.x`. Notice that `x.x.x` should be replaced with the full version number and `x.x` should have the first two numbers in the version number. Press Enter.
-     
-13. Confirm Python's successful installation by typing `pythonx.x --version`; be sure to replace x.x with the first two numbers of the version number. It should output the latest version number. Congratulations!
-     
-Credit to bobbyiliev for making the required commands publicly available. The commands are available here, as well: https://www.digitalocean.com/community/questions/how-to-install-a-specific-python-version-on-ubuntu
+6. Confirm Python's successful installation by typing `pythonx.x --version`; be sure to replace x.x with the first two numbers of the version number. It should output the latest version number. Congratulations!
+
+## Python venv
+
+Before you install packages, you need to create a Python venv in your local environment. We typically do this with 
+
+```bash
+$ python3.9 -m venv ~/ENV3
+$ source ~/ENV3/bin/activate
+```
+
+or for Windows executed in git bash
+
+```bash
+$ python -m venv ~/ENV3
+$ source ~/ENV3/Scripts/activate
+```
  
 ## Troubleshooting
 
-### Incorrect Python Version on Command Prompt
+### Incorrect Python Version on Command Prompt (Windows)
 
-If the Windows computer has installed an older version of Python, running `python --version` on Command Prompt may output an older version. Typing `python3 --version` may output the correct, latest version.
-
+If the Windows computer has previously installed an older version of Python, running `python --version` on Command Prompt may output the previously installed older version. Typing `python3 --version` may output the correct, latest version.
 
 
