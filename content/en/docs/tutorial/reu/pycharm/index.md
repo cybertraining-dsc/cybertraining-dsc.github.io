@@ -38,13 +38,13 @@ Please ensure that you qualify. This includes you having a valid
 educational email or be part of an open-source project. Make sure to
 explore the license agreements for PyCharm as they may change.
 
-1. Open up a web browser and search `pycharm`. Look under the link from `jetbrains.com` and click `Download Pycharm`.
+1. Open up a web browser and search `pycharm`. Look under the link from `jetbrains.com` and click `Download PyCharm`.
 
 2. Click the **blue** button that reads `Download` under Professional. Wait for the download to complete.
 
 3. Open the completely downloaded file and click `Yes` on the UAC prompt.
-    1. If you have a school computer, please refer to the note under step 5 in the Python tutorial found here:
-    https://cybertraining-dsc.github.io/report/su21-reu-361/tutorials/python/
+    1. If you have a school computer, please refer to the note under step 5 of the Windows section in the Python tutorial found here:
+    https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/blob/main/content/en/docs/tutorial/reu/python/index.md
        
 4. Click `Next`, click `Next` again, and check the box that reads `Add launchers dir to the PATH`. You can also
 create a Desktop Shortcut and create the `.py` association if you would like. The association changes which program, 
