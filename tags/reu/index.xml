@@ -2640,77 +2640,7 @@ Status: final, Type: Report&lt;/p>
 &lt;p>Chokhra, P. (2020, June 29). Medical image dataset. Kaggle. &lt;a href="https://www.kaggle.com/parthplc/medical-image-dataset">https://www.kaggle.com/parthplc/medical-image-dataset&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report: AI Time Series Analysis</title><link>/report/su21-reu-374/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-374/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-312/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-312/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: draft, Type: Project&lt;/p>
-&lt;ul>
-&lt;li>[*] syntax for refences wron, see original example&lt;/li>
-&lt;li>[*] never ever use the word I or my in your report&lt;/li>
-&lt;/ul>
-&lt;p>Zyion Morris, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374">su21-reu-374&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/edit/main/project/index.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-datasets">2. Datasets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-benchmark">4. Benchmark&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-conclusion">5. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-acknowledgments">6. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#7-references">7. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> AI, ML, DL, Cybersecurity, Cyber Attacks, IoT.&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Concurrently, research on AI Time analysis includes query on stock market data stucture.
-The mean (level), maximum, minimum values; Time Series Data Components - trend, seasonality, noise or randomness, a curve, and the level.
-Blockchain levies to be the coin flip of how Artificial Intellignece predicts future prices through machine learning.
-numpy, matplotlib, pandas, cloudmesh-common, cloudmesh-cmd5s, are codes existing that demonstrate the use of blockchain with AI using Python.
-What is the code in this project that will be developed?
-What is the performance of this code?
-What is one conclusion utilizing the source code?
-*Never, ever use the words ‘I’ or ‘my’ in a report&lt;/p>
-&lt;h2 id="2-datasets">2. Datasets&lt;/h2>
-&lt;p>This report pertains a .CSV file of a dataset predicting the consumption of electricity in the coming future. &lt;a href="https://github.com/cybertraining-dsc/su21-reu-374/files/6743411/archive.zip">archive.zip&lt;/a>&lt;/p>
-&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Place a cool image into projects images in my directory&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Correct the following link, replace the fa number with my su number and thne chart of png.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> If the image has been copied, you must use a reference such as shown in the Figure 1 caption.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-374/raw/main/project/images/image.png" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them [^1].&lt;/p>
-&lt;h2 id="4-benchmark">4. Benchmark&lt;/h2>
-&lt;p>*Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]&lt;/p>
-&lt;h2 id="5-conclusion">5. Conclusion&lt;/h2>
-&lt;p>*A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
-&lt;h2 id="6-acknowledgments">6. Acknowledgments&lt;/h2>
-&lt;p>*Needs full sentence&lt;/p>
-&lt;ul>
-&lt;li>Gregor von Laszewski&lt;/li>
-&lt;li>Yohn Jairo Bautista&lt;/li>
-&lt;li>Carlos Theran&lt;/li>
-&lt;/ul>
-&lt;h2 id="7-references">7. References&lt;/h2>
-&lt;ol>
-&lt;li>
-&lt;p>Marco Iansiti and Karim R. Lakhani, The Truth About Blockchain, [Online resource] &lt;a href="https://hbr.org/2017/01/the-truth-about-blockchain">https://hbr.org/2017/01/the-truth-about-blockchain&lt;/a>&lt;/p>
-&lt;ol start="2">
-&lt;li>
-&lt;p>Jeremy Swinfen Green, Understanding cryptocurrency market fluctuations, [Online resource] &lt;a href="https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/">https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Mehmet Tarik Akcay, Historical Data for Top 20 Coins by Market Cap, [Online resource] &lt;a href="https://www.kaggle.com/mtakcy/historical-data-for-top-20-coins-by-market-cap?select=eos.csv">https://www.kaggle.com/mtakcy/historical-data-for-top-20-coins-by-market-cap?select=eos.csv&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;/ol></description></item><item><title>Report: Time Series Analysis of Blockchain-Based Cryptocurrency Price Changes</title><link>/report/su21-reu-361/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/project/</guid><description>
+&lt;/section></description></item><item><title>Report: Time Series Analysis of Blockchain-Based Cryptocurrency Price Changes</title><link>/report/su21-reu-361/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-361/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-361/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: final, Type: Project&lt;/p>

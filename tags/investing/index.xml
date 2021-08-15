@@ -1,291 +1,325 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – investing</title><link>/tags/investing/</link><description>Recent content in investing on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 16 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/investing/index.xml" rel="self" type="application/rss+xml"/><item><title>Report: Time Series Analysis of Blockchain-Based Cryptocurrency Price Changes</title><link>/report/su21-reu-361/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-361/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-361/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: final, Type: Project&lt;/p>
-&lt;p>Jacques Fleischer, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-361">su21-reu-361&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
-&lt;ul>
-&lt;li>Code:
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/code/README.md">Install documentation README.md&lt;/a>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/li>
-&lt;li>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/code/yfinance-lstm.ipynb">yfinance-lstm.ipynb&lt;/a>&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>This project applies neural networks and Artificial Intelligence (AI) to historical records of high-risk cryptocurrency coins to train a prediction model that guesses their price. The code in this project contains Jupyter notebooks, one of which outputs a timeseries graph of any cryptocurrency price once a csv file of the historical data is inputted into the program. Another Jupyter notebook trains an LSTM, or a long short-term memory model, to predict a cryptocurrency&amp;rsquo;s closing price. The LSTM is fed the close price, which is the price that the currency has at the end of the day, so it can learn from those values. The notebook creates two sets: a training set and a test set to assess the accuracy of the results.&lt;/p>
-&lt;p>The data is then normalized using manual min-max scaling so that the model does not experience any bias; this also enhances the performance of the model. Then, the model is trained using three layers— an LSTM, dropout, and dense layer—minimizing the loss through 50 epochs of training; from this training, a recurrent neural network (RNN) is produced and fitted to the training set. Additionally, a graph of the loss over each epoch is produced, with the loss minimizing over time. Finally, the notebook plots a line graph of the actual currency price in red and the predicted price in blue. The process is then repeated for several more cryptocurrencies to compare prediction models. The parameters for the LSTM, such as number of epochs and batch size, are tweaked to try and minimize the root mean square error.&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-datasets">2. Datasets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-architecture">3. Architecture&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-implementation">4. Implementation&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-benchmark">5. Benchmark&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#7-acknowledgments">7. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-references">8. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> cryptocurrency, investing, business, blockchain.&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Blockchain is &lt;em>an open, distributed ledger&lt;/em> which records transactions of cryptocurrency. Systems in blockchain are decentralized, which means that these transactions are shared and distributed among all participants on the blockchain for maximum accountability. Furthermore, this new blockchain technology is becoming an increasingly popular alternative to mainstream transactions through traditional banks&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>. These transactions utilize blockchain-based &lt;em>cryptocurrency&lt;/em>, which is a popular investment of today&amp;rsquo;s age, particularly in Bitcoin. However, the U.S. Securities and Exchange Commission warns that high-risk accompanies these investments&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>Artificial Intelligence (AI) can be used to predict the prices' behavior to avoid cryptocurrency coins' severe volatility that can scare away possible investors&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>. AI and blockchain technology make an ideal partnership in data science; the insights generated from the former and the secure environment ensured by the latter create a goldmine for valuable information. For example, an up-and-coming innovation is the automatic trading of &lt;em>digital investment assets&lt;/em> by AI, which will hugely outperform trading conducted by humans&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>. This innovation would not be possible without the construction of a program which can pinpoint the most ideal time to buy and sell. Similarly, AI is applied in this experiment to predict the future price of cryptocurrencies on a number of different blockchains, including the Electro-Optical System and Ethereum.&lt;/p>
-&lt;p>Long short-term memory (LSTM) is a neural network (form of AI) which ingests information and processes data using a &lt;em>gradient-based learning algorithm&lt;/em>&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>. This creates an algorithm that improves with additional parameters; the algorithm &lt;em>learns&lt;/em> as it ingests. LSTM neural networks will be employed to analyze pre-existing price data so that the model can attempt to generate the future price in varying timetables, such as ten days, several months, or a year from the last date. This project will provide as a boon for insights into investments with potentially great returns. These findings can contribute to a positive cycle of attracting investors to a coin, which results in a price increase, which repeats. The main objective is to provide insights for investors on an up-and-coming product: cryptocurrency.&lt;/p>
-&lt;h2 id="2-datasets">2. Datasets&lt;/h2>
-&lt;p>This project utilizes yfinance, a Python module which downloads the historical prices of a cryptocurrency from the first day of its inception to whichever day the program is executed. For example, the Yahoo Finance page for EOS-USD is the source for Figure 1&lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>. Figure 1 shows the historical data on a line graph when the program receives &amp;ldquo;EOS-USD&amp;rdquo; as an input.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/eos-price.png" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Line graph of EOS price from 1 July 2017 to 22 July 2021. Generated using yfinance-lstm.ipynb&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> located in project/code, utilizing price data from Yahoo Finance&lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="3-architecture">3. Architecture&lt;/h2>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/architecture-process.png" alt="Figure 2">&lt;/p>
-&lt;p>&lt;strong>Figure 2:&lt;/strong> The process of producing LSTM timeseries based on cryptocurrency price.&lt;/p>
-&lt;p>This program undergoes the four main phases outlined in Figure 2: retrieving data from Yahoo Finance&lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>, isolating the Close prices (the price the cryptocurrency has at the end of each day), training the LSTM to predict Close prices, and plotting the prediction model, respectively.&lt;/p>
-&lt;h2 id="4-implementation">4. Implementation&lt;/h2>
-&lt;p>Initially, this project was meant to scrape prices using the BeautifulSoup Python module; however, slight changes in a financial page&amp;rsquo;s website caused the code to break. Alternatively, Kaggle offered historical datasets of cryptocurrency, but they were not up to date. Thus, the final method of retrieving data is from Yahoo Finance through the yfinance Python module, which returns the coins' price from the day to its inception to the present day.&lt;/p>
-&lt;p>The code is inspired from Towards Data Science articles by Serafeim Loukas&lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup> and Viraf&lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup>, who explore using LSTM to predict stock timeseries. This program contains adjustments and changes to their code so that cryptocurrency is analyzed instead. This project opts to use LSTM (long short-term memory) to predict the price because it has a memory capacity, which is ideal for a timeseries data set analysis such as cryptocurrency price over time. LSTM can remember historical patterns and use them to inform further predictions; it can also selectively choose which datapoints to use and which to disregard for the model&lt;sup id="fnref:11">&lt;a href="#fn:11" class="footnote-ref" role="doc-noteref">11&lt;/a>&lt;/sup>. For example, this experiment&amp;rsquo;s code isolates only the close values to predict them and nothing else.&lt;/p>
-&lt;p>Firstly, the code asks the user for the ticker of the cryptocurrency that is to be predicted, such as EOS-USD or BTC-USD. A complete list of acceptable inputs is under the Symbol column at &lt;a href="https://finance.yahoo.com/cryptocurrencies">https://finance.yahoo.com/cryptocurrencies&lt;/a> but theoretically, the program should be able to analyze traditional stocks as well as cryptocurrency.&lt;/p>
-&lt;p>Then, the program downloads the historical data for the corresponding coin through the yfinance Python module. The data must go through normalization for simplicity and optimization of the model. Next, the Close data (the price that the currency has at the end of the day, everyday since the coin&amp;rsquo;s inception) is split into two sets: a training set and a test set, which are further split into their own respective x and y sets to guide the model through training.&lt;/p>
-&lt;p>The training model is run through a layer of long short-term memory, as well as a dropout layer to prevent overfitting and a dense layer to give the model a memory capacity. Figure 3 showcases the setup of the LSTM layer.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/lstm.png" alt="Figure 3">&lt;/p>
-&lt;p>&lt;strong>Figure 3:&lt;/strong> Visual depiction of one layer of long short-term memory&lt;sup id="fnref:12">&lt;a href="#fn:12" class="footnote-ref" role="doc-noteref">12&lt;/a>&lt;/sup>&lt;/p>
-&lt;p>After training through 50 epochs, the program generated Figure 4, a line graph of the prediction model. Unless otherwise specified, the following figures use the EOS-USD data set from July 1st, 2017 to July 26th, 2021. Note that only the last 200 days are predicted so that the model can analyze the preexisting data prior to the 200 days for training purposes.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/prediction-model.png" alt="Figure 4">&lt;/p>
-&lt;p>&lt;strong>Figure 4:&lt;/strong> EOS-USD price overlayed with the latest 200 days predicted by LSTM&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/prediction-model-zoomed.png" alt="Figure 5">&lt;/p>
-&lt;p>&lt;strong>Figure 5:&lt;/strong> Zoomed-in graph (same as Figure 4 but scaled x and y-axis for readability)&lt;/p>
-&lt;p>During training, the number of epochs can affect the model loss. According to the following figures 6 and 7, the loss starts to minimize around the 30th epoch of training. The greater the number of epochs, the sharper and more accurate the prediction becomes, but it does not vastly improve after around the 30th epoch.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/EOS-USD-training-loss.png" alt="Figure 6">&lt;/p>
-&lt;p>&lt;strong>Figure 6:&lt;/strong> Line graph of model loss over the number of epochs the prediction model completed using EOS-USD data set&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/adjusting-epochs.png" alt="Figure 7">&lt;/p>
-&lt;p>&lt;strong>Figure 7:&lt;/strong> Effect of EOS-USD prediction model based on number of epochs completed&lt;/p>
-&lt;p>The epochs can also affect the Mean Squared Error, which details how close the prediction line is to the true Close values in United States Dollars (USD). As demonstrated in Table 1, more epochs lessens the Mean Squared Error (but the change becomes negligible after 25 epochs).&lt;/p>
-&lt;p>&lt;strong>Table 1:&lt;/strong> Number of epochs compared with Mean Squared Error; all tests were run with EOS-USD as input. The Mean Squared Error is rounded to the nearest thousandth.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Epochs&lt;/th>
-&lt;th>Mean Squared Error&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>5&lt;/td>
-&lt;td>0.924 USD&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>15&lt;/td>
-&lt;td>0.558 USD&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>25&lt;/td>
-&lt;td>0.478 USD&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>50&lt;/td>
-&lt;td>0.485 USD&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>100&lt;/td>
-&lt;td>0.490 USD&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>Lastly, cryptocurrencies other than EOS such as Dogecoin, Ethereum, and Bitcoin can be analyzed as well. Figure 8 demonstrates the prediction models generated for these cryptocurrencies.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/other-cryptocurrencies.png" alt="Figure 8">&lt;/p>
-&lt;p>&lt;strong>Figure 8:&lt;/strong> EOS, Dogecoin, Ethereum, and Bitcoin prediction models&lt;/p>
-&lt;p>Dogecoin presents a model that does not account well for the sharp rises, likely because the training period encompasses a period of relative inactivity (no high changes in price).&lt;/p>
-&lt;h2 id="5-benchmark">5. Benchmark&lt;/h2>
-&lt;p>The benchmark is run within yfinance-lstm.ipynb located in project/code&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. The program ran on a 64-bit Windows 10 Home Edition (21H1) computer with a Ryzen 5 3600 processor (3.6 GHz). It also has dual-channel 16 GB RAM clocked at 3200 MHz and a GTX 1660 Ventus XS OC graphics card. Table 2 lists these specifications as well as the allocated computer memory during runtime and module versions. Table 3 shows that the amount of time it takes to train the 50 epochs for the LSTM is around 15 seconds, while the entire program execution takes around 16 seconds. A StopWatch module was used from the package cloudmesh-common&lt;sup id="fnref:13">&lt;a href="#fn:13" class="footnote-ref" role="doc-noteref">13&lt;/a>&lt;/sup> to precisely measure the training time.&lt;/p>
-&lt;p>&lt;strong>Table 2:&lt;/strong> First half of cloudmesh benchmark output, which details the specifications and status of the computer at the time of program execution&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Attribute&lt;/th>
-&lt;th>Value&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>cpu_cores&lt;/td>
-&lt;td>6&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>cpu_count&lt;/td>
-&lt;td>12&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>cpu_threads&lt;/td>
-&lt;td>12&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>frequency&lt;/td>
-&lt;td>scpufreq(current=3600.0, min=0.0, max=3600.0)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>mem.available&lt;/td>
-&lt;td>7.1 GiB&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>mem.free&lt;/td>
-&lt;td>7.1 GiB&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>mem.percent&lt;/td>
-&lt;td>55.3 %&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>mem.total&lt;/td>
-&lt;td>16.0 GiB&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>mem.used&lt;/td>
-&lt;td>8.8 GiB&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>platform.version&lt;/td>
-&lt;td>(&amp;lsquo;10&amp;rsquo;, &amp;lsquo;10.0.19043&amp;rsquo;, &amp;lsquo;SP0&amp;rsquo;, &amp;lsquo;Multiprocessor Free&amp;rsquo;)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>python&lt;/td>
-&lt;td>3.9.5 (tags/v3.9.5:0a7dcbd, May 3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)]&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>python.pip&lt;/td>
-&lt;td>21.1.3&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>python.version&lt;/td>
-&lt;td>3.9.5&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>sys.platform&lt;/td>
-&lt;td>win32&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>uname.machine&lt;/td>
-&lt;td>AMD64&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>uname.processor&lt;/td>
-&lt;td>AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>uname.release&lt;/td>
-&lt;td>10&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>uname.system&lt;/td>
-&lt;td>Windows&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>uname.version&lt;/td>
-&lt;td>10.0.19043&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;strong>Table 3:&lt;/strong> Second half of cloudmesh benchmark output, which reports the execution time of training, overall program, and prediction&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Name&lt;/th>
-&lt;th>Time&lt;/th>
-&lt;th>Sum&lt;/th>
-&lt;th>Start&lt;/th>
-&lt;th>OS&lt;/th>
-&lt;th>Version&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Overall time&lt;/td>
-&lt;td>16.589 s&lt;/td>
-&lt;td>35.273 s&lt;/td>
-&lt;td>2021-07-26 18:39:57&lt;/td>
-&lt;td>Windows&lt;/td>
-&lt;td>(&amp;lsquo;10&amp;rsquo;, &amp;lsquo;10.0.19043&amp;rsquo;, &amp;lsquo;SP0&amp;rsquo;, &amp;lsquo;Multiprocessor Free&amp;rsquo;)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Training time&lt;/td>
-&lt;td>15.186 s&lt;/td>
-&lt;td>30.986 s&lt;/td>
-&lt;td>2021-07-26 18:39:58&lt;/td>
-&lt;td>Windows&lt;/td>
-&lt;td>(&amp;lsquo;10&amp;rsquo;, &amp;lsquo;10.0.19043&amp;rsquo;, &amp;lsquo;SP0&amp;rsquo;, &amp;lsquo;Multiprocessor Free&amp;rsquo;)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Prediction time&lt;/td>
-&lt;td>0.227 s&lt;/td>
-&lt;td>0.474 s&lt;/td>
-&lt;td>2021-07-26 18:40:13&lt;/td>
-&lt;td>Windows&lt;/td>
-&lt;td>(&amp;lsquo;10&amp;rsquo;, &amp;lsquo;10.0.19043&amp;rsquo;, &amp;lsquo;SP0&amp;rsquo;, &amp;lsquo;Multiprocessor Free&amp;rsquo;)&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
-&lt;p>At first glance, the results look promising as the predictions have minimal deviation from the true values. However, upon closer look, the values lag by one day, which is a sign that they are only viewing the previous day and mimicking those values. Furthermore, the model cannot go several days or years into the future because there is no data to run on, such as opening price or volume. The experiment is further confounded by the nature of stock prices: they follow random walk theory, which means that the nature in which they move follows a random walk: the changes in price do not necessarily happen as a result of previous changes. Thus, this nature of stocks contradicts the very architecture of this experiment because long short-term memory assumes that the values have an effect on one another.&lt;/p>
-&lt;p>For future research, a program can scrape tweets from influencers' Twitter pages so that a model can guess whether public discussion of a cryptocurrency is favorable or unfavorable (and whether the price will increase as a result).&lt;/p>
-&lt;h2 id="7-acknowledgments">7. Acknowledgments&lt;/h2>
-&lt;p>Thank you to Dr. Gregor von Laszewski, Dr. Yohn Jairo Parra Bautista, and Dr. Carlos Theran for their invaluable guidance. Furthermore, thank you to Florida A&amp;amp;M University for graciously funding this scientific excursion and Miami Dade College School of Science for this research opportunity.&lt;/p>
-&lt;h2 id="8-references">8. References&lt;/h2>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Jacques Fleischer, README.md Install Documentation, [GitHub]
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/code/README.md">https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/code/README.md&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>Jacques Fleischer, yfinance-lstm.ipynb Jupyter Notebook, [GitHub]
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/code/yfinance-lstm.ipynb">https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/code/yfinance-lstm.ipynb&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:3" role="doc-endnote">
-&lt;p>Marco Iansiti and Karim R. Lakhani, The Truth About Blockchain, [Online resource]
-&lt;a href="https://hbr.org/2017/01/the-truth-about-blockchain">https://hbr.org/2017/01/the-truth-about-blockchain&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:4" role="doc-endnote">
-&lt;p>Lori Schock, Thinking About Buying the Latest New Cryptocurrency or Token?, [Online resource]
-&lt;a href="https://www.investor.gov/additional-resources/spotlight/directors-take/thinking-about-buying-latest-new-cryptocurrency-or">https://www.investor.gov/additional-resources/spotlight/directors-take/thinking-about-buying-latest-new-cryptocurrency-or&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:5" role="doc-endnote">
-&lt;p>Jeremy Swinfen Green, Understanding cryptocurrency market fluctuations, [Online resource]
-&lt;a href="https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/">https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:6" role="doc-endnote">
-&lt;p>Raj Shroff, When Blockchain Meets Artificial Intelligence. [Online resource]
-&lt;a href="https://medium.com/swlh/when-blockchain-meets-artificial-intelligence-e448968d0482">https://medium.com/swlh/when-blockchain-meets-artificial-intelligence-e448968d0482&lt;/a>&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:7" role="doc-endnote">
-&lt;p>Sepp Hochreiter and Jürgen Schmidhuber, Long Short-Term Memory, [Online resource]
-&lt;a href="https://www.bioinf.jku.at/publications/older/2604.pdf">https://www.bioinf.jku.at/publications/older/2604.pdf&lt;/a>&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:8" role="doc-endnote">
-&lt;p>Yahoo Finance, EOS USD (EOS-USD), [Online resource]
-&lt;a href="https://finance.yahoo.com/quote/EOS-USD/history?p=EOS-USD">https://finance.yahoo.com/quote/EOS-USD/history?p=EOS-USD&lt;/a>&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:9" role="doc-endnote">
-&lt;p>Serafeim Loukas, Time-Series Forecasting: Predicting Stock Prices Using An LSTM Model, [Online resource]
-&lt;a href="https://towardsdatascience.com/lstm-time-series-forecasting-predicting-stock-prices-using-an-lstm-model-6223e9644a2f">https://towardsdatascience.com/lstm-time-series-forecasting-predicting-stock-prices-using-an-lstm-model-6223e9644a2f&lt;/a>&amp;#160;&lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:10" role="doc-endnote">
-&lt;p>Viraf, How (NOT) To Predict Stock Prices With LSTMs, [Online resource]
-&lt;a href="https://towardsdatascience.com/how-not-to-predict-stock-prices-with-lstms-a51f564ccbca">https://towardsdatascience.com/how-not-to-predict-stock-prices-with-lstms-a51f564ccbca&lt;/a>&amp;#160;&lt;a href="#fnref:10" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:11" role="doc-endnote">
-&lt;p>Derk Zomer, Using machine learning to predict future bitcoin prices, [Online resource]
-&lt;a href="https://towardsdatascience.com/using-machine-learning-to-predict-future-bitcoin-prices-6637e7bfa58f">https://towardsdatascience.com/using-machine-learning-to-predict-future-bitcoin-prices-6637e7bfa58f&lt;/a>&amp;#160;&lt;a href="#fnref:11" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:12" role="doc-endnote">
-&lt;p>Christopher Olah, Understanding LSTM Networks, [Online resource]
-&lt;a href="https://colah.github.io/posts/2015-08-Understanding-LSTMs/">https://colah.github.io/posts/2015-08-Understanding-LSTMs/&lt;/a>&amp;#160;&lt;a href="#fnref:12" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:13" role="doc-endnote">
-&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
-&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:13" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cybertraining – investing</title>
+    <link>/tags/investing/</link>
+    <description>Recent content in investing on Cybertraining</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 16 Jun 2021 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/tags/investing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Report: Time Series Analysis of Blockchain-Based Cryptocurrency Price Changes</title>
+      <link>/report/su21-reu-361/project/</link>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/report/su21-reu-361/project/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-361/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-361/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-361/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-361/workflows/Status/badge.svg&#34; alt=&#34;Status&#34;&gt;&lt;/a&gt;
+Status: final, Type: Project&lt;/p&gt;
+&lt;p&gt;Jacques Fleischer, &lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-361&#34;&gt;su21-reu-361&lt;/a&gt;, &lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/index.md&#34;&gt;Edit&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Code:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/code/README.md&#34;&gt;Install documentation README.md&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/code/yfinance-lstm.ipynb&#34;&gt;yfinance-lstm.ipynb&lt;/a&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;This project applies neural networks and Artificial Intelligence (AI) to historical records of high-risk cryptocurrency coins to train a prediction model that guesses their price. The code in this project contains Jupyter notebooks, one of which outputs a timeseries graph of any cryptocurrency price once a csv file of the historical data is inputted into the program. Another Jupyter notebook trains an LSTM, or a long short-term memory model, to predict a cryptocurrency&amp;rsquo;s closing price. The LSTM is fed the close price, which is the price that the currency has at the end of the day, so it can learn from those values. The notebook creates two sets: a training set and a test set to assess the accuracy of the results.&lt;/p&gt;
+&lt;p&gt;The data is then normalized using manual min-max scaling so that the model does not experience any bias; this also enhances the performance of the model. Then, the model is trained using three layers— an LSTM, dropout, and dense layer—minimizing the loss through 50 epochs of training; from this training, a recurrent neural network (RNN) is produced and fitted to the training set. Additionally, a graph of the loss over each epoch is produced, with the loss minimizing over time. Finally, the notebook plots a line graph of the actual currency price in red and the predicted price in blue. The process is then repeated for several more cryptocurrencies to compare prediction models. The parameters for the LSTM, such as number of epochs and batch size, are tweaked to try and minimize the root mean square error.&lt;/p&gt;
+&lt;p&gt;Contents&lt;/p&gt;
+&lt;div class=&#34;toc&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#1-introduction&#34;&gt;1. Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#2-datasets&#34;&gt;2. Datasets&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#3-architecture&#34;&gt;3. Architecture&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#4-implementation&#34;&gt;4. Implementation&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#5-benchmark&#34;&gt;5. Benchmark&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#6-conclusion&#34;&gt;6. Conclusion&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#7-acknowledgments&#34;&gt;7. Acknowledgments&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#8-references&#34;&gt;8. References&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; cryptocurrency, investing, business, blockchain.&lt;/p&gt;
+&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;
+&lt;p&gt;Blockchain is &lt;em&gt;an open, distributed ledger&lt;/em&gt; which records transactions of cryptocurrency. Systems in blockchain are decentralized, which means that these transactions are shared and distributed among all participants on the blockchain for maximum accountability. Furthermore, this new blockchain technology is becoming an increasingly popular alternative to mainstream transactions through traditional banks&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;. These transactions utilize blockchain-based &lt;em&gt;cryptocurrency&lt;/em&gt;, which is a popular investment of today&amp;rsquo;s age, particularly in Bitcoin. However, the U.S. Securities and Exchange Commission warns that high-risk accompanies these investments&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Artificial Intelligence (AI) can be used to predict the prices&#39; behavior to avoid cryptocurrency coins&#39; severe volatility that can scare away possible investors&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;. AI and blockchain technology make an ideal partnership in data science; the insights generated from the former and the secure environment ensured by the latter create a goldmine for valuable information. For example, an up-and-coming innovation is the automatic trading of &lt;em&gt;digital investment assets&lt;/em&gt; by AI, which will hugely outperform trading conducted by humans&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;. This innovation would not be possible without the construction of a program which can pinpoint the most ideal time to buy and sell. Similarly, AI is applied in this experiment to predict the future price of cryptocurrencies on a number of different blockchains, including the Electro-Optical System and Ethereum.&lt;/p&gt;
+&lt;p&gt;Long short-term memory (LSTM) is a neural network (form of AI) which ingests information and processes data using a &lt;em&gt;gradient-based learning algorithm&lt;/em&gt;&lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;. This creates an algorithm that improves with additional parameters; the algorithm &lt;em&gt;learns&lt;/em&gt; as it ingests. LSTM neural networks will be employed to analyze pre-existing price data so that the model can attempt to generate the future price in varying timetables, such as ten days, several months, or a year from the last date. This project will provide as a boon for insights into investments with potentially great returns. These findings can contribute to a positive cycle of attracting investors to a coin, which results in a price increase, which repeats. The main objective is to provide insights for investors on an up-and-coming product: cryptocurrency.&lt;/p&gt;
+&lt;h2 id=&#34;2-datasets&#34;&gt;2. Datasets&lt;/h2&gt;
+&lt;p&gt;This project utilizes yfinance, a Python module which downloads the historical prices of a cryptocurrency from the first day of its inception to whichever day the program is executed. For example, the Yahoo Finance page for EOS-USD is the source for Figure 1&lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;. Figure 1 shows the historical data on a line graph when the program receives &amp;ldquo;EOS-USD&amp;rdquo; as an input.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/eos-price.png&#34; alt=&#34;Figure 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 1:&lt;/strong&gt; Line graph of EOS price from 1 July 2017 to 22 July 2021. Generated using yfinance-lstm.ipynb&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; located in project/code, utilizing price data from Yahoo Finance&lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;3-architecture&#34;&gt;3. Architecture&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/architecture-process.png&#34; alt=&#34;Figure 2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 2:&lt;/strong&gt; The process of producing LSTM timeseries based on cryptocurrency price.&lt;/p&gt;
+&lt;p&gt;This program undergoes the four main phases outlined in Figure 2: retrieving data from Yahoo Finance&lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;, isolating the Close prices (the price the cryptocurrency has at the end of each day), training the LSTM to predict Close prices, and plotting the prediction model, respectively.&lt;/p&gt;
+&lt;h2 id=&#34;4-implementation&#34;&gt;4. Implementation&lt;/h2&gt;
+&lt;p&gt;Initially, this project was meant to scrape prices using the BeautifulSoup Python module; however, slight changes in a financial page&amp;rsquo;s website caused the code to break. Alternatively, Kaggle offered historical datasets of cryptocurrency, but they were not up to date. Thus, the final method of retrieving data is from Yahoo Finance through the yfinance Python module, which returns the coins&#39; price from the day to its inception to the present day.&lt;/p&gt;
+&lt;p&gt;The code is inspired from Towards Data Science articles by Serafeim Loukas&lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt; and Viraf&lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;, who explore using LSTM to predict stock timeseries. This program contains adjustments and changes to their code so that cryptocurrency is analyzed instead. This project opts to use LSTM (long short-term memory) to predict the price because it has a memory capacity, which is ideal for a timeseries data set analysis such as cryptocurrency price over time. LSTM can remember historical patterns and use them to inform further predictions; it can also selectively choose which datapoints to use and which to disregard for the model&lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt;. For example, this experiment&amp;rsquo;s code isolates only the close values to predict them and nothing else.&lt;/p&gt;
+&lt;p&gt;Firstly, the code asks the user for the ticker of the cryptocurrency that is to be predicted, such as EOS-USD or BTC-USD. A complete list of acceptable inputs is under the Symbol column at &lt;a href=&#34;https://finance.yahoo.com/cryptocurrencies&#34;&gt;https://finance.yahoo.com/cryptocurrencies&lt;/a&gt; but theoretically, the program should be able to analyze traditional stocks as well as cryptocurrency.&lt;/p&gt;
+&lt;p&gt;Then, the program downloads the historical data for the corresponding coin through the yfinance Python module. The data must go through normalization for simplicity and optimization of the model. Next, the Close data (the price that the currency has at the end of the day, everyday since the coin&amp;rsquo;s inception) is split into two sets: a training set and a test set, which are further split into their own respective x and y sets to guide the model through training.&lt;/p&gt;
+&lt;p&gt;The training model is run through a layer of long short-term memory, as well as a dropout layer to prevent overfitting and a dense layer to give the model a memory capacity. Figure 3 showcases the setup of the LSTM layer.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/lstm.png&#34; alt=&#34;Figure 3&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 3:&lt;/strong&gt; Visual depiction of one layer of long short-term memory&lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;After training through 50 epochs, the program generated Figure 4, a line graph of the prediction model. Unless otherwise specified, the following figures use the EOS-USD data set from July 1st, 2017 to July 26th, 2021. Note that only the last 200 days are predicted so that the model can analyze the preexisting data prior to the 200 days for training purposes.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/prediction-model.png&#34; alt=&#34;Figure 4&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 4:&lt;/strong&gt; EOS-USD price overlayed with the latest 200 days predicted by LSTM&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/prediction-model-zoomed.png&#34; alt=&#34;Figure 5&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 5:&lt;/strong&gt; Zoomed-in graph (same as Figure 4 but scaled x and y-axis for readability)&lt;/p&gt;
+&lt;p&gt;During training, the number of epochs can affect the model loss. According to the following figures 6 and 7, the loss starts to minimize around the 30th epoch of training. The greater the number of epochs, the sharper and more accurate the prediction becomes, but it does not vastly improve after around the 30th epoch.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/EOS-USD-training-loss.png&#34; alt=&#34;Figure 6&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 6:&lt;/strong&gt; Line graph of model loss over the number of epochs the prediction model completed using EOS-USD data set&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/adjusting-epochs.png&#34; alt=&#34;Figure 7&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 7:&lt;/strong&gt; Effect of EOS-USD prediction model based on number of epochs completed&lt;/p&gt;
+&lt;p&gt;The epochs can also affect the Mean Squared Error, which details how close the prediction line is to the true Close values in United States Dollars (USD). As demonstrated in Table 1, more epochs lessens the Mean Squared Error (but the change becomes negligible after 25 epochs).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Table 1:&lt;/strong&gt; Number of epochs compared with Mean Squared Error; all tests were run with EOS-USD as input. The Mean Squared Error is rounded to the nearest thousandth.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Epochs&lt;/th&gt;
+&lt;th&gt;Mean Squared Error&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;0.924 USD&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;0.558 USD&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;td&gt;0.478 USD&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;50&lt;/td&gt;
+&lt;td&gt;0.485 USD&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;100&lt;/td&gt;
+&lt;td&gt;0.490 USD&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Lastly, cryptocurrencies other than EOS such as Dogecoin, Ethereum, and Bitcoin can be analyzed as well. Figure 8 demonstrates the prediction models generated for these cryptocurrencies.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/other-cryptocurrencies.png&#34; alt=&#34;Figure 8&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 8:&lt;/strong&gt; EOS, Dogecoin, Ethereum, and Bitcoin prediction models&lt;/p&gt;
+&lt;p&gt;Dogecoin presents a model that does not account well for the sharp rises, likely because the training period encompasses a period of relative inactivity (no high changes in price).&lt;/p&gt;
+&lt;h2 id=&#34;5-benchmark&#34;&gt;5. Benchmark&lt;/h2&gt;
+&lt;p&gt;The benchmark is run within yfinance-lstm.ipynb located in project/code&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. The program ran on a 64-bit Windows 10 Home Edition (21H1) computer with a Ryzen 5 3600 processor (3.6 GHz). It also has dual-channel 16 GB RAM clocked at 3200 MHz and a GTX 1660 Ventus XS OC graphics card. Table 2 lists these specifications as well as the allocated computer memory during runtime and module versions. Table 3 shows that the amount of time it takes to train the 50 epochs for the LSTM is around 15 seconds, while the entire program execution takes around 16 seconds. A StopWatch module was used from the package cloudmesh-common&lt;sup id=&#34;fnref:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt; to precisely measure the training time.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Table 2:&lt;/strong&gt; First half of cloudmesh benchmark output, which details the specifications and status of the computer at the time of program execution&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Attribute&lt;/th&gt;
+&lt;th&gt;Value&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;cpu_cores&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;cpu_count&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;cpu_threads&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;frequency&lt;/td&gt;
+&lt;td&gt;scpufreq(current=3600.0, min=0.0, max=3600.0)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;mem.available&lt;/td&gt;
+&lt;td&gt;7.1 GiB&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;mem.free&lt;/td&gt;
+&lt;td&gt;7.1 GiB&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;mem.percent&lt;/td&gt;
+&lt;td&gt;55.3 %&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;mem.total&lt;/td&gt;
+&lt;td&gt;16.0 GiB&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;mem.used&lt;/td&gt;
+&lt;td&gt;8.8 GiB&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;platform.version&lt;/td&gt;
+&lt;td&gt;(&amp;lsquo;10&amp;rsquo;, &amp;lsquo;10.0.19043&amp;rsquo;, &amp;lsquo;SP0&amp;rsquo;, &amp;lsquo;Multiprocessor Free&amp;rsquo;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;python&lt;/td&gt;
+&lt;td&gt;3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;python.pip&lt;/td&gt;
+&lt;td&gt;21.1.3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;python.version&lt;/td&gt;
+&lt;td&gt;3.9.5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;sys.platform&lt;/td&gt;
+&lt;td&gt;win32&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;uname.machine&lt;/td&gt;
+&lt;td&gt;AMD64&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;uname.processor&lt;/td&gt;
+&lt;td&gt;AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;uname.release&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;uname.system&lt;/td&gt;
+&lt;td&gt;Windows&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;uname.version&lt;/td&gt;
+&lt;td&gt;10.0.19043&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Table 3:&lt;/strong&gt; Second half of cloudmesh benchmark output, which reports the execution time of training, overall program, and prediction&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Time&lt;/th&gt;
+&lt;th&gt;Sum&lt;/th&gt;
+&lt;th&gt;Start&lt;/th&gt;
+&lt;th&gt;OS&lt;/th&gt;
+&lt;th&gt;Version&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Overall time&lt;/td&gt;
+&lt;td&gt;16.589 s&lt;/td&gt;
+&lt;td&gt;35.273 s&lt;/td&gt;
+&lt;td&gt;2021-07-26 18:39:57&lt;/td&gt;
+&lt;td&gt;Windows&lt;/td&gt;
+&lt;td&gt;(&amp;lsquo;10&amp;rsquo;, &amp;lsquo;10.0.19043&amp;rsquo;, &amp;lsquo;SP0&amp;rsquo;, &amp;lsquo;Multiprocessor Free&amp;rsquo;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Training time&lt;/td&gt;
+&lt;td&gt;15.186 s&lt;/td&gt;
+&lt;td&gt;30.986 s&lt;/td&gt;
+&lt;td&gt;2021-07-26 18:39:58&lt;/td&gt;
+&lt;td&gt;Windows&lt;/td&gt;
+&lt;td&gt;(&amp;lsquo;10&amp;rsquo;, &amp;lsquo;10.0.19043&amp;rsquo;, &amp;lsquo;SP0&amp;rsquo;, &amp;lsquo;Multiprocessor Free&amp;rsquo;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Prediction time&lt;/td&gt;
+&lt;td&gt;0.227 s&lt;/td&gt;
+&lt;td&gt;0.474 s&lt;/td&gt;
+&lt;td&gt;2021-07-26 18:40:13&lt;/td&gt;
+&lt;td&gt;Windows&lt;/td&gt;
+&lt;td&gt;(&amp;lsquo;10&amp;rsquo;, &amp;lsquo;10.0.19043&amp;rsquo;, &amp;lsquo;SP0&amp;rsquo;, &amp;lsquo;Multiprocessor Free&amp;rsquo;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;6-conclusion&#34;&gt;6. Conclusion&lt;/h2&gt;
+&lt;p&gt;At first glance, the results look promising as the predictions have minimal deviation from the true values. However, upon closer look, the values lag by one day, which is a sign that they are only viewing the previous day and mimicking those values. Furthermore, the model cannot go several days or years into the future because there is no data to run on, such as opening price or volume. The experiment is further confounded by the nature of stock prices: they follow random walk theory, which means that the nature in which they move follows a random walk: the changes in price do not necessarily happen as a result of previous changes. Thus, this nature of stocks contradicts the very architecture of this experiment because long short-term memory assumes that the values have an effect on one another.&lt;/p&gt;
+&lt;p&gt;For future research, a program can scrape tweets from influencers&#39; Twitter pages so that a model can guess whether public discussion of a cryptocurrency is favorable or unfavorable (and whether the price will increase as a result).&lt;/p&gt;
+&lt;h2 id=&#34;7-acknowledgments&#34;&gt;7. Acknowledgments&lt;/h2&gt;
+&lt;p&gt;Thank you to Dr. Gregor von Laszewski, Dr. Yohn Jairo Parra Bautista, and Dr. Carlos Theran for their invaluable guidance. Furthermore, thank you to Florida A&amp;amp;M University for graciously funding this scientific excursion and Miami Dade College School of Science for this research opportunity.&lt;/p&gt;
+&lt;h2 id=&#34;8-references&#34;&gt;8. References&lt;/h2&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Jacques Fleischer, README.md Install Documentation, [GitHub]
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/code/README.md&#34;&gt;https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/code/README.md&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Jacques Fleischer, yfinance-lstm.ipynb Jupyter Notebook, [GitHub]
+&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/code/yfinance-lstm.ipynb&#34;&gt;https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/code/yfinance-lstm.ipynb&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Marco Iansiti and Karim R. Lakhani, The Truth About Blockchain, [Online resource]
+&lt;a href=&#34;https://hbr.org/2017/01/the-truth-about-blockchain&#34;&gt;https://hbr.org/2017/01/the-truth-about-blockchain&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Lori Schock, Thinking About Buying the Latest New Cryptocurrency or Token?, [Online resource]
+&lt;a href=&#34;https://www.investor.gov/additional-resources/spotlight/directors-take/thinking-about-buying-latest-new-cryptocurrency-or&#34;&gt;https://www.investor.gov/additional-resources/spotlight/directors-take/thinking-about-buying-latest-new-cryptocurrency-or&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Jeremy Swinfen Green, Understanding cryptocurrency market fluctuations, [Online resource]
+&lt;a href=&#34;https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/&#34;&gt;https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:6&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Raj Shroff, When Blockchain Meets Artificial Intelligence. [Online resource]
+&lt;a href=&#34;https://medium.com/swlh/when-blockchain-meets-artificial-intelligence-e448968d0482&#34;&gt;https://medium.com/swlh/when-blockchain-meets-artificial-intelligence-e448968d0482&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:7&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Sepp Hochreiter and Jürgen Schmidhuber, Long Short-Term Memory, [Online resource]
+&lt;a href=&#34;https://www.bioinf.jku.at/publications/older/2604.pdf&#34;&gt;https://www.bioinf.jku.at/publications/older/2604.pdf&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:8&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Yahoo Finance, EOS USD (EOS-USD), [Online resource]
+&lt;a href=&#34;https://finance.yahoo.com/quote/EOS-USD/history?p=EOS-USD&#34;&gt;https://finance.yahoo.com/quote/EOS-USD/history?p=EOS-USD&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:9&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Serafeim Loukas, Time-Series Forecasting: Predicting Stock Prices Using An LSTM Model, [Online resource]
+&lt;a href=&#34;https://towardsdatascience.com/lstm-time-series-forecasting-predicting-stock-prices-using-an-lstm-model-6223e9644a2f&#34;&gt;https://towardsdatascience.com/lstm-time-series-forecasting-predicting-stock-prices-using-an-lstm-model-6223e9644a2f&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:9&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:10&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Viraf, How (NOT) To Predict Stock Prices With LSTMs, [Online resource]
+&lt;a href=&#34;https://towardsdatascience.com/how-not-to-predict-stock-prices-with-lstms-a51f564ccbca&#34;&gt;https://towardsdatascience.com/how-not-to-predict-stock-prices-with-lstms-a51f564ccbca&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:10&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:11&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Derk Zomer, Using machine learning to predict future bitcoin prices, [Online resource]
+&lt;a href=&#34;https://towardsdatascience.com/using-machine-learning-to-predict-future-bitcoin-prices-6637e7bfa58f&#34;&gt;https://towardsdatascience.com/using-machine-learning-to-predict-future-bitcoin-prices-6637e7bfa58f&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:11&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:12&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Christopher Olah, Understanding LSTM Networks, [Online resource]
+&lt;a href=&#34;https://colah.github.io/posts/2015-08-Understanding-LSTMs/&#34;&gt;https://colah.github.io/posts/2015-08-Understanding-LSTMs/&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:12&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:13&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
+&lt;a href=&#34;https://github.com/cloudmesh/cloudmesh-common&#34;&gt;https://github.com/cloudmesh/cloudmesh-common&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:13&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – health</title><link>/tags/health/</link><description>Recent content in health on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 15 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/health/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Health Informatics</title><link>/docs/modules/bigdataapplications/2019/applications/health/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/bigdataapplications/2019/applications/health/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – health</title><link>/tags/health/</link><description>Recent content in health on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 16 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/health/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Health Informatics</title><link>/docs/modules/bigdataapplications/2019/applications/health/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/bigdataapplications/2019/applications/health/</guid><description>
 &lt;p>&lt;a href="https://drive.google.com/open?id=0B6wqDMIyK2P7UGRJNmlkYkNkQk0">&lt;img src="images/presentation.png" alt="Presentation"> Health Informatics
 (131)&lt;/a>&lt;/p>
 &lt;p>This section starts by discussing general aspects of Big Data and Health
@@ -142,7 +142,1057 @@ trees.&lt;/p>
 &lt;li>&lt;del>&lt;a href="http://www.delsall.org">http://www.delsall.org&lt;/a>&lt;/del> (this link does not exist any longer)&lt;/li>
 &lt;li>&lt;a href="http://salsahpc.indiana.edu/millionseq/mina/16SrRNA_index.html">http://salsahpc.indiana.edu/millionseq/mina/16SrRNA_index.html&lt;/a> [@www-salsahpc-millionseq]&lt;/li>
 &lt;li>&lt;a href="http://www.geatbx.com/docu/fcnindex-01.html">http://www.geatbx.com/docu/fcnindex-01.html&lt;/a> [@www-geatbx-parametric-optimization]&lt;/li>
-&lt;/ul></description></item><item><title>Report: COVID-19 Analysis</title><link>/report/fa20-523-342/project/project/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/fa20-523-342/project/project/</guid><description>
+&lt;/ul></description></item><item><title>Report: Investigating the Classification of Breast Cancer Subtypes using KMeans</title><link>/report/su21-reu-362/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-362/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-362/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-362/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Kehinde Ezekiel, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-362">su21-reu-362&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Breast cancer is an heterogenous disease that is characterized by abnormal growth of the cells in the breast region[^1]. There are four major molecular subtypes of breast cancer. This classification was based on a 50-gene signature profiling test called PAM50. Each molecular subtype has a specific morphology and treatment plan. Early diagnosis and detection of possible cancerous cells usually increase survival chances and provide a better approach for treatment and management. Different tools like ultrasound, thermography, mammography utilize approaches like image processing and artificial intelligence to screen and detect breast cancer. Artificial Intelligence (AI) involves the simulation of human intelligence in machines and can be used for learning or to solve problems. A major subset of AI is Machine Learning which involves training a piece of software (called model) to makwe useful predictions using dataset.&lt;/p>
+&lt;p>In this project, a machine learning algorithm, KMeans, was implemented to design and analyze a proteomic dataset into clusters using its proteins identifiers. These protein identifiers were associated with the PAM50genes that was used to originally classify breast cancer into four molecular subtypes. The project revealed that further studies can be done to investigate the relationship between the data points in each cluster with the biological properties of the molecular subtypes which could lead to newer discoveries and developmeny of new therapies, effective treatment plan and management of the disease. It also suggests that several machine learning algorithms can be leveraged upon to address healthcare issues like breast cancer and other diseases which are characterized by subtypes.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-datasets">2. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-the-kmeans-approach">3. The KMeans Approach&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-results-and-images">5. Results and Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-conclusion">7. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> AI, cancer, breast, algorithms, machine learning, healthcare, subtypes, classification.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Breast cancer is the most common cancer, and also the primary cause of mortality due to cancer in females around the World. It is an heterogenous disease that is characterized by the abnormal growth of cells in the breast region&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. Early diagnosis and detection of possible cancerous cells in the breast usually increase survival chances and provide a better approach for treatment and management. Treatment and management often depend on the stage of cancer, the subtype, the tumor size, location and many other factors. During the last 20 years, four major intrinsic molecular subtypes for breast cancer- luminal A, luminal B, HER2-enriched and Basal-like have been identified, classified and intensively studied. Each subtype has its distinct morphologies and clinical treatment. The classification is based on gene expression profiling, specificaly defined by mRNA expression of 50 genes (also known as, PAM50 Genes). This test is known as the PAM50 test. The accurate grouping of breast cancer into its relevant subtypes can improve accurate treatment-decision making&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. The PAM50 test is now known as the Prosigna Breast Cancer Prognostic Gene Signature Assay 50 (known as Prosigna) and it analyzes the activity of certain genes in early-stage, hormone-receptor-positive breast cancer&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>. This classification is based on the mRNA expression and the activity of 50 genes and it aims to estimate the risk of distant reccurrence of breast cancer. Since the assay was based on mRNA expression, this project suggested that a classification based on the final product of mRNA, that is protein, can be implemented to investigate its role in the classifictaion of molecular breast cancer subtypes. As a result, the project was focused on the use of a proteomic dataset which contained published iTRAQ proteome profiling of 77 breast cancer samples and expression values for the proteins of each sample.&lt;/p>
+&lt;p>Most times, breast cancer is diagnosed and detected through a combination of different approaches such as imaging (e.g. mammogram and ultrasound), physical examination by a radiologist and biopsy. Biopsy is used to confirm the breast cancer symptoms. However, research has shown that radiologists can miss up to 30% of breast cancer tissues during detection&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. This gap has brought about the introduction of Computer aided Diagnosis (CAD) systems can help detect abnormalities in an efficient manner. CAD is a technology that includes utilizing the concept of artificial intelligence(AI) and medical image processing to find abnormal signs in the human body&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>. Machine Learning is a subset of AI and it has several algorithms that can be used to build a model to perform a specific task or to predict a pattern. KMeans is one of such algorithm.&lt;/p>
+&lt;p>Building a model using machine learning involves selecting and preparing the appropriate dataset, identifying the accurate machine learnning algorithm to use, training the algorithm on the data to build a model, validating the resulting model&amp;rsquo;s performance on testing data and using the model on a new data&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>. In this project, KMeans was the algorithm used in this project, the datasets were prepared through several procedures like filtering, merging. KMeans clustering method was used to investigate the classification of the molecular subtypes. Its efficacy is often tested by a silhouette score. A silhouette score shows how similar an object is to its own cluster and it ranges from -1 to 1 where a high values indicates that an object is well matched to its own cluster. A homogeneity score determines if a cluster should only contain samples that belong to a particular class. It ranges from a value between 0 to 1 with low values indicating a low homogeneity.&lt;/p>
+&lt;p>The project investigated the efficient number of clusters that could be generated for the proteome dataset which would consequetly provide an optimal classification of the protein expression values for the breast cancer samples. The proteins that were used in the KMeans analysis were the proteins that were associated with the PAM50 genes. The result of the project could provide insights to medical scientists and researchers to identify any interelatedness between the original classification of breast cancer molecular subtypes.&lt;/p>
+&lt;h2 id="2-datasets">2. Datasets&lt;/h2>
+&lt;p>Datasets are eseential in drawing conclusion. In the diagnosis, detection and classification of breast cancecr, datasets have been essential to draw conclusion by identifying patterns. These datasets range from imaging datasets to clinical datasets, proteomic datasets etc. Large amounts of data have been collected due to new technological and computational advances like the use of websites like NCBI, equipments like Electroencephalogram (EEG) which record clinical information. Medical researchers leverage these datasets to make useful health care decisions that affect a region, gender or the world. The need for accuracy and reproducibilty has led to the use of machine learning as an important tool for drawing conclusions.&lt;/p>
+&lt;p>Machine Learning involves training a piece of software, also known as model, to idnetify patterns from a dataset and make useful predictions. There are several factors to be considered when using datasets. One of such is data privacy. Recently, measures have been taken to ensure that the privacy of data. Some of these measures include, replacing codes for patients name, using documents and mobile applications that ask for permission from patients before using their data. Recently, the World Health Organization (WHO) made her report on AI and provided priniples that ensure that AI works for all. On of such is that the designer of AI technologies should satisfy regulatory requirements for safety, accuracy and efficacy for well-defined use cases or indications. Measures of quality control in practice and quality improvement in the use of AI must be available&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>. Building a model using machine learning involves selecting and preparing the appropriate dataset, identifying the accurate machine learnning algorithm to use, training the algorithm on the data to build a model, validating the resulting model&amp;rsquo;s performance on testing data and using the model on a new data&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>. In this project, KMEans was the algorithm used in this project, the datasets were prepared through several procedures like filtering, merging.&lt;/p>
+&lt;h2 id="3-the-kmeans-approach">3. The KMeans Approach&lt;/h2>
+&lt;p>KMeans clustering is an unsupervised machine learning algorithm that makes inferences from datasets without referring to a known outcome. It aims to identify underlying patterns in a dataset by looking for a fixed number of clusters, (known as k). The required number of clusters is chosen by the person building the model. KMeans was used in this project to classify the protein IDs (or RefSeq_IDs) into clusters. Each cluster was designed to be associated with related protein IDs.&lt;/p>
+&lt;p>Three datasets were used for the algorithm. The first and main dataset was a proteomic dataset. It contained published iTRAQ proteome profiling of 77 breast cancer samples generated by the Clinical Proteomic Tumor Analysis Consortium (NCI/NIH). Each sample contained expression values for ~12000 proteins, with missing values present when a given protein could not be quantified in a given sample. The variables in the dataset included the RefSeq_accession_number(also known as RefSeq protein ID), &amp;ldquo;the gene_symbol&amp;rdquo; (which was unique to each gene), &amp;ldquo;the gene_name&amp;rdquo; (which was the full name of the gene). The remaining columns were the log2 iTRAQ ratios for each of the 77 samples while the last three columns are from healthy individuals.&lt;/p>
+&lt;p>The second dataset was a PAM50 dataset. It contained the list of genes and proteins used in the PAM50 classification system. The variables include the RefSeqProteinID which matched the Protein IDs(or RefSeq_IDs) in the main proteome dataset.&lt;/p>
+&lt;p>The third dataset was a clinical data of about 105 clinical breast cancer samples. 77 of the breast cancer samples were the samples in the first dataset. The excluded samples were as a result of protein degradation&lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>. The variables in the dataset are:
+‘Complete TCGA ID', &amp;lsquo;Gender&amp;rsquo;, &amp;lsquo;Age at Initial Pathologic Diagnosis&amp;rsquo;, &amp;lsquo;ER Status&amp;rsquo;, &amp;lsquo;PR Status&amp;rsquo;, &amp;lsquo;HER2 Final Status&amp;rsquo;, &amp;lsquo;Tumor&amp;rsquo;, &amp;lsquo;Tumor&amp;ndash;T1 Coded&amp;rsquo;, &amp;lsquo;Node&amp;rsquo;, &amp;lsquo;Node-Coded&amp;rsquo;, &amp;lsquo;Metastasis&amp;rsquo;, &amp;lsquo;Metastasis-Coded&amp;rsquo;, &amp;lsquo;AJCC Stage&amp;rsquo;, &amp;lsquo;Converted Stage&amp;rsquo;, &amp;lsquo;Survival Data Form&amp;rsquo;, &amp;lsquo;Vital Status&amp;rsquo;, &amp;lsquo;Days to Date of Last Contact&amp;rsquo;, &amp;lsquo;Days to date of Death&amp;rsquo;, &amp;lsquo;OS event&amp;rsquo;, &amp;lsquo;OS Time&amp;rsquo;, &amp;lsquo;PAM50 mRNA&amp;rsquo;, &amp;lsquo;SigClust Unsupervised mRNA&amp;rsquo;, &amp;lsquo;SigClust Intrinsic mRNA&amp;rsquo;, &amp;lsquo;miRNA Clusters&amp;rsquo;, &amp;lsquo;methylation Clusters&amp;rsquo;, &amp;lsquo;RPPA Clusters&amp;rsquo;, &amp;lsquo;CN Clusters&amp;rsquo;, &amp;lsquo;Integrated Clusters (with PAM50)&amp;rsquo;, &amp;lsquo;Integrated Clusters (no exp)&amp;rsquo;, &amp;lsquo;Integrated Clusters (unsup exp).&amp;rsquo;&lt;/p>
+&lt;p>During the preparation of the datasets for KMeans analysis, unused columns like &amp;ldquo;gene_name&amp;rdquo; and &amp;ldquo;gene_symbol&amp;rdquo; were removed in the first dataset. The first and third dataset were merged together. Prior to merging, the variable &amp;lsquo;Complete TCGA ID&amp;rsquo; in the third dataset was found to be the same as the TCGAs in the first dataset. The Complete TCGA ID refered to a breast cancer patient, some patients were found in both datasets. The TCGA ID in the first dataset was renamed to match with the TCGA of the third dataset, thereby giving the same syntax. The first dataset was also transposed as a row and its gene expression as the columns. These processes were done in order to merge both dataset efficiently.&lt;/p>
+&lt;p>After merging, the &amp;ldquo;PAM5O RNA&amp;rdquo; variable from the second dataset was selected to join the merged dataset. This single dataset was named &amp;ldquo;pam50data&amp;rdquo;. It contained all the variables that were needed for KMeans Analysis which included the genes that were used for the PAM50 classification (only 43 were available in the dataset), the complete TCGA ID of each 80 patient, and their molecular tumor type. Missing values in the dataset were imputed using SimpleImputer. Then, KMeans clustering was performed. The metrics were tested with cluster numbers of 3, 4, 5, 20 and 79. The bigger numbers (20 and 79) were tested just for comparison. Further details on the codes written can be found in &lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup>. Also, &lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup> and &lt;sup id="fnref:11">&lt;a href="#fn:11" class="footnote-ref" role="doc-noteref">11&lt;/a>&lt;/sup> were kernels that provided insights for the written code.&lt;/p>
+&lt;h2 id="5-results-and-images">5. Results and Images&lt;/h2>
+&lt;p>Several codes were written to determine the best number of clusters for the model. The effectiveness of a cluster is often measured by scores such as silhouette score, homogeneity score and adjusted rand score.&lt;/p>
+&lt;p>The silhouette score for a cluster of 3, 4, and 5, 8, 20 and 79 were 0.143, 0.1393, 0.1193, 0.50968, 0.0872, 0.012 while the homogenenity scores were 0.4635, 0.4749, 0.1193, 0.5617, 0.6519 and 1.0 respectively. The homogeneity score for 79 is 1.0 since the algorithm can assign all the points into sepearate clusters. However, it is not efficient for the dataset we used. A cluster of 3 works best since the silhouette score is high and the homogeneity score jumps ~2-fold.&lt;/p>
+&lt;p>Figures 1 and 2 show the results of the visualization of the clusters of 3 and 4.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-362/raw/main/project/images/new.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> The classification of Breast Cancer Moleecular Subtypes using KMeans Clustering. (k=3). Each data point represnt the expression value for the genes that were used for clustering.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-362/raw/main/project/images/k%3D4_image.png" alt="Figure 2">&lt;/p>
+&lt;p>&lt;strong>Figure 2:&lt;/strong> The classification of Breast Cancer Moleecular Subtypes using KMeans Clustering. (k=4). Each data point represnt the expression value for the genes that were used for clustering.&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>This program was executed on a Google Colab server and the entire runtime took 1.012 seconds Table 1 lists the amount of time taken to loop for n_components. The n_components is gotten from the code and it refers to the features of the dataset.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Status&lt;/th>
+&lt;th>Time(s)&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>parallel 1&lt;/td>
+&lt;td>ok&lt;/td>
+&lt;td>0.647&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>parallel 3&lt;/td>
+&lt;td>ok&lt;/td>
+&lt;td>0.936&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>parallel 5&lt;/td>
+&lt;td>ok&lt;/td>
+&lt;td>0.952&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>parallel 7&lt;/td>
+&lt;td>ok&lt;/td>
+&lt;td>0.943&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>parallel 9&lt;/td>
+&lt;td>ok&lt;/td>
+&lt;td>1.002&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>parallel 11&lt;/td>
+&lt;td>ok&lt;/td>
+&lt;td>0.991&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>parallel 13&lt;/td>
+&lt;td>ok&lt;/td>
+&lt;td>0.958&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>parallel 15&lt;/td>
+&lt;td>ok&lt;/td>
+&lt;td>1.012&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Benchmark:&lt;/strong> The table shows the parallel process time take the for loop for n_components.&lt;/p>
+&lt;h2 id="7-conclusion">7. Conclusion&lt;/h2>
+&lt;p>The results of the KMeans analysis showed that three clusters provided an optimal result for the classification using a proteomic dataset. A cluster of 3 provided a balanced silhouette and homogeneity score. This predict that some interrelatedness could exist between the original PAM50 subtype classfication, since the result of classifying a protein dataset using a machine learning algorithm identified a cluster of 3 as one with the optimal result.
+Also, future research could be done by using other machine learning algorithms, possibly a supervised learning algotithm, to identify the correlation between the clusters and the four molecular subtypes.
+This model can be improved on and if proven to show that there truly exist a relationship between the four molecular subtypes, more research could be done to identify the factors that contribure to the interelatedness. This would lead medical scientists and researchers to work on better innovative methods that will aid the treatment and management of breast cancer.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>This projected was immensely supported by Dr. Gregor von Laszewski.
+Also, a big appreciation to the REU Instructors (Carlos Theran, Yohn Jairo and Victor Adankai) for their contribution, support, teachings and advice.
+Also, gratitude to my colleagues who helped me out; Jacques Fleischer, David Umanzor and Sheimy Paz Serpa. gratitude to my colleagues.
+Lastly, appreciation to Dr. Byron Greene, the Florida A&amp;amp;M University, the Indiana University and Bethune Cookman University for providing a platform to be able to learn new things and embark on new projects.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Akram, Muhammad et al. &amp;ldquo;Awareness and current knowledge of breast cancer.&amp;rdquo; Biological research vol. 50,1 33. 2 Oct. 2017, doi:10.1186/s40659-017-0140-9&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Wallden, Brett et al. &amp;ldquo;Development and verification of the PAM50-based Prosigna breast cancer gene signature assay.&amp;rdquo; BMC medical genomics vol. 8 54. 22 Aug. 2015, doi:10.1186/s12920-015-0129-6&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3" role="doc-endnote">
+&lt;p>Breast Cancer.org Prosigna Breast Cancer Prognostic Gene Signature Assay. &lt;a href="https://www.breastcancer.org/symptoms/testing/types/prosigna">https://www.breastcancer.org/symptoms/testing/types/prosigna&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4" role="doc-endnote">
+&lt;p>L. Hussain, W. Aziz, S. Saeed, S. Rathore and M. Rafique, &amp;ldquo;Automated Breast Cancer Detection Using Machine Learning Techniques by Extracting Different Feature Extracting Strategies,&amp;rdquo; 2018 17th IEEE International Conference On Trust, Security And Privacy In Computing And Communications/ 12th IEEE International Conference On Big Data Science And Engineering (TrustCom/BigDataSE), 2018, pp. 327-331, doi: 10.1109/TrustCom/BigDataSE.2018.00057.&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5" role="doc-endnote">
+&lt;p>Halalli, Bhagirathi et al. &amp;ldquo;Computer Aided Diagnosis - Medical Image Analysis Techniques.&amp;rdquo; 20 Dec. 2017, doi: 10.5772/intechopen.69792&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:6" role="doc-endnote">
+&lt;p>Salod, Zakia, and Yashik Singh. &amp;ldquo;Comparison of the performance of machine learning algorithms in breast cancer screening and detection: A protocol.&amp;rdquo; Journal of public health research vol. 8,3 1677. 4 Dec. 2019, doi:10.4081/jphr.2019.1677Articles&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:7" role="doc-endnote">
+&lt;p>WHO, WHO issues first global report on Artificial Intelligence (AI) in health and six guiding principles for its design and use. &lt;a href="https://www.who.int/news/item/28-06-2021-who-issues-first-global-report-on-ai-in-health-and-six-guiding-principles-for-its-design-and-use">https://www.who.int/news/item/28-06-2021-who-issues-first-global-report-on-ai-in-health-and-six-guiding-principles-for-its-design-and-use&lt;/a>&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:8" role="doc-endnote">
+&lt;p>Mertins, Philipp et al. &amp;ldquo;Proteogenomics connects somatic mutations to signalling in breast cancer.&amp;rdquo; Nature vol. 534,7605 (2016): 55-62. doi:10.1038/nature18003&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:9" role="doc-endnote">
+&lt;p>Kehinde Ezekiel, Project Code, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/code/final_breastcancerproject.ipynb">https://github.com/cybertraining-dsc/su21-reu-362/blob/main/project/code/final_breastcancerproject.ipynb&lt;/a>&amp;#160;&lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:10" role="doc-endnote">
+&lt;p>Kaggle_breast_cancer_proteomes &amp;laquo;&lt;a href="https://pastebin.com/A0Wj41DP%3E">https://pastebin.com/A0Wj41DP&amp;gt;&lt;/a>&amp;#160;&lt;a href="#fnref:10" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:11" role="doc-endnote">
+&lt;p>Proteomes_clustering_analysis &lt;a href="https://www.kaggle.com/shashwatwork/proteomes-clustering-analysis">https://www.kaggle.com/shashwatwork/proteomes-clustering-analysis&lt;/a>&amp;#160;&lt;a href="#fnref:11" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: Detection of Autism Spectrum Disorder with a Facial Image using Artificial Intelligence</title><link>/report/su21-reu-378/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-378/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: final: Project&lt;/p>
+&lt;p>Myra Saunders, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378">su21-reu-378&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Utilized CNN Code: &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/blob/main/project/code/autism_classification.ipynb">autism_classification.ipynb&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>This project uses artificial intelligence to explore the possibility of using a facial image analysis to detect Autism in children. Early detection and diagnosis of Autism, along with treatment, is needed to minimize some of the difficulties that people with Autism encounter. Autism is usually diagnosed by a specialist through various Autism screening methods. This can be an expensive and complex process. Many children that display signs of Autism go undiagnosed because there families lack the expenses needed to pay for Autism screening and diagnosing. The development of a potential inexpensive, but accurate way to detect Autism in children is necessary for low-income families. In this project, a Convolutional Neural Network (CNN) is utilized, along with a dataset obtained from Kaggle. This dataset consists of collected images of male and female, autistic and non-autistic children between the ages of two to fourteen years old. These images are used to train and test the CNN model. When one of the images are received by the model and importance is assigned to various features in the image, an output variable (autistic or non-autistic) is received.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-related-work">2. Related Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-dataset">3. Dataset&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-proposed-methodology">4. Proposed Methodology&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-results">5. Results&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-conclusions-and-future-work">7. Conclusions and Future Work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> Autism Spectrum Disorder, Detection, Artificial Intelligence, Deep Learning, Convolutional Neural Network.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Autism Spectrum Disorder (ASD) is a broad range of lifelong developmental and neurological disorders that usually appear during early childhood. Autism affects the brain and can cause challenges with speech and nonverbal communication, repetitive behaviors, and social skills. Autism Spectrum Disorder can occur in all socioeconomic, ethnic, and racial groups, and can usually be detected and diagnosed from the age of three years old and up. As of June 2021, the World Health Organization has estimated that one in 160 children have an Autism Spectrum Disorder worldwide&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. Early detection of Autism, along with treatment, is crucial to minimize some of the difficulties and symptoms that people with Autism face&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. Symptoms of Autism Spectrum Disorder are normally identified based on psychological criteria&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>. Specialists use techniques such as behaivoral observation reports, questionaires, and a review of the child&amp;rsquo;s cognitive ability to detect and diagose Autism in children.&lt;/p>
+&lt;p>Many researchers believe that there is a correlation between facial morphology and Autism Spectrum Disorder, and that people with Autism have distinct facial features that can be used to detect their Autism Spectrum Disorder&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. Human faces encode important markers that can be used to detect Autism Spectrum Disorder by analyzing facial features, eye contact,facial movements, and more&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>. Scientists found that children diagnosed with Autism share common facial feature distinctions from children who are not diagnosed with Autism&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>. Some of these facial features are wide-set eyes, short middle region of the face, and a broad upper face. Figure 1 provides an example of the facial feature differences between a child with Autism and a child without.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/raw/main/project/images/Autistic%20compared%20with%20Non-Autistic%20(4).png" alt="Autistic and Non-Autistic Child">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Image of Child with Autism (left) and Child with no Autism (right)&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>Due to the distinct features of Autistic individuals, we believe that it is necessary to explore the possiblities of using a facial analysis to detect Autism in children, using Artificial Intelligence (AI). Many researchers have attempted to explore the possibility of using various novel algorithms to detect and diagnose children, adolescents, and adults with Autism&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. Previous research has been done to determine if Autism Spectrum Disorder can be detected in children by analyzing a facial image&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>. The author of this research collected approximately 1500 facial images of children with Autism from websites and Facebook pages associated with Autism. The facial images of non-autistic children were randomly downloaded from online and cropped.The author aimed to provide a first level screening for autism diagnosis, whereby parents could submit an image of their child and in return recieve a probability of the potential of Autism, without cost.&lt;/p>
+&lt;p>To contribute to this previous research&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>, this project will propose a model that can be used to detect the presence of Autism in children based on a facial image analysis.
+A deep learning algorithm will be used to develop an inexpensive, accurate, and effective method to detect Autism in children. This project implements and utilizes a Convolutional Neural Network (CNN) classifier to explore the possibility of using a facial image analysis to detect Autism in children, with an accuracy of 95% or higher. Most of the coding used for this CNN model was obtained from the Kaggle dataset and was done by Fran Valuch&lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>. We made changes to some parts of this code, which will be discussed further in this project. The goal of this project is not to diagnose Autism, but to explore the possibility of detecting Autism at its early stage, using a facial image analysis.&lt;/p>
+&lt;h2 id="2-related-work">2. Related Work&lt;/h2>
+&lt;p>Previous work exists on the use of artificial intelligence to detect Autism in children using a facial image. Most of this previous work used the Autism kaggle dataset&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>, which was also used for this project. One study utilized MobileNet followed by two dense layers in order to perform deep learning on the dataset&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>. MobileNet was used because of its ability to compute outputs much faster, as it can reduce both computation and model size. The first layer was dedicated to distribution, and allowed customisation of weights to input into the second dense layer. The second dense layer allowed for classification. The architecture of this algorithm is shown below in Figure 2.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/raw/main/project/images/2021-07-29.png" alt="Algorithm Architecture using MobileNet">&lt;/p>
+&lt;p>&lt;strong>Figure 2:&lt;/strong> Algorithm Architecture using MobileNet&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>Training of this model completed after fifteen epochs, which resulted in a test accuracy of 94.64%. In this project we utilize a classic Convolutional Neural Network model using tensorflow. This will be done in hopes of obtaining a test accuracy of 95% or higher.&lt;/p>
+&lt;h2 id="3-dataset">3. Dataset&lt;/h2>
+&lt;p>The dataset used for this project was obtained from Kaggle&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>. This dataset contained approximately 1500 facial images of children with Autism that were obtained from websites and Facebook pages associated with Autism. The facial images of non-autistic children were randomly downloaded from online. The pictures obtained were not of the best quality or consistency with respect to the facial alignment. Therefore, the author developed a python program to automatically crop the images to include only the extent possible for a facial image. These images consist of male and female children that are of different races and range from around ages two to fourteen.&lt;/p>
+&lt;p>This project uses version 12 of this dataset, which is the latest version. The dataset consists of three directories labled test, train, and valid, along with a CSV file. The training set is labeled as train, and consists of &amp;lsquo;Autistic&amp;rsquo; and &amp;lsquo;Non-Autistic&amp;rsquo; subdirectories. These subdirectories contain 1269 images of autistic and 1269 images of non-autistic children respectively. The validation set located in the valid directory are separated into &amp;lsquo;Autistic&amp;rsquo; and &amp;lsquo;Non-autistic&amp;rsquo; subdirectories. These subdirectories also contain 100 images of autistic and 100 images of non-autistic children respectively. The testing set located in the test directory is divided into 100 images of autistic children and 100 images of non-autistic children. All of the images provided in this dataset are in 224 X 224 X 3, jpg format. Table 1 provides a summary of the content in the dataset.&lt;/p>
+&lt;p>&lt;strong>Table 1:&lt;/strong> Summary Table of Dataset.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/raw/main/project/images/DATASET%20BREAKDOWN.png" alt="Summary Table of the Kaggle Dataset">&lt;/p>
+&lt;h2 id="4-proposed-methodology">4. Proposed Methodology&lt;/h2>
+&lt;p>Convolutional Neural Network (CNN)&lt;/p>
+&lt;p>This project utilizes a Convolution Neural Network (CNN) to develop a program that can be used to detect the presence of Autism in children from a facial image analysis. If successful this program can be used an inexpensive method to detect Autism in children at its early stages. We believed that a CNN model would be the best way create this program because of its little dependence on preprocessing data. A Convolutional Neural Network was also used becuase of its ability to take in an image and assign importance to, and identify diferent objects within the image. CNN also has very high accuracy when dealing with image recognition. The dataset used contains 1269 training images that were used to train and test this Convolution Neural Network model. The architecture of this model can be seen in Figure 3.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/raw/main/project/images/CNN%20Architecture.png" alt="CNN Architecture">&lt;/p>
+&lt;p>&lt;strong>Figure 3:&lt;/strong> Architecture of utilized Convolutional Neural Network Model.&lt;/p>
+&lt;h2 id="5-results">5. Results&lt;/h2>
+&lt;p>The results of this project is estimated by affectability and accuracy by utilizing the Confusion Matrix CNN. The results also rely on how correct and precise the model was trained. This model was created to explore the possibility of detecting Autism in children at its early stage, using a facial image analysis. A Convolutional Neural Network classifier was used to create this model. For this CNN model we utilized max pooling and Rectified Linear Unit (ReLU), with two epochs. This resulted in an accuracy of 71%. These results can be seen below in Figure 4. Figure 5 displays some of the images that were classified and labeled correctly (right) and the others that were labeled incorrectly (left).&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/raw/main/project/images/Training%20and%20Validation%20Loss%20and%20Accuracy%20(3).png" alt="Results after Execution">&lt;/p>
+&lt;p>&lt;strong>Figure 4:&lt;/strong> Results after Execution.&lt;/p>
+&lt;p>validation loss: 57% - validation accuracy: 68% - training loss: 55% - training accuracy: 71%&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/raw/main/project/images/Labels.png" alt="Correct and Incorrect Labels">&lt;/p>
+&lt;p>&lt;strong>Figure 5:&lt;/strong> Correct Labels and Incorrect Labels.&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>Figure 6 shows the Confusion Matrix of the Convolutional Neural Network model used in this project. The Confusion Matrix displays a summary of the model&amp;rsquo;s predicted results after its attempt to classify each image as either autistic or non-autistic. Out of the 200 images, 159 of the images were labled correctly and 41 of the images were labled incorrectly.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/raw/main/project/images/Confusion%20Matrix%20CNN.png" alt="Confusion Matrix CNN">&lt;/p>
+&lt;p>&lt;strong>Figure 6:&lt;/strong> Confusion Matrix of the Convolutional Neural Network model.&lt;/p>
+&lt;p>Cloudmesh-common&lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup> was used to create a Stopwatch module, that was used to measure and study the training and testing time of the model. Table 2 shows the cloudmesh benchmark output.&lt;/p>
+&lt;p>&lt;strong>Table 2:&lt;/strong> Cloudmesh Benchmark&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Status&lt;/th>
+&lt;th>Time&lt;/th>
+&lt;th>Sum&lt;/th>
+&lt;th>Start&lt;/th>
+&lt;th>tag&lt;/th>
+&lt;th>msg&lt;/th>
+&lt;th>Node&lt;/th>
+&lt;th>User&lt;/th>
+&lt;th>OS&lt;/th>
+&lt;th>Version&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Train&lt;/td>
+&lt;td>ok&lt;/td>
+&lt;td>3745.28&lt;/td>
+&lt;td>3745.28&lt;/td>
+&lt;td>2021-08-10 16:08:57&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>dab8db0489cd&lt;/td>
+&lt;td>collab&lt;/td>
+&lt;td>Linux&lt;/td>
+&lt;td>#1 SMP Sat Jun 5 09:50:34 PDT 2021&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Test&lt;/td>
+&lt;td>ok&lt;/td>
+&lt;td>2.088&lt;/td>
+&lt;td>2.088&lt;/td>
+&lt;td>2021-08-10 17:43:09&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>dab8db0489cd&lt;/td>
+&lt;td>collab&lt;/td>
+&lt;td>Linux&lt;/td>
+&lt;td>#1 SMP Sat Jun 5 09:50:34 PDT 2021&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="7-conclusions-and-future-work">7. Conclusions and Future Work&lt;/h2>
+&lt;p>Autism Spectrum Disorder is a broad range of lifelong developmental and neurological disorders that is considered one of the most growing disorders in children. The World Health Organization has estimated that one in 160 children have an Autism Spectrum Disorder worldwide&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. Techniques that are used by specialists to detect autism can be time consuming and inconvenient for some families. Considering these factors, finding effective and essential ways to detect Autism in children is a neccesity. The aim of this project was to create a model that would analyze facial images of children, and in return determine if the child is Autistic or not. This was done in hopes of receiving 95% accuracy or higher. After executing the model we received an accuracy of 71%.&lt;/p>
+&lt;p>As shown in the results section above, some of the pictures that were initially labeled as Autistic, were labeled incorrectly after running the model. This low accuracy rate could be improved if the CNN model is combined with other algorithms such as transfer learning and VGG-19. This low accuracy could also be improved by using a dataset that includes a wider variety and larger amount of images. We could also ensure that images in the dataset includes children that are of a wider age range. These improvements could possibly increase our chances of obtaining an accuracy of 95% or higher. When this model is improved and an accuracy of atleast 95% is achieved, furture work can be done to create a model that can be used for Autistic individuals outside of the dataset age range (2 - 14 years old).&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>The author of this project would like to express a vote of thanks to Yohn Jairo, Carlos Theran, and Dr. Gregor von Laszewski for their encouragement and guidance throughout this project. A special vote of thanks also goes to Florida A&amp;amp;M University for funding this wonderful research program. The completion of this project could not have been possible without their support.&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>World Health Organization. 2021. Autism spectrum disorders, [Online resource] &lt;a href="https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders">https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Raj, S., and Masood, S., 2020. Analysis and Detection of Autism Spectrum Disorder Using Machine Learning Techniques, [Online resource &lt;a href="https://reader.elsevier.com/reader/sd/pii/S1877050920308656?token=D9747D2397E831563D1F58D80697D9016C30AAC6074638AA926D06E86426CE4CBF7932313AD5C3504440AFE0112F3868&amp;amp;originRegion=us-east-1&amp;amp;originCreation=20210704171932">https://reader.elsevier.com/reader/sd/pii/S1877050920308656?token=D9747D2397E831563D1F58D80697D9016C30AAC6074638AA926D06E86426CE4CBF7932313AD5C3504440AFE0112F3868&amp;amp;originRegion=us-east-1&amp;amp;originCreation=20210704171932&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3" role="doc-endnote">
+&lt;p>Khodatars, M., Shoeibi, A., Ghassemi, N., Jafari, M., Khadem, A., Sadeghi, D., Moridian, P., Hussain, S., Alizadehsani, R., Zare, A., Khosravi, A., Nahavandi, S., Acharya, U. R., and Berk, M., 2020. Deep Learning for Neuroimaging-based Diagnosis and Rehabilitation of Autism Spectrum Disorder: A Review. [Online resource] &lt;a href="https://arxiv.org/pdf/2007.01285.pdf">https://arxiv.org/pdf/2007.01285.pdf&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4" role="doc-endnote">
+&lt;p>Musser, M., 2020. Detecting Autism Spectrum Disorder in Children using Computer Vision, Adapting facial recognition models to detect Autism Spectrum Disorder. [Online resource] &lt;a href="https://towardsdatascience.com/detecting-autism-spectrum-disorder-in-children-with-computer-vision-8abd7fc9b40a">https://towardsdatascience.com/detecting-autism-spectrum-disorder-in-children-with-computer-vision-8abd7fc9b40a&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5" role="doc-endnote">
+&lt;p>Akter, T., Ali, M. H., Khan, I., Satu, S., Uddin, Jamal., Alyami, S. A., Ali, S., Azad, A., and Moni, M. A., 2021. Improved Transfer-Learning-Based Facial Recognition Framework to Detect Autistic Children at an Early Stage. [Online resource] &lt;a href="https://www.mdpi.com/2076-3425/11/6/734">https://www.mdpi.com/2076-3425/11/6/734&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:6" role="doc-endnote">
+&lt;p>Beary, M., Hadsell, A., Messersmith, R., Hosseini, M., 2020. Diagnosis of Autism in Children using Facial Analysis and Deep Learning. [Online resource] &lt;a href="https://arxiv.org/ftp/arxiv/papers/2008/2008.02890.pdf">https://arxiv.org/ftp/arxiv/papers/2008/2008.02890.pdf&lt;/a>&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:7" role="doc-endnote">
+&lt;p>Piosenka, G., 2020. Detect Autism from a facial image. [Online resource] &lt;a href="https://www.kaggle.com/gpiosenka/autistic-children-data-set-traintestvalidate?select=autism.csv">https://www.kaggle.com/gpiosenka/autistic-children-data-set-traintestvalidate?select=autism.csv&lt;/a>&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:8" role="doc-endnote">
+&lt;p>Valuch, F., 2021. Easy Autism Detection with TF.[Online resource] &lt;a href="https://www.kaggle.com/franvaluch/easy-autism-detection-with-tf/comments">https://www.kaggle.com/franvaluch/easy-autism-detection-with-tf/comments&lt;/a>&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:9" role="doc-endnote">
+&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark - Cloudmesh-Common, [GitHub] &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: Analyzing the Advantages and Disadvantages of Artificial Intelligence for Breast Cancer Detection in Women</title><link>/report/su21-reu-377/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-377/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-377/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-377/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-377/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-377/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>RonDaisja Dunn, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-377">su21-reu-377&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-377/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>The AI system is improving its diagnostic accuracy by significantly decreasing unnecessary biopsies. AI&amp;rsquo;s algorithms for workflow improvement and outcome analyses are advancing. Although artificial intelligence can be beneficial to detecting and diagnosing breast cancer, there are some limitations to its techniques. The possibility of insufficient quality, quantity or appropriateness is possible. When compared to other imaging modalities, breast ultrasound screening offers numerous benefits, including a cheaper cost, the absence of ionizing radiation, and the ability to examine pictures in real time. Despite these benefits, reading breast ultrasound is a difficult process. Different characteristics, such as lesion size, shape, margin, echogenicity, posterior acoustic signals, and orientation, are used by radiologists to assess US pictures, which vary substantially across individuals. The development of AI systems for the automated detection of breast cancer using Ultrasound Screening pictures has been aided by recent breakthroughs in deep learning.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-methods-from-literature-review">2. Methods From Literature Review&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-results-from-literature-review">3. Results From Literature Review&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-datasets">4. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-conclusion">5. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-acknowledgments">6. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-references">7. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> project, reu, breast cancer, Artificial Intelligence, diagnosis detection, women, early detection, advantages, disadvantages&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>The leading cause of cancer death in women worldwide is breast cancer. This deadly form of cancer has impacted many women across the globe. Specifically, African American women have been the most negatively impacted. Their death rates due to breast cancer have surpassed all other ethnicities. Serial screening is an essential part in detecting Breast cancer. Detecting the early stages of this disease and decreasing mortality rates is most effective by utilizing serial screening. Some women detect that they could have breast cancer by discovering a painless lump in their breast. Other women began to detect that there may be a problem due to annual and bi-annual breast screenings. Screening in younger women is not likely, because breast cancer is most likely to be detected in older women. Women from the age 55 to 69 are likely to be diagnosed with breast cancer. Women who frequently participate in receiving mammograms reduce the chance of breast cancer mortality.&lt;/p>
+&lt;p>Artificial Intelligence is the branch of computer science dedicated to the development of computer algorithms to accomplish tasks traditionally associated with human intelligence, such as the ability to learn and solve problems. This branch of computer science coincides with diagnosing breast cancer in individuals because of the use of radiology. Radiological images can be quantitated and can inform and train some algorithms. There are many terms that relate to Artificial Intelligence such as artificial neural networks (ANNs), machine and deep learning (ML, DL). These techniques complete duties in healthcare, including radiology. Machine learning interprets pixel data and patterns from mammograms. Benign or malignant features for inputs are defined by microcalcifications. Deep learning is effective in breast imaging, where it can identify several features such as edges, textures, and lines. More intricate features such as organs, shapes, and lesions can also be detected. Neural networks algorithms are used for image feature extractions that cannot be detected beyond human recognition.&lt;/p>
+&lt;p>A computer system that can perform complicated data analysis and picture recognition tasks is known as artificial intelligence (AI). Both massive processing power and the application of deep learning techniques made this possible, and are increasingly being used in the medical field. Mammograms are the x-rays used to detect breast cancer in women. Early detection is important to reduce deaths, because that is when the cancer is most treatable. Screenings have presented a 15%-35% false report in screened women. Errors and the ability to view the cancer from the human eye are the reasons for the false reports. Artificial Intelligence offers many advantages when detecting breast cancer. These advantages include less false reports, fewer cases missed because the AI program does not get tired and it reduces the effort of reading thousands of mammograms.&lt;/p>
+&lt;h2 id="2-methods-from-literature-review">2. Methods From Literature Review&lt;/h2>
+&lt;p>The goal was to emphasize the present data in terms of test accuracy and clinical utility results, as well as any gaps in the evidence. Women are screened by getting photos taken of each breast from different views. Two readers are assigned to interpret the photographs in a sequential order. Each reader decides whether the photograph is normal or whether a woman should be recalled for further examination. Arbitration is used when there is a disagreement. If a woman is recalled, she will be offered extra testing to see if she has cancer.&lt;/p>
+&lt;p>Another goal is to detect cancer at an earlier stage during screening so that therapy can be more successful. Some malignancies found during screening, on the other hand, might never have given the woman symptoms. Overdiagnosis is a term used to describe a situation in which a person has caused harm to another person during their lifetime. As a result, overtreatment (unnecessary treatment) occurs. Since some malignancies are overlooked during screening, the women are misled.&lt;/p>
+&lt;p>The methods in diagnostic procedures vary between radiologists and Artificial Intelligence networks. In a breast ultrasound exam, radiologists look for abnormal abnormalities in each image, while AI networks analyze each image in an exam that is processed separately using a ResNet-18 model, and a saliency map is generated, identifying the most essential sections. With radiologists, the focus is on photos with abnormal lesions and with AI networks the image is given an attention score based on its relative value. To make a final diagnosis, radiologists consider signals in all photos, and AI computes final predictions for benign and malignant results by combining information from all photos using an attention technique.&lt;/p>
+&lt;h2 id="3-results-from-literature-review">3. Results From Literature Review&lt;/h2>
+&lt;p>Using pathology data, each breast in an exam was given a label indicating the presence of cancer. Image-guided biopsy or surgical excision were used to collect tissues for pathological tests. The AI system was shown to perform comparably to board-certified breast radiologists in the reader study subgroup. In this reader research, the AI system detected tumors with the same sensitivity as radiologists, but with greater specificity, a higher PPV, and a lower biopsy rate. Furthermore, the AI system outperformed all ten radiologists in terms of AUROC and AUPRC. This pattern was replicated in the subgroup study, which revealed that the algorithm could correctly interpret Ultrasound Screening examinations that radiologists considered challenging.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-377/raw/main/project/images/IMG_9446.jpg" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Analysis of saliency maps on a qualitative level- This figure displays the sagittal and transverse views of the lesion (left) and the AI&amp;rsquo;s saliency maps indicating the anticipated sites of benign (center) and malignant (right) findings in each of the six instances (a-f) from the reader study.&lt;/p>
+&lt;h2 id="4-datasets">4. Datasets&lt;/h2>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-377/main/project/images/Dataset%20Image.png" alt="Figure 2">&lt;/p>
+&lt;p>&lt;strong>Figure 2:&lt;/strong> The probabilistic forecasts of each hybrid model were randomly divided to fit the reader&amp;rsquo;s sensitivity. The dichotomization of the AI&amp;rsquo;s predictions matches the sensitivity of the average radiologists. Readers' AUROC, AUPRC, specificity, and PPV improve as a result of the collaboration between AI and readers, whereas biopsy rates decrease.&lt;/p>
+&lt;h2 id="5-conclusion">5. Conclusion&lt;/h2>
+&lt;p>There are some benefits of AI help with mammogram screenings. The reduction in treatment expenses is one of the advantages of screening. Treatment for people who are diagnosed sooner is less invasive and expensive, which may lessen patient anxiety and improve their prognosis. One or all human readers could be replaced by AI. AI may be used to pre-screen photos, with only the most aggressive ones being reviewed by humans. AI could be employed as a reader aid, with the human reader relying on the AI system for guidance during the reading process.&lt;/p>
+&lt;p>However, there is also fear that AI could discover changes that would never hurt women. Because the adoption of AI systems will alter the current screening program, it&amp;rsquo;s crucial to determine how accurate AI is in breast screening clinical practice before making any changes. It&amp;rsquo;s uncertain how effective AI is at detecting breast cancer in different sorts of women or in different groups of women (for example different ethnic groups). AI could significantly minimize staff workload, as well as the proportion of cancers overlooked during screening, and the amount of women who are asked to return for more tests despite the fact that they do not have cancer. According to the findings of the reader survey, such teamwork between AI systems and radiologists increases diagnosis accuracy and decreases false positive biopsies for all 10 radiologists. This research indicated that integrating the Artificial intelligence system&amp;rsquo;s predictions enhanced the performance of all readers.&lt;/p>
+&lt;h2 id="6-acknowledgments">6. Acknowledgments&lt;/h2>
+&lt;p>Thank you to the extremely intellectual, informative, patient and courteous instructors of the Research Experience for Undergraduates Program.&lt;/p>
+&lt;ol>
+&lt;li>Carlos Theran, REU Instructor&lt;/li>
+&lt;li>Yohn Jairo Parra, REU Instructor&lt;/li>
+&lt;li>Gregor von Laszewski, REU Instructor&lt;/li>
+&lt;li>Victor Adankai, Graduate Student&lt;/li>
+&lt;li>REU Peers&lt;/li>
+&lt;li>Florida Agricultural and Mechanical University&lt;/li>
+&lt;/ol>
+&lt;h2 id="7-references">7. References&lt;/h2>
+&lt;ol>
+&lt;li>Coleman C. Early Detection and Screening for Breast Cancer. Semin Oncol Nurs. 2017 May;33(2):141-155. doi: 10.1016/j.soncn.2017.02.009. Epub 2017 Mar 29. PMID: 28365057&lt;/li>
+&lt;li>Freeman, K., Geppert, J., Stinton, C., Todkill, D., Johnson, S., Clarke, A., &amp;amp; Taylor-Phillips, S. (2021, May 10). Use of Artificial Intelligence for Image Analysis in Breast Cancer Screening. &lt;a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/987021/AI_in_BSP_Rapid_review_consultation_2021.pdf">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/987021/AI_in_BSP_Rapid_review_consultation_2021.pdf&lt;/a>&lt;/li>
+&lt;li>Li, J., Zhou, Z., Dong, J., Fu, Y., Li, Y., Luan, Z., &amp;amp; Peng, X. (2021). Predicting breast cancer 5-year survival using machine learning: A systematic review. PloS one, 16(4), e0250370.&lt;/li>
+&lt;li>Mendelsonm, Ellen B., Artificial Intelligence in Breast Imaging: Potentials and Limitations. American Journal of Roentgenology 2019 212:2, 293-299&lt;/li>
+&lt;li>Seely, J. M., &amp;amp; Alhassan, T. (2018). Screening for breast cancer in 2018-what should we be doing today?. Current oncology (Toronto, Ont.), 25(Suppl 1), S115–S124.&lt;/li>
+&lt;li>Shamout, F. E., Shen, A., Witowski, J., Oliver, J., &amp;amp; Geras, K. (2021, June 24). Improving Breast Cancer Detection in Ultrasound Imaging Using AI. NVIDIA Developer Blog. &lt;a href="https://developer.nvidia.com/blog/improving-breast-cancer-detection-in-ultrasound-imaging-using-ai/">https://developer.nvidia.com/blog/improving-breast-cancer-detection-in-ultrasound-imaging-using-ai/&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Report: Increasing Cervical Cancer Risk Analysis</title><link>/report/su21-reu-369/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-369/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-369/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-369/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Theresa Jean-Baptistee, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-369">su21-reu-369&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-369/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Cervical Cancer is an increasing matter that is affecting various women across the nation, in this project we will be analyzing risk factors that are producing
+higher chances of this cancer. In order to analyize these risk factors a machine learning technique is implemented to help us understand the leading factors of
+cervical cancer.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#model">Model&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-datasets">2. DataSets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#iud-visulaization">IUD Visulaization&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#tabacoo-visulization-affect-on-cervixs">Tabacoo Visulization Affect On Cervixs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#correlation-of-age-and-start-of-sexual-activity">Correlation of Age and Start Of sexual activity&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-other-people-works">3. Other People Works&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4--explantion-of-confusion-matrix">4. Explantion of Confusion Matrix&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-benchmark">5. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-acknowledgments">7. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-references">8. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> Cervical, Cancer, Diseases, Data, conditions&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Cervical cancer is a disease that is increasing in various women nationwide. It occurs within the cells of the cervix (can be seen in stage 1 of the image below).
+This cancer is the fourth leading cancer, where there are about 52,800 cases found each year, predominantly being in lower developed countries. Cervical cancer
+occurs most commonly in women who are within their 50&amp;rsquo;s and who has symptoms such as watery and bloody discharge, bleeding, and painful intercourse. Two other
+common causes can be an early start on sexual activity and multiple partners. The most common way to determine if one may be affected by this disease is through a
+pap smear. When witnessed early it, can allow a better chance of results and treatment.&lt;/p>
+&lt;p>Cervical cancer is so important for the future of reproduction, being the cause of a successful or unsuccessful birth with completions like premature a child. The
+cervix help keeps the fetus stable within the uterus during this cycle, towards the end of development, it softens and dilates for the birth of a child. If
+diagnosed with this cancer, a miracle would be needed to conceive a child after having treatment. Most treatments begin with a biopsy removing affected areas of
+cervical tissue. As it continues, to spread radiotherapy might be recommended to treat the cancer where may affect the womb. lastly, one may need to have a
+hysterectomy which is the removal of the womb.&lt;/p>
+&lt;p>In this paper, we will study the exact cause and risk factors that may place someone in this position. If spotted early it wouldn’t affect someone’s dream chance
+of conceiving or affect their reproductive parts. Using various data sets we will study the way everything may alignes in causes and machine leaning would be the
+primary technique to used interpretate the relation between variables and risk factor on cervical cancer.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/raw/main/project/images//Cervical-Cancer-1024x624.jpg" alt="Figure 2">&lt;/p>
+&lt;h2 id="model">Model&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/raw/main/project/images/Screen%20Shot%202021-07-27%20at%207.40.36%20PM.png" alt="Figure 1">&lt;/p>
+&lt;h2 id="2-datasets">2. DataSets&lt;/h2>
+&lt;p>The Data sets obatained shows the primary risk factors that affect women ages 15 and above. The few factors that sticked out the most were age, start of sexual
+activity, tabacoo intake, and IUD. The age and start of sexual activity maybe primary factor because a person is more liable to catch an STD and get this diease
+from mutiple parnters never really knowing what the other person may be doing outside of the encounterment. Tabcoo intake causes an affect making a person by
+weaking the immune system and making somone more septable to the disease. The IUD has the highest number on the data set being a primary factor that may put a
+person at risk, this device aids the prevention of pregency by thickneing the mucos of the cervix that could later cause infection or make your more spetiable to
+them.&lt;/p>
+&lt;h2 id="iud-visulaization">IUD Visulaization&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/raw/main/project/images/cervical%20iud%20.jpg" alt="figure 2">&lt;/p>
+&lt;h2 id="tabacoo-visulization-affect-on-cervixs">Tabacoo Visulization Affect On Cervixs&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/raw/main/project/images/tab.png" alt="Figure 3">&lt;/p>
+&lt;h2 id="correlation-of-age-and-start-of-sexual-activity">Correlation of Age and Start Of sexual activity&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/raw/main/project/images/download-2021-06-29T15-34-01-628Z.png" alt="Figure 1">&lt;/p>
+&lt;h2 id="3-other-people-works">3. Other People Works&lt;/h2>
+&lt;p>The research of others work has made a huge imapact to this project starting from data to important knowledge needed to conduct the project. With the various
+research sites, we were able to witness what the affects various day to day activtie affect women long term. The Cervical Cancer Diagnosis Using a Chicken Swarm
+Optimization Based Machine Learning Method, was a big aid throught the project explaing the stages of cervical cancer, ways it can be treated, and the affects it
+may cause. With the data that was used from UCI Machine Learning, we were able to find efficent correlation into the data, helping the implented machine learning algorithm for the classification task.&lt;/p>
+&lt;h2 id="4--explantion-of-confusion-matrix">4. Explantion of Confusion Matrix&lt;/h2>
+&lt;p>The confusion matrix generated by multilayer perceptron can be explained as the perdicted summary results from the data obtained. Zero is when no cervical cancer is witnessed, one is when cervical cancer is seen. A hundrend and sixty-two is the highest number of this disease seen on the chart and the lowest number being winessed is two and eight being quiet of a jump.&lt;/p>
+&lt;h2 id="5-benchmark">5. Benchmark&lt;/h2>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/raw/main/project/images/graph%5C.png" alt="figure4">&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>In conclusion it can be found as women partake in their first sexual activity and continue they are more at risk. 162 is a dramatic number not necessarily being affected by age and 0 is only seen when a person does not partake in it. In the future I hope to keep furthering my Knowledge on Cervical Cancer, hopefully coming up with a realistic method to cure this disease where one can continue to live their life with as a human being.&lt;/p>
+&lt;h2 id="7-acknowledgments">7. Acknowledgments&lt;/h2>
+&lt;p>The author would like to thank Yohn, Carlos, Gregor, Victor, and Jacques for all of their Help. Thank you!&lt;/p>
+&lt;h2 id="8-references">8. References&lt;/h2></description></item><item><title>Report: Report: Dentronics: Classifying Dental Implant Systems by using Automated Deep Learning</title><link>/report/su21-reu-376/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-376/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-376/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-376/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: final, Type: Project&lt;/p>
+&lt;p>Jamyla Young, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-376">su21-reu-376&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Artificial intelligence is a branch of computer science that focuses on building and programming machines to think like humans and mimic their actions. The proper concept definition of this term cannot be achieved simply by applying a mathematical, engineering, or logical approach but requires an approach that is linked to a deep cognitive scientific inquiry. The use of machine-based learning is constantly evolving the dental and medical field to assist with medical decision making process.In addition to diagnosis of visually confirmed dental caries and impacted teeth, studies applying machine learning based on artificial neural networks to dental treatment through analysis of dental magnetic resonance imaging, computed tomography, and cephalometric radiography are actively underway, and some visible results are emerging at a rapid pace for commercialization.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-data-sets">2. Data sets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#21-dental-implant-classification">2.1 Dental implant classification&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#22-deep-convulutional-neural-network">2.2 Deep Convulutional Neural Network&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-results">3. Results&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-conclusion">4. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-acknowledgments">5. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-references">6. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> Dental implants, Deep Learning, Prosthodontics, Implant classificiation, Artificial Intelligence, Neural Networks.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Dental implants are ribbed oral protheses typically made up of biocompatible titanium to replace the missing root(s) of an absent tooth. These dental protheses are used to support the jaw bone to prevent deterioration due to an absent root&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. This is referred to as bone resorption which can result to facial malformation as well as reduced oral function such as biting and chewing. These devices are composed of three elements that imitates a natural tooth function and structure.The implant which are typically ribbed and threaded to promote stability while integrating within the bone tissue. The osseointegration process usually takes 6-8 months to rebuild the bone to support the implant. An implant abutment is fixed on top of the implant to act as a base for prosthetic devices &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. Prefabricated abutments are manufactured in many shapes, sizes and angles depending on the location of the implant and the types of prothesis that will be attached. Dental abutments support a range of prothetic devices such as dental crowns, bridges, and dentures &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>Osseointegrated dental implants depend on various factors that affect the anchorage of the implant to the bone tissue. Successful surgical anchoring techniques can contribute to long term success of implant stability. Primary stability plays a role 2 week postoperatively by achieving mechanical retention of the implant. It helps establish a mechanical microenvironment for gradual bone healing, or osseointegration-This is secondary implant stability. Bone type, implant length, implant and diameter influences primary and secondary implant stability. Implant length can range from 6mm to 20mm; however, the most common lengths are between 8mm to 15mm. Many studies suggest that implant length contribute to decreasing bone stress and increasing implant stability. Bone stress can occur at both the cortical and cancellous part of the bone. Increasing implant length will decrease stress in the cancellous part of the bone while increasing the implant diameter can decrease stress in the cortical part of the bone&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. Bone type can promote positive bone stimulation around an implant improving the overall function. There are four different types: Type I, Type II, Type III, and Type IV. Type I is the most dense of them which provides more cortical anchorage but has limited vascularity. Type II is the best for osseointegration because it provides good cortical anchorage and has better vascularity than type I. Type III and IV have a thin layer of cortical bone which decrease the success rate of primary stability&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>Implant stability can be measured using the Implant Stability Quotient (ISQ) as an indirect indicator to determine the time frame for implant loading and prognostic indicator for implant failure &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. This can be measured by resonance frequency analysis (RFA) immediately after the implant has been placed. Resonance frequency analysis is the measurement in which a device vibrates in response to frequencies in the range of 5-15 kHz. The peak amplitude of the response is then encoded into the implant stability quotient (ISQ). The clinical range of ISQ is from 55-80. High stability is &amp;gt;70 ISQ while medium stability is between 60-69 ISQ. Low stability is &amp;lt;60 ISQ&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>There are over 2000 types of dental implant systems (DIS) that differs in diameter, length, shape, coating, and surface material properties. These devices have more than a 90% long termed survival rate which ranges more than 10 years. Inevitably, biological and mechanical complications such as fractures, low implant stability, and screw loosening can occur. Therefore, identifying the correct Dental Implant System is essential to repair or replace the existing system. Methods and techniques that enables clear identification is insufficient &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>Artificial intelligence is a branch of computer science that focuses on building and programming machines to think like humans and mimic their actions. A deep convolutional neural network (DCNN) is a brach of artificial intelligence that applies multiple layers of nonlinear processing units for feature extraction, transformation, and classification of high dimensional datasets. Deep convolutional neural networks are commonly used to identify patterns in images and videos. The structure typically consist of four types of layers: convolution, pooling, activation, and fully connected. These neural networks use images as an input to train a classifier which employs a mathematical operation called a convolution. Deep neural networks have been successfully applied in the dental field and demonstrated advantages in terms of diagnosis and prognosis. Using automated deep convolutional neural networks is highly efficient in classifying different dental implant systems compared to most dental professionals&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="2-data-sets">2. Data sets&lt;/h2>
+&lt;p>Researchers at Daejon Dental Hospital used automated deep convolutional neural networks to evaluate the efficacy of its ability to classify dental implant systems and compare the performance with dental professionals using radiographic images.&lt;/p>
+&lt;p>11,980 raw panoramic and periapical radiographic images of dental implant systems were collected. these images were then randomly divided into 2 groups: 9584 (80%) images were selected for the training dataset and the remaining 2396 (20%) images were used as the testing dataset.&lt;/p>
+&lt;h2 id="21-dental-implant-classification">2.1 Dental implant classification&lt;/h2>
+&lt;p>Dental implant systems were classified into six different types with a diameter of 3.3-5.0mm and a length of 7-13mm.&lt;/p>
+&lt;ul>
+&lt;li>Astra OsseoSpeed TX (Dentsply IH AB, Molndal, Sweden), with a diameter of 4.5–5.0 mm and a length of 9–13 mm;&lt;/li>
+&lt;li>Implantium (Dentium, Seoul, Korea), with a diameter of 3.6–5.0 mm and a length of 8–12 mm;&lt;/li>
+&lt;li>Superline (Dentium, Seoul, Korea), with a diameter of 3.6–5.0 mm and a length of 8–12 mm;&lt;/li>
+&lt;li>TSIII (Osstem, Seoul, Korea), with a diameter of 3.5–5.0 mm and a length of 7–13 mm;&lt;/li>
+&lt;li>SLActive BL (Institut Straumann AG, Basel, Switzerland), with a diameter of 3.3–4.8 mm and a length of 8–12 mm;&lt;/li>
+&lt;li>SLActive BLT (Institut Straumann AG, Basel, Switzerland), with a diameter of 3.3–4.8 mm and a length of 8–12 mm.&lt;/li>
+&lt;/ul>
+&lt;h2 id="22-deep-convulutional-neural-network">2.2 Deep Convulutional Neural Network&lt;/h2>
+&lt;p>Using Neuro-T to automatically select the model and optimize hyper-parameter. During training and inference, the automated DCNN automatically creates effective deep learning models and searches the optimal hyperparameters. An Adam optimizer with L2 regularization was used for transfer learning. The batch size was set to 432, and the automated DCNN architecture consisted of 18 layers with no dropout.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-376/raw/main/project/images/DCNN.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1&lt;/strong>: Overview of an automated deep convolutional neural network &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="3-results">3. Results&lt;/h2>
+&lt;p>For the evaluation, the following statistical parameters were taken into account: receiver operating characteristic (ROC) curve, area under the ROC curve (AUC), 95% confidence intervals (CIs), standard error (SE), Youden index (sensitivity + specificity − 1), sensitivity, and specificity, which were calculated using Neuro-T and R statistical software . Delong’s method was used to compare the AUCs generated from the test dataset, and the significance level was set at p &amp;lt; 0.05.&lt;/p>
+&lt;p>The accuracy of the automated DCNN abased on the AUC, Youden index, sensitivity, and specificity
+for the 2,396 panoramic and periapical radiographic images were 0.954(95% CI = 0.933–0.970,
+SE = 0.011), 0.808, 0.955, and 0.853, respectively. Using only panoramic radiographic images (n = 1429),
+the automated DCNN achieved an AUC of 0.929 (95% CI = 0.904–0.949, SE = 0.018, Youden index = 0804,
+sensitivity = 0.922, and specificity = 0.882), while the corresponding value using only periapical
+radiographic images (n = 967) achieved an AUC of 0.961 (95% CI = 0.941–0.976, SE = 0.009, Youden
+index = 0.802, sensitivity = 0.955, and specificity = 0.846). There were no significant differences in
+accuracy among the three ROC curves.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-376/raw/main/project/images/results.png" alt="Figure 2">&lt;/p>
+&lt;p>&lt;strong>Figure 2&lt;/strong>: The accuracy of the automated DCNN for the test dataset did not show a significant difference among the three ROC three ROC curves based on DeLong’s method &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>The Straumann SLActive BLT implant system has a relatively large tapered shape compared to other types of DISs. Thus, the automated DCNN (AUC = 0.981, 95% CI = 0.949–0.996). However, for the Dentium Superline and Osstem TSIII implant systems that do not have conspicuous characteristic elements with a tapered shape, the automated DCNN classified correctly with an AUC of 0.903 (95% CI = 0.850–0.967) and 0.937 (95% CI = 0.890–0.967)&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-376/raw/main/project/images/results2.png" alt="Figure 3">&lt;/p>
+&lt;p>&lt;strong>Figure 3 (a-f)&lt;/strong>: Performance of the automated DCNN and comparison with dental professionals for
+classification of six types of DIS &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="4-conclusion">4. Conclusion&lt;/h2>
+&lt;p>Nonetheless, this study has certain limitations. Although six types of DISs were selected from three different dental hospitals and categorized as a dataset, the training dataset was still insufficient for clinical practice. Therefore, it is necessary to build a high-quality and large-scale dataset containing different types of DISs. If time and cost are not limited, the automated DCNN can be continuously trained and optimized for improved accuracy. Additionally, the automated DCNN regulates the entire process, including appropriate model selection and optimized hyper-parameter adjustment. The automated DCNN can help clinical dental practitioners to classify various types of DISs based on dental radiographic images. Nevertheless, further studies are necessary to determine the efficacy and feasibility of applying the automated DCNN in clinical practice.&lt;/p>
+&lt;h2 id="5-acknowledgments">5. Acknowledgments&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Carlos Theran, REU Instructor&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Yohn Jairo Parra, REU Instructor&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Gregor von Laszewski, REU Instructor&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Victor Adankai, Graduate Student&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Jacques Fleischer, REU peer&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Florida Agricultural and Mechanical University&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="6-references">6. References&lt;/h2>
+&lt;p>[^3] Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Karras, Spiro, Look at the structure of dental implants.(2020, September 2).
+&lt;a href="https://www.drkarras.com/a-look-at-the-structure-of-dental-implants/">https://www.drkarras.com/a-look-at-the-structure-of-dental-implants/&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Ghidrai, G. (n.d.). Dental implant abutment. Stomatologia pe intelesul tuturor. &lt;a href="https://www.infodentis.com/dental-implants/abutment.php">https://www.infodentis.com/dental-implants/abutment.php&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3" role="doc-endnote">
+&lt;p>Bataineh, A. B., &amp;amp; Al-Dakes, A. M. (2017, January 1). The influence of length of implant on primary stability: An in vitro study using resonance frequency analysis. Journal of clinical and experimental dentistry. &lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5268121/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5268121/&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4" role="doc-endnote">
+&lt;p>Huang, H., G, Wu., &amp;amp; E, Hunziker. (2020). The clinical significance of implant Stability QUOTIENT (ISQ) MEASUREMENTS: A literature review. Journal of oral biology and craniofacial research. &lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7494467/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7494467/&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5" role="doc-endnote">
+&lt;p>Li, J., Yin, X., Huang, L., Mouraret, S., Brunski, J. B., Cordova, L., Salmon, B., &amp;amp; Helms, J. A. (2017, July). Relationships among Bone QUALITY, IMPLANT Osseointegration, and WNT SIGNALING. Journal of dental research &lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5480808/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5480808/&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:6" role="doc-endnote">
+&lt;p>Möhlhenrich, S. C., Heussen, N., Modabber, A., Bock, A., Hölzle, F., Wilmes, B., Danesh, G., &amp;amp; Szalma, J. (2020, July 24). Influence of bone density, screw size and surgical procedure on orthodontic mini-implant placement – part b: Implant stability. International Journal of Oral and Maxillofacial Surgery. &lt;a href="https://www.sciencedirect.com/science/article/abs/pii/S0901502720302496">https://www.sciencedirect.com/science/article/abs/pii/S0901502720302496&lt;/a>&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:7" role="doc-endnote">
+&lt;p>Lee JH, Kim YT, Lee JB, Jeong SN. A Performance Comparison between Automated Deep Learning and Dental Professionals in Classification of Dental Implant Systems from Dental Imaging: A Multi-Center Study. Diagnostics (Basel). 2020 Nov 7;10(11):910. doi: 10.3390/diagnostics10110910. PMID: 33171758; PMCID: PMC7694989.&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: Analyzing Hashimoto disease causes, symptoms and cases improvements using Topic Modeling</title><link>/report/su21-reu-372/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-372/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-372/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-372/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-372/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-372/workflows/Status/badge.svg" alt="Status">&lt;/a>
+&lt;code>Status: final&lt;/code>, Type: Project&lt;/p>
+&lt;p>Sheimy Paz, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-372">su21-reu-372&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-372/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Code:
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-372/blob/main/project/code/requirements.txt">Install documentation requirements.txt&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-372/blob/main/Tyroidhitis_Project.ipynb">Tyroidhitis_Project.ipynb&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>This project proposes a new view of Hashimoto’s disorder, its association with other pathologies, possible causes, symptoms, diets, and recommendations. The intention is to explore the association of Hashimoto disorder with disease like h pylori bacteria, inappropriate diet, environmental factors, and genetic factors. To achieve this, we are going to utilize AI in particular
+topic modeling which is a technic used to process large collection of data to identifying topics.
+Topic modeling is a text-mining tool that help to correlate words with topics making the research process easy and organized with the purpose to get a better understanding of the disorder and the relationship that this has with other health issues hoping to find clear information about the causes and effect that can have on the human body.
+The dataset was collected from silo breaker software, which contains information about news, reports, tweets, and blogs. The program will organize our findings highlighting key words related to symptoms, causes, cures, anything that can apport clarification to the disorder.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-summary-tables">2. Summary Tables&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-datasets">3. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-results">4. Results&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-hashimoto-findings">5. Hashimoto Findings&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-conclusion">7. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> Thyroid disease, Hashimoto, H Pylori, Implants, Food Sensitivity, Diary sensitivity, Healthy Diets, Exercise, topic modeling, text mining, BERT model.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Hashimoto thyroiditis is an organ-specific autoimmune disorder. its symptoms were first described 1912 but the disease was not recognized until 1957. Hashimoto is an autoimmune disorder that destroys thyroid cells and is antibody-mediated &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. In a female-to-men radio at least 10:4 women are more often affected than men. The diagnostic is often called between the ages of 30 to 50 years &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. Pathologically speaking, Hashimoto stimulates the formation of antithyroid antibodies that attack the thyroid tissue, causing progressive fibrosis. Hashimoto is believe to be the concequence of a combination of mutated genes and eviromental factors&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>. The disorder is difficult to diagnose since in the early course of the disease the patients may or may not exhibit symptoms or laboratory findings of hyperthyroidism, it may show normal values because the destruction of the gland cells may be intermittent &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. Clinical and epidemiological studies suggest worldwide that the most common cause of hypothyroidism is an inadequate dietary intake of iodine.&lt;/p>
+&lt;p>Due to the arduous labor to identify this disorder a Machine Learning algorithm based on prediction would help to identify Hashimoto in early stages as well as any other health issues related to it &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. This will be helpful for patients that would be able to get the correct treatment in an early stage of the illness avoiding future complications. This research algorithm was mainly intended to find patient testimonies of improvements, completed healed cases, early symptoms, trigger factors or any useful information about the disorder.&lt;/p>
+&lt;p>Hashimoto autoimmune diseases have been linked to the infection caused by H pylori bacteria. H pylori is until the date the most common chronic bacterial infection, affecting half of the world&amp;rsquo;s population and is known for the presence of Caga antigens which are virulent strains that have been found in organ and non-organ specific autoimmune diseases &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>. Another important trigger of Hashimoto disorder is the inadequate modern diet patterns and the environmental factors that are closely related to it &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. For instance, western diet consumption is an essential factor that trigs the disorder since this food is highly preserved and predominate the consumption of artificial flavors and sugars which have dramatically increase in the past years, adding to it the use of chemicals and insecticides in the fruits and vegetables and the massive introduction of hormones for meat production, all this can be the cause of the rise of autoimmune diseases &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>We utilize deep learning BERT model to train our dataset. BERT is a superior performer Bidirectional Encoder, which superimposes 12 or 24 layers of multiheaded attention in a Transformer &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. Bert stands for Bidirectional(read from left to right and vice versa with the purpose of an accurate understanding of the meaning of each word in a sentence or document) Encoder Representations from Transformers(the used of transformers and bidirectional models allows the learning of contextual relations between words). Notice that BERT uses two training strategies MLM and NSP.&lt;/p>
+&lt;p>Masked Lenguage Model (MLM) process is made by masking around 15% of token making the model predict the meaning or value of each of the masked words. In technical word it requires 3 steps Adding a classification layer on top of the encoder output, Multiplying the output vectors by the embedding matrix, transforming them into the vocabulary dimension. And lastly calculating the probability of each word in the vocabulary with SoftMax. Here we can see an image of the process &lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/MLMBertexPic1.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>MLM Bert Figure:&lt;/strong> &amp;ldquo;Masked Language Model Figure Example&amp;rdquo; &lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>Next Sentence Prediction (NSP) process is based in sentence prediction. The model obtains pair of sentences as inputs, and it is train to predict which is the second sentence in the pair. In The training process 50% of the input sentences are in fact first and second sentence and in the other 50% the second sentences are random sentences used for training purposes.
+The model is able to distinguish if the second sentence is connected to the first sentence by a 3-step process. An CLS (the reserved token to represent the start of sequence) is inserted at the beginning of the first sentence while the SEP (separate segments or sentence) is inserted at the end of each sentence. And embedding indicating sentence A or B is added to each token, and lastly a positional embedding is added to each token to indicate its position in the sequence like is shown on the image &lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/NSPBertexpic.png" alt="Figure 2">&lt;/p>
+&lt;p>&lt;strong>NSP Bert Figure:&lt;/strong> &amp;ldquo;Next Sentence Prediction Figure Example&amp;rdquo; &lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>By the trained model Parameter learning we obtains the word embeddings of the input sentence or input sentence pair in the unsupervised learning framework proceeds by solving the following two tasks: Masked Language Model and Next Sentence Prediction.&lt;/p>
+&lt;p>We try to use Bert model in the small dataset Hashimoto without any success because the BERT model was overfitting the data points. We use LDA model to train the Hashimoto dataset which allow us to find topic probabilities that we compare with the thyroiditis dataset that was trained with the BERT model-framework.&lt;/p>
+&lt;p>We used Natural Language Toolkit (NLTK) which is a module that uses the process of splitting sentences from paragraph, split words, recognizing the meaning of those words, to highlighting the main subjects, with the purpose to help to understand the meaning of the document &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>. For instance, in our NLTK model we used two data sets &lt;a href="https://drive.google.com/drive/u/0/folders/1Omtnn5e-yH3bbhW0-5fIbLgi8SEyfYBP">Hashimoto and thyroiditis&lt;/a> and we were able to identify the top 30 topics connected to these disorders. From the information collected we were able to identify general information like association of the disorder with other health issues. The impact of Hashimoto patient with covid19, long term consequences of untreated Hashimoto, recommendation for advance cases, and diet suggestion for improvement. The used of Natural Language tool kit made a precise and less time consuming research process.&lt;/p>
+&lt;h2 id="2-summary-tables">2. Summary Tables&lt;/h2>
+&lt;p>We can observe in this table the differences between this two similar disorders that are frequently misunderstood.&lt;/p>
+&lt;p>&lt;strong>Summary Table 1:&lt;/strong> &amp;ldquo;Differences Between Hashimoto&amp;rsquo;s Thyroiditis and Grave&amp;rsquo;s Disease&amp;rdquo; &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/hertoghe-table-2.jpg" alt="Summary Table 1">&lt;/p>
+&lt;p>&lt;strong>Summary Table 2:&lt;/strong> &amp;ldquo;Hashimoto’s thyroiditis is associated with other important disorders&amp;rdquo; &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/Thyroiditis%20Associated%20Pathologies.jpg" alt="Summary Table 2">&lt;/p>
+&lt;p>&lt;strong>Summary Table 3:&lt;/strong> &amp;ldquo;Overview of the main dietary recommendations for patients with Hashimoto&amp;rdquo; &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/Dietary%20changes%20that%20reduce%20Antithyroid%20Antibody%20levels.jpg" alt="Summary Table 3">&lt;/p>
+&lt;h2 id="3-datasets">3. Datasets&lt;/h2>
+&lt;p>Silobreaker software was used to obtain scientific information related to the Hashimoto disease coming from different sources such as journals, proceedings, tweets, and news. Our date consists in the fallowing feature: ID, cluster Id, Description, publication date, Source URL, publisher. And the purpose is to analyze the preform of the proposed approach to discover the hiding semantic structures related with Hashimoto and thyroiditis the description from the gather data is used to study the frequency of Hashimoto and thyroiditis appears in the documents and detecting words and phrases patterns within them to automatically clustering work groups.&lt;/p>
+&lt;p>The dataset was obtained from Silobreaker database which is a commercial database. We got access through Florida A&amp;amp;M University who provided me the right to query the data. the link for the silobreaker information is [Here] (&lt;a href="https://www.silobreaker.com/">https://www.silobreaker.com/&lt;/a>) &lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>This data was preprocessed dropping the columns &amp;lsquo;Id&amp;rsquo;, &amp;lsquo;ClusterId&amp;rsquo;, &amp;lsquo;Language&amp;rsquo;, &amp;lsquo;LastUpdated&amp;rsquo;,&amp;lsquo;CreatedDate&amp;rsquo;,&amp;lsquo;FirstReported&amp;rsquo;. Also, stop words and punctuation were removed, we convert to lower case all the titles.&lt;/p>
+&lt;p>The dataset already query can be download in my personal drive [Here](&lt;a href="https://drive.google.com/drive/u/0/folders/1Omtnn5e-yH3bbhW0-5fIbLgi8SEyfYBP">https://drive.google.com/drive/u/0/folders/1Omtnn5e-yH3bbhW0-5fIbLgi8SEyfYBP&lt;/a>.&lt;/p>
+&lt;h2 id="4-results">4. Results&lt;/h2>
+&lt;p>The following figures were creating with the help of libraries like gensim. Gensim stands for Generate similar and is an unsupervised library wide used for topic modeling and natural language processing based on modern statistical machine learning &lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup>. it can handle large text collections of data and can preforms task like corpora, building document, word vectors and topic identification, which is one of the technics we used here, and we can observe it in some of the images. Each figure is described and explains the method we used to created it along with the relationship of the key word or major topic to the Hashimoto disorder.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/wordCloudObject.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> &amp;ldquo;Example of a Word Cloud Object&amp;rdquo;&lt;/p>
+&lt;p>On Figure 1 we observed an example of a word cloud object and represent the difference words found in our dataset and the size of the words means the frequency of the given words in the document. Meaning that the size of the words is proportional to the frequency of its used.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/IntertopicDistanceMap.png" alt="Figure 2">&lt;/p>
+&lt;p>&lt;strong>Figure 2:&lt;/strong> &amp;ldquo;Example of a Intertopic Distance Map&amp;rdquo;&lt;/p>
+&lt;p>Figure 2 shows an Intertopic Distance Map which is a two-dimensional space filled with circles representing the proportional number of words that belongs to each topic making the distance to each other represent the relation between the topics, meaning that topics that are closer together have more words in common. For instance, in topic 1 we observed word like hypothyroidism, Morgan, symptoms after a small search we were able to find that Morgan is a well-known writer that presented thyroiditis symptoms after giving birth which is something that happen to some women’s and then recover after a couple of months, however this increments the risk of developing the syndrome later in their lives &lt;sup id="fnref:11">&lt;a href="#fn:11" class="footnote-ref" role="doc-noteref">11&lt;/a>&lt;/sup>. On topic 4 we see words like food, levothyroxine, liothyronine, selenium and dietary. the relationship between these words is symptom control, symptoms relive, some natural remedies and supplements &lt;sup id="fnref:12">&lt;a href="#fn:12" class="footnote-ref" role="doc-noteref">12&lt;/a>&lt;/sup>&lt;sup id="fnref:13">&lt;a href="#fn:13" class="footnote-ref" role="doc-noteref">13&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/topic%20modeling%20picture.png" alt="Figure 3">&lt;/p>
+&lt;p>&lt;strong>Figure 3:&lt;/strong> &amp;ldquo;Top 30 major Topics&amp;rdquo;&lt;/p>
+&lt;p>On figure 3 we observed a bar chart that shows 30 major terms. The bars indicate the total frequency of the term across the entire corpus. The size of the bubble measures the importance of the topics, relative to the data. for example, for visualization purposes we used the first topic that include Hashimoto, thyroiditis, and selenium. Saliency is a measure of how much the term talks about the topic. And in terms of findings is important to mentions the relationship between Hashimoto thyroiditis and selenium. Selenium is a suplement recomended for patients with this disorder that have shown a reduction on antibody levels &lt;sup id="fnref:13">&lt;a href="#fn:13" class="footnote-ref" role="doc-noteref">13&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/HierarchicalClustering.png" alt="Figure 4">&lt;/p>
+&lt;p>&lt;strong>Figure 4:&lt;/strong> &amp;ldquo;Example of Hierarchical Clustering chart&amp;rdquo;&lt;/p>
+&lt;p>On figure 4 we can see that the dendrograms have been created joining points 4 with 9, 0 with 2, 1 with 6, and 12 with 13. The vertical height of the dendrogram shows the Euclidean distances between points. It is easy to see that Euclidean distance between points 12 and 13 is greater than the distance between point 4 and 9. This is because the algorithm is clustering by similarity, differences, and frequency of words. We observed in the dark green dendrogram topic 7,3,4,9 which are all related to an advance stage of the disorder. we can find the information about certain treatments, causes of the disorder, level of damage at certain stages. On the reds dendrograms we observe topics 0,2,1,6 which are closely related to diagnosis, early symptoms and procedures used for the diagnosis of the disorder.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/SimilarityMatrix.png" alt="Figure 5">&lt;/p>
+&lt;p>&lt;strong>Figure 5:&lt;/strong> &amp;ldquo;Exaple of Similarity Matrix Chart&amp;rdquo;&lt;/p>
+&lt;p>On figure 5 we can see a similarity matrix chart, the graph is build based on similarity reached from the volume of topic and association by document, therefore the graph show groups of documents that are cluster together based on similarities. in this case the blue square is an indication of a strong similarity, and the green and light green is an indication of different topics. for instance, we are able to derive as a conclusion that carcinoma cancer, carcinoma therapy, lymph papillary metastasis and hypothyroidism are closely related. in facts they are advance stages of the disorder. E.g. Carcinoma therapy is a type of treatment that can be used for this disorder &lt;sup id="fnref:14">&lt;a href="#fn:14" class="footnote-ref" role="doc-noteref">14&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/TermScoreDeclinePerTopic.png" alt="Figure 6">&lt;/p>
+&lt;p>&lt;strong>Figure 6:&lt;/strong> &amp;ldquo;Example of Term Score Decline Per Topic Chart&amp;rdquo;&lt;/p>
+&lt;p>On figure 6 we observed TF-IDF which is an interesting technic used on machine learning that have the ability to give weight to those words that are not frequent in the document but can carry important information. In this example we can see how topic 12, covid19 pandemic patients is the at the top of the chart and then start declining when the rank term increase. The science behind this behave is explain by the TF-IDF which is term frequency - Inverse document frequency. Therefore, covid 19 was a relative new disease, and we do not expect to have a high frequency used in the document. In this case we were able to find information about Hashimoto patients and covid19 which it seems not to causes any extreme symptoms for patient with this disorder others than the ones expected from a healthy person in other words Hashimoto patients have the same risk of a healthy person &lt;sup id="fnref:15">&lt;a href="#fn:15" class="footnote-ref" role="doc-noteref">15&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/TopicProbability.png" alt="Figure 7">&lt;/p>
+&lt;p>&lt;strong>Figure 7:&lt;/strong> &amp;ldquo;Example of Topic Probability chart&amp;rdquo;&lt;/p>
+&lt;p>On figure 7 we see a probability distribution chart based on each topic frequency and its relationship with the main topic: Hashimoto thyroiditis causes or cure. We can see that topic 12 is the least frequent or least related since most of its content is about covid19. Then we have topic 11 zebrafish which is related to the investigation of the disorder but most of its content is about the research made on zebrafish and how had help researchers to understand thyroid diseases in other no mammals’ animals, but is not closely related to the major point of this project, however, is an interesting research which have provide useful information about thyroiditis &lt;sup id="fnref:16">&lt;a href="#fn:16" class="footnote-ref" role="doc-noteref">16&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/topicwordscore.png" alt="Figure 8">&lt;/p>
+&lt;p>&lt;strong>Figure 8:&lt;/strong> &amp;ldquo;Example of a Topic Word Score Chart&amp;rdquo;&lt;/p>
+&lt;p>On figure 8 we have Topic Word Scores chart that provides a deep understanding of large corpus of texts trough topic extraction. for instance, the data used in this project provide 5 fundamental topics from 0 to 4. Essentially each topic provided closely related words with deep information about the disorder itself, treatments, diagnosis, and symptoms. E.g. in topic number 4 we find a specific word &amp;ldquo;eye&amp;rdquo; which it does not seem to have a close relationship with Hashimoto thyroiditis but in facts is related to one of the early symptoms that the human body experiment most likely when is still undiagnosed [16]. In the same topic we also find the word teprotumumab which is an eye relieve medication recommended from doctors to relive the symptoms, in other word is not the cure but it helps &lt;sup id="fnref:17">&lt;a href="#fn:17" class="footnote-ref" role="doc-noteref">17&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="5-hashimoto-findings">5. Hashimoto Findings&lt;/h2>
+&lt;p>As we can see our findings are wide in aspects of causes which is one of the main keys, because if we know the cause of something most likely we will be able to avoid it. However, this disorder is considered relative knew and have been around for some decades only, but it is necessary to point out the relation of diseases with the environment. Environmental changes are a fact and are affecting us every day even when we don’t notice it. We have seen an exponential increase of Hashimoto cases in the last five decades, and at the same time the last five decades have been potentially related to climate change, high levels of pollution, less fertile soils, increased use of pesticides on food, etc. It would be a good idea to think about our environment and how to help it heal since it will bring benefits for all of us&lt;sup id="fnref:18">&lt;a href="#fn:18" class="footnote-ref" role="doc-noteref">18&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;strong>Table Summary:&lt;/strong> &amp;ldquo;Finding summary on causes, descriptions and recommendations.&amp;rdquo;&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Possible Causes&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Recomendations&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Genetic predispositions&lt;/td>
+&lt;td>Genetically linked&lt;/td>
+&lt;td>Manage stress&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Dietary errors&lt;/td>
+&lt;td>Imbalance of iodine intake&lt;/td>
+&lt;td>Balance is key&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Nutritional deficiencies&lt;/td>
+&lt;td>not enough veggies, vitamins and minerals&lt;/td>
+&lt;td>eat more veggies&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Hormone deficiencies&lt;/td>
+&lt;td>lover levels of vit D&lt;/td>
+&lt;td>Enough sleep, Take some sun light&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Viral, bacterial, yeast, and parasitic infections.&lt;/td>
+&lt;td>H pylori, Bad guts microbes&lt;/td>
+&lt;td>food hygiene&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Enviromental Factors&lt;/td>
+&lt;td>Pollution, Pesticides used etc.&lt;/td>
+&lt;td>Human footprint on environment&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Possible causes&lt;/strong>&lt;/p>
+&lt;p>Genetic predispositions, Dietary errors, Nutritional deficiencies, Hormone deficiencies, Viral, bacterial, yeast, and parasitic infections &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;strong>Hashimoto Trigger Food&lt;/strong>&lt;/p>
+&lt;p>Some Food that can trigger Hashimoto are gluten, dairy, some type of grains, eggs, nuts or nightshades, sugar, sweeteners, sweet fruits, including honey, agave, maple syrup, and coconut sugar and high-glycemic fruits like watermelon, mango, pineapple, grapes, canned and dried fruits. Vegetable oil, specially hydrogenated oils, ad trans-fat. Patient with this disorder may experience symptoms of fatigue, rashes, joint pain, digestive issues, headaches, anxiety, and depression after eating some of these foods &lt;sup id="fnref:19">&lt;a href="#fn:19" class="footnote-ref" role="doc-noteref">19&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;strong>Hashimoto recommended Diets&lt;/strong>&lt;/p>
+&lt;p>The recommended foods are healthy fats like coconut, avocado, and olive oil, ghee, grass-fed and organic meat, wild fish, healthy fats, fermented foods like coconut yogurt, kombucha, fermented cucumbers and pickle ginger, and plenty of vegetable like Asparagus, spinach, lettuce, broccoli, beets, cauliflower, carrots, celery, artichokes, garlic, onions &lt;sup id="fnref:19">&lt;a href="#fn:19" class="footnote-ref" role="doc-noteref">19&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;strong>Environmental causes of Hashimoto&lt;/strong>&lt;/p>
+&lt;p>There have been an increase in the number of Hashimoto cases in the United States since 1950s. These is one of the reason research explain that Hashimoto disorder can be closely related to environmental causes since the rapid increase of cases can not only be related to family gens as it takes at least two generations to acquire and transfer gen mutation. Adding to this that for generation thru history human have been fitting microorganisms than enter our body but for the past centuries our environment has become very hygienic consequently our immune system suddeling was left without aggressors therefore humane start developing more allergies and autoimmune diseases.
+Another important factor is the balance of iodine intake because too much is as dangerous for people with genetic Hashimoto predisposition but too littler can be also dangerous for patients with the disorder to reduce goiter which is the enlargement of the thyroid glands &lt;sup id="fnref:18">&lt;a href="#fn:18" class="footnote-ref" role="doc-noteref">18&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>It is still not enough research to state that low vitamin D levels are a cause or a consequence of the Hashimoto disorder, but it is a fact that most patients with this disorder have low levels of vitamin D this insufficient this is closely related to insufficient sun exposure &lt;sup id="fnref:18">&lt;a href="#fn:18" class="footnote-ref" role="doc-noteref">18&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>The exposure to certain synthetic pesticide. An important fact is that 9 out of 12 pesticides are dangerous and persistent pollutants &lt;sup id="fnref:18">&lt;a href="#fn:18" class="footnote-ref" role="doc-noteref">18&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;strong>Symptoms of Hashimoto’s&lt;/strong>&lt;/p>
+&lt;p>Some of the symptoms are fatigue and sluggishness, sensitivity to cold, constipation, pale and dry skin, dry eyes, puffy face, brittle nails, hair loss, enlargement of the tongue, unexplained weight gain, muscle aches, tenderness and stiffness, joint pain and stiffness, muscle weakness, excessive or prolonged menstrual bleeding, depression, memory lapses, Another symptom reported by some patients was ablation, some patient described as an acceleration of the heart rhythm &lt;sup id="fnref:20">&lt;a href="#fn:20" class="footnote-ref" role="doc-noteref">20&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;strong>Complications&lt;/strong>&lt;/p>
+&lt;p>Tissue damage, Abnormal look of the thyroid gland (figure 2), goiter, Heart problems, mental health issues, myxedema, birth defects &lt;sup id="fnref:20">&lt;a href="#fn:20" class="footnote-ref" role="doc-noteref">20&lt;/a>&lt;/sup>, Nodule (figure 4 Similarity Matrix topic 3), and High antibody level. It is important to mention an association between high levels of thyroid autoantibodies and the increased of mood disorders, thyroid autoimmunity disease, celiac disease, panic disorder and major depressive disorder &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;strong>Recomendations&lt;/strong>&lt;/p>
+&lt;p>Healthy diets, exercising, selenium supplementation [8], healthy sun exposure at an adequate time, getting enough sleep is primordial for the human body, in special for the metabolism regulation and the creation of normal hormones that the human body needs, &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup> lowering stress levels by physical exercise is a good idea, exercise like yoga and reiki are valuable because it also exercise you brain with meditation which is a great stress reliever.&lt;/p>
+&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
+&lt;p>We used benchmark to perform the process time to get topics frequency in parallel using google colab with run type: GPU and TPU. We can observe that TPU machines take less time to classify topic 1. Tensor Processor Unit (TPU) is designed to run cutting-edge machine learning models with AI services on Google Cloud &lt;sup id="fnref:21">&lt;a href="#fn:21" class="footnote-ref" role="doc-noteref">21&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>&lt;strong>Benchmark Topics Frequency:&lt;/strong>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>parallel Topic&lt;/th>
+&lt;th>Status&lt;/th>
+&lt;th>Time&lt;/th>
+&lt;th>processor&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>164 1_cancer_follicular_carcinoma_autoimmune&lt;/td>
+&lt;td>ok&lt;/td>
+&lt;td>0.53&lt;/td>
+&lt;td>GPU&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>190 1_cancer_follicular_carcinoma_autoimmune&lt;/td>
+&lt;td>ok&lt;/td>
+&lt;td>0.002&lt;/td>
+&lt;td>TPU&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="7-conclusion">7. Conclusion&lt;/h2>
+&lt;p>As expected, we were able to derive helpful information of the Hashimoto thyroiditis disorder. we attempted to summarize our findings concerning Hashimoto thyroiditis in aspects of causes, symptoms, recommended diets and supplements and used medication.&lt;/p>
+&lt;p>Our findings highlight the great potential of the model we used. certainly, topic modeling method was a precise idea for the optimization of the research process. We also used various features of genism, which allows to manipulate data texts on NPL projects. The use of clustering technics was very useful to label our findings on the large datasets. Each used graph provided useful details and key words that later help us to review each important topic in a faster manner and develop the research project with accurate results.&lt;/p>
+&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
+&lt;p>Gregor von Laszewski&lt;/p>
+&lt;p>Yohn J Parra&lt;/p>
+&lt;p>Carlos Theran&lt;/p>
+&lt;h2 id="9-references">9. References&lt;/h2>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, [Online resource]
+&lt;a href="https://arxiv.org/abs/1810.04805">https://arxiv.org/abs/1810.04805&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Helicobacter pylori infection in women with Hashimoto thyroiditis, [Online resource]
+&lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5265752/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5265752/&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3" role="doc-endnote">
+&lt;p>I. Voloshyna, V.I Krivenko, V.G Deynega, M.A Voloshyn, Autoimmune thyrod disease related to helicobacterer pylori contamination, [Online resource]
+&lt;a href="https://www.endocrine-abstracts.org/ea/0041/eposters/ea0041gp213_eposter.pdf">https://www.endocrine-abstracts.org/ea/0041/eposters/ea0041gp213_eposter.pdf&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4" role="doc-endnote">
+&lt;p>How your diet can trigger Hashimoto&amp;rsquo;s, [Online resource]
+&lt;a href="https://www.boostthyroid.com/blog/2019/4/5/how-your-diet-can-trigger-hashimotos">https://www.boostthyroid.com/blog/2019/4/5/how-your-diet-can-trigger-hashimotos&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5" role="doc-endnote">
+&lt;p>Hypothyroidism in Context: Where We’ve Been and Where We’re Going, [Online resource]
+&lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6822815/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6822815/&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:6" role="doc-endnote">
+&lt;p>BERT Explained: State of the art language model for NLP
+&lt;a href="https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270">https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270&lt;/a>&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:7" role="doc-endnote">
+&lt;p>Pavan Sanagapati, Knowledge Graph &amp;amp; NLP Tutorial-(BERT,spaCy,NLTK), [Online resource]
+&lt;a href="https://www.kaggle.com/pavansanagapati/knowledge-graph-nlp-tutorial-bert-spacy-nltk">https://www.kaggle.com/pavansanagapati/knowledge-graph-nlp-tutorial-bert-spacy-nltk&lt;/a>&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:8" role="doc-endnote">
+&lt;p>Hashimoto’s Thyroiditis, A Common Disorder in Women: How to Treat It, [Online resource]
+&lt;a href="https://www.townsendletter.com/article/441-hashimotos-thyroiditis-common-disorder-in-women/">https://www.townsendletter.com/article/441-hashimotos-thyroiditis-common-disorder-in-women/&lt;/a>&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:9" role="doc-endnote">
+&lt;p>Silobreaker: Intelligent platform for the data era
+&lt;a href="https://www.silobreaker.com">https://www.silobreaker.com&lt;/a>&amp;#160;&lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:10" role="doc-endnote">
+&lt;p>Gensim Tutorial – A Complete Beginners Guide, [Onile resource]
+&lt;a href="https://www.machinelearningplus.com/nlp/gensim-tutorial/">https://www.machinelearningplus.com/nlp/gensim-tutorial/&lt;/a>&amp;#160;&lt;a href="#fnref:10" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:11" role="doc-endnote">
+&lt;p>Julia Haskins, Thyroid Conditions Raise the Risk of Pregnancy Complications, [Online resource]
+&lt;a href="https://www.healthline.com/health-news/children-thyroid-conditions-raise-pregnancy-risks-052913">https://www.healthline.com/health-news/children-thyroid-conditions-raise-pregnancy-risks-052913&lt;/a>&amp;#160;&lt;a href="#fnref:11" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:12" role="doc-endnote">
+&lt;p>How your diet can trigger Hashimoto&amp;rsquo;s, [Online resource]
+&lt;a href="https://www.boostthyroid.com/blog/2019/4/5/how-your-diet-can-trigger-hashimotos">https://www.boostthyroid.com/blog/2019/4/5/how-your-diet-can-trigger-hashimotos&lt;/a>&amp;#160;&lt;a href="#fnref:12" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:13" role="doc-endnote">
+&lt;p>Selenium Supplementation for Hashimoto&amp;rsquo;s Thyroiditis, [Online resource]
+&lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4005265/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4005265/&lt;/a>&amp;#160;&lt;a href="#fnref:13" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:14" role="doc-endnote">
+&lt;p>Thyroid Cancer Treatment, [Online resource]
+&lt;a href="https://www.cancer.gov/types/thyroid/patient/thyroid-treatment-pdq">https://www.cancer.gov/types/thyroid/patient/thyroid-treatment-pdq&lt;/a>&amp;#160;&lt;a href="#fnref:14" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:15" role="doc-endnote">
+&lt;p>Hashimoto&amp;rsquo;s Disease And Coronavirus (COVID-19), [Online resource]
+&lt;a href="https://www.palomahealth.com/learn/coronavirus-and-hashimotos-disease">https://www.palomahealth.com/learn/coronavirus-and-hashimotos-disease&lt;/a>&amp;#160;&lt;a href="#fnref:15" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:16" role="doc-endnote">
+&lt;p>How zebrafish research has helped in understanding thyroid diseases, [Online resource]
+&lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5730863/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5730863/&lt;/a>&amp;#160;&lt;a href="#fnref:16" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:17" role="doc-endnote">
+&lt;p>Teprotumumab for the Treatment of Active Thyroid Eye Disease, [Online resource]
+&lt;a href="https://www.nejm.org/doi/full/10.1056/nejmoa1910434">https://www.nejm.org/doi/full/10.1056/nejmoa1910434&lt;/a>&amp;#160;&lt;a href="#fnref:17" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:18" role="doc-endnote">
+&lt;p>11 environmental triggers of Hashimoto’s, [Online research]
+&lt;a href="https://www.boostthyroid.com/blog/11-environmental-triggers-of-hashimotos">https://www.boostthyroid.com/blog/11-environmental-triggers-of-hashimotos&lt;/a>&amp;#160;&lt;a href="#fnref:18" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:19" role="doc-endnote">
+&lt;p>Hashimoto’s low thyroid autoimmune, [Online research]
+&lt;a href="https://www.redriverhealthandwellness.com/diet-hashimotos-hypothyroidism/">https://www.redriverhealthandwellness.com/diet-hashimotos-hypothyroidism/&lt;/a>&amp;#160;&lt;a href="#fnref:19" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:20" role="doc-endnote">
+&lt;p>Hashimoto&amp;rsquo;s disease, [Online research]
+&lt;a href="https://www.mayoclinic.org/diseases-conditions/hashimotos-disease/symptoms-causes/syc-20351855">https://www.mayoclinic.org/diseases-conditions/hashimotos-disease/symptoms-causes/syc-20351855&lt;/a>&amp;#160;&lt;a href="#fnref:20" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:21" role="doc-endnote">
+&lt;p>TPU: Tensor Processor Unit
+&lt;a href="https://cloud.google.com/tpu">https://cloud.google.com/tpu&lt;/a>&amp;#160;&lt;a href="#fnref:21" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: Detecting Multiple Sclerosis Symptoms using AI</title><link>/report/su21-reu-371/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-371/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-371/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-371/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-371/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-371/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Raeven Hatcher, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-371">su21-reu-371&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-371/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Multiple sclerosis (M.S.) is a chronic central nervous system disease that potentially affects the brain, spinal cord, and optic nerves in the eyes. People that suffer from M.S had their immune system attacks the myelin (protective sheath) that covers nerve fibers, resulting in communication problems between the brain and the body. The cause of M.S. is unknown; however, researchers believe that genetic and environmental factors play a role in those affected. Symptoms differ significantly from person to person due to varying nerves involved. The most common symptoms include tremors, numbness or weakness in limbs, vision loss, blurry vision, double vision, slurred speech, fatigue, dizziness, involuntary movement, and muscle paralysis. There is currently no cure for Multiple sclerosis and treatment focuses on slowing the progression of the disease and managing symptoms.&lt;/p>
+&lt;p>There is no proven way to predict how an individual with M.S will progress certainly. However, researchers established four phenotypes that will assist in identifying those who are more inclined to have disease progression and help aid in more effective treatment targeting. In this experiment, Artificial Intelligence (AI) will be applied by ascertaining what causes these different phenotypes and which phenotype is at most risk for disease progression using a Magnetic Resonance Scan.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-datasets">4. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-benchmark">5. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-acknowledgments">7. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-references">8. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>MS or Multiple sclerosis is a potentially disabling autoimmune disease that can damage the brain, spinal cord, and optic nerves located in the eyes. It is the most common progressive neurological disability that affects adolescents. The immune system attacks the central nervous system in this disease, specifically myelin (sheth that covers and protects nerve fibers), oligodendrocytes (myelin-producing cells), and the nerve fibers located under myelin. Myelin enables nerves to send and receive electrical signals swiftly and effectively. The myelin sheath becomes scarred from being attacked. These attacks make the myelin sheath inflamed in little patches, observable on an MRI scan. These little inflamed patches potentially disrupt messages moving along the nerves, which ultimately lead to the symptoms of Multiple sclerosis. If these attacks happen frequently, permanent damage can occur to the involved nerve.
+Because Multiple sclerosis affects the central nervous system, which control all of the actions carried out in the body, symptoms can affect any part of the body and vary. The most common symptoms of this progressive disease include muscle weakness, pins and needle sensation, electrical shock sensation, loss of bladder control, muscle spasms, tremors, double or blurred vision, partial or total vision loss, to name a few. Researchers are not sure what causes Multiple sclerosis but believe those between the ages of 20 and 40, women, smoke, are exposed to certain infections, have a vitamin D and B12 deficiency, and related to someone affected by this disease are more susceptible.&lt;/p>
+&lt;p>It can be difficult to diagnose MS due to the symptoms usually being vague or very similar to other conditions. There is no single test to diagnose it positively. However, doctors can choose a neurological examination, MRI scan, evoked potential test, lumbar puncture, or a blood test to diagnose a patient properly. Currently, clinical practices divide MS into four phenotypes: clinically isolated syndrome (CIS), relapsing-remitting MS (RRMS), primary-progressive MS (PPMS), and secondary progressive MS (SPMS). Two factors define these phenotypes; disease activity (evidenced by relapses or new activity on MRI scan) and progression of disability. Phenotypes are routinely used in clinical trials to choose patients and conduct treatment plans.&lt;/p>
+&lt;p>New technologies, such as artificial intelligence and machine learning, help assess multidimensional data to recognize groups with similar features. When implemented in apparent abnormalities on MRI scans, these new technologies have assured promising results in classifying patients who share similar pathobiological mechanisms rather than the typical clinical features.&lt;/p>
+&lt;p>Researchers at UCL work with the Artificial intelligence (AI) tool SuStain (Subtype and Stage Inference) to ask whether AI can find Multiple sclerosis subtypes that follow a particular pattern on brain images? The results uncovered three data-driven MS subtypes defined by pathological abnormalities seen on brain images (Skylar). The three data-driven MS subtypes are cortex-led, normal-appearing WM-led, Lesion-led. Cortex-led MS is characterized by early tissue shrinkage (atrophy) in the outer layer of the brain. Normal-appearing WM-led is identified by irregular diffused tissue located in the middle of the brain. Lastly, a lesion-led subtype is characterized by early extension accumulation of brain damage areas that lead to severe atrophy in numerous brain regions. All three of these subtypes correlate to the earliest abnormalities observed on an MRI scan within each pattern.&lt;/p>
+&lt;p>In this experiment, researchers utilized the SuStain tool to capture MRI scans of 6,332 patients. The unsupervised SuStain taught itself and identified those three patterns that were previously undiscovered.&lt;/p>
+&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;p>&lt;img src="https://user-images.githubusercontent.com/85815818/126948339-7723b810-83e4-463b-a2b0-bf417fac4458.jpg" alt="projectpic2">
+The above image shows the MRI-based subtypes. The color shades range from blue to pink, representing the probability of abnormality mild to severe, respectively. (Eshaghi)
+&lt;img src="https://user-images.githubusercontent.com/85815818/127168907-4d7e444f-14bd-4ee3-8027-a7b0e5b7d213.jpg" alt="INSERTPIC">&lt;/p>
+&lt;h2 id="4-datasets">4. Datasets&lt;/h2>
+&lt;p>MRI brain scans of 6,322 MS patients. look if you can find figures descrbing the data.&lt;/p>
+&lt;h2 id="5-benchmark">5. Benchmark&lt;/h2>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common.&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>A vital barrier in distinguishing subtypes in Multiple sclerosis is to stitch observations together from cross-sectional or longitudinal studies. Grouping individuals based wholly on their MRI scan is ineffective because patients belonging to the same subgroup could show ranging abnormalities as the disease progresses and would appear different. SuStaIn, Subtype and Staging Inference, a newly developed unsupervised machine learning algorithm aids in uncovering data-driven disease subtypes that have distinct temporal progression patterns. &amp;ldquo;The ability to disentangle temporal and phenotypic heterogeneity makes SuStain different from other unsupervised learning or clustering algorithms&amp;rdquo; (Eshaghi). SuStaIn identifies subtypes given the data, defined by a particular pattern of variation in a set of features, such as MRI abnormalities. Once the SuStain subtypes and their MRI trajectories are adequately identified, the disease model can conclude how approximately a patient, whose MRI is unseen, belongs to each of the three subtypes and stages.&lt;/p>
+&lt;p>A total of 9,390 patients participated in this research study. Six thousand three hundred twenty-two patients were utilized in training, and 3,068 patients were used for the validation dataset. Patient characteristics such as sex, age, disease duration, and expanded disability status scale (EDSS) were similar between the training and validation dataset. There were 18 MRI features measured, 13 of those differed dramatically from those between the MS training dataset and control group and were maintained in the SustaIn model. Three subtypes, with very distinct patterns, were identified in the training dataset and validated in the validation dataset. The early abnormalities noticed by SuStain helped define the three subtypes: cortex-led, normal-appearing white matter-led, and lesion-led.&lt;/p>
+&lt;p>There was a statistically significant difference in the rate of the disease progression between the subtypes in the training dataset and validation datasets. The lesion-led subtype held a 30% higher risk of developing 24-week confirmed disability progression (CDP) than the cortex-led subtype in the training dataset. The lesion-led validation dataset had a 32% higher risk of confirmed disability progression than the cortex-led subtype. No other differences in the advancement of disability between subtypes were noted. When SuStaIn was applied to the training and validation dataset, it was pointed out that there were differences in the risk of disability progression between SuStaIn stages.&lt;/p>
+&lt;p>Each MRI-based subtype had a different response to treatment, comparing those on treatment and those on placebo. The lesion-led subtype showed a remarkable response to the treatment. Patients on the lesion-led active treatment subtype showed a significantly slower worsening of EDSS than those on the placebo. No differences in the rate of EDSS were observed in those on the placebo compared to active treatment in the NAWM-led and cortex-led subtypes.&lt;/p>
+&lt;p>When SuStain was applied to a large set of Multiple sclerosis scans, it identified three subtypes. Researchers found out the patient&amp;rsquo;s baseline subtype and stage were associated with an increased risk of disease progression. Combining clinical information with the MRI-based three subtypes increased the predictive accuracy of just using the MRI scan information alone. The patterns of MRI abnormality in these subtypes provide perspicacity into disease mechanisms, and, alongside clinical phenotypes, they may aid the stratification of patients for future studies.&lt;/p>
+&lt;h2 id="7-acknowledgments">7. Acknowledgments&lt;/h2>
+&lt;p>The author likes to thank Gregor von Laszewski, Yohn Jairo, and Carlos Theran.&lt;/p>
+&lt;h2 id="8-references">8. References&lt;/h2>
+&lt;p>[^6] What Is MS? National Multiple Sclerosis Society. (n.d.). &lt;a href="https://www.nationalmssociety.org/What-is-MS">https://www.nationalmssociety.org/What-is-MS&lt;/a>.&lt;/p></description></item><item><title>Report: Report: AI in Orthodontics</title><link>/report/su21-reu-363/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-363/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-363/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-363/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-363/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-363/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: final, Type: Report&lt;/p>
+&lt;p>Whitney McNair, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-363">su21-reu-363&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-363/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>In this effort we are analyzing X-ray images in AI and identifying cavitites&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-data-sets">2. Data Sets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-figures">3. Figures&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-example-of-a-ai-algorighm-in-orthodontics">4. Example of a AI algorighm in Orthodontics&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-benchmark">5. Benchmark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-acknowledgments">7. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-references">8. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> ai, orthodontics, x-rays.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Dental field technology capability has increased over the past 25 years, and has helped reduce time, cost, medical errors, and dependence on human expertise. Intelligence in orthodontics can learn, build, remember, understand and recognize designs from techniques used in correcting the teeth like retainers. Dental field can create alternatives, adapt to change and explore experiences with sub-groups of patients. AI has taken part of the dental field by accurately and efficiently processing the best data from treatments. For smart use of Health Data, machine learning and artificial intelligence are expected to promote further development of the digital revolution in (dental) medicine, like x-rays, using algorithms to simulate human cognition in the analysis of complex data. The performance is better, the higher the degree of repetitive pattern and the larger the amount of accessible data&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="2-data-sets">2. Data Sets&lt;/h2>
+&lt;p>We found a dataset on a kaggle website that is about dental images. The data was collected by Mr. Parth Chokhra. The name of the dataset is Dental Images of kjbjl. The dataset did not have metadata and an explanation of how they collected the data. The data set supports how x-rays of teeth in dentistry becomes artificial intelligence. The Dental Images of kjbjl dataset was used in AI already using autoencoders. Autoencoders are an freely artificial neural network (located in the nervous system) that learns how to accurately encode data and reconstruct the data back from the reduced encoded depiction to a representation that is closes to the original. For some challenges with Orthodontics data sets with privacy, size, avalibility were surprisingly hard to find than we thought.&lt;/p>
+&lt;h2 id="3-figures">3. Figures&lt;/h2>
+&lt;p>Below we observed actual dental x-rays. These dental x-rays images below came from Parth Chorkhra on kaggle.com &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. The images are patient x-rays taken by Parth in his dental imagery data set. In the images we can see the caps and nerves of the teeth. Using these x-rays, we may can also find cavities if there are some. We can also identify other issues with patients teeth by taking and using x-rays.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-363/raw/main/project/images/figure-1.jpg" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> First x-ray&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-363/raw/main/project/images/figure-2.jpg" alt="Figure 2">&lt;/p>
+&lt;p>&lt;strong>Figure 2:&lt;/strong> Second x-ray&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-363/raw/main/project/images/figure-3.jpg" alt="Figure 3">&lt;/p>
+&lt;p>&lt;strong>Figure 3:&lt;/strong> Third x-ray&lt;/p>
+&lt;h2 id="4-example-of-a-ai-algorighm-in-orthodontics">4. Example of a AI algorighm in Orthodontics&lt;/h2>
+&lt;p>On a separate kaggle website, we found a code for DENTAL PANORAMIC KNN &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. The kaggle site shows dental codes taken place in Orthodontics.&lt;/p>
+&lt;h2 id="5-benchmark">5. Benchmark&lt;/h2>
+&lt;p>Here is an algorithm/code from one of the researchers we found. are using to study the performance of their algorithms or code.&lt;/p>
+&lt;p>Lateral and frontal facial images of patients who visited the Orthodontic department (352 patients) were employed as the training and evaluation data. An experienced orthodontist examined all the facial images for each patient and identified as many clinically used facial traits during the orthodontic diagnosis process as possible (e.g., deviation of the lips, deviation of the mouth, asymmetry of the face, concave profile, upper lip retrusion, presence of scars). A sample patient’s image, a list of sample assessments (i.e., labels), and the multi-label data used in the work by Murata et al. are shown in Figure 4.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-363/raw/main/project/images/figure-4.jpg" alt="Figure 4">&lt;/p>
+&lt;p>&lt;strong>Figure 4:&lt;/strong> Sample patient’s image and a list of sample assessments (i.e., labels) including the region of interest, evaluation, etc. In a previous study by Murata et al., they employed labels representing only the facial part (mouth, chin, and whole face), distorted direction (right and left), and its severity (severe, mild, no deviation).&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>Artificial intelligence is rapidly expanding into multiple facets of society. Orthodontics may be one of the fastest branches of dentistry to adapt AI for three reasons. First, patient encounters during treatment generate many types of data. Second, the standardization in the field of dentistry is low compared to other areas of healthcare. A range of valid treatment options exists for any given case. Using AI and large datasets (that include diagnostic results, treatments, and outcomes), one can now measure the effectiveness of different treatment modalities given very specific clinical findings and conditions. Third, orthodontics is largely practiced by independent dentists in their own clinics. Despite the promise of AI, the volume of orthodontic research in this field is relatively low. Further, the clinical accuracy of AI must be improved with an increased number and variety of cases. Before AI can take on a more important role in making diagnostic recommendations, the volume and quality of research data will need to increase&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="7-acknowledgments">7. Acknowledgments&lt;/h2>
+&lt;p>Dr. Gregor von Laszewski, Carlos and Yohn guided me throughout this process.&lt;/p>
+&lt;h2 id="8-references">8. References&lt;/h2>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Hasnitadita. (2021, July 10). DENTAL panoramic knn. Kaggle. &lt;a href="https://www.kaggle.com/hasnitadita/dental-panoramic-knn">https://www.kaggle.com/hasnitadita/dental-panoramic-knn&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Chokhra, P. (2020, June 29). Medical image dataset. Kaggle. &lt;a href="https://www.kaggle.com/parthplc/medical-image-dataset">https://www.kaggle.com/parthplc/medical-image-dataset&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Analysis of Covid-19 Vaccination Rates in Different Races</title><link>/report/su21-reu-375/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-375/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-375/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-375/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-375/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-375/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>Ololade Latinwo, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-375">su21-reu-375&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-375/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>With the ready availability of COVID-19 vaccinations, it is concerning that a suprising large portion of the U.S. population still refuses to recieve one. In order to control the spread of the pandemic and possibly even erradicate it completely, it is integral that the United States vaccinate as much of the population as possible. Not only does this require ensuring that everyone who wishes to be vaccinated recieves a vaccine, it also requires that those who are unwilling to recieve the vaccine are persuaded to take it. The goal of this report is to analyze the demographics of those who are hesitant to recieve the vaccine and find the reasoning behind their decision. This will make it easier to properly persuade them to recieve the vaccine and aid in raising the United States' vaccination rates.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-data-sets">2. Data Sets&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#21-covid-19-vaccination-hesitancy-in-all-50-states-by-county">2.1 COVID-19 Vaccination Hesitancy in all 50 States by County&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#22-vaccination-rates-by-demographic">2.2 Vaccination Rates by Demographic&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#23-covid-19-vaccination-rates-in-all-50-states">2.3 COVID-19 Vaccination Rates in all 50 States&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#24-vaccination-rates-in-all-50-states">2.4 Vaccination Rates in all 50 States&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#25-results-of-the-study-done-by-the-journal-of-community-health">2.5 Results of the Study Done by the Journal of Community Health&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#3-results">3. Results&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#31-race">3.1 Race&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#32-sex">3.2 Sex&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#33-age">3.3 Age&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#34-education-level">3.4 Education Level&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#35-location">3.5 Location&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#36-political-affiliation">3.6 Political Affiliation&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#4-conclusion">4. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-acknowledgments">6. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-references">7. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>It has been shown by several economic and health institutions that rates COVID-19 in the United States have been among the highest in the world. Estimates show that about 10 million people have been infected and over a quarter of a million have died in the U.S. by the end of November 2020 &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. Fortunately, several pharmaceutical companies such as Pfizer, Moderna, and Johnson &amp;amp; Johnson have managed to create a vaccine by the end of 2020, with several million Americans being given the vaccine by early March. Interestingly, it appears that despite the ready availability of vaccines, a sizeable portion of the population has no intention of receiving either their second does or either dose at all. Voluntarily receiving the COVID-19 vaccine is integral to putting the pandemic to an end, so it is important to explore which demographics are hesitant to receive their vaccine and explore their reasons for doing so. In this project, the variables that will be examined are age, sex, race, education level, location within the United States, and political affiliation.&lt;/p>
+&lt;h2 id="2-data-sets">2. Data Sets&lt;/h2>
+&lt;p>The first of these larger data sets are the results from a study done in the Journal of Community of Health done by Jagdish Khubchandani, Sushil Sharma, James H. Price, Michael J. Wiblishauser, Manoj Sharma, and Fern J. Webb. In this study, participants of a variety of backgrounds were given a questionnaire regarding whether or not they were likely or unlikely to receive the COVID vaccine. The variables included in the study and explored in this project are sex, age group, race, education level, regional location, and political affiliation. The raw data for this study is not available, however, the study has published the results as percentages. The second and third data sets are two maps of the United States that are provided by the CDC and illustrate the estimated rates of vaccine hesitancy and vaccination progress. Additionally, the United States Census Bureau provided a breakdown of vaccine hesitancy and progress by certain variables, of which age, sex, race and ethnicity, and education level are explored in this project. Like the study done by the Journal of Community Health, the raw data is not available, but percentages are available for each variable.&lt;/p>
+&lt;h3 id="21-covid-19-vaccination-hesitancy-in-all-50-states-by-county">2.1 COVID-19 Vaccination Hesitancy in all 50 States by County&lt;/h3>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-375/blob/b624e0213bad00132fe7ec9762730466aa4210b3/Pictures/USA%20Vaccine%20Hesitancy.jpg" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> An image of the United States illustrating the percentage of adults who are hesitant to recieve a vaccine for COVID-19&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h3 id="22-vaccination-rates-by-demographic">2.2 Vaccination Rates by Demographic&lt;/h3>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-375/blob/b89d46fedf16c94b543512c2e1999a1d6e2d4baa/Pictures/Vaccination%20Rate%20by%20Age.jpg" alt="Figure 2a">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-375/blob/b89d46fedf16c94b543512c2e1999a1d6e2d4baa/Pictures/Vaccination%20Rate%20by%20Education%20Level.jpg" alt="Figure 2b">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-375/blob/b89d46fedf16c94b543512c2e1999a1d6e2d4baa/Pictures/Vaccination%20Rate%20by%20Race%20and%20Ethnicity.jpg" alt="Figure 2c">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-375/blob/b89d46fedf16c94b543512c2e1999a1d6e2d4baa/Pictures/Vaccination%20Rate%20by%20Sex.jpg" alt="Figure 2d">&lt;/p>
+&lt;p>&lt;strong>Figures 2a-d&lt;/strong>: Images of vaccine hesitancy rates by certain demographics &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h3 id="23-covid-19-vaccination-rates-in-all-50-states">2.3 COVID-19 Vaccination Rates in all 50 States&lt;/h3>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-375/blob/e13597076f290e67ddc888ec8ac2a7f6fbf8a3ad/Pictures/USA%20Vaccine%20.jpg" alt="Figure 3">&lt;/p>
+&lt;p>&lt;strong>Figure 3:&lt;/strong> An image of the United States illustrating the percentage of adults who have recieved at least one dose of the COVID-19 vaccine&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h3 id="24-vaccination-rates-in-all-50-states">2.4 Vaccination Rates in all 50 States&lt;/h3>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-375/blob/4c274d9eff61ea7ed38e57202150b8f1222eef09/Pictures/Hesitancy%20Rate%20by%20Age.jpg" alt="Figure 4a">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-375/blob/4c274d9eff61ea7ed38e57202150b8f1222eef09/Pictures/Hesitancy%20Rate%20by%20Education.jpg" alt="Figure 4b">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-375/blob/4c274d9eff61ea7ed38e57202150b8f1222eef09/Pictures/Hesitancy%20Rate%20by%20Race%20and%20Ethnicity.jpg" alt="Figure 4c">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-375/blob/4c274d9eff61ea7ed38e57202150b8f1222eef09/Pictures/Hesitancy%20Rate%20by%20Sex.jpg" alt="Figure 4d">&lt;/p>
+&lt;p>&lt;strong>Figures 4a-d&lt;/strong>: Images of vaccine hesitancy rates by certain demographics&lt;/p>
+&lt;h3 id="25-results-of-the-study-done-by-the-journal-of-community-health">2.5 Results of the Study Done by the Journal of Community Health&lt;/h3>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-375/blob/35296bc3e854e979a0798c57e3d8557e430519a6/Pictures/1.jpg" alt="Figure 5a">
+&lt;img src="https://github.com/cybertraining-dsc/su21-reu-375/blob/35296bc3e854e979a0798c57e3d8557e430519a6/Pictures/2.jpg" alt="Figure 5b">
+&lt;img src="https://github.com/cybertraining-dsc/su21-reu-375/blob/35296bc3e854e979a0798c57e3d8557e430519a6/Pictures/3.jpg" alt="Figure 5c">&lt;/p>
+&lt;p>&lt;strong>Figure 5a-c&lt;/strong>: Relevant results for the explored variables from a study in vaccine hesitancy rates done by the Journal of Community Health&lt;/p>
+&lt;h2 id="3-results">3. Results&lt;/h2>
+&lt;h3 id="31-race">3.1 Race&lt;/h3>
+&lt;p>In the study done by the Journal of Community Health, Black Americans are shown to have the highest rate of vaccine hesitancy at 34% with White Americans not very far behind at 22%&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. Additionally, Asian Americans have the lowest rate of hesitancy at 11%&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. Similar results can be seen in the data provided by the US Census Bureau, with Black and White Americans having the highest two vaccination hesitancy rates, however they are shown to be very close, at 10.6% and 11.9%, respectively&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. In Addition, Asian Americans are once again shown to have the lowest vaccination rates at as low as 2.3%&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. This information correlates with the data provided by the US Census Bureau, which shows that Black Americans have the lowest rate of vaccination at 72.7% and Asian Americans have the highest rate of vaccination of 94.1%&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h3 id="32-sex">3.2 Sex&lt;/h3>
+&lt;p>In the study done by the Journal of Community Health, men and women are shown to have very similar rates of vaccine hesitancy at 22% for both groups&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. This can also be seen in the data provided by the US Census Bureau with women having a hesitancy rate of 10.3% and men having a barely higher rate of 11.3%&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. This goes along well with the vaccination rates provided by the US Census Bureau, which shows that men and women have vaccination rates of 81.4% and 80.5%&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h3 id="33-age">3.3 Age&lt;/h3>
+&lt;p>The age ranges for both studies are grouped slightly differently, yet, interestingly enough, both data sets show two completely different age groups having the highest rate of hesitancy. In the Journal of Community Health study, the 41-60-year-old group is shown to have the highest rate at 24%&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. Yet, in the US Census Bureau&amp;rsquo;s data, ages 25-39 have the highest hesitancy rate at 15.9%&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. Because it has a much larger sample size, it is safer to assume that the US Census Bureaus data is more correct in this case. However, both data sets show that seniors have the lowest hesitancy rates, which makes sense as this age group has the highest vaccination rate of 93%&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h3 id="34-education-level">3.4 Education Level&lt;/h3>
+&lt;p>Once again, the education levels are grouped slightly differently with the US Census Bureau not taking account for those with a Master&amp;rsquo;s degree above and the Journal of Community Health grouping together those who have a high school education and those who have not completed high school. However, unlike the previous variable, very similar results are yielded despite the difference. In both studies, those who had a high school education or below had the highest hesitancy rate at 31% in the Journal of Community Health study and 15.7% for those who have less than a high school education and 13.8% for those who have one in the data provided by the US Census Bureau&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. This correlates with the vaccination rate data as those who have a high school education or less have the two lowest vaccination rates of 74.3% and 70.9%, respectively&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h3 id="35-location">3.5 Location&lt;/h3>
+&lt;p>The Journal of Community Health is the only data set that assigns specific percentages to the hesitancy rates to regions of the United States with the Northeast having the highest hesitancy rate of 25%, followed very closely by the West and South at 24% and 23%, respectively&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. This leaves the Midwest with the lowest hesitancy rate of 18%&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. This is partially reflected by the data displayed in the map of the United States that illustrates the rates of hesitancy made by the Census Bureau, which shows that the rates of vaccine hesitancy are slightly higher in the Northeast, West, and Midwest, with the lowest hesitancy rate in the South&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. Once again, due to the much larger sample size, it is safer to assume that the Census Bureau is more correct.&lt;/p>
+&lt;h3 id="36-political-affiliation">3.6 Political Affiliation&lt;/h3>
+&lt;p>This variable is only seen in the Journal of Community Health study. It shows that vaccine hesitancy is highest in Republicans at 29% and lowest in Democrats at 16%.&lt;/p>
+&lt;h2 id="4-conclusion">4. Conclusion&lt;/h2>
+&lt;p>After analyzing the data, a person&amp;rsquo;s sex appears to have no influence regarding a person&amp;rsquo;s willingness to recieve a COVID vaccine. However, the other variables looked at during this study appear to have an influence. One&amp;rsquo;s level of education appears to have great influence over their willingness to take the vaccine. This makes sense as those who are less educated are less likely to understand the significance of vaccinations and how they protect the U.S. population and may also be more vulnerable to false information about the vaccine as they may not have the skills to deduce whether a source is reliable or not. Additionally, the data shows that younger adults are less likely to recieve the vaccine. This is possibly due to the common misconception that young people are not adversely affected by the virus and as a result the vaccine is not necessary, which could be why , according to the US Census Bureau, 34.9% of those who are hesitant to take the vaccine don&amp;rsquo;t believe that they need it&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>. One&amp;rsquo;s political affiliation had a great influence on whether or not someone would be receptive to the vaccine as there is a 13% difference between the hesitancy rates in Republicans and Democrats&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. This is very interesting considering that the region with the greatest Republican presence, the South, has the lowest hesitancy rate while the rest of the regions, which have a smaller Republican presence, have the highest hesitancy rates &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. Race is also a significant variable, with Black Americans having the lowest vaccination rates and among the highest vaccination hesitancy rates. This could be due to a number of overlapping factors, such as level of education and past historical events. For example, a majority of Black Americans only have a high school diploma, while a relatively small amount of them have a Bachelor&amp;rsquo;s Degree and as we&amp;rsquo;ve seen before, those with a lower level of education are more likely to be hesitant about taking the vaccine&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>. Additionally, Black Americans have a fairly long history of being used as medical guinea pigs, with the most infamous example being the Tuskeegee syphillis study, which would understandably result in some aversion to new vaccinations from the community&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>After analyzing this data, it is very apparent that, in order to persuade more Americans to take it, that a significant amount of time and effort be put towards having easily accesible education to the real facts about the COVID vaccine, especially in poorer areas where there people are more likely to have lower levels of education. Additionally, to reduce vaccine hesitancy amongst Republicans, we must stop politicizing the vaccine as well as the severity of COVID-19 and frame the pandemic as a bipartisan matter of public health. Regarding the high vaccination hesitancy amongst Black Americans, there are no short-term fixes as a significant portion of the community has not forgotten about the several transgressions that the United States has committed against them, however, the sooner the United States manages to regain the trust of the Black community, the closer we come to ending this pandemic.&lt;/p>
+&lt;h2 id="6-acknowledgments">6. Acknowledgments&lt;/h2>
+&lt;p>Special thanks to Yohn J Parra, Carlos Theran, and Gregor Lasweski for supporting this project.&lt;/p>
+&lt;h2 id="7-references">7. References&lt;/h2>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Khubchandani, J., Sharma, S., Price, J.H. et al.
+COVID-19 Vaccination Hesitancy in the United States: A Rapid National Assessment.
+J Community Health 46, 270–277 (2021).
+&lt;a href="https://doi.org/10.1007/s10900-020-00958-x">https://doi.org/10.1007/s10900-020-00958-x&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Estimates of vaccine hesitancy for COVID-19
+Center for Disease Control and Prevention
+&lt;a href="https://data.cdc.gov/stories/s/Vaccine-Hesitancy-for-COVID-19/cnd2-a6zw">https://data.cdc.gov/stories/s/Vaccine-Hesitancy-for-COVID-19/cnd2-a6zw&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3" role="doc-endnote">
+&lt;p>Party Affiliation by Region Pew Research Center
+&lt;a href="https://www.pewforum.org/religious-landscape-study/compare/party-affiliation/by/region/-trend">https://www.pewforum.org/religious-landscape-study/compare/party-affiliation/by/region/-trend&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4" role="doc-endnote">
+&lt;p>Household Pulse Survey COVID-19 Vaccination Tracker
+United States Census Bureau
+&lt;a href="https://www.census.gov/library/visualizations/interactive/household-pulse-survey-covid-19-vaccination-tracker.html">https://www.census.gov/library/visualizations/interactive/household-pulse-survey-covid-19-vaccination-tracker.html&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5" role="doc-endnote">
+&lt;p>Black High School Attainment Nearly on Par With National Average
+United States Census Bureau
+&lt;a href="https://www.census.gov/library/stories/2020/06/black-high-school-attainment-nearly-on-par-with-national-average.html">https://www.census.gov/library/stories/2020/06/black-high-school-attainment-nearly-on-par-with-national-average.html&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:6" role="doc-endnote">
+&lt;p>Washington, Harriet A.
+Medical Apartheid: The Dark History of Medical Experimentation on Black Americans from Colonial Times to the Present
+&lt;a href="https://www.jstor.org/stable/25610054?seq=1#metadata_info_tab_contents">https://www.jstor.org/stable/25610054?seq=1#metadata_info_tab_contents&lt;/a>&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: COVID-19 Analysis</title><link>/report/fa20-523-342/project/project/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/fa20-523-342/project/project/</guid><description>
 &lt;h1 id="covid-19-analysis">COVID-19 Analysis&lt;/h1>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/fa20-523-342/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-342/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/fa20-523-342/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-342/workflows/Status/badge.svg" alt="Status">&lt;/a>
