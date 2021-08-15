@@ -47,7 +47,7 @@ the Argonne National Laboratory
 
 ### Reports
 
-#### Spring 2021
+#### AI First Engineering 2021
 
 1. sp21-599-359: Project: Deep Learning in Drug Discovery, Anesu Chaora, https://cybertraining-dsc.github.io/report/sp21-599-359/project/ 
 2. sp21-599-357: Project: Structural Protein Sequences Classification, Jiayu Li, https://cybertraining-dsc.github.io/report/sp21-599-357/project/ 
@@ -58,7 +58,7 @@ the Argonne National Laboratory
 7.	sp21-599-353: Project: Stock Level Prediction, Rishabh Agrawal, https://cybertraining-dsc.github.io/report/sp21-599-353/project/ 
 
 
-#### 2021 REU Reports (reu2021)
+#### 2021 REU Reports
 
 https://cybertraining-dsc.github.io/docs/report/2021-reu/
 
@@ -77,7 +77,7 @@ https://cybertraining-dsc.github.io/docs/report/2021-reu/
 13	su21-reu-377: Project: Project: Analyzing the Advantages and Disadvantages of Artificial, Intelligence for Breast Cancer Detection in Women, RonDaisja Dunn, https://cybertraining-dsc.github.io/report/su21-reu-377/project/
 14.	su21-reu-378: Project: Analysis of Autism in three different cities using AI, Myra Saunders, https://cybertraining-dsc.github.io/report/su21-reu-378/project/ 
 
-#### Reports 2020
+#### Big Data Reports
 
 * [Benchmarking Multi-Cloud Auto Generated AI Services, Gregor von Laszewski, Anthony Orlowski, et.al.](https://github.com/laszewski/laszewski.github.io/raw/master/papers/vonLaszewski-openapi.pdf)
  
@@ -285,7 +285,7 @@ Lectures](http://dsc.soic.indiana.edu/publications/E534-BigDataSystems-DeepLearn
 
 1. Proceedings: 2021 FAMU REU with support from Cybertraining-DSC,
 Gregor von Laszewski, Yohn Jairo Parra Bautista, Carlos Theran Geoffrey C. Fox,
-* O   nline: Technical Report Cybertraining DSC, Indiana University, Dec. 2020
+   * Online: Technical Report Cybertraining DSC, Indiana University, Dec. 2020
    <https://cybertraining-dsc.github.io/docs/report/2021-reu/>
    * PDF: <https://cybertraining-dsc.github.io/pub/vonLaszewski-reu2021.pdf>
 2. Proceedings: 2021 AI First Engineering,
