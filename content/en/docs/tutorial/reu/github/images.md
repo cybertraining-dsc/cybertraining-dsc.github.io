@@ -4,7 +4,7 @@ title: Using Raw Images in GitHub and Hugo in Compatible Fashion
 linkTitle: Raw Images GitHub
 tags: ["reu", "tutorial", "git"]
 description: "We need raw images"
-author: Gregor von Laszewski,  Jacques, Fleischer
+author: Gregor von Laszewski,  Jacques Fleischer
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
@@ -14,7 +14,7 @@ resources:
 {{% pageinfo %}}
 
 This tutorial teaches how to add images on GitHub and use them in your
- markdown file that can be rendered in Hugo and markdownon GitHub.
+markdown file that can be rendered in Hugo and markdownon GitHub.
 
 Contents
 
@@ -34,8 +34,8 @@ Contents
 3. Use the URL shown in the address bar of the new tab to paste into
    the markdown file.
 
-4. When using the file, please add a caption and if it is copied also
-   the citation in a REference section
+4. When using the file, please add a caption; also, if it is copied, make
+   the citation which should point to the reference section
 
 ```
 ![database sample](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/sampledatabase.png)
