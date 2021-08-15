@@ -3,7 +3,7 @@
 &lt;div class="toc">
 &lt;nav id="TableOfContents">
 &lt;ul>
-&lt;li>&lt;a href="#do-i-have-to-read-every-piazza-post">Do I have to read every Piazza post?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#do-i-have-to-read-every-slack-post">Do I have to read every Slack post?&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#i-see-something-mssing-or-wrong-in-this-faq-how-can-i-correct-or-add-it">I see something mssing or wrong in this FAQ. How can I correct or add it?&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#where-to-get-help">Where to get help?&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#do-i-have-to-work-weekly-on-the-project">Do I have to work weekly on the project?&lt;/a>&lt;/li>
@@ -44,27 +44,20 @@
 &lt;/nav>
 &lt;/div>
 &lt;/div>
-&lt;h2 id="do-i-have-to-read-every-piazza-post">Do I have to read every Piazza post?&lt;/h2>
+&lt;h2 id="do-i-have-to-read-every-slack-post">Do I have to read every Slack post?&lt;/h2>
 &lt;p>Yes.&lt;/p>
-&lt;p>There are very view posts in Piazza, typically much less than 10 per
+&lt;p>There are relatively few posts in Slack, typically much less than 10 per
 week. If you were taking a live class I am sure you get also 10+ tips
-and comments from the instructors. Piazza is a mechanism for us to
+and comments from the instructors. Slack is a mechanism for us to
 communicate to the entire online class.&lt;/p>
-&lt;p>Use piazza to discuss things. You can also use it to discuss issues in
+&lt;p>Use SLack to discuss things. You can also use it to discuss issues in
 your projects with other class mates openly.&lt;/p>
 &lt;h2 id="i-see-something-mssing-or-wrong-in-this-faq-how-can-i-correct-or-add-it">I see something mssing or wrong in this FAQ. How can I correct or add it?&lt;/h2>
 &lt;p>If you see something missing that we shoudl add, please edit this web
 page and create a pull request with your changes:&lt;/p>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/edit/main/content/en/report/checklist.md">Edit here&lt;/a>&lt;/p>
 &lt;h2 id="where-to-get-help">Where to get help?&lt;/h2>
-&lt;p>We often use the term TA instead of AI as AI in this class has a
-specific meaning related to class content.&lt;/p>
-&lt;p>TA hours are posted at&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://piazza.com/class/kedccsbsthm5sc?cid=179">https://piazza.com/class/kedccsbsthm5sc?cid=179&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>If a TA is not available during that time, you have the right to ask
-for an alternative time.&lt;/p>
+&lt;p>Please use Slack.&lt;/p>
 &lt;h2 id="do-i-have-to-work-weekly-on-the-project">Do I have to work weekly on the project?&lt;/h2>
 &lt;p>Yes.&lt;/p>
 &lt;p>Please plan to set aside a &lt;strong>significant&lt;/strong> time every week for your
@@ -136,6 +129,7 @@ cause issues.&lt;/p>
 &lt;ul>
 &lt;li>&lt;code>project/images/THIS IS Gregor's Image.PNG&lt;/code>&lt;/li>
 &lt;/ul>
+&lt;p>Images in reports must use the download link that is used in github as the link that you use to refer to it. If you see the word &amp;ldquo;blog&amp;rdquo; in it you have the wrong link. Take a look at our project example and carefully compare.&lt;/p>
 &lt;p>Wrong because&lt;/p>
 &lt;ol>
 &lt;li>contains spaces contains&lt;/li>
@@ -197,8 +191,7 @@ while using it and assure that the format will be correct, which is
 important for reports!&lt;/p>
 &lt;h2 id="formal-writing">Formal writing&lt;/h2>
 &lt;p>They shall not use the word &amp;ldquo;I&amp;rdquo; in the report.&lt;/p>
-&lt;p>see also: &lt;a href="https://piazza.com/class/kedccsbsthm5sc?cid=181">https://piazza.com/class/kedccsbsthm5sc?cid=181&lt;/a>&lt;/p>
-&lt;p>We do allow, however, the words &lt;em>we&lt;/em>, &lt;em>you&lt;/em>&lt;/p>
+&lt;p>We do allow, however, the words &lt;em>we&lt;/em>, &lt;em>you&lt;/em>, or &lt;em>the author&lt;/em>&lt;/p>
 &lt;p>In general:&lt;/p>
 &lt;ul>
 &lt;li>Do not use first-person pronouns (&amp;ldquo;I&amp;rdquo;, &amp;ldquo;me&amp;rdquo;, &amp;ldquo;my&amp;rdquo;, &amp;ldquo;us&amp;rdquo;, etc.). &amp;hellip;&lt;/li>
@@ -266,9 +259,19 @@ do the &lt;code>[^1]&lt;/code> before the dot&lt;/p>
 &lt;pre>&lt;code>## 8. Refernces
 [^1]: This is where you put the citation information.
 &lt;/code>&lt;/pre>&lt;p>See, there is no space before the :&lt;/p>
-&lt;p>see also &lt;a href="https://piazza.com/class/kedccsbsthm5sc?cid=45">https://piazza.com/class/kedccsbsthm5sc?cid=45&lt;/a>&lt;/p>
 &lt;p>Please make sure that different refernces are separated by an empty
 line.&lt;/p>
+&lt;p>As with any class, you need to know what plagiarism is and how to avoid it. If you need more information, check out our notes in the book &amp;ldquo;Scientific Writing with Markdown&amp;rdquo;. Make sure you know how to cite and use proper punctuation after the citation. E.g.&lt;/p>
+&lt;p>This is a wrong citation. [1]&lt;/p>
+&lt;p>[1] This is a wrong citation. &lt;/p>
+&lt;p>This is a correct citation [1].&lt;/p>
+&lt;p>Note the position of the . and the [1]&lt;/p>
+&lt;p>Also in most cases, we do not care who said what, while in Engilsh, business, or psychology you emphasize this leading often to complex sentences.&lt;/p>
+&lt;p>Example:&lt;/p>
+&lt;p>Once upon a time, there was a scientist called von Neuman that introduced a computing machine for weather predictions while being a researcher at Institute XYZ [1].&lt;/p>
+&lt;p>Instead, it is often better to just write:&lt;/p>
+&lt;p>Computers were used for weather prediction early on [1].&lt;/p>
+&lt;p>Please note that there is quite a difference between these citation styles. Shorter is often better.&lt;/p>
 &lt;h3 id="format-of-references">Format of References&lt;/h3>
 &lt;p>Although we use footnotes in markdown, we will use the propper IEEE
 format style for citations. Please google it. The easiest way for you
@@ -307,12 +310,6 @@ data when it is already downloaded. Python makes this easy with
 &lt;code>os.path&lt;/code> and &lt;code>python requests&lt;/code>. We recommend you use python requests
 and not &lt;code>urllib&lt;/code>. You can share the download function openly with each
 other.&lt;/p>
-&lt;p>In case of questions discuss on piazza.&lt;/p>
-&lt;p>See also:&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://piazza.com/class/kedccsbsthm5sc?cid=227">https://piazza.com/class/kedccsbsthm5sc?cid=227&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://piazza.com/class/kedccsbsthm5sc?cid=142">https://piazza.com/class/kedccsbsthm5sc?cid=142&lt;/a>&lt;/li>
-&lt;/ul>
 &lt;h3 id="images-from-programs">Images from Programs&lt;/h3>
 &lt;p>You can create png files of graphics so you can include them in your
 project.md. Make sure you add a save image function and do not just
@@ -326,11 +323,12 @@ can use, examples are&lt;/p>
 &lt;li>seaborn&lt;/li>
 &lt;li>&amp;hellip;&lt;/li>
 &lt;/ul>
-&lt;p>See also: &lt;a href="https://piazza.com/class/kedccsbsthm5sc?cid=226">https://piazza.com/class/kedccsbsthm5sc?cid=226&lt;/a>&lt;/p>
+&lt;p>See also: &lt;a href="https://cybertraining-dsc.github.io/report/fa20-523-305/project/project/">https://cybertraining-dsc.github.io/report/fa20-523-305/project/project/&lt;/a>&lt;/p>
+&lt;p>If you copy the image from somewhere, you must create a citation in the caption. If you did this figure yourself, you do not have to do that. See Plagiarism rules.&lt;/p>
 &lt;h3 id="bechmark">Bechmark&lt;/h3>
 &lt;p>Your program must use cloudmesh benchmark. It includes a convenient
 StopWatch and benchmark print function.&lt;/p>
-&lt;p>see: &lt;a href="https://piazza.com/class/kedccsbsthm5sc?cid=103">https://piazza.com/class/kedccsbsthm5sc?cid=103&lt;/a>&lt;/p>
+&lt;p>see: &lt;a href="https://colab.research.google.com/drive/1tG7IcP-XMQiNVxU05yazKQYciQ9GpMat#scrollTo=TZAjATZiQh4q&amp;amp;uniqifier=1">https://colab.research.google.com/drive/1tG7IcP-XMQiNVxU05yazKQYciQ9GpMat#scrollTo=TZAjATZiQh4q&amp;amp;uniqifier=1&lt;/a>&lt;/p>
 &lt;h2 id="template-links">Template Links&lt;/h2>
 &lt;p>Here are the relevant URLs to them, which you naturally can find from
 our report web page. But as some of you have not visited the web page

@@ -1,4 +1,247 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – reu</title><link>/tags/reu/</link><description>Recent content in reu on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 21 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/reu/index.xml" rel="self" type="application/rss+xml"/><item><title>Report: Tutorial on Uploading Files to Google Colab</title><link>/report/su21-reu-361/tutorials/colab/</link><pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/tutorials/colab/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – reu</title><link>/tags/reu/</link><description>Recent content in reu on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 15 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/reu/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Installing PyCharm Professional for Free</title><link>/docs/tutorial/reu/pycharm/</link><pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/reu/pycharm/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>This tutorial teaches how to get PyCharm Professional for free on
+Windows 10 using a university email address. You can follow a similar
+process on Linux and macOS.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#steps">Steps&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> pycharm&lt;/p>
+&lt;h2 id="steps">Steps&lt;/h2>
+&lt;p>Click the following image to be redirected to a YouTube video tutorial for installing PyCharm Professional.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/QPESX-VBnEU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>Please ensure that you qualify. This includes you having a valid
+educational email or be part of an open-source project. Make sure to
+explore the license agreements for PyCharm as they may change.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Open up a web browser and search &lt;code>pycharm&lt;/code>. Look under the link from &lt;code>jetbrains.com&lt;/code> and click &lt;code>Download Pycharm&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click the &lt;strong>blue&lt;/strong> button that reads &lt;code>Download&lt;/code> under Professional. Wait for the download to complete.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Open the completely downloaded file and click &lt;code>Yes&lt;/code> on the UAC prompt.&lt;/p>
+&lt;ol>
+&lt;li>If you have a school computer, please refer to the note under step 5 in the Python tutorial found here:
+&lt;a href="https://cybertraining-dsc.github.io/report/su21-reu-361/tutorials/python/">https://cybertraining-dsc.github.io/report/su21-reu-361/tutorials/python/&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Next&lt;/code>, click &lt;code>Next&lt;/code> again, and check the box that reads &lt;code>Add launchers dir to the PATH&lt;/code>. You can also
+create a Desktop Shortcut and create the &lt;code>.py&lt;/code> association if you would like. The association changes which program,
+by default, opens &lt;code>.py&lt;/code> files on your computer.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Next&lt;/code> and then click &lt;code>Install&lt;/code>. Wait for the green progress bar to complete. Then, you must restart your
+computer after making sure all of your programs are saved and closed.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Open PyCharm either by clicking on the Desktop shortcut you might have made or hit the Windows key and type
+&lt;code>PyCharm&lt;/code> and choose the program from the search results.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Check the box that says &lt;code>I confirm that I have read and accept the terms...&lt;/code> after agreeing to the terms.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Continue&lt;/code>. You can choose to send anonymous statistics, if you want to; click the option you want.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click the hyperlink that says &lt;code>Buy license&lt;/code> in the top right of the window. Do not worry — you will not be spending
+a cent.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click the person icon in the top right of the page (if you cannot find this person icon, then click this link
+and hopefully, it still works: &lt;a href="https://account.jetbrains.com/login">https://account.jetbrains.com/login&lt;/a> ).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Create a JetBrains account by entering your university email address. Click &lt;code>Sign Up&lt;/code> after entering your email;
+then, you have to go on your email and confirm your account in the automated email sent to you. Click &lt;code>Confirm your account&lt;/code> in the email.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Complete the registration form and click &lt;code>Submit&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Apply for a free student or teacher license&lt;/code>. Scroll down and click the blue button that reads &lt;code>Apply now&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Fill out the form using your (educational) email address and real name. Check the boxes if they apply to you. Then
+click &lt;code>APPLY FOR FREE PRODUCTS&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>JetBrains should send you an automated email, ideally informing you that your information has been confirmed and
+you have been granted a free license. If it does not arrive immediately, wait a few minutes. Go back to PyCharm and sign in with your JetBrains account after receiving this email. Click &lt;code>Activate&lt;/code>. Now you can use PyCharm.&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Installing Git Bash on Windows 10</title><link>/docs/tutorial/reu/github/git/</link><pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/reu/github/git/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>This tutorial teaches how to install Git and Git Bash.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#windows">Windows&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> git&lt;/p>
+&lt;h2 id="windows">Windows&lt;/h2>
+&lt;p>Click the following image to be redirected to a YouTube video tutorial for installing Git and Git Bash. This same video also includes instructions to create a virtual Python environment, which you can do as well.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/HCotEx_xCfA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>To verify whether you have Git, you can press &lt;code>Win + R&lt;/code> on your desktop, type &lt;code>cmd&lt;/code>, and press &lt;code>Enter&lt;/code>. Then type &lt;code>git clone&lt;/code> and press &lt;code>Enter&lt;/code>. If you do not have Git installed, it will say &lt;code>'git' is not recognized as an internal or external command...&lt;/code>&lt;/p>
+&lt;p>As long as Git does not change up their website and hyperlinks, you should be able to download Git from here and skip to step 2: &lt;a href="https://git-scm.com/downloads">https://git-scm.com/downloads&lt;/a>&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Open a web browser and search &lt;code>git&lt;/code>. Look for the result that is from &lt;code>git-scm.com&lt;/code> and click Downloads.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Download for Windows&lt;/code>. The download will commence. Please open the file once it is finished downloading.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The UAC Prompt will appear. Click &lt;code>Yes&lt;/code> because Git is a safe program. It will show you Git&amp;rsquo;s license: a GNU General Public License. Click &lt;code>Next&lt;/code>.&lt;/p>
+&lt;ol>
+&lt;li>The GNU General Public License means that the program is open-source (free of charge).&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Next&lt;/code> to confirm that &lt;code>C:\Program Files\Git&lt;/code> is the directory where you want Git to be installed.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Next&lt;/code> unless you would like an icon for Git on the desktop (in which case you can check the box and then click &lt;code>Next&lt;/code>).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You will be askes several questions for the setup. We recommend the following settings:&lt;/p>
+&lt;ul>
+&lt;li>Click &lt;code>Next&lt;/code> to accept the text editor,&lt;/li>
+&lt;li>Click &lt;code>Next&lt;/code> again to Let Git decide the default branch name&lt;/li>
+&lt;li>Click &lt;code>Next&lt;/code> again to run Git from the command line and 3rd party software,&lt;/li>
+&lt;li>Click &lt;code>Next&lt;/code> again to use the OpenSSL library&lt;/li>
+&lt;li>Click &lt;code>Next&lt;/code> again to checkout Windows-style,&lt;/li>
+&lt;li>Click &lt;code>Next&lt;/code> again to use MinTTY,&lt;/li>
+&lt;li>Click &lt;code>Next&lt;/code> again to use the default git pull,&lt;/li>
+&lt;li>Click &lt;code>Next&lt;/code> again to use the Git Credential Manager Core,&lt;/li>
+&lt;li>Click &lt;code>Next&lt;/code> again to enable file system caching, and then&lt;/li>
+&lt;li>Click &lt;code>Install&lt;/code> because we do not need experimental features.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>The progress bar should not take too long to finish. To test if it is installed, you can search for &lt;code>Git Bash&lt;/code> in the Windows search now to run it.&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Using Raw Images in GitHub and Hugo in Compatible Fashion</title><link>/docs/tutorial/reu/github/images/</link><pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/reu/github/images/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This tutorial teaches how to add images on GitHub and use them in your
+markdown file that can be rendered in Hugo and markdownon GitHub.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#steps">Steps&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> github&lt;/p>
+&lt;h2 id="steps">Steps&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Upload your image to GitHub in the images directory&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click on the image file and then right click on it and click &lt;code>Open image in new tab&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Use the URL shown in the address bar of the new tab to paste into
+the markdown file.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>When using the file, please add a caption and if it is copied also
+the citation in a REference section&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;pre>&lt;code>![database sample](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/sampledatabase.png)
+**Figure 2:** Sample Database file obtained from the USGS
+water-quality database for the year 2017 [^1]
+## Refernces
+[^1]: HERE COMES THE CITATION OF THE IMAGE
+&lt;/code>&lt;/pre></description></item><item><title>Docs: Uploading Files to Google Colab</title><link>/docs/tutorial/reu/colab/</link><pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/reu/colab/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>This tutorial teaches how to import CSV&amp;rsquo;s into a Google Colab .ipynb.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#note">Note&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#read-file-from-drive">Read File from Drive&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#read-file-from-direct-upload">Read File from Direct Upload&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#acknowledgments">Acknowledgments&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> colab&lt;/p>
+&lt;h2 id="note">Note&lt;/h2>
+&lt;p>There are two different methods of uploading files to Google Colab Jupyter notebooks. One way is to
+have the user upload the file to the user&amp;rsquo;s Google Drive before running the notebook. Another way
+is to have the notebook ask the user to upload a file directly into the notebook from the user&amp;rsquo;s computer.
+This tutorial outlines both ways.&lt;/p>
+&lt;p>The notebook code with both methods can be found &lt;a href="https://colab.research.google.com/drive/1nUMmLYpz_4fILf6xrJMDWs9_vFFUrZQ6?usp=sharing">here&lt;/a>&lt;/p>
+&lt;h2 id="read-file-from-drive">Read File from Drive&lt;/h2>
+&lt;p>This code will read a CSV file using pandas. Before running it, the user
+must upload the CSV file to the Google Drive of the same Google account on which it runs the notebook in Colab (e.g., your account). The
+CSV file in this example is titled &lt;code>kag_risk_factors_cervical_cancer&lt;/code> but please rename it accordingly to match the file
+you would like to upload.&lt;/p>
+&lt;p>Cell 2:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">pandas&lt;/span> &lt;span style="color:#204a87;font-weight:bold">as&lt;/span> &lt;span style="color:#000">pd&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">google.colab&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">drive&lt;/span>
+&lt;span style="color:#000">drive&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">mount&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;/content/gdrive&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">force_remount&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#3465a4">True&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic"># The next line of code will tell Colab to read kag_risk_factors_cervical_cancer.csv in your Drive (not in any subfolders)&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic"># so you should alter the code to match whichever .csv you would like to upload.&lt;/span>
+&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#000">pd&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">read_csv&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;gdrive/My Drive/kag_risk_factors_cervical_cancer.csv&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic"># The next two lines of code convert question marks to NaN and converts values to numeric type, consider &lt;/span>
+&lt;span style="color:#8f5902;font-style:italic"># removing the next two lines if not necessary.&lt;/span>
+&lt;span style="color:#000">df&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">replace&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;?&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">np&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">nan&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">apply&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">pd&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">to_numeric&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic"># If this cell successfully runs then it should output the first five rows, as requested in the next line of code&lt;/span>
+&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">head&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">5&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Colab will ask you to click on a blue link and sign in with your account. Once done, the user must copy a code
+and paste it into the box on Colab for authentication purposes. Press &lt;code>Enter&lt;/code> after pasting it into the box.&lt;/p>
+&lt;p>If it outputs an error along the lines of &lt;code>unknown directory&lt;/code>, try rerunning the two cells and ensuring that
+your CSV is not in any folders inside Google drive. You can also alter the code to point it to a subdirectory if needed.&lt;/p>
+&lt;h2 id="read-file-from-direct-upload">Read File from Direct Upload&lt;/h2>
+&lt;p>To read it with build-in colab methods you can use the following code:&lt;/p>
+&lt;p>Cell 2:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">google.colab&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">files&lt;/span>
+&lt;span style="color:#000">df&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">files&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">upload&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The user will be prompted to click &lt;code>Browse...&lt;/code> and to find the file on the user&amp;rsquo;s local
+computer to upload. Sometimes trying to upload the file will give this error:&lt;/p>
+&lt;p>&lt;code>MessageError: RangeError: Maximum call stack size exceeded.&lt;/code>&lt;/p>
+&lt;p>In this case, the user should click the folder icon on the left side of Google Colab window, then the paper
+with an arrow icon (to upload a file), then upload the CSV you wish to use. Then rerunning Cell 2 is not
+necessary. Simply proceed to Cell 3. If this still does not work, see &lt;a href="https://stackoverflow.com/questions/53630073/google-colaboratory-import-data-stack-size-exceeded">this stackoverflow page&lt;/a> for further information.&lt;/p>
+&lt;p>Cell 3:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#000">pd&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">read_csv&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;kag_risk_factors_cervical_cancer.csv&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic"># The next two lines of code convert question marks to NaN and converts values to numeric type, consider &lt;/span>
+&lt;span style="color:#8f5902;font-style:italic"># removing the next two lines if not necessary.&lt;/span>
+&lt;span style="color:#000">df&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">replace&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;?&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">np&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">nan&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">apply&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">pd&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">to_numeric&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic"># If this cell successfully runs then it should output the first five rows, as requested in the next line of code&lt;/span>
+&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">head&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">5&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Remember to rename the instances of &lt;code>kag_risk_factors_cervical_cancer.csv&lt;/code> accordingly so that it matches your file name.&lt;/p>
+&lt;h2 id="acknowledgments">Acknowledgments&lt;/h2>
+&lt;p>Credit to Carlos provided the cell to upload the file directly.&lt;/p></description></item><item><title>Report: Tutorial on Uploading Files to Google Colab</title><link>/report/su21-reu-361/deprecated/colab/</link><pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/deprecated/colab/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;p>This tutorial teaches how to import csv&amp;rsquo;s into a Google Colab .ipynb.&lt;/p>
@@ -160,7 +403,62 @@ $ git clone git@github.com:cybertraining-dsc/YOURREPONAME.git
 &lt;p>If you do not want to always type in your password you can prior to the first commit in the termnal in which you issue the commits say&lt;/p>
 &lt;pre>&lt;code>$ eval `ssh-agent`
 $ ssh-add
-&lt;/code>&lt;/pre></description></item><item><title>Docs: Tutorial on Using venv in PyCharm</title><link>/docs/tutorial/pycharm/</link><pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/pycharm/</guid><description>
+&lt;/code>&lt;/pre></description></item><item><title>Docs: Adding SSH Keys for a GitHub Repository</title><link>/docs/tutorial/reu/github/ssh/</link><pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/reu/github/ssh/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This tutorial teaches how to configure an SSH Key on GitHub so that you can clone, commit, pull, and push to repositories (repos).&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#windows">Windows&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> ssh&lt;/p>
+&lt;h2 id="windows">Windows&lt;/h2>
+&lt;p>Please ensure that you have Git (Git Bash) and a repository on GitHub. This tutorial was created with the REU program in mind, where the students are provided with a GitHub repository. If you are not in REU, then you can create a new repository on GitHub and clone that instead.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Open Git Bash by pressing the Windows key, typing &lt;code>git bash&lt;/code>, and pressing Enter.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Then, go on GitHub, click on your profile icon in the top right, click &lt;code>Settings&lt;/code>, and click &lt;code>SSH and GPG keys&lt;/code> on the left hand side. Confirm that there are no SSH keys associated with your account. If there are keys, then perhaps you have made some already. This tutorial focuses on creating a new one.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Go back to Git Bash and type &lt;code>ssh-keygen&lt;/code>. Press &lt;code>Enter&lt;/code>. Press &lt;code>Enter&lt;/code> again when it asks you the file in which to save the key (it should say &lt;code>Enter file in which to save the key (/c/Users/USERNAME/.ssh/id_rsa):&lt;/code>.&lt;/p>
+&lt;ol>
+&lt;li>If you have already created a key here, it will ask you if you would like to overwrite the file. Type &lt;code>y&lt;/code> and press &lt;code>Enter&lt;/code>.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Enter a password that you will remember for your SSH key. It will not appear as you type it, so make sure you get it right the first time. Press &lt;code>Enter&lt;/code> after typing the password that you come up with.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>After seeing the randomart image associated with your SSH, you should be able to type a new command. Type &lt;code>cat ~/.ssh/id_rsa.pub&lt;/code> and press &lt;code>Enter&lt;/code>. Your key will appear— remember that this should not be shared with others. The key begins with &lt;code>ssh-rsa&lt;/code> and it may end with your username. Copy this entire key by clicking and dragging over it, right-clicking, and clicking &lt;code>Copy&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Return to your web browser which is on the GitHub SSH key settings page. Click the green button that reads &lt;code>New SSH Key&lt;/code> and type a Title for this key. You should name it something memorable and distinct; for example, if you just generated the key on your desktop computer, a suitable name is &lt;code>Desktop&lt;/code>. If generated on your laptop, name it &lt;code>Laptop&lt;/code>, or if you have numerous laptops, differentiate them with distinct names, and so on.&lt;/p>
+&lt;ol>
+&lt;li>If you only have one computer and you have preexisting keys on this page, maybe some which you do not remember the password to or have fallen out of use, consider deleting them (as long as you are sure this will not break anything).&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Paste the key into the key box. You should have copied it from Git Bash in Step #5. Then, click the green button that reads &lt;code>Add SSH key&lt;/code>. Congratulations— you have successfully configured your SSH key. Now we will try cloning your REU repository.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Navigate to your repository. It should be in the cybertraining-dsc directory with a name format of &lt;code>xxxx-reu-xxx&lt;/code>. Once you are on that page, click the green button that reads &lt;code>Code&lt;/code> with a download symbol. Click the &lt;code>SSH&lt;/code> option and click on the clipboard next to the link so that you copy it. It should say &lt;code>Copied!&lt;/code> after you click on it.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Decide where you want your repository folder to be stored. This tutorial will clone the repo into the Documents folder. Go back to Git Bash and type &lt;code>cd ~/Documents&lt;/code> and press &lt;code>Enter&lt;/code>. It is a good idea to create a folder titled &lt;code>reu&lt;/code> for organization. Type &lt;code>mkdir reu&lt;/code> and press &lt;code>Enter&lt;/code>. Type &lt;code>cd reu&lt;/code> and press &lt;code>Enter&lt;/code>. Finally, type &lt;code>git clone&lt;/code>, and after you put a space after clone, paste the copied link from GitHub. For example, your command should look similar to this: &lt;code>git clone git@github.com:cybertraining-dsc/su21-reu-361.git&lt;/code> Then, press &lt;code>Enter&lt;/code>.&lt;/p>
+&lt;ol>
+&lt;li>The shortcut &lt;code>Ctrl + V&lt;/code> does not work in Git Bash for pasting. Instead, you can press &lt;code>Shift + Insert&lt;/code> to paste.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Type in your password for your SSH key and press &lt;code>Enter&lt;/code>. The repo should clone with no issue. You can now type &lt;code>code .&lt;/code> and press &lt;code>Enter&lt;/code> to open VSCode in this directory. Click &lt;code>Yes, I trust the authors&lt;/code> if prompted in VSCode. If you use PyCharm instead of VSCode, you can open it from Windows search; inside of PyCharm, click &lt;code>File&lt;/code>, &lt;code>Open...&lt;/code> and then navigate to &lt;code>C:&lt;/code>, &lt;code>Users&lt;/code>, your username, &lt;code>Documents&lt;/code>, and then click on &lt;code>reu&lt;/code> so it is highlighted in blue and then click &lt;code>OK&lt;/code>. If PyCharm asks, you can choose to open it in &lt;code>This Window&lt;/code> or a &lt;code>New Window&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Tutorial on Using venv in PyCharm</title><link>/docs/tutorial/pycharm/</link><pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/pycharm/</guid><description>
 &lt;p>Jacques Fleischer&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
@@ -201,7 +499,7 @@ $ ssh-add
 &lt;li>
 &lt;p>You also have to click &lt;code>Python x.x&lt;/code> in the bottom-right of PyCharm, next to &lt;code>main&lt;/code>. From there, choose &lt;code>Python x.x (ENV3)&lt;/code>. To verify that your virtual environment is working, click on &lt;code>Terminal&lt;/code> in the bottom-left of PyCharm. Click the &lt;code>+&lt;/code> (plus) icon next to Local to start a new terminal. It should say &lt;code>(ENV3)&lt;/code> next to your current working directory. Congratulations!&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Report: Tutorial on Getting PyCharm Professional for Free</title><link>/report/su21-reu-361/tutorials/pycharm/</link><pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/tutorials/pycharm/</guid><description>
+&lt;/ol></description></item><item><title>Report: Tutorial on Getting PyCharm Professional for Free</title><link>/report/su21-reu-361/deprecated/pycharm/</link><pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/deprecated/pycharm/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;p>This tutorial teaches how to get PyCharm Professional for free on Windows 10 using a university email address.&lt;/p>
@@ -282,7 +580,7 @@ click &lt;code>APPLY FOR FREE PRODUCTS&lt;/code>.&lt;/p>
 you have been granted a free license. If it does not immediately arrive, wait a few minutes. Go back to PyCharm and
 sign in with your JetBrains account after receiving this email. Click &lt;code>Activate&lt;/code>. Congratulations!&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Report: Tutorial on Getting Raw Images on GitHub</title><link>/report/su21-reu-361/tutorials/github/</link><pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/tutorials/github/</guid><description>
+&lt;/ol></description></item><item><title>Report: Tutorial on Getting Raw Images on GitHub</title><link>/report/su21-reu-361/deprecated/github/</link><pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/deprecated/github/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;p>This tutorial teaches how to get raw images on GitHub to post on your index.md repo (without any errors).&lt;/p>
@@ -299,18 +597,199 @@ sign in with your JetBrains account after receiving this email. Click &lt;code>A
 &lt;h2 id="steps">Steps&lt;/h2>
 &lt;ol>
 &lt;li>
-&lt;p>Upload your image to GitHub in the images directory&lt;/p>
+&lt;p>Upload your image to GitHub in the images directory. This folder is inside the project folder in your REU repository. Once there, click &lt;code>Add file&lt;/code> and click &lt;code>Upload files&lt;/code>. Proceed by clicking &lt;code>choose your files&lt;/code> and uploading the correct image.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Click on the image file and then right click on it and click &lt;code>Open image in new tab&lt;/code>&lt;/p>
+&lt;p>Once you navigate to the images directory by clicking on it in GitHub, click on the name of the image to view it and then right click the Download button&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Use the URL shown in the address bar of the new tab to paste into index.md&lt;/p>
+&lt;p>Click &lt;code>Copy Link&lt;/code> and paste the copied link into your index.md report in this format:&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Report: Tutorial on Installing Python</title><link>/report/su21-reu-361/tutorials/python/</link><pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/tutorials/python/</guid><description>
+&lt;/ol>
+&lt;pre>&lt;code>![Figure 1](https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/eos-price.png)
+**Figure 1:** Type a description of Figure 1 here
+&lt;/code>&lt;/pre>&lt;p>Make sure that you replace the link by clicking and dragging over the template placeholder link by pasting the link you just copied:&lt;/p>
+&lt;pre>&lt;code>![Figure 1](paste-the-link-here)
+**Figure 1:** Type a description of Figure 1 here
+&lt;/code>&lt;/pre></description></item><item><title>Docs: Installing Python</title><link>/docs/tutorial/reu/python/</link><pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/reu/python/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>This tutorial teaches how to install Python on Windows 10.&lt;/p>
+&lt;p>This tutorial teaches how to install Python on Windows 10. It can be
+similarly installed also on macOS and Linux.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#windows">Windows&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#mac">Mac&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#linux">Linux&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#troubleshooting">Troubleshooting&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#incorrect-python-version-on-command-prompt">Incorrect Python Version on Command Prompt&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> python&lt;/p>
+&lt;h2 id="windows">Windows&lt;/h2>
+&lt;p>Click the following image to be redirected to a 2-minute YouTube walkthrough.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/T6UYyu5XVMc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;ol>
+&lt;li>
+&lt;p>First, open up any web browser. This tutorial utilizes Google Chrome, but any other browser should work as long as it is not a 1990s version of Netscape. (Do not worry— you probably don&amp;rsquo;t have this.) The browser of choice can be Microsoft Edge, Firefox, Opera— as long as it can perform a search on a search engine, access a webpage, and download a file.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Open your browser by clicking the search box in the bottom left of your screen, where it says &amp;ldquo;Type here to search&amp;rdquo;. Then, type &amp;ldquo;google chrome&amp;rdquo; (or whatever is the name of the browser you use) and click it once it appears.&lt;/p>
+&lt;ol>
+&lt;li>The &amp;ldquo;Type here to search&amp;rdquo; box could be missing if you have customized your taskbar (the taskbar is the long box typically located on the bottom of your screen which has icons). In this case, just click the Windows logo in the bottom left and type your browser name.&lt;/li>
+&lt;li>This is just one way to open your browser. You can even click a shortcut to your web browser on your taskbar, on your Desktop, or your Start Menu. In computing, there is typically many ways to accomplish the same end objective.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Once your browser has loaded, search for &amp;ldquo;python&amp;rdquo; on Google or any search engine. Click the result that reads &amp;ldquo;Downloads&amp;rdquo; from the website &amp;ldquo;python.org&amp;rdquo;.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>As of July 2021 the latest version of Python is &lt;code>3.9.6&lt;/code>. You may see a different number. As long as you click the button under &amp;ldquo;Download the latest version for Windows&amp;rdquo;, this will work. Try it now.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Once the download has completed, open the file by clicking on it in your Downloads pane.&lt;/p>
+&lt;ol>
+&lt;li>If you are utilizing a school-issued computer, you may be prevented from opening this .exe file because you are not the administrator. Please email or otherwise get in contact with your instructor, professor, or head of IT to discuss installing Python.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Be sure to check the box that reads &amp;ldquo;Add Python x.x to PATH&amp;rdquo;. This will allow you to run commands from the terminal/command prompt.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &amp;ldquo;Install Now&amp;rdquo;. The default options that entail this selection are appropriate for this experiment&amp;rsquo;s intents and purposes; choosing &amp;ldquo;Customize installation&amp;rdquo; may create reproducibility issues down the road, so please select &amp;ldquo;Install Now&amp;rdquo; instead.&lt;/p>
+&lt;ol>
+&lt;li>The UAC prompt will pop up. UAC stands for &amp;ldquo;User Account Control&amp;rdquo; and exists so that the computer will not have unauthorized changes performed on it. Click &amp;ldquo;Yes&amp;rdquo; because Python is safe. School-issued computers may ask for an administrator password, so refer to step 5&amp;rsquo;s sidenote.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Sit back and watch the green progress bar, whose speed will depend on the power of the computer.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If the setup was successful, then it will say so. Click &amp;ldquo;Close&amp;rdquo;.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click the &amp;ldquo;Type here to search&amp;rdquo; box in the bottom-left of the screen, type &amp;ldquo;cmd&amp;rdquo;, and press Enter.&lt;/p>
+&lt;ol>
+&lt;li>An alternative method is to press the Windows key and the &amp;ldquo;R&amp;rdquo; key at the same time, type &amp;ldquo;cmd&amp;rdquo;, and press Enter. This is convenient for those who like to use the keyboard.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Type &lt;code>python --version&lt;/code> and the output should read &amp;ldquo;Python x.x.x&amp;rdquo;; as long as it is the latest version from the website, congratulations. Python is installed on the computer.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="mac">Mac&lt;/h2>
+&lt;p>Click the following image to be redirected to a 5-minute YouTube walkthrough. (Yes, Mac&amp;rsquo;s video is a little longer, but do not fret!
+You can skip to the 1:00 minute mark if you are in a hurry.)&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/TttmzM-EDmk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;ol>
+&lt;li>
+&lt;p>Open a web browser that is able to search and download a file. This tutorial uses Google Chrome for Mac.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Type in &lt;code>python&lt;/code> in the address bar and press enter. It should perform a search on your default search engine.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Look for the result that is from &lt;code>python.org&lt;/code>. Click on the subresult that says &lt;code>Downloads&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Underneath &lt;code>Download the latest version for Mac OS X&lt;/code>, there should be a yellow button that reads &lt;code>Download Python x.x.x&lt;/code>. Click on it, and the download should commence.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Once the download finishes, open it by clicking on it. The installer will open. Click &lt;code>Continue&lt;/code>, click &lt;code>Continue&lt;/code> again, click &lt;code>Continue&lt;/code> again, oh my goodness!&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Agree&lt;/code>.&lt;/p>
+&lt;ol>
+&lt;li>If you want to check how much free storage you have on your computer, click the Apple icon in the top left of your computer. Click
+&lt;code>About This Mac&lt;/code> and then click on &lt;code>Storage&lt;/code>. As of July 2021, Python takes ~120 MB of space. Remember that 1 GB = 1000 MB.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Install&lt;/code>. Enter your password and press Enter. Watch the blue progress bar crawl like a turtle&amp;hellip; or blast off at the speed of sound! This depends on your computer speed.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>A Finder window will open. You can close it as it is unnecessary. Click &lt;code>Close&lt;/code> in the bottom-right of the installer. Click &lt;code>Move to Trash&lt;/code> because you do not need the installer anymore.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Time to confirm that Python installed correctly. Click the magnifying glass in the top-right of your screen and then type &lt;code>terminal&lt;/code> into Spotlight Search. Double-click &lt;code>Terminal&lt;/code>.&lt;/p>
+&lt;ol>
+&lt;li>The terminal will be used frequently in this experiment. Consider keeping it in the dock for convenience. Click and hold the Terminal in the dock, go to &lt;code>Options&lt;/code>, and click &lt;code>Keep in Dock&lt;/code>.
+&lt;br>
+ &lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Type &lt;code>python3 --version&lt;/code> into the terminal and press Enter. It should output the latest version of Python. Congratulations!&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="linux">Linux&lt;/h2>
+&lt;p>Click the following image to be redirected to a 9-minute YouTube walkthrough. (Linux&amp;rsquo;s tutorial is the longest, but it is worth it.)
+This tutorial uses Ubuntu, but it should work on other Linux distros, as well.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/cRp_ScANL1w" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;ol>
+&lt;li>
+&lt;p>Open a web browser. It can be any browser as long as it can perform a search and navigate to a webpage.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Search for &lt;code>python&lt;/code> by typing it into the address bar and pressing enter. Click on &lt;code>Downloads&lt;/code> underneath the result from &lt;code>https://www.python.org&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Look at the latest version. It is on the yellow button: &lt;code>Download Python x.x.x&lt;/code>. You do not need to click this button. Remember this version number.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Open a terminal by pressing the Windows key, or by clicking the grid on the bottom left of your screen. Type &lt;code>terminal&lt;/code>. Click on the &lt;code>Terminal&lt;/code> result that appears.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Type &lt;code>sudo apt-get update&lt;/code> and press Enter. Wait for it to finish. It may already be up-to-date.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Type &lt;code>sudo apt-get install libssl-dev openssl make gcc&lt;/code> and press Enter. This will install the libraries required to connect to an FTP to download Python. Type your password for your Linux user account, if prompted, and press Enter.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You are then asked if you are okay with a certain amount of disk space being taken up. Type &lt;code>y&lt;/code>, which stands for Yes, and then press Enter.&lt;/p>
+&lt;ol>
+&lt;li>If you want to check how much disk space you have, press the Files icon on the left (on the taskbar) and click &lt;code>Other Locations&lt;/code>. You may have to scroll down on the sidebar in order to see it. It should say how much GB is available. Remember, 1 GB = 1000 MB and 1 MB = 1000 KB.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>After this finishes, type &lt;code>cd /opt&lt;/code> and press Enter. Then, remember which version you read on the Python webpage (the latest version). Type &lt;code>sudo wget https://www.python.org/ftp/python/x.x.x/Python-x.x.x.tgz&lt;/code> after replacing the &lt;code>x.x.x&lt;/code> with the latest Python version number. As of July 2021, it is &lt;code>3.9.6&lt;/code>. Press Enter.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Wait for the download to complete. Then, type &lt;code>sudo tar xzvf Python-x.x.x.tgz&lt;/code> after you replace &lt;code>x.x.x&lt;/code> with the latest Python version number. Press Enter.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Type &lt;code>cd Python-x.x.x&lt;/code> after replacing &lt;code>x.x.x&lt;/code> with the latest version number. Type &lt;code>./configure&lt;/code> and press Enter.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Once it finishes, type &lt;code>make&lt;/code> and press Enter. Once &lt;em>that&lt;/em> finishes, type &lt;code>sudo make install&lt;/code> and press Enter.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Once the installation finishes, type &lt;code>sudo ln -fs /opt/Python-x.x.x/Python /usr/bin/pythonx.x&lt;/code>. Notice that &lt;code>x.x.x&lt;/code> should be replaced with the full version number and &lt;code>x.x&lt;/code> should have the first two numbers in the version number. Press Enter.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Confirm Python&amp;rsquo;s successful installation by typing &lt;code>pythonx.x --version&lt;/code>; be sure to replace x.x with the first two numbers of the version number. It should output the latest version number. Congratulations!&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>Credit to bobbyiliev for making the required commands publicly available. The commands are available here, as well: &lt;a href="https://www.digitalocean.com/community/questions/how-to-install-a-specific-python-version-on-ubuntu">https://www.digitalocean.com/community/questions/how-to-install-a-specific-python-version-on-ubuntu&lt;/a>&lt;/p>
+&lt;h2 id="troubleshooting">Troubleshooting&lt;/h2>
+&lt;h3 id="incorrect-python-version-on-command-prompt">Incorrect Python Version on Command Prompt&lt;/h3>
+&lt;p>If the Windows computer has installed an older version of Python, running &lt;code>python --version&lt;/code> on Command Prompt may output an older version. Typing &lt;code>python3 --version&lt;/code> may output the correct, latest version.&lt;/p></description></item><item><title>Report: Tutorial on Installing Python</title><link>/report/su21-reu-361/deprecated/python/</link><pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/deprecated/python/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>This tutorial teaches how to install Python on Windows, Mac, and Linux.&lt;/p>
 &lt;p>Contents&lt;/p>
 &lt;div class="toc">
 &lt;nav id="TableOfContents">
@@ -549,491 +1028,7 @@ This tutorial uses Ubuntu, but it should work on other Linux distros, as well.&l
  &lt;/p>
 &lt;h2 id="troubleshooting">Troubleshooting&lt;/h2>
 &lt;h3 id="incorrect-python-version-on-command-prompt">Incorrect Python Version on Command Prompt&lt;/h3>
-&lt;p>If the Windows computer has installed an older version of Python, running &lt;code>python --version&lt;/code> on Command Prompt may output an older version. Typing &lt;code>python3 --version&lt;/code> may output the correct, latest version.&lt;/p></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-367/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-367/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-367/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-367/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-367/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-367/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: draft, Type: Project&lt;/p>
-&lt;p>Firstname Lastname, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-367">su21-reu-367&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-367/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Do not include this tip in your document:&lt;/p>
-&lt;blockquote>
-&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/blockquote>
-&lt;p>Here comes a convincing introduction to the problem&lt;/p>
-&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
-&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
-set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
-bound into cybertraining.&lt;/p>
-&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
-&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
-Thus the following is wrong:&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-This author does ignore proper markdown while not using empty lines between context changes
-1. This is because this author ignors all best practices
-&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-We do not ignore proper markdown while using empty lines between context changes
-1. This is because we encourage best practices to cause issues.
-&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
-&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
-We will not review any document that does not pass this check.&lt;/p>
-&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
-&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
-comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
-&lt;ol>
-&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
-&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
-&lt;/ol>
-&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
-&lt;p>You have two choices for the final project.&lt;/p>
-&lt;ol>
-&lt;li>Project, That is a final report that includes code.&lt;/li>
-&lt;li>Report, that is a final project without code.&lt;/li>
-&lt;/ol>
-&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
-at the beginning of your project.&lt;/p>
-&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
-&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
-&lt;ol>
-&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
-&lt;li>When using bulleted lists use * and not -&lt;/li>
-&lt;/ol>
-&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
-&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
-However, if the data is publicly available you program must contain a download function instead that you customize.
-Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
-the download function.&lt;/p>
-&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
-&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
-&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
-&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
-&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
-&lt;h2 id="9-references">9. References&lt;/h2>
-&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
-one point automatically change the references from superscript to square brackets it is best to introduce a space before
-the first square bracket.&lt;/p>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Use of energy explained - Energy use in homes, [Online resource]
-&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
-&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-368/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-368/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-368/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-368/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-368/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-368/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: draft, Type: Project&lt;/p>
-&lt;p>Yohn Jairo Parra Bautista, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-368">su21-reu-368&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-368/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Do not include this tip in your document:&lt;/p>
-&lt;blockquote>
-&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/blockquote>
-&lt;p>Here comes a convincing introduction to the problem&lt;/p>
-&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
-&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
-set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
-bound into cybertraining.&lt;/p>
-&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
-&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
-Thus the following is wrong:&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-This author does ignore proper markdown while not using empty lines between context changes
-1. This is because this author ignors all best practices
-&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-We do not ignore proper markdown while using empty lines between context changes
-1. This is because we encourage best practices to cause issues.
-&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
-&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
-We will not review any document that does not pass this check.&lt;/p>
-&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
-&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
-comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
-&lt;ol>
-&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
-&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
-&lt;/ol>
-&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
-&lt;p>You have two choices for the final project.&lt;/p>
-&lt;ol>
-&lt;li>Project, That is a final report that includes code.&lt;/li>
-&lt;li>Report, that is a final project without code.&lt;/li>
-&lt;/ol>
-&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
-at the beginning of your project.&lt;/p>
-&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
-&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
-&lt;ol>
-&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
-&lt;li>When using bulleted lists use * and not -&lt;/li>
-&lt;/ol>
-&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
-&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
-However, if the data is publicly available you program must contain a download function instead that you customize.
-Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
-the download function.&lt;/p>
-&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
-&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
-&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
-&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
-&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
-&lt;h2 id="9-references">9. References&lt;/h2>
-&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
-one point automatically change the references from superscript to square brackets it is best to introduce a space before
-the first square bracket.&lt;/p>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Use of energy explained - Energy use in homes, [Online resource]
-&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
-&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-373/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-373/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-373/actions">&lt;img src="https://github.com/su21-reu-373/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-373/actions">&lt;img src="https://github.com/su21-reu-373/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: draft, Type: Project&lt;/p>
-&lt;p>Firstname Lastname, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-373">su21-reu-373&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-373/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Do not include this tip in your document:&lt;/p>
-&lt;blockquote>
-&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/blockquote>
-&lt;p>Here comes a convincing introduction to the problem&lt;/p>
-&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
-&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
-set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
-bound into cybertraining.&lt;/p>
-&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
-&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
-Thus the following is wrong:&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-This author does ignore proper markdown while not using empty lines between context changes
-1. This is because this author ignors all best practices
-&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-We do not ignore proper markdown while using empty lines between context changes
-1. This is because we encourage best practices to cause issues.
-&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
-&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
-We will not review any document that does not pass this check.&lt;/p>
-&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
-&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
-comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
-&lt;ol>
-&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
-&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
-&lt;/ol>
-&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
-&lt;p>You have two choices for the final project.&lt;/p>
-&lt;ol>
-&lt;li>Project, That is a final report that includes code.&lt;/li>
-&lt;li>Report, that is a final project without code.&lt;/li>
-&lt;/ol>
-&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
-at the beginning of your project.&lt;/p>
-&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
-&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
-&lt;ol>
-&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
-&lt;li>When using bulleted lists use * and not -&lt;/li>
-&lt;/ol>
-&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
-&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
-However, if the data is publicly available you program must contain a download function instead that you customize.
-Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
-the download function.&lt;/p>
-&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
-&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
-&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
-&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
-&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
-&lt;h2 id="9-references">9. References&lt;/h2>
-&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
-one point automatically change the references from superscript to square brackets it is best to introduce a space before
-the first square bracket.&lt;/p>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Use of energy explained - Energy use in homes, [Online resource]
-&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
-&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: Project: Analyzing the Advantages and Disadvantages of Artificial Intelligence for Breast Cancer Detection in Women</title><link>/report/su21-reu-377/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-377/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-377/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-377/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-377/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-377/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: draft, Type: Project&lt;/p>
-&lt;p>RonDaisja Dunn, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-377">su21-reu-377&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-377/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>The AI system is improving its diagnostic accuracy by significantly decreasing unnecessary biopsies. AI&amp;rsquo;s algorithms for workflow improvement and outcome analyses are advancing. Although artificial intelligence can be beneficial to detecting and diagnosing breast cancer, there are some limitations to its techniques. The possibility of insufficient quality, quantity or appropriateness is possible. When compared to other imaging modalities, breast ultrasound screening offers numerous benefits, including a cheaper cost, the absence of ionizing radiation, and the ability to examine pictures in real time. Despite these benefits, reading breast ultrasound is a difficult process. Different characteristics, such as lesion size, shape, margin, echogenicity, posterior acoustic signals, and orientation, are used by radiologists to assess US pictures, which vary substantially across individuals. The development of AI systems for the automated detection of breast cancer using Ultrasound Screening pictures has been aided by recent breakthroughs in deep learning.&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-methods-from-literature-review">2. Methods From Literature Review&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-results-from-literature-review">3. Results From Literature Review&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-datasets">4. Datasets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-conclusion">5. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-acknowledgments">6. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#7-references">7. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> project, reu, breast cancer, Artificial Intelligence, diagnosis detection, women, early detection, advantages, disadvantages&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>The leading cause of cancer death in women worldwide is breast cancer. This deadly form of cancer has impacted many women across the globe. Specifically, African American women have been the most negatively impacted. Their death rates due to breast cancer have surpassed all other ethnicities. Serial screening is an essential part in detecting Breast cancer. Detecting the early stages of this disease and decreasing mortality rates is most effective by utilizing serial screening. Some women detect that they could have breast cancer by discovering a painless lump in their breast. Other women began to detect that there may be a problem due to annual and bi-annual breast screenings. Screening in younger women is not likely, because breast cancer is most likely to be detected in older women. Women from the age 55 to 69 are likely to be diagnosed with breast cancer. Women who frequently participate in receiving mammograms reduce the chance of breast cancer mortality.&lt;/p>
-&lt;p>Artificial Intelligence is the branch of computer science dedicated to the development of computer algorithms to accomplish tasks traditionally associated with human intelligence, such as the ability to learn and solve problems. This branch of computer science coincides with diagnosing breast cancer in individuals because of the use of radiology. Radiological images can be quantitated and can inform and train some algorithms. There are many terms that relate to Artificial Intelligence such as artificial neural networks (ANNs), machine and deep learning (ML, DL). These techniques complete duties in healthcare, including radiology. Machine learning interprets pixel data and patterns from mammograms. Benign or malignant features for inputs are defined by microcalcifications. Deep learning is effective in breast imaging, where it can identify several features such as edges, textures, and lines. More intricate features such as organs, shapes, and lesions can also be detected. Neural networks algorithms are used for image feature extractions that cannot be detected beyond human recognition.&lt;/p>
-&lt;p>A computer system that can perform complicated data analysis and picture recognition tasks is known as artificial intelligence (AI). Both massive processing power and the application of deep learning techniques made this possible, and are increasingly being used in the medical field. Mammograms are the x-rays used to detect breast cancer in women. Early detection is important to reduce deaths, because that is when the cancer is most treatable. Screenings have presented a 15%-35% false report in screened women. Errors and the ability to view the cancer from the human eye are the reasons for the false reports. Artificial Intelligence offers many advantages when detecting breast cancer. These advantages include less false reports, fewer cases missed because the AI program does not get tired and it reduces the effort of reading thousands of mammograms.&lt;/p>
-&lt;h2 id="2-methods-from-literature-review">2. Methods From Literature Review&lt;/h2>
-&lt;p>The goal was to emphasize the present data in terms of test accuracy and clinical utility results, as well as any gaps in the evidence. Women are screened by getting photos taken of each breast from different views. Two readers are assigned to interpret the photographs in a sequential order. Each reader decides whether the photograph is normal or whether a woman should be recalled for further examination. Arbitration is used when there is a disagreement. If a woman is recalled, she will be offered extra testing to see if she has cancer.&lt;/p>
-&lt;p>Another goal is to detect cancer at an earlier stage during screening so that therapy can be more successful. Some malignancies found during screening, on the other hand, might never have given the woman symptoms. Overdiagnosis is a term used to describe a situation in which a person has caused harm to another person during their lifetime. As a result, overtreatment (unnecessary treatment) occurs. Since some malignancies are overlooked during screening, the women are misled.&lt;/p>
-&lt;p>The methods in diagnostic procedures vary between radiologists and Artificial Intelligence networks. In a breast ultrasound exam, radiologists look for abnormal abnormalities in each image, while AI networks analyze each image in an exam that is processed separately using a ResNet-18 model, and a saliency map is generated, identifying the most essential sections. With radiologists, the focus is on photos with abnormal lesions and with AI networks the image is given an attention score based on its relative value. To make a final diagnosis, radiologists consider signals in all photos, and AI computes final predictions for benign and malignant results by combining information from all photos using an attention technique.&lt;/p>
-&lt;h2 id="3-results-from-literature-review">3. Results From Literature Review&lt;/h2>
-&lt;p>Using pathology data, each breast in an exam was given a label indicating the presence of cancer. Image-guided biopsy or surgical excision were used to collect tissues for pathological tests. The AI system was shown to perform comparably to board-certified breast radiologists in the reader study subgroup. In this reader research, the AI system detected tumors with the same sensitivity as radiologists, but with greater specificity, a higher PPV, and a lower biopsy rate. Furthermore, the AI system outperformed all ten radiologists in terms of AUROC and AUPRC. This pattern was replicated in the subgroup study, which revealed that the algorithm could correctly interpret Ultrasound Screening examinations that radiologists considered challenging.&lt;/p>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-377/raw/main/project/images/IMG_9446.jpg" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Analysis of saliency maps on a qualitative level- This figure displays the sagittal and transverse views of the lesion (left) and the AI&amp;rsquo;s saliency maps indicating the anticipated sites of benign (center) and malignant (right) findings in each of the six instances (a-f) from the reader study.&lt;/p>
-&lt;h2 id="4-datasets">4. Datasets&lt;/h2>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-377/main/project/images/Dataset%20Image.png" alt="Figure 2">&lt;/p>
-&lt;p>&lt;strong>Figure 2:&lt;/strong> The probabilistic forecasts of each hybrid model were randomly divided to fit the reader&amp;rsquo;s sensitivity. The dichotomization of the AI&amp;rsquo;s predictions matches the sensitivity of the average radiologists. Readers' AUROC, AUPRC, specificity, and PPV improve as a result of the collaboration between AI and readers, whereas biopsy rates decrease.&lt;/p>
-&lt;h2 id="5-conclusion">5. Conclusion&lt;/h2>
-&lt;p>There are some benefits of AI help with mammogram screenings. The reduction in treatment expenses is one of the advantages of screening. Treatment for people who are diagnosed sooner is less invasive and expensive, which may lessen patient anxiety and improve their prognosis. One or all human readers could be replaced by AI. AI may be used to pre-screen photos, with only the most aggressive ones being reviewed by humans. AI could be employed as a reader aid, with the human reader relying on the AI system for guidance during the reading process.&lt;/p>
-&lt;p>However, there is also fear that AI could discover changes that would never hurt women. Because the adoption of AI systems will alter the current screening program, it&amp;rsquo;s crucial to determine how accurate AI is in breast screening clinical practice before making any changes. It&amp;rsquo;s uncertain how effective AI is at detecting breast cancer in different sorts of women or in different groups of women (for example different ethnic groups). AI could significantly minimize staff workload, as well as the proportion of cancers overlooked during screening, and the amount of women who are asked to return for more tests despite the fact that they do not have cancer. According to the findings of the reader survey, such teamwork between AI systems and radiologists increases diagnosis accuracy and decreases false positive biopsies for all 10 radiologists. This research indicated that integrating the Artificial intelligence system&amp;rsquo;s predictions enhanced the performance of all readers.&lt;/p>
-&lt;h2 id="6-acknowledgments">6. Acknowledgments&lt;/h2>
-&lt;p>Thank you to the extremely intellectual, informative, patient and courteous instructors of the Research Experience for Undergraduates Program.&lt;/p>
-&lt;ol>
-&lt;li>Carlos Theran, REU Instructor&lt;/li>
-&lt;li>Yohn Jairo Parra, REU Instructor&lt;/li>
-&lt;li>Gregor von Laszewski, REU Instructor&lt;/li>
-&lt;li>Victor Adankai, Graduate Student&lt;/li>
-&lt;li>REU Peers&lt;/li>
-&lt;li>Florida Agricultural and Mechanical University&lt;/li>
-&lt;/ol>
-&lt;h2 id="7-references">7. References&lt;/h2>
-&lt;ol>
-&lt;li>Coleman C. Early Detection and Screening for Breast Cancer. Semin Oncol Nurs. 2017 May;33(2):141-155. doi: 10.1016/j.soncn.2017.02.009. Epub 2017 Mar 29. PMID: 28365057&lt;/li>
-&lt;li>Freeman, K., Geppert, J., Stinton, C., Todkill, D., Johnson, S., Clarke, A., &amp;amp; Taylor-Phillips, S. (2021, May 10). Use of Artificial Intelligence for Image Analysis in Breast Cancer Screening. &lt;a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/987021/AI_in_BSP_Rapid_review_consultation_2021.pdf">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/987021/AI_in_BSP_Rapid_review_consultation_2021.pdf&lt;/a>&lt;/li>
-&lt;li>Li, J., Zhou, Z., Dong, J., Fu, Y., Li, Y., Luan, Z., &amp;amp; Peng, X. (2021). Predicting breast cancer 5-year survival using machine learning: A systematic review. PloS one, 16(4), e0250370.&lt;/li>
-&lt;li>Mendelsonm, Ellen B., Artificial Intelligence in Breast Imaging: Potentials and Limitations. American Journal of Roentgenology 2019 212:2, 293-299&lt;/li>
-&lt;li>Seely, J. M., &amp;amp; Alhassan, T. (2018). Screening for breast cancer in 2018-what should we be doing today?. Current oncology (Toronto, Ont.), 25(Suppl 1), S115–S124.&lt;/li>
-&lt;li>Shamout, F. E., Shen, A., Witowski, J., Oliver, J., &amp;amp; Geras, K. (2021, June 24). Improving Breast Cancer Detection in Ultrasound Imaging Using AI. NVIDIA Developer Blog. &lt;a href="https://developer.nvidia.com/blog/improving-breast-cancer-detection-in-ultrasound-imaging-using-ai/">https://developer.nvidia.com/blog/improving-breast-cancer-detection-in-ultrasound-imaging-using-ai/&lt;/a>&lt;/li>
-&lt;/ol></description></item><item><title>Report: Project: This is the Descriptive Title of the Example</title><link>/report/su21-reu-379/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-379/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-379/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-379/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-379/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-379/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: draft, Type: Project&lt;/p>
-&lt;p>Carrington Kerr, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-379">su21-reu-379&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-379/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Here comes a short abstract of the project that summarizes what it is about&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-report-format">2. Report Format&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#21-github-actions">2.1. GitHub Actions&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#23-report-or-project">2.3. Report or Project&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-datasets">5. Datasets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#8-acknowledgments">8. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#9-references">9. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>Do not include this tip in your document:&lt;/p>
-&lt;blockquote>
-&lt;p>Tip: Please note that an up to date version of these instructions is available at&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md">https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/blockquote>
-&lt;p>Here comes a convincing introduction to the problem&lt;/p>
-&lt;h2 id="2-report-format">2. Report Format&lt;/h2>
-&lt;p>The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can
-set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is
-bound into cybertraining.&lt;/p>
-&lt;p>To set up the report, you must first &lt;code>replace&lt;/code> the word &lt;code>hid-example in this example report with your hid. the hid will look something like &lt;/code>sp21-599-111`&lt;/p>
-&lt;p>It is to be noted that markdown works best if you include an empty line before and after each context change.
-Thus the following is wrong:&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-This author does ignore proper markdown while not using empty lines between context changes
-1. This is because this author ignors all best practices
-&lt;/code>&lt;/pre>&lt;p>Instead, this should be&lt;/p>
-&lt;pre>&lt;code># This is My Headline
-We do not ignore proper markdown while using empty lines between context changes
-1. This is because we encourage best practices to cause issues.
-&lt;/code>&lt;/pre>&lt;h2 id="21-github-actions">2.1. GitHub Actions&lt;/h2>
-&lt;p>When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown.
-We will not review any document that does not pass this check.&lt;/p>
-&lt;h2 id="22-past-copy-from-word-or-other-editors-is-a-disaster">2.2. PAst Copy from Word or other Editors is a Disaster!&lt;/h2>
-&lt;p>We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include
-comments into your document that you will have to fix, If you juys past copy you will&lt;/p>
-&lt;ol>
-&lt;li>Not learn how to use GitHub properly and we deduct points&lt;/li>
-&lt;li>Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.&lt;/li>
-&lt;/ol>
-&lt;h2 id="23-report-or-project">2.3. Report or Project&lt;/h2>
-&lt;p>You have two choices for the final project.&lt;/p>
-&lt;ol>
-&lt;li>Project, That is a final report that includes code.&lt;/li>
-&lt;li>Report, that is a final project without code.&lt;/li>
-&lt;/ol>
-&lt;p>YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
-at the beginning of your project.&lt;/p>
-&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
-&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png" alt="Figure 1">&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> Images can be included in the report, but if they are copied you must cite them &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
-&lt;h2 id="4-using-itemized-lists-only-where-needed">4. Using itemized lists only where needed&lt;/h2>
-&lt;p>Remember this is not a powerpoint presentation, but a report so we recommend&lt;/p>
-&lt;ol>
-&lt;li>Use itemized or enumeration lists sparingly&lt;/li>
-&lt;li>When using bulleted lists use * and not -&lt;/li>
-&lt;/ol>
-&lt;h2 id="5-datasets">5. Datasets&lt;/h2>
-&lt;p>Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
-However, if the data is publicly available you program must contain a download function instead that you customize.
-Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
-the download function.&lt;/p>
-&lt;h2 id="6-benchmark">6. Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
-&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
-&lt;p>A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p>
-&lt;h2 id="8-acknowledgments">8. Acknowledgments&lt;/h2>
-&lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
-&lt;h2 id="9-references">9. References&lt;/h2>
-&lt;p>Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at
-one point automatically change the references from superscript to square brackets it is best to introduce a space before
-the first square bracket.&lt;/p>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Use of energy explained - Energy use in homes, [Online resource]
-&lt;a href="https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php">https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
-&lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
-&lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: Investigating the Classification of Breast Cancer Subtypes using KMeans</title><link>/report/su21-reu-362/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-362/project/</guid><description>
+&lt;p>If the Windows computer has installed an older version of Python, running &lt;code>python --version&lt;/code> on Command Prompt may output an older version. Typing &lt;code>python3 --version&lt;/code> may output the correct, latest version.&lt;/p></description></item><item><title>Report: Investigating the Classification of Breast Cancer Subtypes using KMeans</title><link>/report/su21-reu-362/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-362/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-362/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-362/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
@@ -1187,14 +1182,14 @@ Lastly, appreciation to Dr. Byron Greene, the Florida A&amp;amp;M University, th
 &lt;/section></description></item><item><title>Report: Project: Detection of Autism Spectrum Disorder with a Facial Image using Artificial Intelligence</title><link>/report/su21-reu-378/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-378/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-378/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: draft: Project&lt;/p>
+Status: final: Project&lt;/p>
 &lt;p>Myra Saunders, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378">su21-reu-378&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>Utilized CNN Code: &lt;a href="https://github.com/cybertraining-dsc/su21-reu-378/blob/main/project/code/autism_classification.ipynb">autism_classification.ipynb&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Autism affects 1 in every 160 children worlwide. Early detection and diagnosis of Autism, along with treatment, is needed to minimize some of the difficulties that people with Autism encounter. Autism is usually diagnosed by a specialist through various Autism screening methnods. This can be an expensive and complex process. Many children that display signs of Autism go undiagnosed because there families lack the expenses needed to pay for Autism screening and diagnosing. Therefore, the development of a potential inexpensive, but accurate way to detect Autism in children is necessary for low-income families. With all the technological advances in Artificial Intelligence today, deep learning can be used to develop an effective method to detect Autism in children. This project utilizes a Convolutional Neural Network classifier to explore the possibility of using a facial image analysis to detect Autism in children. The facial images of Autistic and non-autistic male and female children will be used in this project.&lt;/p>
+&lt;p>This project uses artificial intelligence to explore the possibility of using a facial image analysis to detect Autism in children. Early detection and diagnosis of Autism, along with treatment, is needed to minimize some of the difficulties that people with Autism encounter. Autism is usually diagnosed by a specialist through various Autism screening methods. This can be an expensive and complex process. Many children that display signs of Autism go undiagnosed because there families lack the expenses needed to pay for Autism screening and diagnosing. The development of a potential inexpensive, but accurate way to detect Autism in children is necessary for low-income families. In this project, a Convolutional Neural Network (CNN) is utilized, along with a dataset obtained from Kaggle. This dataset consists of collected images of male and female, autistic and non-autistic children between the ages of two to fourteen years old. These images are used to train and test the CNN model. When one of the images are received by the model and importance is assigned to various features in the image, an output variable (autistic or non-autistic) is received.&lt;/p>
 &lt;p>Contents&lt;/p>
 &lt;div class="toc">
 &lt;nav id="TableOfContents">
@@ -1225,7 +1220,7 @@ A deep learning algorithm will be used to develop an inexpensive, accurate, and 
 &lt;p>Previous work exists on the use of artificial intelligence to detect Autism in children using a facial image. Most of this previous work used the Autism kaggle dataset&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>, which was also used for this project. One study utilized MobileNet followed by two dense layers in order to perform deep learning on the dataset&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>. MobileNet was used because of its ability to compute outputs much faster, as it can reduce both computation and model size. The first layer was dedicated to distribution, and allowed customisation of weights to input into the second dense layer. The second dense layer allowed for classification. The architecture of this algorithm is shown below in Figure 2.&lt;/p>
 &lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/2021-07-29.png" alt="Algorithm Architecture using MobileNet">&lt;/p>
 &lt;p>&lt;strong>Figure 2:&lt;/strong> Algorithm Architecture using MobileNet&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>.&lt;/p>
-&lt;p>Training of this model completed after fifteen epochs, which resulted in a test accuracy of 94.64%. In this project we will also utilize a classic Convolutional Neural Network model. This will be done in hopes of obtaining a test accuracy of 95% or higher.&lt;/p>
+&lt;p>Training of this model completed after fifteen epochs, which resulted in a test accuracy of 94.64%. In this project we utilize a classic Convolutional Neural Network model using tensorflow. This will be done in hopes of obtaining a test accuracy of 95% or higher.&lt;/p>
 &lt;h2 id="3-dataset">3. Dataset&lt;/h2>
 &lt;p>The dataset used for this project was obtained from Kaggle&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>. This dataset contained approximately 1500 facial images of children with Autism that were obtained from websites and Facebook pages associated with Autism. The facial images of non-autistic children were randomly downloaded from online. The pictures obtained were not of the best quality or consistency with respect to the facial alignment. Therefore, the author developed a python program to automatically crop the images to include only the extent possible for a facial image. These images consist of male and female children that are of different races and range from around ages two to fourteen.&lt;/p>
 &lt;p>This project uses version 12 of this dataset, which is the latest version. The dataset consists of three directories labled test, train, and valid, along with a CSV file. The training set is labeled as train, and consists of &amp;lsquo;Autistic&amp;rsquo; and &amp;lsquo;Non-Autistic&amp;rsquo; subdirectories. These subdirectories contain 1269 images of autistic and 1269 images of non-autistic children respectively. The validation set located in the valid directory are separated into &amp;lsquo;Autistic&amp;rsquo; and &amp;lsquo;Non-autistic&amp;rsquo; subdirectories. These subdirectories also contain 100 images of autistic and 100 images of non-autistic children respectively. The testing set located in the test directory is divided into 100 images of autistic children and 100 images of non-autistic children. All of the images provided in this dataset are in 224 X 224 X 3, jpg format. Table 1 provides a summary of the content in the dataset.&lt;/p>
@@ -1233,11 +1228,11 @@ A deep learning algorithm will be used to develop an inexpensive, accurate, and 
 &lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/DATASET%20BREAKDOWN.png" alt="Summary Table of the Kaggle Dataset">&lt;/p>
 &lt;h2 id="4-proposed-methodology">4. Proposed Methodology&lt;/h2>
 &lt;p>Convolutional Neural Network (CNN)&lt;/p>
-&lt;p>This project utilizes a Convolution Neural Network (CNN) to develop a program that can be used to detect the presence of Autism in children from a facial image analysis. If successful this program can be used an inexpensive method to detect Autism in children at its early stages. We believed that a CNN model would be the best way create this program because of its little dependence on preprocessing data. A Convolutional Neural Network was also used becuase of its ability to take in an image and assign importance to, and identify diferent objects within the image. CNN also has very high accuracy when dealing with image recognition. The dataset used contains 1269 training images that were used to train this Convolution Neural Network model. The architecture of this model can be seen in Figure 3.&lt;/p>
+&lt;p>This project utilizes a Convolution Neural Network (CNN) to develop a program that can be used to detect the presence of Autism in children from a facial image analysis. If successful this program can be used an inexpensive method to detect Autism in children at its early stages. We believed that a CNN model would be the best way create this program because of its little dependence on preprocessing data. A Convolutional Neural Network was also used becuase of its ability to take in an image and assign importance to, and identify diferent objects within the image. CNN also has very high accuracy when dealing with image recognition. The dataset used contains 1269 training images that were used to train and test this Convolution Neural Network model. The architecture of this model can be seen in Figure 3.&lt;/p>
 &lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/CNN%20Architecture.png" alt="CNN Architecture">&lt;/p>
 &lt;p>&lt;strong>Figure 3:&lt;/strong> Architecture of utilized Convolutional Neural Network Model.&lt;/p>
 &lt;h2 id="5-results">5. Results&lt;/h2>
-&lt;p>The results of this project is estimated by affectability and accuracy by utilizing the Confusion Matrix CNN. The results also rely on how correct and precise the model was trained. This model was created to explore the possibility of detecting Autism in children at its early stage, using a facial image analysis. A deep learning algorithm was used to develop this inexpensive, but accurate method to detect Autism in children. A Convolutional Neural Network (CNN) classifier was used to create this model, to recieve an accuracy of 95% or higher. For this CNN model we utilized max pooling and Rectified Linear Unit (ReLU), with two epochs. This resulted in an accuracy of 71%. These results can be seen below in Figure 4. Figure 5 displays some of the images that were classified and labeled correctly (right) and the others that were labeled incorrectly (left).&lt;/p>
+&lt;p>The results of this project is estimated by affectability and accuracy by utilizing the Confusion Matrix CNN. The results also rely on how correct and precise the model was trained. This model was created to explore the possibility of detecting Autism in children at its early stage, using a facial image analysis. A Convolutional Neural Network classifier was used to create this model. For this CNN model we utilized max pooling and Rectified Linear Unit (ReLU), with two epochs. This resulted in an accuracy of 71%. These results can be seen below in Figure 4. Figure 5 displays some of the images that were classified and labeled correctly (right) and the others that were labeled incorrectly (left).&lt;/p>
 &lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-378/main/project/images/Training%20and%20Validation%20Loss%20and%20Accuracy%20(3).png" alt="Results after Execution">&lt;/p>
 &lt;p>&lt;strong>Figure 4:&lt;/strong> Results after Execution.&lt;/p>
 &lt;p>validation loss: 57% - validation accuracy: 68% - training loss: 55% - training accuracy: 71%&lt;/p>
@@ -1331,7 +1326,67 @@ A deep learning algorithm will be used to develop an inexpensive, accurate, and 
 &lt;p>Gregor von Laszewski, Cloudmesh StopWatch and Benchmark - Cloudmesh-Common, [GitHub] &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report: Increasing Cervical Cancer Risk Analysis</title><link>/report/su21-reu-369/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-369/project/</guid><description>
+&lt;/section></description></item><item><title>Report: Project: Analyzing the Advantages and Disadvantages of Artificial Intelligence for Breast Cancer Detection in Women</title><link>/report/su21-reu-377/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-377/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-377/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-377/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/su21-reu-377/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-377/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: draft, Type: Project&lt;/p>
+&lt;p>RonDaisja Dunn, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-377">su21-reu-377&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-377/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>The AI system is improving its diagnostic accuracy by significantly decreasing unnecessary biopsies. AI&amp;rsquo;s algorithms for workflow improvement and outcome analyses are advancing. Although artificial intelligence can be beneficial to detecting and diagnosing breast cancer, there are some limitations to its techniques. The possibility of insufficient quality, quantity or appropriateness is possible. When compared to other imaging modalities, breast ultrasound screening offers numerous benefits, including a cheaper cost, the absence of ionizing radiation, and the ability to examine pictures in real time. Despite these benefits, reading breast ultrasound is a difficult process. Different characteristics, such as lesion size, shape, margin, echogenicity, posterior acoustic signals, and orientation, are used by radiologists to assess US pictures, which vary substantially across individuals. The development of AI systems for the automated detection of breast cancer using Ultrasound Screening pictures has been aided by recent breakthroughs in deep learning.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-methods-from-literature-review">2. Methods From Literature Review&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-results-from-literature-review">3. Results From Literature Review&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-datasets">4. Datasets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-conclusion">5. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-acknowledgments">6. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-references">7. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> project, reu, breast cancer, Artificial Intelligence, diagnosis detection, women, early detection, advantages, disadvantages&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>The leading cause of cancer death in women worldwide is breast cancer. This deadly form of cancer has impacted many women across the globe. Specifically, African American women have been the most negatively impacted. Their death rates due to breast cancer have surpassed all other ethnicities. Serial screening is an essential part in detecting Breast cancer. Detecting the early stages of this disease and decreasing mortality rates is most effective by utilizing serial screening. Some women detect that they could have breast cancer by discovering a painless lump in their breast. Other women began to detect that there may be a problem due to annual and bi-annual breast screenings. Screening in younger women is not likely, because breast cancer is most likely to be detected in older women. Women from the age 55 to 69 are likely to be diagnosed with breast cancer. Women who frequently participate in receiving mammograms reduce the chance of breast cancer mortality.&lt;/p>
+&lt;p>Artificial Intelligence is the branch of computer science dedicated to the development of computer algorithms to accomplish tasks traditionally associated with human intelligence, such as the ability to learn and solve problems. This branch of computer science coincides with diagnosing breast cancer in individuals because of the use of radiology. Radiological images can be quantitated and can inform and train some algorithms. There are many terms that relate to Artificial Intelligence such as artificial neural networks (ANNs), machine and deep learning (ML, DL). These techniques complete duties in healthcare, including radiology. Machine learning interprets pixel data and patterns from mammograms. Benign or malignant features for inputs are defined by microcalcifications. Deep learning is effective in breast imaging, where it can identify several features such as edges, textures, and lines. More intricate features such as organs, shapes, and lesions can also be detected. Neural networks algorithms are used for image feature extractions that cannot be detected beyond human recognition.&lt;/p>
+&lt;p>A computer system that can perform complicated data analysis and picture recognition tasks is known as artificial intelligence (AI). Both massive processing power and the application of deep learning techniques made this possible, and are increasingly being used in the medical field. Mammograms are the x-rays used to detect breast cancer in women. Early detection is important to reduce deaths, because that is when the cancer is most treatable. Screenings have presented a 15%-35% false report in screened women. Errors and the ability to view the cancer from the human eye are the reasons for the false reports. Artificial Intelligence offers many advantages when detecting breast cancer. These advantages include less false reports, fewer cases missed because the AI program does not get tired and it reduces the effort of reading thousands of mammograms.&lt;/p>
+&lt;h2 id="2-methods-from-literature-review">2. Methods From Literature Review&lt;/h2>
+&lt;p>The goal was to emphasize the present data in terms of test accuracy and clinical utility results, as well as any gaps in the evidence. Women are screened by getting photos taken of each breast from different views. Two readers are assigned to interpret the photographs in a sequential order. Each reader decides whether the photograph is normal or whether a woman should be recalled for further examination. Arbitration is used when there is a disagreement. If a woman is recalled, she will be offered extra testing to see if she has cancer.&lt;/p>
+&lt;p>Another goal is to detect cancer at an earlier stage during screening so that therapy can be more successful. Some malignancies found during screening, on the other hand, might never have given the woman symptoms. Overdiagnosis is a term used to describe a situation in which a person has caused harm to another person during their lifetime. As a result, overtreatment (unnecessary treatment) occurs. Since some malignancies are overlooked during screening, the women are misled.&lt;/p>
+&lt;p>The methods in diagnostic procedures vary between radiologists and Artificial Intelligence networks. In a breast ultrasound exam, radiologists look for abnormal abnormalities in each image, while AI networks analyze each image in an exam that is processed separately using a ResNet-18 model, and a saliency map is generated, identifying the most essential sections. With radiologists, the focus is on photos with abnormal lesions and with AI networks the image is given an attention score based on its relative value. To make a final diagnosis, radiologists consider signals in all photos, and AI computes final predictions for benign and malignant results by combining information from all photos using an attention technique.&lt;/p>
+&lt;h2 id="3-results-from-literature-review">3. Results From Literature Review&lt;/h2>
+&lt;p>Using pathology data, each breast in an exam was given a label indicating the presence of cancer. Image-guided biopsy or surgical excision were used to collect tissues for pathological tests. The AI system was shown to perform comparably to board-certified breast radiologists in the reader study subgroup. In this reader research, the AI system detected tumors with the same sensitivity as radiologists, but with greater specificity, a higher PPV, and a lower biopsy rate. Furthermore, the AI system outperformed all ten radiologists in terms of AUROC and AUPRC. This pattern was replicated in the subgroup study, which revealed that the algorithm could correctly interpret Ultrasound Screening examinations that radiologists considered challenging.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-377/raw/main/project/images/IMG_9446.jpg" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> Analysis of saliency maps on a qualitative level- This figure displays the sagittal and transverse views of the lesion (left) and the AI&amp;rsquo;s saliency maps indicating the anticipated sites of benign (center) and malignant (right) findings in each of the six instances (a-f) from the reader study.&lt;/p>
+&lt;h2 id="4-datasets">4. Datasets&lt;/h2>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-377/main/project/images/Dataset%20Image.png" alt="Figure 2">&lt;/p>
+&lt;p>&lt;strong>Figure 2:&lt;/strong> The probabilistic forecasts of each hybrid model were randomly divided to fit the reader&amp;rsquo;s sensitivity. The dichotomization of the AI&amp;rsquo;s predictions matches the sensitivity of the average radiologists. Readers' AUROC, AUPRC, specificity, and PPV improve as a result of the collaboration between AI and readers, whereas biopsy rates decrease.&lt;/p>
+&lt;h2 id="5-conclusion">5. Conclusion&lt;/h2>
+&lt;p>There are some benefits of AI help with mammogram screenings. The reduction in treatment expenses is one of the advantages of screening. Treatment for people who are diagnosed sooner is less invasive and expensive, which may lessen patient anxiety and improve their prognosis. One or all human readers could be replaced by AI. AI may be used to pre-screen photos, with only the most aggressive ones being reviewed by humans. AI could be employed as a reader aid, with the human reader relying on the AI system for guidance during the reading process.&lt;/p>
+&lt;p>However, there is also fear that AI could discover changes that would never hurt women. Because the adoption of AI systems will alter the current screening program, it&amp;rsquo;s crucial to determine how accurate AI is in breast screening clinical practice before making any changes. It&amp;rsquo;s uncertain how effective AI is at detecting breast cancer in different sorts of women or in different groups of women (for example different ethnic groups). AI could significantly minimize staff workload, as well as the proportion of cancers overlooked during screening, and the amount of women who are asked to return for more tests despite the fact that they do not have cancer. According to the findings of the reader survey, such teamwork between AI systems and radiologists increases diagnosis accuracy and decreases false positive biopsies for all 10 radiologists. This research indicated that integrating the Artificial intelligence system&amp;rsquo;s predictions enhanced the performance of all readers.&lt;/p>
+&lt;h2 id="6-acknowledgments">6. Acknowledgments&lt;/h2>
+&lt;p>Thank you to the extremely intellectual, informative, patient and courteous instructors of the Research Experience for Undergraduates Program.&lt;/p>
+&lt;ol>
+&lt;li>Carlos Theran, REU Instructor&lt;/li>
+&lt;li>Yohn Jairo Parra, REU Instructor&lt;/li>
+&lt;li>Gregor von Laszewski, REU Instructor&lt;/li>
+&lt;li>Victor Adankai, Graduate Student&lt;/li>
+&lt;li>REU Peers&lt;/li>
+&lt;li>Florida Agricultural and Mechanical University&lt;/li>
+&lt;/ol>
+&lt;h2 id="7-references">7. References&lt;/h2>
+&lt;ol>
+&lt;li>Coleman C. Early Detection and Screening for Breast Cancer. Semin Oncol Nurs. 2017 May;33(2):141-155. doi: 10.1016/j.soncn.2017.02.009. Epub 2017 Mar 29. PMID: 28365057&lt;/li>
+&lt;li>Freeman, K., Geppert, J., Stinton, C., Todkill, D., Johnson, S., Clarke, A., &amp;amp; Taylor-Phillips, S. (2021, May 10). Use of Artificial Intelligence for Image Analysis in Breast Cancer Screening. &lt;a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/987021/AI_in_BSP_Rapid_review_consultation_2021.pdf">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/987021/AI_in_BSP_Rapid_review_consultation_2021.pdf&lt;/a>&lt;/li>
+&lt;li>Li, J., Zhou, Z., Dong, J., Fu, Y., Li, Y., Luan, Z., &amp;amp; Peng, X. (2021). Predicting breast cancer 5-year survival using machine learning: A systematic review. PloS one, 16(4), e0250370.&lt;/li>
+&lt;li>Mendelsonm, Ellen B., Artificial Intelligence in Breast Imaging: Potentials and Limitations. American Journal of Roentgenology 2019 212:2, 293-299&lt;/li>
+&lt;li>Seely, J. M., &amp;amp; Alhassan, T. (2018). Screening for breast cancer in 2018-what should we be doing today?. Current oncology (Toronto, Ont.), 25(Suppl 1), S115–S124.&lt;/li>
+&lt;li>Shamout, F. E., Shen, A., Witowski, J., Oliver, J., &amp;amp; Geras, K. (2021, June 24). Improving Breast Cancer Detection in Ultrasound Imaging Using AI. NVIDIA Developer Blog. &lt;a href="https://developer.nvidia.com/blog/improving-breast-cancer-detection-in-ultrasound-imaging-using-ai/">https://developer.nvidia.com/blog/improving-breast-cancer-detection-in-ultrasound-imaging-using-ai/&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Report: Increasing Cervical Cancer Risk Analysis</title><link>/report/su21-reu-369/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-369/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-369/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-369/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-369/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
@@ -1505,7 +1560,7 @@ the download function.&lt;/li>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report: Dentronics: Artifical intelligence in Prosthodontics</title><link>/report/su21-reu-376/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-376/project/</guid><description>
+&lt;/section></description></item><item><title>Report: Dentronics: Classifying Dental Implant Systems by using Automated Deep Learning</title><link>/report/su21-reu-376/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-376/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-376/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-376/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-376/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
@@ -1519,7 +1574,9 @@ Status: draft, Type: Project&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#2-data-sets">2. Data sets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-using-images">3. Using Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#21-dental-implant-classification">2.1 Dental implant classification&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#22-deep-convulutional-neural-network">2.2 Deep Convulutional Neural Network&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-results">3. Results&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#5-example-of-an-ai-algorithm-in-dentronics">5. Example of an AI algorithm in Dentronics&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#6-benchmark">6. Benchmark&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#7-conclusion">7. Conclusion&lt;/a>&lt;/li>
@@ -1529,23 +1586,30 @@ Status: draft, Type: Project&lt;/p>
 &lt;/nav>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> Dental implants, implant stability, prosthodotics.&lt;/p>
+&lt;p>&lt;strong>Keywords:&lt;/strong> Dental implants, Deep Learning, Prosthodontics, Implant classificiation, Artificial Intelligence, Neural Networks.&lt;/p>
 &lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>{https://www.drkarras.com/a-look-at-the-structure-of-dental-implants/}
-&lt;a href="https://www.infodentis.com/dental-implants/abutment.php">https://www.infodentis.com/dental-implants/abutment.php&lt;/a>
-Dental implants are ribbed oral protheses typically made up of biocompatible titanium to replace the missing root(s) of an absent tooth.
-{1} These dental protheses are used to support the jaw bone to prevent deterioration due to an absent root. This is referred to as bone resorption which can result to facial malformation as well as reduced oral function such as biting and chewing. These devices are composed of three elements that imitate a natural tooth function and structure.
-The implant which are typically ribbed and threaded to promote stability while integrating within the bone tissue. The osseointegration process usually takes 6-8 months to rebuild the bone to support the implant. An implant abutment is fixed on top of the implant to act as a base for prosthetic devices. (2) Prefabricated abutments are manufactured in many shapes, sizes and angles depending on the location of the implant and the types of prothesis that will be attached. Dental abutments support a range of prothetic devices such as dental crowns, bridges, and dentures.&lt;/p>
-&lt;p>&lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5268121/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5268121/&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7494467/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7494467/&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5480808/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5480808/&lt;/a>&lt;/p>
+&lt;p>Dental implants are ribbed oral protheses typically made up of biocompatible titanium to replace the missing root(s) of an absent tooth. {1} These dental protheses are used to support the jaw bone to prevent deterioration due to an absent root. This is referred to as bone resorption which can result to facial malformation as well as reduced oral function such as biting and chewing. These devices are composed of three elements that imitates a natural tooth function and structure.The implant which are typically ribbed and threaded to promote stability while integrating within the bone tissue. The osseointegration process usually takes 6-8 months to rebuild the bone to support the implant. An implant abutment is fixed on top of the implant to act as a base for prosthetic devices. (2) Prefabricated abutments are manufactured in many shapes, sizes and angles depending on the location of the implant and the types of prothesis that will be attached. Dental abutments support a range of prothetic devices such as dental crowns, bridges, and dentures.&lt;/p>
 &lt;p>Osseointegrated dental implants depend on various factors that affect the anchorage of the implant to the bone tissue. Successful surgical anchoring techniques can contribute to long term success of implant stability. Primary stability plays a role 2 week postoperatively by achieving mechanical retention of the implant. It helps establish a mechanical microenvironment for gradual bone healing, or osseointegration-This is secondary implant stability. {2} Bone type, implant length, implant and diameter influences primary and secondary implant stability. Implant length can range from 6mm to 20mm; however, the most common lengths are between 8mm to 15mm. Many studies suggest that implant length contribute to decreasing bone stress and increasing implant stability. Bone stress can occur at both the cortical and cancellous part of the bone. Increasing implant length will decrease stress in the cancellous part of the bone while increasing the implant diameter can decrease stress in the cortical part of the bone. Bone type can promote positive bone stimulation around an implant improving the overall function. There are four different types: Type I, Type II, Type III, and Type IV. Type I is the most dense of them which provides more cortical anchorage but has limited vascularity. Type II is the best for osseointegration because it provides good cortical anchorage and has better vascularity than type I. Type III and IV have a thin layer of cortical bone which decrease the success rate of primary stability{3).&lt;/p>
-&lt;p>&lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7494467/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7494467/&lt;/a>
-&lt;a href="https://www.sciencedirect.com/science/article/pii/S0901502720302496">https://www.sciencedirect.com/science/article/pii/S0901502720302496&lt;/a>&lt;/p>
-&lt;p>Implant stability can be measured using the Implant Stability Quotient (ISQ) as an indirect indicator to determine the time frame for implant loading and prognostic indicator for implant failure(1). This can be measured by resonance frequency analysis (RFA) immediately after the implant has been placed. Resonance frequency analysis is the measurement in which a device vibrates in response to frequencies in the range of 5-15 kHz. The peak amplitude of the response is then encoded into the implant stability quotient (ISQ) .The clinical range of ISQ is from 55-80. High stability is &amp;gt;70 ISQ while medium stability is between 60-69 ISQ. Low stability is &amp;lt;60 ISQ.(2)
-&lt;img src="images/ISQ-Implant-Stability-GP-Implants-2.png" alt="Implant Stability Quotient Chart">&lt;/p>
+&lt;p>Implant stability can be measured using the Implant Stability Quotient (ISQ) as an indirect indicator to determine the time frame for implant loading and prognostic indicator for implant failure(1). This can be measured by resonance frequency analysis (RFA) immediately after the implant has been placed. Resonance frequency analysis is the measurement in which a device vibrates in response to frequencies in the range of 5-15 kHz. The peak amplitude of the response is then encoded into the implant stability quotient (ISQ) .The clinical range of ISQ is from 55-80. High stability is &amp;gt;70 ISQ while medium stability is between 60-69 ISQ. Low stability is &amp;lt;60 ISQ.(2)&lt;/p>
+&lt;p>There are over 2000 types of dental implant systems (DIS) that differs in diameter, length, shape, coating, and surface material properties. These devices have more than a 90% long termed survival rate which ranges more than 10 years. Inevitably, biological and mechanical complications such as fractures, low implant stability, and screw loosening can occur. Therefore, identifying the correct Dental Implant System is essential to repair or replace the existing system. Methods and techniques that enables clear identification is insufficient.&lt;/p>
+&lt;p>Artificial intelligence is a branch of computer science that focuses on building and programming machines to think like humans and mimic their actions. A deep convolutional neural network (DCNN) is a brach of artificial intelligence that applies multiple layers of nonlinear processing units for feature extraction, transformation, and classification of high dimensional datasets. Deep convolutional neural networks are commonly used to identify patterns in images and videos. The structure typically consist of four types of layers: convolution, pooling, activation, and fully connected. These neural networks use images as an input to train a classifier which employs a mathematical operation called a convolution. Deep neural networks have been successfully applied in the dental field and demonstrated advantages in terms of diagnosis and prognosis. Using automated deep convolutional neural networks is highly efficient in classifying different dental implant systems compared to most dental professionals.&lt;/p>
 &lt;h2 id="2-data-sets">2. Data sets&lt;/h2>
-&lt;p>&lt;img src="images/Mean-IT-and-implant-stability-quotient-ISQ-in-different-bone-types-Both-IT-and-ISQ.png" alt="">&lt;/p>
+&lt;p>Researchers at Daejon Dental Hospital used automated deep convolutional neural networks to evaluate the efficacy of its ability to classify dental implant systems and compare the performance with dental professionals using radiographic images.&lt;/p>
+&lt;p>11,980 raw panoramic and periapical radiographic images of dental implant systems were collected. these images were then randomly divided into 2 groups: 9584 (80%) images were selected for the training dataset and the remaining 2396 (20%) images were used as the testing dataset.&lt;/p>
+&lt;h2 id="21-dental-implant-classification">2.1 Dental implant classification&lt;/h2>
+&lt;p>Dental implant systems were classified into six different types with a diameter of 3.3-5.0mm and a length of 7-13mm.&lt;/p>
+&lt;ul>
+&lt;li>Astra OsseoSpeed® TX (Dentsply IH AB, Molndal, Sweden), with a diameter of 4.5–5.0 mm and a length of 9–13 mm;  &lt;/li>
+&lt;li>Implantium® (Dentium, Seoul, Korea), with a diameter of 3.6–5.0 mm and a length of 8–12 mm;  &lt;/li>
+&lt;li>Superline® (Dentium, Seoul, Korea), with a diameter of 3.6–5.0 mm and a length of 8–12 mm;  &lt;/li>
+&lt;li>TSIII® (Osstem, Seoul, Korea), with a diameter of 3.5–5.0 mm and a length of 7–13 mm;  &lt;/li>
+&lt;li>SLActive® BL (Institut Straumann AG, Basel, Switzerland), with a diameter of 3.3–4.8 mm and a  length of 8–12 mm;&lt;/li>
+&lt;li>SLActive® BLT (Institut Straumann AG, Basel, Switzerland), with a diameter of 3.3–4.8 mm and a  length of 8–12 mm.&lt;/li>
+&lt;/ul>
+&lt;h2 id="22-deep-convulutional-neural-network">2.2 Deep Convulutional Neural Network&lt;/h2>
+&lt;p>&lt;img src="images/DCNN.png" alt="">
+Figure 1: Overview of an automated deep convolutional neural network. Using Neuro-T to automatically select the model and optimize hyper-parameter. During training and inference, the automated DCNN automatically creates effective deep learning models and searches the optimal hyperparameters. An Adam optimizer with L2 regularization was
+used for transfer learning. The batch size was set to 432, and the automated DCNN architecture consisted of 18 layers with no dropout.&lt;/p>
 &lt;ul>
 &lt;li>&lt;input disabled="" type="checkbox"> Find data sets about effects about dentronics&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> Identify the purpose of data sets&lt;/li>
@@ -1554,7 +1618,9 @@ The implant which are typically ribbed and threaded to promote stability while i
 Write it using pythons &lt;code>request&lt;/code>. You will get point deductions if you check-in data sets that are large and do not use
 the download function.&lt;/li>
 &lt;/ul>
-&lt;h2 id="3-using-images">3. Using Images&lt;/h2>
+&lt;h2 id="3-results">3. Results&lt;/h2>
+&lt;p>&lt;img src="images/results.png" alt="">&lt;/p>
+&lt;p>&lt;img src="images/results2.png" alt="">&lt;/p>
 &lt;ul>
 &lt;li>&lt;input disabled="" type="checkbox"> Place a cool image into projects images in my directory&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> Correct the following, replace the fa number with my su number and the chart of png&lt;/li>
@@ -1579,7 +1645,9 @@ the download function.&lt;/li>
 &lt;/ul>
 &lt;p>Please add acknowledgments to all that contributed or helped on this project.&lt;/p>
 &lt;h2 id="9-references">9. References&lt;/h2>
-&lt;p>-[ ] Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at one point automatically change the references from superscript to square brackets it is best to introduce a space before the first square bracket.&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at one point automatically change the references from superscript to square brackets it is best to introduce a space before the first square bracket.&lt;/li>
+&lt;/ul>
 &lt;section class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
@@ -1866,7 +1934,7 @@ Maximum pooling is an operation the gathers the biggest number in each collectio
 &lt;a href="https://towardsdatascience.com/convolution-neural-networks-a-beginners-guide-implementing-a-mnist-hand-written-digit-8aa60330d022">https://towardsdatascience.com/convolution-neural-networks-a-beginners-guide-implementing-a-mnist-hand-written-digit-8aa60330d022&lt;/a>&amp;#160;&lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report: Handwriting Recognition Using AI</title><link>/report/su21-reu-366/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-366/project/</guid><description>
+&lt;/section></description></item><item><title>Report: Review: Handwriting Recognition Using AI</title><link>/report/su21-reu-366/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-366/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-366/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-366/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-366/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-366/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: final, Type: Report&lt;/p>
@@ -2355,7 +2423,54 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report: Tutorial on Installing Visual Studio Code</title><link>/report/su21-reu-361/tutorials/visual-studio-code/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/tutorials/visual-studio-code/</guid><description>
+&lt;/section></description></item><item><title>Docs: Installing Visual Studio Code</title><link>/docs/tutorial/reu/visual-studio-code/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/reu/visual-studio-code/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>This tutorial teaches how to install Visual Studio Code on Windows 10.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#steps">Steps&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> visual-studio-code&lt;/p>
+&lt;h2 id="steps">Steps&lt;/h2>
+&lt;p>Click the following image to be redirected to a YouTube video tutorial for installing Visual Studio Code (also called VSCode).&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/DG_wQslWWAc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>Sidenote: An exasperated reader may wonder, &amp;ldquo;why go through steps 1-3 when it can be as easy as clicking a link to the VSCode download page?&amp;rdquo; This &lt;em>would&lt;/em> be easier, but hyperlinks (or URLs) are bound to change through the years of website maintenance and alterations. (One could also argue that steps 1-3 could become incorrect, as well, but hopefully they will not.) If you, time-traveler, would like to try your luck, go here: &lt;a href="https://code.visualstudio.com/download">https://code.visualstudio.com/download&lt;/a>&lt;/p>
+&lt;p>If the link works, skip to step 4.&lt;/p>
+&lt;p>P.S. It should be second-nature to a user to quickly search, find, download, and install a program. It is vital to ensure that the correct program is downloaded and installed, however. Over time, guides like this one can become deprecated, but one must be resilient in problem-solving. Use search engines like Google to find what you are looking for. If one path does not work, take another that will lead to the same destination or a better one.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Open up your favorite web browser. This can be done by pressing the Windows key and typing in the name of the browser, like &lt;code>google chrome&lt;/code> (as long as this browser is already installed on your computer). Then press Enter.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Once the browser loads, search for &lt;code>visual studio code&lt;/code> through the address bar. Press Enter and you will see a list of results through the default search engine (Google, Bing, or whatever is configured on your browser).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Identify the result that reads &lt;code>code.visualstudio.com&lt;/code>. If using Google, a subresult should read &lt;code>Download&lt;/code>. Click that link.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>This tutorial assumes that the reader is using Windows. Click the blue link that reads &lt;code>Windows&lt;/code>. The download will commence; wait for it to finish.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click and open the file once it finishes; the license agreement will appear. If you are proficient in legalese, you can read the wall of text. Then, click &lt;code>I accept the agreement&lt;/code> and click &lt;code>Next&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Next&lt;/code> again; it is best to leave the default install path alone for reproducibility in this experiment.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Next&lt;/code> again to create a Start Menu folder. Ensure that &lt;code>Add to PATH&lt;/code> is checked. &lt;code>Create a desktop icon&lt;/code> can be checked for convenience; it is up to the reader&amp;rsquo;s choice. Then click &lt;code>Next&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click Install and watch the green progress bar go at the speed of light. Once completed, click Finish. VSCode will open as long as everything went smoothly.&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Report: Tutorial on Installing Visual Studio Code</title><link>/report/su21-reu-361/deprecated/visual-studio-code/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/deprecated/visual-studio-code/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;p>This tutorial teaches how to install Visual Studio Code on Windows 10.&lt;/p>
@@ -2428,7 +2543,7 @@ Status: draft, Type: Project&lt;/p>
 &lt;/div>
 &lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
 &lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>MS or Multiple sclerosis is a potentially disabling autoimmune disease that can damage the brain, spinal cord, and optic nerves located in the eyes. It is the most common progressive neurological disability that affects adolescents. The immune system attacks the central nervous system in this disease, specifically myelin (sheth that covers and protects nerve fibers), oligodendrocytes (myelin-producing cells), and the nerve fibers located under myelin. Myelin enables nerves to send and receive electrical signals swiftly and effectively. The myelin sheath becomes scarred from being attacked. These attacks make the myelin sheath inflamed in little patches, observable on an MRI scan. These little inflamed patches potentially disrupt messages moving along the nerves, which ultimately lead to the symptoms of Multiple sclerosis. If these attacks happen frequently, permanent damage can occur to the involved nerve.&lt;br>
+&lt;p>MS or Multiple sclerosis is a potentially disabling autoimmune disease that can damage the brain, spinal cord, and optic nerves located in the eyes. It is the most common progressive neurological disability that affects adolescents. The immune system attacks the central nervous system in this disease, specifically myelin (sheth that covers and protects nerve fibers), oligodendrocytes (myelin-producing cells), and the nerve fibers located under myelin. Myelin enables nerves to send and receive electrical signals swiftly and effectively. The myelin sheath becomes scarred from being attacked. These attacks make the myelin sheath inflamed in little patches, observable on an MRI scan. These little inflamed patches potentially disrupt messages moving along the nerves, which ultimately lead to the symptoms of Multiple sclerosis. If these attacks happen frequently, permanent damage can occur to the involved nerve.
 Because Multiple sclerosis affects the central nervous system, which control all of the actions carried out in the body, symptoms can affect any part of the body and vary. The most common symptoms of this progressive disease include muscle weakness, pins and needle sensation, electrical shock sensation, loss of bladder control, muscle spasms, tremors, double or blurred vision, partial or total vision loss, to name a few. Researchers are not sure what causes Multiple sclerosis but believe those between the ages of 20 and 40, women, smoke, are exposed to certain infections, have a vitamin D and B12 deficiency, and related to someone affected by this disease are more susceptible.&lt;/p>
 &lt;p>It can be difficult to diagnose MS due to the symptoms usually being vague or very similar to other conditions. There is no single test to diagnose it positively. However, doctors can choose a neurological examination, MRI scan, evoked potential test, lumbar puncture, or a blood test to diagnose a patient properly. Currently, clinical practices divide MS into four phenotypes: clinically isolated syndrome (CIS), relapsing-remitting MS (RRMS), primary-progressive MS (PPMS), and secondary progressive MS (SPMS). Two factors define these phenotypes; disease activity (evidenced by relapses or new activity on MRI scan) and progression of disability. Phenotypes are routinely used in clinical trials to choose patients and conduct treatment plans.&lt;/p>
 &lt;p>New technologies, such as artificial intelligence and machine learning, help assess multidimensional data to recognize groups with similar features. When implemented in apparent abnormalities on MRI scans, these new technologies have assured promising results in classifying patients who share similar pathobiological mechanisms rather than the typical clinical features.&lt;/p>
@@ -2441,10 +2556,7 @@ The above image shows the MRI-based subtypes. The color shades range from blue t
 &lt;h2 id="4-datasets">4. Datasets&lt;/h2>
 &lt;p>MRI brain scans of 6,322 MS patients. look if you can find figures descrbing the data.&lt;/p>
 &lt;h2 id="5-benchmark">5. Benchmark&lt;/h2>
-&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> define method that will be used to study the performance of the proposed method&lt;/li>
-&lt;/ul>
+&lt;p>Your project must include a benchmark. The easiest is to use cloudmesh-common.&lt;/p>
 &lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
 &lt;p>A vital barrier in distinguishing subtypes in Multiple sclerosis is to stitch observations together from cross-sectional or longitudinal studies. Grouping individuals based wholly on their MRI scan is ineffective because patients belonging to the same subgroup could show ranging abnormalities as the disease progresses and would appear different. SuStaIn, Subtype and Staging Inference, a newly developed unsupervised machine learning algorithm aids in uncovering data-driven disease subtypes that have distinct temporal progression patterns. &amp;ldquo;The ability to disentangle temporal and phenotypic heterogeneity makes SuStain different from other unsupervised learning or clustering algorithms&amp;rdquo; (Eshaghi). SuStaIn identifies subtypes given the data, defined by a particular pattern of variation in a set of features, such as MRI abnormalities. Once the SuStain subtypes and their MRI trajectories are adequately identified, the disease model can conclude how approximately a patient, whose MRI is unseen, belongs to each of the three subtypes and stages.&lt;/p>
 &lt;p>A total of 9,390 patients participated in this research study. Six thousand three hundred twenty-two patients were utilized in training, and 3,068 patients were used for the validation dataset. Patient characteristics such as sex, age, disease duration, and expanded disability status scale (EDSS) were similar between the training and validation dataset. There were 18 MRI features measured, 13 of those differed dramatically from those between the MS training dataset and control group and were maintained in the SustaIn model. Three subtypes, with very distinct patterns, were identified in the training dataset and validated in the validation dataset. The early abnormalities noticed by SuStain helped define the three subtypes: cortex-led, normal-appearing white matter-led, and lesion-led.&lt;/p>
@@ -2452,18 +2564,9 @@ The above image shows the MRI-based subtypes. The color shades range from blue t
 &lt;p>Each MRI-based subtype had a different response to treatment, comparing those on treatment and those on placebo. The lesion-led subtype showed a remarkable response to the treatment. Patients on the lesion-led active treatment subtype showed a significantly slower worsening of EDSS than those on the placebo. No differences in the rate of EDSS were observed in those on the placebo compared to active treatment in the NAWM-led and cortex-led subtypes.&lt;/p>
 &lt;p>When SuStain was applied to a large set of Multiple sclerosis scans, it identified three subtypes. Researchers found out the patient&amp;rsquo;s baseline subtype and stage were associated with an increased risk of disease progression. Combining clinical information with the MRI-based three subtypes increased the predictive accuracy of just using the MRI scan information alone. The patterns of MRI abnormality in these subtypes provide perspicacity into disease mechanisms, and, alongside clinical phenotypes, they may aid the stratification of patients for future studies.&lt;/p>
 &lt;h2 id="7-acknowledgments">7. Acknowledgments&lt;/h2>
-&lt;p>-Gregor von Laszewski
--Yohn Jairo
--Carlos Theran&lt;/p>
+&lt;p>The author likes to thank Gregor von Laszewski, Yohn Jairo, and Carlos Theran.&lt;/p>
 &lt;h2 id="8-references">8. References&lt;/h2>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>Mayo Foundation for Medical Education and Research. (2020, June 12). Multiple sclerosis. Mayo Clinic. &lt;a href="https://www.mayoclinic.org/diseases-conditions/multiple-sclerosis/symptoms-causes/syc-20350269">https://www.mayoclinic.org/diseases-conditions/multiple-sclerosis/symptoms-causes/syc-20350269&lt;/a>.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Report: Project: AI in Orthodontics</title><link>/report/su21-reu-363/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-363/project/</guid><description>
+&lt;p>[^6] What Is MS? National Multiple Sclerosis Society. (n.d.). &lt;a href="https://www.nationalmssociety.org/What-is-MS">https://www.nationalmssociety.org/What-is-MS&lt;/a>.&lt;/p></description></item><item><title>Report: Project: AI in Orthodontics</title><link>/report/su21-reu-363/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-363/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-363/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-363/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-363/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-363/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
@@ -2629,10 +2732,10 @@ Status: final, Type: Project&lt;/p>
 &lt;p>Long short-term memory (LSTM) is a neural network (form of AI) which ingests information and processes data using a &lt;em>gradient-based learning algorithm&lt;/em>&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>. This creates an algorithm that improves with additional parameters; the algorithm &lt;em>learns&lt;/em> as it ingests. LSTM neural networks will be employed to analyze pre-existing price data so that the model can attempt to generate the future price in varying timetables, such as ten days, several months, or a year from the last date. This project will provide as a boon for insights into investments with potentially great returns. These findings can contribute to a positive cycle of attracting investors to a coin, which results in a price increase, which repeats. The main objective is to provide insights for investors on an up-and-coming product: cryptocurrency.&lt;/p>
 &lt;h2 id="2-datasets">2. Datasets&lt;/h2>
 &lt;p>This project utilizes yfinance, a Python module which downloads the historical prices of a cryptocurrency from the first day of its inception to whichever day the program is executed. For example, the Yahoo Finance page for EOS-USD is the source for Figure 1&lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>. Figure 1 shows the historical data on a line graph when the program receives &amp;ldquo;EOS-USD&amp;rdquo; as an input.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/eos-price.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/eos-price.png" alt="Figure 1">&lt;/p>
 &lt;p>&lt;strong>Figure 1:&lt;/strong> Line graph of EOS price from 1 July 2017 to 22 July 2021. Generated using yfinance-lstm.ipynb&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> located in project/code, utilizing price data from Yahoo Finance&lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>.&lt;/p>
 &lt;h2 id="3-architecture">3. Architecture&lt;/h2>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/architecture-process.png" alt="Figure 2">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/architecture-process.png" alt="Figure 2">&lt;/p>
 &lt;p>&lt;strong>Figure 2:&lt;/strong> The process of producing LSTM timeseries based on cryptocurrency price.&lt;/p>
 &lt;p>This program undergoes the four main phases outlined in Figure 2: retrieving data from Yahoo Finance&lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>, isolating the Close prices (the price the cryptocurrency has at the end of each day), training the LSTM to predict Close prices, and plotting the prediction model, respectively.&lt;/p>
 &lt;h2 id="4-implementation">4. Implementation&lt;/h2>
@@ -2641,17 +2744,17 @@ Status: final, Type: Project&lt;/p>
 &lt;p>Firstly, the code asks the user for the ticker of the cryptocurrency that is to be predicted, such as EOS-USD or BTC-USD. A complete list of acceptable inputs is under the Symbol column at &lt;a href="https://finance.yahoo.com/cryptocurrencies">https://finance.yahoo.com/cryptocurrencies&lt;/a> but theoretically, the program should be able to analyze traditional stocks as well as cryptocurrency.&lt;/p>
 &lt;p>Then, the program downloads the historical data for the corresponding coin through the yfinance Python module. The data must go through normalization for simplicity and optimization of the model. Next, the Close data (the price that the currency has at the end of the day, everyday since the coin&amp;rsquo;s inception) is split into two sets: a training set and a test set, which are further split into their own respective x and y sets to guide the model through training.&lt;/p>
 &lt;p>The training model is run through a layer of long short-term memory, as well as a dropout layer to prevent overfitting and a dense layer to give the model a memory capacity. Figure 3 showcases the setup of the LSTM layer.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/lstm.png" alt="Figure 3">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/lstm.png" alt="Figure 3">&lt;/p>
 &lt;p>&lt;strong>Figure 3:&lt;/strong> Visual depiction of one layer of long short-term memory&lt;sup id="fnref:12">&lt;a href="#fn:12" class="footnote-ref" role="doc-noteref">12&lt;/a>&lt;/sup>&lt;/p>
 &lt;p>After training through 50 epochs, the program generated Figure 4, a line graph of the prediction model. Unless otherwise specified, the following figures use the EOS-USD data set from July 1st, 2017 to July 26th, 2021. Note that only the last 200 days are predicted so that the model can analyze the preexisting data prior to the 200 days for training purposes.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/prediction-model.png" alt="Figure 4">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/prediction-model.png" alt="Figure 4">&lt;/p>
 &lt;p>&lt;strong>Figure 4:&lt;/strong> EOS-USD price overlayed with the latest 200 days predicted by LSTM&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/prediction-model-zoomed.png" alt="Figure 5">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/prediction-model-zoomed.png" alt="Figure 5">&lt;/p>
 &lt;p>&lt;strong>Figure 5:&lt;/strong> Zoomed-in graph (same as Figure 4 but scaled x and y-axis for readability)&lt;/p>
 &lt;p>During training, the number of epochs can affect the model loss. According to the following figures 6 and 7, the loss starts to minimize around the 30th epoch of training. The greater the number of epochs, the sharper and more accurate the prediction becomes, but it does not vastly improve after around the 30th epoch.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/EOS-USD-training-loss.png" alt="Figure 6">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/EOS-USD-training-loss.png" alt="Figure 6">&lt;/p>
 &lt;p>&lt;strong>Figure 6:&lt;/strong> Line graph of model loss over the number of epochs the prediction model completed using EOS-USD data set&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/adjusting-epochs.png" alt="Figure 7">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/adjusting-epochs.png" alt="Figure 7">&lt;/p>
 &lt;p>&lt;strong>Figure 7:&lt;/strong> Effect of EOS-USD prediction model based on number of epochs completed&lt;/p>
 &lt;p>The epochs can also affect the Mean Squared Error, which details how close the prediction line is to the true Close values in United States Dollars (USD). As demonstrated in Table 1, more epochs lessens the Mean Squared Error (but the change becomes negligible after 25 epochs).&lt;/p>
 &lt;p>&lt;strong>Table 1:&lt;/strong> Number of epochs compared with Mean Squared Error; all tests were run with EOS-USD as input. The Mean Squared Error is rounded to the nearest thousandth.&lt;/p>
@@ -2686,7 +2789,7 @@ Status: final, Type: Project&lt;/p>
 &lt;/tbody>
 &lt;/table>
 &lt;p>Lastly, cryptocurrencies other than EOS such as Dogecoin, Ethereum, and Bitcoin can be analyzed as well. Figure 8 demonstrates the prediction models generated for these cryptocurrencies.&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/other-cryptocurrencies.png" alt="Figure 8">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/other-cryptocurrencies.png" alt="Figure 8">&lt;/p>
 &lt;p>&lt;strong>Figure 8:&lt;/strong> EOS, Dogecoin, Ethereum, and Bitcoin prediction models&lt;/p>
 &lt;p>Dogecoin presents a model that does not account well for the sharp rises, likely because the training period encompasses a period of relative inactivity (no high changes in price).&lt;/p>
 &lt;h2 id="5-benchmark">5. Benchmark&lt;/h2>
@@ -2980,19 +3083,18 @@ Center for Disease Control and Prevention
 &lt;a href="https://data.cdc.gov/stories/s/Vaccine-Hesitancy-for-COVID-19/cnd2-a6zw">https://data.cdc.gov/stories/s/Vaccine-Hesitancy-for-COVID-19/cnd2-a6zw&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:3" role="doc-endnote">
-&lt;p>Party Affiliation by Region
-Pew Research Center
+&lt;p>Party Affiliation by Region Pew Research Center
 &lt;a href="https://www.pewforum.org/religious-landscape-study/compare/party-affiliation/by/region/-trend">https://www.pewforum.org/religious-landscape-study/compare/party-affiliation/by/region/-trend&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:4" role="doc-endnote">
 &lt;p>Household Pulse Survey COVID-19 Vaccination Tracker
-United States Census Bureau&lt;br>
-&lt;a href="https://www.census.gov/library/visualizations/interactive/household-pulse-survey-covid-19-">https://www.census.gov/library/visualizations/interactive/household-pulse-survey-covid-19-&lt;/a> vaccination-tracker.html&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+United States Census Bureau
+&lt;a href="https://www.census.gov/library/visualizations/interactive/household-pulse-survey-covid-19-vaccination-tracker.html">https://www.census.gov/library/visualizations/interactive/household-pulse-survey-covid-19-vaccination-tracker.html&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:5" role="doc-endnote">
 &lt;p>Black High School Attainment Nearly on Par With National Average
 United States Census Bureau
-&lt;a href="https://www.census.gov/library/stories/2020/06/black-high-school-attainment-nearly-on-par-with-">https://www.census.gov/library/stories/2020/06/black-high-school-attainment-nearly-on-par-with-&lt;/a> national-average.html&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;a href="https://www.census.gov/library/stories/2020/06/black-high-school-attainment-nearly-on-par-with-national-average.html">https://www.census.gov/library/stories/2020/06/black-high-school-attainment-nearly-on-par-with-national-average.html&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:6" role="doc-endnote">
 &lt;p>Washington, Harriet A.

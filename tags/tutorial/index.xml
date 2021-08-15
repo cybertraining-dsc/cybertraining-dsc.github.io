@@ -1,4 +1,247 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – tutorial</title><link>/tags/tutorial/</link><description>Recent content in tutorial on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 21 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/tutorial/index.xml" rel="self" type="application/rss+xml"/><item><title>Report: Tutorial on Uploading Files to Google Colab</title><link>/report/su21-reu-361/tutorials/colab/</link><pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/tutorials/colab/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – tutorial</title><link>/tags/tutorial/</link><description>Recent content in tutorial on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 15 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/tutorial/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Installing PyCharm Professional for Free</title><link>/docs/tutorial/reu/pycharm/</link><pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/reu/pycharm/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>This tutorial teaches how to get PyCharm Professional for free on
+Windows 10 using a university email address. You can follow a similar
+process on Linux and macOS.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#steps">Steps&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> pycharm&lt;/p>
+&lt;h2 id="steps">Steps&lt;/h2>
+&lt;p>Click the following image to be redirected to a YouTube video tutorial for installing PyCharm Professional.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/QPESX-VBnEU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>Please ensure that you qualify. This includes you having a valid
+educational email or be part of an open-source project. Make sure to
+explore the license agreements for PyCharm as they may change.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Open up a web browser and search &lt;code>pycharm&lt;/code>. Look under the link from &lt;code>jetbrains.com&lt;/code> and click &lt;code>Download Pycharm&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click the &lt;strong>blue&lt;/strong> button that reads &lt;code>Download&lt;/code> under Professional. Wait for the download to complete.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Open the completely downloaded file and click &lt;code>Yes&lt;/code> on the UAC prompt.&lt;/p>
+&lt;ol>
+&lt;li>If you have a school computer, please refer to the note under step 5 in the Python tutorial found here:
+&lt;a href="https://cybertraining-dsc.github.io/report/su21-reu-361/tutorials/python/">https://cybertraining-dsc.github.io/report/su21-reu-361/tutorials/python/&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Next&lt;/code>, click &lt;code>Next&lt;/code> again, and check the box that reads &lt;code>Add launchers dir to the PATH&lt;/code>. You can also
+create a Desktop Shortcut and create the &lt;code>.py&lt;/code> association if you would like. The association changes which program,
+by default, opens &lt;code>.py&lt;/code> files on your computer.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Next&lt;/code> and then click &lt;code>Install&lt;/code>. Wait for the green progress bar to complete. Then, you must restart your
+computer after making sure all of your programs are saved and closed.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Open PyCharm either by clicking on the Desktop shortcut you might have made or hit the Windows key and type
+&lt;code>PyCharm&lt;/code> and choose the program from the search results.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Check the box that says &lt;code>I confirm that I have read and accept the terms...&lt;/code> after agreeing to the terms.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Continue&lt;/code>. You can choose to send anonymous statistics, if you want to; click the option you want.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click the hyperlink that says &lt;code>Buy license&lt;/code> in the top right of the window. Do not worry — you will not be spending
+a cent.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click the person icon in the top right of the page (if you cannot find this person icon, then click this link
+and hopefully, it still works: &lt;a href="https://account.jetbrains.com/login">https://account.jetbrains.com/login&lt;/a> ).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Create a JetBrains account by entering your university email address. Click &lt;code>Sign Up&lt;/code> after entering your email;
+then, you have to go on your email and confirm your account in the automated email sent to you. Click &lt;code>Confirm your account&lt;/code> in the email.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Complete the registration form and click &lt;code>Submit&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Apply for a free student or teacher license&lt;/code>. Scroll down and click the blue button that reads &lt;code>Apply now&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Fill out the form using your (educational) email address and real name. Check the boxes if they apply to you. Then
+click &lt;code>APPLY FOR FREE PRODUCTS&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>JetBrains should send you an automated email, ideally informing you that your information has been confirmed and
+you have been granted a free license. If it does not arrive immediately, wait a few minutes. Go back to PyCharm and sign in with your JetBrains account after receiving this email. Click &lt;code>Activate&lt;/code>. Now you can use PyCharm.&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Installing Git Bash on Windows 10</title><link>/docs/tutorial/reu/github/git/</link><pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/reu/github/git/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>This tutorial teaches how to install Git and Git Bash.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#windows">Windows&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> git&lt;/p>
+&lt;h2 id="windows">Windows&lt;/h2>
+&lt;p>Click the following image to be redirected to a YouTube video tutorial for installing Git and Git Bash. This same video also includes instructions to create a virtual Python environment, which you can do as well.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/HCotEx_xCfA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>To verify whether you have Git, you can press &lt;code>Win + R&lt;/code> on your desktop, type &lt;code>cmd&lt;/code>, and press &lt;code>Enter&lt;/code>. Then type &lt;code>git clone&lt;/code> and press &lt;code>Enter&lt;/code>. If you do not have Git installed, it will say &lt;code>'git' is not recognized as an internal or external command...&lt;/code>&lt;/p>
+&lt;p>As long as Git does not change up their website and hyperlinks, you should be able to download Git from here and skip to step 2: &lt;a href="https://git-scm.com/downloads">https://git-scm.com/downloads&lt;/a>&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Open a web browser and search &lt;code>git&lt;/code>. Look for the result that is from &lt;code>git-scm.com&lt;/code> and click Downloads.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Download for Windows&lt;/code>. The download will commence. Please open the file once it is finished downloading.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The UAC Prompt will appear. Click &lt;code>Yes&lt;/code> because Git is a safe program. It will show you Git&amp;rsquo;s license: a GNU General Public License. Click &lt;code>Next&lt;/code>.&lt;/p>
+&lt;ol>
+&lt;li>The GNU General Public License means that the program is open-source (free of charge).&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Next&lt;/code> to confirm that &lt;code>C:\Program Files\Git&lt;/code> is the directory where you want Git to be installed.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Next&lt;/code> unless you would like an icon for Git on the desktop (in which case you can check the box and then click &lt;code>Next&lt;/code>).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You will be askes several questions for the setup. We recommend the following settings:&lt;/p>
+&lt;ul>
+&lt;li>Click &lt;code>Next&lt;/code> to accept the text editor,&lt;/li>
+&lt;li>Click &lt;code>Next&lt;/code> again to Let Git decide the default branch name&lt;/li>
+&lt;li>Click &lt;code>Next&lt;/code> again to run Git from the command line and 3rd party software,&lt;/li>
+&lt;li>Click &lt;code>Next&lt;/code> again to use the OpenSSL library&lt;/li>
+&lt;li>Click &lt;code>Next&lt;/code> again to checkout Windows-style,&lt;/li>
+&lt;li>Click &lt;code>Next&lt;/code> again to use MinTTY,&lt;/li>
+&lt;li>Click &lt;code>Next&lt;/code> again to use the default git pull,&lt;/li>
+&lt;li>Click &lt;code>Next&lt;/code> again to use the Git Credential Manager Core,&lt;/li>
+&lt;li>Click &lt;code>Next&lt;/code> again to enable file system caching, and then&lt;/li>
+&lt;li>Click &lt;code>Install&lt;/code> because we do not need experimental features.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>The progress bar should not take too long to finish. To test if it is installed, you can search for &lt;code>Git Bash&lt;/code> in the Windows search now to run it.&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Using Raw Images in GitHub and Hugo in Compatible Fashion</title><link>/docs/tutorial/reu/github/images/</link><pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/reu/github/images/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This tutorial teaches how to add images on GitHub and use them in your
+markdown file that can be rendered in Hugo and markdownon GitHub.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#steps">Steps&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> github&lt;/p>
+&lt;h2 id="steps">Steps&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Upload your image to GitHub in the images directory&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click on the image file and then right click on it and click &lt;code>Open image in new tab&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Use the URL shown in the address bar of the new tab to paste into
+the markdown file.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>When using the file, please add a caption and if it is copied also
+the citation in a REference section&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;pre>&lt;code>![database sample](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/sampledatabase.png)
+**Figure 2:** Sample Database file obtained from the USGS
+water-quality database for the year 2017 [^1]
+## Refernces
+[^1]: HERE COMES THE CITATION OF THE IMAGE
+&lt;/code>&lt;/pre></description></item><item><title>Docs: Uploading Files to Google Colab</title><link>/docs/tutorial/reu/colab/</link><pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/reu/colab/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>This tutorial teaches how to import CSV&amp;rsquo;s into a Google Colab .ipynb.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#note">Note&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#read-file-from-drive">Read File from Drive&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#read-file-from-direct-upload">Read File from Direct Upload&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#acknowledgments">Acknowledgments&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> colab&lt;/p>
+&lt;h2 id="note">Note&lt;/h2>
+&lt;p>There are two different methods of uploading files to Google Colab Jupyter notebooks. One way is to
+have the user upload the file to the user&amp;rsquo;s Google Drive before running the notebook. Another way
+is to have the notebook ask the user to upload a file directly into the notebook from the user&amp;rsquo;s computer.
+This tutorial outlines both ways.&lt;/p>
+&lt;p>The notebook code with both methods can be found &lt;a href="https://colab.research.google.com/drive/1nUMmLYpz_4fILf6xrJMDWs9_vFFUrZQ6?usp=sharing">here&lt;/a>&lt;/p>
+&lt;h2 id="read-file-from-drive">Read File from Drive&lt;/h2>
+&lt;p>This code will read a CSV file using pandas. Before running it, the user
+must upload the CSV file to the Google Drive of the same Google account on which it runs the notebook in Colab (e.g., your account). The
+CSV file in this example is titled &lt;code>kag_risk_factors_cervical_cancer&lt;/code> but please rename it accordingly to match the file
+you would like to upload.&lt;/p>
+&lt;p>Cell 2:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">pandas&lt;/span> &lt;span style="color:#204a87;font-weight:bold">as&lt;/span> &lt;span style="color:#000">pd&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">google.colab&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">drive&lt;/span>
+&lt;span style="color:#000">drive&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">mount&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;/content/gdrive&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">force_remount&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#3465a4">True&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic"># The next line of code will tell Colab to read kag_risk_factors_cervical_cancer.csv in your Drive (not in any subfolders)&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic"># so you should alter the code to match whichever .csv you would like to upload.&lt;/span>
+&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#000">pd&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">read_csv&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;gdrive/My Drive/kag_risk_factors_cervical_cancer.csv&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic"># The next two lines of code convert question marks to NaN and converts values to numeric type, consider &lt;/span>
+&lt;span style="color:#8f5902;font-style:italic"># removing the next two lines if not necessary.&lt;/span>
+&lt;span style="color:#000">df&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">replace&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;?&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">np&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">nan&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">apply&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">pd&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">to_numeric&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic"># If this cell successfully runs then it should output the first five rows, as requested in the next line of code&lt;/span>
+&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">head&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">5&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Colab will ask you to click on a blue link and sign in with your account. Once done, the user must copy a code
+and paste it into the box on Colab for authentication purposes. Press &lt;code>Enter&lt;/code> after pasting it into the box.&lt;/p>
+&lt;p>If it outputs an error along the lines of &lt;code>unknown directory&lt;/code>, try rerunning the two cells and ensuring that
+your CSV is not in any folders inside Google drive. You can also alter the code to point it to a subdirectory if needed.&lt;/p>
+&lt;h2 id="read-file-from-direct-upload">Read File from Direct Upload&lt;/h2>
+&lt;p>To read it with build-in colab methods you can use the following code:&lt;/p>
+&lt;p>Cell 2:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">google.colab&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">files&lt;/span>
+&lt;span style="color:#000">df&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">files&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">upload&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The user will be prompted to click &lt;code>Browse...&lt;/code> and to find the file on the user&amp;rsquo;s local
+computer to upload. Sometimes trying to upload the file will give this error:&lt;/p>
+&lt;p>&lt;code>MessageError: RangeError: Maximum call stack size exceeded.&lt;/code>&lt;/p>
+&lt;p>In this case, the user should click the folder icon on the left side of Google Colab window, then the paper
+with an arrow icon (to upload a file), then upload the CSV you wish to use. Then rerunning Cell 2 is not
+necessary. Simply proceed to Cell 3. If this still does not work, see &lt;a href="https://stackoverflow.com/questions/53630073/google-colaboratory-import-data-stack-size-exceeded">this stackoverflow page&lt;/a> for further information.&lt;/p>
+&lt;p>Cell 3:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#000">pd&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">read_csv&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;kag_risk_factors_cervical_cancer.csv&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic"># The next two lines of code convert question marks to NaN and converts values to numeric type, consider &lt;/span>
+&lt;span style="color:#8f5902;font-style:italic"># removing the next two lines if not necessary.&lt;/span>
+&lt;span style="color:#000">df&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">replace&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;?&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">np&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">nan&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">apply&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">pd&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">to_numeric&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic"># If this cell successfully runs then it should output the first five rows, as requested in the next line of code&lt;/span>
+&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">head&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">5&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Remember to rename the instances of &lt;code>kag_risk_factors_cervical_cancer.csv&lt;/code> accordingly so that it matches your file name.&lt;/p>
+&lt;h2 id="acknowledgments">Acknowledgments&lt;/h2>
+&lt;p>Credit to Carlos provided the cell to upload the file directly.&lt;/p></description></item><item><title>Report: Tutorial on Uploading Files to Google Colab</title><link>/report/su21-reu-361/deprecated/colab/</link><pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/deprecated/colab/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;p>This tutorial teaches how to import csv&amp;rsquo;s into a Google Colab .ipynb.&lt;/p>
@@ -160,7 +403,62 @@ $ git clone git@github.com:cybertraining-dsc/YOURREPONAME.git
 &lt;p>If you do not want to always type in your password you can prior to the first commit in the termnal in which you issue the commits say&lt;/p>
 &lt;pre>&lt;code>$ eval `ssh-agent`
 $ ssh-add
-&lt;/code>&lt;/pre></description></item><item><title>Docs: Tutorial on Using venv in PyCharm</title><link>/docs/tutorial/pycharm/</link><pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/pycharm/</guid><description>
+&lt;/code>&lt;/pre></description></item><item><title>Docs: Adding SSH Keys for a GitHub Repository</title><link>/docs/tutorial/reu/github/ssh/</link><pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/reu/github/ssh/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This tutorial teaches how to configure an SSH Key on GitHub so that you can clone, commit, pull, and push to repositories (repos).&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#windows">Windows&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> ssh&lt;/p>
+&lt;h2 id="windows">Windows&lt;/h2>
+&lt;p>Please ensure that you have Git (Git Bash) and a repository on GitHub. This tutorial was created with the REU program in mind, where the students are provided with a GitHub repository. If you are not in REU, then you can create a new repository on GitHub and clone that instead.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Open Git Bash by pressing the Windows key, typing &lt;code>git bash&lt;/code>, and pressing Enter.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Then, go on GitHub, click on your profile icon in the top right, click &lt;code>Settings&lt;/code>, and click &lt;code>SSH and GPG keys&lt;/code> on the left hand side. Confirm that there are no SSH keys associated with your account. If there are keys, then perhaps you have made some already. This tutorial focuses on creating a new one.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Go back to Git Bash and type &lt;code>ssh-keygen&lt;/code>. Press &lt;code>Enter&lt;/code>. Press &lt;code>Enter&lt;/code> again when it asks you the file in which to save the key (it should say &lt;code>Enter file in which to save the key (/c/Users/USERNAME/.ssh/id_rsa):&lt;/code>.&lt;/p>
+&lt;ol>
+&lt;li>If you have already created a key here, it will ask you if you would like to overwrite the file. Type &lt;code>y&lt;/code> and press &lt;code>Enter&lt;/code>.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Enter a password that you will remember for your SSH key. It will not appear as you type it, so make sure you get it right the first time. Press &lt;code>Enter&lt;/code> after typing the password that you come up with.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>After seeing the randomart image associated with your SSH, you should be able to type a new command. Type &lt;code>cat ~/.ssh/id_rsa.pub&lt;/code> and press &lt;code>Enter&lt;/code>. Your key will appear— remember that this should not be shared with others. The key begins with &lt;code>ssh-rsa&lt;/code> and it may end with your username. Copy this entire key by clicking and dragging over it, right-clicking, and clicking &lt;code>Copy&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Return to your web browser which is on the GitHub SSH key settings page. Click the green button that reads &lt;code>New SSH Key&lt;/code> and type a Title for this key. You should name it something memorable and distinct; for example, if you just generated the key on your desktop computer, a suitable name is &lt;code>Desktop&lt;/code>. If generated on your laptop, name it &lt;code>Laptop&lt;/code>, or if you have numerous laptops, differentiate them with distinct names, and so on.&lt;/p>
+&lt;ol>
+&lt;li>If you only have one computer and you have preexisting keys on this page, maybe some which you do not remember the password to or have fallen out of use, consider deleting them (as long as you are sure this will not break anything).&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Paste the key into the key box. You should have copied it from Git Bash in Step #5. Then, click the green button that reads &lt;code>Add SSH key&lt;/code>. Congratulations— you have successfully configured your SSH key. Now we will try cloning your REU repository.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Navigate to your repository. It should be in the cybertraining-dsc directory with a name format of &lt;code>xxxx-reu-xxx&lt;/code>. Once you are on that page, click the green button that reads &lt;code>Code&lt;/code> with a download symbol. Click the &lt;code>SSH&lt;/code> option and click on the clipboard next to the link so that you copy it. It should say &lt;code>Copied!&lt;/code> after you click on it.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Decide where you want your repository folder to be stored. This tutorial will clone the repo into the Documents folder. Go back to Git Bash and type &lt;code>cd ~/Documents&lt;/code> and press &lt;code>Enter&lt;/code>. It is a good idea to create a folder titled &lt;code>reu&lt;/code> for organization. Type &lt;code>mkdir reu&lt;/code> and press &lt;code>Enter&lt;/code>. Type &lt;code>cd reu&lt;/code> and press &lt;code>Enter&lt;/code>. Finally, type &lt;code>git clone&lt;/code>, and after you put a space after clone, paste the copied link from GitHub. For example, your command should look similar to this: &lt;code>git clone git@github.com:cybertraining-dsc/su21-reu-361.git&lt;/code> Then, press &lt;code>Enter&lt;/code>.&lt;/p>
+&lt;ol>
+&lt;li>The shortcut &lt;code>Ctrl + V&lt;/code> does not work in Git Bash for pasting. Instead, you can press &lt;code>Shift + Insert&lt;/code> to paste.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Type in your password for your SSH key and press &lt;code>Enter&lt;/code>. The repo should clone with no issue. You can now type &lt;code>code .&lt;/code> and press &lt;code>Enter&lt;/code> to open VSCode in this directory. Click &lt;code>Yes, I trust the authors&lt;/code> if prompted in VSCode. If you use PyCharm instead of VSCode, you can open it from Windows search; inside of PyCharm, click &lt;code>File&lt;/code>, &lt;code>Open...&lt;/code> and then navigate to &lt;code>C:&lt;/code>, &lt;code>Users&lt;/code>, your username, &lt;code>Documents&lt;/code>, and then click on &lt;code>reu&lt;/code> so it is highlighted in blue and then click &lt;code>OK&lt;/code>. If PyCharm asks, you can choose to open it in &lt;code>This Window&lt;/code> or a &lt;code>New Window&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Tutorial on Using venv in PyCharm</title><link>/docs/tutorial/pycharm/</link><pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/pycharm/</guid><description>
 &lt;p>Jacques Fleischer&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
@@ -201,7 +499,7 @@ $ ssh-add
 &lt;li>
 &lt;p>You also have to click &lt;code>Python x.x&lt;/code> in the bottom-right of PyCharm, next to &lt;code>main&lt;/code>. From there, choose &lt;code>Python x.x (ENV3)&lt;/code>. To verify that your virtual environment is working, click on &lt;code>Terminal&lt;/code> in the bottom-left of PyCharm. Click the &lt;code>+&lt;/code> (plus) icon next to Local to start a new terminal. It should say &lt;code>(ENV3)&lt;/code> next to your current working directory. Congratulations!&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Report: Tutorial on Getting PyCharm Professional for Free</title><link>/report/su21-reu-361/tutorials/pycharm/</link><pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/tutorials/pycharm/</guid><description>
+&lt;/ol></description></item><item><title>Report: Tutorial on Getting PyCharm Professional for Free</title><link>/report/su21-reu-361/deprecated/pycharm/</link><pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/deprecated/pycharm/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;p>This tutorial teaches how to get PyCharm Professional for free on Windows 10 using a university email address.&lt;/p>
@@ -282,7 +580,7 @@ click &lt;code>APPLY FOR FREE PRODUCTS&lt;/code>.&lt;/p>
 you have been granted a free license. If it does not immediately arrive, wait a few minutes. Go back to PyCharm and
 sign in with your JetBrains account after receiving this email. Click &lt;code>Activate&lt;/code>. Congratulations!&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Report: Tutorial on Getting Raw Images on GitHub</title><link>/report/su21-reu-361/tutorials/github/</link><pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/tutorials/github/</guid><description>
+&lt;/ol></description></item><item><title>Report: Tutorial on Getting Raw Images on GitHub</title><link>/report/su21-reu-361/deprecated/github/</link><pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/deprecated/github/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;p>This tutorial teaches how to get raw images on GitHub to post on your index.md repo (without any errors).&lt;/p>
@@ -299,18 +597,199 @@ sign in with your JetBrains account after receiving this email. Click &lt;code>A
 &lt;h2 id="steps">Steps&lt;/h2>
 &lt;ol>
 &lt;li>
-&lt;p>Upload your image to GitHub in the images directory&lt;/p>
+&lt;p>Upload your image to GitHub in the images directory. This folder is inside the project folder in your REU repository. Once there, click &lt;code>Add file&lt;/code> and click &lt;code>Upload files&lt;/code>. Proceed by clicking &lt;code>choose your files&lt;/code> and uploading the correct image.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Click on the image file and then right click on it and click &lt;code>Open image in new tab&lt;/code>&lt;/p>
+&lt;p>Once you navigate to the images directory by clicking on it in GitHub, click on the name of the image to view it and then right click the Download button&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Use the URL shown in the address bar of the new tab to paste into index.md&lt;/p>
+&lt;p>Click &lt;code>Copy Link&lt;/code> and paste the copied link into your index.md report in this format:&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Report: Tutorial on Installing Python</title><link>/report/su21-reu-361/tutorials/python/</link><pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/tutorials/python/</guid><description>
+&lt;/ol>
+&lt;pre>&lt;code>![Figure 1](https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/eos-price.png)
+**Figure 1:** Type a description of Figure 1 here
+&lt;/code>&lt;/pre>&lt;p>Make sure that you replace the link by clicking and dragging over the template placeholder link by pasting the link you just copied:&lt;/p>
+&lt;pre>&lt;code>![Figure 1](paste-the-link-here)
+**Figure 1:** Type a description of Figure 1 here
+&lt;/code>&lt;/pre></description></item><item><title>Docs: Installing Python</title><link>/docs/tutorial/reu/python/</link><pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/reu/python/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>This tutorial teaches how to install Python on Windows 10.&lt;/p>
+&lt;p>This tutorial teaches how to install Python on Windows 10. It can be
+similarly installed also on macOS and Linux.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#windows">Windows&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#mac">Mac&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#linux">Linux&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#troubleshooting">Troubleshooting&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#incorrect-python-version-on-command-prompt">Incorrect Python Version on Command Prompt&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> python&lt;/p>
+&lt;h2 id="windows">Windows&lt;/h2>
+&lt;p>Click the following image to be redirected to a 2-minute YouTube walkthrough.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/T6UYyu5XVMc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;ol>
+&lt;li>
+&lt;p>First, open up any web browser. This tutorial utilizes Google Chrome, but any other browser should work as long as it is not a 1990s version of Netscape. (Do not worry— you probably don&amp;rsquo;t have this.) The browser of choice can be Microsoft Edge, Firefox, Opera— as long as it can perform a search on a search engine, access a webpage, and download a file.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Open your browser by clicking the search box in the bottom left of your screen, where it says &amp;ldquo;Type here to search&amp;rdquo;. Then, type &amp;ldquo;google chrome&amp;rdquo; (or whatever is the name of the browser you use) and click it once it appears.&lt;/p>
+&lt;ol>
+&lt;li>The &amp;ldquo;Type here to search&amp;rdquo; box could be missing if you have customized your taskbar (the taskbar is the long box typically located on the bottom of your screen which has icons). In this case, just click the Windows logo in the bottom left and type your browser name.&lt;/li>
+&lt;li>This is just one way to open your browser. You can even click a shortcut to your web browser on your taskbar, on your Desktop, or your Start Menu. In computing, there is typically many ways to accomplish the same end objective.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Once your browser has loaded, search for &amp;ldquo;python&amp;rdquo; on Google or any search engine. Click the result that reads &amp;ldquo;Downloads&amp;rdquo; from the website &amp;ldquo;python.org&amp;rdquo;.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>As of July 2021 the latest version of Python is &lt;code>3.9.6&lt;/code>. You may see a different number. As long as you click the button under &amp;ldquo;Download the latest version for Windows&amp;rdquo;, this will work. Try it now.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Once the download has completed, open the file by clicking on it in your Downloads pane.&lt;/p>
+&lt;ol>
+&lt;li>If you are utilizing a school-issued computer, you may be prevented from opening this .exe file because you are not the administrator. Please email or otherwise get in contact with your instructor, professor, or head of IT to discuss installing Python.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Be sure to check the box that reads &amp;ldquo;Add Python x.x to PATH&amp;rdquo;. This will allow you to run commands from the terminal/command prompt.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &amp;ldquo;Install Now&amp;rdquo;. The default options that entail this selection are appropriate for this experiment&amp;rsquo;s intents and purposes; choosing &amp;ldquo;Customize installation&amp;rdquo; may create reproducibility issues down the road, so please select &amp;ldquo;Install Now&amp;rdquo; instead.&lt;/p>
+&lt;ol>
+&lt;li>The UAC prompt will pop up. UAC stands for &amp;ldquo;User Account Control&amp;rdquo; and exists so that the computer will not have unauthorized changes performed on it. Click &amp;ldquo;Yes&amp;rdquo; because Python is safe. School-issued computers may ask for an administrator password, so refer to step 5&amp;rsquo;s sidenote.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Sit back and watch the green progress bar, whose speed will depend on the power of the computer.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If the setup was successful, then it will say so. Click &amp;ldquo;Close&amp;rdquo;.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click the &amp;ldquo;Type here to search&amp;rdquo; box in the bottom-left of the screen, type &amp;ldquo;cmd&amp;rdquo;, and press Enter.&lt;/p>
+&lt;ol>
+&lt;li>An alternative method is to press the Windows key and the &amp;ldquo;R&amp;rdquo; key at the same time, type &amp;ldquo;cmd&amp;rdquo;, and press Enter. This is convenient for those who like to use the keyboard.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Type &lt;code>python --version&lt;/code> and the output should read &amp;ldquo;Python x.x.x&amp;rdquo;; as long as it is the latest version from the website, congratulations. Python is installed on the computer.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="mac">Mac&lt;/h2>
+&lt;p>Click the following image to be redirected to a 5-minute YouTube walkthrough. (Yes, Mac&amp;rsquo;s video is a little longer, but do not fret!
+You can skip to the 1:00 minute mark if you are in a hurry.)&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/TttmzM-EDmk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;ol>
+&lt;li>
+&lt;p>Open a web browser that is able to search and download a file. This tutorial uses Google Chrome for Mac.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Type in &lt;code>python&lt;/code> in the address bar and press enter. It should perform a search on your default search engine.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Look for the result that is from &lt;code>python.org&lt;/code>. Click on the subresult that says &lt;code>Downloads&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Underneath &lt;code>Download the latest version for Mac OS X&lt;/code>, there should be a yellow button that reads &lt;code>Download Python x.x.x&lt;/code>. Click on it, and the download should commence.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Once the download finishes, open it by clicking on it. The installer will open. Click &lt;code>Continue&lt;/code>, click &lt;code>Continue&lt;/code> again, click &lt;code>Continue&lt;/code> again, oh my goodness!&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Agree&lt;/code>.&lt;/p>
+&lt;ol>
+&lt;li>If you want to check how much free storage you have on your computer, click the Apple icon in the top left of your computer. Click
+&lt;code>About This Mac&lt;/code> and then click on &lt;code>Storage&lt;/code>. As of July 2021, Python takes ~120 MB of space. Remember that 1 GB = 1000 MB.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Install&lt;/code>. Enter your password and press Enter. Watch the blue progress bar crawl like a turtle&amp;hellip; or blast off at the speed of sound! This depends on your computer speed.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>A Finder window will open. You can close it as it is unnecessary. Click &lt;code>Close&lt;/code> in the bottom-right of the installer. Click &lt;code>Move to Trash&lt;/code> because you do not need the installer anymore.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Time to confirm that Python installed correctly. Click the magnifying glass in the top-right of your screen and then type &lt;code>terminal&lt;/code> into Spotlight Search. Double-click &lt;code>Terminal&lt;/code>.&lt;/p>
+&lt;ol>
+&lt;li>The terminal will be used frequently in this experiment. Consider keeping it in the dock for convenience. Click and hold the Terminal in the dock, go to &lt;code>Options&lt;/code>, and click &lt;code>Keep in Dock&lt;/code>.
+&lt;br>
+ &lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Type &lt;code>python3 --version&lt;/code> into the terminal and press Enter. It should output the latest version of Python. Congratulations!&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="linux">Linux&lt;/h2>
+&lt;p>Click the following image to be redirected to a 9-minute YouTube walkthrough. (Linux&amp;rsquo;s tutorial is the longest, but it is worth it.)
+This tutorial uses Ubuntu, but it should work on other Linux distros, as well.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/cRp_ScANL1w" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;ol>
+&lt;li>
+&lt;p>Open a web browser. It can be any browser as long as it can perform a search and navigate to a webpage.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Search for &lt;code>python&lt;/code> by typing it into the address bar and pressing enter. Click on &lt;code>Downloads&lt;/code> underneath the result from &lt;code>https://www.python.org&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Look at the latest version. It is on the yellow button: &lt;code>Download Python x.x.x&lt;/code>. You do not need to click this button. Remember this version number.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Open a terminal by pressing the Windows key, or by clicking the grid on the bottom left of your screen. Type &lt;code>terminal&lt;/code>. Click on the &lt;code>Terminal&lt;/code> result that appears.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Type &lt;code>sudo apt-get update&lt;/code> and press Enter. Wait for it to finish. It may already be up-to-date.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Type &lt;code>sudo apt-get install libssl-dev openssl make gcc&lt;/code> and press Enter. This will install the libraries required to connect to an FTP to download Python. Type your password for your Linux user account, if prompted, and press Enter.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You are then asked if you are okay with a certain amount of disk space being taken up. Type &lt;code>y&lt;/code>, which stands for Yes, and then press Enter.&lt;/p>
+&lt;ol>
+&lt;li>If you want to check how much disk space you have, press the Files icon on the left (on the taskbar) and click &lt;code>Other Locations&lt;/code>. You may have to scroll down on the sidebar in order to see it. It should say how much GB is available. Remember, 1 GB = 1000 MB and 1 MB = 1000 KB.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>After this finishes, type &lt;code>cd /opt&lt;/code> and press Enter. Then, remember which version you read on the Python webpage (the latest version). Type &lt;code>sudo wget https://www.python.org/ftp/python/x.x.x/Python-x.x.x.tgz&lt;/code> after replacing the &lt;code>x.x.x&lt;/code> with the latest Python version number. As of July 2021, it is &lt;code>3.9.6&lt;/code>. Press Enter.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Wait for the download to complete. Then, type &lt;code>sudo tar xzvf Python-x.x.x.tgz&lt;/code> after you replace &lt;code>x.x.x&lt;/code> with the latest Python version number. Press Enter.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Type &lt;code>cd Python-x.x.x&lt;/code> after replacing &lt;code>x.x.x&lt;/code> with the latest version number. Type &lt;code>./configure&lt;/code> and press Enter.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Once it finishes, type &lt;code>make&lt;/code> and press Enter. Once &lt;em>that&lt;/em> finishes, type &lt;code>sudo make install&lt;/code> and press Enter.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Once the installation finishes, type &lt;code>sudo ln -fs /opt/Python-x.x.x/Python /usr/bin/pythonx.x&lt;/code>. Notice that &lt;code>x.x.x&lt;/code> should be replaced with the full version number and &lt;code>x.x&lt;/code> should have the first two numbers in the version number. Press Enter.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Confirm Python&amp;rsquo;s successful installation by typing &lt;code>pythonx.x --version&lt;/code>; be sure to replace x.x with the first two numbers of the version number. It should output the latest version number. Congratulations!&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>Credit to bobbyiliev for making the required commands publicly available. The commands are available here, as well: &lt;a href="https://www.digitalocean.com/community/questions/how-to-install-a-specific-python-version-on-ubuntu">https://www.digitalocean.com/community/questions/how-to-install-a-specific-python-version-on-ubuntu&lt;/a>&lt;/p>
+&lt;h2 id="troubleshooting">Troubleshooting&lt;/h2>
+&lt;h3 id="incorrect-python-version-on-command-prompt">Incorrect Python Version on Command Prompt&lt;/h3>
+&lt;p>If the Windows computer has installed an older version of Python, running &lt;code>python --version&lt;/code> on Command Prompt may output an older version. Typing &lt;code>python3 --version&lt;/code> may output the correct, latest version.&lt;/p></description></item><item><title>Report: Tutorial on Installing Python</title><link>/report/su21-reu-361/deprecated/python/</link><pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/deprecated/python/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>This tutorial teaches how to install Python on Windows, Mac, and Linux.&lt;/p>
 &lt;p>Contents&lt;/p>
 &lt;div class="toc">
 &lt;nav id="TableOfContents">
@@ -549,7 +1028,54 @@ This tutorial uses Ubuntu, but it should work on other Linux distros, as well.&l
  &lt;/p>
 &lt;h2 id="troubleshooting">Troubleshooting&lt;/h2>
 &lt;h3 id="incorrect-python-version-on-command-prompt">Incorrect Python Version on Command Prompt&lt;/h3>
-&lt;p>If the Windows computer has installed an older version of Python, running &lt;code>python --version&lt;/code> on Command Prompt may output an older version. Typing &lt;code>python3 --version&lt;/code> may output the correct, latest version.&lt;/p></description></item><item><title>Report: Tutorial on Installing Visual Studio Code</title><link>/report/su21-reu-361/tutorials/visual-studio-code/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/tutorials/visual-studio-code/</guid><description>
+&lt;p>If the Windows computer has installed an older version of Python, running &lt;code>python --version&lt;/code> on Command Prompt may output an older version. Typing &lt;code>python3 --version&lt;/code> may output the correct, latest version.&lt;/p></description></item><item><title>Docs: Installing Visual Studio Code</title><link>/docs/tutorial/reu/visual-studio-code/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/reu/visual-studio-code/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>This tutorial teaches how to install Visual Studio Code on Windows 10.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#steps">Steps&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> visual-studio-code&lt;/p>
+&lt;h2 id="steps">Steps&lt;/h2>
+&lt;p>Click the following image to be redirected to a YouTube video tutorial for installing Visual Studio Code (also called VSCode).&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/DG_wQslWWAc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>Sidenote: An exasperated reader may wonder, &amp;ldquo;why go through steps 1-3 when it can be as easy as clicking a link to the VSCode download page?&amp;rdquo; This &lt;em>would&lt;/em> be easier, but hyperlinks (or URLs) are bound to change through the years of website maintenance and alterations. (One could also argue that steps 1-3 could become incorrect, as well, but hopefully they will not.) If you, time-traveler, would like to try your luck, go here: &lt;a href="https://code.visualstudio.com/download">https://code.visualstudio.com/download&lt;/a>&lt;/p>
+&lt;p>If the link works, skip to step 4.&lt;/p>
+&lt;p>P.S. It should be second-nature to a user to quickly search, find, download, and install a program. It is vital to ensure that the correct program is downloaded and installed, however. Over time, guides like this one can become deprecated, but one must be resilient in problem-solving. Use search engines like Google to find what you are looking for. If one path does not work, take another that will lead to the same destination or a better one.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Open up your favorite web browser. This can be done by pressing the Windows key and typing in the name of the browser, like &lt;code>google chrome&lt;/code> (as long as this browser is already installed on your computer). Then press Enter.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Once the browser loads, search for &lt;code>visual studio code&lt;/code> through the address bar. Press Enter and you will see a list of results through the default search engine (Google, Bing, or whatever is configured on your browser).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Identify the result that reads &lt;code>code.visualstudio.com&lt;/code>. If using Google, a subresult should read &lt;code>Download&lt;/code>. Click that link.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>This tutorial assumes that the reader is using Windows. Click the blue link that reads &lt;code>Windows&lt;/code>. The download will commence; wait for it to finish.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click and open the file once it finishes; the license agreement will appear. If you are proficient in legalese, you can read the wall of text. Then, click &lt;code>I accept the agreement&lt;/code> and click &lt;code>Next&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Next&lt;/code> again; it is best to leave the default install path alone for reproducibility in this experiment.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;code>Next&lt;/code> again to create a Start Menu folder. Ensure that &lt;code>Add to PATH&lt;/code> is checked. &lt;code>Create a desktop icon&lt;/code> can be checked for convenience; it is up to the reader&amp;rsquo;s choice. Then click &lt;code>Next&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click Install and watch the green progress bar go at the speed of light. Once completed, click Finish. VSCode will open as long as everything went smoothly.&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Report: Tutorial on Installing Visual Studio Code</title><link>/report/su21-reu-361/deprecated/visual-studio-code/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/deprecated/visual-studio-code/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;p>This tutorial teaches how to install Visual Studio Code on Windows 10.&lt;/p>

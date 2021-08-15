@@ -1,0 +1,67 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – colab</title><link>/tags/colab/</link><description>Recent content in colab on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 21 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/colab/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Uploading Files to Google Colab</title><link>/docs/tutorial/reu/colab/</link><pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/reu/colab/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>This tutorial teaches how to import CSV&amp;rsquo;s into a Google Colab .ipynb.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#note">Note&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#read-file-from-drive">Read File from Drive&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#read-file-from-direct-upload">Read File from Direct Upload&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#acknowledgments">Acknowledgments&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> colab&lt;/p>
+&lt;h2 id="note">Note&lt;/h2>
+&lt;p>There are two different methods of uploading files to Google Colab Jupyter notebooks. One way is to
+have the user upload the file to the user&amp;rsquo;s Google Drive before running the notebook. Another way
+is to have the notebook ask the user to upload a file directly into the notebook from the user&amp;rsquo;s computer.
+This tutorial outlines both ways.&lt;/p>
+&lt;p>The notebook code with both methods can be found &lt;a href="https://colab.research.google.com/drive/1nUMmLYpz_4fILf6xrJMDWs9_vFFUrZQ6?usp=sharing">here&lt;/a>&lt;/p>
+&lt;h2 id="read-file-from-drive">Read File from Drive&lt;/h2>
+&lt;p>This code will read a CSV file using pandas. Before running it, the user
+must upload the CSV file to the Google Drive of the same Google account on which it runs the notebook in Colab (e.g., your account). The
+CSV file in this example is titled &lt;code>kag_risk_factors_cervical_cancer&lt;/code> but please rename it accordingly to match the file
+you would like to upload.&lt;/p>
+&lt;p>Cell 2:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">pandas&lt;/span> &lt;span style="color:#204a87;font-weight:bold">as&lt;/span> &lt;span style="color:#000">pd&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">google.colab&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">drive&lt;/span>
+&lt;span style="color:#000">drive&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">mount&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;/content/gdrive&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">force_remount&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#3465a4">True&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic"># The next line of code will tell Colab to read kag_risk_factors_cervical_cancer.csv in your Drive (not in any subfolders)&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic"># so you should alter the code to match whichever .csv you would like to upload.&lt;/span>
+&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#000">pd&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">read_csv&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;gdrive/My Drive/kag_risk_factors_cervical_cancer.csv&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic"># The next two lines of code convert question marks to NaN and converts values to numeric type, consider &lt;/span>
+&lt;span style="color:#8f5902;font-style:italic"># removing the next two lines if not necessary.&lt;/span>
+&lt;span style="color:#000">df&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">replace&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;?&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">np&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">nan&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">apply&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">pd&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">to_numeric&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic"># If this cell successfully runs then it should output the first five rows, as requested in the next line of code&lt;/span>
+&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">head&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">5&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Colab will ask you to click on a blue link and sign in with your account. Once done, the user must copy a code
+and paste it into the box on Colab for authentication purposes. Press &lt;code>Enter&lt;/code> after pasting it into the box.&lt;/p>
+&lt;p>If it outputs an error along the lines of &lt;code>unknown directory&lt;/code>, try rerunning the two cells and ensuring that
+your CSV is not in any folders inside Google drive. You can also alter the code to point it to a subdirectory if needed.&lt;/p>
+&lt;h2 id="read-file-from-direct-upload">Read File from Direct Upload&lt;/h2>
+&lt;p>To read it with build-in colab methods you can use the following code:&lt;/p>
+&lt;p>Cell 2:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">google.colab&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">files&lt;/span>
+&lt;span style="color:#000">df&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">files&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">upload&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The user will be prompted to click &lt;code>Browse...&lt;/code> and to find the file on the user&amp;rsquo;s local
+computer to upload. Sometimes trying to upload the file will give this error:&lt;/p>
+&lt;p>&lt;code>MessageError: RangeError: Maximum call stack size exceeded.&lt;/code>&lt;/p>
+&lt;p>In this case, the user should click the folder icon on the left side of Google Colab window, then the paper
+with an arrow icon (to upload a file), then upload the CSV you wish to use. Then rerunning Cell 2 is not
+necessary. Simply proceed to Cell 3. If this still does not work, see &lt;a href="https://stackoverflow.com/questions/53630073/google-colaboratory-import-data-stack-size-exceeded">this stackoverflow page&lt;/a> for further information.&lt;/p>
+&lt;p>Cell 3:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#000">pd&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">read_csv&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;kag_risk_factors_cervical_cancer.csv&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic"># The next two lines of code convert question marks to NaN and converts values to numeric type, consider &lt;/span>
+&lt;span style="color:#8f5902;font-style:italic"># removing the next two lines if not necessary.&lt;/span>
+&lt;span style="color:#000">df&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">replace&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;?&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">np&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">nan&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">apply&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">pd&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">to_numeric&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic"># If this cell successfully runs then it should output the first five rows, as requested in the next line of code&lt;/span>
+&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">head&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">5&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Remember to rename the instances of &lt;code>kag_risk_factors_cervical_cancer.csv&lt;/code> accordingly so that it matches your file name.&lt;/p>
+&lt;h2 id="acknowledgments">Acknowledgments&lt;/h2>
+&lt;p>Credit to Carlos provided the cell to upload the file directly.&lt;/p></description></item></channel></rss>
