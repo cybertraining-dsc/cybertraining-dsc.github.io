@@ -98,7 +98,7 @@ given issue.&lt;/p>
 &lt;p>Click &lt;code>Next&lt;/code> unless you would like an icon for Git on the desktop (in which case you can check the box and then click &lt;code>Next&lt;/code>).&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>You will be askes several questions for the setup. We recommend the following settings:&lt;/p>
+&lt;p>You will be asked several questions for the setup. We recommend the following settings:&lt;/p>
 &lt;ul>
 &lt;li>Click &lt;code>Next&lt;/code> to accept the text editor,&lt;/li>
 &lt;li>Click &lt;code>Next&lt;/code> again to Let Git decide the default branch name&lt;/li>
@@ -142,8 +142,8 @@ markdown file that can be rendered in Hugo and markdownon GitHub.&lt;/p>
 the markdown file.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>When using the file, please add a caption and if it is copied also
-the citation in a REference section&lt;/p>
+&lt;p>When using the file, please add a caption; also, if it is copied, make
+the citation which should point to the reference section&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;pre>&lt;code>![database sample](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/sampledatabase.png)

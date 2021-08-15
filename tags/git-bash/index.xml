@@ -39,7 +39,7 @@
 &lt;p>Click &lt;code>Next&lt;/code> unless you would like an icon for Git on the desktop (in which case you can check the box and then click &lt;code>Next&lt;/code>).&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>You will be askes several questions for the setup. We recommend the following settings:&lt;/p>
+&lt;p>You will be asked several questions for the setup. We recommend the following settings:&lt;/p>
 &lt;ul>
 &lt;li>Click &lt;code>Next&lt;/code> to accept the text editor,&lt;/li>
 &lt;li>Click &lt;code>Next&lt;/code> again to Let Git decide the default branch name&lt;/li>

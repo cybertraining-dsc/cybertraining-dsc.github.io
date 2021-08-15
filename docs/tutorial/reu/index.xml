@@ -122,7 +122,7 @@ you have been granted a free license. If it does not arrive immediately, wait a 
 &lt;p>Click &lt;code>Next&lt;/code> unless you would like an icon for Git on the desktop (in which case you can check the box and then click &lt;code>Next&lt;/code>).&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>You will be askes several questions for the setup. We recommend the following settings:&lt;/p>
+&lt;p>You will be asked several questions for the setup. We recommend the following settings:&lt;/p>
 &lt;ul>
 &lt;li>Click &lt;code>Next&lt;/code> to accept the text editor,&lt;/li>
 &lt;li>Click &lt;code>Next&lt;/code> again to Let Git decide the default branch name&lt;/li>
@@ -166,8 +166,8 @@ markdown file that can be rendered in Hugo and markdownon GitHub.&lt;/p>
 the markdown file.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>When using the file, please add a caption and if it is copied also
-the citation in a REference section&lt;/p>
+&lt;p>When using the file, please add a caption; also, if it is copied, make
+the citation which should point to the reference section&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;pre>&lt;code>![database sample](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/sampledatabase.png)
@@ -203,7 +203,7 @@ This tutorial outlines both ways.&lt;/p>
 must upload the CSV file to the Google Drive of the same Google account on which it runs the notebook in Colab (e.g., your account). The
 CSV file in this example is titled &lt;code>kag_risk_factors_cervical_cancer&lt;/code> but please rename it accordingly to match the file
 you would like to upload.&lt;/p>
-&lt;p>Cell 2:&lt;/p>
+&lt;p>Cell 1:&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">pandas&lt;/span> &lt;span style="color:#204a87;font-weight:bold">as&lt;/span> &lt;span style="color:#000">pd&lt;/span>
 &lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">google.colab&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">drive&lt;/span>
 &lt;span style="color:#000">drive&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">mount&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;/content/gdrive&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">force_remount&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#3465a4">True&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
@@ -221,17 +221,17 @@ and paste it into the box on Colab for authentication purposes. Press &lt;code>E
 &lt;p>If it outputs an error along the lines of &lt;code>unknown directory&lt;/code>, try rerunning the two cells and ensuring that
 your CSV is not in any folders inside Google drive. You can also alter the code to point it to a subdirectory if needed.&lt;/p>
 &lt;h2 id="read-file-from-direct-upload">Read File from Direct Upload&lt;/h2>
-&lt;p>To read it with build-in colab methods you can use the following code:&lt;/p>
-&lt;p>Cell 2:&lt;/p>
+&lt;p>To read it with built-in Colab methods, you can use the following code:&lt;/p>
+&lt;p>Cell 1:&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">google.colab&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">files&lt;/span>
 &lt;span style="color:#000">df&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">files&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">upload&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>The user will be prompted to click &lt;code>Browse...&lt;/code> and to find the file on the user&amp;rsquo;s local
 computer to upload. Sometimes trying to upload the file will give this error:&lt;/p>
 &lt;p>&lt;code>MessageError: RangeError: Maximum call stack size exceeded.&lt;/code>&lt;/p>
 &lt;p>In this case, the user should click the folder icon on the left side of Google Colab window, then the paper
-with an arrow icon (to upload a file), then upload the CSV you wish to use. Then rerunning Cell 2 is not
-necessary. Simply proceed to Cell 3. If this still does not work, see &lt;a href="https://stackoverflow.com/questions/53630073/google-colaboratory-import-data-stack-size-exceeded">this stackoverflow page&lt;/a> for further information.&lt;/p>
-&lt;p>Cell 3:&lt;/p>
+with an arrow icon (to upload a file), then upload the CSV you wish to use. Then rerunning Cell 1 is not
+necessary. Simply proceed to Cell 2. If this still does not work, see &lt;a href="https://stackoverflow.com/questions/53630073/google-colaboratory-import-data-stack-size-exceeded">this stackoverflow page&lt;/a> for further information.&lt;/p>
+&lt;p>Cell 2:&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#000">pd&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">read_csv&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;kag_risk_factors_cervical_cancer.csv&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;span style="color:#8f5902;font-style:italic"># The next two lines of code convert question marks to NaN and converts values to numeric type, consider &lt;/span>
 &lt;span style="color:#8f5902;font-style:italic"># removing the next two lines if not necessary.&lt;/span>
@@ -241,7 +241,7 @@ necessary. Simply proceed to Cell 3. If this still does not work, see &lt;a href
 &lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">head&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">5&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>Remember to rename the instances of &lt;code>kag_risk_factors_cervical_cancer.csv&lt;/code> accordingly so that it matches your file name.&lt;/p>
 &lt;h2 id="acknowledgments">Acknowledgments&lt;/h2>
-&lt;p>Credit to Carlos provided the cell to upload the file directly.&lt;/p></description></item><item><title>Docs: Adding SSH Keys for a GitHub Repository</title><link>/docs/tutorial/reu/github/ssh/</link><pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/reu/github/ssh/</guid><description>
+&lt;p>Credit to Carlos who provided the cell to upload the file directly.&lt;/p></description></item><item><title>Docs: Adding SSH Keys for a GitHub Repository</title><link>/docs/tutorial/reu/github/ssh/</link><pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/reu/github/ssh/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>This tutorial teaches how to configure an SSH Key on GitHub so that you can clone, commit, pull, and push to repositories (repos).&lt;/p>
 &lt;p>Contents&lt;/p>
