@@ -115,7 +115,43 @@ given issue.&lt;/p>
 &lt;li>
 &lt;p>The progress bar should not take too long to finish. To test if it is installed, you can search for &lt;code>Git Bash&lt;/code> in the Windows search now to run it.&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Docs: Using Raw Images in GitHub and Hugo in Compatible Fashion</title><link>/docs/tutorial/reu/github/images/</link><pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/reu/github/images/</guid><description>
+&lt;/ol></description></item><item><title>Docs: Using Raw Images in GitHub and Hugo in Compatible Fashion</title><link>/docs/tutorial/reu/github/image/</link><pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/reu/github/image/</guid><description>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This tutorial teaches how to add images on GitHub and use them in your
+markdown file that can be rendered in Hugo and markdownon GitHub.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#steps">Steps&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> github&lt;/p>
+&lt;h2 id="steps">Steps&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Upload your image to GitHub in the images directory&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click on the image file and then right click on it and click &lt;code>Open image in new tab&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Use the URL shown in the address bar of the new tab to paste into
+the markdown file.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>When using the file, please add a caption; also, if it is copied, make
+the citation which should point to the reference section&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;pre>&lt;code>![database sample](https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/raw/main/content/en/docs/tutorial/reu/github/images/images-download.png)
+**Figure 2:** Sample Database file obtained from the USGS
+water-quality database for the year 2017 [^1]
+## Refernces
+[^1]: HERE COMES THE CITATION OF THE IMAGE
+&lt;/code>&lt;/pre></description></item><item><title>Docs: Using Raw Images in GitHub and Hugo in Compatible Fashion</title><link>/docs/tutorial/reu/github/images/</link><pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/reu/github/images/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>This tutorial teaches how to add images on GitHub and use them in your
 markdown file that can be rendered in Hugo and markdownon GitHub.&lt;/p>
