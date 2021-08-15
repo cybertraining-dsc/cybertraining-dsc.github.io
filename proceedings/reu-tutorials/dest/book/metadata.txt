@@ -1,0 +1,25 @@
+---
+title: 2021 FAMU REU
+creator:
+- role: editor
+  text: Gregor von Laszewski Yohn Jairo Parra Bautista Carlos Theran Geoffrey C. Fox
+description: REU 2021 Project reports
+rights: (c) Gregor von Laszewski, 2021
+language: en-US
+stylesheet: epub.css
+cover-image: cover.png
+figureTitle: Figure
+figPrefix: Figure
+eqnPrefix: Equation
+secPrefix: Section
+tblPrefix: Table
+linkReferences: True
+nameInLink: True
+fignos-caption-name: Figure
+fignos-plus-name: Figure
+xnos-number-sections: True
+keywords: REU, AI, Cloud
+mustache: abbrev.yaml
+abstract: |
+  The project reports from the 2021 REU
+...
