@@ -1,6 +1,6 @@
 ---
 title: Commerce
-tags: ["application", "commerce"]
+tags: ["application", "commerce", "lecture"]
 draft: false
 weight: 12
 description: >
