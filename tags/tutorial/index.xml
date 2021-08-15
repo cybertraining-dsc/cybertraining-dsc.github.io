@@ -24,7 +24,7 @@ educational email or be part of an open-source project. Make sure to
 explore the license agreements for PyCharm as they may change.&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>Open up a web browser and search &lt;code>pycharm&lt;/code>. Look under the link from &lt;code>jetbrains.com&lt;/code> and click &lt;code>Download Pycharm&lt;/code>.&lt;/p>
+&lt;p>Open up a web browser and search &lt;code>pycharm&lt;/code>. Look under the link from &lt;code>jetbrains.com&lt;/code> and click &lt;code>Download PyCharm&lt;/code>.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Click the &lt;strong>blue&lt;/strong> button that reads &lt;code>Download&lt;/code> under Professional. Wait for the download to complete.&lt;/p>
@@ -32,8 +32,8 @@ explore the license agreements for PyCharm as they may change.&lt;/p>
 &lt;li>
 &lt;p>Open the completely downloaded file and click &lt;code>Yes&lt;/code> on the UAC prompt.&lt;/p>
 &lt;ol>
-&lt;li>If you have a school computer, please refer to the note under step 5 in the Python tutorial found here:
-&lt;a href="https://cybertraining-dsc.github.io/report/su21-reu-361/tutorials/python/">https://cybertraining-dsc.github.io/report/su21-reu-361/tutorials/python/&lt;/a>&lt;/li>
+&lt;li>If you have a school computer, please refer to the note under step 5 of the Windows section in the Python tutorial found here:
+&lt;a href="https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/blob/main/content/en/docs/tutorial/reu/python/index.md">https://github.com/cybertraining-dsc/cybertraining-dsc.github.io/blob/main/content/en/docs/tutorial/reu/python/index.md&lt;/a>&lt;/li>
 &lt;/ol>
 &lt;/li>
 &lt;li>
@@ -623,9 +623,10 @@ similarly installed also on macOS and Linux.&lt;/p>
 &lt;li>&lt;a href="#windows">Windows&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#mac">Mac&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#linux">Linux&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#python-venv">Python venv&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#troubleshooting">Troubleshooting&lt;/a>
 &lt;ul>
-&lt;li>&lt;a href="#incorrect-python-version-on-command-prompt">Incorrect Python Version on Command Prompt&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#incorrect-python-version-on-command-prompt-windows">Incorrect Python Version on Command Prompt (Windows)&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -640,38 +641,27 @@ similarly installed also on macOS and Linux.&lt;/p>
 &lt;/div>
 &lt;ol>
 &lt;li>
-&lt;p>First, open up any web browser. This tutorial utilizes Google Chrome, but any other browser should work as long as it is not a 1990s version of Netscape. (Do not worry— you probably don&amp;rsquo;t have this.) The browser of choice can be Microsoft Edge, Firefox, Opera— as long as it can perform a search on a search engine, access a webpage, and download a file.&lt;/p>
+&lt;p>First, open the url &lt;a href="https://www.python.org/downloads/">https://www.python.org/downloads/&lt;/a> in any web browser.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Open your browser by clicking the search box in the bottom left of your screen, where it says &amp;ldquo;Type here to search&amp;rdquo;. Then, type &amp;ldquo;google chrome&amp;rdquo; (or whatever is the name of the browser you use) and click it once it appears.&lt;/p>
-&lt;ol>
-&lt;li>The &amp;ldquo;Type here to search&amp;rdquo; box could be missing if you have customized your taskbar (the taskbar is the long box typically located on the bottom of your screen which has icons). In this case, just click the Windows logo in the bottom left and type your browser name.&lt;/li>
-&lt;li>This is just one way to open your browser. You can even click a shortcut to your web browser on your taskbar, on your Desktop, or your Start Menu. In computing, there is typically many ways to accomplish the same end objective.&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>
-&lt;p>Once your browser has loaded, search for &amp;ldquo;python&amp;rdquo; on Google or any search engine. Click the result that reads &amp;ldquo;Downloads&amp;rdquo; from the website &amp;ldquo;python.org&amp;rdquo;.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>As of July 2021 the latest version of Python is &lt;code>3.9.6&lt;/code>. You may see a different number. As long as you click the button under &amp;ldquo;Download the latest version for Windows&amp;rdquo;, this will work. Try it now.&lt;/p>
+&lt;p>As of June 2021, the latest version of Python is &lt;code>3.9.6&lt;/code>. You may see a different number. We recommend you use the newest official version which is provided to you by simply clicking the button under &amp;ldquo;Download the latest version for Windows&amp;rdquo;.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Once the download has completed, open the file by clicking on it in your Downloads pane.&lt;/p>
-&lt;ol>
-&lt;li>If you are utilizing a school-issued computer, you may be prevented from opening this .exe file because you are not the administrator. Please email or otherwise get in contact with your instructor, professor, or head of IT to discuss installing Python.&lt;/li>
-&lt;/ol>
 &lt;/li>
 &lt;li>
 &lt;p>Be sure to check the box that reads &amp;ldquo;Add Python x.x to PATH&amp;rdquo;. This will allow you to run commands from the terminal/command prompt.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Click &amp;ldquo;Install Now&amp;rdquo;. The default options that entail this selection are appropriate for this experiment&amp;rsquo;s intents and purposes; choosing &amp;ldquo;Customize installation&amp;rdquo; may create reproducibility issues down the road, so please select &amp;ldquo;Install Now&amp;rdquo; instead.&lt;/p>
+&lt;p>Click &amp;ldquo;Install Now&amp;rdquo;. The default options that entail this selection are appropriate.&lt;/p>
 &lt;ol>
-&lt;li>The UAC prompt will pop up. UAC stands for &amp;ldquo;User Account Control&amp;rdquo; and exists so that the computer will not have unauthorized changes performed on it. Click &amp;ldquo;Yes&amp;rdquo; because Python is safe. School-issued computers may ask for an administrator password, so refer to step 5&amp;rsquo;s sidenote.&lt;/li>
+&lt;li>The UAC prompt will pop up. UAC stands for &amp;ldquo;User Account Control&amp;rdquo; and exists so that the computer will
+not have unauthorized changes performed on it. Click &amp;ldquo;Yes&amp;rdquo; because Python is safe. School-issued computers
+may ask for an administrator password, so contact your IT department or professor.&lt;/li>
 &lt;/ol>
 &lt;/li>
 &lt;li>
-&lt;p>Sit back and watch the green progress bar, whose speed will depend on the power of the computer.&lt;/p>
+&lt;p>The installation will take some time.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>If the setup was successful, then it will say so. Click &amp;ldquo;Close&amp;rdquo;.&lt;/p>
@@ -679,11 +669,13 @@ similarly installed also on macOS and Linux.&lt;/p>
 &lt;li>
 &lt;p>Click the &amp;ldquo;Type here to search&amp;rdquo; box in the bottom-left of the screen, type &amp;ldquo;cmd&amp;rdquo;, and press Enter.&lt;/p>
 &lt;ol>
-&lt;li>An alternative method is to press the Windows key and the &amp;ldquo;R&amp;rdquo; key at the same time, type &amp;ldquo;cmd&amp;rdquo;, and press Enter. This is convenient for those who like to use the keyboard.&lt;/li>
+&lt;li>An alternative method is to press the Windows key and the &amp;ldquo;R&amp;rdquo; key at the same time, type &amp;ldquo;cmd&amp;rdquo;, and
+press Enter. This is convenient for those who like to use the keyboard.&lt;/li>
 &lt;/ol>
 &lt;/li>
 &lt;li>
-&lt;p>Type &lt;code>python --version&lt;/code> and the output should read &amp;ldquo;Python x.x.x&amp;rdquo;; as long as it is the latest version from the website, congratulations. Python is installed on the computer.&lt;/p>
+&lt;p>Type &lt;code>python --version&lt;/code> and the output should read &amp;ldquo;Python x.x.x&amp;rdquo;; as long as it is the latest version
+from the website, congratulations. Python is installed on the computer.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;h2 id="mac">Mac&lt;/h2>
@@ -694,19 +686,14 @@ You can skip to the 1:00 minute mark if you are in a hurry.)&lt;/p>
 &lt;/div>
 &lt;ol>
 &lt;li>
-&lt;p>Open a web browser that is able to search and download a file. This tutorial uses Google Chrome for Mac.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Type in &lt;code>python&lt;/code> in the address bar and press enter. It should perform a search on your default search engine.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Look for the result that is from &lt;code>python.org&lt;/code>. Click on the subresult that says &lt;code>Downloads&lt;/code>.&lt;/p>
+&lt;p>First, open the url &lt;a href="https://www.python.org/downloads/">https://www.python.org/downloads/&lt;/a> in any web browser.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Underneath &lt;code>Download the latest version for Mac OS X&lt;/code>, there should be a yellow button that reads &lt;code>Download Python x.x.x&lt;/code>. Click on it, and the download should commence.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Once the download finishes, open it by clicking on it. The installer will open. Click &lt;code>Continue&lt;/code>, click &lt;code>Continue&lt;/code> again, click &lt;code>Continue&lt;/code> again, oh my goodness!&lt;/p>
+&lt;p>Once the download finishes, open it by clicking on it. The installer will open. Click &lt;code>Continue&lt;/code>, click &lt;code>Continue&lt;/code> again, and click &lt;code>Continue&lt;/code> again.
+Read the agreements.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Click &lt;code>Agree&lt;/code>.&lt;/p>
@@ -716,17 +703,15 @@ You can skip to the 1:00 minute mark if you are in a hurry.)&lt;/p>
 &lt;/ol>
 &lt;/li>
 &lt;li>
-&lt;p>Click &lt;code>Install&lt;/code>. Enter your password and press Enter. Watch the blue progress bar crawl like a turtle&amp;hellip; or blast off at the speed of sound! This depends on your computer speed.&lt;/p>
+&lt;p>Click &lt;code>Install&lt;/code>. Enter your password and press Enter. The installation will take a while.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>A Finder window will open. You can close it as it is unnecessary. Click &lt;code>Close&lt;/code> in the bottom-right of the installer. Click &lt;code>Move to Trash&lt;/code> because you do not need the installer anymore.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Time to confirm that Python installed correctly. Click the magnifying glass in the top-right of your screen and then type &lt;code>terminal&lt;/code> into Spotlight Search. Double-click &lt;code>Terminal&lt;/code>.&lt;/p>
+&lt;p>Next confirm that Python installed correctly. Click the magnifying glass in the top-right of your screen and then type &lt;code>terminal&lt;/code> into Spotlight Search. Double-click &lt;code>Terminal&lt;/code>.&lt;/p>
 &lt;ol>
-&lt;li>The terminal will be used frequently in this experiment. Consider keeping it in the dock for convenience. Click and hold the Terminal in the dock, go to &lt;code>Options&lt;/code>, and click &lt;code>Keep in Dock&lt;/code>.
-&lt;br>
- &lt;/li>
+&lt;li>The terminal will be used frequently. Consider keeping it in the dock for convenience. Click and hold the Terminal in the dock, go to &lt;code>Options&lt;/code>, and click &lt;code>Keep in Dock&lt;/code>.&lt;/li>
 &lt;/ol>
 &lt;/li>
 &lt;li>
@@ -739,54 +724,58 @@ This tutorial uses Ubuntu, but it should work on other Linux distros, as well.&l
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://www.youtube.com/embed/cRp_ScANL1w" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
+&lt;ul>
+&lt;li>Naturally we recommend that you read all of the licensing information.&lt;/li>
+&lt;/ul>
 &lt;ol>
 &lt;li>
-&lt;p>Open a web browser. It can be any browser as long as it can perform a search and navigate to a webpage.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Search for &lt;code>python&lt;/code> by typing it into the address bar and pressing enter. Click on &lt;code>Downloads&lt;/code> underneath the result from &lt;code>https://www.python.org&lt;/code>.&lt;/p>
+&lt;p>First, open the url &lt;a href="https://www.python.org/downloads/">https://www.python.org/downloads/&lt;/a> in any web browser.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Look at the latest version. It is on the yellow button: &lt;code>Download Python x.x.x&lt;/code>. You do not need to click this button. Remember this version number.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Open a terminal by pressing the Windows key, or by clicking the grid on the bottom left of your screen. Type &lt;code>terminal&lt;/code>. Click on the &lt;code>Terminal&lt;/code> result that appears.&lt;/p>
+&lt;p>Open a terminal by pressing the Windows key or by clicking the grid on the bottom left of your screen. Type &lt;code>terminal&lt;/code>. Click on the &lt;code>Terminal&lt;/code> result that appears.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Type &lt;code>sudo apt-get update&lt;/code> and press Enter. Wait for it to finish. It may already be up-to-date.&lt;/p>
+&lt;p>Next, prepare your system:&lt;/p>
 &lt;/li>
-&lt;li>
-&lt;p>Type &lt;code>sudo apt-get install libssl-dev openssl make gcc&lt;/code> and press Enter. This will install the libraries required to connect to an FTP to download Python. Type your password for your Linux user account, if prompted, and press Enter.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>You are then asked if you are okay with a certain amount of disk space being taken up. Type &lt;code>y&lt;/code>, which stands for Yes, and then press Enter.&lt;/p>
-&lt;ol>
-&lt;li>If you want to check how much disk space you have, press the Files icon on the left (on the taskbar) and click &lt;code>Other Locations&lt;/code>. You may have to scroll down on the sidebar in order to see it. It should say how much GB is available. Remember, 1 GB = 1000 MB and 1 MB = 1000 KB.&lt;/li>
 &lt;/ol>
-&lt;/li>
+&lt;p>Note: If you want to check how much disk space you have, you can use&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ df -h /
+Filesystem Size Used Avail Capacity iused ifree %iused Mounted on
+/dev/disk1s5s1 1.8Ti 14Gi 387Gi 4% &lt;span style="color:#0000cf;font-weight:bold">553757&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">19538475003&lt;/span> 0% /
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The value under Avail will be your available space. Make sure you have sufficient space.&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ sudo apt-get update
+$ sudo apt install -y wget curl
+$ sudo apt install -y openssl libssl-dev
+$ sudo apt install -y build-essential zlib1g-dev libncurses5-dev
+$ sudo apt install -y libgdbm-dev libnss3-dev libreadline-dev libffi-dev libsqlite3-dev libbz2-dev
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="5">
 &lt;li>
-&lt;p>After this finishes, type &lt;code>cd /opt&lt;/code> and press Enter. Then, remember which version you read on the Python webpage (the latest version). Type &lt;code>sudo wget https://www.python.org/ftp/python/x.x.x/Python-x.x.x.tgz&lt;/code> after replacing the &lt;code>x.x.x&lt;/code> with the latest Python version number. As of July 2021, it is &lt;code>3.9.6&lt;/code>. Press Enter.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Wait for the download to complete. Then, type &lt;code>sudo tar xzvf Python-x.x.x.tgz&lt;/code> after you replace &lt;code>x.x.x&lt;/code> with the latest Python version number. Press Enter.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Type &lt;code>cd Python-x.x.x&lt;/code> after replacing &lt;code>x.x.x&lt;/code> with the latest version number. Type &lt;code>./configure&lt;/code> and press Enter.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Once it finishes, type &lt;code>make&lt;/code> and press Enter. Once &lt;em>that&lt;/em> finishes, type &lt;code>sudo make install&lt;/code> and press Enter.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Once the installation finishes, type &lt;code>sudo ln -fs /opt/Python-x.x.x/Python /usr/bin/pythonx.x&lt;/code>. Notice that &lt;code>x.x.x&lt;/code> should be replaced with the full version number and &lt;code>x.x&lt;/code> should have the first two numbers in the version number. Press Enter.&lt;/p>
-&lt;/li>
+&lt;p>After this finishes, type &lt;code>cd /opt&lt;/code> and press Enter. Then, remember which version you read on the Python webpage (the latest version) and add it as environment variable &lt;code>PV&lt;/code> to your terminal so we can more easily execute commands that include the version number. Type:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ &lt;span style="color:#000">PV&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>3.9.6
+$ sudo wget https://www.python.org/ftp/python/&lt;span style="color:#000">$PV&lt;/span>/Python-&lt;span style="color:#000">$PV&lt;/span>.tgz
+$ sudo tar xzvf Python-&lt;span style="color:#000">$PV&lt;/span>.tgz
+$ &lt;span style="color:#204a87">cd&lt;/span> Python-&lt;span style="color:#000">$PV&lt;/span>
+$ ./configure --enable-optimizations
+$ make
+$ sudo make altinstall
+&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;li>
 &lt;p>Confirm Python&amp;rsquo;s successful installation by typing &lt;code>pythonx.x --version&lt;/code>; be sure to replace x.x with the first two numbers of the version number. It should output the latest version number. Congratulations!&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;p>Credit to bobbyiliev for making the required commands publicly available. The commands are available here, as well: &lt;a href="https://www.digitalocean.com/community/questions/how-to-install-a-specific-python-version-on-ubuntu">https://www.digitalocean.com/community/questions/how-to-install-a-specific-python-version-on-ubuntu&lt;/a>&lt;/p>
-&lt;h2 id="troubleshooting">Troubleshooting&lt;/h2>
-&lt;h3 id="incorrect-python-version-on-command-prompt">Incorrect Python Version on Command Prompt&lt;/h3>
-&lt;p>If the Windows computer has installed an older version of Python, running &lt;code>python --version&lt;/code> on Command Prompt may output an older version. Typing &lt;code>python3 --version&lt;/code> may output the correct, latest version.&lt;/p></description></item><item><title>Report: Tutorial on Installing Python</title><link>/report/su21-reu-361/deprecated/python/</link><pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/deprecated/python/</guid><description>
+&lt;h2 id="python-venv">Python venv&lt;/h2>
+&lt;p>Before you install packages, you need to create a Python venv in your local environment. We typically do this with&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ python3.9 -m venv ~/ENV3
+$ &lt;span style="color:#204a87">source&lt;/span> ~/ENV3/bin/activate
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>or for Windows executed in git bash&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ python -m venv ~/ENV3
+$ &lt;span style="color:#204a87">source&lt;/span> ~/ENV3/Scripts/activate
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="troubleshooting">Troubleshooting&lt;/h2>
+&lt;h3 id="incorrect-python-version-on-command-prompt-windows">Incorrect Python Version on Command Prompt (Windows)&lt;/h3>
+&lt;p>If the Windows computer has previously installed an older version of Python, running &lt;code>python --version&lt;/code> on Command Prompt may output the previously installed older version. Typing &lt;code>python3 --version&lt;/code> may output the correct, latest version.&lt;/p></description></item><item><title>Report: Tutorial on Installing Python</title><link>/report/su21-reu-361/deprecated/python/</link><pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/deprecated/python/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;p>This tutorial teaches how to install Python on Windows, Mac, and Linux.&lt;/p>
