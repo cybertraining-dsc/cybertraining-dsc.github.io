@@ -26,7 +26,7 @@ reu-add:
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-371.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-372.git
 	# cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-373.git
-	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-374.git
+	# cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-374.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-375.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-360.git
 	cd content/en/report; git submodule add git@github.com:cybertraining-dsc/su21-reu-361.git
@@ -99,7 +99,7 @@ pull-reu:
 	cd content/en/report/su21-reu-371; git checkout main; git pull
 	cd content/en/report/su21-reu-372; git checkout main; git pull
 	# cd content/en/report/su21-reu-373; git checkout main; git pull
-	cd content/en/report/su21-reu-374; git checkout main; git pull
+	# cd content/en/report/su21-reu-374; git checkout main; git pull
 	cd content/en/report/su21-reu-375; git checkout main; git pull
 	cd content/en/report/su21-reu-376; git checkout main; git pull
 	cd content/en/report/su21-reu-377; git checkout main; git pull

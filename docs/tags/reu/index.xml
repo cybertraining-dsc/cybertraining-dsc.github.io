@@ -167,7 +167,7 @@ you have been granted a free license. If it does not arrive immediately, wait a 
 &lt;p&gt;Click &lt;code&gt;Next&lt;/code&gt; unless you would like an icon for Git on the desktop (in which case you can check the box and then click &lt;code&gt;Next&lt;/code&gt;).&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;You will be askes several questions for the setup. We recommend the following settings:&lt;/p&gt;
+&lt;p&gt;You will be asked several questions for the setup. We recommend the following settings:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Click &lt;code&gt;Next&lt;/code&gt; to accept the text editor,&lt;/li&gt;
 &lt;li&gt;Click &lt;code&gt;Next&lt;/code&gt; again to Let Git decide the default branch name&lt;/li&gt;
@@ -228,8 +228,8 @@ markdown file that can be rendered in Hugo and markdownon GitHub.&lt;/p&gt;
 the markdown file.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;When using the file, please add a caption and if it is copied also
-the citation in a REference section&lt;/p&gt;
+&lt;p&gt;When using the file, please add a caption; also, if it is copied, make
+the citation which should point to the reference section&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;pre&gt;&lt;code&gt;![database sample](https://github.com/cybertraining-dsc/fa20-523-312/raw/main/project/images/sampledatabase.png)
@@ -285,7 +285,7 @@ This tutorial outlines both ways.&lt;/p&gt;
 must upload the CSV file to the Google Drive of the same Google account on which it runs the notebook in Colab (e.g., your account). The
 CSV file in this example is titled &lt;code&gt;kag_risk_factors_cervical_cancer&lt;/code&gt; but please rename it accordingly to match the file
 you would like to upload.&lt;/p&gt;
-&lt;p&gt;Cell 2:&lt;/p&gt;
+&lt;p&gt;Cell 1:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pandas&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;as&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;pd&lt;/span&gt;
 &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;google.colab&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;drive&lt;/span&gt; 
 &lt;span style=&#34;color:#000&#34;&gt;drive&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;mount&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;/content/gdrive&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;force_remount&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#3465a4&#34;&gt;True&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
@@ -303,17 +303,17 @@ and paste it into the box on Colab for authentication purposes. Press &lt;code&g
 &lt;p&gt;If it outputs an error along the lines of &lt;code&gt;unknown directory&lt;/code&gt;, try rerunning the two cells and ensuring that
 your CSV is not in any folders inside Google drive. You can also alter the code to point it to a subdirectory if needed.&lt;/p&gt;
 &lt;h2 id=&#34;read-file-from-direct-upload&#34;&gt;Read File from Direct Upload&lt;/h2&gt;
-&lt;p&gt;To read it with build-in colab methods you can use the following code:&lt;/p&gt;
-&lt;p&gt;Cell 2:&lt;/p&gt;
+&lt;p&gt;To read it with built-in Colab methods, you can use the following code:&lt;/p&gt;
+&lt;p&gt;Cell 1:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;google.colab&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;files&lt;/span&gt;
 &lt;span style=&#34;color:#000&#34;&gt;df&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;files&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;upload&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The user will be prompted to click &lt;code&gt;Browse...&lt;/code&gt; and to find the file on the user&amp;rsquo;s local
 computer to upload. Sometimes trying to upload the file will give this error:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;MessageError: RangeError: Maximum call stack size exceeded.&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;In this case, the user should click the folder icon on the left side of Google Colab window, then the paper
-with an arrow icon (to upload a file), then upload the CSV you wish to use. Then rerunning Cell 2 is not
-necessary. Simply proceed to Cell 3. If this still does not work, see &lt;a href=&#34;https://stackoverflow.com/questions/53630073/google-colaboratory-import-data-stack-size-exceeded&#34;&gt;this stackoverflow page&lt;/a&gt; for further information.&lt;/p&gt;
-&lt;p&gt;Cell 3:&lt;/p&gt;
+with an arrow icon (to upload a file), then upload the CSV you wish to use. Then rerunning Cell 1 is not
+necessary. Simply proceed to Cell 2. If this still does not work, see &lt;a href=&#34;https://stackoverflow.com/questions/53630073/google-colaboratory-import-data-stack-size-exceeded&#34;&gt;this stackoverflow page&lt;/a&gt; for further information.&lt;/p&gt;
+&lt;p&gt;Cell 2:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;df&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;pd&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;read_csv&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;kag_risk_factors_cervical_cancer.csv&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
 &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# The next two lines of code convert question marks to NaN and converts values to numeric type, consider &lt;/span&gt;
 &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# removing the next two lines if not necessary.&lt;/span&gt;
@@ -323,7 +323,7 @@ necessary. Simply proceed to Cell 3. If this still does not work, see &lt;a href
 &lt;span style=&#34;color:#000&#34;&gt;df&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;head&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;5&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Remember to rename the instances of &lt;code&gt;kag_risk_factors_cervical_cancer.csv&lt;/code&gt; accordingly so that it matches your file name.&lt;/p&gt;
 &lt;h2 id=&#34;acknowledgments&#34;&gt;Acknowledgments&lt;/h2&gt;
-&lt;p&gt;Credit to Carlos provided the cell to upload the file directly.&lt;/p&gt;
+&lt;p&gt;Credit to Carlos who provided the cell to upload the file directly.&lt;/p&gt;
 
       </description>
     </item>
@@ -3135,93 +3135,6 @@ Status: final, Type: Report&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Report: AI Time Series Analysis</title>
-      <link>/report/su21-reu-374/project/</link>
-      <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/report/su21-reu-374/project/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-374/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-312/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
-&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-374/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-312/workflows/Status/badge.svg&#34; alt=&#34;Status&#34;&gt;&lt;/a&gt;
-Status: draft, Type: Project&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;[*] syntax for refences wron, see original example&lt;/li&gt;
-&lt;li&gt;[*] never ever use the word I or my in your report&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Zyion Morris, &lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-374&#34;&gt;su21-reu-374&lt;/a&gt;, &lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-374/edit/main/project/index.md&#34;&gt;Edit&lt;/a&gt;&lt;/p&gt;
-
-
-&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;Here comes a short abstract of the project that summarizes what it is about&lt;/p&gt;
-&lt;div class=&#34;toc&#34;&gt;
-  &lt;nav id=&#34;TableOfContents&#34;&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&#34;#1-introduction&#34;&gt;1. Introduction&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#2-datasets&#34;&gt;2. Datasets&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#3-using-images&#34;&gt;3. Using Images&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#4-benchmark&#34;&gt;4. Benchmark&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#5-conclusion&#34;&gt;5. Conclusion&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#6-acknowledgments&#34;&gt;6. Acknowledgments&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#7-references&#34;&gt;7. References&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/nav&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; AI, ML, DL, Cybersecurity, Cyber Attacks, IoT.&lt;/p&gt;
-&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;
-&lt;p&gt;Concurrently, research on AI Time analysis includes query on stock market data stucture.
-The mean (level), maximum, minimum values; Time Series Data Components - trend, seasonality, noise or randomness, a curve, and the level.
-Blockchain levies to be the coin flip of how Artificial Intellignece predicts future prices through machine learning.
-numpy, matplotlib, pandas, cloudmesh-common, cloudmesh-cmd5s, are codes existing that demonstrate the use of blockchain with AI using Python.
-What is the code in this project that will be developed?
-What is the performance of this code?
-What is one conclusion utilizing the source code?
-*Never, ever use the words ‘I’ or ‘my’ in a report&lt;/p&gt;
-&lt;h2 id=&#34;2-datasets&#34;&gt;2. Datasets&lt;/h2&gt;
-&lt;p&gt;This report pertains a .CSV file of a dataset predicting the consumption of electricity in the coming future.                 &lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-374/files/6743411/archive.zip&#34;&gt;archive.zip&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;3-using-images&#34;&gt;3. Using Images&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Place a cool image into projects images in my directory&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Correct the following link, replace the fa number with my su number and thne chart of png.&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; If  the image has been copied, you must use a reference such as shown in the Figure 1 caption.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-374/raw/main/project/images/image.png&#34; alt=&#34;Figure 1&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Figure 1:&lt;/strong&gt; Images can be included in the report, but if they are copied you must cite them [^1].&lt;/p&gt;
-&lt;h2 id=&#34;4-benchmark&#34;&gt;4. Benchmark&lt;/h2&gt;
-&lt;p&gt;*Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]&lt;/p&gt;
-&lt;h2 id=&#34;5-conclusion&#34;&gt;5. Conclusion&lt;/h2&gt;
-&lt;p&gt;*A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p&gt;
-&lt;h2 id=&#34;6-acknowledgments&#34;&gt;6. Acknowledgments&lt;/h2&gt;
-&lt;p&gt;*Needs full sentence&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Gregor von Laszewski&lt;/li&gt;
-&lt;li&gt;Yohn Jairo Bautista&lt;/li&gt;
-&lt;li&gt;Carlos Theran&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;7-references&#34;&gt;7. References&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Marco Iansiti and Karim R. Lakhani, The Truth About Blockchain, [Online resource] &lt;a href=&#34;https://hbr.org/2017/01/the-truth-about-blockchain&#34;&gt;https://hbr.org/2017/01/the-truth-about-blockchain&lt;/a&gt;&lt;/p&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;Jeremy Swinfen Green, Understanding cryptocurrency market fluctuations, [Online resource] &lt;a href=&#34;https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/&#34;&gt;https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Mehmet Tarik Akcay, Historical Data for Top 20 Coins by Market Cap, [Online resource] &lt;a href=&#34;https://www.kaggle.com/mtakcy/historical-data-for-top-20-coins-by-market-cap?select=eos.csv&#34;&gt;https://www.kaggle.com/mtakcy/historical-data-for-top-20-coins-by-market-cap?select=eos.csv&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
 
       </description>
     </item>

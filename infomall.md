@@ -4,12 +4,12 @@
 
 1.  Gregor von Laszewski, Anthony Orlowski, Richard H. Otten, Reilly
     Markowitz, Sunny Gandh, Adam Chai, Geoffrey C. Fox, Wo L. Chang
-    (2021). "[[Using GAS for Speedy Generation of HybridMulti-Cloud Auto
+    (2021). "[Using GAS for Speedy Generation of HybridMulti-Cloud Auto
     Generated AI
-    Services](https://www.google.com/url?q=http://dsc.soic.indiana.edu/publications/COMPSAC-GAS-openapi.pdf&sa=D&source=editors&ust=1629047521221000&usg=AOvVaw2AZevS4i8Mv6R4oeZqzBc8)]".
+    Services](https://www.google.com/url?q=http://dsc.soic.indiana.edu/publications/COMPSAC-GAS-openapi.pdf&sa=D&source=editors&ust=1629047521221000&usg=AOvVaw2AZevS4i8Mv6R4oeZqzBc8)".
     IEEE COMPSAC 2021: Intelligent and Resilient Computing for a
     Collaborative World 45th Anniversary
-    [[Conference](https://www.google.com/url?q=https://ieeecompsac.computer.org/2021/&sa=D&source=editors&ust=1629047521222000&usg=AOvVaw3J79RtLZ-ksFS5XVaK2h4l)][.]
+[Conference](https://www.google.com/url?q=https://ieeecompsac.computer.org/2021/&sa=D&source=editors&ust=1629047521222000&usg=AOvVaw3J79RtLZ-ksFS5XVaK2h4l)
 2.  John B. Rundle, Andrea Donnellan, Geoffrey Fox, James P Crutchfield,
     Robert A Granat, "[[Nowcasting Earthquakes: Imaging the Earthquake
     Cycle in California with Machine

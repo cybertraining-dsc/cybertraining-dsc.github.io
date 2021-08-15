@@ -2345,93 +2345,6 @@ Status: final, Type: Report&lt;/p&gt;
     </item>
     
     <item>
-      <title>Report: AI Time Series Analysis</title>
-      <link>/report/su21-reu-374/project/</link>
-      <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/report/su21-reu-374/project/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-374/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-312/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
-&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-374/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-312/workflows/Status/badge.svg&#34; alt=&#34;Status&#34;&gt;&lt;/a&gt;
-Status: draft, Type: Project&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;[*] syntax for refences wron, see original example&lt;/li&gt;
-&lt;li&gt;[*] never ever use the word I or my in your report&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Zyion Morris, &lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-374&#34;&gt;su21-reu-374&lt;/a&gt;, &lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-374/edit/main/project/index.md&#34;&gt;Edit&lt;/a&gt;&lt;/p&gt;
-
-
-&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;Here comes a short abstract of the project that summarizes what it is about&lt;/p&gt;
-&lt;div class=&#34;toc&#34;&gt;
-  &lt;nav id=&#34;TableOfContents&#34;&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&#34;#1-introduction&#34;&gt;1. Introduction&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#2-datasets&#34;&gt;2. Datasets&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#3-using-images&#34;&gt;3. Using Images&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#4-benchmark&#34;&gt;4. Benchmark&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#5-conclusion&#34;&gt;5. Conclusion&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#6-acknowledgments&#34;&gt;6. Acknowledgments&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#7-references&#34;&gt;7. References&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/nav&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; AI, ML, DL, Cybersecurity, Cyber Attacks, IoT.&lt;/p&gt;
-&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;
-&lt;p&gt;Concurrently, research on AI Time analysis includes query on stock market data stucture.
-The mean (level), maximum, minimum values; Time Series Data Components - trend, seasonality, noise or randomness, a curve, and the level.
-Blockchain levies to be the coin flip of how Artificial Intellignece predicts future prices through machine learning.
-numpy, matplotlib, pandas, cloudmesh-common, cloudmesh-cmd5s, are codes existing that demonstrate the use of blockchain with AI using Python.
-What is the code in this project that will be developed?
-What is the performance of this code?
-What is one conclusion utilizing the source code?
-*Never, ever use the words ‘I’ or ‘my’ in a report&lt;/p&gt;
-&lt;h2 id=&#34;2-datasets&#34;&gt;2. Datasets&lt;/h2&gt;
-&lt;p&gt;This report pertains a .CSV file of a dataset predicting the consumption of electricity in the coming future.                 &lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-374/files/6743411/archive.zip&#34;&gt;archive.zip&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;3-using-images&#34;&gt;3. Using Images&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Place a cool image into projects images in my directory&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Correct the following link, replace the fa number with my su number and thne chart of png.&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; If  the image has been copied, you must use a reference such as shown in the Figure 1 caption.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-374/raw/main/project/images/image.png&#34; alt=&#34;Figure 1&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Figure 1:&lt;/strong&gt; Images can be included in the report, but if they are copied you must cite them [^1].&lt;/p&gt;
-&lt;h2 id=&#34;4-benchmark&#34;&gt;4. Benchmark&lt;/h2&gt;
-&lt;p&gt;*Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]&lt;/p&gt;
-&lt;h2 id=&#34;5-conclusion&#34;&gt;5. Conclusion&lt;/h2&gt;
-&lt;p&gt;*A convincing but not fake conclusion should summarize what the conclusion of the project is.&lt;/p&gt;
-&lt;h2 id=&#34;6-acknowledgments&#34;&gt;6. Acknowledgments&lt;/h2&gt;
-&lt;p&gt;*Needs full sentence&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Gregor von Laszewski&lt;/li&gt;
-&lt;li&gt;Yohn Jairo Bautista&lt;/li&gt;
-&lt;li&gt;Carlos Theran&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;7-references&#34;&gt;7. References&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Marco Iansiti and Karim R. Lakhani, The Truth About Blockchain, [Online resource] &lt;a href=&#34;https://hbr.org/2017/01/the-truth-about-blockchain&#34;&gt;https://hbr.org/2017/01/the-truth-about-blockchain&lt;/a&gt;&lt;/p&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;Jeremy Swinfen Green, Understanding cryptocurrency market fluctuations, [Online resource] &lt;a href=&#34;https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/&#34;&gt;https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Mehmet Tarik Akcay, Historical Data for Top 20 Coins by Market Cap, [Online resource] &lt;a href=&#34;https://www.kaggle.com/mtakcy/historical-data-for-top-20-coins-by-market-cap?select=eos.csv&#34;&gt;https://www.kaggle.com/mtakcy/historical-data-for-top-20-coins-by-market-cap?select=eos.csv&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-
-      </description>
-    </item>
-    
-    <item>
       <title>Report: Time Series Analysis of Blockchain-Based Cryptocurrency Price Changes</title>
       <link>/report/su21-reu-361/project/</link>
       <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
@@ -9896,6 +9809,240 @@ researchers have found to be higher in historically segregated communities. In 1
 &lt;/li&gt;
 &lt;li id=&#34;fn:14&#34; role=&#34;doc-endnote&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;http://paperpile.com/b/9IXs7U/FjdO&#34;&gt;&amp;ldquo;Telehealth Network Grant Program,&amp;rdquo; Feb. 12, 2020. &lt;a href=&#34;https://www.hrsa.gov/grants/find-funding/hrsa-20-036&#34;&gt;https://www.hrsa.gov/grants/find-funding/hrsa-20-036&lt;/a&gt; (accessed Dec. 07, 2020).&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:14&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Report: Online Store Customer Revenue Prediction</title>
+      <link>/report/fa20-523-337/project/project/</link>
+      <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/report/fa20-523-337/project/project/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-337/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-337/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-337/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-337/workflows/Status/badge.svg&#34; alt=&#34;Status&#34;&gt;&lt;/a&gt;
+Status: final, Type: Project&lt;/p&gt;
+&lt;p&gt;Balaji Dhamodharan, &lt;a href=&#34;mailto:bdhamodh@iu.edu&#34;&gt;bdhamodh@iu.edu&lt;/a&gt;, fa20-523-337
+Anantha Janakiraman, &lt;a href=&#34;mailto:ajanakir@iu.edu&#34;&gt;ajanakir@iu.edu&lt;/a&gt;, fa20-523-351&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-337/edit/main/project/project.md&#34;&gt;Edit&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Situation&lt;/strong&gt; The 80/20 rule has proven true for many businesses–only a small percentage of customers produce most of the revenue. As such, marketing teams are challenged to make appropriate investments in promotional strategies. The objective of this project is to explore different machine learning techniques and identify an optimized model that can help the marketing team understand customer behavior and make informed decisions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Task&lt;/strong&gt; The challenge is to analyze a Google Merchandise Store (also known as GStore, where Google swag is sold) customer dataset to predict revenue per customer. Hopefully this exploration will lead to actionable insights and help allocating marketing budgets for those companies who choose to use data analysis on top of GA data [^1].&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Action&lt;/strong&gt; This exploration is based on a Kaggle competition and there are two datasets available in Kaggle. One is the test dataset (test.csv) and the other one is the training dataset (train.csv) and together the datasets contain customer transaction information ranging from August 2016 to April 2018. The action plan for this project is to first conduct data exploration that includes but not limited to investigating the statistics of data, examining the target variable distribution and other data distributions visually, determining imputation strategy based on the nature of missing data, exploring different techniques to scale the data, identifying features that may not be needed - for example, columns with constant variance, exploring different encoding techniques to convert categorical data to numerical data and identifying features with high collinearity. The preprocessed data will then be trained using a linear regression model with basic parameter setting and K-Fold cross validation. Based on the outcome of this initial model further experimentation will be conducted to tune the hyper parameters including regularization and also add new derived features to improve the accuracy of the model. Apart from linear regression other machine learning techniques like ensemble methods will be explored and compared.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Result&lt;/strong&gt; The best performing model determined based on the RMSE value will be used in the inference process to predict the revenue per customer. The Kaggle competition requires to predict the natural log of sum of all transactions per customer&lt;/p&gt;
+&lt;p&gt;Contents&lt;/p&gt;
+&lt;div class=&#34;toc&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#1-introduction&#34;&gt;1. Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#2-datasets&#34;&gt;2. Datasets&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#21-metrics&#34;&gt;2.1 Metrics&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#22-source-code&#34;&gt;2.2 Source Code&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#3-methodology&#34;&gt;3. Methodology&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#31-load-data&#34;&gt;3.1 Load Data&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#32-data-exploration&#34;&gt;3.2 Data Exploration&lt;/a&gt;
+          &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&#34;#321-exploratory-data-analysis&#34;&gt;3.2.1 Exploratory Data Analysis&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#33-data-pre-processing&#34;&gt;3.3 Data Pre-Processing&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#34-feature-engineering&#34;&gt;3.4 Feature Engineering&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#34-feature-selection&#34;&gt;3.4 Feature Selection&lt;/a&gt;
+          &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&#34;#341-data-preparation&#34;&gt;3.4.1 Data Preparation&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#35-model-algorithms-and-optimization-methods&#34;&gt;3.5 Model Algorithms and Optimization Methods&lt;/a&gt;
+          &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&#34;#351-linear-regression-model&#34;&gt;3.5.1 Linear Regression Model&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;#352-xgboost-regressor&#34;&gt;3.5.2 XGBoost Regressor&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;#353-lightgbm-regressor&#34;&gt;3.5.3 LightGBM Regressor&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;#354-lasso-regression&#34;&gt;3.5.4 Lasso Regression&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;#355-ridge-regressor&#34;&gt;3.5.5 Ridge Regressor&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#4-benchmark-results&#34;&gt;4. Benchmark Results&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#5-software-technologies&#34;&gt;5. Software Technologies&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#6-conclusion&#34;&gt;6. Conclusion&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#61-model-pipeline&#34;&gt;6.1 Model Pipeline&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#62-feature-exploration-and-pre-processing&#34;&gt;6.2 Feature Exploration and Pre-Processing&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#63-outcome-of-experiments&#34;&gt;6.3 Outcome of Experiments&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#64-limitations&#34;&gt;6.4 Limitations&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#7-previous-explorations&#34;&gt;7. Previous Explorations&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#8-acknowlegements&#34;&gt;8. Acknowlegements&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#9-references&#34;&gt;9. References&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; ecommerce,  regression analysis, big data&lt;/p&gt;
+&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;
+&lt;p&gt;The objective of this exploration is to predict the natural log of total revenue per customer which is a real valued continuous output and an algorithm like linear regression will be ideal to predict the response variable that is continuous using a set of predictor variables given the basic assumption that there is a linear relationship between the predictor and response variables.&lt;/p&gt;
+&lt;h2 id=&#34;2-datasets&#34;&gt;2. Datasets&lt;/h2&gt;
+&lt;p&gt;As mentioned in the earlier sections, the dataset used in this model exploration was downloaded from Kaggle &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; and available in CSV file format. The training contains more than 872K observations and based on the size of the dataset it would be ideal to use mini-batch or gradient descent optimization techniques to identify the coefficients that best describe the model. The target variable as observed in the dataset is a continuous variable which implies that the use case is a regression problem. As mentioned earlier, there are several machine learning techniques that can be explored for this type of problem including regression and ensemble methods with different parameter settings. The sparsity of potential features in the datasets indicates that multiple experimentations will be required to determine the best performing model. Also based on initial review of the datasets, it also observed that some of the categorical features exhibit low to medium cardinality and if these features are going to be retained in the final dataset used for training then it is important to choose the right encoding technique.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Train.csv User transactions from August 1st, 2016 to August 1st, 2017 &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Test.csv User transactions from August 2nd, 2017 to April 30th, 2018  &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;21-metrics&#34;&gt;2.1 Metrics&lt;/h3&gt;
+&lt;p&gt;The metrics used for evaluation in this analysis is the root mean squared error (RMSE). The root mean squared error function forms the objective/cost function which will be minimized to estimate optimal parameters for the linear function using Gradient Descent. The plan is to conduct multiple experiments with different iterations to obtain convergence and try different hyper-parameters (e.g. learning rate).&lt;/p&gt;
+&lt;p&gt;RMSE is defined as:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/loss.png&#34; alt=&#34;Figure 1.1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 1:&lt;/strong&gt; RMSE&lt;/p&gt;
+&lt;p&gt;where y-hat is the natural log of the predicted revenue for a customer and y is the natural log of the actual summed revenue value plus one as seen in Figure-1.&lt;/p&gt;
+&lt;h3 id=&#34;22-source-code&#34;&gt;2.2 Source Code&lt;/h3&gt;
+&lt;p&gt;Follow this &lt;a href=&#34;https://github.com/cybertraining-dsc/fa20-523-337/blob/main/project/code/project.ipynb&#34;&gt;link&lt;/a&gt; to the source code for subsequent sections in this report.&lt;/p&gt;
+&lt;h2 id=&#34;3-methodology&#34;&gt;3. Methodology&lt;/h2&gt;
+&lt;p&gt;The CRISP-DM process methodology was followed in this project. The high-level implementation steps are shown in Figure-2.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/methodology.png&#34; alt=&#34;Methodology&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 2:&lt;/strong&gt; Project Methodology&lt;/p&gt;
+&lt;h3 id=&#34;31-load-data&#34;&gt;3.1 Load Data&lt;/h3&gt;
+&lt;p&gt;The data that was obtained from Kaggle was over 2.6 GB (for Train and Test). As the size of the dataset was significantly large, it was hosted onto a storage bucket in Google Cloud Platform and ingested into the modeling process through standard application API libraries. Also in this project from the available datasets, the Train dataset was used to build the models and test the results because the real end goal is to test the effectiveness of algorithm. Since the test set doesn&amp;rsquo;t contain the Target Variable (rightly so!), it will not be consumed during the testing and evaluation phase in this exploration.&lt;/p&gt;
+&lt;h3 id=&#34;32-data-exploration&#34;&gt;3.2 Data Exploration&lt;/h3&gt;
+&lt;p&gt;The dataset obtained for this project is large and it contains over 872k records. The dataset also contains 12 predictor variables and 1 target variable. The target Variable is totals.transactionRevenue and the objective of this exploration is to predict the total transaction revenue of an online store customer as accurately as possible.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Target Variable:&lt;/strong&gt; The Target Variable is totals.transactionRevenue has the transaction value of each visit. But, this column contains 98.72% of missing values for revenue (no purchase). The Target variable had a skewed distribution originally and after performing a lognormal distribution on the target variable it has a normal distribution.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/y_after_transformation.png&#34; alt=&#34;Target Variable&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 3:&lt;/strong&gt; Target Variable&lt;/p&gt;
+&lt;h4 id=&#34;321-exploratory-data-analysis&#34;&gt;3.2.1 Exploratory Data Analysis&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Browser:&lt;/strong&gt; The most popular browser is Google Chrome. Also, it was observed during the analysis that second and third best users were using safari and firefox respectively.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/device_browser.png&#34; alt=&#34;Browser Variable&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 4:&lt;/strong&gt; Browser Variable&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Device Category:&lt;/strong&gt; Almost 70% of users were accessing online store via desktop&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/device_category.png&#34; alt=&#34;Device Category Variable&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 5:&lt;/strong&gt; Device Category Variable&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;OperatingSystem:&lt;/strong&gt; Windows is the popular operating system among the desktop users. However, among the mobile users, what&amp;rsquo;s interesting is, almost equal number of ios users (slightly lower) as android users accessed google play store. The reason why this is interesting is because, google play store is primarily used by android users and ios users almost always use Apple Store for downloading apps to their mobile devices. So it is interesting to know, almost equal number of ios users visit google store as well.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/device_operating_system.png&#34; alt=&#34;OperatingSystem&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 6:&lt;/strong&gt; Operating System&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;GeoNetwork-City:&lt;/strong&gt; Mountain View, California tops the cities list for the users who accessed online store. However in the top 10 cities, 4 cities are from California.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/geo_network_city.png&#34; alt=&#34;GeoNetwork-City&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 7:&lt;/strong&gt; GeoNetwork City&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;GeoNetwork-Country:&lt;/strong&gt; Customers from US are way ahead of other customers from different countries. May be this could be due to the fact that online store data that was provided was pulled from US Google Play Store (Possible BIAS!).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/geo_network_country.png&#34; alt=&#34;GeoNetwork-Country&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 8:&lt;/strong&gt; GeoNetwork Country&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;GeoNetwork-Region:&lt;/strong&gt; It is already known that majority of the customers are from US, so America region tops the list.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/geo_network_continent.png&#34; alt=&#34;GeoNetwork-Region&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 9:&lt;/strong&gt; GeoNetwork Region&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;GeoNetwork-Metro:&lt;/strong&gt; SFO tops the list for all metro cities, followed by New York and then London.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/geo_network_metro.png&#34; alt=&#34;GeoNetwork-Metro&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 10:&lt;/strong&gt; GeoNetwork Region&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ad Sources:&lt;/strong&gt; Google Merchandise and Google Online Store are the top sources where the traffic is coming from to the Online Store.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/traffic_source_adcontent.png&#34; alt=&#34;GeoNetwork-Metro&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 11:&lt;/strong&gt; Ad Sources&lt;/p&gt;
+&lt;h3 id=&#34;33-data-pre-processing&#34;&gt;3.3 Data Pre-Processing&lt;/h3&gt;
+&lt;p&gt;Data Pre-Processing is an important step to build a Machine Learning Model. The data pre-processing step typically consists of data cleaning, transformation, standardization and feature selection, so only the most cleaner and accurate data is fed to a model. The dataset that was downloaded for this project contains several issues with formatting, lot of missing values, less to no variance (zero variance) in some of features and it was also observed the target variable does not have random distribution.  The variables such as totals_newVisits, totals_bounces, trafficSource_adwordsClickInfo_page, trafficSource_isTrueDirect, totals_bounces, totals_newVisits had missing values. The missing values were imputed with zeroes, so the machine learning algorithm is able to execute without errors and there are no issues during categorical to numerical encoding. This is a very important step in building the Machine Learning Pipeline.&lt;/p&gt;
+&lt;h3 id=&#34;34-feature-engineering&#34;&gt;3.4 Feature Engineering&lt;/h3&gt;
+&lt;p&gt;Feature Engineering is the process of extracting the hidden signals/features, so the model can use these features to increase the predictive power. This step is the fundamental difference between a good model and a bad model. Also, there is no one-size-fits all approach for Feature Engineering. It is extremely time consuming and requires a lot of domain knowledge as well.
+For this project, a set of sophisticated functions to extract date related values such as Month, Year, Data, Weekday, WeekofYear have been created. It was observed that browser and operating systems are redundant features and instead of removing them, they were merged to create a combined feature which will potentially increase the predictive power. Also as part of feature engineering several features were derived like mean, sum and count of pageviews and hits that should help increase the feature space and ultimately reduce the total error increasing the overall accuracy of the model.&lt;/p&gt;
+&lt;h3 id=&#34;34-feature-selection&#34;&gt;3.4 Feature Selection&lt;/h3&gt;
+&lt;p&gt;Feature Selection refers to selection of features in your data that would improve your machine learning model. There is subtle variation between Feature Selection and Feature Engineering. The Feature Engineering technique is designed to extract more feature from the dataset and the feature selection technique allows only relevant features into the dataset. Also, how does anyone know what are the relevant features? There are several methodologies and techniques that are developed over the years but there is no one-size-fits-all methodology.&lt;/p&gt;
+&lt;p&gt;Feature Selection like Feature Engineering is more of an art than science. There are several iterative procedure that uses Information Gain, Entropy and Correlation scores to decide which feature gets into the model. There are also advanced Deep learning models that can be built or tree based models that can help observe variables of high importance after the model is built. Similar to Feature Engineering, Feature Selection should also require domain specific knowledge to develop festure selection strategies.&lt;/p&gt;
+&lt;p&gt;In this project, the features that had constant variance in the data were dropped and also the features that had mostly null values with only one Non-null value were dropped too. These features do not possess any statistical significance and add very less value to the modeling process. Also, depending on the final result, different techniques and strategies can be explored to optimize and improve the performance of the model.&lt;/p&gt;
+&lt;h4 id=&#34;341-data-preparation&#34;&gt;3.4.1 Data Preparation&lt;/h4&gt;
+&lt;p&gt;Scikit learn has inbuilt libraries to handle Train/Test Split as part the model_selection package. The dataset was split randomly with 80% Training and 20% Testing datasets.&lt;/p&gt;
+&lt;h3 id=&#34;35-model-algorithms-and-optimization-methods&#34;&gt;3.5 Model Algorithms and Optimization Methods&lt;/h3&gt;
+&lt;p&gt;Different Machine Learning algorithms and techniques were explored in this project and the outcome of the exploration along with different parameter settings have been discussed in the following sections.&lt;/p&gt;
+&lt;h4 id=&#34;351-linear-regression-model&#34;&gt;3.5.1 Linear Regression Model&lt;/h4&gt;
+&lt;p&gt;Linear regression is a supervised learning model that follows a linear approach in that it assumes a linear relationship between one ore more predictor variables (x) and a single target or response variable (y). The target variable can be calculated as a linear combination of the predictors or in other words the target is the calculated by weighted sum of the inputs and bias where the weights are estimated through different optimization techniques. Linear regression is referred to as simple linear regression when there is only one predictor variable involved and referred to as multiple linear regression when there are more than one predictor variables involved. The error between the predicted output and the ground truth is generally calculated using RMSE (root mean squared error). This is one of the classic modeling techniques that was explored in this project because the target variable (revenue per customer) is a real valued continuous output and exhibits a significant linear relationship with the independent variables or the input variables &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;In the exploration, SKLearn Linear Regression performed well overall. A 5 fold cross validation was performed and the best RMSE Score for this model observed was: 1.89. As shown in the Figure-12, the training and test RMSE error values are very close indicating that there is no overfitting the data.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/linear_regression3.png&#34; alt=&#34;Linear Regression&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 12:&lt;/strong&gt; Linear Regression Model&lt;/p&gt;
+&lt;h4 id=&#34;352-xgboost-regressor&#34;&gt;3.5.2 XGBoost Regressor&lt;/h4&gt;
+&lt;p&gt;XGBoost regression is a gradient boosting regression technique and one of the popular gradient boosting frameworks that exists today. It follows the ensemble principle where a collection of weak learners improve the prediction accuracy. The prediction in the current step S is weighed based on the outcomes from the previous step S-1. Weak learning is slightly better than random learning and that is one of the key strengths of gradient boosting technique. The XGBoost algorithm was explored for this project for several reasons including it offers built-in regularization that helps avoid overfitting, it can handle missing values effectively and it also does cross validation automatically. The feature space for the dataset being used is sparse and believe the potential to overfit the data is high which is one of the primary reasons for exploring XGBoost &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;XGBoost Regressor performed very well. It was the best performing model with the lowest RMSE score of 1.619. Also the training and test scores are reasonably close and it doesn&amp;rsquo;t look like there was the problem of over fitting the training data. Multiple training iterations of this model were explored with different parameters and most of the iterations resulted in significant error reduction compared to the other models making it the best performing model overall.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/xgboost3new.png&#34; alt=&#34;XGBoost&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 13:&lt;/strong&gt; XGBoost Model&lt;/p&gt;
+&lt;h4 id=&#34;353-lightgbm-regressor&#34;&gt;3.5.3 LightGBM Regressor&lt;/h4&gt;
+&lt;p&gt;LightGBM is a popular gradient boosting framework similar to XGBoost and is gaining popularity in the recent days. The important difference between lightGBM and other gradient boosting frameworks is that LightGBM grows the tree vertically or in other words it grows the tree leaf-wise compared to other frameworks where the trees grow horizontally. In this project the lightGBM framework was experimented primarily because this framework works well on large dataset with more than 10K observations. The algorithm also has a high throughput while using reasonably less memory but there is one problem with overfitting the data which was controlled to a large extent in this exploration using appropriate hyper parameter setting and achieved optimal performance &lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;LightGBM Regression was the second best performing model in terms of RMSE scores. Also the training and test scores observed were slightly different indicating a potential problem of overfitting as discussed earlier. As in other experiments, multiple training iterations of this model were explored with different parameter settings and although it achieved reasonable error reduction compared to most of the other models that were explored, it still did not outperform the XGBoost regressor making it the second best performing model.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/lighgbm3new.png&#34; alt=&#34;lightgbm&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 14:&lt;/strong&gt; LightGBM Model&lt;/p&gt;
+&lt;h4 id=&#34;354-lasso-regression&#34;&gt;3.5.4 Lasso Regression&lt;/h4&gt;
+&lt;p&gt;Lasso is a regression technique that uses L1 regularization. In statistics, lasso regression is a method to do automatic variable selection and regularization to improve prediction accuracy and performance of the statistical model. Lasso regression by nature makes the coefficient for some of the variables zero meaning these variables are automatically eliminated from the modeling process. The L1 regularization parameter helps control overfitting and will need to be explored for a range of values for a specific problem. When the regularization penalty tends to be zero there is no regularization, and the loss function is mostly influenced by the squared loss and in contrary if the regularization penalty tends to be closer to infinity then the objective function is mostly influenced by the regularization part. It is always ideal to explore a range of values for the regularization penalty to improve the accuracy and avoid overfitting &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;In this project, Lasso is one of the important techniques that was explored primarily because the problem being solved is a regression problem and there is possibility to overfit the data due to the number of observations and feature space. During the model training phase different ranges for regularization penalty were explored and the appropriate value that helped achieve maximum reduction in the total RMSE score was identified.&lt;/p&gt;
+&lt;p&gt;Lasso performed slightly better than baseline model. However, it did not outperform lightGBM or XGBoost or tree based models in general.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/lasso3new.png&#34; alt=&#34;lasso&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 15:&lt;/strong&gt; Lasso Model&lt;/p&gt;
+&lt;h4 id=&#34;355-ridge-regressor&#34;&gt;3.5.5 Ridge Regressor&lt;/h4&gt;
+&lt;p&gt;Ridge is a regression technique that uses L2 regularization. Ridge regression does not offer automatic variable selection in the sense that it is not make the weights zero on any of the variable used in the model and the regularization term in a ridge regression is slightly different than the lasso regression. The regularization term is the sum of the square of coefficients multiplied by the penalty whereas in lasso it is the sum of the absolute value of the coefficients. The regularization term is a gentle trade-off between fitting the model and overfitting the model and like in lasso it helps improve prediction accuracy as well as performance of the statistical model. The L2 regularization parameter helps control overfitting and will need to be explored for a range of values for a specific problem similar to Lasso. The regularization parameter also helps reduce multicollinearity in the model. Similar to Lasso, when the regularization penalty tends to be zero there is no regularization, and the loss function is mostly influenced by the squared loss and in contrary if the regularization penalty tends to be closer to infinity then the objective function is mostly influenced by the regularization part. As in the case of Lasso, it is always ideal to explore a range of values for the regularization penalty to improve the accuracy and avoid overfitting &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;In this project, Ridge regression is one of the important techniques that was explored again primarily because the problem being solved is a regression problem and there is possibility to overfit the data due to the number of observations and feature space. During the model training phase different ranges for regularization penalty were explored and the appropriate value that helped achieve maximum reduction in the total RMSE score was identified. Ridge performed slightly better than baseline model. However like Lasso, it did not outperform lightGBM or XGBoost or tree based models in general.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/ridge3new.png&#34; alt=&#34;Ridge&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 16:&lt;/strong&gt; Ridge Model&lt;/p&gt;
+&lt;h2 id=&#34;4-benchmark-results&#34;&gt;4. Benchmark Results&lt;/h2&gt;
+&lt;p&gt;There are some interesting observations from the benchmark results seen in Figure-17. As expected, the data exploration and pre-processing performed very well and the data load and flattening of JSON took only a few hundred milliseconds on a platform like Google Colab compared to more than a minute running the same code locally on a desktop. The grid search for linear regression as expected took more time than the grid search for regularization techniques which is an interesting finding. The model training phase using ridge regression took only half the time approximately 250 seconds compared to 811 seconds for lasso regression. The highest training time of approximately 1800 seconds was recorded with XGBoost regressor and although the original assumption was that this modeling technique would consume time and significant system resources to complete the training process, the total time of 1800 seconds was certainly in the higher end. But, considering the fact that random forest regressor took more than 90 minutes to complete the training process during the experimentation phase, XGBoost performed much better than random forest. The other interesting observation was between LightGBM and XGBoost where LightGBM took significantly less time than XGBoost regressor and if performance and high availability are key considerations during operationalization with slight compromise on model performance then LightGBM would be an ideal candidate for real time operationalization.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/benchmark1.png&#34; alt=&#34;Benchmark&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 17:&lt;/strong&gt; Benchmark Results&lt;/p&gt;
+&lt;h2 id=&#34;5-software-technologies&#34;&gt;5. Software Technologies&lt;/h2&gt;
+&lt;p&gt;In this project tools like Python and Google Colab Jupyter Notebook were used. Also several Python packages were employed in this exploration such as Pandas, Numpy, Matplotlib, sklearn&lt;/p&gt;
+&lt;h2 id=&#34;6-conclusion&#34;&gt;6. Conclusion&lt;/h2&gt;
+&lt;p&gt;As a project team the intention was to create a template that can be utilized for any ML project. The dataset that was used for this project was challenging in a way that it required a lot of data cleaning, flattening and transformation to get the data into the required format.&lt;/p&gt;
+&lt;h3 id=&#34;61-model-pipeline&#34;&gt;6.1 Model Pipeline&lt;/h3&gt;
+&lt;p&gt;In this project, multiple regression and tree based models from scikit learn library were explored with various hyper parameter setting and other methods like the lightGBM. The goal of the model pipeline was to explore and examine data, identify data pre-processing methods, imputation strategies, derive features and try different feature extraction methods was to perform different experiments with different parameter setting and identify the optimized with low RMSE that can be operationalized in Production. The parameters were explored within the boundary of this problem setting using different techniques.&lt;/p&gt;
+&lt;h3 id=&#34;62-feature-exploration-and-pre-processing&#34;&gt;6.2 Feature Exploration and Pre-Processing&lt;/h3&gt;
+&lt;p&gt;As part of this project a few features were engineered and included in the training dataset. The feature importance visualizations that were generated after the model training process indicate that these engineered features were part of the top 30% of high impact features and they contributed reasonably to improving the overall accuracy of the model. During additional experimentation phase, the possibility of including few other potential features that could be derived from the dataset was explored and those additional features were included in the final dataset that was used during model training. Although these features did not contribute largely to reducing the error it gave an opportunity to share ideas and methods to develop these new features. Also during feature exploration phase other imputation strategies were evaluated, attempted to identify more outliers and tried different encoding techniques for categorical variables and ultimately determined that label encoder or ordinal encoder is the best way forward. Also some of the low importance features were excluded and the model was retrained to validate if the same or better RMSE value could be achieved.&lt;/p&gt;
+&lt;h3 id=&#34;63-outcome-of-experiments&#34;&gt;6.3 Outcome of Experiments&lt;/h3&gt;
+&lt;p&gt;Multiple modeling techniques were explored as part of this project like Linear regression, gradient boosting algorithms and linear regression regularization techniques. The techniques were explored with basic parameter setting and based on the outcome of those experiments, the hyper parameters were tuned using grid search to obtain the best estimator evaluated on RMSE. Also, during grid search K-Fold cross validation of training data was used and the cross validated results were examined through a results table. The fit_intercept flag played a significant role resulting in an optimal error. As part of the different experimentations that were performed, random forest algorithm was also explored but it suffered performance issues and it seemed like it would require more iterations to converge which is why it was dropped from our results and further exploration. Although random forest was not explored, gradient boosting techniques were part of the experimentations and the best RMSE from XGBoost. The LightGBM regressor was also explored with different parameter settings but it did not produce better RMSE score than XGBoost.&lt;/p&gt;
+&lt;p&gt;In the case of XGBoost, there was improvement to the RMSE score as different tree depths, feature fraction, learning rate, number of children, bagging fraction, sub-sample were explored. There was significant improvement to the error metric when these parameters were adjusted in an intuitive way. Also, linear regression with regularization techniques were explored and although there was some improvement to the error metric compared to the basic linear regression model they did not perform better than the gradient boosting method that was explored. So, based on different explorations and experimentations a reasonably conclusion can be made that gradient boosting technique performed better for the given problem setting and generated the best RMSE score. Based on the evaluation results of XGBoost on the dataset used, the recommendation would be to test the XGBoost model with real time data and the performance of the model can be evaluated in real-time scenario too and additionally, if needed, hyper parameter tuning can be performed on the XGBoost model specifically for the real-time scenario &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;. The feature engineering process on the dataset helped derive features with additional predictive value and a pipeline was built to reuse the same process in different modeling techniques. Five different models were tested including Linear Regression, XGBoost, Light GBM, Lasso and Ridge. The summary of all the models can be seen in Figure-17.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/fa20-523-337/raw/main/project/images/model_results_new2new.png&#34; alt=&#34;Model_Results&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 18:&lt;/strong&gt; Model Results Summary&lt;/p&gt;
+&lt;h3 id=&#34;64-limitations&#34;&gt;6.4 Limitations&lt;/h3&gt;
+&lt;p&gt;Due to the limited capacity of our Colab Notebook setup, there was difficulty in performing cross Validation for XGBoost and LightGBM. The KFold cross validation with different parameter settings would have helped identify the best estimator for these models, helped achieve even better rmse scores and potentially avoid overfitting, if any. The tree based models performed well in this dataset and it would be beneficial to explore other tree based models like Random Forest in the future and evaluate/compare the performance.&lt;/p&gt;
+&lt;h2 id=&#34;7-previous-explorations&#34;&gt;7. Previous Explorations&lt;/h2&gt;
+&lt;p&gt;The Online GStore customer revenue prediction problem is a Kaggle competition with more than 4100 entries. It is one of the popular challenges in Kaggle with a prize money of $45,000. Although the goal was not to make it to the top in the leader board, the challenge gave a huge opportunity to explore different methods, techniques, tools and resources. The one important difference between many of the previous of explorations versus what has been achieved in this exploration is the number of different machine learning algorithms that was explored and the performance for each of those different techniques were examined. Based on review of several submissions in Kaggle there were only a very few kernel entries that explored different parameter settings and making intuitive adjustments to them to make the model perform at an optimum level like what has been accomplished in this project. The other uniqueness that was brought to this submission was identifying techniques that offered good performance and consumed less system resources in terms of operationalization. There is lot of scope to continue exploration and attempt other techniques to identify the best performing model.&lt;/p&gt;
+&lt;h2 id=&#34;8-acknowlegements&#34;&gt;8. Acknowlegements&lt;/h2&gt;
+&lt;p&gt;The team would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and the other instructors in the Big Data Applications course for their guidance and support through the course of this project and advise on documenting the results of various explorations.&lt;/p&gt;
+&lt;h2 id=&#34;9-references&#34;&gt;9. References&lt;/h2&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Kaggle Competition,2019,Predict the Online Store Revenue,[online] Available at: &lt;a href=&#34;https://www.kaggle.com/c/ga-customer-revenue-prediction/rules&#34;&gt;https://www.kaggle.com/c/ga-customer-revenue-prediction/rules&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Kaggle Competition,2019,Predict the Online Store Revenue, Data, [online] Available at: &lt;a href=&#34;https://www.kaggle.com/c/ga-customer-revenue-prediction/data&#34;&gt;https://www.kaggle.com/c/ga-customer-revenue-prediction/data&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Machine Learning Mastery,2016,Brownlee, Linear Regression Model, [online] Available at: &lt;a href=&#34;https://machinelearningmastery.com/linear-regression-for-machine-learning&#34;&gt;https://machinelearningmastery.com/linear-regression-for-machine-learning&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;XGBoost 2020,xgboost developers, XGBoost, [online] Available at: &lt;a href=&#34;https://xgboost.readthedocs.io&#34;&gt;https://xgboost.readthedocs.io&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Datacamp,2019,Pathak, Using XGBoost in Python, [online] Available at: &lt;a href=&#34;https://www.datacamp.com/community/tutorials/xgboost-in-python&#34;&gt;https://www.datacamp.com/community/tutorials/xgboost-in-python&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:6&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Towards Datascience,2017,Lutins, Ensemble Methods in Machine Learning, [online] Available at: &lt;a href=&#34;https://towardsdatascience.com/ensemble-methods-in-machine-learning-what-are-they-and-why-use-them-68ec3f9fef5f&#34;&gt;https://towardsdatascience.com/ensemble-methods-in-machine-learning-what-are-they-and-why-use-them-68ec3f9fef5f&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:7&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Medium 2017,Mandot, What is LightGBM,[online] Available at: &lt;a href=&#34;https://medium.com/@pushkarmandot/https-medium-com-pushkarmandot-what-is-lightgbm-how-to-implement-it-how-to-fine-tune-the-parameters-60347819b7fc&#34;&gt;https://medium.com/@pushkarmandot/https-medium-com-pushkarmandot-what-is-lightgbm-how-to-implement-it-how-to-fine-tune-the-parameters-60347819b7fc&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:8&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Kaggle 2018,Daniel, Google Analytics Customer Revenue Prediction, [online] Available at: &lt;a href=&#34;https://www.kaggle.com/fabiendaniel/lgbm-starter&#34;&gt;https://www.kaggle.com/fabiendaniel/lgbm-starter&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:9&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Towards Datascience,2018,Bhattacharya, Ridge and Lasso regression, [online] Available at: &lt;a href=&#34;https://towardsdatascience.com/ridge-and-lasso-regression-a-complete-guide-with-python-scikit-learn-e20e34bcbf0b&#34;&gt;https://towardsdatascience.com/ridge-and-lasso-regression-a-complete-guide-with-python-scikit-learn-e20e34bcbf0b&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:9&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:10&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Datacamp,2019,Oleszak, Regularization: Ridge, Lasso and Elastic Net, [online] Available at: &lt;a href=&#34;https://www.datacamp.com/community/tutorials/tutorial-ridge-lasso-elastic-net&#34;&gt;https://www.datacamp.com/community/tutorials/tutorial-ridge-lasso-elastic-net&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:10&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
