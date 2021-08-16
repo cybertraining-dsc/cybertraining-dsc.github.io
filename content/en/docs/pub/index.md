@@ -287,11 +287,11 @@ Lectures](http://dsc.soic.indiana.edu/publications/E534-BigDataSystems-DeepLearn
    "Gregor von Laszewski, Yohn Jairo Parra Bautista, Carlos Theran, Geoffrey C. Fox, Richard Alo, Byron Greene"
    * Online: Technical Report Cybertraining DSC, Indiana University, Dec. 2020
    <https://cybertraining-dsc.github.io/docs/report/2021-reu/>
-   * PDF: <https://cybertraining-dsc.github.io/pub/reu2021.pdf>
+   * PDF: <https://cybertraining-dsc.github.io/docs/pub/reu2021.pdf>
 2. Proceedings: 2021 AI First Engineering,
 Geoffrey C. Fox and Gregor von Laszewski,
    * Online: <https://cybertraining-dsc.github.io/docs/report/2021/>
-   * PDF: <https://cybertraining-dsc.github.io/pub/ai2021.pdf>
+   * PDF: <https://cybertraining-dsc.github.io/docs/pub/ai2021.pdf>
 
 3. Geoffrey Fox and Gregor von Laszewski, "[E534 Big Data
 Algorithms and Applications
