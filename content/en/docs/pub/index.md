@@ -60,7 +60,7 @@ the Argonne National Laboratory
 
 #### 2021 REU Reports
 
-https://cybertraining-dsc.github.io/docs/report/2021-reu/
+https://cybertraining-dsc.github.io/docs/report/2021-reu
 
 1.	reu21-reu-361: Project: Time Series Analysis of Blockchain-Based Cryptocurrency Price Changes, Jacques Fleischer, https://cybertraining-dsc.github.io/report/su21-reu-361/project/ 
 2.	su21-reu-362: Project: Breast Cancer and Genetics, Kehinde Ezekiel, https://cybertraining-dsc.github.io/report/su21-reu-362/project/ 
@@ -283,11 +283,11 @@ Lectures](http://dsc.soic.indiana.edu/publications/E534-BigDataSystems-DeepLearn
 
 ### Proceedings
 
-1. Proceedings: 2021 FAMU REU with support from Cybertraining-DSC,
-Gregor von Laszewski, Yohn Jairo Parra Bautista, Carlos Theran Geoffrey C. Fox,
+1. "Proceedings 2021 FAMU REU supported by Cybertraining-DSC"
+   "Gregor von Laszewski, Yohn Jairo Parra Bautista, Carlos Theran, Geoffrey C. Fox, Richard Alo, Byron Greene"
    * Online: Technical Report Cybertraining DSC, Indiana University, Dec. 2020
    <https://cybertraining-dsc.github.io/docs/report/2021-reu/>
-   * PDF: <https://cybertraining-dsc.github.io/pub/vonLaszewski-reu2021.pdf>
+   * PDF: <https://cybertraining-dsc.github.io/pub/reu2021.pdf>
 2. Proceedings: 2021 AI First Engineering,
 Geoffrey C. Fox and Gregor von Laszewski,
    * Online: <https://cybertraining-dsc.github.io/docs/report/2021/>
