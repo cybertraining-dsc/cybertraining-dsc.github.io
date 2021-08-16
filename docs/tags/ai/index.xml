@@ -3104,7 +3104,7 @@ classification of six types of DIS &lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#
     </item>
     
     <item>
-      <title>Report: Project: Aquatic Animals Classification Using AI</title>
+      <title>Report: Report: Aquatic Animals Classification Using AI</title>
       <link>/report/su21-reu-370/project/</link>
       <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
       
@@ -3114,7 +3114,7 @@ classification of six types of DIS &lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#
         
         &lt;p&gt;&lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-370/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-370/workflows/Check%20Report/badge.svg&#34; alt=&#34;Check Report&#34;&gt;&lt;/a&gt;
 &lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-370/actions&#34;&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-370/workflows/Status/badge.svg&#34; alt=&#34;Status&#34;&gt;&lt;/a&gt;
-Status: draft, Type: Project&lt;/p&gt;
+Status: final, Type: Report&lt;/p&gt;
 &lt;p&gt;Timia Williams, &lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-370&#34;&gt;su21-reu-370&lt;/a&gt;, &lt;a href=&#34;https://github.com/cybertraining-dsc/su21-reu-370/blob/main/project/index.md&#34;&gt;Edit&lt;/a&gt;&lt;/p&gt;
 
 
@@ -3146,13 +3146,13 @@ Status: draft, Type: Project&lt;/p&gt;
 &lt;p&gt;Aquatic ecologists often count animals to keep up the population count of providing critical conservation and management. Since the creation of underwater cameras and other recording equipment, underwater devices have allowed scientists to safely and efficiently classify fishes images without the disadvantages of manually entering data, ultimately saving lots of time, labor, and money. The use of machine learning to automate image processing has its benefits but has rarely been adopted in aquatic studies. With using efforts to use deep learning methods, the classification of specific species could potentially increase. In fact, there is a study done in Australia&amp;rsquo;s ocean waters that classification of fish through deep learning was more efficient that manual human classification. In the study to test the abundance of different species, &amp;ldquo;The computer’s performance in determining abundance was 7.1% better than human marine experts and 13.4% better than citizen scientists in single image test datasets, and 1.5 and 7.8% higher in video datasets, respectively&amp;rdquo; (Campbell, M. D.). This remarkably explain that using machiene learning in marine animals is a better method than a manually classifying Aquatic animals Not only is it good for classification, it will be used to answer broader questions such as population count, the location of species, its abundance, and how it appears to be thriving. Since Machine learning and deep learning are often defined as one, both learning methods will be used to analyze the images and find patterns on my data.&lt;/p&gt;
 &lt;h2 id=&#34;3-datasets&#34;&gt;3. Datasets&lt;/h2&gt;
 &lt;p&gt;We used two datasets in my project. The first dataset includes the pictures that I took at the Georgia Acquarium. That dataset was used for testing. The second dataset used was a fish dataset from kaggle which contains 9 different seafood types (Black Sea Sprat, Gilt-Head Bream, Hourse Mackerel, Red Mullet, Red Sea Bream, Sea Bass, Shrimp, Striped Red Mullet, Trout). For each type, there are 1000 augmented images and their pair-wise augmented ground truths.&lt;/p&gt;
-&lt;p&gt;The link to access the dataset I used from kaggle is &lt;a href=&#34;https://www.kaggle.com/crowww/a-large-scale-fish-dataset&#34;&gt;https://www.kaggle.com/crowww/a-large-scale-fish-dataset&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The link to access the Kaggle dataset is &lt;a href=&#34;https://www.kaggle.com/crowww/a-large-scale-fish-dataset&#34;&gt;https://www.kaggle.com/crowww/a-large-scale-fish-dataset&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;31-sample-of-images-of-personal-dataset&#34;&gt;3.1. Sample of Images of Personal Dataset&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-370/main/project/images/IMG_1566.jpg&#34; width=&#34;30%&#34;&gt; &lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-370/main/project/images/IMG_1583.jpg&#34; width=&#34;30%&#34;&gt; &lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-370/main/project/images/IMG_1574.jpg&#34; width=&#34;30%&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-370/raw/main/project/images/IMG_1566.jpg&#34; width=&#34;30%&#34;&gt; &lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-370/raw/main/project/images/IMG_1583.jpg&#34; width=&#34;30%&#34;&gt; &lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-370/raw/main/project/images/IMG_1574.jpg&#34; width=&#34;30%&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Left to right: Banded Archerfish, Lionfish, and Red Piranha&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Figure 1:&lt;/strong&gt; These images are samples of my personal data which is made up of images of fishes taken at the Georgia Acquarium.&lt;/p&gt;
 &lt;h2 id=&#34;32-sample-of-images-from-large-scale-fish-dataset&#34;&gt;3.2. Sample of Images from Large Scale Fish Dataset&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-370/main/project/images/IMG_1565.jpg&#34; alt=&#34;Figure 1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/cybertraining-dsc/su21-reu-370/raw/main/project/images/IMG_1565.jpg&#34; alt=&#34;Figure 1&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;4-conclusion&#34;&gt;4. Conclusion&lt;/h2&gt;
 &lt;p&gt;Deep learning methods provide a faster, cheaper, and more accurate alternative to manual data analysis methods currently used to monitor and assess animal abundance and have much to offer the field of aquatic ecology. We was able to create a model to prove that we can use AI to efficiently detect and classify marine animals.&lt;/p&gt;
 &lt;h2 id=&#34;5-acknowledgments&#34;&gt;5. Acknowledgments&lt;/h2&gt;
