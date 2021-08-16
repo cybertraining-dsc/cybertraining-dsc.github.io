@@ -32,7 +32,10 @@ os.system(f"gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=reu2021.pdf v
 
 
 # 365.pdf
+os.system("cp reu2021.pdf ../../content/en/docs/pub")
 
 os.system("open reu2021.pdf")
+
+
 
 
