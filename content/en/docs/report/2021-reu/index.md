@@ -3,9 +3,9 @@ title: "2021 REU Reports"
 linkTitle: "2021 REU Reports"
 weight: 21
 description: "Research experience for under graduate reports for the summer of 2021."
-menu:
-  main: 
-    weight: 1
+#menu:
+#  main: 
+#    weight: 1
 aliases:
   - /report/2021-reu
 ---
