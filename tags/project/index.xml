@@ -1,87 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – project</title><link>/tags/project/</link><description>Recent content in project on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 21 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/project/index.xml" rel="self" type="application/rss+xml"/><item><title>Report: Tutorial on Uploading Files to Google Colab</title><link>/report/su21-reu-361/deprecated/colab/</link><pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/deprecated/colab/</guid><description>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>This tutorial teaches how to import csv&amp;rsquo;s into a Google Colab .ipynb.&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#note">Note&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#read-file-from-drive">Read File from Drive&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#read-file-from-direct-upload">Read File from Direct Upload&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> colab&lt;/p>
-&lt;h2 id="note">Note&lt;/h2>
-&lt;p>There are two different methods on uploading files to Google Colab Jupyter notebooks. One way is to
-have the user upload the file to the user&amp;rsquo;s Google Drive before running the notebook. Another way
-is to have the notebook ask the user to upload a file from the user&amp;rsquo;s computer directly into the notebook.
-This tutorial outlines both ways.&lt;/p>
-&lt;p>The notebook code with both methods can be found &lt;a href="https://colab.research.google.com/drive/1nUMmLYpz_4fILf6xrJMDWs9_vFFUrZQ6?usp=sharing">here&lt;/a>&lt;/p>
-&lt;h2 id="read-file-from-drive">Read File from Drive&lt;/h2>
-&lt;p>The first cell contains import statements, some of which are not used because the code was taken from an
-REU student&amp;rsquo;s code. Nonetheless, it should not be a problem to run the code on Google Colab which
-automatically imports such modules.&lt;/p>
-&lt;p>Cell 1:&lt;/p>
-&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">numpy&lt;/span> &lt;span style="color:#204a87;font-weight:bold">as&lt;/span> &lt;span style="color:#000">np&lt;/span>
-&lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">pandas&lt;/span> &lt;span style="color:#204a87;font-weight:bold">as&lt;/span> &lt;span style="color:#000">pd&lt;/span>
-&lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">matplotlib.pyplot&lt;/span> &lt;span style="color:#204a87;font-weight:bold">as&lt;/span> &lt;span style="color:#000">plt&lt;/span>
-&lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">seaborn&lt;/span> &lt;span style="color:#204a87;font-weight:bold">as&lt;/span> &lt;span style="color:#000">sns&lt;/span>
-&lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">tensorflow&lt;/span> &lt;span style="color:#204a87;font-weight:bold">as&lt;/span> &lt;span style="color:#000">tf&lt;/span>
-&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">sklearn.model_selection&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">train_test_split&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>&lt;span style="color:#000">GridSearchCV&lt;/span>
-&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">sklearn.neural_network&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">MLPClassifier&lt;/span>
-&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">sklearn&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">metrics&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>This code will read a csv file using pandas. Before running Cell 2 which immediately follows this paragraph, the user
-should upload the csv file to the Google Drive of the same Google account which is running the notebook in Colab. The
-csv in Cell 2 is titled &lt;code>kag_risk_factors_cervical_cancer&lt;/code> but please rename it accordingly to match the file
-that you would like to upload.&lt;/p>
-&lt;p>Cell 2:&lt;/p>
-&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">google.colab&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">drive&lt;/span>
-&lt;span style="color:#000">drive&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">mount&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;/content/gdrive&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">force_remount&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#3465a4">True&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;span style="color:#8f5902;font-style:italic"># The next line of code will tell Colab to read kag_risk_factors_cervical_cancer.csv in your Drive (not in any subfolders)&lt;/span>
-&lt;span style="color:#8f5902;font-style:italic"># so you should alter the code to match whichever .csv you would like to upload.&lt;/span>
-&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#000">pd&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">read_csv&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;gdrive/My Drive/kag_risk_factors_cervical_cancer.csv&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;span style="color:#8f5902;font-style:italic"># The next two lines of code convert question marks to NaN and converts values to numeric type, consider &lt;/span>
-&lt;span style="color:#8f5902;font-style:italic"># removing the next two lines if not necessary.&lt;/span>
-&lt;span style="color:#000">df&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">replace&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;?&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">np&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">nan&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">apply&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">pd&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">to_numeric&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;span style="color:#8f5902;font-style:italic"># If this cell successfully runs then it should output the first five rows, as requested in the next line of code&lt;/span>
-&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">head&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">5&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Colab will ask you to click on a blue link and to sign in with your account. Once done, the user must copy a code
-and paste it into the box on Colab for authentication purposes. Press &lt;code>Enter&lt;/code> after pasting it into the box.&lt;/p>
-&lt;p>If it outputs an error along the lines of &amp;ldquo;unknown directory&amp;rdquo; then try rerunning the two cells and ensuring that
-your csv is not in any folders inside of Drive. You can also alter the code to point it to a subdirectory, if needed.&lt;/p>
-&lt;h2 id="read-file-from-direct-upload">Read File from Direct Upload&lt;/h2>
-&lt;p>Credit to Carlos Theran for creating this code and troubleshooting&lt;/p>
-&lt;p>Cell 1:&lt;/p>
-&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">numpy&lt;/span> &lt;span style="color:#204a87;font-weight:bold">as&lt;/span> &lt;span style="color:#000">np&lt;/span>
-&lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">pandas&lt;/span> &lt;span style="color:#204a87;font-weight:bold">as&lt;/span> &lt;span style="color:#000">pd&lt;/span>
-&lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">matplotlib.pyplot&lt;/span> &lt;span style="color:#204a87;font-weight:bold">as&lt;/span> &lt;span style="color:#000">plt&lt;/span>
-&lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">seaborn&lt;/span> &lt;span style="color:#204a87;font-weight:bold">as&lt;/span> &lt;span style="color:#000">sns&lt;/span>
-&lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">tensorflow&lt;/span> &lt;span style="color:#204a87;font-weight:bold">as&lt;/span> &lt;span style="color:#000">tf&lt;/span>
-&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">sklearn.model_selection&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">train_test_split&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>&lt;span style="color:#000">GridSearchCV&lt;/span>
-&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">sklearn.neural_network&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">MLPClassifier&lt;/span>
-&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">sklearn&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">metrics&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Cell 2:&lt;/p>
-&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#204a87;font-weight:bold">from&lt;/span> &lt;span style="color:#000">google.colab&lt;/span> &lt;span style="color:#204a87;font-weight:bold">import&lt;/span> &lt;span style="color:#000">files&lt;/span>
-&lt;span style="color:#000">df&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">files&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">upload&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>After running Cell 2, the user will be prompted to click &lt;code>Browse...&lt;/code> and to find the file on the user&amp;rsquo;s local
-computer to upload. Sometimes trying to upload the file will give this error:&lt;/p>
-&lt;p>&lt;code>MessageError: RangeError: Maximum call stack size exceeded.&lt;/code>&lt;/p>
-&lt;p>&amp;hellip; in which case, the user should click the folder icon on the left side of Google Colab window, then the paper
-with an arrow icon (to upload a file), then upload the csv you wish to use. Then rerunning Cell 2 is not
-necessary, simply proceed to Cell 3. If this still does not work, see &lt;a href="https://stackoverflow.com/questions/53630073/google-colaboratory-import-data-stack-size-exceeded">this stackoverflow page&lt;/a> for further information.&lt;/p>
-&lt;p>Cell 3:&lt;/p>
-&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-python" data-lang="python">&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#000">pd&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">read_csv&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;kag_risk_factors_cervical_cancer.csv&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;span style="color:#8f5902;font-style:italic"># The next two lines of code convert question marks to NaN and converts values to numeric type, consider &lt;/span>
-&lt;span style="color:#8f5902;font-style:italic"># removing the next two lines if not necessary.&lt;/span>
-&lt;span style="color:#000">df&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">replace&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;?&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">np&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">nan&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">apply&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">pd&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">to_numeric&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;span style="color:#8f5902;font-style:italic"># If this cell successfully runs then it should output the first five rows, as requested in the next line of code&lt;/span>
-&lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">head&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">5&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Remember to rename the instances of &lt;code>kag_risk_factors_cervical_cancer.csv&lt;/code> accordingly so that it matches your file name.&lt;/p></description></item><item><title>Docs: Adding a SSH Key for GitHub Repository</title><link>/docs/tutorial/git/git-ssh/</link><pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/git/git-ssh/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – project</title><link>/tags/project/</link><description>Recent content in project on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 17 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/project/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Adding a SSH Key for GitHub Repository</title><link>/docs/tutorial/git/git-ssh/</link><pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/git/git-ssh/</guid><description>
 &lt;p>Jacques Fleischer, Gregor von Laszewski&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
@@ -201,361 +118,7 @@ $ ssh-add
 &lt;li>
 &lt;p>You also have to click &lt;code>Python x.x&lt;/code> in the bottom-right of PyCharm, next to &lt;code>main&lt;/code>. From there, choose &lt;code>Python x.x (ENV3)&lt;/code>. To verify that your virtual environment is working, click on &lt;code>Terminal&lt;/code> in the bottom-left of PyCharm. Click the &lt;code>+&lt;/code> (plus) icon next to Local to start a new terminal. It should say &lt;code>(ENV3)&lt;/code> next to your current working directory. Congratulations!&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Report: Tutorial on Getting PyCharm Professional for Free</title><link>/report/su21-reu-361/deprecated/pycharm/</link><pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/deprecated/pycharm/</guid><description>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>This tutorial teaches how to get PyCharm Professional for free on Windows 10 using a university email address.&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#steps">Steps&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> pycharm&lt;/p>
-&lt;h2 id="steps">Steps&lt;/h2>
-&lt;p>Click the following image to be redirected to a YouTube video tutorial for installing PyCharm Professional.&lt;/p>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/QPESX-VBnEU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
-&lt;/div>
-&lt;p>Please ensure that you have a university or college email before proceeding.&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>Open up a web browser and search &lt;code>pycharm&lt;/code>. Look under the link from &lt;code>jetbrains.com&lt;/code> and click &lt;code>Download Pycharm&lt;/code>.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Click the blue button that reads &lt;code>Download&lt;/code> under Professional. Wait for the download to complete.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Open the completely downloaded file and click &lt;code>Yes&lt;/code> on the UAC prompt.&lt;/p>
-&lt;ol>
-&lt;li>If you have a school computer, please refer to the note under step 5 in the Python tutorial found here:
-&lt;a href="https://cybertraining-dsc.github.io/report/su21-reu-361/tutorials/python/">https://cybertraining-dsc.github.io/report/su21-reu-361/tutorials/python/&lt;/a>&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>
-&lt;p>Click &lt;code>Next&lt;/code>, click &lt;code>Next&lt;/code> again, and check the box that reads &lt;code>Add launchers dir to the PATH&lt;/code>. You can also
-create a Desktop Shortcut and create the &lt;code>.py&lt;/code> association, if you would like. The association changes which program,
-by default, opens &lt;code>.py&lt;/code> files on your computer.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Click &lt;code>Next&lt;/code> and then click &lt;code>Install&lt;/code>. Wait for the green progress bar to complete. Then, you must restart your
-computer after making sure all of your programs are saved and closed.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Open PyCharm either by clicking on the Desktop shortcut you might have made, or hit the Windows key and type
-&lt;code>PyCharm&lt;/code> and choose the program from the search results.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Check the box that says &lt;code>I confirm that I have read and accept the terms...&lt;/code> after reading through each and every
-word and fully committing every character on your screen to memory. Only if you want to!&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Click &lt;code>Continue&lt;/code>. You can choose to send anonymous statistics, if you want to; click the option you want.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Click the hyperlink that says &lt;code>Buy license&lt;/code> in the top right of the window. Do not worry— you will not be spending
-a cent.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Click the person icon in the top right of the page (if you cannot find this person icon, then click this link
-and hopefully it still works: &lt;a href="https://account.jetbrains.com/login">https://account.jetbrains.com/login&lt;/a> ).&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Create a JetBrains account by entering your university email address. Click &lt;code>Sign Up&lt;/code> after entering your email;
-then, you have to go on your email and confirm your account in the automated email sent to you. Click &lt;code>Confirm your account&lt;/code> in the email.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Complete the registration form and click &lt;code>Submit&lt;/code>.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Click &lt;code>Apply for a free student or teacher license&lt;/code>. Scroll down and click the blue button that reads &lt;code>Apply now&lt;/code>.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Fill out the form, using your university email address and real name. Check the boxes if they apply to you. Then
-click &lt;code>APPLY FOR FREE PRODUCTS&lt;/code>.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>JetBrains should send you an automated email, ideally informing you that your information has been confirmed and
-you have been granted a free license. If it does not immediately arrive, wait a few minutes. Go back to PyCharm and
-sign in with your JetBrains account after receiving this email. Click &lt;code>Activate&lt;/code>. Congratulations!&lt;/p>
-&lt;/li>
-&lt;/ol></description></item><item><title>Report: Tutorial on Getting Raw Images on GitHub</title><link>/report/su21-reu-361/deprecated/github/</link><pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/deprecated/github/</guid><description>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>This tutorial teaches how to get raw images on GitHub to post on your index.md repo (without any errors).&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#steps">Steps&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> github&lt;/p>
-&lt;h2 id="steps">Steps&lt;/h2>
-&lt;ol>
-&lt;li>
-&lt;p>Upload your image to GitHub in the images directory. This folder is inside the project folder in your REU repository. Once there, click &lt;code>Add file&lt;/code> and click &lt;code>Upload files&lt;/code>. Proceed by clicking &lt;code>choose your files&lt;/code> and uploading the correct image.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Once you navigate to the images directory by clicking on it in GitHub, click on the name of the image to view it and then right click the Download button&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Click &lt;code>Copy Link&lt;/code> and paste the copied link into your index.md report in this format:&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;pre>&lt;code>![Figure 1](https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/eos-price.png)
-**Figure 1:** Type a description of Figure 1 here
-&lt;/code>&lt;/pre>&lt;p>Make sure that you replace the link by clicking and dragging over the template placeholder link by pasting the link you just copied:&lt;/p>
-&lt;pre>&lt;code>![Figure 1](paste-the-link-here)
-**Figure 1:** Type a description of Figure 1 here
-&lt;/code>&lt;/pre></description></item><item><title>Report: Tutorial on Installing Python</title><link>/report/su21-reu-361/deprecated/python/</link><pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/deprecated/python/</guid><description>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>This tutorial teaches how to install Python on Windows, Mac, and Linux.&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#windows">Windows&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#mac">Mac&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#linux">Linux&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#troubleshooting">Troubleshooting&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#incorrect-python-version-on-command-prompt">Incorrect Python Version on Command Prompt&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> python&lt;/p>
-&lt;h2 id="windows">Windows&lt;/h2>
-&lt;p>Click the following image to be redirected to a 2-minute YouTube walkthrough.&lt;/p>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/T6UYyu5XVMc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
-&lt;/div>
-&lt;ol>
-&lt;li>
-&lt;p>First, open up any web browser. This tutorial utilizes Google Chrome, but any other browser should work as long as it is not a 1990s version of Netscape. (Do not worry— you probably don&amp;rsquo;t have this.) The browser of choice can be Microsoft Edge, Firefox, Opera— as long as it can perform a search on a search engine, access a webpage, and download a file.
-&lt;br>
- &lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Open your browser by clicking the search box in the bottom left of your screen, where it says &amp;ldquo;Type here to search&amp;rdquo;. Then, type &amp;ldquo;google chrome&amp;rdquo; (or whatever is the name of the browser you use) and click it once it appears.&lt;/p>
-&lt;ol>
-&lt;li>The &amp;ldquo;Type here to search&amp;rdquo; box could be missing if you have customized your taskbar (the taskbar is the long box typically located on the bottom of your screen which has icons). In this case, just click the Windows logo in the bottom left and type your browser name.&lt;/li>
-&lt;li>This is just one way to open your browser. You can even click a shortcut to your web browser on your taskbar, on your Desktop, or your Start Menu. In computing, there is typically many ways to accomplish the same end objective.
-&lt;br>
- &lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>
-&lt;p>Once your browser has loaded, search for &amp;ldquo;python&amp;rdquo; on Google or any search engine. Click the result that reads &amp;ldquo;Downloads&amp;rdquo; from the website &amp;ldquo;python.org&amp;rdquo;.
-&lt;br>
- &lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>As of June 2021, the latest version of Python is &lt;code>3.9.5&lt;/code>. You may see a different number. As long as you click the button under &amp;ldquo;Download the latest version for Windows&amp;rdquo;, this will work. Try it now.
-&lt;br>
- &lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Once the download has completed, open the file by clicking on it in your Downloads pane.&lt;/p>
-&lt;ol>
-&lt;li>If you are utilizing a school-issued computer, you may be prevented from opening this .exe file because you are not the administrator. Please email or otherwise get in contact with your instructor, professor, or head of IT to discuss installing Python.
-&lt;br>
- &lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>
-&lt;p>Be sure to check the box that reads &amp;ldquo;Add Python x.x to PATH&amp;rdquo;. This will allow you to run commands from the terminal/command prompt.
-&lt;br>
- &lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Click &amp;ldquo;Install Now&amp;rdquo;. The default options that entail this selection are appropriate for this experiment&amp;rsquo;s intents and purposes; choosing &amp;ldquo;Customize installation&amp;rdquo; may create reproducibility issues down the road, so please select &amp;ldquo;Install Now&amp;rdquo; instead.&lt;/p>
-&lt;ol>
-&lt;li>The UAC prompt will pop up. UAC stands for &amp;ldquo;User Account Control&amp;rdquo; and exists so that the computer will not have unauthorized changes performed on it. Click &amp;ldquo;Yes&amp;rdquo; because Python is safe. School-issued computers may ask for an administrator password, so refer to step 5&amp;rsquo;s sidenote.
-&lt;br>
- &lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>
-&lt;p>Sit back and watch the green progress bar, whose speed will depend on the power of the computer.
-&lt;br>
- &lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>If the setup was successful, then it will say so. Click &amp;ldquo;Close&amp;rdquo;.
-&lt;br>
- &lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Click the &amp;ldquo;Type here to search&amp;rdquo; box in the bottom-left of the screen, type &amp;ldquo;cmd&amp;rdquo;, and press Enter.&lt;/p>
-&lt;ol>
-&lt;li>An alternative method is to press the Windows key and the &amp;ldquo;R&amp;rdquo; key at the same time, type &amp;ldquo;cmd&amp;rdquo;, and press Enter. This is convenient for those who like to use the keyboard.
-&lt;br>
- &lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>
-&lt;p>Type &lt;code>python --version&lt;/code> and the output should read &amp;ldquo;Python x.x.x&amp;rdquo;; as long as it is the latest version from the website, congratulations. Python is installed on the computer.
-&lt;br>
- &lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;h2 id="mac">Mac&lt;/h2>
-&lt;p>Click the following image to be redirected to a 5-minute YouTube walkthrough. (Yes, Mac&amp;rsquo;s video is a little longer, but do not fret!
-You can skip to the 1:00 minute mark if you are in a hurry.)&lt;/p>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/TttmzM-EDmk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
-&lt;/div>
-&lt;ol>
-&lt;li>
-&lt;p>Open a web browser that is able to search and download a file. This tutorial uses Google Chrome for Mac.
-&lt;br>
- &lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Type in &lt;code>python&lt;/code> in the address bar and press enter. It should perform a search on your default search engine.
-&lt;br>
- &lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Look for the result that is from &lt;code>python.org&lt;/code>. Click on the subresult that says &lt;code>Downloads&lt;/code>.
-&lt;br>
- &lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Underneath &lt;code>Download the latest version for Mac OS X&lt;/code>, there should be a yellow button that reads &lt;code>Download Python x.x.x&lt;/code>. Click on it, and the download should commence.
-&lt;br>
- &lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Once the download finishes, open it by clicking on it. The installer will open. Click &lt;code>Continue&lt;/code>, click &lt;code>Continue&lt;/code> again, click &lt;code>Continue&lt;/code> again, oh my goodness!
-&lt;br>
- &lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Click &lt;code>Agree&lt;/code>.&lt;/p>
-&lt;ol>
-&lt;li>If you want to check how much free storage you have on your computer, click the Apple icon in the top left of your computer. Click
-&lt;code>About This Mac&lt;/code> and then click on &lt;code>Storage&lt;/code>. As of July 2021, Python takes ~120 MB of space. Remember that 1 GB = 1000 MB.
-&lt;br>
- &lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>
-&lt;p>Click &lt;code>Install&lt;/code>. Enter your password and press Enter. Watch the blue progress bar crawl like a turtle&amp;hellip; or blast off at the speed of sound! This depends on your computer speed.
-&lt;br>
- &lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>A Finder window will open. You can close it as it is unnecessary. Click &lt;code>Close&lt;/code> in the bottom-right of the installer. Click &lt;code>Move to Trash&lt;/code> because you do not need the installer anymore.
-&lt;br>
- &lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Time to confirm that Python installed correctly. Click the magnifying glass in the top-right of your screen and then type &lt;code>terminal&lt;/code> into Spotlight Search. Double-click &lt;code>Terminal&lt;/code>.&lt;/p>
-&lt;ol>
-&lt;li>The terminal will be used frequently in this experiment. Consider keeping it in the dock for convenience. Click and hold the Terminal in the dock, go to &lt;code>Options&lt;/code>, and click &lt;code>Keep in Dock&lt;/code>.
-&lt;br>
- &lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>
-&lt;p>Type &lt;code>python3 --version&lt;/code> into the terminal and press Enter. It should output the latest version of Python. Congratulations!
-&lt;br>
- &lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;h2 id="linux">Linux&lt;/h2>
-&lt;p>Click the following image to be redirected to a 9-minute YouTube walkthrough. (Linux&amp;rsquo;s tutorial is the longest, but it is worth it.)
-This tutorial uses Ubuntu, but it should work on other Linux distros, as well.&lt;/p>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/cRp_ScANL1w" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
-&lt;/div>
-&lt;ol>
-&lt;li>
-&lt;p>Open a web browser. It can be any browser as long as it can perform a search and navigate to a webpage.
-&lt;br>
- &lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Search for &lt;code>python&lt;/code> by typing it into the address bar and pressing enter. Click on &lt;code>Downloads&lt;/code> underneath the result from &lt;code>https://www.python.org&lt;/code>.
-&lt;br>
- &lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Look at the latest version. It is on the yellow button: &lt;code>Download Python x.x.x&lt;/code>. You do not need to click this button. Remember this version number.
-&lt;br>
- &lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Open a terminal by pressing the Windows key, or by clicking the grid on the bottom left of your screen. Type &lt;code>terminal&lt;/code>. Click on the &lt;code>Terminal&lt;/code> result that appears.
-&lt;br>
- &lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Type &lt;code>sudo apt-get update&lt;/code> and press Enter. Wait for it to finish. It may already be up-to-date.
-&lt;br>
- &lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Type &lt;code>sudo apt-get install libssl-dev openssl make gcc&lt;/code> and press Enter. This will install the libraries required to connect to an FTP to download Python. Type your password for your Linux user account, if prompted, and press Enter.
-&lt;br>
- &lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>You are then asked if you are okay with a certain amount of disk space being taken up. Type &lt;code>y&lt;/code>, which stands for Yes, and then press Enter.&lt;/p>
-&lt;ol>
-&lt;li>If you want to check how much disk space you have, press the Files icon on the left (on the taskbar) and click &lt;code>Other Locations&lt;/code>. You may have to scroll down on the sidebar in order to see it. It should say how much GB is available. Remember, 1 GB = 1000 MB and 1 MB = 1000 KB.
-&lt;br>
- &lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>
-&lt;p>After this finishes, type &lt;code>cd /opt&lt;/code> and press Enter. Then, remember which version you read on the Python webpage (the latest version). Type &lt;code>sudo wget https://www.python.org/ftp/python/x.x.x/Python-x.x.x.tgz&lt;/code> after replacing the &lt;code>x.x.x&lt;/code> with the latest Python version number. As of July 2021, it is &lt;code>3.9.6&lt;/code>. Press Enter.
-&lt;br>
- &lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Wait for the download to complete. Then, type &lt;code>sudo tar xzvf Python-x.x.x.tgz&lt;/code> after you replace &lt;code>x.x.x&lt;/code> with the latest Python version number. Press Enter.
-&lt;br>
- &lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Type &lt;code>cd Python-x.x.x&lt;/code> after replacing &lt;code>x.x.x&lt;/code> with the latest version number. Type &lt;code>./configure&lt;/code> and press Enter.
-&lt;br>
- &lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Once it finishes, type &lt;code>make&lt;/code> and press Enter. Once &lt;em>that&lt;/em> finishes, type &lt;code>sudo make install&lt;/code> and press Enter.
-&lt;br>
- &lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Once the installation finishes, type &lt;code>sudo ln -fs /opt/Python-x.x.x/Python /usr/bin/pythonx.x&lt;/code>. Notice that &lt;code>x.x.x&lt;/code> should be replaced with the full version number and &lt;code>x.x&lt;/code> should have the first two numbers in the version number. Press Enter.
-&lt;br>
- &lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Confirm Python&amp;rsquo;s successful installation by typing &lt;code>pythonx.x --version&lt;/code>; be sure to replace x.x with the first two numbers of the version number. It should output the latest version number. Congratulations!
-&lt;br>
- &lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;p>Credit to bobbyiliev for making the required commands publicly available. The commands are available here, as well: &lt;a href="https://www.digitalocean.com/community/questions/how-to-install-a-specific-python-version-on-ubuntu">https://www.digitalocean.com/community/questions/how-to-install-a-specific-python-version-on-ubuntu&lt;/a>
-&lt;br>
- &lt;/p>
-&lt;h2 id="troubleshooting">Troubleshooting&lt;/h2>
-&lt;h3 id="incorrect-python-version-on-command-prompt">Incorrect Python Version on Command Prompt&lt;/h3>
-&lt;p>If the Windows computer has installed an older version of Python, running &lt;code>python --version&lt;/code> on Command Prompt may output an older version. Typing &lt;code>python3 --version&lt;/code> may output the correct, latest version.&lt;/p></description></item><item><title>Report: Investigating the Classification of Breast Cancer Subtypes using KMeans</title><link>/report/su21-reu-362/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-362/project/</guid><description>
+&lt;/ol></description></item><item><title>Report: Investigating the Classification of Breast Cancer Subtypes using KMeans</title><link>/report/su21-reu-362/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-362/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-362/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-362/actions">&lt;img src="https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
@@ -1310,54 +873,7 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report: Project: Aquatic Animals Classification Using AI</title><link>/report/su21-reu-370/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-370/project/</guid><description>
-&lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-370/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-370/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
-&lt;a href="https://github.com/cybertraining-dsc/su21-reu-370/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-370/workflows/Status/badge.svg" alt="Status">&lt;/a>
-Status: draft, Type: Project&lt;/p>
-&lt;p>Timia Williams, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-370">su21-reu-370&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/su21-reu-370/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Marine animals play an important role in the ecosystem. &amp;ldquo;Aquatic animals play an important role in nutrient cycles because they store a large proportion of ecosystem nutrients in their tissues, transport nutrients farther than other aquatic animals and excrete nutrients in dissolved forms that are readily available to primary producers&amp;rdquo; (Vanni MJ 1) Fish images are captured by scuba divers, tourist, or underwater submarines. different angles of fishes image can be very difficult to get because of the constant movement of the fish. In addition to getting the right angles, the images of marine animals are usually low-quality because of the water. Underwater cameras that is required for a good quality image can be expensive. Using AI could potentially increase the marine population by the help of classification by testing the usage of machine learning using the images obtained from the aquarium combined with advanced technology. We collect 164 fish images data from Georgia acquarium to look at the different movements.&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-machine-learning-in-fish-species">2. Machine learning in fish species.&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#3-datasets">3. Datasets&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#31-sample-of-images-of-personal-dataset">3.1. Sample of Images of Personal Dataset&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#32-sample-of-images-from-large-scale-fish-dataset">3.2. Sample of Images from Large Scale Fish Dataset&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#4-conclusion">4. Conclusion&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#5-acknowledgments">5. Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#6-references">6. References&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> tensorflow, example.&lt;/p>
-&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
-&lt;p>It can be challenging to obtain a large number of different complex species in a single aquatic environment. Traditionally, it would take marine biologists years to collect the data and successfully classify the type of species obtained [1]. Scientist says that more than 90 percent of the ocean&amp;rsquo;s species are still undiscovered, with some estimating that there are anywhere between a few hundred thousand and a few million more to be discovered&amp;quot; (National Geographic Society). Currently, scientists know of around 226,000 ocean species. Now and days, Artificial intelligence and machine learning has been used for detection and classification in images. In this project, We will propose to use machine learning techniques to analyze the images obtained from the Georgia Aquarium to identify legal and illegal fishing.&lt;/p>
-&lt;h2 id="2-machine-learning-in-fish-species">2. Machine learning in fish species.&lt;/h2>
-&lt;p>Aquatic ecologists often count animals to keep up the population count of providing critical conservation and management. Since the creation of underwater cameras and other recording equipment, underwater devices have allowed scientists to safely and efficiently classify fishes images without the disadvantages of manually entering data, ultimately saving lots of time, labor, and money. The use of machine learning to automate image processing has its benefits but has rarely been adopted in aquatic studies. With using efforts to use deep learning methods, the classification of specific species could potentially increase. In fact, there is a study done in Australia&amp;rsquo;s ocean waters that classification of fish through deep learning was more efficient that manual human classification. In the study to test the abundance of different species, &amp;ldquo;The computer’s performance in determining abundance was 7.1% better than human marine experts and 13.4% better than citizen scientists in single image test datasets, and 1.5 and 7.8% higher in video datasets, respectively&amp;rdquo; (Campbell, M. D.). This remarkably explain that using machiene learning in marine animals is a better method than a manually classifying Aquatic animals Not only is it good for classification, it will be used to answer broader questions such as population count, the location of species, its abundance, and how it appears to be thriving. Since Machine learning and deep learning are often defined as one, both learning methods will be used to analyze the images and find patterns on my data.&lt;/p>
-&lt;h2 id="3-datasets">3. Datasets&lt;/h2>
-&lt;p>We used two datasets in my project. The first dataset includes the pictures that I took at the Georgia Acquarium. That dataset was used for testing. The second dataset used was a fish dataset from kaggle which contains 9 different seafood types (Black Sea Sprat, Gilt-Head Bream, Hourse Mackerel, Red Mullet, Red Sea Bream, Sea Bass, Shrimp, Striped Red Mullet, Trout). For each type, there are 1000 augmented images and their pair-wise augmented ground truths.&lt;/p>
-&lt;p>The link to access the dataset I used from kaggle is &lt;a href="https://www.kaggle.com/crowww/a-large-scale-fish-dataset">https://www.kaggle.com/crowww/a-large-scale-fish-dataset&lt;/a>&lt;/p>
-&lt;h2 id="31-sample-of-images-of-personal-dataset">3.1. Sample of Images of Personal Dataset&lt;/h2>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-370/main/project/images/IMG_1566.jpg" width="30%"> &lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-370/main/project/images/IMG_1583.jpg" width="30%"> &lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-370/main/project/images/IMG_1574.jpg" width="30%">&lt;/p>
-&lt;p>Left to right: Banded Archerfish, Lionfish, and Red Piranha&lt;/p>
-&lt;p>&lt;strong>Figure 1:&lt;/strong> These images are samples of my personal data which is made up of images of fishes taken at the Georgia Acquarium.&lt;/p>
-&lt;h2 id="32-sample-of-images-from-large-scale-fish-dataset">3.2. Sample of Images from Large Scale Fish Dataset&lt;/h2>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-370/main/project/images/IMG_1565.jpg" alt="Figure 1">&lt;/p>
-&lt;h2 id="4-conclusion">4. Conclusion&lt;/h2>
-&lt;p>Deep learning methods provide a faster, cheaper, and more accurate alternative to manual data analysis methods currently used to monitor and assess animal abundance and have much to offer the field of aquatic ecology. We was able to create a model to prove that we can use AI to efficiently detect and classify marine animals.&lt;/p>
-&lt;h2 id="5-acknowledgments">5. Acknowledgments&lt;/h2>
-&lt;p>Special thanks to these people that helped me with this paper:
-Gregor von Laszewski
-Yohn Jairo
-Carlos Theran
-Jacques Fleischer
-Victor Adankai&lt;/p>
-&lt;h2 id="6-references">6. References&lt;/h2></description></item><item><title>Report: Project: Hand Tracking with AI</title><link>/report/su21-reu-364/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-364/project/</guid><description>
+&lt;/section></description></item><item><title>Report: Project: Hand Tracking with AI</title><link>/report/su21-reu-364/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-364/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-364/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-364/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-364/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-364/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
@@ -1858,54 +1374,7 @@ the first square bracket.&lt;/p>
 &lt;a href="https://github.com/cloudmesh/cloudmesh-common">https://github.com/cloudmesh/cloudmesh-common&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Report: Tutorial on Installing Visual Studio Code</title><link>/report/su21-reu-361/deprecated/visual-studio-code/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-361/deprecated/visual-studio-code/</guid><description>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>This tutorial teaches how to install Visual Studio Code on Windows 10.&lt;/p>
-&lt;p>Contents&lt;/p>
-&lt;div class="toc">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#steps">Steps&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>Keywords:&lt;/strong> visual-studio-code&lt;/p>
-&lt;h2 id="steps">Steps&lt;/h2>
-&lt;p>Click the following image to be redirected to a YouTube video tutorial for installing Visual Studio Code (also called VSCode).&lt;/p>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/DG_wQslWWAc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
-&lt;/div>
-&lt;p>Sidenote: An exasperated reader may wonder, &amp;ldquo;why go through steps 1-3 when it can be as easy as clicking a link to the VSCode download page?&amp;rdquo; This &lt;em>would&lt;/em> be easier, but hyperlinks (or URLs) are bound to change through the years of website maintenance and alterations. (One could also argue that steps 1-3 could become incorrect, as well, but hopefully they will not.) If you, time-traveler, would like to try your luck, go here: &lt;a href="https://code.visualstudio.com/download">https://code.visualstudio.com/download&lt;/a>&lt;/p>
-&lt;p>If the link works, skip to step 4.&lt;/p>
-&lt;p>P.S. It should be second-nature to a user to quickly search, find, download, and install a program. It is vital to ensure that the correct program is downloaded and installed, however. Over time, guides like this one can become deprecated, but one must be resilient in problem-solving. Use search engines like Google to find what you are looking for. If one path does not work, take another that will lead to the same destination or a better one.&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>Open up your favorite web browser. This can be done by pressing the Windows key and typing in the name of the browser, like &lt;code>google chrome&lt;/code> (as long as this browser is already installed on your computer). Then press Enter.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Once the browser loads, search for &lt;code>visual studio code&lt;/code> through the address bar. Press Enter and you will see a list of results through the default search engine (Google, Bing, or whatever is configured on your browser).&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Identify the result that reads &lt;code>code.visualstudio.com&lt;/code>. If using Google, a subresult should read &lt;code>Download&lt;/code>. Click that link.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>This tutorial assumes that the reader is using Windows. Click the blue link that reads &lt;code>Windows&lt;/code>. The download will commence; wait for it to finish.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Click and open the file once it finishes; the license agreement will appear. If you are proficient in legalese, you can read the wall of text. Then, click &lt;code>I accept the agreement&lt;/code> and click &lt;code>Next&lt;/code>.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Click &lt;code>Next&lt;/code> again; it is best to leave the default install path alone for reproducibility in this experiment.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Click &lt;code>Next&lt;/code> again to create a Start Menu folder. Ensure that &lt;code>Add to PATH&lt;/code> is checked. &lt;code>Create a desktop icon&lt;/code> can be checked for convenience; it is up to the reader&amp;rsquo;s choice. Then click &lt;code>Next&lt;/code>.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Click Install and watch the green progress bar go at the speed of light. Once completed, click Finish. VSCode will open as long as everything went smoothly.&lt;/p>
-&lt;/li>
-&lt;/ol></description></item><item><title>Report: Project: Detecting Multiple Sclerosis Symptoms using AI</title><link>/report/su21-reu-371/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-371/project/</guid><description>
+&lt;/section></description></item><item><title>Report: Project: Detecting Multiple Sclerosis Symptoms using AI</title><link>/report/su21-reu-371/project/</link><pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate><guid>/report/su21-reu-371/project/</guid><description>
 &lt;p>&lt;a href="https://github.com/cybertraining-dsc/su21-reu-371/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-371/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
 &lt;a href="https://github.com/cybertraining-dsc/su21-reu-371/actions">&lt;img src="https://github.com/cybertraining-dsc/su21-reu-371/workflows/Status/badge.svg" alt="Status">&lt;/a>
 Status: draft, Type: Project&lt;/p>
@@ -10108,6 +9577,327 @@ A system of this nature could also tie in information from patient portals, incl
 &lt;/li>
 &lt;li id="fn:5" role="doc-endnote">
 &lt;p>Malekzadeh, Mohammad. Mobile Sensor Data Anonymization (2018). I Retrieved September 18, 2020 from &lt;a href="http://doi.acm.org/10.1145/3302505.3310068">http://doi.acm.org/10.1145/3302505.3310068&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Project: Identifying Agricultural Weeds with CNN</title><link>/report/sp21-599-354/project/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/sp21-599-354/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/sp21-599-354/actions">&lt;img src="https://github.com/cybertraining-dsc/sp21-599-354/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/sp21-599-354/actions">&lt;img src="https://github.com/cybertraining-dsc/sp21-599-354/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: final, Type: Project&lt;/p>
+&lt;p>Paula Madetzke, &lt;a href="https://github.com/cybertraining-dsc/sp21-599-354">sp21-599-354&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/sp21-599-354/blob/main/project/index.md">Edit&lt;/a>&lt;/p>
+&lt;p>Code:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cybertraining-dsc/sp21-599-354/blob/main/project/code/data_prep.ipynb">data_prep.ipynb&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/cybertraining-dsc/sp21-599-354/blob/main/project/code/CNN_Code.ipynb">CNN_Code.ipynb&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Weed identification is an important component of agriculture, and can affect the way farmers utilize herbicide. When unable to locate weeds in a large field, farmers are forced to blanket utilize herbicide for weed control. However, this method is bad for the environment, as the herbicide can leech into the water, and bad for the farmer, because they then must pay for far more fertilizer than they really need to control weeds. This project utilizes images from the Aarhus University [^1] dataset to train a CNN to identify images of 12 species of plants. To better simulate actual rows of crops, a subset of the images for testing will be arranged in a list representing a crop row, with weeds being distributed in known locations. Then, the AI is tested on the row, and should be able to determine where in the row the weeds are located.&lt;/p>
+&lt;h2 id="contents">Contents&lt;/h2>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-pre-processing-the-data">2. Pre-Processing The Data&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-running-the-cnn">3. Running the CNN&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#4-benchmarking">4. Benchmarking&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#5-possible-extension">5. Possible Extension&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#6-conclusion">6. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#7-acknowledgments">7. Acknowledgments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-references">8. References&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> Agriculture, CNN.&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>With a growing global population, and a changing climate that can make farm work hostile, it is increasingly important for farms to be efficient food producers. Fertilizers, pesticides, and herbicides have allowed modern farms to produce far higher yields than they would otherwise be able to. However, the environmental impact from the runoff of these chemicals when they leave the farm can be incredibly detrimental to both human and natural wellbeing. This is why agriculture is a field that is ripe for improvement from AI. There are opportunities for AI to be used in the harvesting of crops, predictive analytics, and field monitoring. In this project, AI is used in the field monitoring application. This is helpful for farmers because spot detection of weeds will help them avoid using as much herbicide. This project will explore how pictures of plants can be used to detect weeds in crop fields. The AI has been trained with a CNN on pictures of 12 seedling species including 960 individual plants representing both weeds desired crops &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. Although 12 species are available, only 3 will be studied in this project: black grass, shepherd’s purse, and sugar beet. These plants were chosen because their seedlings look different enough to give the AI a better chance at successfully detecting differences. Then, the AI is tested to determine the accuracy of the model. First this is accomplished by reserving a subset of the training data to be tested by the AI in order to get a base-line test of accuracy. Next, the test data will be arranged in a list to mimic a row of crops with a desired crop, and several weeds. Then the AI would go through the images and a program would display where a farmer would need to apply the herbicide, according to the AI. The true test would be to see if the program can produce a helpful map to narrow down where herbicide should be applied.&lt;/p>
+&lt;p>Previous similar work has been done with this dataset &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> in Keras with CNN image recognition, while this project is implemented in pytorch. Similar agricultural image recognition with plant disease &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup> is also available to be studied.&lt;/p>
+&lt;h2 id="2-pre-processing-the-data">2. Pre-Processing The Data&lt;/h2>
+&lt;p>The plant dataset &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> has three sets of image options to choose from. The first has large images of trays with multiple plants of the same species, the second has cropped images of individual seedings from
+the larger picture (non-segmented), while the third is both cropped, and has the background replaced with black pixels such that only the leaves remain in the picture (segmented). To train the data,
+the segmented data is used. This is because it is important for the AI to train such that it detects patterns only for the most important features of the image. If the AI were to train on the images in the
+background, it might learn features of the sand or border instead of the leaves.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/sp21-599-354/raw/main/project/images/large_weeds.jpg" alt="Figure 1">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/sp21-599-354/raw/main/project/images/non-segmented.png" alt="Figure 2">&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/sp21-599-354/raw/main/project/images/segmented.png" alt="Figure 3">&lt;/p>
+&lt;p>&lt;strong>Figure 1&lt;/strong> Dataset Image options &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>: Large image with multiple plants (top), non-segmented (middle), segmented (bottom)&lt;/p>
+&lt;p>The next component to consider is the image size to be used. The CNN requires all images to be a uniform size to run correctly, while the original segmented data contains images of different sizes, ranging from a few 10s of pixels wide to over 4000. In order to get a sense a balance between having a broad enough dataset to have a large enough representation of the plant pictures to draw meaningful conclusions and the need to have reasonable file sizes, the image’s width or height, whichever is larger, was recorded and loaded into a histogram for each plant species. From a visual examination, 300x300 pixels was selected. An additional 100 pixels of padding were added to the final image size to prevent the images from being cut off when rotated. For each image in the segmented dataset, it is expanded to 400x400 pixels, and added to the straight image folder. Then, each image is rotated and versions are saved to a rotation folder. An ideal rotation would allow a fine grain of rotation. However, some resource limitations were met with the GPU used for the neural net. At first, the images were rotated by 10 degrees each before being saved, then 30, then 60, and finally 90. Finally, a csv file with ids and labels is needed to identify the images, and separate the training and the test data. A preprocessing python script can be used to achieve all of these goals.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/sp21-599-354/raw/main/project/images/black_grass_hist.png" alt="Figure 4"> | &lt;img src="https://github.com/cybertraining-dsc/sp21-599-354/raw/main/project/images/shepherds_purse_hist.png" alt="Figure 5"> | &lt;img src="https://github.com/cybertraining-dsc/sp21-599-354/raw/main/project/images/sugar_beet_hist.png" alt="Figure 6">&lt;/p>
+&lt;p>&lt;strong>Figure 2&lt;/strong> Histograms of the max(width, height) of each of the plant species in the full dataset&lt;/p>
+&lt;h2 id="3-running-the-cnn">3. Running the CNN&lt;/h2>
+&lt;p>The implementation of the CNN is heavily based upon the tutorial on MINST fashion identification &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup> where the CNN identifies 28x28 pixel images of clothing. It is a 2 layer CNN implemented in pytorch. In the original neural net, there are 70000 of these small images and 9 clothing designations. In this dataset, there are only 3 types of labels, but much larger images. The tutorial had a train image set, a validation set, and a test set. After preprocessing, there were 420 suitable 400x400 unrotated images. Without any changes besides adjusting the file paths and image size parameters, the CNN could inconsistently get approximately 50 percent accuracy with the test data, with the highest accuracy at 15 epochs. Because this implementation has relatively few images compared to the MINST clothing dataset, the next test was to remove the validation set of images, in order to use more of the prepared images for training. The result was a maximum of 79 percent accuracy at 25 epochs.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/sp21-599-354/raw/main/project/images/training_images.png" alt="Figure 7">&lt;/p>
+&lt;p>&lt;strong>Figure 3&lt;/strong> Examples of prepared training images&lt;/p>
+&lt;p>The testing accuracy of the neural net on the test data tracked closely with the prediction accuracy when train accuracy was around 30 to 50 percent, lagging by only a few percent. However, when the training dataset reached the 70 percent accuracy range, the test set accuracy remained at only around 50 percent. Part of this could be due to the small size of the test set, or the fact each plant species had a slightly different number of suitable test images.&lt;/p>
+&lt;p>An interesting observation is that although the model was able to consistently reach 60 percent accuracy, it would sometimes fall into a pattern where it would categorize all or almost all of the test set as just one of the plants. There was no consistency in which plant it defaulted to, but in between runs where the model reached decent accuracy, it would repeat this behavior. Because the test set was evenly distributed between the three plants, this would cause the accuracy to go to around 30 percent.&lt;/p>
+&lt;p>In order to see if a visualization could help a human easily see where the hypothetical herbicide would need to be placed, a chart was created with tiles. The first row is the true layout of the three types of plants in the dataset, where each plant is assigned a color. The second row is the AI prediction of which type of plant the test set is. Even with the 79 percent test accuracy rate, it was not as clear as it could be from the image how accurate the model was. One way of making the visualization both easier to visually determine accuracy and more realistic is to have one type of plant be the dominant crop, and have patches of weeds throughout the row. The major obstacle to this was the fact that there were not enough suitable images to have a dominant plant in the test group. Too many images used in testing would have a detrimental impact on training the model.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/sp21-599-354/raw/main/project/images/visualization.png" alt="Figure 8">&lt;/p>
+&lt;p>&lt;strong>Figure 4&lt;/strong> The top row 0 shows the actual species distribution of the plants, while the bottom row 1 shows the AI prediction&lt;/p>
+&lt;h2 id="4-benchmarking">4. Benchmarking&lt;/h2>
+&lt;p>The longest operation by far was the first time reading in the images. This had a timed tqdm built in, so the stopwatch function was not used here. Subsequent running of the CNN training program must cache some of the results, so the image loading takes much less time. An initial loading of the 420 images took approximately 10 minutes. WIth the GPU accelarator enabled, the training of 25 epochs got to 6.809s while the test only took .015s.&lt;/p>
+&lt;h2 id="5-possible-extension">5. Possible Extension&lt;/h2>
+&lt;p>The rotated images of the plants were ultimately not explored. This is due to the fact that the implementation that was followed required GPU resources on Google Colab. With only 420 images to feed into the model, the GPU was not strained. However, even with 90 degree rotations, it appeared that the GPU memory limit for running the entire notebook was reached before even the first epoch. If this project were to be attempted again, the images would either need to be smaller, or fewer straight images should be loaded so that their rotations would not exhaust GPU allocation. One way to go about this would be to have a rotation set with fewer images of individual plants, but to rotate them such that the rotated dataset is still around 420 images. Then, a comparison could be made between the training accuracy of 420 separate examples of each species vs fewer individual plants at a wider range of angles.&lt;/p>
+&lt;h2 id="6-conclusion">6. Conclusion&lt;/h2>
+&lt;p>With 420 non-rotated plant images, a maximum accuracy of 79 percent was able to be reached in part by using the entire training dataset for training rather than validation, as the project this was based on did. With a significantly smaller number of images for the neural net to train on, even a 10 percent change in the available training images mattered in its implementation. Another main conclusion is the importance of resource use and choice in running CNNs. Although in theory there could only be benefits to adding more images to train, with large enough datasets, practical computing limitations become increasingly apparent. Future work would involve choosing a model that either did not require GUP allocation, or modifying the chosen images to take fewer computing resources.&lt;/p>
+&lt;h2 id="7-acknowledgments">7. Acknowledgments&lt;/h2>
+&lt;p>Dr. Geoffrey Fox&lt;/p>
+&lt;p>Dr. Greggor von Laszewski&lt;/p>
+&lt;h2 id="8-references">8. References&lt;/h2>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Aarhus University &lt;a href="https://vision.eng.au.dk/plant-seedlings-dataset/">https://vision.eng.au.dk/plant-seedlings-dataset/&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>Plant Seedling Classification &lt;a href="https://becominghuman.ai/plant-seedlings-classification-using-cnns-ea7474416e65">https://becominghuman.ai/plant-seedlings-classification-using-cnns-ea7474416e65&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3" role="doc-endnote">
+&lt;p>Oluwafemi Tairu &lt;a href="https://towardsdatascience.com/plant-ai-plant-disease-detection-using-convolutional-neural-network-9b58a96f2289">https://towardsdatascience.com/plant-ai-plant-disease-detection-using-convolutional-neural-network-9b58a96f2289&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4" role="doc-endnote">
+&lt;p>Pulkit Sharma &lt;a href="https://www.analyticsvidhya.com/blog/2019/10/building-image-classification-models-cnn-pytorch/">https://www.analyticsvidhya.com/blog/2019/10/building-image-classification-models-cnn-pytorch/&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Report: Detect and classify pathologies in chest X-rays using PyTorch library</title><link>/report/fa20-523-319/project/project/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/report/fa20-523-319/project/project/</guid><description>
+&lt;p>&lt;a href="https://github.com/cybertraining-dsc/fa20-523-319/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-319/workflows/Check%20Report/badge.svg" alt="Check Report">&lt;/a>
+&lt;a href="https://github.com/cybertraining-dsc/fa20-523-319/actions">&lt;img src="https://github.com/cybertraining-dsc/fa20-523-319/workflows/Status/badge.svg" alt="Status">&lt;/a>
+Status: final&lt;/p>
+&lt;p>Rama Asuri, &lt;a href="https://github.com/cybertraining-dsc/fa20-523-319/">fa20-523-319&lt;/a>, &lt;a href="https://github.com/cybertraining-dsc/fa20-523-319/blob/main/project/project.md">Edit&lt;/a>&lt;/p>
+&lt;p>Code: &lt;a href="https://github.com/cybertraining-dsc/fa20-523-319/blob/main/project/project.ipynb">project.ipynb&lt;/a>&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Chest X-rays reveal many diseases. Early detection of disease often improves the survival chance for Patients. It is one of the important tools for Radiologists to detect and identify underlying health conditions. However, they are two major drawbacks. First, it takes time to analyze a radiograph. Second, Radiologists make errors. Whether it is an error in diagnosis or delay in diagnosis, both outcomes result in a loss of life. With the technological advances in AI, Deep Learning models address these drawbacks. The Deep Learning models analyze the X-rays like a Radiologist and accurately predict much better than the Radiologists. In our project, first, we develop a Deep Learning model and train our model to use the labels for Atelectasis, Cardiomegaly, Consolidation, Edema, and Pleural Effusion that corresponds to 5 different diseases, respectively. Second, we test our model&amp;rsquo;s performance: how well our model predicts the diseases. Finally, we visualize our model&amp;rsquo;s performance using the AUC-ROC curve.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#1-introduction">1. Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#2-overview-of-pytorch-library">2. Overview Of PyTorch Library&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#3-overview-of-densenet">3. Overview of DenseNet&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#31-dense-blocks">3.1 Dense blocks&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#32-transition-layers">3.2 Transition layers&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#4-overview-of-chexpert-dataset">4. Overview of CheXpert Dataset&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#41-data-collection">4.1 Data Collection&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#42-data-labelling">4.2 Data Labelling&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#43-label-extraction">4.3 Label Extraction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#44-label-classification">4.4 Label Classification&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#45-label-aggregation">4.5 Label Aggregation&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#5-overview-of-auc-roc-curve">5. Overview Of AUC-ROC Curve&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#51-sensitivitytrue-positive-rate-tpr">5.1 Sensitivity/True Positive Rate (TPR)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#52-false-negative-rate-fnr">5.2 False Negative Rate (FNR)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#53-specificitytrue-negative-rate-tnr">5.3 Specificity/True Negative Rate (TNR)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#54-false-positive-rate-fpr">5.4 False Positive Rate (FPR)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#55-purpose-of-auc-roc-curve">5.5 Purpose of AUC-ROC curve&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#56-definition-of-auc-roc">5.6 Definition of AUC-ROC&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#6-chest-x-rays---multi-image-classification-using-deep-learning-model">6. Chest X-Rays - Multi-Image Classification Using Deep Learning Model&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#61-load-and-split-chest-x-rays-dataset">6.1 Load and split Chest X-rays Dataset&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#62-build-and-train-baseline-deep-learning-model">6.2 Build and train baseline Deep Learning model&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#63-evaluate-the-model">6.3 Evaluate the model&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#64-predict-the-pathologies">6.4 Predict the pathologies&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#65-calculate-the-auc-roc-score">6.5 Calculate the AUC-ROC score&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#7-results-and-analysis">7. Results and Analysis&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#8-conclusion">8. Conclusion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#9-future-plans">9. Future Plans&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#10-acknowledgements">10. Acknowledgements&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#11-references">11. References&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#12-appendix">12. Appendix&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#121-project-plan">12.1 Project Plan&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> PyTorch, CheXpert&lt;/p>
+&lt;h2 id="1-introduction">1. Introduction&lt;/h2>
+&lt;p>Radiologists widely use chest X-Rays to identify and detect underlying conditions. However, analyzing Chest X-Rays takes too much time, and accurately diagnosing without errors requires considerable experience. On the one hand, if the analyzing process is expedited, it might result in misdiagnosis, but on the other hand, lack of experience means long analysis time and/or errors; even with the correct diagnosis, it might be too late to prescribe a treatment. Radiologists are up against time and experience. With the advancements in AI, Deep Learning can easily solve this problem quickly and efficiently.&lt;/p>
+&lt;p>Deep Learning methods are becoming very reliable at achieving expert-level performance using large labeled datasets. Deep learning is a technique to extract and transform data using multiple layers of neural networks. Each layer takes inputs from previous layers and incrementally refines it. An algorithm is used to train these layers to minimize errors and improve these layers' overall accuracy &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. It enables the network to learn to perform a specified task and gain an expert level performance by training on large datasets. The scope of this project is to identify and detect the following 5 pathologies using an image classification algorithm: Atelectasis, Cardiomegaly, Consolidation, Edema, and Pleural Effusion. We use the CheXpert dataset, which consists of Chest X-rays. CheXpert dataset contains 224,316 chest Radiographs of 65,240 patients. The dataset has 14 observations in radiology reports and captures uncertainties inherent in radiograph interpretation using uncertainty labels. Our focus is on 5 observations (Atelectasis, Cardiomegaly, Consolidation, Edema, and Pleural Effusion). We impute uncertainty labels with randomly selected Boolean values. Our Deep Learning models are developed using the PyTorch library, enabling fast, flexible experimentation and efficient production through a user-friendly front-end, distributed training, and ecosystem of tools and libraries &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. It was primarily developed by Facebook&amp;rsquo;s AI Research lab (FAIR) and used for Computer Vision and NLP applications. PyTorch supports Python and C++ interfaces. There are popular Deep Learning applications built using PyTorch, including Tesla Autopilot, Uber&amp;rsquo;s Pyro &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>In this analysis, first, we begin with an overview of the PyTorch library and DenseNet. We cover DenseNet architecture and advantages over ResNet for Multi-Image classification problems. Second, we explain the CheXpert dataset and how the classifiers are labeled, including uncertainties. Next, we cover the AUC-ROC curve&amp;rsquo;s basic definitions and how it measures a model&amp;rsquo;s performance. Finally, we explain how our Deep Learning model classifies pathologies and conclude with our model&amp;rsquo;s performance and results.&lt;/p>
+&lt;h2 id="2-overview-of-pytorch-library">2. Overview Of PyTorch Library&lt;/h2>
+&lt;p>The PyTorch library is based on Python and is used for developing Python deep learning models. Many of the early adopters of the PyTorch are from the research community. It grew into one of the most popular libraries for deep learning projects. PyTorch provides great insight into Deep Learning. PyTorch is widely used in real-world applications. PyTorch makes an excellent choice for introducing deep learning because of clear syntax, streamlined API, and easy debugging. PyTorch provides a core data structure, the tensor, a multidimensional array similar to NumPy arrays. It performs accelerated mathematical operations on dedicated hardware, making it convenient to design neural network architectures and train them on individual machines or parallel computing resources &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="3-overview-of-densenet">3. Overview of DenseNet&lt;/h2>
+&lt;p>We use a pre-trained DenseNet model, which classifies the images. DenseNet is new Convolutional Neural Network architecture which is efficient on image classification benchmarks as compared to ResNet &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>. RestNets, Highway networks, and deep and wide neural networks add more inter-layer connections than the direct connection in adjacent layers to boost information flow and layers. Similar to ResNet, DenseNet adds shortcuts among layers. Different from ResNet, a layer in dense receives all the outputs of previous layers and concatenate them in the depth dimension. In ResNet, a layer only receives outputs from the last two layers, and the outputs are added together on the individual same depth. Therefore it will not change the depth by adding shortcuts. In other words, in ResNet the output of layer of k is x[k] = f(w * x[k-1] + x[k-2]), while in DenseNet it is x[k] = f(w * H(x[k-1], x[k-2], &amp;hellip; x[1])) where H means stacking over the depth dimension. Besides, ResNet makes learn the identity function easy, while DenseNet directly adds an identity function &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>Figure 1 shows the DenseNet architecture.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-319/raw/main/project/images/densetnet.png" alt="Figure 1">&lt;/p>
+&lt;p>&lt;strong>Figure 1:&lt;/strong> DenseNet Architecture &lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>As shown in Figure 1, DenseNet contains a feature layer (convolutional layer) capturing low-level features from images, several dense blocks, and transition layers between adjacent dense blocks &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h3 id="31-dense-blocks">3.1 Dense blocks&lt;/h3>
+&lt;p>Dense block contains several dense layers. The depth of a dense layer output is called growth_rate. Every dense layer receives all the output of its previous layers. The input depth for the kth layer is (k-1)*growth_rate + input_depth_of_first_layer. By adding more layers in a dense block, the depth will grow linearly. For example, if the growth rate is 30 and after 100 layers, the depth will be over 3000. However, this could lead to a computational explosion. It is addressed by introducing a transition layer to reduce and abstract the features after a dense block with a limited number of dense layers to circumvent this problem &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>. A 1x1 convolutional layer (bottleneck layer) is added to reduce the computation, which makes the second convolutional layer always has a fixed input depth. It is also easy to see the size (width and height) of the feature maps keeps the same through the dense layer, making it easy to stack any number of dense layers together to build a dense block. For example, densenet121 has four dense blocks with 6, 12, 24, and 16 dense layers. With repetition, it is not that difficult to make 112 layers &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h3 id="32-transition-layers">3.2 Transition layers&lt;/h3>
+&lt;p>In general, the size of every layer&amp;rsquo;s output in Convolutional Neural Network decreases to abstract higher-level features. In DenseNet, the transition layers take this responsibility while the dense blocks keep the size and depth. Every transition layer contains a 1x1 convolutional layer and a 2x2 average pooling layer to reduce the size to half. However, transition layers also receive all the output from all the last dense block layers. So the 1*1 convolutional layer reduces the depth to a fixed number, while the average pooling reduces the size.&lt;/p>
+&lt;h2 id="4-overview-of-chexpert-dataset">4. Overview of CheXpert Dataset&lt;/h2>
+&lt;p>CheXpert is a large public dataset. It contains an interpreted chest radiograph consisting of 224,316 chest radiographs
+of 65,240 patients labeled for the presence of 14 observations as positive, negative, or uncertain &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>Figure 2 shows the CheXpert 14 labels and the Probability &lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup>. Our analysis is to predict the probability of 5 different observations (Atelectasis, Cardiomegaly, Consolidation, Edema, and Pleural Effusion) from multi-view chest radiographs shown in Figure 2&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-319/raw/main/project/images/chest_disease.png" alt="Figure 2">&lt;/p>
+&lt;p>&lt;strong>Figure 2:&lt;/strong> Probability of different observations &lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h3 id="41-data-collection">4.1 Data Collection&lt;/h3>
+&lt;p>CheXpert dataset is a collection of chest radiographic studies from Stanford Hospital, performed between October 2002 and July 2017 in inpatient and outpatient centers, along with their associated radiology reports. Based on studies, a sampled set of 1000 reports were created for manual review by a board-certified radiologist to determine the feasibility for extraction of observations. The final set consists of 14 observations based on the prevalence in the reports and clinical relevance, conforming to the Fleischner Society’s recommended glossary. &lt;em>Pneumonia&lt;/em>, despite
+being a clinical diagnosis, &lt;em>Pneumonia&lt;/em> was included as a label to represent the images that suggested primary infection as the diagnosis. The &lt;em>No Finding&lt;/em> observation was intended to capture the absence of all pathologies &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h3 id="42-data-labelling">4.2 Data Labelling&lt;/h3>
+&lt;p>Labels developed using an automated, rule-based labeler to extract observations from the free text radiology reports to be used as structured labels for the images &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h3 id="43-label-extraction">4.3 Label Extraction&lt;/h3>
+&lt;p>The labeler extracts the pathologies mentioned in the list of observations from the Impression section of radiology reports, summarizing the key findings in the radiographic study. Multiple board-certified radiologists manually curated a large list of phrases to match various observations mentioned in the reports &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h3 id="44-label-classification">4.4 Label Classification&lt;/h3>
+&lt;p>Labeler extracts the mentions of observations and classify them as negative (&amp;ldquo;no evidence of pulmonary edema, pleural effusions or pneumothorax&amp;rdquo;), uncertain (&amp;ldquo;diffuse reticular pattern may represent mild interstitial pulmonary edema&amp;rdquo;), or positive (&amp;ldquo;moderate bilateral effusions and bibasilar opacities&amp;rdquo;). The &amp;lsquo;uncertain&amp;rsquo; label can capture both the uncertainty of a radiologist in the diagnosis as well as the ambiguity inherent in the report (&amp;ldquo;heart size is stable&amp;rdquo;). The mention classification stage is a 3-phase pipeline consisting of pre-negation uncertainty, negation, and post-negation uncertainty. Each phase consists of rules that are matched against the mention; if a match is found, the mention is classified accordingly (as uncertain in the first or third phase and as negative in the second phase). If a mention is not matched in any of the phases, it is classified as positive &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h3 id="45-label-aggregation">4.5 Label Aggregation&lt;/h3>
+&lt;p>CheXpert dataset use the classification for each mention of observations to arrive at a final label for 14 observations that consist of 12 pathologies and the &amp;ldquo;Support Devices&amp;rdquo; and &amp;ldquo;No Finding&amp;rdquo; observations. Observations with at least one mention positively classified in the report are assigned a positive (1) label. An observation is assigned an uncertain (u) label if it has no positively classified mentions and at least one uncertain mention, and a negative label if there is at least one negatively classified mention. We assign (blank) if there is no mention of an observation. The &amp;ldquo;No Finding&amp;rdquo; observation is assigned a positive label (1) if there is no pathology classified as positive or uncertain &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="5-overview-of-auc-roc-curve">5. Overview Of AUC-ROC Curve&lt;/h2>
+&lt;p>AUC-ROC stands for Area Under Curve - Receiver Operating Characteristics. It visualizes how well a machine learning classifier is performing. However, it works for only binary classification problems &lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup>. In our project, we extend it to evaluate Multi-Image classification problem. AUC-ROC curve is a performance measurement for classification problems at various threshold settings. ROC is a probability curve, and AUC represents the degree or measure of separability. Higher the AUC, the better the model is at predicting 0s as 0s and 1s as 1s. By analogy, the Higher the AUC, the model distinguishes between patients with the disease and no disease &lt;sup id="fnref:11">&lt;a href="#fn:11" class="footnote-ref" role="doc-noteref">11&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>Figure 3 shows Confusion Matrix. We use Confusion Matrix to explain Sensitivity and Specificity.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-319/raw/main/project/images/confusion_matrix.png" alt="Figure 3">&lt;/p>
+&lt;p>&lt;strong>Figure 3:&lt;/strong> Confusion Matrix&lt;/p>
+&lt;h3 id="51-sensitivitytrue-positive-rate-tpr">5.1 Sensitivity/True Positive Rate (TPR)&lt;/h3>
+&lt;p>Sensitivity/True Positive Rate (TPR) explains what proportion of the positive class got correctly classified. A simple example would be determining what proportion of the actual sick people are correctly detected by the model &lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-319/raw/main/project/images/TPR.png" alt="Figure 4">&lt;/p>
+&lt;h3 id="52-false-negative-rate-fnr">5.2 False Negative Rate (FNR)&lt;/h3>
+&lt;p>False Negative Rate (FNR) explains what proportion of the positive class is incorrectly classified by the classifier. A higher TPR and a lower FNR means correctly classify the positive class &lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-319/raw/main/project/images/FNR.png" alt="Figure 5">&lt;/p>
+&lt;h3 id="53-specificitytrue-negative-rate-tnr">5.3 Specificity/True Negative Rate (TNR)&lt;/h3>
+&lt;p>Specificity/True Negative Rate (TNR) indicates what proportion of the negative class is classified correctly. For example, Specificity determines what proportion of actual healthy people are correctly classified as healthy by the model &lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-319/raw/main/project/images/TNR.png" alt="Figure 6">&lt;/p>
+&lt;h3 id="54-false-positive-rate-fpr">5.4 False Positive Rate (FPR)&lt;/h3>
+&lt;p>False Positive Rate (FPR) indicates what proportion of the negative class got incorrectly classified by the classifier. A higher TNR and a lower FPR means the model correctly classifies the negative class&lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-319/raw/main/project/images/FPR.png" alt="Figure 7">&lt;/p>
+&lt;h3 id="55-purpose-of-auc-roc-curve">5.5 Purpose of AUC-ROC curve&lt;/h3>
+&lt;p>A machine learning classification model can predict the actual class of the data point directly or predict its probability of belonging to different classes. The example for the former case is where a model can classify whether a patient is healthy or not healthy. In the latter case, a model can predict a patient&amp;rsquo;s probability of being healthy or not healthy and provide more control over the result by enabling a way to tune the model&amp;rsquo;s behavior by changing the threshold values. This is powerful because it eliminates the possibility of building a completely new model to achieve a different range of results &lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup>. A threshold value helps to interpret the probability and map the probability to a class label. For example, a threshold value such as 0.5, where all values equal to or greater than the threshold, is mapped to one class and rests to another class &lt;sup id="fnref:12">&lt;a href="#fn:12" class="footnote-ref" role="doc-noteref">12&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>Introducing different thresholds for classifying positive class for data points will inadvertently change the Sensitivity and Specificity of the model. Furthermore, one of these thresholds will probably give a better result than the others, depending on whether we aim to lower the number of False Negatives or False Positives &lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup>.
+As seen in Figure 8, the metrics change with the changing threshold values. We can generate different confusion matrices and compare the various metrics. However, it is very inefficient. Instead, we can generate a plot between some of these metrics so that we can easily visualize which threshold is giving us a better result. The AUC-ROC curve solves just that &lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-319/raw/main/project/images/aucroc.png" alt="Figure 8">&lt;/p>
+&lt;p>&lt;strong>Figure 8:&lt;/strong> Probability of prediction and metrics &lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h3 id="56-definition-of-auc-roc">5.6 Definition of AUC-ROC&lt;/h3>
+&lt;p>The Receiver Operator Characteristic (ROC) curve is an evaluation metric for binary classification problems. It is a probability curve that plots the TPR against FPR at various threshold values and essentially separates the signal from the noise. The Area Under the Curve (AUC) is the measure of a classifier&amp;rsquo;s ability to distinguish between classes and is used as a summary of the ROC curve. The higher the AUC, the better the model&amp;rsquo;s performance at distinguishing between the positive and negative classes. When AUC = 1, the classifier can perfectly distinguish between all the Positive and the Negative class points correctly. If, however, the AUC had been 0, then the classifier would be predicting all Negatives as Positives and all Positives as Negatives. When 0.5&amp;lt;AUC&amp;lt;1, there is a high chance that the classifier will be able to distinguish the positive class values from the negative class values. This is because the classifier can detect more True positives and True negatives than False negatives and False positives. When AUC=0.5, then the classifier is not able to distinguish between Positive and Negative class points. It means either the classifier is predicting random class or constant class for all the data points. Therefore, the higher the AUC value for a classifier, the better its ability to distinguish between positive and negative classes. In the AUC-ROC curve, a higher X-axis value indicates a higher number of False positives than True negatives. Simultaneously, a higher Y-axis value indicates a higher number of True positives than False negatives. So, the choice of the threshold depends on balancing between False positives and False negatives &lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup>.&lt;/p>
+&lt;h2 id="6-chest-x-rays---multi-image-classification-using-deep-learning-model">6. Chest X-Rays - Multi-Image Classification Using Deep Learning Model&lt;/h2>
+&lt;p>Our Deep Learning model loads and processes the raw data files and implement a Python class to represent data by
+converting it into a format usable by PyTorch. We then, visualize the training and validation data.&lt;/p>
+&lt;p>Our approach to predicting pathologies will have 5 steps.&lt;/p>
+&lt;ul>
+&lt;li>Load and split Chest X-rays Dataset&lt;/li>
+&lt;li>Build and train baseline Deep Learning model&lt;/li>
+&lt;li>Evaluate the model&lt;/li>
+&lt;li>Predict the pathologies&lt;/li>
+&lt;li>Calculate the AUC-ROC score&lt;/li>
+&lt;/ul>
+&lt;h3 id="61-load-and-split-chest-x-rays-dataset">6.1 Load and split Chest X-rays Dataset&lt;/h3>
+&lt;p>We load and split the dataset to 90% for training and 10% for validation randomly.&lt;/p>
+&lt;h3 id="62-build-and-train-baseline-deep-learning-model">6.2 Build and train baseline Deep Learning model&lt;/h3>
+&lt;p>We use the PyTorch library to implement and train DenseNet CNN as a baseline model. With initial weights from ImageNet, we retrain all layers. In PyTorch, we implement a subclass for the PyTorch to transform CheXpert Dataset and create a custom data loading process. The Image Augmentation is executed within this subclass. Additionally, a DataLoader also needs to be created. We shuffle the dataset for the training dataloader. We also create a validation dataloader, which is different from the training dataloader and does not require shuffling. In the baseline model, we use DenseNet pre-trained on the ImageNet dataset. The model&amp;rsquo;s classifier is replaced with a new dense layer and use the CheXpert labels to train &lt;sup id="fnref:11">&lt;a href="#fn:11" class="footnote-ref" role="doc-noteref">11&lt;/a>&lt;/sup>. The number of trainable parameters 6968206 (~7 million).&lt;/p>
+&lt;h3 id="63-evaluate-the-model">6.3 Evaluate the model&lt;/h3>
+&lt;p>To evaluate the model, we implement a function to validate the model on the validation dataset.&lt;/p>
+&lt;h3 id="64-predict-the-pathologies">6.4 Predict the pathologies&lt;/h3>
+&lt;p>We use our model to predict 1 of the 5 pathologies - Atelectasis, Cardiomegaly, Consolidation, Edema, and Pleural Effusion. Our model uses a test dataset.&lt;/p>
+&lt;h3 id="65-calculate-the-auc-roc-score">6.5 Calculate the AUC-ROC score&lt;/h3>
+&lt;p>We have multiple labels, and we need to calculate the AUCROC-score for each class against the rest of the classifiers.&lt;/p>
+&lt;h2 id="7-results-and-analysis">7. Results and Analysis&lt;/h2>
+&lt;p>Figure 9 shows training loss, Validation loss and validation AUC-ROC score after training our Deep Learning model for 7 hours.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-319/raw/main/project/images/Train.png" alt="Figure 9">&lt;/p>
+&lt;p>&lt;strong>Figure 9:&lt;/strong> Training loss, Validation loss and validation AUC-ROC score&lt;/p>
+&lt;p>Figure 10 shows model predicts False Positives. Below is AUCROC table.
+&lt;img src="https://github.com/cybertraining-dsc/fa20-523-319/raw/main/project/images/roc.png" alt="Figure 10">&lt;/p>
+&lt;p>&lt;strong>Figure 10:&lt;/strong> AUC - ROC data&lt;/p>
+&lt;p>This graph is taken from Stanford CheXpert dataset. Based on Figure 11 &lt;sup id="fnref:13">&lt;a href="#fn:13" class="footnote-ref" role="doc-noteref">13&lt;/a>&lt;/sup>, our AUCROC value is around 85%.&lt;/p>
+&lt;p>&lt;img src="https://github.com/cybertraining-dsc/fa20-523-319/raw/main/project/images/aucroc_stanford.png" alt="Figure 11">&lt;/p>
+&lt;p>&lt;strong>Figure 11:&lt;/strong> AUC - ROC Curve &lt;sup id="fnref:13">&lt;a href="#fn:13" class="footnote-ref" role="doc-noteref">13&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="8-conclusion">8. Conclusion&lt;/h2>
+&lt;p>Our model achieves the best AUC on Edema (0.89) and the worst on Plural(0.65). The AUC of all other observations is around 0.78. Our model achieves above 0.65 overall predictions.&lt;/p>
+&lt;h2 id="9-future-plans">9. Future Plans&lt;/h2>
+&lt;p>As the next steps, we will work to improve the model&amp;rsquo;s algorithm and leverage DenseNet architecture to train using smaller dataset.&lt;/p>
+&lt;h2 id="10-acknowledgements">10. Acknowledgements&lt;/h2>
+&lt;p>The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and the associate instructors for providing continuous guidance and feedback for this final project.&lt;/p>
+&lt;h2 id="11-references">11. References&lt;/h2>
+&lt;h2 id="12-appendix">12. Appendix&lt;/h2>
+&lt;h3 id="121-project-plan">12.1 Project Plan&lt;/h3>
+&lt;ul>
+&lt;li>October 26, 2020
+&lt;ul>
+&lt;li>Test train and validate functionality on PyTorch Dataset&lt;/li>
+&lt;li>Update Project.md with project plan&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>November 02, 2020
+&lt;ul>
+&lt;li>Test train and validate functionality on manual uploaded CheXpert Dataset&lt;/li>
+&lt;li>Update project.md with specific details about Deep learning models&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>November 09, 2020
+&lt;ul>
+&lt;li>Test train and validate functionality on downloaded CheXpert Dataset using &amp;ldquo;wget&amp;rdquo;&lt;/li>
+&lt;li>Update project.md with details about train and validation data set&lt;/li>
+&lt;li>Capture improvements to loss function&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>November 16, 2020
+&lt;ul>
+&lt;li>Self review - code and project.md&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>December 02, 2020
+&lt;ul>
+&lt;li>Review with TA/Professor - code and project.md&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>December 07, 2020
+&lt;ul>
+&lt;li>Final submission - code and project.md&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Howard, Jeremy; Gugger, Sylvain. Deep Learning for Coders with fastai and PyTorch . O&amp;rsquo;Reilly Media. Kindle Edition &lt;a href="https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527/ref=sr_1_5?dchild=1&amp;amp;keywords=pytorch&amp;amp;qid=1606487426&amp;amp;sr=8-5">https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527/ref=sr_1_5?dchild=1&amp;amp;keywords=pytorch&amp;amp;qid=1606487426&amp;amp;sr=8-5&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>An open source machine learning framework that accelerates the path from research prototyping to production deployment &lt;a href="https://pytorch.org/">https://pytorch.org/&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3" role="doc-endnote">
+&lt;p>Overview of PyTorch Library &lt;a href="https://en.wikipedia.org/wiki/PyTorch">https://en.wikipedia.org/wiki/PyTorch&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4" role="doc-endnote">
+&lt;p>Introduction to PyTorch and documentation &lt;a href="https://pytorch.org/deep-learning-with-pytorch">https://pytorch.org/deep-learning-with-pytorch&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5" role="doc-endnote">
+&lt;p>The efficiency of densenet121 &lt;a href="https://medium.com/@smallfishbigsea/densenet-2b0889854a92">https://medium.com/@smallfishbigsea/densenet-2b0889854a92&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:6" role="doc-endnote">
+&lt;p>Densetnet architecture &lt;a href="https://miro.medium.com/max/1050/1*znemMaROmOd1CzMJlcI0aA.png">https://miro.medium.com/max/1050/1*znemMaROmOd1CzMJlcI0aA.png&lt;/a>&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:7" role="doc-endnote">
+&lt;p>Densely Connected Convolutional Networks &lt;a href="https://arxiv.org/pdf/1608.06993.pdf">https://arxiv.org/pdf/1608.06993.pdf&lt;/a>&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:8" role="doc-endnote">
+&lt;p>Whitepaper - CheXpert Dataset and Labelling &lt;a href="https://arxiv.org/pdf/1901.07031.pdf">https://arxiv.org/pdf/1901.07031.pdf&lt;/a>&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:9" role="doc-endnote">
+&lt;p>Chest X-ray Dataset &lt;a href="https://stanfordmlgroup.github.io/competitions/chexpert/">https://stanfordmlgroup.github.io/competitions/chexpert/&lt;/a>&amp;#160;&lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:10" role="doc-endnote">
+&lt;p>Overview of AUC-ROC Curve in Machine Learning &lt;a href="https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/">https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/&lt;/a>&amp;#160;&lt;a href="#fnref:10" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:11" role="doc-endnote">
+&lt;p>PyTorch Deep Learning Model for CheXpert Dataset &lt;a href="https://www.kaggle.com/hmchuong/chexpert-pytorch-densenet121">https://www.kaggle.com/hmchuong/chexpert-pytorch-densenet121&lt;/a>&amp;#160;&lt;a href="#fnref:11" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:12" role="doc-endnote">
+&lt;p>Definition of Threshold &lt;a href="https://machinelearningmastery.com/threshold-moving-for-imbalanced-classification/#:~:text=The%20decision%20for%20converting%20a,in%20the%20range%20between%200">https://machinelearningmastery.com/threshold-moving-for-imbalanced-classification/#:~:text=The%20decision%20for%20converting%20a,in%20the%20range%20between%200&lt;/a>&amp;#160;&lt;a href="#fnref:12" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:13" role="doc-endnote">
+&lt;p>AUCROC curves from CheXpert &amp;lt;&amp;gt;&amp;#160;&lt;a href="#fnref:13" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item></channel></rss>
