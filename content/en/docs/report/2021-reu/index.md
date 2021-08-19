@@ -79,7 +79,7 @@ REU 2021.
 
 ---
 
-* {{% addprojectreport
+* {{% addreportonly
   title="Aquatic Animals Classification Using AI"
   hid="su21-reu-370" 
   author="Timia Williams"
