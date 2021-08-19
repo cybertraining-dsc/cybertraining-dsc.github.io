@@ -39,7 +39,7 @@ REU 2021.
 
 ---
 
-* {{% addprojectreport
+* {{% addreportonly
   title="AI in Orthodontics"
   author="Whitney McNair"
   hid= "su21-reu-363"
@@ -63,7 +63,7 @@ REU 2021.
   
 ---
 
-* {{% addprojectreport
+* {{% addreportonly
   title="Handwriting Recognition Using AI"
   hid="su21-reu-366" 
   author="Mikahla Reeves"
@@ -87,7 +87,7 @@ REU 2021.
 
 ---
 
-* {{% addprojectreport
+* {{% addreportonly
   title="Detecting Multiple Sclerosis Symptoms using AI"
   hid="su21-reu-371" 
   author="Raeven Hatcher"
@@ -103,7 +103,7 @@ REU 2021.
 
 ---
 
-* {{% addprojectreport
+* {{% addreportonly
   title="Analysis of Covid-19 Vaccination Rates in Different Races"
   hid="su21-reu-375"
   author="Ololade Latinwo"
@@ -112,7 +112,7 @@ REU 2021.
 ---
 
 
-* {{% addprojectreport
+* {{% addreportonly
   title="Dentronics: Classifying Dental Implant Systems by using Automated Deep Learning"
   hid="su21-reu-376"
   author="Jamyla Young"
@@ -120,7 +120,7 @@ REU 2021.
 
 ---
 
-* {{% addprojectreport
+* {{% addreportonly
   title="Analyzing the Advantages and Disadvantages of Artificial Intelligence for Breast Cancer Detection in Women"
   hid="su21-reu-377"
   author="RonDaisja Dunn"
