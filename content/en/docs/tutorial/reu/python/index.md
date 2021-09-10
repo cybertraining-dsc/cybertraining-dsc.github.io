@@ -158,7 +158,7 @@ $ cd ~
 $ vi .bashrc
 ```
 
-Press the `i` key
+Press the `i` key and then type
 
 ```vim
 source ~/ENV3/Scripts/activate
