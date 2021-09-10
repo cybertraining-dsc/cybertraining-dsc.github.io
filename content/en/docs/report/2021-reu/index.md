@@ -32,7 +32,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="Breast Cancer and Genetics"
+  title="Investigating the Classification of Breast Cancer Subtypes Using KMeans"
   author="Kehinde Ezekiel"
   hid= "su21-reu-362"
   %}}
@@ -48,7 +48,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="Object Recognition"
+  title="Hand Tracking with AI"
   author="David Umanzor"
   hid= "su21-reu-364"
   %}}
@@ -74,7 +74,7 @@ REU 2021.
 * {{% addprojectreport
   title="Increasing Cervical Cancer Risk Analysis"
   hid="su21-reu-369" 
-  author="Theresa Jeanbaptiste"
+  author="Theresa Jean-Baptiste"
   %}}
 
 ---
@@ -113,7 +113,7 @@ REU 2021.
 
 
 * {{% addprojectreport
-  title="AI and Dentronics"
+  title="Dentronics: Classifying Dental Implant Systems by using Automated Deep Learning"
   hid="su21-reu-376"
   author="Jamyla Young"
   %}}
@@ -128,7 +128,7 @@ REU 2021.
 ---
 
 * {{% addprojectreport
-  title="Analysis of Autism in three different cities using AI"
+  title="Detection of Autism Spectrum Disorder with a Facial Image using Artificial Intelligence"
   hid="su21-reu-378"
   author="Myra Saunders"
   %}}
