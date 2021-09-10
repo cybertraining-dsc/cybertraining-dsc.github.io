@@ -170,7 +170,9 @@ After typing this command press `Enter` and then press the `Esc` key
 :wq
 ```
 
-After typing this command press `Enter`
+After typing this command press `Enter`. Now every time a new instance of Git Bash is launched,
+it will automatically be within a virtual environment. The first time Git Bash is restarted after
+configuring this, it will show an error, but this is normal.
 
 ## Troubleshooting
 
