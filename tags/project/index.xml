@@ -107,7 +107,7 @@ $ ssh-add
 &lt;p>Open PyCharm. If this is your first time opening PyCharm, then it will say &lt;code>Welcome to PyCharm&lt;/code>. You should have cloned your repo to a particular location on your computer; click &lt;code>Open&lt;/code> and then locate your reu folder. Once you have found it, click on it so it is highlighted in blue and then click &lt;code>OK&lt;/code>. Alternatively, if you have used PyCharm before, your previous project should open, in which case you should click &lt;code>File&lt;/code> and &lt;code>Open...&lt;/code> to open your repo (if it is not already open).&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Please ensure that you have already configured a venv through Git Bash. If you have not, then read and follow &lt;a href="https://github.com/cybertraining-dsc/su21-reu-361/blob/main/tutorials/python/venv.md">this tutorial&lt;/a>.&lt;/p>
+&lt;p>Please ensure that you have already configured a venv through Git Bash. If you have not, then read and follow &lt;a href="https://cybertraining-dsc.github.io/docs/tutorial/reu/python/">this tutorial&lt;/a> at the bottom of the page.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>In the top-right of PyCharm, click on the button that reads &lt;code>Add Configuration...&lt;/code>. Click &lt;code>Add new...&lt;/code> on the left underneath &lt;code>No run configurations added.&lt;/code> and then scroll and click &lt;code>Python&lt;/code>. Give this a name; you can just type &lt;code>Python venv&lt;/code>. Next to &lt;code>Python interpreter&lt;/code>, choose &lt;code>Python x.x (ENV3)&lt;/code>. The &lt;code>x.x&lt;/code> will depend on which version of Python you have. Then click &lt;code>OK&lt;/code>.&lt;/p>
