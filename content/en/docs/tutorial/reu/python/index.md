@@ -1,9 +1,9 @@
 ---
 date: 2021-06-24
-title: Installing Python
-linkTitle: Install Python
+title: Installing Python and Virtual Environment
+linkTitle: Install Python and venv
 tags: ["reu", "tutorial", "python"]
-description: "Installing Python"
+description: "Installing Python and Virtual Environment"
 author: Jacques Fleischer and Gregor von Laszewski
 resources:
 - src: "**.{png,jpg}"
@@ -15,7 +15,7 @@ resources:
 
 ## Abstract
 
-This tutorial teaches how to install Python on Windows 10. It can be
+This tutorial teaches how to install Python and venv on Windows 10. It can be
 similarly installed also on macOS and Linux.
 
 Contents
@@ -150,7 +150,28 @@ or for Windows executed in git bash
 $ python -m venv ~/ENV3
 $ source ~/ENV3/Scripts/activate
 ```
- 
+
+On Windows the Git Bash can be set to automatically use this venv by issuing these commands:
+
+```bash
+$ cd ~
+$ vi .bashrc
+```
+
+Press the `i` key
+
+```vim
+source ~/ENV3/Scripts/activate
+```
+
+After typing this command press `Enter` and then press the `Esc` key
+
+```vim
+:wq
+```
+
+After typing this command press `Enter`
+
 ## Troubleshooting
 
 ### Incorrect Python Version on Command Prompt (Windows)
