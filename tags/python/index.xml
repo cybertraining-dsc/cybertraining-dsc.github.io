@@ -7880,10 +7880,10 @@ function to process in a spark cluster.&lt;/p>
 &lt;pre>&lt;code>for image in result:
 plt.figure()
 plt.axis(&amp;quot;off&amp;quot;)
-plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))&lt;/code>&lt;/pre></description></item><item><title>Docs: Installing Python</title><link>/docs/tutorial/reu/python/</link><pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/reu/python/</guid><description>
+plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))&lt;/code>&lt;/pre></description></item><item><title>Docs: Installing Python and Virtual Environment</title><link>/docs/tutorial/reu/python/</link><pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/reu/python/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>This tutorial teaches how to install Python on Windows 10. It can be
+&lt;p>This tutorial teaches how to install Python and venv on Windows 10. It can be
 similarly installed also on macOS and Linux.&lt;/p>
 &lt;p>Contents&lt;/p>
 &lt;div class="toc">
@@ -8042,6 +8042,16 @@ $ &lt;span style="color:#204a87">source&lt;/span> ~/ENV3/bin/activate
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>or for Windows executed in git bash&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ python -m venv ~/ENV3
 $ &lt;span style="color:#204a87">source&lt;/span> ~/ENV3/Scripts/activate
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="troubleshooting">Troubleshooting&lt;/h2>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>On Windows the Git Bash can be set to automatically use this venv by issuing these commands:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">$ &lt;span style="color:#204a87">cd&lt;/span> ~
+$ vi .bashrc
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Press the &lt;code>i&lt;/code> key and then type&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-vim" data-lang="vim">&lt;span style="color:#000">source&lt;/span> &lt;span style="color:#000;font-weight:bold">~&lt;/span>&lt;span style="color:#4e9a06">/ENV3/&lt;/span>&lt;span style="color:#000">Scripts&lt;/span>/&lt;span style="color:#000">activate&lt;/span>&lt;span style="color:#a40000">
+&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>After typing this command press &lt;code>Enter&lt;/code> and then press the &lt;code>Esc&lt;/code> key&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-vim" data-lang="vim">&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#000">wq&lt;/span>&lt;span style="color:#a40000">
+&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>After typing this command press &lt;code>Enter&lt;/code>. Now every time a new instance of Git Bash is launched,
+it will automatically be within a virtual environment. The first time Git Bash is restarted after
+configuring this, it will show an error, but this is normal.&lt;/p>
+&lt;h2 id="troubleshooting">Troubleshooting&lt;/h2>
 &lt;h3 id="incorrect-python-version-on-command-prompt-windows">Incorrect Python Version on Command Prompt (Windows)&lt;/h3>
 &lt;p>If the Windows computer has previously installed an older version of Python, running &lt;code>python --version&lt;/code> on Command Prompt may output the previously installed older version. Typing &lt;code>python3 --version&lt;/code> may output the correct, latest version.&lt;/p></description></item></channel></rss>
