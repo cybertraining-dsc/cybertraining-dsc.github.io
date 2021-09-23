@@ -51,3 +51,5 @@ Now you can install many programs by launching PowerShell as Administrator. Let'
 5. Type `choco install vscode` and press Enter. When it asks if you want to run the script, type `a` and press Enter. You can
 watch the install process, and once complete, Visual Studio Code will be ready for you to use. You can install many programs
 this way, and the total list of programs can be found here: <https://community.chocolatey.org/packages/>
+
+6. You can even install multiple programs like this: `choco install python pycharm git`
