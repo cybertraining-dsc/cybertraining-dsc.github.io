@@ -1,4 +1,48 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – reu</title><link>/tags/reu/</link><description>Recent content in reu on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 15 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/reu/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Installing PyCharm Professional for Free</title><link>/docs/tutorial/reu/pycharm/</link><pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/reu/pycharm/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybertraining – reu</title><link>/tags/reu/</link><description>Recent content in reu on Cybertraining</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 22 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/reu/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Tutorial on Installing Chocolatey</title><link>/docs/tutorial/reu/chocolatey/</link><pubDate>Wed, 22 Sep 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/reu/chocolatey/</guid><description>
+&lt;p>Jacques Fleischer&lt;/p>
+&lt;div class="pageinfo pageinfo-primary">
+&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>This tutorial teaches how to use Chocolatey to install many computer programs quicker.&lt;/p>
+&lt;p>Contents&lt;/p>
+&lt;div class="toc">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#tutorial">Tutorial&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>Keywords:&lt;/strong> chocolatey&lt;/p>
+&lt;h2 id="tutorial">Tutorial&lt;/h2>
+&lt;p>&lt;img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Chocolatey_icon.png" alt="chocolatey bar">&lt;/p>
+&lt;p>This program is only for Windows. It makes installing programs a lot faster so you do not have to open a browser,
+find a link, click Download, and other time-consuming efforts. Once you install Chocolatey, it will save much time.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Press the Windows key and type powershell. Click Run as Administrator. Click Yes.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Copy this: &lt;code>Set-ExecutionPolicy AllSigned&lt;/code> and then go to PowerShell
+(the blue window) and paste it in. Press Enter. Then type &lt;code>y&lt;/code> and press Enter.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Copy this: &lt;code>Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))&lt;/code>
+and then go back to PowerShell, paste it in, and press Enter.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Wait for the installation to complete; once you see &lt;code>PS C:\Windows\system32&amp;gt;&lt;/code> with a blinking cursor again, and lines have stopped appearing,
+then the Chocolatey installation has finished. Type &lt;code>choco&lt;/code> and press Enter and you should see Chocolatey in green text. Congratulations!
+Now you can install many programs by launching PowerShell as Administrator. Let&amp;rsquo;s install Visual Studio Code.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Type &lt;code>choco install vscode&lt;/code> and press Enter. When it asks if you want to run the script, type &lt;code>a&lt;/code> and press Enter. You can
+watch the install process, and once complete, Visual Studio Code will be ready for you to use. You can install many programs
+this way, and the total list of programs can be found here: &lt;a href="https://community.chocolatey.org/packages/">https://community.chocolatey.org/packages/&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You can even install multiple programs like this: &lt;code>choco install python pycharm git&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Installing PyCharm Professional for Free</title><link>/docs/tutorial/reu/pycharm/</link><pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/reu/pycharm/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
 &lt;p>This tutorial teaches how to get PyCharm Professional for free on
