@@ -45,11 +45,12 @@ find a link, click Download, and other time-consuming efforts. Once you install 
 and then go back to PowerShell, paste it in, and press Enter.
 
 4. Wait for the installation to complete; once you see `PS C:\Windows\system32>` with a blinking cursor again, and lines have stopped appearing,
-then the Chocolatey installation has finished. Type `choco` and press Enter and you should see Chocolatey in green text. Congratulations!
-Now you can install many programs by launching PowerShell as Administrator. Let's install Visual Studio Code.
+then the Chocolatey installation has finished. Type `choco` and press Enter and you should see Chocolatey in green text.
 
-5. Type `choco install vscode` and press Enter. When it asks if you want to run the script, type `a` and press Enter. You can
+## OPTIONAL: Install Visual Studio Code with Choco
+
+Type `choco install vscode` and press Enter. When it asks if you want to run the script, type `a` and press Enter. You can
 watch the install process, and once complete, Visual Studio Code will be ready for you to use. You can install many programs
 this way, and the total list of programs can be found here: <https://community.chocolatey.org/packages/>
 
-6. You can even install multiple programs like this: `choco install python pycharm git`
+You can even install multiple programs like this: `choco install python pycharm git`
