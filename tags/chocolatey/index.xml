@@ -8,6 +8,7 @@
 &lt;nav id="TableOfContents">
 &lt;ul>
 &lt;li>&lt;a href="#tutorial">Tutorial&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#optional-install-pycharm-professional-with-choco">OPTIONAL: Install PyCharm Professional with Choco&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/nav>
 &lt;/div>
@@ -31,15 +32,11 @@ and then go back to PowerShell, paste it in, and press Enter.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Wait for the installation to complete; once you see &lt;code>PS C:\Windows\system32&amp;gt;&lt;/code> with a blinking cursor again, and lines have stopped appearing,
-then the Chocolatey installation has finished. Type &lt;code>choco&lt;/code> and press Enter and you should see Chocolatey in green text. Congratulations!
-Now you can install many programs by launching PowerShell as Administrator. Let&amp;rsquo;s install Visual Studio Code.&lt;/p>
+then the Chocolatey installation has finished. Type &lt;code>choco&lt;/code> and press Enter and you should see Chocolatey in green text.&lt;/p>
 &lt;/li>
-&lt;li>
-&lt;p>Type &lt;code>choco install vscode&lt;/code> and press Enter. When it asks if you want to run the script, type &lt;code>a&lt;/code> and press Enter. You can
-watch the install process, and once complete, Visual Studio Code will be ready for you to use. You can install many programs
+&lt;/ol>
+&lt;h2 id="optional-install-pycharm-professional-with-choco">OPTIONAL: Install PyCharm Professional with Choco&lt;/h2>
+&lt;p>Type &lt;code>choco install pycharm&lt;/code> and press Enter. When it asks if you want to run the script, type &lt;code>a&lt;/code> and press Enter. You can
+watch the install process, and once complete, PyCharm will be ready for you to use. You can install many programs
 this way, and the total list of programs can be found here: &lt;a href="https://community.chocolatey.org/packages/">https://community.chocolatey.org/packages/&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>You can even install multiple programs like this: &lt;code>choco install python pycharm git&lt;/code>&lt;/p>
-&lt;/li>
-&lt;/ol></description></item></channel></rss>
+&lt;p>You can even install multiple programs like this: &lt;code>choco install python pycharm git&lt;/code>&lt;/p></description></item></channel></rss>
