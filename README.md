@@ -3,7 +3,7 @@
 The cybertraining web page can be created locally and one can review
 changes prior to a commit.
 
-First you will have to iinstall `go` and `hugo`
+First you will have to install `go` and `hugo`
 
 ## Windows
 
@@ -92,8 +92,8 @@ editor, mine is emacs:
 emacs content/en/courses/bigdata2020/_index.md 
 ```
 
-Make your change and save is. Browse to the page that you changed and
-observer the changes. To generate the changes for the web page we also
+Make your change and save it. Browse to the page that you changed and
+observe the changes. To generate the changes for the web page we also
 need to say
 
 ```
@@ -125,8 +125,8 @@ git push
 
 To keep up to date with other peoples changes you **MUST** often do a
 git pull and if you see a conflict you need to resolve this. Thus it
-is pest to communicate with the development team in aces you need to
-do larger cahnges or have the risk that others work in pararlel.
+is best to communicate with the development team in aces you need to
+do larger changes or have the risk that others work in parallel.
 
 ## Add a submodule
 
