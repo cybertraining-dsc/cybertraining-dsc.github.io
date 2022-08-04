@@ -11,7 +11,7 @@ See golang
 
 * <https://golang.org/doc/install>
 
-Install Cocolatey via powershell
+Install Chocolatey via powershell
 
 * <https://chocolatey.org/install>
 
