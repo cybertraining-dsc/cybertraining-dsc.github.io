@@ -490,6 +490,6 @@ Google, or an external drive.
 
 ## Acknowledgments
 
-Continued work was in part funded by the NSF
+Continued work was in part funded by the NSF grant
 CyberTraining: CIC: CyberTraining for Students and Technologies
 from Generation Z with the awadrd numbers 1829704 and 2200409.
