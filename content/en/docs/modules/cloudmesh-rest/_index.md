@@ -304,4 +304,8 @@ Using the PipelineAnovaSVM code as a template, write python code for a new model
 * [Scikit-learn Web Page](https://scikit-learn.org)
 
 
+## Acknowledgements
 
+Continued work was in part funded by the NSF
+CyberTraining: CIC: CyberTraining for Students and Technologies
+from Generation Z with the awadrd numbers 1829704 and 2200409.
