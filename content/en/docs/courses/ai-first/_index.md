@@ -487,3 +487,9 @@ SSD is the same. Samsung is offering some under the EVO Pro
 branding. Get as much memory as you can effort. Also, make sure
 you back up your work regularly. Either in online storage such as
 Google, or an external drive.
+
+## Acknowledgements
+
+Continued work was in part funded by the NSF
+CyberTraining: CIC: CyberTraining for Students and Technologies
+from Generation Z with the awadrd numbers 1829704 and 2200409.
