@@ -404,7 +404,7 @@ with data and make predictions from said data. All code needed for this is provi
 &lt;li>&lt;a href="#9-uninstallation-optional">9. Uninstallation (Optional)&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#10-assignments">10. Assignments&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#11-references">11. References&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#acknowledgements">Acknowledgements&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#acknowledgments">Acknowledgments&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/nav>
 &lt;/div>
@@ -569,7 +569,7 @@ None
 &lt;ul>
 &lt;li>&lt;a href="https://scikit-learn.org">Scikit-learn Web Page&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;h2 id="acknowledgements">Acknowledgements&lt;/h2>
+&lt;h2 id="acknowledgments">Acknowledgments&lt;/h2>
 &lt;p>Continued work was in part funded by the NSF
 CyberTraining: CIC: CyberTraining for Students and Technologies
 from Generation Z with the awadrd numbers 1829704 and 2200409.&lt;/p></description></item><item><title>Docs: Distributed Training for MNIST</title><link>/docs/modules/ai-first/2021/google_colab_distributed_training_tensorflow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/ai-first/2021/google_colab_distributed_training_tensorflow/</guid><description>
