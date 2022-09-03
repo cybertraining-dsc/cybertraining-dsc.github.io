@@ -488,7 +488,7 @@ branding. Get as much memory as you can effort. Also, make sure
 you back up your work regularly. Either in online storage such as
 Google, or an external drive.
 
-## Acknowledgements
+## Acknowledgments
 
 Continued work was in part funded by the NSF
 CyberTraining: CIC: CyberTraining for Students and Technologies
