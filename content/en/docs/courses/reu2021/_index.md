@@ -538,7 +538,11 @@ with Population Covariates, J. data sci. 19(2021), no. 2, 293-313,
 DOI 10.6339/21-JDS1007](https://jds-online.org/journal/JDS/article/124/info)
 
 
+## Acknowledgements
 
+Continued work was in part funded by the NSF
+CyberTraining: CIC: CyberTraining for Students and Technologies
+from Generation Z with the awadrd numbers 1829704 and 2200409.
 
 
 
