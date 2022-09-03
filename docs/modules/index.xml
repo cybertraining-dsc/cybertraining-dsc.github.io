@@ -3321,6 +3321,7 @@ with data and make predictions from said data. All code needed for this is provi
 &lt;li>&lt;a href="#9-uninstallation-optional">9. Uninstallation (Optional)&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#10-assignments">10. Assignments&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#11-references">11. References&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#acknowledgements">Acknowledgements&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/nav>
 &lt;/div>
@@ -3484,7 +3485,11 @@ None
 &lt;h2 id="11-references">11. References&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://scikit-learn.org">Scikit-learn Web Page&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Docs: DevOps</title><link>/docs/modules/devops/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/devops/</guid><description>
+&lt;/ul>
+&lt;h2 id="acknowledgements">Acknowledgements&lt;/h2>
+&lt;p>Continued work was in part funded by the NSF
+CyberTraining: CIC: CyberTraining for Students and Technologies
+from Generation Z with the awadrd numbers 1829704 and 2200409.&lt;/p></description></item><item><title>Docs: DevOps</title><link>/docs/modules/devops/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/devops/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>We present here a collection information and of tools related to DevOps.&lt;/p>
 &lt;/div></description></item><item><title>Docs: Google Colab</title><link>/docs/modules/python/google-colab/python-google-colab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/modules/python/google-colab/python-google-colab/</guid><description>

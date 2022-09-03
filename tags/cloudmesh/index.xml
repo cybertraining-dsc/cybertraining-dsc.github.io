@@ -29,6 +29,7 @@ with data and make predictions from said data. All code needed for this is provi
 &lt;li>&lt;a href="#9-uninstallation-optional">9. Uninstallation (Optional)&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#10-assignments">10. Assignments&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#11-references">11. References&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#acknowledgements">Acknowledgements&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/nav>
 &lt;/div>
@@ -192,7 +193,11 @@ None
 &lt;h2 id="11-references">11. References&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://scikit-learn.org">Scikit-learn Web Page&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Using Shell.download to Download Files</title><link>/docs/tutorial/cms/cms-shell-download/</link><pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/cms/cms-shell-download/</guid><description>
+&lt;/ul>
+&lt;h2 id="acknowledgements">Acknowledgements&lt;/h2>
+&lt;p>Continued work was in part funded by the NSF
+CyberTraining: CIC: CyberTraining for Students and Technologies
+from Generation Z with the awadrd numbers 1829704 and 2200409.&lt;/p></description></item><item><title>Docs: Using Shell.download to Download Files</title><link>/docs/tutorial/cms/cms-shell-download/</link><pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/cms/cms-shell-download/</guid><description>
 &lt;img src="/docs/tutorial/cms/cms-shell-download/featured-image_hu31ad1de8477c329f5412ff59acdd044d_22590_640x0_resize_catmullrom_2.png" width="640" height="369"/>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 610px">
 &lt;img class="card-img-top" src="/docs/tutorial/cms/cms-shell-download/featured-image_hu31ad1de8477c329f5412ff59acdd044d_22590_600x300_fill_catmullrom_smart1_2.png" width="600" height="300">
