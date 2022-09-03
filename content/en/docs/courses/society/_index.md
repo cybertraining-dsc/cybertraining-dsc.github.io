@@ -220,3 +220,9 @@ Infection, Viral Spread and Immune Response and Treatment Regimes**
        Interpretable Deep Learning for Spatial Analysis of Severe Hailstorms.
        Mon. Wea. Rev., 147, 2827–2845,
        <https://doi.org/10.1175/MWR-D-18-0316.1>
+
+## Acknowledgements
+
+Continued work was in part funded by the NSF
+CyberTraining: CIC: CyberTraining for Students and Technologies
+from Generation Z with the awadrd numbers 1829704 and 2200409.
