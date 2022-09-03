@@ -327,7 +327,7 @@ We have publications on
 * opensource
 * piplanet
 
-## Acknowledgements
+## Acknowledgments
 
 Continued work was in part funded by the NSF
 CyberTraining: CIC: CyberTraining for Students and Technologies
