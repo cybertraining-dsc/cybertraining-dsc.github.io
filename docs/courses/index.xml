@@ -17,6 +17,7 @@
 &lt;li>&lt;a href="#machine-learning-models">Machine Learning Models&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#students-report-help">Students Report Help&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#covid-19">COVID-19&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#acknowledgements">Acknowledgements&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/nav>
 &lt;/div>
@@ -957,7 +958,11 @@ Video: Chemo-Preventive Effect of Vegetables and Fruits Consumption on the COVID
 AICov: An Integrative Deep Learning Framework for COVID-19 Forecasting
 with Population Covariates, J. data sci. 19(2021), no. 2, 293-313,
 DOI 10.6339/21-JDS1007&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Docs: AI-First Engineering Cybertraining</title><link>/docs/courses/ai-first/</link><pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate><guid>/docs/courses/ai-first/</guid><description>
+&lt;/ul>
+&lt;h2 id="acknowledgements">Acknowledgements&lt;/h2>
+&lt;p>Continued work was in part funded by the NSF
+CyberTraining: CIC: CyberTraining for Students and Technologies
+from Generation Z with the awadrd numbers 1829704 and 2200409.&lt;/p></description></item><item><title>Docs: AI-First Engineering Cybertraining</title><link>/docs/courses/ai-first/</link><pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate><guid>/docs/courses/ai-first/</guid><description>
 &lt;p>&lt;img src="/images/bigdata.png" alt="This is an image">&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>This course introduces the students to AI-First Engineering Cybertraining we provide the following sections&lt;/p>
