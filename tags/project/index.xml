@@ -39,7 +39,7 @@ then the Chocolatey installation has finished. Type &lt;code>choco&lt;/code> and
 &lt;p>Type &lt;code>choco install pycharm&lt;/code> and press Enter. When it asks if you want to run the script, type &lt;code>a&lt;/code> and press Enter. You can
 watch the install process, and once complete, PyCharm will be ready for you to use. You can install many programs
 this way, and the total list of programs can be found here: &lt;a href="https://community.chocolatey.org/packages/">https://community.chocolatey.org/packages/&lt;/a>&lt;/p>
-&lt;p>You can even install multiple programs like this: &lt;code>choco install python pycharm git&lt;/code>&lt;/p></description></item><item><title>Docs: Adding a SSH Key for GitHub Repository</title><link>/docs/tutorial/git/git-ssh/</link><pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/git/git-ssh/</guid><description>
+&lt;p>You can even install multiple programs like this: &lt;code>choco install python pycharm git&lt;/code>&lt;/p></description></item><item><title>Docs: Adding an SSH Key for GitHub Repository</title><link>/docs/tutorial/git/git-ssh/</link><pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/git/git-ssh/</guid><description>
 &lt;p>Jacques Fleischer, Gregor von Laszewski&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>

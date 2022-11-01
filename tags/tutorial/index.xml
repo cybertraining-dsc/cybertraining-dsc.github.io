@@ -293,7 +293,7 @@ necessary. Simply proceed to Cell 2. If this still does not work, see &lt;a href
 &lt;span style="color:#000">df&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#000">head&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">5&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>Remember to rename the instances of &lt;code>kag_risk_factors_cervical_cancer.csv&lt;/code> accordingly so that it matches your file name.&lt;/p>
 &lt;h2 id="acknowledgments">Acknowledgments&lt;/h2>
-&lt;p>Credit to Carlos who provided the cell to upload the file directly.&lt;/p></description></item><item><title>Docs: Adding a SSH Key for GitHub Repository</title><link>/docs/tutorial/git/git-ssh/</link><pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/git/git-ssh/</guid><description>
+&lt;p>Credit to Carlos who provided the cell to upload the file directly.&lt;/p></description></item><item><title>Docs: Adding an SSH Key for GitHub Repository</title><link>/docs/tutorial/git/git-ssh/</link><pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate><guid>/docs/tutorial/git/git-ssh/</guid><description>
 &lt;p>Jacques Fleischer, Gregor von Laszewski&lt;/p>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;h2 id="abstract">Abstract&lt;/h2>
