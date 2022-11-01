@@ -1,6 +1,6 @@
 ---
 date: 2021-07-17
-title: Adding a SSH Key for GitHub Repository 
+title: Adding an SSH Key for GitHub Repository 
 linkTitle: SSH Key for Repo
 tags: ["project", "reu", "tutorial", "ssh", "git"]
 description: "Scary SSH Keys are Now a Breeze"
